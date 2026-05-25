@@ -5,6 +5,7 @@ import { FaqJsonLd, LoanProductJsonLd } from "@/components/seo/JsonLd";
 import { LoanCalculator } from "@/components/home/LoanCalculator";
 import { TrustBar } from "@/components/home/TrustBar";
 import { HeroMark } from "@/components/home/HeroMark";
+import { SocialProof } from "@/components/home/SocialProof";
 
 export const metadata: Metadata = {
   title: `${siteConfig.name} · Borrow with intention. Personal loans up to $50,000.`,
@@ -70,20 +71,12 @@ export default function HomePage() {
           <div className="mt-8 grid items-start gap-14 lg:grid-cols-[1fr_460px] lg:gap-20">
             {/* Headline column */}
             <div className="reveal reveal-2">
-              <h1
-                className="text-[14vw] leading-[0.95] tracking-[-0.03em] text-ink-900 sm:text-[88px] lg:text-[112px]"
-                style={{ fontFamily: "var(--font-display)", fontWeight: 380 }}
-              >
-                Borrow with
-                <br />
-                <em className="italic text-forest-700" style={{ fontVariationSettings: '"opsz" 144, "SOFT" 100, "WONK" 1' }}>
-                  intention.
-                </em>
+              <h1 className="text-[44px] leading-[1.02] tracking-tight text-ink-900 sm:text-[64px] lg:text-[64px]">
+                Personal loans, <span className="text-forest-700">in minutes</span>.
               </h1>
 
-              <p className="mt-8 max-w-[44ch] text-[19px] leading-[1.55] text-ink-700">
-                Compare fixed-rate personal loans from{" "}
-                <span className="tabular text-ink-900">$100 to $50,000</span> in two minutes. Soft credit check, no obligation, and funds as fast as the next business day.
+              <p className="mt-6 max-w-[48ch] text-[17px] leading-[1.55] text-ink-700 sm:text-[19px]">
+                Compare fixed-rate offers from <span className="tabular font-medium text-ink-900">$100 to $50,000</span> across a network of trusted lenders. Two minutes, soft credit check, no obligation.
               </p>
 
               <div className="reveal reveal-3 mt-10 flex flex-wrap items-center gap-4">
@@ -122,10 +115,8 @@ export default function HomePage() {
           <div className="grid gap-14 lg:grid-cols-[280px_1fr] lg:gap-24">
             <div>
               <span className="eyebrow">The process</span>
-              <h2 className="mt-4 text-[44px] leading-[1.02] tracking-tight text-ink-900 lg:text-[56px]" style={{ fontFamily: "var(--font-display)" }}>
-                Three steps.
-                <br />
-                <em className="italic text-forest-700">Roughly twelve minutes.</em>
+              <h2 className="mt-4 text-[36px] leading-[1.05] tracking-tight text-ink-900 lg:text-[48px]">
+                Three steps. <span className="text-forest-700">Twelve minutes</span>.
               </h2>
             </div>
 
@@ -134,12 +125,11 @@ export default function HomePage() {
                 <li key={s.n} className="grid grid-cols-[80px_1fr] gap-6 border-t border-cream-300 py-8 lg:grid-cols-[120px_1fr] lg:py-10">
                   <span
                     className="tabular text-3xl text-ink-300 lg:text-4xl"
-                    style={{ fontFamily: "var(--font-display)", fontWeight: 400 }}
                   >
                     {s.n}
                   </span>
                   <div>
-                    <h3 className="text-2xl text-ink-900 lg:text-3xl" style={{ fontFamily: "var(--font-display)" }}>
+                    <h3 className="text-2xl text-ink-900 lg:text-3xl">
                       {s.t}
                     </h3>
                     <p className="mt-3 max-w-[55ch] text-[16px] text-ink-700">{s.b}</p>
@@ -158,8 +148,8 @@ export default function HomePage() {
           <div className="mb-14 flex items-end justify-between gap-6">
             <div>
               <span className="eyebrow">Loan types</span>
-              <h2 className="mt-3 text-[44px] leading-[1.02] tracking-tight text-ink-900 lg:text-[56px]" style={{ fontFamily: "var(--font-display)" }}>
-                For most of life&rsquo;s <em className="italic text-forest-700">moments</em>.
+              <h2 className="mt-3 text-[36px] leading-[1.05] tracking-tight text-ink-900 lg:text-[48px]">
+                For most of life&rsquo;s <span className="text-forest-700">moments</span>.
               </h2>
             </div>
             <Link href="/apply" className="hidden text-[14px] text-ink-700 underline decoration-cream-400 underline-offset-[6px] hover:text-ink-900 md:inline">
@@ -178,12 +168,11 @@ export default function HomePage() {
               >
                 <span
                   className="tabular text-xl text-ink-300"
-                  style={{ fontFamily: "var(--font-display)" }}
                 >
                   {p.n}
                 </span>
                 <div className="min-w-0">
-                  <h3 className="text-2xl text-ink-900 lg:text-3xl" style={{ fontFamily: "var(--font-display)" }}>
+                  <h3 className="text-2xl text-ink-900 lg:text-3xl">
                     {p.title}
                   </h3>
                   <p className="mt-1.5 text-[14px] text-ink-500">{p.blurb}</p>
@@ -204,8 +193,8 @@ export default function HomePage() {
           <div className="grid gap-12 lg:grid-cols-[280px_1fr] lg:gap-20">
             <div>
               <span className="eyebrow">Representative ranges</span>
-              <h2 className="mt-3 text-[44px] leading-[1.02] tracking-tight text-ink-900 lg:text-[56px]" style={{ fontFamily: "var(--font-display)" }}>
-                What to <em className="italic text-forest-700">expect</em>.
+              <h2 className="mt-3 text-[44px] leading-[1.02] tracking-tight text-ink-900 lg:text-[56px]">
+                What to <span className="text-forest-700">expect</span>.
               </h2>
               <p className="mt-5 max-w-[36ch] text-[15px] text-ink-700">
                 Actual offers depend on creditworthiness, term, lender, and state of residence. These numbers illustrate; they do not promise.
@@ -224,7 +213,7 @@ export default function HomePage() {
               <tbody>
                 {exampleRows.map((r) => (
                   <tr key={r.amount} className="border-b border-cream-300">
-                    <td className="tabular py-5 text-ink-900" style={{ fontFamily: "var(--font-display)", fontSize: 22 }}>
+                    <td className="tabular py-5 text-[19px] font-semibold tracking-tight text-ink-900">
                       ${r.amount.toLocaleString()}
                     </td>
                     <td className="tabular py-5 text-ink-700">{r.apr}</td>
@@ -238,11 +227,14 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* ─────────────────────── SOCIAL PROOF ─────────────────────── */}
+      <SocialProof />
+
       {/* ─────────────────────── FAQ ─────────────────────── */}
       <section>
         <div className="mx-auto max-w-[920px] px-6 py-20 lg:px-10 lg:py-28">
           <span className="eyebrow">Frequently asked</span>
-          <h2 className="mt-3 text-[44px] leading-[1.02] tracking-tight text-ink-900 lg:text-[56px]" style={{ fontFamily: "var(--font-display)" }}>
+          <h2 className="mt-3 text-[36px] leading-[1.05] tracking-tight text-ink-900 lg:text-[48px]">
             Honest answers.
           </h2>
 
@@ -250,7 +242,7 @@ export default function HomePage() {
             {faqs.map((f) => (
               <details key={f.q} className="group border-b border-cream-300 py-5">
                 <summary className="flex cursor-pointer items-baseline justify-between gap-6 marker:hidden">
-                  <span className="text-lg text-ink-900 lg:text-xl" style={{ fontFamily: "var(--font-display)" }}>
+                  <span className="text-lg text-ink-900 lg:text-xl">
                     {f.q}
                   </span>
                   <span className="shrink-0 text-xl text-ink-300 transition-transform duration-300 group-open:rotate-45">
@@ -268,12 +260,8 @@ export default function HomePage() {
       <section className="relative overflow-hidden bg-forest-700 text-cream-100">
         <div className="mx-auto max-w-[1280px] px-6 py-24 lg:px-10 lg:py-32">
           <div className="grid items-end gap-10 lg:grid-cols-[1fr_auto] lg:gap-16">
-            <h2 className="text-[48px] leading-[1.02] tracking-tight lg:text-[80px]" style={{ fontFamily: "var(--font-display)", fontWeight: 380 }}>
-              Compare offers
-              <br />
-              <em className="italic" style={{ fontVariationSettings: '"opsz" 144, "SOFT" 100, "WONK" 1' }}>
-                without the noise.
-              </em>
+            <h2 className="text-[40px] leading-[1.05] tracking-tight lg:text-[64px]">
+              Compare offers <span className="text-cream-100">without the noise</span>.
             </h2>
             <div className="lg:pb-3">
               <Link

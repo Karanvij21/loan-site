@@ -19,13 +19,13 @@ export function HeroMark() {
       {/* Inner forest disc */}
       <circle cx="120" cy="120" r="68" fill="#0E3B2E" />
 
-      {/* Italic mark */}
+      {/* Brand mark */}
       <text
         x="120"
-        y="148"
+        y="152"
         textAnchor="middle"
-        style={{ fontFamily: "var(--font-display, serif)", fontStyle: "italic", fontWeight: 400 }}
-        fontSize="92"
+        style={{ fontFamily: "var(--font-display, sans-serif)", fontWeight: 600 }}
+        fontSize="96"
         fill="#FAF6EC"
       >
         f
@@ -54,7 +54,7 @@ export function HeroMark() {
 
       {/* Top eyebrow text along arc */}
       <path id="arcTop" d="M 30 120 A 90 90 0 0 1 210 120" fill="none" />
-      <text fontSize="9" fontFamily="var(--font-geist-sans, sans-serif)" fill="#5A5F5B" letterSpacing="2.5">
+      <text fontSize="9" fontFamily="var(--font-sans, sans-serif)" fill="#5A5F5B" letterSpacing="2.5">
         <textPath href="#arcTop" startOffset="50%" textAnchor="middle">
           · TRUSTED MARKETPLACE · EST. 2024 ·
         </textPath>

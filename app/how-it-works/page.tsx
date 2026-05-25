@@ -27,16 +27,16 @@ export default function HowItWorks() {
       />
       <article className="mx-auto max-w-[920px] px-6 py-20 lg:px-10 lg:py-28">
         <span className="eyebrow">The process</span>
-        <h1 className="mt-3 text-[52px] leading-[1.02] tracking-tight text-ink-900 lg:text-[80px]" style={{ fontFamily: "var(--font-display)", fontWeight: 380 }}>
-          Three steps. <em className="italic text-forest-700">Roughly twelve minutes.</em>
+        <h1 className="mt-3 text-[40px] leading-[1.02] tracking-tight text-ink-900 lg:text-[64px]">
+          Three steps. <span className="text-forest-700">Roughly twelve minutes.</span>
         </h1>
 
         <ol className="mt-16 border-t border-ink-900">
           {steps.map((s) => (
             <li key={s.n} className="grid grid-cols-[60px_1fr] gap-6 border-b border-cream-300 py-10 lg:grid-cols-[120px_1fr]">
-              <span className="tabular text-3xl text-ink-300 lg:text-4xl" style={{ fontFamily: "var(--font-display)" }}>{s.n}</span>
+              <span className="tabular text-3xl text-ink-300 lg:text-4xl">{s.n}</span>
               <div>
-                <h2 className="text-2xl text-ink-900 lg:text-3xl" style={{ fontFamily: "var(--font-display)" }}>{s.t}</h2>
+                <h2 className="text-2xl text-ink-900 lg:text-3xl">{s.t}</h2>
                 <p className="mt-3 max-w-[60ch] text-[16px] leading-relaxed text-ink-700">{s.b}</p>
               </div>
             </li>

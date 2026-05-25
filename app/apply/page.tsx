@@ -31,8 +31,8 @@ export default function ApplyPage() {
           </div>
 
           <div className="mt-6 grid items-end gap-6 lg:grid-cols-[1fr_auto]">
-            <h1 className="text-[44px] leading-[1.02] tracking-tight text-ink-900 lg:text-[64px]" style={{ fontFamily: "var(--font-display)", fontWeight: 380 }}>
-              Your <em className="italic text-forest-700">request</em>.
+            <h1 className="text-[44px] leading-[1.02] tracking-tight text-ink-900 lg:text-[64px]">
+              Your <span className="text-forest-700">request</span>.
             </h1>
             <p className="max-w-[28ch] text-[14px] text-ink-500">
               About two minutes. Soft credit check only. There is no impact on your score for asking.

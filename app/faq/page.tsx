@@ -33,7 +33,7 @@ export default function FAQPage() {
       />
       <article className="mx-auto max-w-[920px] px-6 py-20 lg:px-10 lg:py-28">
         <span className="eyebrow">Honest answers</span>
-        <h1 className="mt-3 text-[52px] leading-[1.02] tracking-tight text-ink-900 lg:text-[80px]" style={{ fontFamily: "var(--font-display)", fontWeight: 380 }}>
+        <h1 className="mt-3 text-[40px] leading-[1.02] tracking-tight text-ink-900 lg:text-[64px]">
           Frequently asked.
         </h1>
 
@@ -41,7 +41,7 @@ export default function FAQPage() {
           {faqs.map((f) => (
             <details key={f.q} className="group border-b border-cream-300 py-5">
               <summary className="flex cursor-pointer items-baseline justify-between gap-6 marker:hidden">
-                <span className="text-lg text-ink-900 lg:text-xl" style={{ fontFamily: "var(--font-display)" }}>
+                <span className="text-lg text-ink-900 lg:text-xl">
                   {f.q}
                 </span>
                 <span className="shrink-0 text-xl text-ink-300 transition-transform duration-300 group-open:rotate-45">+</span>

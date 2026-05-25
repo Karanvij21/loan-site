@@ -6,9 +6,8 @@ export default function NotFound() {
       <span className="eyebrow">Error 404</span>
       <h1
         className="mt-6 text-[88px] leading-[0.95] tracking-tight text-ink-900 lg:text-[140px]"
-        style={{ fontFamily: "var(--font-display)", fontWeight: 380 }}
       >
-        Not <em className="italic text-forest-700">found</em>.
+        Not <span className="text-forest-700">found</span>.
       </h1>
       <p className="mt-6 text-[16px] leading-relaxed text-ink-700">
         We couldn&rsquo;t locate that page. It may have been moved or never existed.

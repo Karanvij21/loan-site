@@ -13,7 +13,6 @@ export function TrustBar() {
           <li key={i.k} className="flex flex-col">
             <span
               className="tabular text-2xl text-ink-900"
-              style={{ fontFamily: "var(--font-display)", fontWeight: 400 }}
             >
               {i.k}
             </span>

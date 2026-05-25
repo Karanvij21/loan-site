@@ -14,8 +14,8 @@ export default function SuccessPage() {
           <path d="M5 12l4 4 10-10" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
         </svg>
       </div>
-      <h1 className="mt-10 text-[52px] leading-[1.02] tracking-tight text-ink-900 lg:text-[72px]" style={{ fontFamily: "var(--font-display)", fontWeight: 380 }}>
-        Request <em className="italic text-forest-700">received</em>.
+      <h1 className="mt-10 text-[40px] leading-[1.02] tracking-tight text-ink-900 lg:text-[56px]">
+        Request <span className="text-forest-700">received</span>.
       </h1>
       <p className="mt-6 max-w-[48ch] mx-auto text-[16px] leading-relaxed text-ink-700">
         We&rsquo;re matching you with offers from our lending network now. Watch your email and phone over the next few minutes. Your offers will arrive shortly.

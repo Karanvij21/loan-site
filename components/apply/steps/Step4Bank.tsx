@@ -7,7 +7,7 @@ export function Step4Bank() {
   return (
     <div className="space-y-7">
       <header>
-        <h2 className="text-[32px] leading-[1.05] text-ink-900" style={{ fontFamily: "var(--font-display)", fontWeight: 400 }}>
+        <h2 className="text-[32px] leading-[1.05] text-ink-900">
           Banking.
         </h2>
         <p className="mt-2 text-[14px] text-ink-500">

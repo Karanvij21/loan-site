@@ -6,7 +6,7 @@ export function Step1Amount() {
   return (
     <div className="space-y-7">
       <header>
-        <h2 className="text-[32px] leading-[1.05] text-ink-900" style={{ fontFamily: "var(--font-display)", fontWeight: 400 }}>
+        <h2 className="text-[32px] leading-[1.05] text-ink-900">
           How much do you need?
         </h2>
         <p className="mt-2 text-[14px] text-ink-500">Between $100 and $50,000.</p>

@@ -17,8 +17,8 @@ export default function AboutPage() {
   return (
     <article className="mx-auto max-w-[920px] px-6 py-20 lg:px-10 lg:py-28">
       <span className="eyebrow">About us</span>
-      <h1 className="mt-3 text-[52px] leading-[1.02] tracking-tight text-ink-900 lg:text-[80px]" style={{ fontFamily: "var(--font-display)", fontWeight: 380 }}>
-        A marketplace, <em className="italic text-forest-700">not a lender</em>.
+      <h1 className="mt-3 text-[40px] leading-[1.02] tracking-tight text-ink-900 lg:text-[64px]">
+        A marketplace, <span className="text-forest-700">not a lender</span>.
       </h1>
 
       <div className="mt-12 grid gap-10 lg:grid-cols-[1fr_280px]">
@@ -41,14 +41,14 @@ export default function AboutPage() {
         </aside>
       </div>
 
-      <h2 className="mt-20 text-[36px] text-ink-900 lg:text-[48px]" style={{ fontFamily: "var(--font-display)" }}>
+      <h2 className="mt-20 text-[36px] text-ink-900 lg:text-[48px]">
         What we believe.
       </h2>
       <dl className="mt-8 border-t border-ink-900">
         {values.map((v, i) => (
           <div key={v.k} className="grid grid-cols-[60px_180px_1fr] gap-6 border-b border-cream-300 py-6">
-            <span className="tabular text-2xl text-ink-300" style={{ fontFamily: "var(--font-display)" }}>{String(i + 1).padStart(2, "0")}</span>
-            <dt className="text-xl text-ink-900" style={{ fontFamily: "var(--font-display)" }}>{v.k}</dt>
+            <span className="tabular text-2xl text-ink-300">{String(i + 1).padStart(2, "0")}</span>
+            <dt className="text-xl text-ink-900">{v.k}</dt>
             <dd className="text-[15px] leading-relaxed text-ink-700">{v.v}</dd>
           </div>
         ))}

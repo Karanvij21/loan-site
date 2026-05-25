@@ -34,14 +34,14 @@ export default function RatesPage() {
       />
       <article className="mx-auto max-w-[1080px] px-6 py-20 lg:px-10 lg:py-28">
         <span className="eyebrow">What to expect</span>
-        <h1 className="mt-3 text-[52px] leading-[1.02] tracking-tight text-ink-900 lg:text-[80px]" style={{ fontFamily: "var(--font-display)", fontWeight: 380 }}>
-          Rates &amp; <em className="italic text-forest-700">fees</em>.
+        <h1 className="mt-3 text-[40px] leading-[1.02] tracking-tight text-ink-900 lg:text-[64px]">
+          Rates &amp; <span className="text-forest-700">fees</span>.
         </h1>
         <p className="mt-6 max-w-[58ch] text-[17px] leading-[1.6] text-ink-700">
           APRs in our network typically range from <span className="tabular text-ink-900">5.99% to 35.99%</span>. Your actual rate depends on credit profile, loan amount, term, and lender.
         </p>
 
-        <h2 className="mt-16 text-[28px] text-ink-900 lg:text-[36px]" style={{ fontFamily: "var(--font-display)" }}>
+        <h2 className="mt-16 text-[28px] text-ink-900 lg:text-[36px]">
           Representative examples
         </h2>
         <table className="mt-6 w-full text-[14px]">
@@ -67,7 +67,7 @@ export default function RatesPage() {
           </tbody>
         </table>
 
-        <h2 className="mt-16 text-[28px] text-ink-900 lg:text-[36px]" style={{ fontFamily: "var(--font-display)" }}>
+        <h2 className="mt-16 text-[28px] text-ink-900 lg:text-[36px]">
           Fees
         </h2>
         <dl className="mt-6 border-t border-ink-900">

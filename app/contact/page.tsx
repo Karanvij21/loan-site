@@ -11,8 +11,8 @@ export default function ContactPage() {
   return (
     <article className="mx-auto max-w-[680px] px-6 py-20 lg:px-10 lg:py-28">
       <span className="eyebrow">Reach us</span>
-      <h1 className="mt-3 text-[52px] leading-[1.02] tracking-tight text-ink-900 lg:text-[72px]" style={{ fontFamily: "var(--font-display)", fontWeight: 380 }}>
-        Contact <em className="italic text-forest-700">us</em>.
+      <h1 className="mt-3 text-[40px] leading-[1.02] tracking-tight text-ink-900 lg:text-[56px]">
+        Contact <span className="text-forest-700">us</span>.
       </h1>
       <p className="mt-6 text-[16px] leading-relaxed text-ink-700">Questions about your application or our service? We&rsquo;re here to help.</p>
 

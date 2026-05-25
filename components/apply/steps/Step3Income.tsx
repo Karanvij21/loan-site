@@ -6,8 +6,8 @@ export function Step3Income() {
   return (
     <div className="space-y-7">
       <header>
-        <h2 className="text-[32px] leading-[1.05] text-ink-900" style={{ fontFamily: "var(--font-display)", fontWeight: 400 }}>
-          Your <em className="italic text-forest-700">income</em>.
+        <h2 className="text-[32px] leading-[1.05] text-ink-900">
+          Your <span className="text-forest-700">income</span>.
         </h2>
         <p className="mt-2 text-[14px] text-ink-500">Lenders need to verify you can repay comfortably.</p>
       </header>

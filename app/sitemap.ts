@@ -20,6 +20,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/privacy`, lastModified: now, changeFrequency: "yearly", priority: 0.3 },
     { url: `${base}/terms`, lastModified: now, changeFrequency: "yearly", priority: 0.3 },
     { url: `${base}/disclosures`, lastModified: now, changeFrequency: "yearly", priority: 0.3 },
+    { url: `${base}/do-not-sell`, lastModified: now, changeFrequency: "yearly", priority: 0.2 },
+    { url: `${base}/opt-out`, lastModified: now, changeFrequency: "yearly", priority: 0.2 },
   ];
 
   return routes;

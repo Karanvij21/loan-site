@@ -35,7 +35,6 @@ export function LoanCalculator() {
           <output
             htmlFor="amount"
             className="tabular text-2xl text-ink-900"
-            style={{ fontFamily: "var(--font-display)", fontWeight: 500 }}
           >
             {formatCurrency(amount)}
           </output>
@@ -66,7 +65,6 @@ export function LoanCalculator() {
           <output
             htmlFor="term"
             className="tabular text-2xl text-ink-900"
-            style={{ fontFamily: "var(--font-display)", fontWeight: 500 }}
           >
             {termMonths} <span className="text-base text-ink-500">months</span>
           </output>
@@ -93,10 +91,7 @@ export function LoanCalculator() {
           <span className="tabular text-[11px] text-cream-100/60">{apr}% APR</span>
         </div>
         <div className="mt-2 flex items-baseline gap-2">
-          <span
-            className="tabular text-[44px] leading-none text-cream-100"
-            style={{ fontFamily: "var(--font-display)", fontWeight: 400, letterSpacing: "-0.025em" }}
-          >
+          <span className="tabular text-[44px] leading-none font-semibold tracking-tight text-cream-100">
             {formatCurrency(Math.round(monthly))}
           </span>
           <span className="text-[13px] text-cream-100/70">/ mo</span>

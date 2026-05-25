@@ -16,14 +16,14 @@ export default function Icon() {
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
-          fontFamily: "serif",
-          fontStyle: "italic",
-          fontSize: 44,
-          fontWeight: 400,
+          fontFamily: "sans-serif",
+          fontSize: 32,
+          fontWeight: 700,
+          letterSpacing: -1,
           borderRadius: 12,
         }}
       >
-        f
+        FL
       </div>
     ),
     { ...size }

@@ -8,7 +8,7 @@ import { HeroMark } from "@/components/home/HeroMark";
 import { SocialProof } from "@/components/home/SocialProof";
 
 export const metadata: Metadata = {
-  title: `${siteConfig.name} · Borrow with intention. Personal loans up to $50,000.`,
+  title: `${siteConfig.name} · Personal Loans up to $50,000`,
   description:
     "Compare fixed-rate personal loans from $100 to $50,000 in two minutes. Soft credit check, no obligation, funds as fast as the next business day.",
   alternates: { canonical: "/" },

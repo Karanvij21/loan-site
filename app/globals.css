@@ -86,11 +86,14 @@ h1, h2, h3 {
   font-family: var(--font-display);
   letter-spacing: -0.025em;
   line-height: 1.05;
+  text-wrap: balance;
 }
 
 h1 { font-weight: 600; letter-spacing: -0.035em; }
 h2 { font-weight: 600; letter-spacing: -0.03em; }
 h3 { font-weight: 500; letter-spacing: -0.02em; }
+
+p { text-wrap: pretty; }
 
 /* ─────────────────────────────────────────────────────────────
    Utility primitives
@@ -168,41 +171,44 @@ h3 { font-weight: 500; letter-spacing: -0.02em; }
    Inputs
    ───────────────────────────────────────────────────────────── */
 
-.input {
-  width: 100%;
-  padding: 0.875rem 1rem;
-  background-color: var(--color-cream-50);
-  background-repeat: no-repeat;
-  border: 1px solid var(--color-cream-400);
-  border-radius: 8px;
-  font-family: var(--font-sans);
-  font-size: 1rem;
-  color: var(--color-ink-900);
-  transition: border-color 0.15s ease, background-color 0.15s ease, box-shadow 0.15s ease;
-  min-height: 44px;
-}
-.input::placeholder { color: var(--color-ink-300); }
-.input:hover { border-color: var(--color-cream-500); }
-.input:focus {
-  outline: none;
-  border-color: var(--color-forest-700);
-  background-color: white;
-  box-shadow: 0 0 0 3px color-mix(in oklab, var(--color-forest-700) 12%, transparent);
-}
-.input[aria-invalid="true"] {
-  border-color: var(--color-amber-500);
-  box-shadow: 0 0 0 3px color-mix(in oklab, var(--color-amber-500) 12%, transparent);
-}
+@layer components {
+  .input {
+    width: 100%;
+    padding-block: 0.875rem;
+    padding-inline: 1rem;
+    background-color: var(--color-cream-50);
+    background-repeat: no-repeat;
+    border: 1px solid var(--color-cream-400);
+    border-radius: 8px;
+    font-family: var(--font-sans);
+    font-size: 1rem;
+    color: var(--color-ink-900);
+    transition: border-color 0.15s ease, background-color 0.15s ease, box-shadow 0.15s ease;
+    min-height: 44px;
+  }
+  .input::placeholder { color: var(--color-ink-300); }
+  .input:hover { border-color: var(--color-cream-500); }
+  .input:focus {
+    outline: none;
+    border-color: var(--color-forest-700);
+    background-color: white;
+    box-shadow: 0 0 0 3px color-mix(in oklab, var(--color-forest-700) 12%, transparent);
+  }
+  .input[aria-invalid="true"] {
+    border-color: var(--color-amber-500);
+    box-shadow: 0 0 0 3px color-mix(in oklab, var(--color-amber-500) 12%, transparent);
+  }
 
-/* Select element with custom chevron */
-.select-chevron {
-  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12' fill='none' stroke='%235A5F5B' stroke-width='1.4'><path d='M2.5 4.5l3.5 3.5 3.5-3.5' stroke-linecap='round' stroke-linejoin='round'/></svg>");
-  background-position: right 1rem center;
-  background-size: 12px 12px;
-  background-repeat: no-repeat;
-  padding-right: 2.5rem;
-  appearance: none;
-  -webkit-appearance: none;
+  /* Select element with custom chevron */
+  .select-chevron {
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12' fill='none' stroke='%235A5F5B' stroke-width='1.4'><path d='M2.5 4.5l3.5 3.5 3.5-3.5' stroke-linecap='round' stroke-linejoin='round'/></svg>");
+    background-position: right 1rem center;
+    background-size: 12px 12px;
+    background-repeat: no-repeat;
+    padding-right: 2.5rem;
+    appearance: none;
+    -webkit-appearance: none;
+  }
 }
 
 /* ─────────────────────────────────────────────────────────────

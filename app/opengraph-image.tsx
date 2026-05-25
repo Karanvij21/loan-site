@@ -1,7 +1,7 @@
 import { ImageResponse } from "next/og";
 
 export const runtime = "edge";
-export const alt = "Fast Loan Advance · Borrow with intention";
+export const alt = "Fast Loan Advance · Personal loans up to $50,000";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -18,7 +18,7 @@ export default async function OG() {
           padding: "72px 80px",
           background: "#FAF6EC",
           color: "#0A0D0B",
-          fontFamily: "serif",
+          fontFamily: "sans-serif",
           position: "relative",
         }}
       >
@@ -42,29 +42,27 @@ export default async function OG() {
               letterSpacing: 4,
               textTransform: "uppercase",
               color: "#5A5F5B",
-              fontFamily: "sans-serif",
-              fontWeight: 500,
+              fontWeight: 600,
             }}
           >
-            Fast Loan Advance · est. 2024
+            Fast Loan Advance · Loan marketplace
           </div>
           <div
             style={{
               width: 56,
               height: 56,
-              borderRadius: 28,
+              borderRadius: 12,
               background: "#0E3B2E",
               color: "#FAF6EC",
               display: "flex",
               alignItems: "center",
               justifyContent: "center",
-              fontFamily: "serif",
-              fontSize: 28,
-              fontStyle: "italic",
-              fontWeight: 400,
+              fontSize: 24,
+              fontWeight: 700,
+              letterSpacing: -1,
             }}
           >
-            f
+            FL
           </div>
         </div>
 
@@ -72,28 +70,27 @@ export default async function OG() {
         <div style={{ display: "flex", flexDirection: "column", marginTop: 40 }}>
           <div
             style={{
-              fontSize: 120,
+              fontSize: 116,
               lineHeight: 1.02,
-              letterSpacing: -3,
-              fontWeight: 400,
+              letterSpacing: -4,
+              fontWeight: 700,
               color: "#0A0D0B",
               display: "flex",
             }}
           >
-            Borrow with
+            Personal loans,
           </div>
           <div
             style={{
-              fontSize: 120,
+              fontSize: 116,
               lineHeight: 1.02,
-              letterSpacing: -3,
-              fontWeight: 400,
-              fontStyle: "italic",
+              letterSpacing: -4,
+              fontWeight: 700,
               color: "#0E3B2E",
               display: "flex",
             }}
           >
-            intention.
+            in minutes.
           </div>
           <div
             style={{
@@ -101,12 +98,11 @@ export default async function OG() {
               fontSize: 24,
               lineHeight: 1.4,
               color: "#2A2E2B",
-              fontFamily: "sans-serif",
-              maxWidth: 760,
+              maxWidth: 820,
               display: "flex",
             }}
           >
-            Compare fixed-rate personal loans from $100 to $50,000. Two minutes, soft credit check, no obligation.
+            Compare fixed-rate offers from $100 to $50,000 across a network of trusted lenders. Two minutes, soft credit check, no obligation.
           </div>
         </div>
 
@@ -117,17 +113,16 @@ export default async function OG() {
             gap: 64,
             paddingTop: 24,
             borderTop: "1px solid #D4C8A8",
-            fontFamily: "sans-serif",
           }}
         >
           {[
             { k: "$50K", v: "max amount" },
             { k: "5.99%", v: "starting APR" },
             { k: "72mo", v: "max term" },
-            { k: "0 fees", v: "to apply" },
+            { k: "$0", v: "to apply" },
           ].map((s) => (
             <div key={s.k} style={{ display: "flex", flexDirection: "column" }}>
-              <div style={{ fontSize: 36, fontWeight: 500, color: "#0A0D0B", fontFamily: "serif" }}>{s.k}</div>
+              <div style={{ fontSize: 40, fontWeight: 700, color: "#0A0D0B", letterSpacing: -1 }}>{s.k}</div>
               <div
                 style={{
                   fontSize: 13,
@@ -135,6 +130,7 @@ export default async function OG() {
                   textTransform: "uppercase",
                   color: "#5A5F5B",
                   marginTop: 4,
+                  fontWeight: 600,
                 }}
               >
                 {s.v}

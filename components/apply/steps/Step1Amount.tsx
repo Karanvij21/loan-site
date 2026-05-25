@@ -13,8 +13,26 @@ export function Step1Amount() {
       </header>
 
       <Field name="amount" label="Loan amount (USD)">
-        <TextInput name="amount" type="number" inputMode="numeric" min={100} max={50000} step={100} className="tabular" />
+        <div className="relative">
+          <span
+            aria-hidden
+            className="pointer-events-none absolute left-4 top-1/2 -translate-y-1/2 text-[16px] text-ink-500"
+          >
+            $
+          </span>
+          <TextInput
+            name="amount"
+            type="number"
+            inputMode="numeric"
+            min={100}
+            max={50000}
+            step={100}
+            placeholder="5,000"
+            className="tabular pl-8"
+          />
+        </div>
       </Field>
+
       <Field name="purpose" label="Loan purpose">
         <Select name="purpose" defaultValue="">
           <option value="" disabled>Select a purpose</option>
@@ -31,6 +49,7 @@ export function Step1Amount() {
           <option value="other">Other</option>
         </Select>
       </Field>
+
       <Field name="creditRating" label="How would you rate your credit?">
         <Select name="creditRating" defaultValue="">
           <option value="" disabled>Choose one</option>

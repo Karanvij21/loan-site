@@ -137,35 +137,38 @@ p { text-wrap: pretty; }
    Buttons
    ───────────────────────────────────────────────────────────── */
 
-.btn {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0.5rem;
-  padding: 0.875rem 1.5rem;
-  font-family: var(--font-sans);
-  font-weight: 600;
-  font-size: 0.9375rem;
-  letter-spacing: -0.01em;
-  border-radius: 999px;
-  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
-  cursor: pointer;
-  white-space: nowrap;
-  min-height: 44px;
+@layer components {
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding-block: 0.875rem;
+    padding-inline: 1.5rem;
+    font-family: var(--font-sans);
+    font-weight: 600;
+    font-size: 0.9375rem;
+    letter-spacing: -0.01em;
+    border-radius: 999px;
+    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    cursor: pointer;
+    white-space: nowrap;
+    min-height: 44px;
+  }
+
+  .btn-primary { background: var(--color-ink-900); color: var(--color-cream-100); }
+  .btn-primary:hover { background: var(--color-forest-700); transform: translateY(-1px); }
+
+  .btn-secondary {
+    background: transparent;
+    color: var(--color-ink-900);
+    border: 1px solid var(--color-cream-400);
+  }
+  .btn-secondary:hover { border-color: var(--color-ink-900); background: var(--color-cream-200); }
+
+  .btn-accent { background: var(--color-forest-700); color: var(--color-cream-100); }
+  .btn-accent:hover { background: var(--color-forest-500); }
 }
-
-.btn-primary { background: var(--color-ink-900); color: var(--color-cream-100); }
-.btn-primary:hover { background: var(--color-forest-700); transform: translateY(-1px); }
-
-.btn-secondary {
-  background: transparent;
-  color: var(--color-ink-900);
-  border: 1px solid var(--color-cream-400);
-}
-.btn-secondary:hover { border-color: var(--color-ink-900); background: var(--color-cream-200); }
-
-.btn-accent { background: var(--color-forest-700); color: var(--color-cream-100); }
-.btn-accent:hover { background: var(--color-forest-500); }
 
 /* ─────────────────────────────────────────────────────────────
    Inputs

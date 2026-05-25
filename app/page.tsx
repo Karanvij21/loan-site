@@ -92,7 +92,7 @@ export default function HomePage() {
               </div>
 
               {/* Decorative hero mark, desktop only */}
-              <div className="reveal reveal-4 mt-12 hidden h-[180px] w-[180px] lg:block">
+              <div className="reveal reveal-4 mt-14 hidden h-[160px] w-[160px] overflow-hidden lg:block">
                 <HeroMark />
               </div>
             </div>

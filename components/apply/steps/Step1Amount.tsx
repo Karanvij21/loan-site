@@ -1,8 +1,14 @@
 "use client";
 
-import { Field, Select, TextInput } from "../Field";
+import { useFormContext } from "react-hook-form";
+import { Field, Select } from "../Field";
+import { cn } from "@/lib/utils";
 
 export function Step1Amount() {
+  const { setValue, watch, formState: { errors } } = useFormContext();
+  const raw = watch("amount");
+  const display = raw === undefined || raw === null || raw === "" ? "" : Number(raw).toLocaleString("en-US");
+
   return (
     <div className="space-y-7">
       <header>
@@ -20,15 +26,22 @@ export function Step1Amount() {
           >
             $
           </span>
-          <TextInput
-            name="amount"
-            type="number"
+          <input
+            id="amount"
+            type="text"
             inputMode="numeric"
-            min={100}
-            max={50000}
-            step={100}
+            autoComplete="off"
             placeholder="5,000"
-            className="tabular pl-8"
+            value={display}
+            aria-invalid={errors.amount ? "true" : undefined}
+            onChange={(e) => {
+              const digits = e.target.value.replace(/\D/g, "");
+              setValue("amount", digits ? Number(digits) : "", {
+                shouldValidate: true,
+                shouldDirty: true,
+              });
+            }}
+            className={cn("input tabular pl-8")}
           />
         </div>
       </Field>

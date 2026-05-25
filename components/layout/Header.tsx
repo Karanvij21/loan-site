@@ -84,7 +84,7 @@ export function Header() {
           >
             {siteConfig.phone}
           </a>
-          <Link href="/apply" className="btn btn-primary !py-2 !px-4 !text-[13px] !min-h-0">
+          <Link href="/apply" className="btn btn-primary hidden sm:inline-flex !py-2 !px-4 !text-[13px] !min-h-0">
             Begin
             <svg width="12" height="12" viewBox="0 0 14 14" aria-hidden fill="none">
               <path d="M3 7h8M7 3l4 4-4 4" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />

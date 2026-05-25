@@ -123,7 +123,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         )}
         <ComplianceBar />
         <Header />
-        <main id="main" className="flex-1 relative z-[2]">{children}</main>
+        <main id="main" className="flex-1 relative z-[2] pb-20 lg:pb-0">{children}</main>
         <Footer />
         <StickyApplyCTA />
         <CookieBanner />

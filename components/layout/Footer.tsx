@@ -40,7 +40,7 @@ export function Footer() {
   return (
     <footer className="relative z-[2] mt-20 bg-ink-900 text-cream-200">
       <div className="mx-auto max-w-[1280px] px-6 py-16 lg:px-10">
-        {/* Top — wordmark + tagline */}
+        {/* Top: wordmark + tagline */}
         <div className="flex flex-col gap-10 border-b border-cream-400/15 pb-10 lg:flex-row lg:items-end lg:justify-between">
           <div className="max-w-md">
             <Link href="/" className="flex items-baseline gap-3" aria-label="Home">

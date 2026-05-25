@@ -7,7 +7,7 @@ import { TrustBar } from "@/components/home/TrustBar";
 import { HeroMark } from "@/components/home/HeroMark";
 
 export const metadata: Metadata = {
-  title: `${siteConfig.name} — Borrow with intention. Personal loans up to $50,000.`,
+  title: `${siteConfig.name} · Borrow with intention. Personal loans up to $50,000.`,
   description:
     "Compare fixed-rate personal loans from $100 to $50,000 in two minutes. Soft credit check, no obligation, funds as fast as the next business day.",
   alternates: { canonical: "/" },
@@ -22,8 +22,8 @@ const products = [
 
 const steps = [
   { n: "01", t: "Submit your request", b: "Two minutes. Loan amount, basic details, and a soft credit check that does not affect your score." },
-  { n: "02", t: "Review your offers", b: "We match you instantly with lenders in our network — including LendingTree. Compare APR, monthly payment, and term side by side." },
-  { n: "03", t: "Receive your funds", b: "Accept an offer, e-sign your agreement, and the lender deposits funds — typically by the next business day." },
+  { n: "02", t: "Review your offers", b: "We match you instantly with lenders in our network, including LendingTree. Compare APR, monthly payment, and term side by side." },
+  { n: "03", t: "Receive your funds", b: "Accept an offer, e-sign your agreement, and the lender deposits funds, typically by the next business day." },
 ];
 
 const exampleRows = [
@@ -64,7 +64,7 @@ export default function HomePage() {
           {/* Eyebrow */}
           <div className="reveal reveal-1 flex items-center gap-3">
             <span className="h-px w-10 bg-ink-900" />
-            <span className="eyebrow">A loan marketplace — not a lender</span>
+            <span className="eyebrow">A loan marketplace, not a lender</span>
           </div>
 
           <div className="mt-8 grid items-start gap-14 lg:grid-cols-[1fr_460px] lg:gap-20">
@@ -98,7 +98,7 @@ export default function HomePage() {
                 </Link>
               </div>
 
-              {/* Decorative — hero mark on mobile */}
+              {/* Decorative hero mark, desktop only */}
               <div className="reveal reveal-4 mt-12 hidden h-[180px] w-[180px] lg:block">
                 <HeroMark />
               </div>

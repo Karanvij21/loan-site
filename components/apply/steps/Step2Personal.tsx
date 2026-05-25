@@ -44,7 +44,7 @@ export function Step2Personal() {
         </Field>
         <Field name="state" label="State">
           <Select name="state" defaultValue="">
-            <option value="" disabled>—</option>
+            <option value="" disabled>·</option>
             {US_STATES.map((s) => (
               <option key={s} value={s}>{s}</option>
             ))}

@@ -72,7 +72,7 @@ export default async function ProductPage({ params }: Props) {
                 <span className="eyebrow">Loan type</span>
               </div>
               <h1 className="mt-4 text-[44px] leading-[1.02] tracking-tight text-ink-900 lg:text-[80px]" style={{ fontFamily: "var(--font-display)", fontWeight: 380 }}>
-                {p.h1.replace(/—.*/, "").trim()}
+                {p.h1}
               </h1>
               <p className="mt-6 max-w-[58ch] text-[18px] leading-[1.55] text-ink-700">{p.intro}</p>
               <div className="mt-10 flex flex-wrap items-center gap-4">

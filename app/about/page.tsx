@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 const values = [
   { k: "Transparency", v: "Clear rates, terms, and fees on every offer. No fine print designed to confuse." },
   { k: "Privacy", v: "Your data is encrypted in transit and never sold for marketing without your explicit consent." },
-  { k: "Choice", v: "You decide which offer — if any — to accept. There is no obligation, ever." },
+  { k: "Choice", v: "You decide which offer, if any, to accept. There is no obligation, ever." },
 ];
 
 export default function AboutPage() {

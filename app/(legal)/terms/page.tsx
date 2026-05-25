@@ -29,7 +29,7 @@ export default function TermsPage() {
       <p>These Terms are governed by the laws of the State of Delaware, USA.</p>
       <h2>8. Contact</h2>
       <p><a href={`mailto:${siteConfig.email}`}>{siteConfig.email}</a></p>
-      <p className="text-xs text-slate-500"><strong>NOTE:</strong> Starter template — have counsel review.</p>
+      <p className="text-xs text-slate-500"><strong>NOTE:</strong> Starter template. Have counsel review.</p>
     </>
   );
 }

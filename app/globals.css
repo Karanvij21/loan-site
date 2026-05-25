@@ -1,11 +1,11 @@
 @import "tailwindcss";
 
 /* ─────────────────────────────────────────────────────────────
-   Editorial Verdant — design system
+   Editorial Verdant design system
    ───────────────────────────────────────────────────────────── */
 
 @theme {
-  /* Cream — paper */
+  /* Cream: paper */
   --color-cream-50:  #FCFAF3;
   --color-cream-100: #FAF6EC;
   --color-cream-200: #F2EBD8;
@@ -13,14 +13,14 @@
   --color-cream-400: #D4C8A8;
   --color-cream-500: #BFB291;
 
-  /* Ink — text */
+  /* Ink: text */
   --color-ink-100: #C7CAC6;
   --color-ink-300: #8A8F8B;
   --color-ink-500: #5A5F5B;
   --color-ink-700: #2A2E2B;
   --color-ink-900: #0A0D0B;
 
-  /* Forest — brand */
+  /* Forest: brand */
   --color-forest-50:  #E8EFEB;
   --color-forest-100: #C6D5CC;
   --color-forest-300: #6B9181;
@@ -28,7 +28,7 @@
   --color-forest-700: #0E3B2E;
   --color-forest-900: #061F18;
 
-  /* Amber — warm accent (use sparingly) */
+  /* Amber: warm accent (use sparingly) */
   --color-amber-300: #D89564;
   --color-amber-500: #B6691F;
   --color-amber-700: #8A4D14;
@@ -64,7 +64,7 @@ body {
   letter-spacing: -0.005em;
 }
 
-/* Paper grain — adds tactile depth */
+/* Paper grain adds tactile depth */
 body::before {
   content: "";
   position: fixed;
@@ -77,7 +77,7 @@ body::before {
 }
 
 /* ─────────────────────────────────────────────────────────────
-   Display type — Fraunces with optical/soft axes
+   Display type: Fraunces with optical/soft axes
    ───────────────────────────────────────────────────────────── */
 
 .font-display,
@@ -129,7 +129,7 @@ h1 em, h2 em {
   padding-bottom: 0.05em;
 }
 
-/* Focus — refined */
+/* Focus: refined */
 :focus-visible {
   outline: 2px solid var(--color-forest-700);
   outline-offset: 3px;
@@ -196,7 +196,7 @@ h1 em, h2 em {
 .btn-accent:hover { background: var(--color-forest-500); }
 
 /* ─────────────────────────────────────────────────────────────
-   Inputs — editorial, generous
+   Inputs: editorial, generous
    ───────────────────────────────────────────────────────────── */
 
 .input {
@@ -222,7 +222,7 @@ h1 em, h2 em {
 }
 
 /* ─────────────────────────────────────────────────────────────
-   Range slider — minimal, refined
+   Range slider: minimal, refined
    ───────────────────────────────────────────────────────────── */
 
 input[type="range"].range-refined {
@@ -270,7 +270,7 @@ input[type="range"].range-refined:active::-webkit-slider-thumb {
 }
 
 /* ─────────────────────────────────────────────────────────────
-   Reveal — soft fade-up on first paint
+   Reveal: soft fade-up on first paint
    ───────────────────────────────────────────────────────────── */
 
 @keyframes reveal-up {
@@ -293,7 +293,7 @@ input[type="range"].range-refined:active::-webkit-slider-thumb {
 }
 
 /* ─────────────────────────────────────────────────────────────
-   Decorative — hairline rules with character
+   Decorative: hairline rules with character
    ───────────────────────────────────────────────────────────── */
 
 .rule {

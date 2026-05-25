@@ -25,7 +25,7 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
   title: {
-    default: `${siteConfig.name} — Borrow with intention`,
+    default: `${siteConfig.name} · Borrow with intention`,
     template: `%s · ${siteConfig.name}`,
   },
   description: siteConfig.description,
@@ -45,12 +45,12 @@ export const metadata: Metadata = {
     locale: "en_US",
     url: siteConfig.url,
     siteName: siteConfig.name,
-    title: `${siteConfig.name} — Borrow with intention`,
+    title: `${siteConfig.name} · Borrow with intention`,
     description: siteConfig.description,
   },
   twitter: {
     card: "summary_large_image",
-    title: `${siteConfig.name} — Borrow with intention`,
+    title: `${siteConfig.name} · Borrow with intention`,
     description: siteConfig.shortDescription,
     creator: siteConfig.social.twitter,
   },

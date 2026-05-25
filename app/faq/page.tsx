@@ -12,7 +12,7 @@ const faqs = [
   { q: "How much can I borrow?", a: "You can request from $100 up to $50,000. The actual amount you qualify for depends on the lender's evaluation of your income and credit profile." },
   { q: "Will applying affect my credit score?", a: "No. We perform a soft credit inquiry only. A hard inquiry occurs only if you accept a final offer and the lender requires one." },
   { q: "How fast will I receive funds?", a: "Once you accept and e-sign an offer, funds are typically deposited the next business day via ACH." },
-  { q: "Can I get a loan with bad credit?", a: "Yes — our network includes lenders that consider FICO scores below 600. Approval is not guaranteed." },
+  { q: "Can I get a loan with bad credit?", a: "Yes. Our network includes lenders that consider FICO scores below 600. Approval is not guaranteed." },
   { q: "What do I need to apply?", a: "Age 18+, U.S. residency, a steady income, an active checking account, and valid email and phone." },
   { q: "Is there a fee to apply?", a: "No. The service is free and there is no obligation to accept any offer." },
   { q: "Is my information secure?", a: "We use 256-bit SSL encryption and industry-standard security practices to protect your data." },

@@ -1,7 +1,7 @@
 import { ImageResponse } from "next/og";
 
 export const runtime = "edge";
-export const alt = "Fast Loan Advance — Borrow with intention";
+export const alt = "Fast Loan Advance · Borrow with intention";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -34,7 +34,7 @@ export default async function OG() {
           }}
         />
 
-        {/* Top — eyebrow + mark */}
+        {/* Top: eyebrow + mark */}
         <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
           <div
             style={{
@@ -68,7 +68,7 @@ export default async function OG() {
           </div>
         </div>
 
-        {/* Center — headline */}
+        {/* Center: headline */}
         <div style={{ display: "flex", flexDirection: "column", marginTop: 40 }}>
           <div
             style={{
@@ -110,7 +110,7 @@ export default async function OG() {
           </div>
         </div>
 
-        {/* Bottom — stats strip */}
+        {/* Bottom: stats strip */}
         <div
           style={{
             display: "flex",

@@ -8,7 +8,7 @@ import { siteConfig } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Begin your request",
   description:
-    "Apply for a personal loan from $100 to $50,000. Two minutes. Soft credit check only — no impact on your credit score.",
+    "Apply for a personal loan from $100 to $50,000. Two minutes. Soft credit check only. No impact on your credit score.",
   alternates: { canonical: "/apply" },
   robots: { index: true, follow: true },
 };
@@ -35,7 +35,7 @@ export default function ApplyPage() {
               Your <em className="italic text-forest-700">request</em>.
             </h1>
             <p className="max-w-[28ch] text-[14px] text-ink-500">
-              About two minutes. Soft credit check only — there is no impact on your score for asking.
+              About two minutes. Soft credit check only. There is no impact on your score for asking.
             </p>
           </div>
         </div>

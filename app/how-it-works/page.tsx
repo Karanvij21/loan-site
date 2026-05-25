@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 };
 
 const steps = [
-  { n: "01", t: "Submit your free request", b: "A short two-minute form. We ask for the loan amount, basic personal info, your income, and your bank-account status. We perform a soft credit inquiry only — your credit score is not affected." },
+  { n: "01", t: "Submit your free request", b: "A short two-minute form. We ask for the loan amount, basic personal info, your income, and your bank-account status. We perform a soft credit inquiry only. Your credit score is not affected." },
   { n: "02", t: "Review your offers", b: "We instantly share your request with lenders in our network, including LendingTree. Lenders respond in real time with rates, terms, and monthly payments. Compare offers and choose what fits." },
   { n: "03", t: "Get funded", b: "E-sign your loan agreement with the lender of your choice. Funds are typically deposited via ACH to your checking account as fast as the next business day." },
 ];

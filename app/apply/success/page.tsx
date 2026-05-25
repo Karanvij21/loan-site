@@ -18,7 +18,7 @@ export default function SuccessPage() {
         Request <em className="italic text-forest-700">received</em>.
       </h1>
       <p className="mt-6 max-w-[48ch] mx-auto text-[16px] leading-relaxed text-ink-700">
-        We&rsquo;re matching you with offers from our lending network now. Watch your email and phone over the next few minutes — your offers will arrive shortly.
+        We&rsquo;re matching you with offers from our lending network now. Watch your email and phone over the next few minutes. Your offers will arrive shortly.
       </p>
       <hr className="rule mx-auto mt-10 max-w-[120px]" />
       <Link href="/" className="btn btn-secondary mt-10">

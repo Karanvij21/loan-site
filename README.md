@@ -1,4 +1,4 @@
-# Fast Loan Advance — Lead-gen Site
+# Fast Loan Advance: Lead-gen Site
 
 A Next.js 15 + Tailwind v4 + Supabase loan-marketplace site, scaffolded for SEO/AEO/GEO and ready to forward leads to LendingTree once you have partner credentials.
 
@@ -13,7 +13,7 @@ A Next.js 15 + Tailwind v4 + Supabase loan-marketplace site, scaffolded for SEO/
 | Animations | Framer Motion |
 | Database | Supabase (Postgres) |
 | Email | SendGrid |
-| Lead forwarding | LendingTree (stub — plug in keys) |
+| Lead forwarding | LendingTree (stub: plug in keys) |
 | Hosting | Vercel |
 
 ## Quick start
@@ -36,12 +36,12 @@ The form works end-to-end in dev with mocked LendingTree + skipped Supabase/Send
 ## What's included
 
 ### Pages
-- `/` — homepage (hero, loan calculator, 4 product cards, 3-step process, example rates, FAQ, CTA)
-- `/apply` — multi-step application (5 steps, Zod-validated, framer-motion transitions)
-- `/apply/success` — confirmation
-- `/loans/{personal,bad-credit,emergency,cash-advance}` — SEO landing pages, dynamic routes from `lib/products.ts`
+- `/`: homepage (hero, loan calculator, 4 product cards, 3-step process, example rates, FAQ, CTA)
+- `/apply`: multi-step application (5 steps, Zod-validated, framer-motion transitions)
+- `/apply/success`: confirmation
+- `/loans/{personal,bad-credit,emergency,cash-advance}`: SEO landing pages, dynamic routes from `lib/products.ts`
 - `/how-it-works`, `/rates-and-fees`, `/faq`, `/about`, `/contact`
-- `/privacy`, `/terms`, `/disclosures` — legal (starter content — have counsel review)
+- `/privacy`, `/terms`, `/disclosures`: legal (starter content: have counsel review)
 
 ### SEO / AEO / GEO infrastructure
 - ✅ `app/sitemap.ts` → `/sitemap.xml` (auto-generated)
@@ -57,15 +57,15 @@ The form works end-to-end in dev with mocked LendingTree + skipped Supabase/Send
 - ✅ Font optimization via `next/font` (Inter, swap)
 
 ### API routes
-- `POST /api/lead` — validates with Zod, persists to Supabase, forwards to LendingTree, sends confirmation email
-- `GET /api/health` — integration-status check
+- `POST /api/lead`: validates with Zod, persists to Supabase, forwards to LendingTree, sends confirmation email
+- `GET /api/health`: integration-status check
 
 ### Compliance
 - TCPA consent checkbox with `consent_timestamp` logged
 - E-SIGN Act consent checkbox
 - Soft-credit-check disclosure
 - Representative APR example in footer + rates page
-- Privacy/Terms/Disclosures pages (starter templates — must be reviewed by counsel)
+- Privacy/Terms/Disclosures pages (starter templates: must be reviewed by counsel)
 
 ## Wiring up integrations
 
@@ -87,23 +87,23 @@ The form works end-to-end in dev with mocked LendingTree + skipped Supabase/Send
 
 ### 4. Plaid (optional, future)
 - For bank-verified income/identity. Get credentials at [dashboard.plaid.com](https://dashboard.plaid.com).
-- A `/api/plaid` route can be added later — schema fields already exist for it.
+- A `/api/plaid` route can be added later: schema fields already exist for it.
 
 ### 5. Analytics
 - Google Analytics 4: set `NEXT_PUBLIC_GA_ID`.
-- Google Tag Manager: set `NEXT_PUBLIC_GTM_ID` (preferred — manage pixels in GTM).
+- Google Tag Manager: set `NEXT_PUBLIC_GTM_ID` (preferred: manage pixels in GTM).
 - Microsoft Clarity (free heatmaps): set `NEXT_PUBLIC_CLARITY_ID`.
 
 ## SEO checklist before launch
 
 - [ ] Replace `og-default.png` with a real 1200×630 OG image (create in Figma or Canva).
-- [ ] Generate favicons (`favicon.ico`, `icon.svg`, `apple-icon.png`, `icon-192.png`, `icon-512.png`) — use [realfavicongenerator.net](https://realfavicongenerator.net).
+- [ ] Generate favicons (`favicon.ico`, `icon.svg`, `apple-icon.png`, `icon-192.png`, `icon-512.png`): use [realfavicongenerator.net](https://realfavicongenerator.net).
 - [ ] Submit `/sitemap.xml` to [Google Search Console](https://search.google.com/search-console) and [Bing Webmaster Tools](https://www.bing.com/webmasters).
 - [ ] Verify domain in GSC; add `GOOGLE_SITE_VERIFICATION` env var.
 - [ ] Set up [Trustpilot](https://business.trustpilot.com/) profile and add `NEXT_PUBLIC_TRUSTPILOT_BUSINESS_ID`.
-- [ ] Run [PageSpeed Insights](https://pagespeed.web.dev) — target LCP < 2.5s, CLS < 0.1, INP < 200ms.
+- [ ] Run [PageSpeed Insights](https://pagespeed.web.dev): target LCP < 2.5s, CLS < 0.1, INP < 200ms.
 - [ ] Test JSON-LD with [Schema Markup Validator](https://validator.schema.org) and Google's [Rich Results Test](https://search.google.com/test/rich-results).
-- [ ] Run [Lighthouse](https://developer.chrome.com/docs/lighthouse) — aim for 95+ on Performance, SEO, Accessibility, Best Practices.
+- [ ] Run [Lighthouse](https://developer.chrome.com/docs/lighthouse): aim for 95+ on Performance, SEO, Accessibility, Best Practices.
 
 ## AEO / GEO checklist (AI search)
 
@@ -137,8 +137,8 @@ app/
     page.tsx              # multi-step form entry
     success/page.tsx
   api/
-    lead/route.ts         # POST — main lead endpoint
-    health/route.ts       # GET — status
+    lead/route.ts         # POST: main lead endpoint
+    health/route.ts       # GET: status
   loans/[slug]/page.tsx   # product landing pages
   how-it-works/page.tsx
   rates-and-fees/page.tsx

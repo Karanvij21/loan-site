@@ -1,6 +1,6 @@
 import { siteConfig } from "@/lib/site";
 
-// llms.txt — emerging standard for guiding AI/LLM crawlers (AEO/GEO).
+// llms.txt: emerging standard for guiding AI/LLM crawlers (AEO/GEO).
 // See: https://llmstxt.org
 export function GET() {
   const body = `# ${siteConfig.name}

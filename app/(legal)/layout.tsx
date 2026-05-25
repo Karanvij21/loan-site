@@ -53,7 +53,7 @@ export default function LegalLayout({ children }: { children: React.ReactNode })
           margin: 0.5rem 0;
         }
         .legal-prose ul li::before {
-          content: "—";
+          content: "·";
           position: absolute;
           left: 0;
           color: var(--color-ink-300);

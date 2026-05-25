@@ -21,7 +21,7 @@ export function Step5Consent() {
         <input type="checkbox" {...register("tcpaConsent")} className="mt-1 h-4 w-4 accent-forest-700" />
         <span className="text-[12px] leading-relaxed text-ink-700">
           <span className="eyebrow !text-ink-900 block mb-1.5">Marketing &amp; contact consent (TCPA)</span>
-          I agree that {siteConfig.name} and its lending partners may contact me at the phone number and email I provided — including by autodialed calls, prerecorded messages, SMS, and email — about loan products and services, even if my number is on a Do Not Call list. Consent is not a condition of receiving a loan. Message/data rates may apply. I can opt out at any time by replying STOP. See our{" "}
+          I agree that {siteConfig.name} and its lending partners may contact me at the phone number and email I provided, including by autodialed calls, prerecorded messages, SMS, and email, about loan products and services, even if my number is on a Do Not Call list. Consent is not a condition of receiving a loan. Message/data rates may apply. I can opt out at any time by replying STOP. See our{" "}
           <Link href="/privacy" className="underline decoration-cream-400 underline-offset-2 hover:text-ink-900 hover:decoration-ink-900">Privacy Policy</Link> and{" "}
           <Link href="/terms" className="underline decoration-cream-400 underline-offset-2 hover:text-ink-900 hover:decoration-ink-900">Terms of Use</Link>.
         </span>

@@ -18,7 +18,7 @@ export const products: Record<ProductSlug, {
   personal: {
     slug: "personal",
     h1: "Personal Loans up to $50,000",
-    title: "Personal Loans Online — $1,000 to $50,000",
+    title: "Personal Loans Online: $1,000 to $50,000",
     description:
       "Compare personal loan offers from $1,000 to $50,000. Fixed APRs, terms up to 72 months, soft credit check. Get matched in 2 minutes.",
     amountMin: 1000,
@@ -28,12 +28,12 @@ export const products: Record<ProductSlug, {
     aprMin: 5.99,
     aprMax: 35.99,
     intro:
-      "A personal loan is a lump-sum installment loan you repay in fixed monthly payments. Use the funds for almost any purpose — consolidate debt, fund a major purchase, cover medical bills, or pay for a wedding. Our network includes lenders that work with a wide range of credit profiles.",
+      "A personal loan is a lump-sum installment loan you repay in fixed monthly payments. Use the funds for almost any purpose: consolidate debt, fund a major purchase, cover medical bills, or pay for a wedding. Our network includes lenders that work with a wide range of credit profiles.",
     bullets: [
       "Loan amounts from $1,000 to $50,000",
       "Fixed APRs typically 5.99% to 35.99%",
       "Repayment terms from 12 to 72 months",
-      "Soft credit check — no impact to apply",
+      "Soft credit check, no impact to apply",
       "Funds as fast as the next business day",
     ],
     faqs: [
@@ -44,8 +44,8 @@ export const products: Record<ProductSlug, {
   },
   "bad-credit": {
     slug: "bad-credit",
-    h1: "Bad Credit Loans — Get Offers Even With Low Credit",
-    title: "Bad Credit Personal Loans — $500 to $10,000",
+    h1: "Bad Credit Loans",
+    title: "Bad Credit Personal Loans: $500 to $10,000",
     description:
       "Personal loans for bad credit from $500 to $10,000. Lenders in our network consider FICO scores below 600. Apply with a soft credit check.",
     amountMin: 500,
@@ -55,13 +55,13 @@ export const products: Record<ProductSlug, {
     aprMin: 19.99,
     aprMax: 35.99,
     intro:
-      "A bad credit loan is a personal loan offered to borrowers with FICO scores below 600. Lenders that specialize in this market consider factors beyond credit score — including income, employment, and bank-account history — when evaluating your application.",
+      "A bad credit loan is a personal loan offered to borrowers with FICO scores below 600. Lenders that specialize in this market consider factors beyond credit score, including income, employment, and bank-account history, when evaluating your application.",
     bullets: [
       "Loan amounts from $500 to $10,000",
       "FICO scores below 600 considered",
       "APRs typically 19.99% to 35.99%",
       "Decision in minutes, funding in as little as 24 hours",
-      "Soft inquiry only — no impact to apply",
+      "Soft inquiry only, no impact to apply",
     ],
     faqs: [
       { q: "What credit score do I need?", a: "Some lenders in our network will consider scores as low as 500, though approval is not guaranteed. The higher your score and income, the better your odds and terms." },
@@ -71,8 +71,8 @@ export const products: Record<ProductSlug, {
   },
   emergency: {
     slug: "emergency",
-    h1: "Emergency Loans — Fast Cash When You Need It",
-    title: "Emergency Loans Online — $300 to $5,000 Fast",
+    h1: "Emergency Loans",
+    title: "Emergency Loans Online: $300 to $5,000 Fast",
     description:
       "Emergency loans from $300 to $5,000 with funding as fast as the next business day. Apply in 2 minutes with a soft credit check.",
     amountMin: 300,
@@ -82,7 +82,7 @@ export const products: Record<ProductSlug, {
     aprMin: 14.99,
     aprMax: 35.99,
     intro:
-      "An emergency loan is a short-term personal loan designed for unexpected expenses — a medical bill, car repair, or urgent home repair. Lenders in our network prioritize fast decisions and same-day or next-day funding.",
+      "An emergency loan is a short-term personal loan designed for unexpected expenses such as a medical bill, car repair, or urgent home repair. Lenders in our network prioritize fast decisions and same-day or next-day funding.",
     bullets: [
       "Loan amounts from $300 to $5,000",
       "Funding as fast as the next business day",
@@ -97,8 +97,8 @@ export const products: Record<ProductSlug, {
   },
   "cash-advance": {
     slug: "cash-advance",
-    h1: "Cash Advance Loans — Bridge to Your Next Paycheck",
-    title: "Online Cash Advance — $100 to $1,000",
+    h1: "Cash Advance Loans",
+    title: "Online Cash Advance: $100 to $1,000",
     description:
       "Short-term cash advances from $100 to $1,000. Funded as fast as next business day. Soft credit check, all credit considered.",
     amountMin: 100,
@@ -117,7 +117,7 @@ export const products: Record<ProductSlug, {
     ],
     faqs: [
       { q: "How is APR calculated on a cash advance?", a: "Because cash advances are short-term and small, the APR is much higher than a traditional installment loan. Always review the loan agreement and total cost before accepting." },
-      { q: "Is a cash advance the same as a payday loan?", a: "They are similar — both are small, short-term loans repaid on your next payday. Specific terms vary by lender and state regulation." },
+      { q: "Is a cash advance the same as a payday loan?", a: "They are similar. Both are small, short-term loans repaid on your next payday. Specific terms vary by lender and state regulation." },
     ],
   },
 };

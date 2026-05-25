@@ -4,8 +4,14 @@ import { Field, Select, TextInput } from "../Field";
 
 export function Step3Income() {
   return (
-    <div className="space-y-5">
-      <h2 className="text-xl font-semibold text-slate-900">Your income</h2>
+    <div className="space-y-7">
+      <header>
+        <h2 className="text-[32px] leading-[1.05] text-ink-900" style={{ fontFamily: "var(--font-display)", fontWeight: 400 }}>
+          Your <em className="italic text-forest-700">income</em>.
+        </h2>
+        <p className="mt-2 text-[14px] text-ink-500">Lenders need to verify you can repay comfortably.</p>
+      </header>
+
       <Field name="employmentStatus" label="Employment status">
         <Select name="employmentStatus" defaultValue="">
           <option value="" disabled>Choose one</option>
@@ -22,9 +28,9 @@ export function Step3Income() {
         <TextInput name="employerName" autoComplete="organization" />
       </Field>
       <Field name="monthlyIncome" label="Monthly income before tax (USD)">
-        <TextInput name="monthlyIncome" type="number" min={0} step={100} inputMode="numeric" />
+        <TextInput name="monthlyIncome" type="number" min={0} step={100} inputMode="numeric" className="tabular" />
       </Field>
-      <div className="grid gap-4 sm:grid-cols-2">
+      <div className="grid gap-5 sm:grid-cols-2">
         <Field name="payFrequency" label="Pay frequency">
           <Select name="payFrequency" defaultValue="">
             <option value="" disabled>Choose one</option>

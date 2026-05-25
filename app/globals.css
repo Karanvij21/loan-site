@@ -1,57 +1,323 @@
 @import "tailwindcss";
 
+/* ─────────────────────────────────────────────────────────────
+   Editorial Verdant — design system
+   ───────────────────────────────────────────────────────────── */
+
 @theme {
-  --color-brand-50: #eef7ff;
-  --color-brand-100: #d9ecff;
-  --color-brand-200: #bcdfff;
-  --color-brand-300: #8ecbff;
-  --color-brand-400: #59adff;
-  --color-brand-500: #2e8cff;
-  --color-brand-600: #186ef0;
-  --color-brand-700: #1357d4;
-  --color-brand-800: #1648a8;
-  --color-brand-900: #163f85;
-  --color-brand-950: #0f2854;
+  /* Cream — paper */
+  --color-cream-50:  #FCFAF3;
+  --color-cream-100: #FAF6EC;
+  --color-cream-200: #F2EBD8;
+  --color-cream-300: #E5DBC0;
+  --color-cream-400: #D4C8A8;
+  --color-cream-500: #BFB291;
 
-  --color-accent-500: #16a34a;
-  --color-accent-600: #15803d;
+  /* Ink — text */
+  --color-ink-100: #C7CAC6;
+  --color-ink-300: #8A8F8B;
+  --color-ink-500: #5A5F5B;
+  --color-ink-700: #2A2E2B;
+  --color-ink-900: #0A0D0B;
 
-  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
-  --font-display: "Inter", ui-sans-serif, system-ui, sans-serif;
+  /* Forest — brand */
+  --color-forest-50:  #E8EFEB;
+  --color-forest-100: #C6D5CC;
+  --color-forest-300: #6B9181;
+  --color-forest-500: #1B5E4A;
+  --color-forest-700: #0E3B2E;
+  --color-forest-900: #061F18;
+
+  /* Amber — warm accent (use sparingly) */
+  --color-amber-300: #D89564;
+  --color-amber-500: #B6691F;
+  --color-amber-700: #8A4D14;
+
+  --font-display: var(--font-fraunces), ui-serif, Georgia, serif;
+  --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-geist-mono), ui-monospace, "SFMono-Regular", monospace;
 }
 
 :root {
   color-scheme: light;
+  --grain-opacity: 0.035;
 }
+
+/* ─────────────────────────────────────────────────────────────
+   Base
+   ───────────────────────────────────────────────────────────── */
 
 html {
   scroll-behavior: smooth;
   -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
+  font-feature-settings: "ss01", "ss02", "cv11";
 }
 
 body {
   font-family: var(--font-sans);
-  background: #ffffff;
-  color: #0f172a;
+  background-color: var(--color-cream-100);
+  color: var(--color-ink-900);
+  font-size: 16px;
+  line-height: 1.55;
+  letter-spacing: -0.005em;
 }
 
-/* Focus ring — WCAG AA */
+/* Paper grain — adds tactile depth */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 1;
+  opacity: var(--grain-opacity);
+  background-image: url("data:image/svg+xml;utf8,<svg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.7 0'/></filter><rect width='100%25' height='100%25' filter='url(%23n)'/></svg>");
+  mix-blend-mode: multiply;
+}
+
+/* ─────────────────────────────────────────────────────────────
+   Display type — Fraunces with optical/soft axes
+   ───────────────────────────────────────────────────────────── */
+
+.font-display,
+h1, h2, h3 {
+  font-family: var(--font-display);
+  font-variation-settings: "opsz" 144, "SOFT" 50, "WONK" 0;
+  letter-spacing: -0.022em;
+  line-height: 1.02;
+}
+
+h1 { font-weight: 380; }
+h2 { font-weight: 400; }
+h3 { font-weight: 500; font-variation-settings: "opsz" 60, "SOFT" 50; }
+
+/* Italic display gets a hint more wonk for character */
+.font-display em,
+h1 em, h2 em {
+  font-style: italic;
+  font-variation-settings: "opsz" 144, "SOFT" 100, "WONK" 1;
+}
+
+/* ─────────────────────────────────────────────────────────────
+   Utility primitives
+   ───────────────────────────────────────────────────────────── */
+
+.tabular {
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: "tnum", "cv11";
+}
+
+.eyebrow {
+  font-family: var(--font-sans);
+  font-weight: 500;
+  font-size: 0.6875rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--color-ink-500);
+}
+
+.hairline {
+  border-color: var(--color-cream-400);
+}
+
+/* Subtle hand-drawn underline */
+.ink-underline {
+  background-image: linear-gradient(transparent 85%, currentColor 85%, currentColor 92%, transparent 92%);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding-bottom: 0.05em;
+}
+
+/* Focus — refined */
 :focus-visible {
-  outline: 2px solid var(--color-brand-600);
-  outline-offset: 2px;
+  outline: 2px solid var(--color-forest-700);
+  outline-offset: 3px;
+  border-radius: 2px;
 }
 
 /* Skip link */
 .skip-link {
   position: absolute;
-  top: -40px;
+  top: -60px;
   left: 0;
-  background: var(--color-brand-700);
-  color: #fff;
-  padding: 8px 16px;
+  background: var(--color-ink-900);
+  color: var(--color-cream-100);
+  padding: 10px 18px;
+  font-size: 0.875rem;
   z-index: 100;
+  transition: top 0.15s ease;
 }
-.skip-link:focus {
-  top: 0;
+.skip-link:focus { top: 0; }
+
+/* ─────────────────────────────────────────────────────────────
+   Buttons
+   ───────────────────────────────────────────────────────────── */
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.875rem 1.5rem;
+  font-family: var(--font-sans);
+  font-weight: 500;
+  font-size: 0.9375rem;
+  letter-spacing: -0.01em;
+  border-radius: 999px;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.btn-primary {
+  background: var(--color-ink-900);
+  color: var(--color-cream-100);
+}
+.btn-primary:hover {
+  background: var(--color-forest-700);
+  transform: translateY(-1px);
+}
+
+.btn-secondary {
+  background: transparent;
+  color: var(--color-ink-900);
+  border: 1px solid var(--color-cream-400);
+}
+.btn-secondary:hover {
+  border-color: var(--color-ink-900);
+  background: var(--color-cream-200);
+}
+
+.btn-accent {
+  background: var(--color-forest-700);
+  color: var(--color-cream-100);
+}
+.btn-accent:hover { background: var(--color-forest-500); }
+
+/* ─────────────────────────────────────────────────────────────
+   Inputs — editorial, generous
+   ───────────────────────────────────────────────────────────── */
+
+.input {
+  width: 100%;
+  padding: 0.875rem 1rem;
+  background: var(--color-cream-50);
+  border: 1px solid var(--color-cream-400);
+  border-radius: 6px;
+  font-family: var(--font-sans);
+  font-size: 1rem;
+  color: var(--color-ink-900);
+  transition: border-color 0.15s ease, background 0.15s ease;
+}
+.input::placeholder { color: var(--color-ink-300); }
+.input:hover { border-color: var(--color-cream-500); }
+.input:focus {
+  outline: none;
+  border-color: var(--color-forest-700);
+  background: white;
+}
+.input[aria-invalid="true"] {
+  border-color: var(--color-amber-500);
+}
+
+/* ─────────────────────────────────────────────────────────────
+   Range slider — minimal, refined
+   ───────────────────────────────────────────────────────────── */
+
+input[type="range"].range-refined {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 100%;
+  height: 24px;
+  background: transparent;
+}
+input[type="range"].range-refined::-webkit-slider-runnable-track {
+  height: 2px;
+  background: var(--color-cream-400);
+  border-radius: 1px;
+}
+input[type="range"].range-refined::-moz-range-track {
+  height: 2px;
+  background: var(--color-cream-400);
+  border-radius: 1px;
+}
+input[type="range"].range-refined::-webkit-slider-thumb {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: var(--color-ink-900);
+  border: 3px solid var(--color-cream-100);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.12);
+  margin-top: -10px;
+  cursor: grab;
+  transition: transform 0.15s ease;
+}
+input[type="range"].range-refined::-moz-range-thumb {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: var(--color-ink-900);
+  border: 3px solid var(--color-cream-100);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.12);
+  cursor: grab;
+}
+input[type="range"].range-refined:active::-webkit-slider-thumb {
+  cursor: grabbing;
+  transform: scale(1.1);
+}
+
+/* ─────────────────────────────────────────────────────────────
+   Reveal — soft fade-up on first paint
+   ───────────────────────────────────────────────────────────── */
+
+@keyframes reveal-up {
+  from { opacity: 0; transform: translateY(12px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.reveal {
+  animation: reveal-up 0.9s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+.reveal-1 { animation-delay: 0.05s; }
+.reveal-2 { animation-delay: 0.15s; }
+.reveal-3 { animation-delay: 0.25s; }
+.reveal-4 { animation-delay: 0.35s; }
+.reveal-5 { animation-delay: 0.45s; }
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal { animation: none; }
+  html { scroll-behavior: auto; }
+}
+
+/* ─────────────────────────────────────────────────────────────
+   Decorative — hairline rules with character
+   ───────────────────────────────────────────────────────────── */
+
+.rule {
+  border: 0;
+  border-top: 1px solid var(--color-cream-400);
+  margin: 0;
+}
+.rule-ink { border-top-color: var(--color-ink-900); }
+.rule-forest { border-top-color: var(--color-forest-700); }
+
+/* Dotted accent line */
+.dotted {
+  background-image: radial-gradient(circle, var(--color-cream-500) 1px, transparent 1px);
+  background-size: 6px 6px;
+  background-repeat: repeat-x;
+  background-position: center;
+  height: 6px;
+}
+
+/* ─────────────────────────────────────────────────────────────
+   Selection
+   ───────────────────────────────────────────────────────────── */
+
+::selection {
+  background: var(--color-forest-700);
+  color: var(--color-cream-100);
 }

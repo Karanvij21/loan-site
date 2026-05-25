@@ -1,18 +1,27 @@
 export function TrustBar() {
   const items = [
-    { label: "256-bit SSL", sub: "Bank-grade encryption" },
-    { label: "Soft check", sub: "No impact on credit" },
-    { label: "All 50 states", sub: "Where legal" },
-    { label: "2 minutes", sub: "Fast application" },
+    { k: "2 min", v: "to apply" },
+    { k: "0 fees", v: "to compare" },
+    { k: "50 states", v: "covered" },
+    { k: "$50K", v: "max amount" },
   ];
   return (
-    <ul className="mt-8 grid grid-cols-2 gap-4 sm:grid-cols-4" aria-label="Trust signals">
-      {items.map((i) => (
-        <li key={i.label} className="rounded-lg border border-slate-200 bg-white/70 p-3 text-center">
-          <p className="text-sm font-semibold text-slate-900">{i.label}</p>
-          <p className="text-xs text-slate-500">{i.sub}</p>
-        </li>
-      ))}
-    </ul>
+    <div className="mt-12">
+      <hr className="rule" />
+      <ul className="grid grid-cols-2 gap-y-6 py-6 sm:grid-cols-4">
+        {items.map((i) => (
+          <li key={i.k} className="flex flex-col">
+            <span
+              className="tabular text-2xl text-ink-900"
+              style={{ fontFamily: "var(--font-display)", fontWeight: 400 }}
+            >
+              {i.k}
+            </span>
+            <span className="eyebrow mt-1.5">{i.v}</span>
+          </li>
+        ))}
+      </ul>
+      <hr className="rule" />
+    </div>
   );
 }

@@ -2,36 +2,28 @@ import { cn } from "@/lib/utils";
 
 export function StepProgress({ steps, current }: { steps: string[]; current: number }) {
   return (
-    <ol className="flex items-center justify-between gap-2" aria-label="Application progress">
-      {steps.map((label, i) => {
-        const done = i < current;
-        const active = i === current;
-        return (
-          <li key={label} className="flex-1">
-            <div className="flex items-center gap-2">
-              <span
-                aria-current={active ? "step" : undefined}
-                className={cn(
-                  "flex h-8 w-8 shrink-0 items-center justify-center rounded-full text-sm font-semibold",
-                  done && "bg-brand-600 text-white",
-                  active && "bg-brand-100 text-brand-800 ring-2 ring-brand-600",
-                  !done && !active && "bg-slate-100 text-slate-500"
-                )}
-              >
-                {done ? "✓" : i + 1}
-              </span>
-              <span
-                className={cn(
-                  "hidden text-xs font-medium sm:inline",
-                  active ? "text-brand-800" : "text-slate-600"
-                )}
-              >
-                {label}
-              </span>
-            </div>
-          </li>
-        );
-      })}
-    </ol>
+    <div className="space-y-3">
+      <div className="flex items-baseline justify-between">
+        <span className="eyebrow">
+          Step {String(current + 1).padStart(2, "0")} <span className="text-ink-300">/ {String(steps.length).padStart(2, "0")}</span>
+        </span>
+        <span className="text-[13px] text-ink-700" style={{ fontFamily: "var(--font-display)", fontSize: 18 }}>
+          {steps[current]}
+        </span>
+      </div>
+      <div className="flex gap-1.5" role="progressbar" aria-valuenow={current + 1} aria-valuemin={1} aria-valuemax={steps.length}>
+        {steps.map((label, i) => (
+          <div
+            key={label}
+            className={cn(
+              "h-[3px] flex-1 rounded-full transition-colors duration-300",
+              i < current && "bg-forest-700",
+              i === current && "bg-ink-900",
+              i > current && "bg-cream-300"
+            )}
+          />
+        ))}
+      </div>
+    </div>
   );
 }

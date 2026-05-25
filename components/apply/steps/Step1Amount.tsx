@@ -4,10 +4,16 @@ import { Field, Select, TextInput } from "../Field";
 
 export function Step1Amount() {
   return (
-    <div className="space-y-5">
-      <h2 className="text-xl font-semibold text-slate-900">How much do you need?</h2>
-      <Field name="amount" label="Loan amount (USD)" help="Between $100 and $50,000">
-        <TextInput name="amount" type="number" inputMode="numeric" min={100} max={50000} step={100} />
+    <div className="space-y-7">
+      <header>
+        <h2 className="text-[32px] leading-[1.05] text-ink-900" style={{ fontFamily: "var(--font-display)", fontWeight: 400 }}>
+          How much do you need?
+        </h2>
+        <p className="mt-2 text-[14px] text-ink-500">Between $100 and $50,000.</p>
+      </header>
+
+      <Field name="amount" label="Loan amount (USD)">
+        <TextInput name="amount" type="number" inputMode="numeric" min={100} max={50000} step={100} className="tabular" />
       </Field>
       <Field name="purpose" label="Loan purpose">
         <Select name="purpose" defaultValue="">

@@ -2,16 +2,25 @@ import Link from "next/link";
 
 export default function NotFound() {
   return (
-    <div className="mx-auto flex max-w-xl flex-col items-center px-4 py-24 text-center">
-      <p className="text-sm font-semibold uppercase tracking-wider text-brand-700">404</p>
-      <h1 className="mt-3 text-4xl font-bold tracking-tight text-slate-900 sm:text-5xl">Page not found</h1>
-      <p className="mt-4 text-slate-600">We couldn&rsquo;t find that page. It may have been moved or deleted.</p>
-      <Link
-        href="/"
-        className="mt-8 inline-flex items-center justify-center rounded-lg bg-brand-600 px-6 py-3 text-base font-semibold text-white hover:bg-brand-700"
+    <div className="mx-auto flex max-w-[600px] flex-col px-6 py-32 text-center lg:px-10">
+      <span className="eyebrow">Error 404</span>
+      <h1
+        className="mt-6 text-[88px] leading-[0.95] tracking-tight text-ink-900 lg:text-[140px]"
+        style={{ fontFamily: "var(--font-display)", fontWeight: 380 }}
       >
-        Back to home
-      </Link>
+        Not <em className="italic text-forest-700">found</em>.
+      </h1>
+      <p className="mt-6 text-[16px] leading-relaxed text-ink-700">
+        We couldn&rsquo;t locate that page. It may have been moved or never existed.
+      </p>
+      <div className="mt-10">
+        <Link href="/" className="btn btn-primary">
+          Return home
+          <svg width="14" height="14" viewBox="0 0 14 14" aria-hidden fill="none">
+            <path d="M3 7h8M7 3l4 4-4 4" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round" />
+          </svg>
+        </Link>
+      </div>
     </div>
   );
 }

@@ -3,7 +3,7 @@ import { FaqJsonLd, BreadcrumbJsonLd } from "@/components/seo/JsonLd";
 import { siteConfig } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "FAQ — Personal Loan Questions Answered",
+  title: "Frequently asked questions",
   description: "Answers to common questions about personal loans, credit checks, eligibility, funding speed, fees, and more.",
   alternates: { canonical: "/faq" },
 };
@@ -31,16 +31,22 @@ export default function FAQPage() {
           { name: "FAQ", url: `${siteConfig.url}/faq` },
         ]}
       />
-      <article className="mx-auto max-w-3xl px-4 py-16 sm:px-6 lg:px-8">
-        <h1 className="text-4xl font-bold tracking-tight text-slate-900 sm:text-5xl">Frequently asked questions</h1>
-        <dl className="mt-10 space-y-3">
+      <article className="mx-auto max-w-[920px] px-6 py-20 lg:px-10 lg:py-28">
+        <span className="eyebrow">Honest answers</span>
+        <h1 className="mt-3 text-[52px] leading-[1.02] tracking-tight text-ink-900 lg:text-[80px]" style={{ fontFamily: "var(--font-display)", fontWeight: 380 }}>
+          Frequently asked.
+        </h1>
+
+        <dl className="mt-14 border-t border-ink-900">
           {faqs.map((f) => (
-            <details key={f.q} className="group rounded-xl border border-slate-200 bg-white p-5 open:shadow-sm">
-              <summary className="flex cursor-pointer items-center justify-between gap-4 text-base font-semibold text-slate-900">
-                <span>{f.q}</span>
-                <span className="text-brand-600 transition group-open:rotate-45 text-xl">+</span>
+            <details key={f.q} className="group border-b border-cream-300 py-5">
+              <summary className="flex cursor-pointer items-baseline justify-between gap-6 marker:hidden">
+                <span className="text-lg text-ink-900 lg:text-xl" style={{ fontFamily: "var(--font-display)" }}>
+                  {f.q}
+                </span>
+                <span className="shrink-0 text-xl text-ink-300 transition-transform duration-300 group-open:rotate-45">+</span>
               </summary>
-              <dd className="mt-3 text-slate-700">{f.a}</dd>
+              <dd className="mt-3 max-w-[60ch] text-[15px] leading-relaxed text-ink-700">{f.a}</dd>
             </details>
           ))}
         </dl>

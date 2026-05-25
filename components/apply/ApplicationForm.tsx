@@ -21,7 +21,7 @@ const stepFields: (keyof FullApplication)[][] = [
   ["tcpaConsent", "ecConsent"],
 ];
 
-const steps = ["Amount", "Personal", "Income", "Banking", "Consent"];
+const steps = ["Amount", "About you", "Income", "Banking", "Consent"];
 
 export function ApplicationForm() {
   const router = useRouter();
@@ -71,64 +71,71 @@ export function ApplicationForm() {
 
   return (
     <FormProvider {...methods}>
-      <StepProgress steps={steps} current={stepIdx} />
+      <div className="rounded-[18px] bg-cream-50 ring-1 ring-cream-300/80 p-7 sm:p-10 lg:p-12 shadow-[0_30px_60px_-30px_rgba(14,59,46,0.10)]">
+        <StepProgress steps={steps} current={stepIdx} />
 
-      <form
-        onSubmit={onSubmit}
-        className="mt-8 rounded-2xl border border-slate-200 bg-white p-6 shadow-sm sm:p-8"
-        noValidate
-      >
-        <AnimatePresence mode="wait">
-          <motion.div
-            key={stepIdx}
-            initial={{ opacity: 0, x: 20 }}
-            animate={{ opacity: 1, x: 0 }}
-            exit={{ opacity: 0, x: -20 }}
-            transition={{ duration: 0.2 }}
-          >
-            {stepIdx === 0 && <Step1Amount />}
-            {stepIdx === 1 && <Step2Personal />}
-            {stepIdx === 2 && <Step3Income />}
-            {stepIdx === 3 && <Step4Bank />}
-            {stepIdx === 4 && <Step5Consent />}
-          </motion.div>
-        </AnimatePresence>
+        <form onSubmit={onSubmit} className="mt-10" noValidate>
+          <AnimatePresence mode="wait">
+            <motion.div
+              key={stepIdx}
+              initial={{ opacity: 0, y: 8 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -8 }}
+              transition={{ duration: 0.25, ease: [0.16, 1, 0.3, 1] }}
+            >
+              {stepIdx === 0 && <Step1Amount />}
+              {stepIdx === 1 && <Step2Personal />}
+              {stepIdx === 2 && <Step3Income />}
+              {stepIdx === 3 && <Step4Bank />}
+              {stepIdx === 4 && <Step5Consent />}
+            </motion.div>
+          </AnimatePresence>
 
-        {error && (
-          <p role="alert" className="mt-4 rounded-lg bg-red-50 p-3 text-sm text-red-700">
-            {error}
-          </p>
-        )}
+          {error && (
+            <p role="alert" className="mt-6 rounded-md border border-amber-500/30 bg-amber-300/10 p-4 text-[13px] text-amber-700">
+              {error}
+            </p>
+          )}
 
-        <div className="mt-8 flex items-center justify-between gap-3">
-          <button
-            type="button"
-            onClick={onBack}
-            disabled={stepIdx === 0}
-            className="rounded-lg border border-slate-300 bg-white px-5 py-2.5 text-sm font-semibold text-slate-700 hover:bg-slate-50 disabled:opacity-40"
-          >
-            Back
-          </button>
+          <hr className="rule mt-10" />
 
-          {stepIdx < steps.length - 1 ? (
+          <div className="mt-6 flex items-center justify-between gap-3">
             <button
               type="button"
-              onClick={onNext}
-              className="rounded-lg bg-brand-600 px-6 py-2.5 text-sm font-semibold text-white hover:bg-brand-700"
+              onClick={onBack}
+              disabled={stepIdx === 0}
+              className="btn btn-secondary !py-2.5 !px-5 !text-[14px] disabled:opacity-40 disabled:cursor-not-allowed"
             >
-              Continue
+              <svg width="14" height="14" viewBox="0 0 14 14" aria-hidden fill="none">
+                <path d="M11 7H3M7 11l-4-4 4-4" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round" />
+              </svg>
+              Back
             </button>
-          ) : (
-            <button
-              type="submit"
-              disabled={submitting}
-              className="rounded-lg bg-brand-600 px-6 py-2.5 text-sm font-semibold text-white hover:bg-brand-700 disabled:opacity-60"
-            >
-              {submitting ? "Submitting…" : "See my offers"}
-            </button>
-          )}
-        </div>
-      </form>
+
+            {stepIdx < steps.length - 1 ? (
+              <button type="button" onClick={onNext} className="btn btn-primary">
+                Continue
+                <svg width="14" height="14" viewBox="0 0 14 14" aria-hidden fill="none">
+                  <path d="M3 7h8M7 3l4 4-4 4" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round" />
+                </svg>
+              </button>
+            ) : (
+              <button
+                type="submit"
+                disabled={submitting}
+                className="btn btn-accent disabled:opacity-60"
+              >
+                {submitting ? "Submitting…" : "See my offers"}
+                {!submitting && (
+                  <svg width="14" height="14" viewBox="0 0 14 14" aria-hidden fill="none">
+                    <path d="M3 7h8M7 3l4 4-4 4" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round" />
+                  </svg>
+                )}
+              </button>
+            )}
+          </div>
+        </form>
+      </div>
     </FormProvider>
   );
 }

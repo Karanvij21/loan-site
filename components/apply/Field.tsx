@@ -19,13 +19,13 @@ export function Field({
   const err = errors[name];
   return (
     <div>
-      <label htmlFor={name} className="block text-sm font-medium text-slate-700">
+      <label htmlFor={name} className="eyebrow !text-ink-700">
         {label}
       </label>
-      <div className="mt-1.5">{children}</div>
-      {help && !err && <p className="mt-1 text-xs text-slate-500">{help}</p>}
+      <div className="mt-2">{children}</div>
+      {help && !err && <p className="mt-1.5 text-[12px] text-ink-300">{help}</p>}
       {err && (
-        <p role="alert" className="mt-1 text-xs text-red-600">
+        <p role="alert" className="mt-1.5 text-[12px] text-amber-700">
           {String(err.message)}
         </p>
       )}
@@ -33,17 +33,15 @@ export function Field({
   );
 }
 
-export function TextInput({ name, ...rest }: { name: string } & InputHTMLAttributes<HTMLInputElement>) {
+export function TextInput({ name, className, ...rest }: { name: string } & InputHTMLAttributes<HTMLInputElement>) {
   const { register, formState: { errors } } = useFormContext();
   return (
     <input
       id={name}
       {...register(name)}
       {...rest}
-      className={cn(
-        "block w-full rounded-lg border bg-white px-3 py-2 text-sm shadow-sm focus:outline-none focus:ring-2 focus:ring-brand-600",
-        errors[name] ? "border-red-400" : "border-slate-300"
-      )}
+      aria-invalid={errors[name] ? "true" : undefined}
+      className={cn("input", className)}
     />
   );
 }
@@ -51,6 +49,7 @@ export function TextInput({ name, ...rest }: { name: string } & InputHTMLAttribu
 export function Select({
   name,
   children,
+  className,
   ...rest
 }: { name: string; children: ReactNode } & SelectHTMLAttributes<HTMLSelectElement>) {
   const { register, formState: { errors } } = useFormContext();
@@ -59,10 +58,13 @@ export function Select({
       id={name}
       {...register(name)}
       {...rest}
-      className={cn(
-        "block w-full rounded-lg border bg-white px-3 py-2 text-sm shadow-sm focus:outline-none focus:ring-2 focus:ring-brand-600",
-        errors[name] ? "border-red-400" : "border-slate-300"
-      )}
+      aria-invalid={errors[name] ? "true" : undefined}
+      className={cn("input appearance-none bg-no-repeat bg-[right_1rem_center] bg-[length:10px_10px]", className)}
+      style={{
+        backgroundImage:
+          "url(\"data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 10 10' fill='none' stroke='%235A5F5B' stroke-width='1.4'><path d='M2 4l3 3 3-3' stroke-linecap='round' stroke-linejoin='round'/></svg>\")",
+        paddingRight: "2.5rem",
+      }}
     >
       {children}
     </select>

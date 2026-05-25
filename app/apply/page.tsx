@@ -1,39 +1,49 @@
 import type { Metadata } from "next";
 import { Suspense } from "react";
+import Link from "next/link";
 import { ApplicationForm } from "@/components/apply/ApplicationForm";
 import { BreadcrumbJsonLd } from "@/components/seo/JsonLd";
 import { siteConfig } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "Apply for a Personal Loan",
+  title: "Begin your request",
   description:
-    "Apply for a personal loan from $100 to $50,000. Takes about 2 minutes. Soft credit check only — no impact on your credit score.",
+    "Apply for a personal loan from $100 to $50,000. Two minutes. Soft credit check only — no impact on your credit score.",
   alternates: { canonical: "/apply" },
   robots: { index: true, follow: true },
 };
 
 export default function ApplyPage() {
   return (
-    <div className="bg-slate-50">
+    <>
       <BreadcrumbJsonLd
         items={[
           { name: "Home", url: `${siteConfig.url}/` },
           { name: "Apply", url: `${siteConfig.url}/apply` },
         ]}
       />
-      <div className="mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
-        <header className="mb-8 text-center">
-          <h1 className="text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
-            Get your loan offers
-          </h1>
-          <p className="mt-3 text-slate-600">
-            Takes about 2 minutes. Soft credit check only — no impact on your score.
-          </p>
-        </header>
-        <Suspense fallback={<div className="h-96 animate-pulse rounded-2xl bg-white" />}>
+      <div className="mx-auto max-w-[920px] px-6 pt-12 pb-20 lg:px-10 lg:pt-16">
+        <div className="mb-12">
+          <div className="flex items-center gap-3 text-[12px] text-ink-500">
+            <Link href="/" className="hover:text-ink-900">Home</Link>
+            <span className="text-ink-300">/</span>
+            <span className="text-ink-900">Begin</span>
+          </div>
+
+          <div className="mt-6 grid items-end gap-6 lg:grid-cols-[1fr_auto]">
+            <h1 className="text-[44px] leading-[1.02] tracking-tight text-ink-900 lg:text-[64px]" style={{ fontFamily: "var(--font-display)", fontWeight: 380 }}>
+              Your <em className="italic text-forest-700">request</em>.
+            </h1>
+            <p className="max-w-[28ch] text-[14px] text-ink-500">
+              About two minutes. Soft credit check only — there is no impact on your score for asking.
+            </p>
+          </div>
+        </div>
+
+        <Suspense fallback={<div className="h-[480px] animate-pulse rounded-[18px] bg-cream-50 ring-1 ring-cream-300" />}>
           <ApplicationForm />
         </Suspense>
       </div>
-    </div>
+    </>
   );
 }

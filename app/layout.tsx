@@ -1,5 +1,7 @@
 import type { Metadata, Viewport } from "next";
-import { Inter } from "next/font/google";
+import { Fraunces } from "next/font/google";
+import { GeistSans } from "geist/font/sans";
+import { GeistMono } from "geist/font/mono";
 import Script from "next/script";
 import { siteConfig } from "@/lib/site";
 import { Header } from "@/components/layout/Header";
@@ -7,14 +9,15 @@ import { Footer } from "@/components/layout/Footer";
 import { OrganizationJsonLd, WebSiteJsonLd } from "@/components/seo/JsonLd";
 import "./globals.css";
 
-const inter = Inter({
+const fraunces = Fraunces({
   subsets: ["latin"],
   display: "swap",
-  variable: "--font-inter",
+  variable: "--font-fraunces",
+  axes: ["opsz", "SOFT"],
 });
 
 export const viewport: Viewport = {
-  themeColor: "#1357d4",
+  themeColor: "#0E3B2E",
   width: "device-width",
   initialScale: 1,
 };
@@ -22,8 +25,8 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
   title: {
-    default: `${siteConfig.name} — Personal Loans up to $50,000`,
-    template: `%s | ${siteConfig.name}`,
+    default: `${siteConfig.name} — Borrow with intention`,
+    template: `%s · ${siteConfig.name}`,
   },
   description: siteConfig.description,
   keywords: [...siteConfig.keywords],
@@ -42,22 +45,13 @@ export const metadata: Metadata = {
     locale: "en_US",
     url: siteConfig.url,
     siteName: siteConfig.name,
-    title: `${siteConfig.name} — Personal Loans up to $50,000`,
+    title: `${siteConfig.name} — Borrow with intention`,
     description: siteConfig.description,
-    images: [
-      {
-        url: "/og-default.png",
-        width: 1200,
-        height: 630,
-        alt: `${siteConfig.name} — A smarter way to borrow`,
-      },
-    ],
   },
   twitter: {
     card: "summary_large_image",
-    title: `${siteConfig.name} — Personal Loans up to $50,000`,
+    title: `${siteConfig.name} — Borrow with intention`,
     description: siteConfig.shortDescription,
-    images: ["/og-default.png"],
     creator: siteConfig.social.twitter,
   },
   robots: {
@@ -71,17 +65,8 @@ export const metadata: Metadata = {
       "max-video-preview": -1,
     },
   },
-  icons: {
-    icon: [
-      { url: "/favicon.ico" },
-      { url: "/icon.svg", type: "image/svg+xml" },
-    ],
-    apple: "/apple-icon.png",
-  },
   manifest: "/manifest.webmanifest",
-  verification: {
-    google: process.env.GOOGLE_SITE_VERIFICATION,
-  },
+  verification: { google: process.env.GOOGLE_SITE_VERIFICATION },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
@@ -90,7 +75,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   const clarityId = process.env.NEXT_PUBLIC_CLARITY_ID;
 
   return (
-    <html lang="en" className={inter.variable}>
+    <html
+      lang="en"
+      className={`${fraunces.variable} ${GeistSans.variable} ${GeistMono.variable}`}
+    >
       <head>
         <OrganizationJsonLd />
         <WebSiteJsonLd />
@@ -116,7 +104,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           `}</Script>
         )}
       </head>
-      <body className="min-h-screen flex flex-col antialiased">
+      <body className="min-h-screen flex flex-col">
         <a href="#main" className="skip-link">Skip to content</a>
         {gtmId && (
           <noscript>
@@ -129,7 +117,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           </noscript>
         )}
         <Header />
-        <main id="main" className="flex-1">{children}</main>
+        <main id="main" className="flex-1 relative z-[2]">{children}</main>
         <Footer />
       </body>
     </html>

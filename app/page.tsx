@@ -4,95 +4,43 @@ import { siteConfig } from "@/lib/site";
 import { FaqJsonLd, LoanProductJsonLd } from "@/components/seo/JsonLd";
 import { LoanCalculator } from "@/components/home/LoanCalculator";
 import { TrustBar } from "@/components/home/TrustBar";
+import { HeroMark } from "@/components/home/HeroMark";
 
 export const metadata: Metadata = {
-  title: `${siteConfig.name} — Personal Loans up to $50,000 | Apply Online`,
+  title: `${siteConfig.name} — Borrow with intention. Personal loans up to $50,000.`,
   description:
-    "Compare personal loan offers from $100 up to $50,000 in 2 minutes. Bad credit considered. Soft credit check. Free, no obligation. Funds as fast as next business day.",
+    "Compare fixed-rate personal loans from $100 to $50,000 in two minutes. Soft credit check, no obligation, funds as fast as the next business day.",
   alternates: { canonical: "/" },
 };
 
 const products = [
-  {
-    href: "/loans/personal",
-    title: "Personal Loans",
-    amount: "$1,000 – $50,000",
-    blurb: "Fixed-rate installment loans for almost any purpose.",
-  },
-  {
-    href: "/loans/bad-credit",
-    title: "Bad Credit Loans",
-    amount: "$500 – $10,000",
-    blurb: "Lenders that consider applicants with all credit profiles.",
-  },
-  {
-    href: "/loans/emergency",
-    title: "Emergency Loans",
-    amount: "$300 – $5,000",
-    blurb: "Get funds fast when an unexpected expense hits.",
-  },
-  {
-    href: "/loans/cash-advance",
-    title: "Cash Advance",
-    amount: "$100 – $1,000",
-    blurb: "Short-term cash advances to bridge to your next paycheck.",
-  },
+  { n: "01", href: "/loans/personal", title: "Personal", amount: "$1,000 – $50,000", blurb: "Fixed-rate installment loans for any considered purpose." },
+  { n: "02", href: "/loans/bad-credit", title: "Bad Credit", amount: "$500 – $10,000", blurb: "Lenders who weigh more than your score." },
+  { n: "03", href: "/loans/emergency", title: "Emergency", amount: "$300 – $5,000", blurb: "Same-week funding for unexpected expenses." },
+  { n: "04", href: "/loans/cash-advance", title: "Cash Advance", amount: "$100 – $1,000", blurb: "A short bridge to your next paycheck." },
 ];
 
 const steps = [
-  {
-    n: "01",
-    title: "Submit your request",
-    body: "Tell us how much you need and answer a few questions. Takes about 2 minutes. No impact on your credit score.",
-  },
-  {
-    n: "02",
-    title: "Review offers",
-    body: "We instantly match you with lenders in our partner network. Compare APR, monthly payment, and terms side by side.",
-  },
-  {
-    n: "03",
-    title: "Receive funds",
-    body: "Choose your offer, e-sign the agreement, and get funds deposited as fast as the next business day.",
-  },
+  { n: "01", t: "Submit your request", b: "Two minutes. Loan amount, basic details, and a soft credit check that does not affect your score." },
+  { n: "02", t: "Review your offers", b: "We match you instantly with lenders in our network — including LendingTree. Compare APR, monthly payment, and term side by side." },
+  { n: "03", t: "Receive your funds", b: "Accept an offer, e-sign your agreement, and the lender deposits funds — typically by the next business day." },
 ];
 
 const exampleRows = [
-  { amount: 1000, apr: "9.99% – 35.99%", term: "12 mo", monthly: "$87 – $99" },
-  { amount: 5000, apr: "8.99% – 29.99%", term: "36 mo", monthly: "$159 – $212" },
-  { amount: 10000, apr: "7.49% – 24.99%", term: "48 mo", monthly: "$241 – $317" },
-  { amount: 25000, apr: "6.99% – 19.99%", term: "60 mo", monthly: "$495 – $662" },
+  { amount: 1000, apr: "9.99 – 35.99", term: "12 mo", monthly: "$87 – $99" },
+  { amount: 5000, apr: "8.99 – 29.99", term: "36 mo", monthly: "$159 – $212" },
+  { amount: 10000, apr: "7.49 – 24.99", term: "48 mo", monthly: "$241 – $317" },
+  { amount: 25000, apr: "6.99 – 19.99", term: "60 mo", monthly: "$495 – $662" },
 ];
 
 const faqs = [
-  {
-    q: "How much can I borrow?",
-    a: "You can request anywhere from $100 to $50,000. The amount you ultimately qualify for is decided by the lender based on your income, credit profile, and state of residence.",
-  },
-  {
-    q: "Will applying affect my credit score?",
-    a: "No. Submitting a request on our site performs a soft credit inquiry, which does not impact your credit score. If you accept a final offer, the lender may then perform a hard pull.",
-  },
-  {
-    q: "How fast will I receive funds?",
-    a: "Once you accept and e-sign a final offer, funds are typically deposited into your bank account as fast as the next business day. Timing depends on your bank.",
-  },
-  {
-    q: "Can I get a loan with bad credit?",
-    a: "Yes. Our partner network includes lenders who specialize in working with applicants who have less-than-perfect credit. Approval is not guaranteed and terms vary.",
-  },
-  {
-    q: "What do I need to apply?",
-    a: "You will need to be at least 18 years old, a U.S. resident, have a steady source of income, an active checking account, and a valid email address and phone number.",
-  },
-  {
-    q: "Is there a fee to apply?",
-    a: "No. Submitting a request is completely free with no obligation. We are paid by our lender partners when you accept an offer.",
-  },
-  {
-    q: "Is my information secure?",
-    a: "Yes. All data is transmitted over 256-bit SSL encryption and stored using industry-standard security practices.",
-  },
+  { q: "How much can I borrow?", a: "You can request anywhere from $100 to $50,000. The amount you ultimately qualify for is decided by the lender based on your income, credit profile, and state of residence." },
+  { q: "Will applying affect my credit score?", a: "No. Submitting a request performs a soft credit inquiry, which does not impact your credit score. If you accept a final offer, the lender may then perform a hard pull." },
+  { q: "How fast will I receive funds?", a: "Once you accept and e-sign a final offer, funds are typically deposited into your bank account as fast as the next business day. Timing depends on your bank." },
+  { q: "Can I get a loan with bad credit?", a: "Yes. Our partner network includes lenders who work with applicants who have less-than-perfect credit. Approval is not guaranteed and terms vary." },
+  { q: "What do I need to apply?", a: "You will need to be at least 18 years old, a U.S. resident, have a steady source of income, an active checking account, and a valid email address and phone number." },
+  { q: "Is there a fee to apply?", a: "No. Submitting a request is completely free with no obligation. We are paid by our lender partners when you accept an offer." },
+  { q: "Is my information secure?", a: "Yes. All data is transmitted over 256-bit SSL encryption and stored using industry-standard security practices." },
 ];
 
 export default function HomePage() {
@@ -110,65 +58,139 @@ export default function HomePage() {
       />
       <FaqJsonLd items={faqs} />
 
-      {/* HERO */}
-      <section className="relative overflow-hidden bg-gradient-to-br from-brand-50 via-white to-white">
-        <div className="mx-auto grid max-w-7xl gap-12 px-4 py-16 sm:px-6 lg:grid-cols-2 lg:gap-16 lg:px-8 lg:py-24">
-          <div className="flex flex-col justify-center">
-            <p className="text-sm font-semibold uppercase tracking-wider text-brand-700">
-              A smarter way to borrow
-            </p>
-            <h1 className="mt-3 text-4xl font-bold tracking-tight text-slate-900 sm:text-5xl lg:text-6xl">
-              Personal loans up to <span className="text-brand-700">$50,000</span> — in minutes
-            </h1>
-            <p className="mt-5 text-lg text-slate-600">
-              Compare offers from a network of trusted lenders. Soft credit check. No obligation.
-              Funds as fast as the next business day.
-            </p>
-            <div className="mt-7 flex flex-col sm:flex-row gap-3">
-              <Link
-                href="/apply"
-                className="inline-flex items-center justify-center rounded-lg bg-brand-600 px-6 py-3 text-base font-semibold text-white shadow-sm hover:bg-brand-700"
-              >
-                Get my offers
-              </Link>
-              <Link
-                href="/how-it-works"
-                className="inline-flex items-center justify-center rounded-lg border border-slate-300 bg-white px-6 py-3 text-base font-semibold text-slate-700 hover:border-brand-600 hover:text-brand-700"
-              >
-                How it works
-              </Link>
-            </div>
-            <TrustBar />
+      {/* ─────────────────────── HERO ─────────────────────── */}
+      <section className="relative">
+        <div className="mx-auto max-w-[1280px] px-6 pt-14 pb-20 lg:px-10 lg:pt-20 lg:pb-28">
+          {/* Eyebrow */}
+          <div className="reveal reveal-1 flex items-center gap-3">
+            <span className="h-px w-10 bg-ink-900" />
+            <span className="eyebrow">A loan marketplace — not a lender</span>
           </div>
-          <div className="flex items-center">
-            <LoanCalculator />
+
+          <div className="mt-8 grid items-start gap-14 lg:grid-cols-[1fr_460px] lg:gap-20">
+            {/* Headline column */}
+            <div className="reveal reveal-2">
+              <h1
+                className="text-[14vw] leading-[0.95] tracking-[-0.03em] text-ink-900 sm:text-[88px] lg:text-[112px]"
+                style={{ fontFamily: "var(--font-display)", fontWeight: 380 }}
+              >
+                Borrow with
+                <br />
+                <em className="italic text-forest-700" style={{ fontVariationSettings: '"opsz" 144, "SOFT" 100, "WONK" 1' }}>
+                  intention.
+                </em>
+              </h1>
+
+              <p className="mt-8 max-w-[44ch] text-[19px] leading-[1.55] text-ink-700">
+                Compare fixed-rate personal loans from{" "}
+                <span className="tabular text-ink-900">$100 to $50,000</span> in two minutes. Soft credit check, no obligation, and funds as fast as the next business day.
+              </p>
+
+              <div className="reveal reveal-3 mt-10 flex flex-wrap items-center gap-4">
+                <Link href="/apply" className="btn btn-primary">
+                  Begin your request
+                  <svg width="14" height="14" viewBox="0 0 14 14" aria-hidden fill="none">
+                    <path d="M3 7h8M7 3l4 4-4 4" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round" />
+                  </svg>
+                </Link>
+                <Link href="/how-it-works" className="text-[15px] text-ink-700 underline decoration-cream-400 underline-offset-[6px] hover:decoration-ink-900 hover:text-ink-900">
+                  How it works ↗
+                </Link>
+              </div>
+
+              {/* Decorative — hero mark on mobile */}
+              <div className="reveal reveal-4 mt-12 hidden h-[180px] w-[180px] lg:block">
+                <HeroMark />
+              </div>
+            </div>
+
+            {/* Calculator column */}
+            <div className="reveal reveal-3 flex justify-center lg:justify-end">
+              <LoanCalculator />
+            </div>
+          </div>
+
+          <div className="reveal reveal-5">
+            <TrustBar />
           </div>
         </div>
       </section>
 
-      {/* PRODUCTS */}
-      <section className="bg-white py-16 sm:py-20" aria-labelledby="products-heading">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="mx-auto max-w-2xl text-center">
-            <h2 id="products-heading" className="text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
-              Loans for every situation
-            </h2>
-            <p className="mt-3 text-lg text-slate-600">
-              Whether you need cash today or are planning a large purchase, our network has options for you.
-            </p>
+      {/* ─────────────────────── HOW IT WORKS ─────────────────────── */}
+      <section className="border-y border-cream-300 bg-cream-50">
+        <div className="mx-auto max-w-[1280px] px-6 py-20 lg:px-10 lg:py-28">
+          <div className="grid gap-14 lg:grid-cols-[280px_1fr] lg:gap-24">
+            <div>
+              <span className="eyebrow">The process</span>
+              <h2 className="mt-4 text-[44px] leading-[1.02] tracking-tight text-ink-900 lg:text-[56px]" style={{ fontFamily: "var(--font-display)" }}>
+                Three steps.
+                <br />
+                <em className="italic text-forest-700">Roughly twelve minutes.</em>
+              </h2>
+            </div>
+
+            <ol className="space-y-0">
+              {steps.map((s, i) => (
+                <li key={s.n} className="grid grid-cols-[80px_1fr] gap-6 border-t border-cream-300 py-8 lg:grid-cols-[120px_1fr] lg:py-10">
+                  <span
+                    className="tabular text-3xl text-ink-300 lg:text-4xl"
+                    style={{ fontFamily: "var(--font-display)", fontWeight: 400 }}
+                  >
+                    {s.n}
+                  </span>
+                  <div>
+                    <h3 className="text-2xl text-ink-900 lg:text-3xl" style={{ fontFamily: "var(--font-display)" }}>
+                      {s.t}
+                    </h3>
+                    <p className="mt-3 max-w-[55ch] text-[16px] text-ink-700">{s.b}</p>
+                  </div>
+                  {i === steps.length - 1 && <span className="hidden" />}
+                </li>
+              ))}
+            </ol>
           </div>
-          <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
-            {products.map((p) => (
+        </div>
+      </section>
+
+      {/* ─────────────────────── PRODUCTS ─────────────────────── */}
+      <section>
+        <div className="mx-auto max-w-[1280px] px-6 py-20 lg:px-10 lg:py-28">
+          <div className="mb-14 flex items-end justify-between gap-6">
+            <div>
+              <span className="eyebrow">Loan types</span>
+              <h2 className="mt-3 text-[44px] leading-[1.02] tracking-tight text-ink-900 lg:text-[56px]" style={{ fontFamily: "var(--font-display)" }}>
+                For most of life&rsquo;s <em className="italic text-forest-700">moments</em>.
+              </h2>
+            </div>
+            <Link href="/apply" className="hidden text-[14px] text-ink-700 underline decoration-cream-400 underline-offset-[6px] hover:text-ink-900 md:inline">
+              Start a request ↗
+            </Link>
+          </div>
+
+          <div className="grid grid-cols-1 gap-x-8 gap-y-0 border-t border-cream-300 md:grid-cols-2">
+            {products.map((p, i) => (
               <Link
                 key={p.href}
                 href={p.href}
-                className="group relative rounded-2xl border border-slate-200 bg-white p-6 transition hover:border-brand-500 hover:shadow-lg"
+                className={`group relative grid grid-cols-[auto_1fr_auto] items-baseline gap-6 border-b border-cream-300 py-8 transition-colors hover:bg-cream-50 ${
+                  i % 2 === 0 ? "md:border-r md:border-r-cream-300 md:pr-8" : "md:pl-8"
+                }`}
               >
-                <h3 className="text-lg font-semibold text-slate-900">{p.title}</h3>
-                <p className="mt-1 text-sm font-medium text-brand-700">{p.amount}</p>
-                <p className="mt-3 text-sm text-slate-600">{p.blurb}</p>
-                <span className="mt-4 inline-flex items-center text-sm font-semibold text-brand-700 group-hover:underline">
-                  Learn more →
+                <span
+                  className="tabular text-xl text-ink-300"
+                  style={{ fontFamily: "var(--font-display)" }}
+                >
+                  {p.n}
+                </span>
+                <div className="min-w-0">
+                  <h3 className="text-2xl text-ink-900 lg:text-3xl" style={{ fontFamily: "var(--font-display)" }}>
+                    {p.title}
+                  </h3>
+                  <p className="mt-1.5 text-[14px] text-ink-500">{p.blurb}</p>
+                  <p className="mt-2 tabular text-[13px] text-forest-700">{p.amount}</p>
+                </div>
+                <span aria-hidden className="text-xl text-ink-300 transition-transform group-hover:translate-x-1 group-hover:text-ink-900">
+                  →
                 </span>
               </Link>
             ))}
@@ -176,57 +198,38 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* HOW IT WORKS */}
-      <section className="bg-slate-50 py-16 sm:py-20" aria-labelledby="how-heading">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="mx-auto max-w-2xl text-center">
-            <h2 id="how-heading" className="text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
-              Get funds in 3 easy steps
-            </h2>
-            <p className="mt-3 text-lg text-slate-600">From request to deposit, the entire process can take less than 24 hours.</p>
-          </div>
-          <ol className="mt-12 grid gap-6 md:grid-cols-3">
-            {steps.map((s) => (
-              <li key={s.n} className="relative rounded-2xl bg-white p-8 shadow-sm">
-                <div className="flex h-12 w-12 items-center justify-center rounded-full bg-brand-600 text-lg font-bold text-white">
-                  {s.n}
-                </div>
-                <h3 className="mt-5 text-xl font-semibold text-slate-900">{s.title}</h3>
-                <p className="mt-2 text-slate-600">{s.body}</p>
-              </li>
-            ))}
-          </ol>
-        </div>
-      </section>
+      {/* ─────────────────────── RATES TABLE ─────────────────────── */}
+      <section className="border-t border-cream-300 bg-cream-50">
+        <div className="mx-auto max-w-[1280px] px-6 py-20 lg:px-10 lg:py-28">
+          <div className="grid gap-12 lg:grid-cols-[280px_1fr] lg:gap-20">
+            <div>
+              <span className="eyebrow">Representative ranges</span>
+              <h2 className="mt-3 text-[44px] leading-[1.02] tracking-tight text-ink-900 lg:text-[56px]" style={{ fontFamily: "var(--font-display)" }}>
+                What to <em className="italic text-forest-700">expect</em>.
+              </h2>
+              <p className="mt-5 max-w-[36ch] text-[15px] text-ink-700">
+                Actual offers depend on creditworthiness, term, lender, and state of residence. These numbers illustrate; they do not promise.
+              </p>
+            </div>
 
-      {/* EXAMPLE RATES TABLE */}
-      <section className="bg-white py-16 sm:py-20" aria-labelledby="rates-heading">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="mx-auto max-w-2xl text-center">
-            <h2 id="rates-heading" className="text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
-              Example rates & payments
-            </h2>
-            <p className="mt-3 text-lg text-slate-600">
-              Representative ranges only. Your actual rate depends on creditworthiness, loan amount, term, and lender.
-            </p>
-          </div>
-          <div className="mt-10 overflow-hidden rounded-2xl border border-slate-200">
-            <table className="min-w-full divide-y divide-slate-200 text-sm">
-              <thead className="bg-slate-50 text-slate-700">
-                <tr>
-                  <th scope="col" className="px-6 py-4 text-left font-semibold">Loan amount</th>
-                  <th scope="col" className="px-6 py-4 text-left font-semibold">APR range</th>
-                  <th scope="col" className="px-6 py-4 text-left font-semibold">Term</th>
-                  <th scope="col" className="px-6 py-4 text-left font-semibold">Est. monthly payment</th>
+            <table className="w-full text-[14px]">
+              <thead>
+                <tr className="border-b border-ink-900 text-left">
+                  <th scope="col" className="py-4 eyebrow !text-ink-900">Amount</th>
+                  <th scope="col" className="py-4 eyebrow !text-ink-900">APR %</th>
+                  <th scope="col" className="py-4 eyebrow !text-ink-900">Term</th>
+                  <th scope="col" className="py-4 eyebrow !text-ink-900 text-right">Monthly</th>
                 </tr>
               </thead>
-              <tbody className="divide-y divide-slate-200 bg-white">
+              <tbody>
                 {exampleRows.map((r) => (
-                  <tr key={r.amount}>
-                    <td className="px-6 py-4 font-medium text-slate-900">${r.amount.toLocaleString()}</td>
-                    <td className="px-6 py-4 text-slate-700">{r.apr}</td>
-                    <td className="px-6 py-4 text-slate-700">{r.term}</td>
-                    <td className="px-6 py-4 text-slate-700">{r.monthly}</td>
+                  <tr key={r.amount} className="border-b border-cream-300">
+                    <td className="tabular py-5 text-ink-900" style={{ fontFamily: "var(--font-display)", fontSize: 22 }}>
+                      ${r.amount.toLocaleString()}
+                    </td>
+                    <td className="tabular py-5 text-ink-700">{r.apr}</td>
+                    <td className="py-5 text-ink-700">{r.term}</td>
+                    <td className="tabular py-5 text-right text-ink-900">{r.monthly}</td>
                   </tr>
                 ))}
               </tbody>
@@ -235,44 +238,56 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* FAQ — also emitted as JSON-LD above */}
-      <section className="bg-slate-50 py-16 sm:py-20" aria-labelledby="faq-heading">
-        <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
-          <h2 id="faq-heading" className="text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
-            Frequently asked questions
+      {/* ─────────────────────── FAQ ─────────────────────── */}
+      <section>
+        <div className="mx-auto max-w-[920px] px-6 py-20 lg:px-10 lg:py-28">
+          <span className="eyebrow">Frequently asked</span>
+          <h2 className="mt-3 text-[44px] leading-[1.02] tracking-tight text-ink-900 lg:text-[56px]" style={{ fontFamily: "var(--font-display)" }}>
+            Honest answers.
           </h2>
-          <dl className="mt-10 space-y-4">
+
+          <dl className="mt-12 border-t border-ink-900">
             {faqs.map((f) => (
-              <details
-                key={f.q}
-                className="group rounded-xl border border-slate-200 bg-white p-5 open:shadow-sm"
-              >
-                <summary className="flex cursor-pointer items-center justify-between gap-4 text-base font-semibold text-slate-900 marker:hidden">
-                  <span>{f.q}</span>
-                  <span className="text-brand-600 transition group-open:rotate-45 text-xl leading-none">+</span>
+              <details key={f.q} className="group border-b border-cream-300 py-5">
+                <summary className="flex cursor-pointer items-baseline justify-between gap-6 marker:hidden">
+                  <span className="text-lg text-ink-900 lg:text-xl" style={{ fontFamily: "var(--font-display)" }}>
+                    {f.q}
+                  </span>
+                  <span className="shrink-0 text-xl text-ink-300 transition-transform duration-300 group-open:rotate-45">
+                    +
+                  </span>
                 </summary>
-                <dd className="mt-3 text-slate-700">{f.a}</dd>
+                <dd className="mt-3 max-w-[60ch] text-[15px] leading-relaxed text-ink-700">{f.a}</dd>
               </details>
             ))}
           </dl>
         </div>
       </section>
 
-      {/* CTA */}
-      <section className="bg-brand-700">
-        <div className="mx-auto flex max-w-7xl flex-col items-center gap-6 px-4 py-14 text-center sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
-            Ready to see your offers?
-          </h2>
-          <p className="max-w-2xl text-brand-100">
-            It takes about 2 minutes and won&rsquo;t affect your credit score.
-          </p>
-          <Link
-            href="/apply"
-            className="inline-flex items-center justify-center rounded-lg bg-white px-8 py-3 text-base font-semibold text-brand-700 shadow-sm hover:bg-brand-50"
-          >
-            Start my free request
-          </Link>
+      {/* ─────────────────────── CLOSING CTA ─────────────────────── */}
+      <section className="relative overflow-hidden bg-forest-700 text-cream-100">
+        <div className="mx-auto max-w-[1280px] px-6 py-24 lg:px-10 lg:py-32">
+          <div className="grid items-end gap-10 lg:grid-cols-[1fr_auto] lg:gap-16">
+            <h2 className="text-[48px] leading-[1.02] tracking-tight lg:text-[80px]" style={{ fontFamily: "var(--font-display)", fontWeight: 380 }}>
+              Compare offers
+              <br />
+              <em className="italic" style={{ fontVariationSettings: '"opsz" 144, "SOFT" 100, "WONK" 1' }}>
+                without the noise.
+              </em>
+            </h2>
+            <div className="lg:pb-3">
+              <Link
+                href="/apply"
+                className="btn !bg-cream-100 !text-ink-900 hover:!bg-cream-200 !px-7 !py-4 !text-[15px]"
+              >
+                Start your request
+                <svg width="14" height="14" viewBox="0 0 14 14" aria-hidden fill="none">
+                  <path d="M3 7h8M7 3l4 4-4 4" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round" />
+                </svg>
+              </Link>
+              <p className="mt-3 text-[12px] text-cream-100/60">2 minutes · soft credit check · no obligation</p>
+            </div>
+          </div>
         </div>
       </section>
     </>

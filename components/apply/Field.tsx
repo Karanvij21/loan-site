@@ -59,12 +59,7 @@ export function Select({
       {...register(name)}
       {...rest}
       aria-invalid={errors[name] ? "true" : undefined}
-      className={cn("input appearance-none bg-no-repeat bg-[right_1rem_center] bg-[length:10px_10px]", className)}
-      style={{
-        backgroundImage:
-          "url(\"data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 10 10' fill='none' stroke='%235A5F5B' stroke-width='1.4'><path d='M2 4l3 3 3-3' stroke-linecap='round' stroke-linejoin='round'/></svg>\")",
-        paddingRight: "2.5rem",
-      }}
+      className={cn("input select-chevron", className)}
     >
       {children}
     </select>

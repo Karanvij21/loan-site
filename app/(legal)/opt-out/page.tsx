@@ -67,9 +67,13 @@ export default function OptOutPage() {
 
       <h2>Contact</h2>
       <p>
-        <a href={`mailto:${siteConfig.email}`}>{siteConfig.email}</a>{" "}
-        ·{" "}
-        <a href={`tel:${siteConfig.phone.replace(/[^\d+]/g, "")}`}>{siteConfig.phone}</a>
+        <a href={`mailto:${siteConfig.email}`}>{siteConfig.email}</a>
+        {siteConfig.hasPhone && (
+          <>
+            {" · "}
+            <a href={`tel:${siteConfig.phone.replace(/[^\d+]/g, "")}`}>{siteConfig.phone}</a>
+          </>
+        )}
       </p>
 
       <p><em>This page is a good-faith template summarizing federal opt-out requirements (CAN-SPAM, TCPA, FTC DNC rules). It is not legal advice. Consult counsel before launching in production.</em></p>

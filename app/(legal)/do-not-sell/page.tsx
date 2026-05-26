@@ -33,11 +33,13 @@ export default function DoNotSellPage() {
           </a>{" "}
           with the subject line &ldquo;Do Not Sell Opt-Out Request.&rdquo; Please include your full name, email, and (if known) the date you submitted a request.
         </li>
-        <li>
-          <strong>Phone opt-out:</strong> call{" "}
-          <a href={`tel:${siteConfig.phone.replace(/[^\d+]/g, "")}`}>{siteConfig.phone}</a>{" "}
-          and request to be added to our Do Not Sell list.
-        </li>
+        {siteConfig.hasPhone && (
+          <li>
+            <strong>Phone opt-out:</strong> call{" "}
+            <a href={`tel:${siteConfig.phone.replace(/[^\d+]/g, "")}`}>{siteConfig.phone}</a>{" "}
+            and request to be added to our Do Not Sell list.
+          </li>
+        )}
         <li>
           <strong>Global Privacy Control (GPC):</strong> we honor browser-level GPC signals as a valid opt-out request. Enable GPC in your browser settings or via a supported extension.
         </li>

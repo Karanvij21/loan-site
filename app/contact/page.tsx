@@ -21,10 +21,12 @@ export default function ContactPage() {
           <dt className="eyebrow !text-ink-900">Email</dt>
           <dd><a href={`mailto:${siteConfig.email}`} className="text-[17px] text-ink-900 hover:text-forest-700 underline decoration-cream-400 underline-offset-[6px]">{siteConfig.email}</a></dd>
         </div>
-        <div className="flex items-baseline justify-between border-b border-cream-300 py-5">
-          <dt className="eyebrow !text-ink-900">Phone</dt>
-          <dd><a href={`tel:${siteConfig.phone.replace(/[^\d+]/g, "")}`} className="tabular text-[17px] text-ink-900 hover:text-forest-700 underline decoration-cream-400 underline-offset-[6px]">{siteConfig.phone}</a></dd>
-        </div>
+        {siteConfig.hasPhone && (
+          <div className="flex items-baseline justify-between border-b border-cream-300 py-5">
+            <dt className="eyebrow !text-ink-900">Phone</dt>
+            <dd><a href={`tel:${siteConfig.phone.replace(/[^\d+]/g, "")}`} className="tabular text-[17px] text-ink-900 hover:text-forest-700 underline decoration-cream-400 underline-offset-[6px]">{siteConfig.phone}</a></dd>
+          </div>
+        )}
         <div className="flex items-baseline justify-between border-b border-cream-300 py-5">
           <dt className="eyebrow !text-ink-900">Hours</dt>
           <dd className="text-[15px] text-ink-700">Mon–Fri · 9:00 AM – 6:00 PM ET</dd>

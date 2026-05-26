@@ -21,7 +21,7 @@ export function OrganizationJsonLd() {
         logo: `${siteConfig.url}/logo.png`,
         image: `${siteConfig.url}/og-default.png`,
         description: siteConfig.description,
-        telephone: siteConfig.phone,
+        ...(siteConfig.hasPhone ? { telephone: siteConfig.phone } : {}),
         email: siteConfig.email,
         priceRange: "$$",
         areaServed: { "@type": "Country", name: "United States" },
@@ -35,7 +35,7 @@ export function OrganizationJsonLd() {
         contactPoint: {
           "@type": "ContactPoint",
           contactType: "customer service",
-          telephone: siteConfig.phone,
+          ...(siteConfig.hasPhone ? { telephone: siteConfig.phone } : {}),
           email: siteConfig.email,
           availableLanguage: ["English"],
           areaServed: "US",

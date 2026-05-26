@@ -32,8 +32,7 @@ do not impact your credit score (soft pull only), and are free.
 - [Disclosures](${siteConfig.url}/disclosures)
 
 ## Contact
-Email: ${siteConfig.email}
-Phone: ${siteConfig.phone}
+Email: ${siteConfig.email}${siteConfig.hasPhone ? `\nPhone: ${siteConfig.phone}` : ""}
 `;
   return new Response(body, {
     headers: { "content-type": "text/plain; charset=utf-8" },

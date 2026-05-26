@@ -89,8 +89,13 @@ export default function DisclosuresPage() {
       <h2>14. Contact</h2>
       <p>
         For questions about these disclosures, contact us at{" "}
-        <a href={`mailto:${siteConfig.email}`}>{siteConfig.email}</a> or{" "}
-        <a href={`tel:${siteConfig.phone.replace(/[^\d+]/g, "")}`}>{siteConfig.phone}</a>.
+        <a href={`mailto:${siteConfig.email}`}>{siteConfig.email}</a>
+        {siteConfig.hasPhone && (
+          <>
+            {" or "}
+            <a href={`tel:${siteConfig.phone.replace(/[^\d+]/g, "")}`}>{siteConfig.phone}</a>
+          </>
+        )}.
       </p>
 
       <p><em>This page is a good-faith summary of mandatory disclosures applicable to U.S. consumer-loan lead generators. It is not legal advice. Consult counsel before launching in production.</em></p>

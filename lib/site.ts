@@ -1,3 +1,6 @@
+const PLACEHOLDER_PHONE = "+1-800-000-0000";
+const phoneEnv = process.env.NEXT_PUBLIC_BRAND_PHONE;
+
 export const siteConfig = {
   name: process.env.NEXT_PUBLIC_SITE_NAME || "Get Advance Loan",
   url: process.env.NEXT_PUBLIC_SITE_URL || "https://getadvanceloan.com",
@@ -5,7 +8,10 @@ export const siteConfig = {
     "Compare personal loan offers from $100 to $50,000 in minutes. Bad credit OK. Free, no obligation. Funds as fast as the next business day.",
   shortDescription:
     "Personal loans from $100 to $50,000. Compare offers in minutes. Bad credit OK.",
-  phone: process.env.NEXT_PUBLIC_BRAND_PHONE || "+1-800-000-0000",
+  phone: phoneEnv || PLACEHOLDER_PHONE,
+  /** True only when NEXT_PUBLIC_BRAND_PHONE is set to a real (non-placeholder) value.
+   *  Use this to conditionally render phone links so the demo number never ships. */
+  hasPhone: Boolean(phoneEnv && phoneEnv !== PLACEHOLDER_PHONE),
   email: process.env.NEXT_PUBLIC_BRAND_EMAIL || "support@getadvanceloan.com",
   // Physical mailing address required for CAN-SPAM compliance in marketing emails.
   // Set NEXT_PUBLIC_BRAND_ADDRESS to your real business address before sending.

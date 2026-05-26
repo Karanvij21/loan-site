@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
 import { useForm, FormProvider } from "react-hook-form";
@@ -12,6 +12,7 @@ import { Step2Personal } from "./steps/Step2Personal";
 import { Step3Income } from "./steps/Step3Income";
 import { Step4Bank } from "./steps/Step4Bank";
 import { Step5Consent } from "./steps/Step5Consent";
+import { trackApplyStarted, trackStepCompleted, trackLeadSubmitted } from "@/lib/tracking";
 
 const stepFields: (keyof FullApplication)[][] = [
   ["amount", "purpose", "creditRating"],
@@ -40,9 +41,19 @@ export function ApplicationForm() {
     },
   });
 
+  // Fire apply_started exactly once when the form mounts (top of funnel)
+  useEffect(() => {
+    const initial = Number(params.get("amount")) || undefined;
+    trackApplyStarted(initial);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
   const onNext = async () => {
     const valid = await methods.trigger(stepFields[stepIdx]);
-    if (valid) setStepIdx((i) => Math.min(i + 1, steps.length - 1));
+    if (valid) {
+      trackStepCompleted(stepIdx + 1, steps[stepIdx]);
+      setStepIdx((i) => Math.min(i + 1, steps.length - 1));
+    }
   };
 
   const onBack = () => setStepIdx((i) => Math.max(i - 1, 0));
@@ -62,6 +73,16 @@ export function ApplicationForm() {
         }),
       });
       if (!res.ok) throw new Error(await res.text());
+      const payload = await res.json().catch(() => ({} as { leadId?: string }));
+      // Final step counts as a completed step too, before the conversion fires
+      trackStepCompleted(steps.length, steps[steps.length - 1]);
+      trackLeadSubmitted({
+        amount: data.amount,
+        purpose: data.purpose,
+        creditRating: data.creditRating,
+        state: data.state,
+        leadId: payload?.leadId,
+      });
       router.push("/apply/success");
     } catch (e: unknown) {
       setError(e instanceof Error ? e.message : "Something went wrong. Please try again.");

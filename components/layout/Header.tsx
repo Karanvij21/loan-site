@@ -46,14 +46,16 @@ export function Header() {
           >
             GA
           </span>
-          <span className="hidden sm:flex flex-col leading-none">
+          {/* Wordmark: visible from sm: up, sr-only otherwise so the
+              link always has a discernible accessible name. */}
+          <span className="sr-only sm:not-sr-only sm:flex sm:flex-col sm:leading-none">
             <span
               className="text-[14px] font-semibold tracking-tight text-ink-900"
               style={{ fontFamily: "var(--font-display)" }}
             >
               Get Advance Loan
             </span>
-            <span className="text-[10px] tracking-[0.15em] uppercase text-ink-500 mt-1">
+            <span className="hidden sm:inline text-[10px] tracking-[0.15em] uppercase text-ink-500 mt-1">
               Loan Marketplace
             </span>
           </span>

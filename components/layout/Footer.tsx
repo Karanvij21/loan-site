@@ -123,7 +123,7 @@ export function Footer() {
             <span className="eyebrow !text-cream-300">Military borrowers.</span>{" "}
             Active-duty service members and their dependents have additional protections under the Military Lending Act, including a 36% MAPR cap on most consumer loans. Our lender partners are required to comply.
           </p>
-          <p className="pt-4 border-t border-cream-400/15 text-cream-300/50">
+          <p className="pt-4 border-t border-cream-400/15 text-cream-300">
             © {new Date().getFullYear()} {siteConfig.name}. All rights reserved.
           </p>
         </div>

@@ -72,11 +72,14 @@ export default function HomePage() {
             {/* Headline column */}
             <div className="reveal reveal-2">
               <h1 className="text-[44px] leading-[1.02] tracking-tight text-ink-900 sm:text-[64px] lg:text-[64px]">
-                Personal loans, <span className="text-forest-700">in minutes</span>.
+                Loan offers, <span className="text-forest-700">in minutes</span>.
               </h1>
 
               <p className="mt-6 max-w-[48ch] text-[17px] leading-[1.55] text-ink-700 sm:text-[19px]">
-                Compare fixed-rate offers from <span className="tabular font-medium text-ink-900">$100 to $50,000</span> across a network of trusted lenders. Two minutes, soft credit check, no obligation.
+                Compare fixed-rate personal loan offers from <span className="tabular font-medium text-ink-900">$100 to $50,000</span> across a network of independent lenders. Soft credit check, no obligation. Approval, amount, and APR are decided by the lender.
+              </p>
+              <p className="mt-3 text-[11px] text-ink-500">
+                Get Advance Loan is a free online marketplace, not a lender. We may receive compensation from lender partners when you accept an offer.
               </p>
 
               <div className="reveal reveal-3 mt-10 flex flex-wrap items-center gap-4">

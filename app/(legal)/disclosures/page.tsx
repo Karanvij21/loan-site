@@ -66,17 +66,27 @@ export default function DisclosuresPage() {
         After you submit a request, your information will be transmitted to one or more independent lenders within our partner network, including but not limited to LendingTree. The final lender providing your loan offer will identify themselves and provide their full name, business address, license information (where applicable), and complete loan terms before you are asked to sign any loan agreement. Review and comparison of lender disclosures is your responsibility.
       </p>
 
-      <h2>10. No guarantee of approval, amount, or terms</h2>
+      <h2>10. Equal Credit Opportunity Act (ECOA)</h2>
+      <p>
+        The federal Equal Credit Opportunity Act prohibits creditors from discriminating against credit applicants on the basis of race, color, religion, national origin, sex, marital status, age (provided the applicant has the capacity to enter into a binding contract), because all or part of the applicant&rsquo;s income derives from any public assistance program, or because the applicant has in good faith exercised any right under the Consumer Credit Protection Act. The federal agency that administers compliance with this law is the Consumer Financial Protection Bureau, 1700 G Street NW, Washington, DC 20552.
+      </p>
+
+      <h2>11. Military Lending Act (MLA)</h2>
+      <p>
+        Federal law provides important protections to active-duty members of the Armed Forces and their dependents relating to extensions of consumer credit. In general, the cost of consumer credit to a covered borrower may not exceed an annual percentage rate of 36%, known as the Military Annual Percentage Rate (MAPR). This rate includes interest, fees, and certain charges, with limited exceptions. {siteConfig.name} requires its lender partners to comply with the Military Lending Act for any covered borrower. If you are an active-duty service member or covered dependent and believe an offer exceeds the MAPR cap, contact us at <a href={`mailto:${siteConfig.email}`}>{siteConfig.email}</a> or call your installation&rsquo;s legal assistance office.
+      </p>
+
+      <h2>12. No guarantee of approval, amount, or terms</h2>
       <p>
         Submitting a request through {siteConfig.name} is <strong>not a guarantee that you will receive an offer</strong>, that any offer will match the amount you request, or that the APR, term, or fees will be at any specific level. Final loan decisions, approval, amount, APR, and terms are made by the lender at the lender&rsquo;s sole discretion.
       </p>
 
-      <h2>11. Educational content</h2>
+      <h2>13. Educational content</h2>
       <p>
         Articles, calculators, and educational content on this site are provided for general informational purposes only. They are not financial, legal, or tax advice. Consult a qualified professional for advice specific to your situation.
       </p>
 
-      <h2>12. Contact</h2>
+      <h2>14. Contact</h2>
       <p>
         For questions about these disclosures, contact us at{" "}
         <a href={`mailto:${siteConfig.email}`}>{siteConfig.email}</a> or{" "}

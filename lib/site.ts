@@ -7,6 +7,9 @@ export const siteConfig = {
     "Personal loans from $100 to $50,000. Compare offers in minutes. Bad credit OK.",
   phone: process.env.NEXT_PUBLIC_BRAND_PHONE || "+1-800-000-0000",
   email: process.env.NEXT_PUBLIC_BRAND_EMAIL || "support@getadvanceloan.com",
+  // Physical mailing address required for CAN-SPAM compliance in marketing emails.
+  // Set NEXT_PUBLIC_BRAND_ADDRESS to your real business address before sending.
+  address: process.env.NEXT_PUBLIC_BRAND_ADDRESS || "Get Advance Loan, Mailing address available upon request.",
   locale: "en-US",
   social: {
     twitter: "@yourbrand",

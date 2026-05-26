@@ -134,6 +134,9 @@ export default async function StatePage({ params }: Props) {
               <p>
                 {siteConfig.name} is not a lender. We match {s.name} residents with independent lenders in our partner network, including LendingTree, who hold the licenses required to make loans in your state. Loan approval, APR, term, and fees are determined by the lender, not by us.
               </p>
+              <p className="text-[13px] text-ink-500">
+                <em>The state-law information on this page is general guidance, last reviewed in {new Date().toLocaleDateString("en-US", { month: "long", year: "numeric" })}. State statutes and regulations change; consult the {s.regulator} or a licensed attorney for authoritative current rules.</em>
+              </p>
             </div>
           </div>
         </div>

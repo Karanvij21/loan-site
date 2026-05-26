@@ -115,6 +115,14 @@ export function Footer() {
             <span className="eyebrow !text-cream-300">Credit impact.</span>{" "}
             Submitting a request results in a soft credit inquiry, which does not affect your credit score. If you accept a final offer, the lender may perform a hard credit inquiry, which may affect your score.
           </p>
+          <p>
+            <span className="eyebrow !text-cream-300">Equal credit opportunity.</span>{" "}
+            The federal Equal Credit Opportunity Act prohibits creditors from discriminating against credit applicants on the basis of race, color, religion, national origin, sex, marital status, age, public-assistance income, or the good-faith exercise of any right under the Consumer Credit Protection Act. The federal agency that administers compliance with this law is the Consumer Financial Protection Bureau.
+          </p>
+          <p>
+            <span className="eyebrow !text-cream-300">Military borrowers.</span>{" "}
+            Active-duty service members and their dependents have additional protections under the Military Lending Act, including a 36% MAPR cap on most consumer loans. Our lender partners are required to comply.
+          </p>
           <p className="pt-4 border-t border-cream-400/15 text-cream-300/50">
             © {new Date().getFullYear()} {siteConfig.name}. All rights reserved.
           </p>

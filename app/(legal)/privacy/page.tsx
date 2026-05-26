@@ -54,7 +54,7 @@ export default function PrivacyPage() {
         <li><strong>Business transfers:</strong> in connection with a merger, acquisition, sale of assets, or other corporate transaction.</li>
       </ul>
       <p>
-        <strong>Sharing with lenders may constitute a &ldquo;sale&rdquo; or &ldquo;share&rdquo; under certain U.S. state privacy laws (CCPA/CPRA).</strong> You have the right to opt out — see Section 7 below.
+        <strong>Sharing with lenders may constitute a &ldquo;sale&rdquo; or &ldquo;share&rdquo; under certain U.S. state privacy laws (CCPA/CPRA).</strong> You have the right to opt out. See Section 7 below.
       </p>
 
       <h2>5. GLBA financial-privacy notice</h2>

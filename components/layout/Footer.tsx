@@ -92,7 +92,7 @@ export function Footer() {
           ))}
         </div>
 
-        {/* Fine print — all required disclosures */}
+        {/* Fine print: all required disclosures */}
         <div className="space-y-4 border-t border-cream-400/15 pt-8 text-[12px] leading-relaxed text-cream-300/70">
           <p>
             <span className="eyebrow !text-cream-300">Representative example.</span>{" "}

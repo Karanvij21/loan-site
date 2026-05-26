@@ -70,8 +70,6 @@ export function Footer() {
           </div>
           <div className="flex flex-wrap items-center gap-x-6 gap-y-3 text-[13px]">
             <a href={`mailto:${siteConfig.email}`} className="hover:text-cream-100">{siteConfig.email}</a>
-            <span className="opacity-40">·</span>
-            <a href={`tel:${siteConfig.phone.replace(/[^\d+]/g, "")}`} className="tabular hover:text-cream-100">{siteConfig.phone}</a>
           </div>
         </div>
 

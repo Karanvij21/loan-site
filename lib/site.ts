@@ -1,12 +1,12 @@
 export const siteConfig = {
   name: process.env.NEXT_PUBLIC_SITE_NAME || "Fast Loan Advance",
-  url: process.env.NEXT_PUBLIC_SITE_URL || "https://yourdomain.com",
+  url: process.env.NEXT_PUBLIC_SITE_URL || "https://getadvanceloan.com",
   description:
     "Compare personal loan offers from $100 to $50,000 in minutes. Bad credit OK. Free, no obligation. Funds as fast as the next business day.",
   shortDescription:
     "Personal loans from $100 to $50,000. Compare offers in minutes. Bad credit OK.",
   phone: process.env.NEXT_PUBLIC_BRAND_PHONE || "+1-800-000-0000",
-  email: process.env.NEXT_PUBLIC_BRAND_EMAIL || "support@yourdomain.com",
+  email: process.env.NEXT_PUBLIC_BRAND_EMAIL || "support@getadvanceloan.com",
   locale: "en-US",
   social: {
     twitter: "@yourbrand",

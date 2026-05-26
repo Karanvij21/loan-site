@@ -63,8 +63,7 @@ export default function HomePage() {
       <section className="relative">
         <div className="mx-auto max-w-[1280px] px-6 pt-14 pb-20 lg:px-10 lg:pt-20 lg:pb-28">
           {/* Eyebrow */}
-          <div className="reveal reveal-1 flex items-center gap-3">
-            <span className="h-px w-10 bg-ink-900" />
+          <div className="reveal reveal-1">
             <span className="eyebrow">A loan marketplace, not a lender</span>
           </div>
 

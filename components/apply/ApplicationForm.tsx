@@ -92,7 +92,8 @@ export function ApplicationForm() {
 
   return (
     <FormProvider {...methods}>
-      <div className="rounded-[18px] bg-cream-50 ring-1 ring-cream-300/80 p-7 sm:p-10 lg:p-12 shadow-[0_30px_60px_-30px_rgba(14,59,46,0.10)]">
+      <div className="bezel-outer">
+       <div className="bezel-inner p-7 sm:p-10 lg:p-12">
         <StepProgress steps={steps} current={stepIdx} />
 
         <form onSubmit={onSubmit} className="mt-10" noValidate>
@@ -156,6 +157,7 @@ export function ApplicationForm() {
             )}
           </div>
         </form>
+       </div>
       </div>
     </FormProvider>
   );

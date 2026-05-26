@@ -16,8 +16,8 @@ export default async function OG() {
           flexDirection: "column",
           justifyContent: "space-between",
           padding: "72px 80px",
-          background: "#FAF6EC",
-          color: "#0A0D0B",
+          background: "#FAF5EB",
+          color: "#0C0A08",
           fontFamily: "sans-serif",
           position: "relative",
         }}
@@ -30,7 +30,7 @@ export default async function OG() {
             left: 0,
             right: 0,
             height: 6,
-            background: "#0E3B2E",
+            background: "#1A3A2D",
           }}
         />
 
@@ -41,7 +41,7 @@ export default async function OG() {
               fontSize: 18,
               letterSpacing: 4,
               textTransform: "uppercase",
-              color: "#5A5F5B",
+              color: "#4A4640",
               fontWeight: 600,
             }}
           >
@@ -52,8 +52,8 @@ export default async function OG() {
               width: 56,
               height: 56,
               borderRadius: 12,
-              background: "#0E3B2E",
-              color: "#FAF6EC",
+              background: "#1A3A2D",
+              color: "#FAF5EB",
               display: "flex",
               alignItems: "center",
               justifyContent: "center",
@@ -74,7 +74,7 @@ export default async function OG() {
               lineHeight: 1.02,
               letterSpacing: -4,
               fontWeight: 700,
-              color: "#0A0D0B",
+              color: "#0C0A08",
               display: "flex",
             }}
           >
@@ -86,7 +86,7 @@ export default async function OG() {
               lineHeight: 1.02,
               letterSpacing: -4,
               fontWeight: 700,
-              color: "#0E3B2E",
+              color: "#1A3A2D",
               display: "flex",
             }}
           >
@@ -97,7 +97,7 @@ export default async function OG() {
               marginTop: 28,
               fontSize: 24,
               lineHeight: 1.4,
-              color: "#2A2E2B",
+              color: "#2A2520",
               maxWidth: 820,
               display: "flex",
             }}
@@ -112,7 +112,7 @@ export default async function OG() {
             display: "flex",
             gap: 64,
             paddingTop: 24,
-            borderTop: "1px solid #D4C8A8",
+            borderTop: "1px solid #DFD3BB",
           }}
         >
           {[
@@ -122,13 +122,13 @@ export default async function OG() {
             { k: "$0", v: "to apply" },
           ].map((s) => (
             <div key={s.k} style={{ display: "flex", flexDirection: "column" }}>
-              <div style={{ fontSize: 40, fontWeight: 700, color: "#0A0D0B", letterSpacing: -1 }}>{s.k}</div>
+              <div style={{ fontSize: 40, fontWeight: 700, color: "#0C0A08", letterSpacing: -1 }}>{s.k}</div>
               <div
                 style={{
                   fontSize: 13,
                   letterSpacing: 2,
                   textTransform: "uppercase",
-                  color: "#5A5F5B",
+                  color: "#4A4640",
                   marginTop: 4,
                   fontWeight: 600,
                 }}

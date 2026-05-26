@@ -1,5 +1,7 @@
 import type { Metadata, Viewport } from "next";
-import { Inter, Poppins } from "next/font/google";
+import { Fraunces } from "next/font/google";
+import { GeistSans } from "geist/font/sans";
+import { GeistMono } from "geist/font/mono";
 import Script from "next/script";
 import { siteConfig } from "@/lib/site";
 import { Header } from "@/components/layout/Header";
@@ -10,18 +12,11 @@ import { StickyApplyCTA } from "@/components/layout/StickyApplyCTA";
 import { OrganizationJsonLd, WebSiteJsonLd } from "@/components/seo/JsonLd";
 import "./globals.css";
 
-const inter = Inter({
+const fraunces = Fraunces({
   subsets: ["latin"],
   display: "swap",
-  variable: "--font-inter",
-  weight: ["400", "500", "600", "700"],
-});
-
-const poppins = Poppins({
-  subsets: ["latin"],
-  display: "swap",
-  variable: "--font-poppins",
-  weight: ["400", "500", "600", "700"],
+  variable: "--font-fraunces",
+  axes: ["opsz", "SOFT"],
 });
 
 export const viewport: Viewport = {
@@ -83,7 +78,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   const clarityId = process.env.NEXT_PUBLIC_CLARITY_ID;
 
   return (
-    <html lang="en" className={`${inter.variable} ${poppins.variable}`}>
+    <html lang="en" className={`${fraunces.variable} ${GeistSans.variable} ${GeistMono.variable}`}>
       <head>
         <OrganizationJsonLd />
         <WebSiteJsonLd />

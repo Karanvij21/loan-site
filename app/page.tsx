@@ -62,19 +62,22 @@ export default function HomePage() {
       {/* ─────────────────────── HERO ─────────────────────── */}
       <section className="relative">
         <div className="mx-auto max-w-[1280px] px-6 pt-14 pb-20 lg:px-10 lg:pt-20 lg:pb-28">
-          {/* Eyebrow */}
+          {/* Eyebrow pill */}
           <div className="reveal reveal-1">
-            <span className="eyebrow">A loan marketplace, not a lender</span>
+            <span className="eyebrow-pill">
+              <span className="h-1.5 w-1.5 rounded-full bg-forest-700" />
+              Loan marketplace · not a lender
+            </span>
           </div>
 
-          <div className="mt-8 grid items-start gap-14 lg:grid-cols-[1fr_460px] lg:gap-20">
+          <div className="mt-10 grid items-start gap-14 lg:grid-cols-[1fr_460px] lg:gap-20">
             {/* Headline column */}
             <div className="reveal reveal-2">
-              <h1 className="text-[44px] leading-[1.02] tracking-tight text-ink-900 sm:text-[64px] lg:text-[64px]">
-                Loan offers, <span className="text-forest-700">in minutes</span>.
+              <h1 className="text-[52px] leading-[0.98] tracking-tight text-ink-900 sm:text-[72px] lg:text-[88px]">
+                Loan offers, <em className="italic text-forest-700">in minutes</em>.
               </h1>
 
-              <p className="mt-6 max-w-[48ch] text-[17px] leading-[1.55] text-ink-700 sm:text-[19px]">
+              <p className="mt-8 max-w-[52ch] text-[18px] leading-[1.6] text-ink-700 sm:text-[20px]">
                 Compare fixed-rate personal loan offers from <span className="tabular font-medium text-ink-900">$100 to $50,000</span> across a network of independent lenders. Soft credit check, no obligation. Approval, amount, and APR are decided by the lender.
               </p>
               <p className="mt-3 text-[11px] text-ink-500">
@@ -82,11 +85,13 @@ export default function HomePage() {
               </p>
 
               <div className="reveal reveal-3 mt-10 flex flex-wrap items-center gap-4">
-                <Link href="/apply" className="btn btn-primary">
+                <Link href="/apply" className="btn btn-primary group">
                   Begin your request
-                  <svg width="14" height="14" viewBox="0 0 14 14" aria-hidden fill="none">
-                    <path d="M3 7h8M7 3l4 4-4 4" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round" />
-                  </svg>
+                  <span aria-hidden className="btn-icon">
+                    <svg width="12" height="12" viewBox="0 0 14 14" fill="none">
+                      <path d="M3 7h8M7 3l4 4-4 4" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round" />
+                    </svg>
+                  </span>
                 </Link>
                 <Link href="/how-it-works" className="text-[15px] text-ink-700 underline decoration-cream-400 underline-offset-[6px] hover:decoration-ink-900 hover:text-ink-900">
                   How it works ↗

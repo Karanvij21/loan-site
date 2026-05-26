@@ -16,6 +16,7 @@ const columns = [
     links: [
       { href: "/how-it-works", label: "How it works" },
       { href: "/rates-and-fees", label: "Rates & fees" },
+      { href: "/personal-loans", label: "Loans by state" },
       { href: "/faq", label: "FAQ" },
     ],
   },

@@ -1,13 +1,15 @@
 import type { MetadataRoute } from "next";
 import { siteConfig } from "@/lib/site";
+import { states } from "@/lib/states";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = siteConfig.url;
   const now = new Date();
 
-  const routes: MetadataRoute.Sitemap = [
+  const core: MetadataRoute.Sitemap = [
     { url: `${base}/`, lastModified: now, changeFrequency: "weekly", priority: 1 },
     { url: `${base}/apply`, lastModified: now, changeFrequency: "weekly", priority: 0.9 },
+    { url: `${base}/personal-loans`, lastModified: now, changeFrequency: "weekly", priority: 0.85 },
     { url: `${base}/loans/personal`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
     { url: `${base}/loans/bad-credit`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
     { url: `${base}/loans/emergency`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
@@ -24,5 +26,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/opt-out`, lastModified: now, changeFrequency: "yearly", priority: 0.2 },
   ];
 
-  return routes;
+  const stateRoutes: MetadataRoute.Sitemap = states.map((s) => ({
+    url: `${base}/personal-loans/${s.slug}`,
+    lastModified: now,
+    changeFrequency: "monthly" as const,
+    priority: 0.75,
+  }));
+
+  return [...core, ...stateRoutes];
 }

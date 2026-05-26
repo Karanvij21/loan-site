@@ -3,7 +3,6 @@
 import Link from "next/link";
 import { useState, useEffect } from "react";
 import { usePathname } from "next/navigation";
-import { siteConfig } from "@/lib/site";
 
 const navItems = [
   { href: "/loans/personal", label: "Personal" },
@@ -79,12 +78,6 @@ export function Header() {
 
         {/* Actions */}
         <div className="flex items-center gap-3">
-          <a
-            href={`tel:${siteConfig.phone.replace(/[^\d+]/g, "")}`}
-            className="hidden text-[13px] tabular text-ink-500 hover:text-ink-900 md:inline"
-          >
-            {siteConfig.phone}
-          </a>
           <Link href="/apply" className="btn btn-primary hidden sm:inline-flex !py-2 !px-4 !text-[13px] !min-h-0">
             Begin
             <svg width="12" height="12" viewBox="0 0 14 14" aria-hidden fill="none">
@@ -147,12 +140,6 @@ export function Header() {
                 <path d="M3 7h8M7 3l4 4-4 4" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
               </svg>
             </Link>
-            <a
-              href={`tel:${siteConfig.phone.replace(/[^\d+]/g, "")}`}
-              className="btn btn-secondary w-full"
-            >
-              {siteConfig.phone}
-            </a>
           </div>
           <hr className="rule my-6" />
           <ul className="space-y-2 text-[13px] text-ink-500">

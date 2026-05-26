@@ -22,13 +22,13 @@ export function HeroMark() {
       {/* Brand mark */}
       <text
         x="120"
-        y="152"
+        y="148"
         textAnchor="middle"
-        style={{ fontFamily: "var(--font-display, sans-serif)", fontWeight: 600 }}
-        fontSize="96"
+        style={{ fontFamily: "var(--font-display, sans-serif)", fontWeight: 700, letterSpacing: -2 }}
+        fontSize="68"
         fill="#FAF6EC"
       >
-        f
+        GA
       </text>
 
       {/* Decorative orbit ticks */}

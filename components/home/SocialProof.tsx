@@ -73,7 +73,7 @@ function StarRow({ rating }: { rating: number }) {
   const full = Math.floor(rating);
   const stars = Array.from({ length: 5 }, (_, i) => i < full);
   return (
-    <div className="flex items-center gap-1" aria-label={`Rated ${rating} out of 5`}>
+    <div role="img" aria-label={`Rated ${rating} out of 5`} className="flex items-center gap-1">
       {stars.map((on, i) => (
         <svg key={i} width="16" height="16" viewBox="0 0 24 24" fill={on ? "#0E3B2E" : "transparent"} stroke={on ? "#0E3B2E" : "#D4C8A8"} strokeWidth="1.5" aria-hidden>
           <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" strokeLinejoin="round" />

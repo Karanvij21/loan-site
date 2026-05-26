@@ -16,8 +16,8 @@
 
   /* Ink: text */
   --color-ink-100: #C7CAC6;
-  --color-ink-300: #8A8F8B;
-  --color-ink-500: #5A5F5B;
+  --color-ink-300: #6B716D; /* darkened from #8A8F8B to pass WCAG AA 4.5:1 against cream */
+  --color-ink-500: #4F5450;
   --color-ink-700: #2A2E2B;
   --color-ink-900: #0A0D0B;
 

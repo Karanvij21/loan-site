@@ -36,7 +36,6 @@ export function Header() {
         {/* Wordmark */}
         <Link
           href="/"
-          aria-label={`${siteConfig.name} home`}
           className="group flex items-center gap-2.5"
           onClick={() => setOpen(false)}
         >

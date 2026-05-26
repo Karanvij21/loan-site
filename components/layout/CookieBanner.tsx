@@ -26,13 +26,17 @@ export function CookieBanner() {
   const choose = (value: "accepted" | "essential") => {
     try { localStorage.setItem(STORAGE_KEY, value); } catch { /* ignore */ }
     setConsent(value);
-    // Update consent mode for Google Analytics if present
-    if (typeof window !== "undefined" && (window as { gtag?: (...args: unknown[]) => void }).gtag) {
-      (window as { gtag?: (...args: unknown[]) => void }).gtag?.("consent", "update", {
-        ad_storage: value === "accepted" ? "granted" : "denied",
-        analytics_storage: value === "accepted" ? "granted" : "denied",
-        ad_user_data: value === "accepted" ? "granted" : "denied",
-        ad_personalization: value === "accepted" ? "granted" : "denied",
+    // Update Google Consent Mode v2 if gtag is available
+    const w = window as { gtag?: (...args: unknown[]) => void };
+    if (typeof window !== "undefined" && w.gtag) {
+      const granted = value === "accepted" ? "granted" : "denied";
+      w.gtag("consent", "update", {
+        ad_storage: granted,
+        analytics_storage: granted,
+        ad_user_data: granted,
+        ad_personalization: granted,
+        functionality_storage: "granted",
+        security_storage: "granted",
       });
     }
   };

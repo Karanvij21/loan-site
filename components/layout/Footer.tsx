@@ -46,7 +46,7 @@ export function Footer() {
         {/* Top: wordmark + tagline */}
         <div className="flex flex-col gap-10 border-b border-cream-400/15 pb-10 lg:flex-row lg:items-end lg:justify-between">
           <div className="max-w-md">
-            <Link href="/" className="flex items-center gap-3" aria-label="Home">
+            <Link href="/" className="flex items-center gap-3">
               <span
                 aria-hidden
                 className="grid h-10 w-10 place-items-center rounded-lg bg-cream-100 text-forest-700 font-bold text-[16px]"

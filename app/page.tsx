@@ -241,7 +241,7 @@ export default function HomePage() {
             Honest answers.
           </h2>
 
-          <dl className="mt-12 border-t border-ink-900">
+          <div className="mt-12 border-t border-ink-900">
             {faqs.map((f) => (
               <details key={f.q} className="group border-b border-cream-300 py-5">
                 <summary className="flex cursor-pointer items-baseline justify-between gap-6 marker:hidden">
@@ -252,10 +252,10 @@ export default function HomePage() {
                     +
                   </span>
                 </summary>
-                <dd className="mt-3 max-w-[60ch] text-[15px] leading-relaxed text-ink-700">{f.a}</dd>
+                <p className="mt-3 max-w-[60ch] text-[15px] leading-relaxed text-ink-700">{f.a}</p>
               </details>
             ))}
-          </dl>
+          </div>
         </div>
       </section>
 

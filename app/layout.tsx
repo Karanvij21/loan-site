@@ -87,6 +87,25 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <head>
         <OrganizationJsonLd />
         <WebSiteJsonLd />
+        {/* Define dataLayer + gtag + Consent Mode v2 defaults BEFORE any tag fires.
+            Prevents the "a[c] is not a function" race where GA4 inline ran after GTM. */}
+        {(gtmId || gaId) && (
+          <Script id="consent-init" strategy="beforeInteractive">{`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            window.gtag = gtag;
+            gtag('consent', 'default', {
+              ad_storage: 'denied',
+              ad_user_data: 'denied',
+              ad_personalization: 'denied',
+              analytics_storage: 'denied',
+              functionality_storage: 'granted',
+              security_storage: 'granted',
+              wait_for_update: 500
+            });
+            gtag('js', new Date());
+          `}</Script>
+        )}
         {gtmId && (
           <Script id="gtm" strategy="afterInteractive">{`
             (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','${gtmId}');
@@ -95,16 +114,13 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         {gaId && (
           <>
             <Script src={`https://www.googletagmanager.com/gtag/js?id=${gaId}`} strategy="afterInteractive" />
-            <Script id="ga4" strategy="afterInteractive">{`
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
+            <Script id="ga4-config" strategy="afterInteractive">{`
               gtag('config', '${gaId}', { anonymize_ip: true });
             `}</Script>
           </>
         )}
         {clarityId && (
-          <Script id="clarity" strategy="afterInteractive">{`
+          <Script id="clarity" strategy="lazyOnload">{`
             (function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window,document,"clarity","script","${clarityId}");
           `}</Script>
         )}

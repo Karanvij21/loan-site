@@ -1,4 +1,4 @@
-# Fast Loan Advance: Lead-gen Site
+# Get Advance Loan: Lead-gen Site
 
 A Next.js 15 + Tailwind v4 + Supabase loan-marketplace site, scaffolded for SEO/AEO/GEO and ready to forward leads to LendingTree once you have partner credentials.
 

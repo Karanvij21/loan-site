@@ -1,5 +1,5 @@
 export const siteConfig = {
-  name: process.env.NEXT_PUBLIC_SITE_NAME || "Fast Loan Advance",
+  name: process.env.NEXT_PUBLIC_SITE_NAME || "Get Advance Loan",
   url: process.env.NEXT_PUBLIC_SITE_URL || "https://getadvanceloan.com",
   description:
     "Compare personal loan offers from $100 to $50,000 in minutes. Bad credit OK. Free, no obligation. Funds as fast as the next business day.",

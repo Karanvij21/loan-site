@@ -1,7 +1,7 @@
 import { ImageResponse } from "next/og";
 
 export const runtime = "edge";
-export const alt = "Fast Loan Advance · Personal loans up to $50,000";
+export const alt = "Get Advance Loan · Personal loans up to $50,000";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -45,7 +45,7 @@ export default async function OG() {
               fontWeight: 600,
             }}
           >
-            Fast Loan Advance · Loan marketplace
+            Get Advance Loan · Loan marketplace
           </div>
           <div
             style={{
@@ -62,7 +62,7 @@ export default async function OG() {
               letterSpacing: -1,
             }}
           >
-            FL
+            GA
           </div>
         </div>
 

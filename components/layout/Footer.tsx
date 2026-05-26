@@ -51,13 +51,13 @@ export function Footer() {
                 className="grid h-10 w-10 place-items-center rounded-lg bg-cream-100 text-forest-700 font-bold text-[16px]"
                 style={{ fontFamily: "var(--font-display)" }}
               >
-                FL
+                GA
               </span>
               <span
                 className="text-2xl font-semibold tracking-tight text-cream-100"
                 style={{ fontFamily: "var(--font-display)" }}
               >
-                Fast Loan Advance
+                Get Advance Loan
               </span>
             </Link>
             <p

@@ -45,14 +45,14 @@ export function Header() {
             className="grid h-9 w-9 place-items-center rounded-lg bg-forest-700 text-cream-100 font-bold text-[16px] transition-transform duration-300 group-hover:scale-105"
             style={{ fontFamily: "var(--font-display)" }}
           >
-            FL
+            GA
           </span>
           <span className="hidden sm:flex flex-col leading-none">
             <span
               className="text-[14px] font-semibold tracking-tight text-ink-900"
               style={{ fontFamily: "var(--font-display)" }}
             >
-              Fast Loan Advance
+              Get Advance Loan
             </span>
             <span className="text-[10px] tracking-[0.15em] uppercase text-ink-500 mt-1">
               Loan Marketplace

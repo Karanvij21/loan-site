@@ -23,7 +23,7 @@ export default function Icon() {
           borderRadius: 12,
         }}
       >
-        FL
+        GA
       </div>
     ),
     { ...size }

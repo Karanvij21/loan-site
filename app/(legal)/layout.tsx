@@ -30,7 +30,7 @@ export default function LegalLayout({ children }: { children: React.ReactNode })
         }
         .legal-prose em {
           color: var(--color-ink-500);
-          font-style: italic;
+          font-style: normal;
         }
         .legal-prose strong { color: var(--color-ink-900); font-weight: 500; }
         .legal-prose a {

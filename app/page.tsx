@@ -74,7 +74,7 @@ export default function HomePage() {
             {/* Headline column */}
             <div className="reveal reveal-2">
               <h1 className="text-[52px] leading-[0.98] tracking-tight text-ink-900 sm:text-[72px] lg:text-[88px]">
-                Loan offers, <em className="italic text-forest-700">in minutes</em>.
+                Loan offers, <span className="text-forest-700">in minutes</span>.
               </h1>
 
               <p className="mt-8 max-w-[52ch] text-[18px] leading-[1.6] text-ink-700 sm:text-[20px]">

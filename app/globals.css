@@ -65,10 +65,8 @@
 :root {
   color-scheme: light;
   --grain-opacity: 0.035;
-  /* Typography composed at runtime so next/font's --font-* vars resolve
-     when the html.fraunces-variable class mounts them. @theme can't do
-     this because it evaluates at parse time. */
-  --font-display: var(--font-fraunces), ui-serif, Georgia, serif;
+  /* Single clean sans family. Hierarchy via weight + size. */
+  --font-display: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
   --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
   --font-mono: var(--font-geist-mono), ui-monospace, "SFMono-Regular", monospace;
 }
@@ -107,27 +105,23 @@ body::before {
 }
 
 /* ─────────────────────────────────────────────────────────────
-   Display type — Fraunces with optical-size + soft axes
+   Display type — Geist Sans, hierarchy through weight + size
    ───────────────────────────────────────────────────────────── */
 
 .font-display,
 h1, h2, h3 {
   font-family: var(--font-display);
-  font-variation-settings: "opsz" 144, "SOFT" 40, "WONK" 0;
   letter-spacing: -0.022em;
-  line-height: 1.02;
+  line-height: 1.05;
   text-wrap: balance;
 }
 
-h1 { font-weight: 360; letter-spacing: -0.032em; }
-h2 { font-weight: 400; letter-spacing: -0.026em; }
-h3 { font-weight: 480; font-variation-settings: "opsz" 60, "SOFT" 50; letter-spacing: -0.018em; }
+h1 { font-weight: 600; letter-spacing: -0.032em; }
+h2 { font-weight: 600; letter-spacing: -0.026em; }
+h3 { font-weight: 600; letter-spacing: -0.018em; }
 
-/* Italic display gains characterful wonk */
-h1 em, h2 em, .font-display em {
-  font-style: italic;
-  font-variation-settings: "opsz" 144, "SOFT" 100, "WONK" 1;
-}
+/* Emphasis stays semantic but renders upright (cleaner with Geist) */
+em { font-style: normal; }
 
 p { text-wrap: pretty; }
 

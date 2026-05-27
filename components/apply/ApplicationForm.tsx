@@ -58,6 +58,18 @@ export function ApplicationForm() {
       if (stepIdx === 0) {
         requestPushPermission();
         tagSubscriber({ funnel_stage: "started" });
+        // Schedule the abandoned-application drip server-side.
+        // Wait a moment for the subscription to settle, then post the id.
+        setTimeout(async () => {
+          const oneSignalId = await getOneSignalSubscriptionId();
+          if (oneSignalId) {
+            fetch("/api/abandoned/schedule", {
+              method: "POST",
+              headers: { "content-type": "application/json" },
+              body: JSON.stringify({ oneSignalId }),
+            }).catch(() => { /* best-effort, silent fail */ });
+          }
+        }, 2500);
       }
       setStepIdx((i) => Math.min(i + 1, steps.length - 1));
     }

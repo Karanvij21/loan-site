@@ -22,6 +22,9 @@ export type PushOptions = {
   url?: string;
   /** Arbitrary key/value sent in the push payload — readable in OneSignal handlers. */
   data?: Record<string, unknown>;
+  /** Schedule delivery for a future time. Accepts a Date or ISO 8601 string.
+   *  If omitted, the push fires immediately. */
+  sendAt?: Date | string;
 };
 
 export type PushTarget =
@@ -45,6 +48,11 @@ export async function sendPush(target: PushTarget, opts: PushOptions): Promise<P
   };
   if (opts.url) body.url = opts.url;
   if (opts.data) body.data = opts.data;
+  if (opts.sendAt) {
+    // OneSignal accepts ISO 8601 with timezone for send_after.
+    const iso = typeof opts.sendAt === "string" ? opts.sendAt : opts.sendAt.toISOString();
+    body.send_after = iso;
+  }
 
   if ("subscriptionIds" in target) {
     if (!target.subscriptionIds.length) return { ok: false, skipped: true, reason: "no subscriptionIds" };
@@ -86,4 +94,107 @@ export async function sendPush(target: PushTarget, opts: PushOptions): Promise<P
   } catch (e: unknown) {
     return { ok: false, error: e instanceof Error ? e.message : "Network error" };
   }
+}
+
+/** Fire a sequence of pushes at relative offsets from `now`.
+ *
+ *  Each push is scheduled server-side via OneSignal's send_after, so the
+ *  delivery is owned by OneSignal — no cron or queue infrastructure needed
+ *  on our side.
+ *
+ *  Returns an array of results. Failures don't short-circuit the sequence.
+ */
+export async function schedulePushSequence(
+  target: PushTarget,
+  sequence: Array<{
+    afterMinutes: number;
+    title: string;
+    body: string;
+    url?: string;
+    data?: Record<string, unknown>;
+  }>
+): Promise<PushResult[]> {
+  const now = Date.now();
+  const results: PushResult[] = [];
+  for (const step of sequence) {
+    const sendAt = step.afterMinutes === 0
+      ? undefined
+      : new Date(now + step.afterMinutes * 60 * 1000);
+    const result = await sendPush(target, {
+      title: step.title,
+      body: step.body,
+      url: step.url,
+      data: step.data,
+      sendAt,
+    });
+    results.push(result);
+  }
+  return results;
+}
+
+/* ─────────────────────────────────────────────────────────────
+   Drip templates
+   ───────────────────────────────────────────────────────────── */
+
+/** Post-submission drip. T+0 fires immediately; rest are scheduled. */
+export function submittedDrip(siteUrl: string, opts: { leadId?: string } = {}) {
+  return [
+    {
+      afterMinutes: 0,
+      title: "Request received",
+      body: "Lenders are reviewing your request. Watch your email for offers.",
+      url: `${siteUrl}/apply/success`,
+      data: { ...opts, stage: "submitted_t0" },
+    },
+    {
+      afterMinutes: 60, // +1 hour
+      title: "Your offers should be in your inbox",
+      body: "Lender matches typically respond within an hour. Compare APRs before accepting.",
+      url: `${siteUrl}/how-it-works`,
+      data: { ...opts, stage: "submitted_t1h" },
+    },
+    {
+      afterMinutes: 60 * 24, // +24 hours
+      title: "Check your email for offers",
+      body: "Don't miss your lender responses. Open your email to compare offers side by side.",
+      url: `${siteUrl}/how-it-works`,
+      data: { ...opts, stage: "submitted_t24h" },
+    },
+    {
+      afterMinutes: 60 * 24 * 3, // +3 days
+      title: "Need help comparing offers?",
+      body: "Our rates and fees guide can help you choose the right lender for your situation.",
+      url: `${siteUrl}/rates-and-fees`,
+      data: { ...opts, stage: "submitted_t3d" },
+    },
+  ];
+}
+
+/** Abandoned-application drip. All scheduled into the future (no T+0).
+ *  Use when a visitor passes Step 1 but doesn't finish — schedule these
+ *  immediately and OneSignal owns the timing. */
+export function abandonedDrip(siteUrl: string) {
+  return [
+    {
+      afterMinutes: 30,
+      title: "Finish your loan request",
+      body: "You're 60 seconds away from comparing offers. Pick up where you left off.",
+      url: `${siteUrl}/apply?resume=1`,
+      data: { stage: "abandoned_t30m" },
+    },
+    {
+      afterMinutes: 60 * 24, // +24 hours
+      title: "Your offers are waiting",
+      body: "Soft credit check, no obligation. Resume your application in under 2 minutes.",
+      url: `${siteUrl}/apply?resume=1`,
+      data: { stage: "abandoned_t24h" },
+    },
+    {
+      afterMinutes: 60 * 24 * 3, // +3 days
+      title: "Personal loans up to $50,000",
+      body: "APRs from 5.99%. Two-minute application with no impact to your credit to check.",
+      url: `${siteUrl}/apply`,
+      data: { stage: "abandoned_t3d" },
+    },
+  ];
 }

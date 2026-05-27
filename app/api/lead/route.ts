@@ -3,7 +3,7 @@ import { fullApplicationSchema } from "@/lib/schema";
 import { getSupabaseAdmin } from "@/lib/supabase";
 import { forwardToLendingTree } from "@/lib/lendingtree";
 import { sendApplicationConfirmation } from "@/lib/email";
-import { sendPush } from "@/lib/onesignal";
+import { schedulePushSequence, submittedDrip } from "@/lib/onesignal";
 import { siteConfig } from "@/lib/site";
 
 export const runtime = "nodejs";
@@ -82,23 +82,21 @@ export async function POST(req: Request) {
   // 3. Email confirmation (best-effort)
   await sendApplicationConfirmation(data.email, data.firstName, data.amount);
 
-  // 4. Server-side push confirmation (best-effort; only if user is subscribed)
-  let pushResult:
-    | Awaited<ReturnType<typeof sendPush>>
+  // 4. Server-side push drip (best-effort; only if user is subscribed).
+  //    Fires the confirmation immediately + schedules 3 follow-ups via
+  //    OneSignal's send_after, so OneSignal owns the timing — we need no
+  //    cron, queue, or persistent state.
+  let pushResults:
+    | Awaited<ReturnType<typeof schedulePushSequence>>
     | { ok: false; skipped: true; reason: string } = {
     ok: false,
     skipped: true,
     reason: "no oneSignalId",
   };
   if (oneSignalId) {
-    pushResult = await sendPush(
+    pushResults = await schedulePushSequence(
       { subscriptionIds: [oneSignalId] },
-      {
-        title: "Request received",
-        body: "Lenders are reviewing your request. Watch your email for offers.",
-        url: `${siteConfig.url}/apply/success`,
-        data: { leadId, type: "lead_confirmation" },
-      }
+      submittedDrip(siteConfig.url, { leadId })
     );
   }
 
@@ -106,6 +104,6 @@ export async function POST(req: Request) {
     ok: true,
     leadId: leadId ?? lt.leadId,
     lendingTree: { ok: lt.ok, leadId: lt.leadId, error: lt.error },
-    push: pushResult,
+    push: pushResults,
   });
 }

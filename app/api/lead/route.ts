@@ -87,9 +87,8 @@ export async function POST(req: Request) {
   //    converted, those messages would be wrong/embarrassing now.
   //    Then fire the submitted drip: +0 confirmation + 3 scheduled
   //    follow-ups via OneSignal's send_after.
-  let pushResults:
-    | Awaited<ReturnType<typeof schedulePushSequence>>
-    | { ok: false; skipped: true; reason: string } = {
+  type PushResults = Awaited<ReturnType<typeof schedulePushSequence>>;
+  let pushResults: PushResults | { ok: false; skipped: true; reason: string } = {
     ok: false,
     skipped: true,
     reason: "no oneSignalId",
@@ -98,12 +97,13 @@ export async function POST(req: Request) {
   if (oneSignalId) {
     cancelResult = await cancelPendingPushes(oneSignalId, ["abandoned", "never_started"]);
     const drip = submittedDrip(siteConfig.url, { leadId });
-    pushResults = await schedulePushSequence({ subscriptionIds: [oneSignalId] }, drip);
+    const results: PushResults = await schedulePushSequence({ subscriptionIds: [oneSignalId] }, drip);
+    pushResults = results;
     const now = Date.now();
     await recordScheduledPushes(
       oneSignalId,
       drip.map((step, i) => ({
-        result: pushResults[i],
+        result: results[i],
         stage: String(step.data?.stage ?? `submitted_step_${i}`),
         sendAfter: step.afterMinutes > 0 ? new Date(now + step.afterMinutes * 60 * 1000) : undefined,
       }))

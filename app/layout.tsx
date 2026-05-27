@@ -68,6 +68,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   const gaId = process.env.NEXT_PUBLIC_GA_ID;
   const gtmId = process.env.NEXT_PUBLIC_GTM_ID;
   const clarityId = process.env.NEXT_PUBLIC_CLARITY_ID;
+  const oneSignalAppId = process.env.NEXT_PUBLIC_ONESIGNAL_APP_ID;
 
   return (
     <html lang="en" className={`${GeistSans.variable} ${GeistMono.variable}`}>
@@ -110,6 +111,26 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <Script id="clarity" strategy="lazyOnload">{`
             (function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window,document,"clarity","script","${clarityId}");
           `}</Script>
+        )}
+        {/* OneSignal Web Push v16. Loads lazily so it's not in the LCP path. */}
+        {oneSignalAppId && (
+          <>
+            <Script
+              src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js"
+              strategy="lazyOnload"
+              defer
+            />
+            <Script id="onesignal-init" strategy="lazyOnload">{`
+              window.OneSignalDeferred = window.OneSignalDeferred || [];
+              window.OneSignalDeferred.push(function(OneSignal) {
+                OneSignal.init({
+                  appId: "${oneSignalAppId}",
+                  allowLocalhostAsSecureOrigin: true,
+                  notifyButton: { enable: false },
+                });
+              });
+            `}</Script>
+          </>
         )}
       </head>
       <body className="min-h-screen flex flex-col">

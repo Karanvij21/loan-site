@@ -13,6 +13,7 @@ import { Step3Income } from "./steps/Step3Income";
 import { Step4Bank } from "./steps/Step4Bank";
 import { Step5Consent } from "./steps/Step5Consent";
 import { trackApplyStarted, trackStepCompleted, trackLeadSubmitted } from "@/lib/tracking";
+import { requestPushPermission, tagSubscriber } from "@/lib/push";
 
 const stepFields: (keyof FullApplication)[][] = [
   ["amount", "purpose", "creditRating"],
@@ -52,6 +53,12 @@ export function ApplicationForm() {
     const valid = await methods.trigger(stepFields[stepIdx]);
     if (valid) {
       trackStepCompleted(stepIdx + 1, steps[stepIdx]);
+      // After Step 1 (Amount) completes, ask for push permission. The user has
+      // demonstrated intent, which is the sweet spot for grant rate.
+      if (stepIdx === 0) {
+        requestPushPermission();
+        tagSubscriber({ funnel_stage: "started" });
+      }
       setStepIdx((i) => Math.min(i + 1, steps.length - 1));
     }
   };
@@ -82,6 +89,14 @@ export function ApplicationForm() {
         creditRating: data.creditRating,
         state: data.state,
         leadId: payload?.leadId,
+      });
+      // Update OneSignal tags so dashboards can segment by completed leads
+      tagSubscriber({
+        funnel_stage: "submitted",
+        loan_amount: data.amount,
+        loan_purpose: data.purpose,
+        credit_rating: data.creditRating,
+        state: data.state,
       });
       router.push("/apply/success");
     } catch (e: unknown) {

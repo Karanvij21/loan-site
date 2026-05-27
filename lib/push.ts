@@ -71,3 +71,31 @@ export function tagSubscriber(tags: Record<string, string | number>) {
     }
   });
 }
+
+/** Get the current visitor's OneSignal subscription ID, if subscribed.
+ *  Returns null when OneSignal isn't loaded or the user hasn't opted in.
+ *  Used by /api/lead to fire a server-side push targeted at THIS user. */
+export function getOneSignalSubscriptionId(): Promise<string | null> {
+  if (typeof window === "undefined") return Promise.resolve(null);
+  return new Promise((resolve) => {
+    let resolved = false;
+    const done = (id: string | null) => {
+      if (resolved) return;
+      resolved = true;
+      resolve(id);
+    };
+    // Race: if OneSignal isn't loaded within 2 seconds, give up
+    const timeout = setTimeout(() => done(null), 2000);
+    withOneSignal((OneSignal) => {
+      try {
+        const sub = OneSignal.User?.PushSubscription;
+        const id = (sub as unknown as { id?: string })?.id ?? null;
+        clearTimeout(timeout);
+        done(id);
+      } catch {
+        clearTimeout(timeout);
+        done(null);
+      }
+    });
+  });
+}

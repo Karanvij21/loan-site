@@ -13,7 +13,7 @@ import { Step3Income } from "./steps/Step3Income";
 import { Step4Bank } from "./steps/Step4Bank";
 import { Step5Consent } from "./steps/Step5Consent";
 import { trackApplyStarted, trackStepCompleted, trackLeadSubmitted } from "@/lib/tracking";
-import { requestPushPermission, tagSubscriber } from "@/lib/push";
+import { requestPushPermission, tagSubscriber, getOneSignalSubscriptionId } from "@/lib/push";
 
 const stepFields: (keyof FullApplication)[][] = [
   ["amount", "purpose", "creditRating"],
@@ -69,6 +69,9 @@ export function ApplicationForm() {
     setSubmitting(true);
     setError(null);
     try {
+      // Best-effort: include OneSignal subscription ID so the server can
+      // fire a targeted push to this exact user (not just a tag-based segment)
+      const oneSignalId = await getOneSignalSubscriptionId();
       const res = await fetch("/api/lead", {
         method: "POST",
         headers: { "content-type": "application/json" },
@@ -77,6 +80,7 @@ export function ApplicationForm() {
           consentTimestamp: new Date().toISOString(),
           userAgent: navigator.userAgent,
           referrer: document.referrer,
+          ...(oneSignalId ? { oneSignalId } : {}),
         }),
       });
       if (!res.ok) throw new Error(await res.text());

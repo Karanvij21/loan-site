@@ -3,6 +3,8 @@ import { fullApplicationSchema } from "@/lib/schema";
 import { getSupabaseAdmin } from "@/lib/supabase";
 import { forwardToLendingTree } from "@/lib/lendingtree";
 import { sendApplicationConfirmation } from "@/lib/email";
+import { sendPush } from "@/lib/onesignal";
+import { siteConfig } from "@/lib/site";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
@@ -23,6 +25,12 @@ export async function POST(req: Request) {
     );
   }
   const data = parsed.data;
+
+  // Optional fields not in the Zod schema — read defensively
+  const oneSignalId =
+    body && typeof body === "object" && "oneSignalId" in body
+      ? String((body as { oneSignalId?: unknown }).oneSignalId || "")
+      : "";
 
   const ip = req.headers.get("x-forwarded-for")?.split(",")[0]?.trim() ?? null;
   const userAgent = req.headers.get("user-agent");
@@ -74,9 +82,30 @@ export async function POST(req: Request) {
   // 3. Email confirmation (best-effort)
   await sendApplicationConfirmation(data.email, data.firstName, data.amount);
 
+  // 4. Server-side push confirmation (best-effort; only if user is subscribed)
+  let pushResult:
+    | Awaited<ReturnType<typeof sendPush>>
+    | { ok: false; skipped: true; reason: string } = {
+    ok: false,
+    skipped: true,
+    reason: "no oneSignalId",
+  };
+  if (oneSignalId) {
+    pushResult = await sendPush(
+      { subscriptionIds: [oneSignalId] },
+      {
+        title: "Request received",
+        body: "Lenders are reviewing your request. Watch your email for offers.",
+        url: `${siteConfig.url}/apply/success`,
+        data: { leadId, type: "lead_confirmation" },
+      }
+    );
+  }
+
   return NextResponse.json({
     ok: true,
     leadId: leadId ?? lt.leadId,
     lendingTree: { ok: lt.ok, leadId: lt.leadId, error: lt.error },
+    push: pushResult,
   });
 }

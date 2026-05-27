@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 import { fullApplicationSchema } from "@/lib/schema";
-import { getSupabaseAdmin } from "@/lib/supabase";
+import { getSupabaseAdmin, recordScheduledPushes, cancelPendingPushes } from "@/lib/supabase";
 import { forwardToLendingTree } from "@/lib/lendingtree";
 import { sendApplicationConfirmation } from "@/lib/email";
 import { schedulePushSequence, submittedDrip } from "@/lib/onesignal";
@@ -83,9 +83,10 @@ export async function POST(req: Request) {
   await sendApplicationConfirmation(data.email, data.firstName, data.amount);
 
   // 4. Server-side push drip (best-effort; only if user is subscribed).
-  //    Fires the confirmation immediately + schedules 3 follow-ups via
-  //    OneSignal's send_after, so OneSignal owns the timing — we need no
-  //    cron, queue, or persistent state.
+  //    Cancel any pending abandoned/never-started pushes first — the user
+  //    converted, those messages would be wrong/embarrassing now.
+  //    Then fire the submitted drip: +0 confirmation + 3 scheduled
+  //    follow-ups via OneSignal's send_after.
   let pushResults:
     | Awaited<ReturnType<typeof schedulePushSequence>>
     | { ok: false; skipped: true; reason: string } = {
@@ -93,10 +94,19 @@ export async function POST(req: Request) {
     skipped: true,
     reason: "no oneSignalId",
   };
+  let cancelResult: Awaited<ReturnType<typeof cancelPendingPushes>> | null = null;
   if (oneSignalId) {
-    pushResults = await schedulePushSequence(
-      { subscriptionIds: [oneSignalId] },
-      submittedDrip(siteConfig.url, { leadId })
+    cancelResult = await cancelPendingPushes(oneSignalId, ["abandoned", "never_started"]);
+    const drip = submittedDrip(siteConfig.url, { leadId });
+    pushResults = await schedulePushSequence({ subscriptionIds: [oneSignalId] }, drip);
+    const now = Date.now();
+    await recordScheduledPushes(
+      oneSignalId,
+      drip.map((step, i) => ({
+        result: pushResults[i],
+        stage: String(step.data?.stage ?? `submitted_step_${i}`),
+        sendAfter: step.afterMinutes > 0 ? new Date(now + step.afterMinutes * 60 * 1000) : undefined,
+      }))
     );
   }
 
@@ -105,5 +115,6 @@ export async function POST(req: Request) {
     leadId: leadId ?? lt.leadId,
     lendingTree: { ok: lt.ok, leadId: lt.leadId, error: lt.error },
     push: pushResults,
+    cancelled: cancelResult,
   });
 }

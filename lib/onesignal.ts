@@ -15,6 +15,24 @@ const ONESIGNAL_API = "https://api.onesignal.com/notifications";
 const APP_ID = process.env.NEXT_PUBLIC_ONESIGNAL_APP_ID;
 const REST_KEY = process.env.ONESIGNAL_REST_API_KEY;
 
+/** Cancel a scheduled OneSignal notification by ID. */
+export async function cancelNotification(notificationId: string): Promise<{ ok: boolean; error?: string }> {
+  if (!APP_ID || !REST_KEY || !notificationId) return { ok: false, error: "missing config or id" };
+  try {
+    const res = await fetch(`${ONESIGNAL_API}/${notificationId}?app_id=${APP_ID}`, {
+      method: "DELETE",
+      headers: { Authorization: `Key ${REST_KEY}` },
+    });
+    if (!res.ok) {
+      const txt = await res.text().catch(() => "");
+      return { ok: false, error: `${res.status} ${txt}`.trim() };
+    }
+    return { ok: true };
+  } catch (e: unknown) {
+    return { ok: false, error: e instanceof Error ? e.message : "Network error" };
+  }
+}
+
 export type PushOptions = {
   title: string;
   body: string;
@@ -166,6 +184,36 @@ export function submittedDrip(siteUrl: string, opts: { leadId?: string } = {}) {
       body: "Our rates and fees guide can help you choose the right lender for your situation.",
       url: `${siteUrl}/rates-and-fees`,
       data: { ...opts, stage: "submitted_t3d" },
+    },
+  ];
+}
+
+/** "Never started the form" drip — for visitors who subscribe from the
+ *  homepage but never click through to /apply. All scheduled into the
+ *  future. Gets cancelled when /api/abandoned/schedule runs (= they did
+ *  start the form) or when /api/lead runs (= they submitted). */
+export function neverStartedDrip(siteUrl: string) {
+  return [
+    {
+      afterMinutes: 60 * 24, // +1 day
+      title: "Ready to see your loan offers?",
+      body: "Two-minute application, soft credit check, no obligation.",
+      url: `${siteUrl}/apply`,
+      data: { stage: "never_started_t1d" },
+    },
+    {
+      afterMinutes: 60 * 24 * 3, // +3 days
+      title: "Personal loans up to $50,000",
+      body: "APRs from 5.99%. See your real offers in minutes — no impact to your credit to check.",
+      url: `${siteUrl}/apply`,
+      data: { stage: "never_started_t3d" },
+    },
+    {
+      afterMinutes: 60 * 24 * 7, // +7 days
+      title: "Still thinking about a loan?",
+      body: "Compare offers from a network of trusted lenders. Free, no obligation.",
+      url: `${siteUrl}/how-it-works`,
+      data: { stage: "never_started_t7d" },
     },
   ];
 }

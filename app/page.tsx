@@ -6,6 +6,7 @@ import { LoanCalculator } from "@/components/home/LoanCalculator";
 import { TrustBar } from "@/components/home/TrustBar";
 import { HeroMark } from "@/components/home/HeroMark";
 import { SocialProof } from "@/components/home/SocialProof";
+import { HomepagePushPrompt } from "@/components/home/HomepagePushPrompt";
 
 export const metadata: Metadata = {
   title: `${siteConfig.name} · Personal Loans up to $50,000`,
@@ -58,6 +59,7 @@ export default function HomePage() {
         aprMax={35.99}
       />
       <FaqJsonLd items={faqs} />
+      <HomepagePushPrompt />
 
       {/* ─────────────────────── HERO ─────────────────────── */}
       <section className="relative">

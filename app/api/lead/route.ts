@@ -79,8 +79,26 @@ export async function POST(req: Request) {
   // 2. Forward to LendingTree (mocked until creds configured)
   const lt = await forwardToLendingTree(data, meta);
 
+  // Persist the forwarding outcome on the lead row so the admin dashboard
+  // can show forward status without re-fetching from LendingTree.
+  if (supabase && leadId) {
+    await supabase
+      .from("leads")
+      .update({
+        lendingtree_lead_id: lt.leadId ?? null,
+        forwarded_at: lt.ok ? new Date().toISOString() : null,
+      })
+      .eq("id", leadId);
+  }
+
   // 3. Email confirmation (best-effort)
-  await sendApplicationConfirmation(data.email, data.firstName, data.amount);
+  const emailResult = await sendApplicationConfirmation(data.email, data.firstName, data.amount);
+  if (supabase && leadId) {
+    await supabase
+      .from("leads")
+      .update({ email_sent_at: emailResult.ok ? new Date().toISOString() : null })
+      .eq("id", leadId);
+  }
 
   // 4. Server-side push drip (best-effort; only if user is subscribed).
   //    Cancel any pending abandoned/never-started pushes first — the user

@@ -20,7 +20,7 @@ export default function DisclosuresPage() {
 
       <h2>2. APR &amp; Truth in Lending (TILA) disclosure</h2>
       <p>
-        Annual Percentage Rates (APRs) in our lender network typically range from <strong>5.99% to 35.99%</strong>. The APR you are offered depends on the lender, your credit profile, loan amount, term, state of residence, and other factors. Some short-term products (such as cash advances) may have higher APRs allowed by state law. Always review the lender&rsquo;s loan agreement carefully before signing.
+        Annual Percentage Rates (APRs) in our lender network typically range from <strong>5.99% to 35.99%</strong>. The APR you are offered depends on the lender, your credit profile, loan amount, term, and state of residence. Always review the lender&rsquo;s loan agreement carefully before signing.
       </p>
 
       <h2>3. Representative example</h2>

@@ -1,4 +1,4 @@
-export type ProductSlug = "personal" | "bad-credit" | "emergency" | "cash-advance";
+export type ProductSlug = "personal" | "bad-credit" | "emergency";
 
 export const products: Record<ProductSlug, {
   slug: ProductSlug;
@@ -92,32 +92,7 @@ export const products: Record<ProductSlug, {
     ],
     faqs: [
       { q: "How fast will I get the money?", a: "After you accept an offer and e-sign, funds are typically deposited via ACH the next business day. Some lenders offer same-day funding for an additional fee." },
-      { q: "Can I get an emergency loan with no credit check?", a: "All lenders in our network perform some form of credit review, but the initial inquiry is a soft pull that does not affect your score." },
-    ],
-  },
-  "cash-advance": {
-    slug: "cash-advance",
-    h1: "Cash Advance Loans",
-    title: "Online Cash Advance: $100 to $1,000",
-    description:
-      "Short-term cash advances from $100 to $1,000. Funded as fast as next business day. Soft credit check, all credit considered.",
-    amountMin: 100,
-    amountMax: 1000,
-    termMin: 1,
-    termMax: 6,
-    aprMin: 99,
-    aprMax: 399,
-    intro:
-      "A cash advance is a small, short-term loan typically repaid on or shortly after your next payday. APRs are higher than traditional personal loans because of the short term and small loan size. Only borrow what you can repay on time.",
-    bullets: [
-      "Loan amounts from $100 to $1,000",
-      "Short repayment terms (typically your next pay period)",
-      "Available to applicants with all credit profiles",
-      "Decision in minutes",
-    ],
-    faqs: [
-      { q: "How is APR calculated on a cash advance?", a: "Because cash advances are short-term and small, the APR is much higher than a traditional installment loan. Always review the loan agreement and total cost before accepting." },
-      { q: "Is a cash advance the same as a payday loan?", a: "They are similar. Both are small, short-term loans repaid on your next payday. Specific terms vary by lender and state regulation." },
+      { q: "Will my credit be checked for an emergency loan?", a: "Yes. All lenders in our network perform some form of credit review. The initial inquiry is a soft pull that does not affect your score; a hard pull only happens if you accept a final offer." },
     ],
   },
 };

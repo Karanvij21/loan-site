@@ -8,7 +8,6 @@ const columns = [
       { href: "/loans/personal", label: "Personal" },
       { href: "/loans/bad-credit", label: "Bad credit" },
       { href: "/loans/emergency", label: "Emergency" },
-      { href: "/loans/cash-advance", label: "Cash advance" },
     ],
   },
   {

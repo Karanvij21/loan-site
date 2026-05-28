@@ -13,7 +13,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/loans/personal`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
     { url: `${base}/loans/bad-credit`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
     { url: `${base}/loans/emergency`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
-    { url: `${base}/loans/cash-advance`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
     { url: `${base}/how-it-works`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
     { url: `${base}/rates-and-fees`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
     { url: `${base}/faq`, lastModified: now, changeFrequency: "monthly", priority: 0.6 },

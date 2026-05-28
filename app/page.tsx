@@ -19,7 +19,6 @@ const products = [
   { n: "01", href: "/loans/personal", title: "Personal", amount: "$1,000 – $50,000", blurb: "Fixed-rate installment loans for any considered purpose." },
   { n: "02", href: "/loans/bad-credit", title: "Bad Credit", amount: "$500 – $10,000", blurb: "Lenders who weigh more than your score." },
   { n: "03", href: "/loans/emergency", title: "Emergency", amount: "$300 – $5,000", blurb: "Same-week funding for unexpected expenses." },
-  { n: "04", href: "/loans/cash-advance", title: "Cash Advance", amount: "$100 – $1,000", blurb: "A short bridge to your next paycheck." },
 ];
 
 const steps = [

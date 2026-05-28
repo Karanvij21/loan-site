@@ -7,7 +7,7 @@ export const siteConfig = {
   description:
     "Compare personal loan offers from $100 to $50,000 in minutes. Bad credit OK. Free, no obligation. Funds as fast as the next business day.",
   shortDescription:
-    "Personal loans from $100 to $50,000. Compare offers in minutes. Bad credit OK.",
+    "Personal loans from $100 to $50,000. Compare offers in minutes. All credit profiles considered.",
   phone: phoneEnv || PLACEHOLDER_PHONE,
   /** True only when NEXT_PUBLIC_BRAND_PHONE is set to a real (non-placeholder) value.
    *  Use this to conditionally render phone links so the demo number never ships. */
@@ -27,14 +27,13 @@ export const siteConfig = {
   },
   keywords: [
     "personal loans",
-    "online loans",
-    "bad credit loans",
+    "online personal loans",
+    "bad credit personal loans",
     "emergency loans",
-    "cash advance",
     "installment loans",
-    "loans up to $50000",
-    "fast loans online",
-    "same day loans",
+    "debt consolidation loans",
+    "personal loans up to $50,000",
+    "compare loan offers",
   ],
 } as const;
 

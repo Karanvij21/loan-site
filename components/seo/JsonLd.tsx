@@ -17,6 +17,7 @@ export function OrganizationJsonLd() {
         "@type": "FinancialService",
         "@id": `${siteConfig.url}/#organization`,
         name: siteConfig.name,
+        legalName: siteConfig.legalEntity,
         url: siteConfig.url,
         logo: `${siteConfig.url}/logo.png`,
         image: `${siteConfig.url}/og-default.png`,

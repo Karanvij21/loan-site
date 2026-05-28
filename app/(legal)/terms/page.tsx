@@ -13,12 +13,12 @@ export default function TermsPage() {
       <h1>Terms of Use</h1>
       <p><em>Last updated: {new Date().toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" })}</em></p>
       <p>
-        These Terms of Use (&ldquo;Terms&rdquo;) govern your access to and use of the {siteConfig.name} website and services. By accessing or using our service, you agree to be bound by these Terms. If you do not agree, do not use the service.
+        These Terms of Use (&ldquo;Terms&rdquo;) govern your access to and use of the {siteConfig.name} website and services, operated by {siteConfig.legalEntity} (&ldquo;{siteConfig.legalEntity},&rdquo; &ldquo;we,&rdquo; &ldquo;us,&rdquo; or &ldquo;our&rdquo;). By accessing or using our service, you agree to be bound by these Terms. If you do not agree, do not use the service.
       </p>
 
       <h2>1. Service description</h2>
       <p>
-        {siteConfig.name} is a free online loan marketplace and lead-generation service. We are <strong>not a lender</strong>, broker, or agent of any lender. We use the information you submit to match you with independent third-party lenders, including LendingTree, who may make you an offer. All loan decisions, terms, APR, and fees are determined solely by the lender.
+        {siteConfig.name} is a brand operated by {siteConfig.legalEntity}, a free online loan marketplace and lead-generation service. We are <strong>not a lender</strong>, broker, or agent of any lender. We use the information you submit to match you with independent third-party lenders, including LendingTree, who may make you an offer. All loan decisions, terms, APR, and fees are determined solely by the lender.
       </p>
 
       <h2>2. Eligibility</h2>

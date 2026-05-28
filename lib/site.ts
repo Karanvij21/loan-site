@@ -3,6 +3,9 @@ const phoneEnv = process.env.NEXT_PUBLIC_BRAND_PHONE;
 
 export const siteConfig = {
   name: process.env.NEXT_PUBLIC_SITE_NAME || "Get Advance Loan",
+  /** Legal operating entity. Must match the Google Ads MCC / advertiser
+   *  verification name so ads aren't disapproved for identity mismatch. */
+  legalEntity: process.env.NEXT_PUBLIC_LEGAL_ENTITY || "Stellar Commerce Solutions LLC",
   url: process.env.NEXT_PUBLIC_SITE_URL || "https://getadvanceloan.com",
   description:
     "Compare personal loan offers from $100 to $50,000 in minutes. Bad credit OK. Free, no obligation. Funds as fast as the next business day.",

@@ -15,7 +15,7 @@ export default function DisclosuresPage() {
 
       <h2>1. Lead generator, not a lender</h2>
       <p>
-        {siteConfig.name} is a lead generator and free online loan marketplace. We are <strong>not a lender</strong>, broker, agent, or representative of any lender. We do not make loan or credit decisions, set rates or terms, originate or fund loans, or collect payments. We use the information you submit to match you with a network of independent third-party lenders, including <strong>LendingTree</strong>, who may make you an offer. Approval, terms, APR, and fees are determined solely by the lender, in their sole discretion, based on the information you provide and their underwriting criteria.
+        {siteConfig.name} is a brand operated by {siteConfig.legalEntity}, a lead generator and free online loan marketplace. We are <strong>not a lender</strong>, broker, agent, or representative of any lender. We do not make loan or credit decisions, set rates or terms, originate or fund loans, or collect payments. We use the information you submit to match you with a network of independent third-party lenders, including <strong>LendingTree</strong>, who may make you an offer. Approval, terms, APR, and fees are determined solely by the lender, in their sole discretion, based on the information you provide and their underwriting criteria.
       </p>
 
       <h2>2. APR &amp; Truth in Lending (TILA) disclosure</h2>

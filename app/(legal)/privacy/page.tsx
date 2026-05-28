@@ -18,7 +18,7 @@ export default function PrivacyPage() {
 
       <h2>1. Who we are</h2>
       <p>
-        {siteConfig.name} is an online loan marketplace and lead-generation service that connects U.S. consumers with a network of independent third-party lenders. We are not a lender. Contact:{" "}
+        {siteConfig.name} is a brand operated by {siteConfig.legalEntity}, an online loan marketplace and lead-generation service that connects U.S. consumers with a network of independent third-party lenders. We are not a lender. References to &ldquo;we,&rdquo; &ldquo;us,&rdquo; and &ldquo;our&rdquo; mean {siteConfig.legalEntity}. Contact:{" "}
         <a href={`mailto:${siteConfig.email}`}>{siteConfig.email}</a>
         {siteConfig.hasPhone && (
           <>

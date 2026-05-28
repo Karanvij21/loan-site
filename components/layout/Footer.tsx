@@ -98,7 +98,7 @@ export function Footer() {
           </p>
           <p>
             <span className="eyebrow !text-cream-300">Not a lender.</span>{" "}
-            {siteConfig.name} is not a lender, broker, or agent of any lender. We are a free online marketplace and lead-generation service that connects consumers with a network of independent third-party lenders, including LendingTree. We do not make loan approval decisions and we do not guarantee approval, loan amount, APR, or any specific terms. All loan decisions are made solely by the lender based on the information you provide.
+            {siteConfig.name} is a brand operated by {siteConfig.legalEntity}. {siteConfig.name} is not a lender, broker, or agent of any lender. We are a free online marketplace and lead-generation service that connects consumers with a network of independent third-party lenders, including LendingTree. We do not make loan approval decisions and we do not guarantee approval, loan amount, APR, or any specific terms. All loan decisions are made solely by the lender based on the information you provide.
           </p>
           <p>
             <span className="eyebrow !text-cream-300">Late & non-payment.</span>{" "}
@@ -121,7 +121,7 @@ export function Footer() {
             Active-duty service members and their dependents have additional protections under the Military Lending Act, including a 36% MAPR cap on most consumer loans. Our lender partners are required to comply.
           </p>
           <p className="pt-4 border-t border-cream-400/15 text-cream-300">
-            © {new Date().getFullYear()} {siteConfig.name}. All rights reserved.
+            © {new Date().getFullYear()} {siteConfig.legalEntity}. {siteConfig.name} is a trade name of {siteConfig.legalEntity}. All rights reserved.
           </p>
         </div>
       </div>

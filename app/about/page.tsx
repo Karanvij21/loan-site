@@ -24,7 +24,7 @@ export default function AboutPage() {
       <div className="mt-12 grid gap-10 lg:grid-cols-[1fr_280px]">
         <div className="space-y-5 text-[17px] leading-[1.7] text-ink-700">
           <p>
-            {siteConfig.name} is an independent online loan marketplace that helps U.S. consumers find competitive personal loan offers from a network of trusted lender partners, including <span className="text-ink-900">LendingTree</span>.
+            {siteConfig.name}, operated by {siteConfig.legalEntity}, is an independent online loan marketplace that helps U.S. consumers find competitive personal loan offers from a network of trusted lender partners, including <span className="text-ink-900">LendingTree</span>.
           </p>
           <p>
             Our mission is to make borrowing simple, transparent, and stress-free. We do not make loans ourselves. Instead, we use the information you provide to match you with the lenders most likely to offer you favorable terms.

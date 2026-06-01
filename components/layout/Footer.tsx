@@ -8,6 +8,32 @@ const columns = [
       { href: "/loans/personal", label: "Personal" },
       { href: "/loans/bad-credit", label: "Bad credit" },
       { href: "/loans/emergency", label: "Emergency" },
+      { href: "/loans/debt-consolidation", label: "Debt consolidation" },
+      { href: "/loans/medical", label: "Medical" },
+      { href: "/loans/home-improvement", label: "Home improvement" },
+      { href: "/loans/amount", label: "By loan amount" },
+    ],
+  },
+  {
+    title: "Tools",
+    links: [
+      { href: "/calculators/loan-payment", label: "Payment calculator" },
+      { href: "/calculators/apr", label: "APR calculator" },
+      { href: "/calculators/debt-payoff", label: "Debt payoff calculator" },
+      { href: "/calculators/affordability", label: "Affordability calculator" },
+      { href: "/glossary", label: "Glossary" },
+      { href: "/compare", label: "Loan comparisons" },
+    ],
+  },
+  {
+    title: "By profile",
+    links: [
+      { href: "/loans/excellent-credit", label: "Excellent credit" },
+      { href: "/loans/good-credit", label: "Good credit" },
+      { href: "/loans/fair-credit", label: "Fair credit" },
+      { href: "/loans/self-employed", label: "Self-employed" },
+      { href: "/loans/1099-contractor", label: "1099 contractor" },
+      { href: "/loans/gig-workers", label: "Gig workers" },
     ],
   },
   {
@@ -17,6 +43,7 @@ const columns = [
       { href: "/rates-and-fees", label: "Rates & fees" },
       { href: "/personal-loans", label: "Loans by state" },
       { href: "/faq", label: "FAQ" },
+      { href: "/editorial-policy", label: "Editorial policy" },
     ],
   },
   {
@@ -24,11 +51,6 @@ const columns = [
     links: [
       { href: "/about", label: "About" },
       { href: "/contact", label: "Contact" },
-    ],
-  },
-  {
-    title: "Legal",
-    links: [
       { href: "/privacy", label: "Privacy policy" },
       { href: "/terms", label: "Terms of use" },
       { href: "/disclosures", label: "Disclosures" },

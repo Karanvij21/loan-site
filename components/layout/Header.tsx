@@ -8,8 +8,10 @@ const navItems = [
   { href: "/loans/personal", label: "Personal" },
   { href: "/loans/bad-credit", label: "Bad Credit" },
   { href: "/loans/emergency", label: "Emergency" },
+  { href: "/calculators", label: "Calculators" },
+  { href: "/compare", label: "Compare" },
+  { href: "/glossary", label: "Glossary" },
   { href: "/how-it-works", label: "How it works" },
-  { href: "/faq", label: "FAQ" },
 ];
 
 export function Header() {

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { states, stateBySlug, regionIntro, aprDescription } from "@/lib/states";
+import { topCitiesForState } from "@/lib/cities";
 import { siteConfig } from "@/lib/site";
 import { BreadcrumbJsonLd, FaqJsonLd, LoanProductJsonLd } from "@/components/seo/JsonLd";
 
@@ -34,7 +35,7 @@ export default async function StatePage({ params }: Props) {
   const intro = regionIntro(s.region, s.name);
   const aprText = aprDescription(s);
 
-  // Per-state FAQ — keep 3 always-on Qs, reorder + reword based on whether state has a notable cap
+  // Per-state FAQ, keep 3 always-on Qs, reorder + reword based on whether state has a notable cap
   const faqs = buildFaq(s);
 
   // State-specific schemas
@@ -184,7 +185,35 @@ export default async function StatePage({ params }: Props) {
         </div>
       </section>
 
-      {/* NEIGHBOURING STATES — internal linking */}
+      {/* TOP CITIES, internal linking into city pages */}
+      {topCitiesForState(s.slug).length > 0 && (
+        <section className="bg-cream-50 border-y border-cream-300">
+          <div className="mx-auto max-w-[1080px] px-6 py-12 lg:px-10 lg:py-16">
+            <span className="eyebrow">Top {s.name} metros</span>
+            <h2 className="mt-3 text-[26px] leading-[1.1] tracking-tight text-ink-900 lg:text-[32px]">
+              Personal loans by city in {s.name}.
+            </h2>
+            <dl className="mt-8 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+              {topCitiesForState(s.slug).map((c) => (
+                <Link
+                  key={c.slug}
+                  href={`/personal-loans/${s.slug}/${c.slug}`}
+                  className="group rounded-xl border border-cream-300 bg-cream-100 p-5 transition-colors hover:bg-cream-50 hover:border-cream-400"
+                >
+                  <dt className="text-[16px] font-semibold text-ink-900 group-hover:text-forest-700">
+                    Personal loans in {c.name}
+                  </dt>
+                  <dd className="mt-1 text-[12px] uppercase tracking-[0.15em] text-ink-500">
+                    Pop. ~{c.population}
+                  </dd>
+                </Link>
+              ))}
+            </dl>
+          </div>
+        </section>
+      )}
+
+      {/* NEIGHBOURING STATES, internal linking */}
       <section>
         <div className="mx-auto max-w-[1080px] px-6 py-16 lg:px-10">
           <span className="eyebrow">Explore nearby states</span>

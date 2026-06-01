@@ -20,7 +20,9 @@ type EventName =
   | "apply_started"
   | "step_completed"
   | "lead_submitted"
-  | "generate_lead";
+  | "generate_lead"
+  | "lead_form_view"
+  | "lead_form_message";
 
 type EventParams = Record<string, unknown>;
 
@@ -54,6 +56,37 @@ export function trackStepCompleted(stepIndex: number, stepName: string) {
     step_index: stepIndex,
     step_name: stepName,
   });
+}
+
+/**
+ * Fired when an external lead-capture iframe (Round Sky, LendingTree)
+ * renders. Lets us measure CTA → form-view rate even when we don't
+ * own the form submission event.
+ */
+export function trackLeadFormView(opts: {
+  provider: string;
+  form_id: string;
+  utm_source?: string;
+  utm_medium?: string;
+  utm_campaign?: string;
+  utm_term?: string;
+  utm_content?: string;
+}) {
+  track("lead_form_view", opts);
+}
+
+/**
+ * Fired when the iframe origin postMessages back to us. Round Sky's
+ * messages (if any) come through here with their raw payload, so GTM
+ * can route specific message types to conversion goals when configured.
+ */
+export function trackLeadFormMessage(opts: {
+  provider: string;
+  form_id: string;
+  message_type?: string;
+  payload?: unknown;
+}) {
+  track("lead_form_message", opts);
 }
 
 export function trackLeadSubmitted(opts: {

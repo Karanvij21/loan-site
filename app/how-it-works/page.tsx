@@ -1,7 +1,13 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { siteConfig } from "@/lib/site";
-import { BreadcrumbJsonLd } from "@/components/seo/JsonLd";
+import {
+  BreadcrumbJsonLd,
+  HowToJsonLd,
+  SpeakableJsonLd,
+} from "@/components/seo/JsonLd";
+
+const URL = `${siteConfig.url}/how-it-works`;
 
 export const metadata: Metadata = {
   title: "How it works",
@@ -22,8 +28,18 @@ export default function HowItWorks() {
       <BreadcrumbJsonLd
         items={[
           { name: "Home", url: `${siteConfig.url}/` },
-          { name: "How it works", url: `${siteConfig.url}/how-it-works` },
+          { name: "How it works", url: URL },
         ]}
+      />
+      <HowToJsonLd
+        name="How to get a personal loan online"
+        description="Three steps to compare and accept a personal-loan offer from the Get Advance Loan lender network."
+        totalTime="PT12M"
+        steps={steps.map((s) => ({ name: s.t, text: s.b }))}
+      />
+      <SpeakableJsonLd
+        url={URL}
+        cssSelectors={["h1", ".how-step h2", ".how-step p"]}
       />
       <article className="mx-auto max-w-[920px] px-6 py-20 lg:px-10 lg:py-28">
         <span className="eyebrow">The process</span>
@@ -33,7 +49,7 @@ export default function HowItWorks() {
 
         <ol className="mt-16 border-t border-ink-900">
           {steps.map((s) => (
-            <li key={s.n} className="grid grid-cols-[60px_1fr] gap-6 border-b border-cream-300 py-10 lg:grid-cols-[120px_1fr]">
+            <li key={s.n} className="how-step grid grid-cols-[60px_1fr] gap-6 border-b border-cream-300 py-10 lg:grid-cols-[120px_1fr]">
               <span className="tabular text-3xl text-ink-300 lg:text-4xl">{s.n}</span>
               <div>
                 <h2 className="text-2xl text-ink-900 lg:text-3xl">{s.t}</h2>

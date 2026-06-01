@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
-import { FaqJsonLd, BreadcrumbJsonLd } from "@/components/seo/JsonLd";
+import { FaqJsonLd, BreadcrumbJsonLd, SpeakableJsonLd } from "@/components/seo/JsonLd";
 import { siteConfig } from "@/lib/site";
+
+const URL = `${siteConfig.url}/faq`;
 
 export const metadata: Metadata = {
   title: "Frequently asked questions",
@@ -28,9 +30,10 @@ export default function FAQPage() {
       <BreadcrumbJsonLd
         items={[
           { name: "Home", url: `${siteConfig.url}/` },
-          { name: "FAQ", url: `${siteConfig.url}/faq` },
+          { name: "FAQ", url: URL },
         ]}
       />
+      <SpeakableJsonLd url={URL} cssSelectors={["h1", "summary", "details p"]} />
       <article className="mx-auto max-w-[920px] px-6 py-20 lg:px-10 lg:py-28">
         <span className="eyebrow">Honest answers</span>
         <h1 className="mt-3 text-[40px] leading-[1.02] tracking-tight text-ink-900 lg:text-[64px]">

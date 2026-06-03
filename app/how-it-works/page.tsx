@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   title: "How it works",
   description:
     "Three steps: submit a free request, review your offers, receive funds. Soft credit check, no obligation.",
-  alternates: { canonical: "/how-it-works" },
+  alternates: { canonical: "/how-it-works", languages: { "en-US": "/how-it-works", "es-US": "/es/how-it-works" } },
 };
 
 const steps = [

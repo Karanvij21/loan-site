@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title: "Begin your request",
   description:
     "Apply for a personal loan from $100 to $50,000. Two minutes. Soft credit check only. No impact on your credit score.",
-  alternates: { canonical: "/apply" },
+  alternates: { canonical: "/apply", languages: { "en-US": "/apply", "es-US": "/es/apply" } },
   robots: { index: true, follow: true },
 };
 

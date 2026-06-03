@@ -111,7 +111,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: p.title,
     description: p.description,
-    alternates: { canonical: `/loans/${p.slug}` },
+    alternates: {
+      canonical: `/loans/${p.slug}`,
+      // Only the 3 core product slugs have Spanish translations so far;
+      // pointing hreflang at non-existent /es pages would get downgraded.
+      ...(p.slug === "personal" || p.slug === "bad-credit" || p.slug === "emergency"
+        ? { languages: { "en-US": `/loans/${p.slug}`, "es-US": `/es/loans/${p.slug}` } }
+        : {}),
+    },
     openGraph: { title: p.title, description: p.description, url: `/loans/${p.slug}` },
   };
 }

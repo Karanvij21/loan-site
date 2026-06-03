@@ -7,7 +7,7 @@ const URL = `${siteConfig.url}/faq`;
 export const metadata: Metadata = {
   title: "Frequently asked questions",
   description: "Answers to common questions about personal loans, credit checks, eligibility, funding speed, fees, and more.",
-  alternates: { canonical: "/faq" },
+  alternates: { canonical: "/faq", languages: { "en-US": "/faq", "es-US": "/es/faq" } },
 };
 
 const faqs = [

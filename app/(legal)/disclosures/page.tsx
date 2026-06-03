@@ -4,7 +4,7 @@ import { siteConfig } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Disclosures",
   description: `Lending, advertising, affiliate, and consumer disclosures for ${siteConfig.name}. APR ranges, representative example, late and non-payment consequences, state availability, and credit impact.`,
-  alternates: { canonical: "/disclosures" },
+  alternates: { canonical: "/disclosures", languages: { "en-US": "/disclosures", "es-US": "/es/disclosures" } },
 };
 
 export default function DisclosuresPage() {

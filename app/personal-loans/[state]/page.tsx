@@ -4,7 +4,7 @@ import Link from "next/link";
 import { states, stateBySlug, regionIntro, aprDescription } from "@/lib/states";
 import { topCitiesForState } from "@/lib/cities";
 import { siteConfig } from "@/lib/site";
-import { BreadcrumbJsonLd, FaqJsonLd, LoanProductJsonLd } from "@/components/seo/JsonLd";
+import { BreadcrumbJsonLd, FaqJsonLd, LoanProductJsonLd, LocalBusinessJsonLd } from "@/components/seo/JsonLd";
 
 export function generateStaticParams() {
   return states.map((s) => ({ state: s.slug }));
@@ -52,6 +52,13 @@ export default async function StatePage({ params }: Props) {
         aprMax={s.aprCap ?? 35.99}
       />
       <FaqJsonLd items={faqs} />
+      <LocalBusinessJsonLd
+        stateName={s.name}
+        stateAbbr={s.abbr}
+        url={`${siteConfig.url}/personal-loans/${s.slug}`}
+        aprCap={s.aprCap}
+        regulator={s.regulator}
+      />
       <BreadcrumbJsonLd
         items={[
           { name: "Home", url: `${siteConfig.url}/` },

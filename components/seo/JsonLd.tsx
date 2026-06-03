@@ -33,6 +33,18 @@ export function OrganizationJsonLd() {
           siteConfig.social.youtube,
           siteConfig.social.tiktok,
         ],
+        // Knowledge-graph anchoring. These are Wikidata Q-IDs for the
+        // primary regulatory and partner entities we reference across
+        // the site. Google uses sameAs as a hint that our content
+        // sits in the same entity neighbourhood.
+        knowsAbout: [
+          { "@type": "Thing", name: "Personal loan", sameAs: "https://www.wikidata.org/wiki/Q1413038" },
+          { "@type": "Thing", name: "Annual percentage rate", sameAs: "https://www.wikidata.org/wiki/Q1059815" },
+          { "@type": "Thing", name: "Truth in Lending Act", sameAs: "https://www.wikidata.org/wiki/Q7848859" },
+          { "@type": "Thing", name: "Consumer Financial Protection Bureau", sameAs: "https://www.wikidata.org/wiki/Q1129206" },
+          { "@type": "Thing", name: "FICO score", sameAs: "https://www.wikidata.org/wiki/Q5424498" },
+          { "@type": "Thing", name: "Fair Credit Reporting Act", sameAs: "https://www.wikidata.org/wiki/Q5430226" },
+        ],
         contactPoint: {
           "@type": "ContactPoint",
           contactType: "customer service",
@@ -406,6 +418,115 @@ export function ItemListJsonLd({
           url: it.url,
           ...(it.description ? { description: it.description } : {}),
         })),
+      }}
+    />
+  );
+}
+
+/**
+ * LocalBusiness schema for state pages. Each state page surfaces
+ * the brand as a state-scoped FinancialService so "personal loans
+ * near me" / state-localised queries find us. Not a real local
+ * presence (we're online-only), but valid: schema.org explicitly
+ * supports virtual / online-only LocalBusiness entries when
+ * areaServed is set appropriately.
+ */
+export function LocalBusinessJsonLd({
+  stateName,
+  stateAbbr,
+  url,
+  aprCap,
+  regulator,
+}: {
+  stateName: string;
+  stateAbbr: string;
+  url: string;
+  aprCap: number | null;
+  regulator: string;
+}) {
+  return (
+    <JsonLdScript
+      data={{
+        "@context": "https://schema.org",
+        "@type": "FinancialService",
+        "@id": `${url}#localbusiness`,
+        name: `${siteConfig.name}, ${stateName}`,
+        legalName: siteConfig.legalEntity,
+        url,
+        image: `${siteConfig.url}/og-default.png`,
+        description: `Personal loan marketplace serving ${stateName} (${stateAbbr}) residents through a network of independent lenders.`,
+        priceRange: "$$",
+        areaServed: {
+          "@type": "State",
+          name: stateName,
+          identifier: stateAbbr,
+        },
+        parentOrganization: { "@id": `${siteConfig.url}/#organization` },
+        // State-specific regulatory metadata. Schema.org doesn't have a
+        // first-class "regulator" property, so we surface it via
+        // additionalProperty.
+        additionalProperty: [
+          {
+            "@type": "PropertyValue",
+            name: "Regulator",
+            value: regulator,
+          },
+          ...(aprCap !== null
+            ? [{
+                "@type": "PropertyValue",
+                name: "State APR cap",
+                value: `${aprCap}%`,
+              }]
+            : []),
+        ],
+        availableService: {
+          "@type": "FinancialProduct",
+          name: "Personal loan",
+          description: `Personal installment loans from $100 to $50,000 for ${stateName} residents.`,
+        },
+      }}
+    />
+  );
+}
+
+/**
+ * SoftwareApplication schema for our calculator pages. Marks each
+ * calculator as a free in-browser tool, which both unlocks
+ * calculator-specific Google rich results (rating, price, category)
+ * and gives LLMs an explicit signal that the page provides a tool
+ * (versus a static explanation of the math).
+ */
+export function SoftwareApplicationJsonLd({
+  name,
+  description,
+  url,
+  applicationCategory = "FinanceApplication",
+}: {
+  name: string;
+  description: string;
+  url: string;
+  applicationCategory?: string;
+}) {
+  return (
+    <JsonLdScript
+      data={{
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        name,
+        description,
+        url,
+        applicationCategory,
+        operatingSystem: "Any",
+        // Calculators are 100% client-side and free; the offer makes
+        // that explicit in markup so Google can render the "Free" badge
+        // in rich results where supported.
+        offers: {
+          "@type": "Offer",
+          price: "0",
+          priceCurrency: "USD",
+        },
+        publisher: { "@id": `${siteConfig.url}/#organization` },
+        isAccessibleForFree: true,
       }}
     />
   );

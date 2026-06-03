@@ -5,6 +5,7 @@ import {
   ArticleJsonLd,
   BreadcrumbJsonLd,
   HowToJsonLd,
+  SoftwareApplicationJsonLd,
   SpeakableJsonLd,
 } from "@/components/seo/JsonLd";
 import { defaultAuthor, defaultReviewer, authorUrl } from "@/lib/authors";
@@ -60,6 +61,11 @@ export default function AffordabilityPage() {
         ]}
       />
       <SpeakableJsonLd url={URL} cssSelectors={[".calc-intro"]} />
+      <SoftwareApplicationJsonLd
+        name="Loan affordability calculator"
+        description="Free in-browser affordability calculator. Works backwards from a monthly budget to find the maximum loan amount that fits."
+        url={URL}
+      />
 
       <article className="mx-auto max-w-[1080px] px-6 py-20 lg:px-10 lg:py-28">
         <nav aria-label="Breadcrumb" className="flex items-center gap-3 text-[12px] text-ink-500">

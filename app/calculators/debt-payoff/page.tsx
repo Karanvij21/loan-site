@@ -5,6 +5,7 @@ import {
   ArticleJsonLd,
   BreadcrumbJsonLd,
   HowToJsonLd,
+  SoftwareApplicationJsonLd,
   SpeakableJsonLd,
 } from "@/components/seo/JsonLd";
 import { defaultAuthor, defaultReviewer, authorUrl } from "@/lib/authors";
@@ -60,6 +61,11 @@ export default function PayoffCalcPage() {
         ]}
       />
       <SpeakableJsonLd url={URL} cssSelectors={[".calc-intro"]} />
+      <SoftwareApplicationJsonLd
+        name="Debt payoff calculator"
+        description="Free in-browser debt payoff calculator. Compares credit-card payoff to personal-loan consolidation, side by side."
+        url={URL}
+      />
 
       <article className="mx-auto max-w-[1080px] px-6 py-20 lg:px-10 lg:py-28">
         <nav aria-label="Breadcrumb" className="flex items-center gap-3 text-[12px] text-ink-500">

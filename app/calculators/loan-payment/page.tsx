@@ -5,6 +5,7 @@ import {
   ArticleJsonLd,
   BreadcrumbJsonLd,
   HowToJsonLd,
+  SoftwareApplicationJsonLd,
   SpeakableJsonLd,
 } from "@/components/seo/JsonLd";
 import { defaultAuthor, defaultReviewer, authorUrl } from "@/lib/authors";
@@ -60,6 +61,11 @@ export default function PaymentCalcPage() {
         ]}
       />
       <SpeakableJsonLd url={URL} cssSelectors={[".calc-intro"]} />
+      <SoftwareApplicationJsonLd
+        name="Loan payment calculator"
+        description="Free in-browser personal-loan payment calculator. Computes monthly payment, total interest, and total cost from loan amount, APR, and term."
+        url={URL}
+      />
 
       <article className="mx-auto max-w-[1080px] px-6 py-20 lg:px-10 lg:py-28">
         <nav aria-label="Breadcrumb" className="flex items-center gap-3 text-[12px] text-ink-500">

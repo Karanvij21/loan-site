@@ -8,6 +8,7 @@ import { amounts, monthlyPayment } from "@/lib/amounts";
 import { glossaryTerms } from "@/lib/glossary";
 import { states } from "@/lib/states";
 import { cities, citiesByState } from "@/lib/cities";
+import { guides } from "@/lib/guides";
 import { authors } from "@/lib/authors";
 import { formatCurrency } from "@/lib/utils";
 
@@ -206,6 +207,21 @@ export function GET() {
   lines.push("- CCPA / CPRA, California consumer rights honoured at /do-not-sell");
   lines.push("- Google Ads Personal Loans policy, no loans with ≤60-day repayment, no APR ≥36% promoted");
   lines.push("");
+
+  // ─── Long-form guides ────────────────────────────────────────────
+  lines.push("## Long-form guides");
+  lines.push("");
+  lines.push(`Ten long-form personal-finance guides at ${siteConfig.url}/learn, organised by cluster. Each is reviewed by our editorial team and compliance reviewer.`);
+  lines.push("");
+  for (const g of guides) {
+    lines.push(`### ${g.h1}`);
+    lines.push(`- URL: ${siteConfig.url}/learn/${g.slug}`);
+    lines.push(`- Cluster: ${g.cluster}`);
+    lines.push(`- Reading time: ${g.estimatedReadMinutes} minutes`);
+    lines.push(`- Last reviewed: ${g.reviewedAt}`);
+    lines.push(`- TL;DR: ${g.intro}`);
+    lines.push("");
+  }
 
   // ─── Editorial team ────────────────────────────────────────────────
   lines.push("## Editorial team & review process");

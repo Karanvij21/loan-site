@@ -8,6 +8,7 @@ import { employmentTypes } from "@/lib/employment";
 import { comparisons } from "@/lib/comparisons";
 import { cities } from "@/lib/cities";
 import { glossaryTerms } from "@/lib/glossary";
+import { guides } from "@/lib/guides";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = siteConfig.url;
@@ -28,6 +29,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/calculators/affordability`, lastModified: now, changeFrequency: "monthly", priority: 0.75 },
     { url: `${base}/glossary`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
     { url: `${base}/compare`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
+    { url: `${base}/learn`, lastModified: now, changeFrequency: "weekly", priority: 0.78 },
     { url: `${base}/how-it-works`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
     { url: `${base}/rates-and-fees`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
     { url: `${base}/faq`, lastModified: now, changeFrequency: "monthly", priority: 0.6 },
@@ -97,6 +99,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.55,
   }));
 
+  const guideRoutes: MetadataRoute.Sitemap = guides.map((g) => ({
+    url: `${base}/learn/${g.slug}`,
+    lastModified: new Date(g.reviewedAt),
+    changeFrequency: "monthly" as const,
+    priority: 0.78,
+  }));
+
   return [
     ...core,
     ...stateRoutes,
@@ -106,6 +115,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...employmentRoutes,
     ...compareRoutes,
     ...cityRoutes,
+    ...guideRoutes,
     ...glossaryRoutes,
   ];
 }

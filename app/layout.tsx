@@ -34,6 +34,9 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "/",
     languages: { "en-US": "/" },
+    types: {
+      "application/rss+xml": [{ url: "/feed.xml", title: `${siteConfig.name} - Personal Finance Guides` }],
+    },
   },
   openGraph: {
     type: "website",

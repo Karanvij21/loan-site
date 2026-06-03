@@ -39,6 +39,8 @@ const columns = [
   {
     title: "Resources",
     links: [
+      { href: "/learn", label: "Learn (guides)" },
+      { href: "/glossary", label: "Glossary" },
       { href: "/how-it-works", label: "How it works" },
       { href: "/rates-and-fees", label: "Rates & fees" },
       { href: "/personal-loans", label: "Loans by state" },

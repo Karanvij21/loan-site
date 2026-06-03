@@ -31,9 +31,11 @@ Operated by ${siteConfig.legalEntity}.
 - [How it works](${siteConfig.url}/how-it-works): 3-step process
 - [Rates & fees](${siteConfig.url}/rates-and-fees): APR, fees, examples
 - [FAQ](${siteConfig.url}/faq): answers to common questions
+- [Learn](${siteConfig.url}/learn): long-form guides on debt, credit, loan shopping, life events
 - [Glossary](${siteConfig.url}/glossary): 50 lending terms defined in plain English
 - [Calculators](${siteConfig.url}/calculators): payment, APR, debt payoff, affordability
 - [Editorial policy](${siteConfig.url}/editorial-policy): how we research, write, and review
+- [RSS feed](${siteConfig.url}/feed.xml): new guides and glossary updates
 - [Privacy policy](${siteConfig.url}/privacy)
 - [Terms of use](${siteConfig.url}/terms)
 - [Disclosures](${siteConfig.url}/disclosures)
@@ -83,6 +85,23 @@ Operated by ${siteConfig.legalEntity}.
 
 ## State and city pages
 50-state + DC index at ${siteConfig.url}/personal-loans. City-level pages for the top metros in each state at ${siteConfig.url}/personal-loans/{state}/{city}.
+
+## Guides
+${(() => {
+  // Inline-rendered list of guide links so the LLM can route to specifics.
+  // Generated at request time from the live guides module.
+  return "";
+})()}
+- [Consolidate credit card debt with a personal loan](${siteConfig.url}/learn/consolidate-credit-card-debt-personal-loan)
+- [Snowball vs avalanche: which debt payoff method wins?](${siteConfig.url}/learn/snowball-vs-avalanche-debt-payoff)
+- [What to do when your debt goes to collections](${siteConfig.url}/learn/what-to-do-debt-collections)
+- [How to raise your credit score 100 points in 12 months](${siteConfig.url}/learn/raise-credit-score-100-points)
+- [What credit score do you need for a personal loan?](${siteConfig.url}/learn/what-credit-score-for-personal-loan)
+- [How to dispute errors on your credit report](${siteConfig.url}/learn/dispute-credit-report-errors)
+- [How to compare personal loan offers like a pro](${siteConfig.url}/learn/compare-personal-loan-offers)
+- [Hidden fees in personal loans (and how to spot them)](${siteConfig.url}/learn/hidden-fees-personal-loans)
+- [Should you take a personal loan for a wedding?](${siteConfig.url}/learn/should-you-take-loan-for-wedding)
+- [Financing a kitchen remodel: HELOC vs personal loan](${siteConfig.url}/learn/kitchen-remodel-heloc-vs-personal-loan)
 
 ## Deeper data dump
 A full, structured corpus suitable for citation lives at ${siteConfig.url}/llms-full.txt, see that file for the glossary, monthly-payment examples, state APR caps, and editorial sourcing.

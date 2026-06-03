@@ -33,7 +33,7 @@ export const metadata: Metadata = {
   formatDetection: { email: false, address: false, telephone: false },
   alternates: {
     canonical: "/",
-    languages: { "en-US": "/" },
+    languages: { "en-US": "/", "es-US": "/es" },
     types: {
       "application/rss+xml": [{ url: "/feed.xml", title: `${siteConfig.name} - Personal Finance Guides` }],
     },

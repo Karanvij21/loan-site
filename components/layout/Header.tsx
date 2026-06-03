@@ -10,8 +10,8 @@ const navItems = [
   { href: "/loans/emergency", label: "Emergency" },
   { href: "/calculators", label: "Calculators" },
   { href: "/learn", label: "Learn" },
+  { href: "/questions", label: "Q&A" },
   { href: "/compare", label: "Compare" },
-  { href: "/how-it-works", label: "How it works" },
 ];
 
 export function Header() {
@@ -80,6 +80,16 @@ export function Header() {
 
         {/* Actions */}
         <div className="flex items-center gap-3">
+          {/* Language switcher. Links to /es when on an English path,
+              and to / when on a Spanish path. Visible on sm: and up to
+              keep mobile header tight. */}
+          <Link
+            href={pathname?.startsWith("/es") ? "/" : "/es"}
+            className="hidden sm:inline-flex items-center rounded-full px-3 py-1.5 text-[12px] font-semibold text-ink-700 hover:bg-cream-200 hover:text-ink-900"
+            aria-label={pathname?.startsWith("/es") ? "Switch to English" : "Cambiar a español"}
+          >
+            {pathname?.startsWith("/es") ? "EN" : "ES"}
+          </Link>
           <Link href="/apply" className="btn btn-primary hidden sm:inline-flex !py-2 !px-4 !text-[13px] !min-h-0">
             Begin
             <svg width="12" height="12" viewBox="0 0 14 14" aria-hidden fill="none">

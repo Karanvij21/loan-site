@@ -40,7 +40,9 @@ const columns = [
     title: "Resources",
     links: [
       { href: "/learn", label: "Learn (guides)" },
+      { href: "/questions", label: "Quick answers (Q&A)" },
       { href: "/glossary", label: "Glossary" },
+      { href: "/data/personal-loan-apr-by-state", label: "APR cap data study" },
       { href: "/how-it-works", label: "How it works" },
       { href: "/rates-and-fees", label: "Rates & fees" },
       { href: "/personal-loans", label: "Loans by state" },

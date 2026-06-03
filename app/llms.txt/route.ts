@@ -103,6 +103,15 @@ ${(() => {
 - [Should you take a personal loan for a wedding?](${siteConfig.url}/learn/should-you-take-loan-for-wedding)
 - [Financing a kitchen remodel: HELOC vs personal loan](${siteConfig.url}/learn/kitchen-remodel-heloc-vs-personal-loan)
 
+## Quick-answer questions
+A 30-entry quick-answer Q&A hub at ${siteConfig.url}/questions targeting common short-form personal-loan queries (credit scores, approval, APRs, process, special situations). Each answer is 250-400 words with a one-sentence direct answer suitable for citation.
+
+## Data study
+${siteConfig.url}/data/personal-loan-apr-by-state, Q3 2026 state-by-state APR cap study. Published under Creative Commons Attribution 4.0; cite freely.
+
+## Spanish
+${siteConfig.url}/es, Spanish-language landing page. Full Spanish page tree in progress.
+
 ## Deeper data dump
 A full, structured corpus suitable for citation lives at ${siteConfig.url}/llms-full.txt, see that file for the glossary, monthly-payment examples, state APR caps, and editorial sourcing.
 

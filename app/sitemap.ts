@@ -9,6 +9,7 @@ import { comparisons } from "@/lib/comparisons";
 import { cities } from "@/lib/cities";
 import { glossaryTerms } from "@/lib/glossary";
 import { guides } from "@/lib/guides";
+import { questions } from "@/lib/questions";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = siteConfig.url;
@@ -30,6 +31,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/glossary`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
     { url: `${base}/compare`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
     { url: `${base}/learn`, lastModified: now, changeFrequency: "weekly", priority: 0.78 },
+    { url: `${base}/questions`, lastModified: now, changeFrequency: "weekly", priority: 0.72 },
+    { url: `${base}/data/personal-loan-apr-by-state`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${base}/es`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
     { url: `${base}/how-it-works`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
     { url: `${base}/rates-and-fees`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
     { url: `${base}/faq`, lastModified: now, changeFrequency: "monthly", priority: 0.6 },
@@ -106,6 +110,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.78,
   }));
 
+  const questionRoutes: MetadataRoute.Sitemap = questions.map((q) => ({
+    url: `${base}/questions/${q.slug}`,
+    lastModified: now,
+    changeFrequency: "monthly" as const,
+    priority: 0.62,
+  }));
+
   return [
     ...core,
     ...stateRoutes,
@@ -116,6 +127,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...compareRoutes,
     ...cityRoutes,
     ...guideRoutes,
+    ...questionRoutes,
     ...glossaryRoutes,
   ];
 }

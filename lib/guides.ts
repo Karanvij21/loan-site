@@ -15,7 +15,8 @@ export type GuideCluster =
   | "Debt management"
   | "Credit improvement"
   | "Loan shopping"
-  | "Life events";
+  | "Life events"
+  | "Money habits";
 
 export type GuideSection = {
   h2: string;
@@ -624,6 +625,711 @@ export const guides: Guide[] = [
       { label: "Loan payment calculator", href: "/calculators/loan-payment" },
     ],
   },
+
+  // ─── Batch 2: Debt management ─────────────────────────────────────
+  {
+    slug: "negotiate-payoff-with-creditor",
+    cluster: "Debt management",
+    h1: "How to negotiate a debt payoff with a creditor",
+    title: "Negotiate a Debt Payoff: Scripts, Tactics, Realistic Settlement Ranges",
+    description:
+      "How to negotiate a lump-sum payoff with a credit card company, original creditor, or collection agency. Includes scripts, realistic settlement ranges by stage, and tax-impact warnings.",
+    publishedAt: PUBLISHED,
+    reviewedAt: REVIEWED,
+    estimatedReadMinutes: 8,
+    intro:
+      "Creditors and collection agencies regularly settle debts for 30 to 60 cents on the dollar. Knowing what stage your account is in (current, late, charged-off, sold) tells you what discount to expect and how to ask for it.",
+    sections: [
+      {
+        h2: "Understand which stage your account is in",
+        body:
+          "The discount you can negotiate depends almost entirely on how far the account has progressed. The further along, the more leverage you have.\n\nCurrent or 30 days late: very little discount available. The original creditor expects to be paid in full. Best move at this stage is usually a hardship program (interest paused, reduced minimum payments) rather than a settlement.\n\n60 to 120 days late: original creditor will often settle for 40 to 60 cents on the dollar to avoid charge-off and the loss they take when selling.\n\nCharged-off but still with the original creditor: 30 to 50 cents on the dollar typical.\n\nSold to a third-party collection agency: 20 to 40 cents on the dollar typical. The agency paid 4 to 14 cents for the debt, so anything above 15 cents is profit.\n\nResold or aged collection: 10 to 25 cents on the dollar typical. The debt has been bought and resold, the file is older, and the agency wants to clear inventory.",
+      },
+      {
+        h2: "The opening call: script",
+        body:
+          "If you call the creditor or collector first (instead of waiting for them), you set the framing. Stay calm and factual.\n\nScript: 'Hello, I'm calling about account number X. I want to resolve this account. I'm not in a position to pay the full balance, but I can offer a lump-sum settlement. Before I make an offer, can you tell me what discount programs are currently available on this account?'\n\nLet them speak first. They may quote a settlement percentage immediately. If they do, you have a starting point lower than your opening offer.\n\nIf they ask you to make the first offer, open at 20% of the balance, payable within 30 days, in exchange for a written agreement that the remaining balance is satisfied and the account is reported as 'paid in full' or 'paid as agreed' to the bureaus.\n\nThey will counter higher. Anchor your responses to what you can verifiably afford. Don't agree to anything that requires you to liquidate retirement accounts or take a second loan.",
+      },
+      {
+        h2: "Get everything in writing before you pay",
+        body:
+          "This is the single most important rule. Never send money on a verbal agreement.\n\nThe written settlement letter should specify: the account identifier, the agreed settlement amount, the deadline by which you'll pay, the explicit statement that paying this amount satisfies the debt in full, and the credit-bureau reporting code the creditor will use (ideally 'paid in full' rather than 'settled for less').\n\nReview before signing. Watch for clauses that revive collection if the payment is late by even one day, or that exclude reporting to one bureau but not the others.\n\nPay via traceable method (cashier's check, bank wire, or ACH from the same account every time). Don't pay by personal check that gives the creditor your routing number unless you fully trust them.",
+      },
+      {
+        h2: "The tax surprise nobody warns you about",
+        body:
+          "Settled debt over $600 is reportable to the IRS as 'cancellation of debt income' on Form 1099-C. The IRS treats the forgiven portion as ordinary income; you owe federal income tax on it.\n\nWorked example: you settle a $10,000 credit card balance for $4,000. The creditor reports $6,000 of forgiven debt to the IRS. If you're in the 22% federal bracket, you owe $1,320 in additional tax. The settlement still saves you $4,680 net, but the surprise tax bill is a real number, not a footnote.\n\nException: insolvency exclusion. If your total liabilities exceed your total assets at the time of settlement, the forgiven debt isn't taxable (up to the amount of your insolvency). File IRS Form 982. Consult a tax professional for your specific case.",
+      },
+    ],
+    faqs: [
+      { q: "Will negotiating a settlement hurt my credit score?", a: "Yes, usually meaningfully. A 'settled' notation drops your score similarly to a charge-off. If the account is already charged off or in collections, the marginal additional damage from a settlement is small. The bigger negative is the underlying delinquency, not the settlement itself." },
+      { q: "Can I negotiate from a position of strength if I have money?", a: "Yes, surprisingly often. Creditors and collectors view a single lump-sum payment as more valuable than a long payment plan that might fail. Showing up with $3,000 ready today often gets a steeper discount than committing to $200 a month for 18 months." },
+      { q: "Should I use a debt settlement company?", a: "Usually no. They charge 15-25% of the enrolled debt as their fee and typically tell you to stop paying creditors during negotiation, which destroys your credit. Most of what they do, you can do yourself in 1-3 calls per creditor for free." },
+      { q: "What if the collector refuses to settle?", a: "Wait. Collection agencies have monthly performance metrics; the same agent who refused in week 1 may approve a deal in week 4 to meet a quota. Calling back in 60-90 days often gets a different (and usually better) answer." },
+    ],
+    relatedSlugs: ["what-to-do-debt-collections", "consolidate-credit-card-debt-personal-loan", "raise-credit-score-100-points"],
+    toolLinks: [
+      { label: "Glossary: Charge-off", href: "/glossary/charge-off" },
+      { label: "Glossary: Delinquency", href: "/glossary/delinquency" },
+    ],
+  },
+  {
+    slug: "when-bankruptcy-makes-sense",
+    cluster: "Debt management",
+    h1: "When bankruptcy actually makes financial sense",
+    title: "When Bankruptcy Makes Sense: Chapter 7 vs 13 (2026 Guide)",
+    description:
+      "How to know if bankruptcy is the right move, the difference between Chapter 7 and 13, what debts survive, and the timeline to financial recovery.",
+    publishedAt: PUBLISHED,
+    reviewedAt: REVIEWED,
+    estimatedReadMinutes: 9,
+    intro:
+      "Bankruptcy is the right move for some borrowers and the wrong move for others. The decision usually depends on the size of your debt relative to your income, whether the debt is dischargeable, and whether you have assets you want to protect. Here's the framework.",
+    sections: [
+      {
+        h2: "The financial test",
+        body:
+          "Bankruptcy makes sense when three conditions are roughly true: your total unsecured debt exceeds 50% of your annual gross income, you cannot realistically pay it down in 5 years even on a strict budget, and the debt is primarily unsecured (credit cards, medical bills, personal loans) rather than secured (mortgage, auto loan).\n\nWorked example. Annual gross income $45,000. Credit card and medical debt $28,000 (62% of income). After minimum living expenses, $300/month is realistically available for debt service. At $300/month against a $28,000 balance at 22% average APR, the math never converges, the debt grows. Bankruptcy is a reasonable consideration.\n\nCounter-example. Same $28,000 debt, but annual income is $90,000 (31% of income). $1,200/month is available for debt service. Aggressive payoff resolves the debt in roughly 30 months. Bankruptcy is rarely the right move at this debt-to-income ratio.",
+      },
+      {
+        h2: "Chapter 7 vs Chapter 13",
+        body:
+          "Chapter 7 (liquidation). Wipes out most unsecured debt within 4 to 6 months. You must pass a means test showing your income is below the state median for your household size, or that your disposable income is too low to fund a Chapter 13 plan. Non-exempt assets may be sold by the trustee to repay creditors, though exemptions (your home up to a state-set limit, your car up to a state-set limit, retirement accounts, basic household goods) usually protect most of what an average filer owns.\n\nChapter 13 (reorganisation). A 3 to 5 year court-supervised repayment plan. You keep all your assets but commit your disposable income to creditors over the plan period. At the end, any remaining unsecured debt is discharged. Chapter 13 is used by filers who don't qualify for Chapter 7 (too much income) or who want to protect specific assets (a home with significant equity above the exemption).\n\nChapter 11 exists for businesses and high-net-worth individuals; most consumer filers use 7 or 13.",
+      },
+      {
+        h2: "What gets discharged vs what survives",
+        body:
+          "Discharged in most cases: credit card debt, medical debt, personal loans, payday loans, deficiency balances from repossessed cars, most lawsuit judgments, and some older tax debts (federal income tax more than 3 years old that was timely filed).\n\nSurvives bankruptcy: student loans (with very narrow exceptions under recent CFPB and DOJ guidance), most federal and state taxes within the last 3 years, child support and alimony, criminal fines and restitution, debts incurred via fraud, and any secured debt where you want to keep the collateral (the lien survives even if personal liability discharges).\n\nThe student-loan exception is gradually loosening. As of 2022 DOJ/Department of Education guidance, undue hardship discharges are now being granted more frequently than the previous decade's near-zero rate. Worth discussing with a bankruptcy attorney if student loans are the bulk of your debt.",
+      },
+      {
+        h2: "The cost and the timeline",
+        body:
+          "Chapter 7 attorney fees typically run $1,000 to $1,800 plus a $338 court filing fee. The case usually closes 4 to 6 months after filing.\n\nChapter 13 attorney fees typically run $2,500 to $4,000 (much of it paid through the plan, not upfront) plus a $313 court filing fee. The case lasts 3 to 5 years.\n\nThe bankruptcy notation stays on your credit report for 10 years (Chapter 7) or 7 years (Chapter 13). FICO impact is severe initially, often 130 to 240 points depending on starting score, but the recovery curve is faster than people expect. Most filers can qualify for a secured credit card 30 to 60 days after discharge, an unsecured card within 12 months, an auto loan within 24 months (often at higher APRs), and a mortgage within 2 to 4 years.",
+      },
+      {
+        h2: "The alternatives to consider first",
+        body:
+          "Non-profit credit counselling (NFCC-affiliated agencies offer free initial consults). A debt management plan negotiates reduced interest with creditors and consolidates payments. Doesn't touch principal but can drop APRs by 50-70% over a 3 to 5 year plan.\n\nDebt settlement (negotiating individual payoffs at discount). Cheaper than bankruptcy if your situation is borderline; harder on credit than a managed repayment.\n\nHome equity restructuring. If you own a home with equity, a HELOC at 8-12% to pay off card debt at 22-29% can shift the math meaningfully. Puts the home at risk; only use if income is stable.\n\nDo nothing. For very low-income borrowers who own no non-exempt assets and have no garnishable wages (Social Security is protected), it can be rational to simply outlast the collection process. Most debts become uncollectable after the state statute of limitations expires.",
+      },
+    ],
+    faqs: [
+      { q: "Will I lose my house in bankruptcy?", a: "Usually no, if you're current on the mortgage. Most states have a homestead exemption that protects equity up to a defined limit. Chapter 13 is specifically designed to let homeowners keep their houses while reorganising other debts." },
+      { q: "Can I file for bankruptcy without a lawyer?", a: "Legally yes (it's called pro se filing), but success rates for pro se Chapter 7 are about half the rate of represented filings, and pro se Chapter 13 success rate is around 5%. The complexity rewards representation." },
+      { q: "Will my employer know I filed?", a: "Generally no. Bankruptcy is public record, but employers don't routinely check it unless you're in a security-clearance, financial-services, or government-position context where credit checks are part of vetting. Chapter 13 employment garnishment is the main visibility risk." },
+      { q: "How soon can I get credit again after bankruptcy?", a: "Faster than most people expect. Secured credit card within 30-60 days post-discharge. Auto loan (at higher APRs) within 12-24 months. Mortgage within 2-4 years (FHA loans allow as little as 2 years post-Chapter 7 discharge). The bankruptcy stays on your report for years, but creditors increasingly look at post-bankruptcy behaviour as the primary signal." },
+    ],
+    relatedSlugs: ["what-to-do-debt-collections", "negotiate-payoff-with-creditor", "consolidate-credit-card-debt-personal-loan"],
+    toolLinks: [
+      { label: "Glossary: Default", href: "/glossary/default" },
+      { label: "Glossary: Charge-off", href: "/glossary/charge-off" },
+    ],
+  },
+  {
+    slug: "50-30-20-budget-rule",
+    cluster: "Debt management",
+    h1: "The 50/30/20 budget rule, explained",
+    title: "The 50/30/20 Budget Rule: How It Works and When It Breaks",
+    description:
+      "The 50/30/20 budget rule allocates after-tax income into needs, wants, and savings. Here's the math, when it works, and the income levels where it stops being realistic.",
+    publishedAt: PUBLISHED,
+    reviewedAt: REVIEWED,
+    estimatedReadMinutes: 6,
+    intro:
+      "The 50/30/20 rule says 50% of after-tax income covers needs, 30% covers wants, and 20% goes to savings and debt payoff. It's a clean starting framework, but the percentages assume a middle-income household. Here's the math and when to adjust.",
+    sections: [
+      {
+        h2: "The split, by line item",
+        body:
+          "Needs (50%): housing including utilities, groceries, basic transportation, insurance, minimum debt payments, basic clothing, healthcare. The non-negotiable line items that keep your life functional.\n\nWants (30%): dining out, entertainment, hobbies, premium versions of things you could buy cheaper, vacations, subscription services beyond basic utility (Spotify, multiple streaming services), gifts beyond modest amounts.\n\nSavings + debt payoff above minimums (20%): emergency fund, retirement contributions (401k, IRA), accelerated debt payoff beyond the minimum payments included in 'needs'.\n\nThe split is computed against take-home pay (after federal, state, FICA, and benefits deductions), not gross.",
+      },
+      {
+        h2: "Where it works and where it breaks",
+        body:
+          "Works well: households earning $60,000-$150,000 in moderate-cost-of-living areas. The 50% needs allocation typically aligns with realistic housing costs, the 30% wants allocation reflects discretionary income that exists at this level, and the 20% savings allocation is achievable.\n\nBreaks down: low-income households in high-cost-of-living areas. If rent alone consumes 40% of take-home pay, the 50/30/20 split is geometrically impossible. Many San Francisco, NYC, Boston, and Seattle households face this. The realistic split here might be 70/15/15 or worse.\n\nAlso breaks down: very-high-income households. A household earning $400,000 has trouble spending 30% on wants without inflating into actively bad financial habits. Above $150,000-$200,000 income, the savings rate should rise substantially above 20%.",
+      },
+      {
+        h2: "Adjustments for debt and high-cost areas",
+        body:
+          "If you're in debt-payoff mode (credit card balances or high-interest unsecured debt above ~15% of annual income), shift to 50/20/30, with the extra 10% going entirely to debt principal. Until the high-interest debt is gone, debt payoff is a higher-return 'investment' than retirement contributions in most cases (the 22% you save by paying off a 22% APR card beats most other investments).\n\nIf you're in a high-cost-of-living area, accept that needs may run 55-65% and adjust savings down to 10-15% while still aiming to hit the 20% target before lifestyle inflation absorbs raises.\n\nIf you're near a major life event (house purchase, child arrival), temporarily shift to 50/15/35 or 45/15/40 to build the larger emergency / down-payment reserve.",
+      },
+      {
+        h2: "How to actually implement it",
+        body:
+          "Calculate take-home pay across all sources (multiply weekly or biweekly pay by 52 or 26).\n\nCategorise the past 90 days of spending using a budgeting app (You Need A Budget, Monarch, Copilot) or a spreadsheet. Sum each category. Compute current percentages.\n\nIdentify the biggest gap from the target percentages. If your wants are at 45% (above the 30% target), look at the top three discretionary spending categories first. If your needs are at 65% (above 50%), look at housing first because it's almost always the largest fixable line item.\n\nAdjust one category at a time. Trying to fix everything at once usually fails. A 1-2 percentage-point shift per month compounds quickly.",
+      },
+    ],
+    faqs: [
+      { q: "Does the 50/30/20 rule include taxes?", a: "No. The rule applies to take-home pay (after-tax). Federal, state, FICA, and benefits deductions come out before the split. This is why it's important to use net pay, not gross." },
+      { q: "Is paying down a mortgage 'savings' or a 'need'?", a: "The minimum mortgage payment is a need (it's required to keep your home). Extra principal payments beyond the minimum count as savings, since they build equity. Same logic applies to auto loans and student loans." },
+      { q: "What if I can't hit 20% savings?", a: "Start where you are. A jump from 5% savings to 10% in the first year is realistic and meaningful. The compound effect over a working lifetime of even 10% savings is substantial. The goal is the direction of travel, not perfect adherence." },
+      { q: "Does this rule work for variable income?", a: "Yes with one adjustment. For freelance or commission income, calculate the rolling 12-month average of take-home pay and apply 50/30/20 to that. Set aside a 3-month operating reserve so a slow month doesn't blow up the budget." },
+    ],
+    relatedSlugs: ["right-size-emergency-fund", "consolidate-credit-card-debt-personal-loan"],
+    toolLinks: [
+      { label: "Loan affordability calculator", href: "/calculators/affordability" },
+    ],
+  },
+  {
+    slug: "build-emergency-fund-from-zero",
+    cluster: "Debt management",
+    h1: "How to build an emergency fund from zero",
+    title: "How to Build an Emergency Fund From Zero (Step-by-Step)",
+    description:
+      "A realistic month-by-month plan to build your first emergency fund. Where to keep it, how much to target, and what counts as an emergency.",
+    publishedAt: PUBLISHED,
+    reviewedAt: REVIEWED,
+    estimatedReadMinutes: 7,
+    intro:
+      "An emergency fund is the single highest-return move you can make if you don't already have one. It prevents a $400 car repair from becoming a credit card balance that costs you $800. Here's how to build the first $1,000 in 90 days and scale from there.",
+    sections: [
+      {
+        h2: "How big should it actually be?",
+        body:
+          "Three layers, built sequentially.\n\nLayer 1: $1,000 minimum starter fund. Covers most common surprises: a car repair, a medical copay, an appliance failure, an unplanned travel cost. The point is to make 'emergency' a $0 line item on your monthly budget rather than a credit card balance you carry for 6 months.\n\nLayer 2: 1 month of expenses. Covers a missed paycheck (delayed processing, contract dispute) or a small surgery's copay-and-recovery window.\n\nLayer 3: 3 to 6 months of expenses. Covers extended unemployment or a major medical event. The right multiple within 3-6 months depends on income stability: dual-income two-earner household with stable industries can sit at 3 months, single-income household in a volatile field should target 6+.\n\nTotal target for most households: $20,000 to $35,000 in a high-yield savings account.",
+      },
+      {
+        h2: "Where to keep it (and where not to)",
+        body:
+          "Keep it in a high-yield savings account at an FDIC-insured online bank. Marcus, Ally, Discover, SoFi, and Wealthfront's cash account all offer 3.5-5% APY in the current rate environment with no fees and same-day transfer to your checking account when needed.\n\nDon't keep it in your checking account. Mental accounting matters; if it's spendable from the same balance as your rent and groceries, it gets spent.\n\nDon't keep it in invested assets (stocks, ETFs, crypto). The point of an emergency fund is liquid availability during the worst possible markets. If the emergency is correlated with a market drop (recession, layoff), invested savings are likely down 20% exactly when you need them.\n\nDon't keep more than the FDIC limit ($250,000 per depositor per institution) at any one bank. Almost never applies to the emergency fund tier, but worth noting.",
+      },
+      {
+        h2: "The 90-day plan to your first $1,000",
+        body:
+          "Week 1: open a high-yield savings account. Transfer $50 from checking as the seed deposit. Set up an automatic weekly transfer of whatever you can spare, even if it's $10. Automation matters more than the amount.\n\nMonth 1: cancel one subscription you don't actively use (gym, streaming service, app). Redirect the freed-up cash to the savings account. Most households find $30-$80 a month this way.\n\nMonth 2: bank a windfall. Tax refund, rebate check, work bonus, birthday gift money, side-hustle earnings, anything outside your regular paycheck. Goal is at least one $200-$500 deposit this month.\n\nMonth 3: a meal-planning week (no restaurant or takeout) freed-up cash plus the continuing weekly auto-deposits and the lingering effect of the cancelled subscription should push the account past $1,000.\n\nDon't stop. Continue the automation, the subscription discipline, and the windfall banking. Layer 2 typically takes 6-9 months on top of this.",
+      },
+      {
+        h2: "What counts as an emergency",
+        body:
+          "Yes: car repair making the car undrivable. Medical bill required for care you needed. A short period of lost income. Appliance failure where the appliance is essential (refrigerator, water heater, heating in winter). Emergency travel for a family medical situation.\n\nNo: a deal on something you wanted anyway. A wedding or major social event you knew was coming. Holiday shopping. Annual insurance premium (this is a planned expense; put it in a separate 'sinking fund' bucket). A new phone when the old one still works.\n\nThe rule of thumb: if you would have predicted the expense more than 30 days ago, it's not an emergency, it's a planning failure. Build sinking funds for planned expenses; reserve the emergency fund for genuine surprises.",
+      },
+    ],
+    faqs: [
+      { q: "Should I build an emergency fund or pay off debt first?", a: "Build the $1,000 starter fund first, even while carrying high-interest debt. Then aggressively pay off debt above 7-8% APR while leaving the starter fund intact. After all high-interest debt is gone, build the 3-6 month fund. The starter fund prevents new debt from accumulating during the payoff phase." },
+      { q: "Can I use my Roth IRA as an emergency fund?", a: "Roth contributions (not earnings) can be withdrawn tax- and penalty-free at any time. So technically yes. The opportunity cost is real: contribution room you withdraw can't be recontributed beyond your annual cap. Most planners recommend a dedicated emergency fund and treating Roth contributions as a last-resort reserve." },
+      { q: "What APY should I expect on a high-yield savings account?", a: "Currently 3.5-5% at most online banks, tracking near the federal funds rate. Big-bank traditional savings accounts often pay 0.01-0.05%; the gap is meaningful enough that switching alone earns you several hundred dollars per year on a $20,000 balance." },
+      { q: "Is a money-market fund okay instead of HYSA?", a: "Yes, often. Money-market mutual funds at Fidelity, Schwab, or Vanguard often beat bank HYSAs by 0.5-1.5%. They're not FDIC-insured but are extremely safe; the only money-market fund to ever 'break the buck' in U.S. history was in 2008 and was a corporate-debt fund, not a Treasury-backed one. Choose Treasury-only money-market funds for maximum safety." },
+    ],
+    relatedSlugs: ["right-size-emergency-fund", "50-30-20-budget-rule"],
+    toolLinks: [
+      { label: "Emergency loans", href: "/loans/emergency" },
+    ],
+  },
+  {
+    slug: "credit-counseling-vs-debt-settlement-vs-bankruptcy",
+    cluster: "Debt management",
+    h1: "Credit counselling vs debt settlement vs bankruptcy",
+    title: "Credit Counselling vs Debt Settlement vs Bankruptcy: Which Fits?",
+    description:
+      "Side-by-side comparison of the three main paths out of severe debt. Cost, credit impact, timeline, and which kind of debt situation each one fits.",
+    publishedAt: PUBLISHED,
+    reviewedAt: REVIEWED,
+    estimatedReadMinutes: 8,
+    intro:
+      "When debt is too big for ordinary payoff but bankruptcy feels extreme, two options sit between: non-profit credit counselling and debt settlement. They sound similar but are fundamentally different. Here's how to choose.",
+    sections: [
+      {
+        h2: "Non-profit credit counselling (NFCC-affiliated)",
+        body:
+          "What it is: a non-profit agency negotiates with your creditors on your behalf to reduce interest rates and consolidate payments into a single monthly debt management plan (DMP). You pay one monthly amount to the agency, which distributes it to your creditors per the negotiated terms.\n\nCost: typically $25-$50 setup, $25-$50 per month ongoing. Cheap because the agencies are non-profit and the major card issuers share concessions to support the system.\n\nCredit impact: minimal. The accounts often get a notation indicating you're in a DMP, but it's not the same as a collection or charge-off. Some scoring models ignore it entirely.\n\nTimeline: 3-5 years to complete the plan.\n\nFits: borrowers who can technically afford their debts at lower interest rates but are drowning at current rates. Total debt usually $5,000-$50,000 in unsecured balances.\n\nFind NFCC member agencies at nfcc.org. Avoid 'credit counselling' services with high upfront fees or that aren't NFCC-affiliated.",
+      },
+      {
+        h2: "Debt settlement (for-profit or DIY)",
+        body:
+          "What it is: negotiate individual lump-sum payoffs with creditors for less than the full balance. Can be done DIY (free, you make the calls) or through a for-profit debt-settlement company (they make the calls, you pay 15-25% of enrolled debt as their fee).\n\nCost: DIY is free. For-profit companies typically take 15-25% of the enrolled debt as their fee, plus the IRS may tax the forgiven portion as cancellation-of-debt income.\n\nCredit impact: severe. To negotiate settlements, you typically must stop paying creditors first (your leverage comes from the creditor expecting nothing). Each settled account gets a 'settled for less than full balance' notation that hurts your score for 7 years.\n\nTimeline: 18-48 months typically.\n\nFits: borrowers who can scrape together lump-sum payments (savings, family help, partial sale of assets) and who already have damaged credit, so the marginal harm is small. Best for unsecured debts in the $5,000-$30,000 range.\n\nFor most situations: DIY beats hiring a for-profit settlement company. The savings on fees alone often exceeds the value of their negotiation expertise.",
+      },
+      {
+        h2: "Bankruptcy (Chapter 7 or 13)",
+        body:
+          "What it is: federal court process that discharges or restructures debt. Chapter 7 wipes most unsecured debt in 4-6 months. Chapter 13 is a 3-5 year court-supervised repayment plan.\n\nCost: $1,000-$1,800 attorney + $338 court fee for Chapter 7. $2,500-$4,000 attorney + $313 court fee for Chapter 13 (much of the attorney fee paid through the plan).\n\nCredit impact: severe initially (130-240 point drop), 10 years on report for Chapter 7, 7 years for Chapter 13. Recovery curve is actually faster than most expect; can usually qualify for secured cards within 60 days post-discharge.\n\nTimeline: 4-6 months (Chapter 7) or 3-5 years (Chapter 13).\n\nFits: borrowers whose total unsecured debt exceeds 50% of annual gross income AND who can't realistically pay it off in 5 years even on a strict budget. The math test, not an emotional decision.",
+      },
+      {
+        h2: "Decision framework",
+        body:
+          "Run the test in this order:\n\nStep 1: can you afford your debts at 0% interest? If your debts at 0% would be payable from disposable income in under 5 years, credit counselling fits. The DMP locks in reduced (though not zero) rates.\n\nStep 2: if not, can you raise lump-sum amounts equal to ~40-50% of your unsecured debt within 24 months? If yes (family help, asset sale, savings, side-hustle income), debt settlement may fit. Run DIY if you have the patience for negotiation calls, hire a vetted firm if not.\n\nStep 3: if neither, bankruptcy is the appropriate tool. The means test in Chapter 7 will sort you into Chapter 7 or Chapter 13.\n\nThe decision is uncomfortable but the math doesn't care about discomfort. Picking the wrong tool costs years and tens of thousands of dollars.",
+      },
+    ],
+    faqs: [
+      { q: "Will a debt management plan affect my ability to get a mortgage?", a: "Indirectly. Lenders look at the underlying delinquencies that led to the plan, not the plan itself. Most mortgage underwriters want to see 12-24 months of clean payment history post-DMP-completion before approving." },
+      { q: "Can I negotiate my own debt settlements without a company?", a: "Yes, and you should. Creditors don't care if you call vs a company. The for-profit settlement industry mostly markets convenience and emotional distance, not better terms." },
+      { q: "Will I be sued during the debt-settlement waiting period?", a: "Possibly. Once you stop paying, accounts charge off (180 days) and may be sold to collectors who occasionally sue. Most lawsuits are for accounts above $5,000-$10,000. Smaller balances rarely get sued because the cost-to-recovery math doesn't work for the creditor." },
+      { q: "Does bankruptcy show up on background checks?", a: "Standard employment background checks don't include credit reports unless the position involves financial responsibility (loan officer, fiduciary roles) or government clearance. Bankruptcy is public record but rarely surfaces in routine hiring." },
+    ],
+    relatedSlugs: ["when-bankruptcy-makes-sense", "negotiate-payoff-with-creditor", "what-to-do-debt-collections"],
+    toolLinks: [
+      { label: "Debt consolidation loans", href: "/loans/debt-consolidation" },
+    ],
+  },
+
+  // ─── Batch 2: Credit improvement ─────────────────────────────────
+  {
+    slug: "rebuild-credit-after-default",
+    cluster: "Credit improvement",
+    h1: "How long does it take to rebuild credit after default?",
+    title: "Rebuilding Credit After Default: Realistic Timeline (2026)",
+    description:
+      "A month-by-month timeline for rebuilding credit after a default, charge-off, or bankruptcy. What you can do at each stage, and what to expect at the end.",
+    publishedAt: PUBLISHED,
+    reviewedAt: REVIEWED,
+    estimatedReadMinutes: 7,
+    intro:
+      "Rebuilding credit after default is faster than most people expect. A 200-point post-default score can recover to 670+ in 24-36 months with the right moves at each stage. Here's the realistic timeline.",
+    sections: [
+      {
+        h2: "Month 1-3: stabilise",
+        body:
+          "Before rebuilding can start, the bleeding has to stop. Pull all three credit reports at AnnualCreditReport.com. Confirm which accounts are charged off, in collections, or showing late marks.\n\nMake sure no accounts are still accruing new late marks each month. Either pay them current, work out a settlement, or accept that they'll remain charged off (the negative is locked in once you're past 180 days; further inaction won't make it worse).\n\nDispute any inaccurate items immediately. Errors are common; removing even one can produce a 20-40 point bump within 30 days.\n\nOpen a high-yield checking and savings account at a bank you don't currently use, so future paycheques deposit cleanly and you have a fresh banking relationship for the rebuild.",
+      },
+      {
+        h2: "Month 4-12: open the right new tradelines",
+        body:
+          "Open a secured credit card. Discover, Capital One, and Citi all offer secured cards with $200-$500 deposit requirements. Use the card for one small monthly charge (a streaming subscription works well) and pay it in full each month. The on-time payment history builds positive activity.\n\nIf you can't qualify for a secured card from a major issuer, OpenSky and Self both offer secured cards and credit-builder loans designed for thin or damaged credit profiles, with no credit check required.\n\nConsider a credit-builder loan from your local credit union or Self. These loans hold the principal in a CD while you make payments; once you finish, the money plus a small interest credit is yours. The on-time payment history builds installment credit.\n\nThe combination of one secured card plus one credit-builder loan demonstrates 'credit mix' (revolving + installment), which is 10% of your FICO score.",
+      },
+      {
+        h2: "Month 13-24: grow the file",
+        body:
+          "If you've made on-time payments on the secured card for 12 months, request it be converted to an unsecured card with your deposit returned. Most major issuers do this automatically; others require you to ask. Once converted, the account stays open with the longer payment history intact.\n\nApply for one more entry-level unsecured card, ideally a flat-rate cashback card (Discover It, Capital One Quicksilver, Chase Freedom Unlimited). Use it lightly and pay in full.\n\nKeep your credit utilisation under 30% across all cards, ideally under 10%. The monthly reporting cycle compounds the gains.\n\nAvoid: store cards (often poor terms even when approved), 'pre-approved' offers for high-fee subprime cards, anything requiring an upfront fee for a credit limit.",
+      },
+      {
+        h2: "Month 25-36: the score crosses 670",
+        body:
+          "If you've followed the plan, most rebuilders see their FICO score cross into the 'good' tier (670+) around month 24-30. By month 36, scores in the 700-720 range are common.\n\nAt this point you can refinance any remaining installment debt (auto loan, personal loan from the rebuild phase) into lower-APR products. The savings are meaningful: an auto loan refinance from 18% to 8% on a $20,000 balance over 4 years remaining saves about $4,500.\n\nThe original negative items (charge-offs, collections, bankruptcies) still sit on your file but matter less and less. Newer FICO and VantageScore models de-weight older negatives sharply.\n\nThe charge-offs and collections will fall off automatically 7 years from the date of first delinquency. Chapter 7 bankruptcy falls off 10 years from filing. Once they fall off, scores typically jump another 30-50 points.",
+      },
+    ],
+    faqs: [
+      { q: "Can I rebuild without a credit card?", a: "Possible but harder. A credit-builder loan alone can rebuild some credit, but the lack of revolving activity caps the score gains. Most rebuilders need at least one card account to get above the 670 line." },
+      { q: "Should I become an authorised user on someone else's card?", a: "If a family member with a long-tenured, low-utilisation card adds you as authorised user, their account's history shows on your report. This can produce a 30-60 point increase quickly. The catch: their late payment or balance spike would also hurt you. Only do this with someone whose financial habits are bulletproof." },
+      { q: "What if I can't get approved for a secured card?", a: "Self and OpenSky have the lowest barriers in the secured-card market and rarely decline applicants. Both report to all three bureaus. Worst case: a credit-builder loan from your local credit union builds installment history without requiring a card at all." },
+      { q: "Does paying off a collection raise my score immediately?", a: "Under newer FICO and VantageScore models, paid collections (especially medical) are ignored, so paying may produce a meaningful bump. Under older models still used by some lenders (especially mortgage underwriters), paid collections affect the score similarly to unpaid ones until they age off." },
+    ],
+    relatedSlugs: ["dispute-credit-report-errors", "raise-credit-score-100-points", "what-credit-score-for-personal-loan"],
+    toolLinks: [
+      { label: "Bad credit loans", href: "/loans/bad-credit" },
+      { label: "Glossary: Credit score", href: "/glossary/credit-score" },
+    ],
+  },
+  {
+    slug: "thin-credit-file-how-to-fix",
+    cluster: "Credit improvement",
+    h1: "What's a thin credit file (and how to fix it)?",
+    title: "Thin Credit File: What It Means and How to Build One (Fast)",
+    description:
+      "A thin credit file means too few accounts or too little history to score reliably. Here's how lenders treat thin files, and the 12-month plan to build one.",
+    publishedAt: PUBLISHED,
+    reviewedAt: REVIEWED,
+    estimatedReadMinutes: 6,
+    intro:
+      "A thin credit file is the limbo state where you have some credit but not enough for traditional scoring models to give you a reliable score. Lenders often treat it worse than a low score because they can't price the risk. Here's how to fix it.",
+    sections: [
+      {
+        h2: "What counts as thin",
+        body:
+          "Most credit-scoring models need at least three open trade lines and at least six months of payment history to generate a score they're confident in.\n\nIf you have fewer than three open accounts, or all of your accounts are less than six months old, FICO may return a score of 0 or simply 'no score available'. VantageScore is more permissive (generates scores from a single account with one month of history), but the resulting score has wide uncertainty.\n\nLenders see this and often respond conservatively. A 'thin file' often gets the same treatment as a subprime borrower: higher APRs, smaller loan amounts, sometimes outright decline.\n\nNew immigrants, recent college graduates without prior credit experience, and people who've used cash and debit for years are the most common thin-file profiles.",
+      },
+      {
+        h2: "Build a baseline file in 12 months",
+        body:
+          "Step 1: open a secured credit card with a major issuer (Discover, Capital One, Citi). The $200-$500 security deposit becomes your credit limit. Use the card for one small monthly purchase and pay in full each month.\n\nStep 2: take a credit-builder loan from a credit union or a fintech like Self or Kikoff. These loans hold the principal in a CD while you make payments; on completion the principal returns to you. Even a $500-$1,000 credit-builder loan over 12 months builds installment history.\n\nStep 3: ask a family member with strong credit (and equally strong financial discipline) to add you as an authorised user on a long-tenured card with low utilisation. Their account history appears on your report.\n\nStep 4: ensure rent and utilities report. Services like Experian Boost, Rental Kharma, and LevelCredit add rent and utility payments to your credit file. These don't help every credit decision (mortgage underwriters often ignore them), but they help thin-file scoring.\n\nBy month 12, this combination typically gets your file to 4-6 trade lines spanning revolving and installment credit, with consistent payment history. Most thin-file applicants reach the mid-700s by month 18.",
+      },
+      {
+        h2: "What lenders look for once you have a file",
+        body:
+          "Length of credit history. Score impact accelerates once your oldest account passes 24 months.\n\nMix of credit. A revolving account + an installment account scores better than two of either alone.\n\nLow utilisation. Below 30% is good. Below 10% is ideal. The credit limit on your secured card matters here: a higher initial limit (achievable by making a larger deposit) means lower utilisation on the same spend.\n\nClean payment history. One late payment in the first 12 months sets the rebuild back 4-6 months.",
+      },
+    ],
+    faqs: [
+      { q: "Can I get a personal loan with a thin file?", a: "Some fintech lenders (Upstart, Petal) use alternative data (education, employment, banking history) alongside credit, which can unlock approvals for thin-file applicants. Traditional bank lenders usually decline thin files outright." },
+      { q: "Do utility payments help my credit score?", a: "Through opt-in services (Experian Boost, eCredable Lift, LevelCredit) yes, sometimes meaningfully for thin files. The boost averages 5-15 points and only affects scoring models that consider the data, which is most modern FICO and VantageScore variants but not the legacy models still used by some mortgage underwriters." },
+      { q: "Will having only one credit card forever cap my score?", a: "Yes, somewhat. You can reach the high 700s with a single well-managed card, but breaking into the 800s typically requires 3+ open accounts and 7+ years of history. The marginal score gain above 770 rarely changes loan pricing meaningfully, so this isn't worth optimising for unless you have a specific goal." },
+    ],
+    relatedSlugs: ["raise-credit-score-100-points", "rebuild-credit-after-default", "what-credit-score-for-personal-loan"],
+    toolLinks: [
+      { label: "Glossary: Credit score", href: "/glossary/credit-score" },
+      { label: "Glossary: Credit utilisation", href: "/glossary/credit-utilization" },
+    ],
+  },
+  {
+    slug: "secured-credit-card-strategy",
+    cluster: "Credit improvement",
+    h1: "Secured credit card strategy for credit building",
+    title: "Secured Credit Cards: How to Pick, Use, and Graduate",
+    description:
+      "Step-by-step guide to using secured credit cards to build or rebuild credit. Picking the right card, optimal usage pattern, and how to graduate to unsecured.",
+    publishedAt: PUBLISHED,
+    reviewedAt: REVIEWED,
+    estimatedReadMinutes: 7,
+    intro:
+      "A secured credit card is the single most reliable credit-building tool. It works for thin files, rebuilds after default, and post-bankruptcy recovery. Here's how to pick the right one, use it correctly, and graduate to an unsecured card within 12 months.",
+    sections: [
+      {
+        h2: "What a secured card actually is",
+        body:
+          "A secured credit card looks and functions like a normal credit card, but the credit limit is backed by a refundable security deposit you pay upfront. Deposit $300, get a $300 credit limit. The deposit sits with the issuer as collateral; if you stop paying the card, the issuer recovers from the deposit.\n\nThe card reports to all three bureaus exactly like an unsecured card. Lenders looking at your credit report can't easily tell which of your cards are secured.\n\nMost secured cards convert to unsecured after 12-24 months of on-time payments, at which point the deposit is returned to you. Some convert automatically, others require you to request the upgrade.",
+      },
+      {
+        h2: "Picking the right card",
+        body:
+          "Prioritise these features:\n\n1. Reports to all three bureaus (Equifax, Experian, TransUnion). Not all secured cards do, especially store-branded ones. Reporting to fewer than three reduces the score-building impact.\n\n2. No annual fee, or a low one ($25-$39). Avoid cards charging more than $50/year unless they offer meaningful rewards.\n\n3. Path to graduation. Look for cards that explicitly say they'll review for unsecured upgrade at 6-12 months. Discover It Secured, Capital One Platinum Secured, and Citi Secured Mastercard all offer this.\n\n4. No processing or 'subprime' fees. Some secured cards charge $40-$80 upfront just to open the account. These exist to extract revenue from desperate applicants; avoid them. The deposit and a modest annual fee are the only legitimate upfront costs.\n\n5. Rewards (nice to have). Discover It Secured offers 2% gas and restaurant cashback and 1% on everything else, with a first-year cashback match. Among free secured cards, this is hard to beat.",
+      },
+      {
+        h2: "How to use it",
+        body:
+          "Charge one small recurring expense to the card each month. A streaming subscription ($10-$15) or a single gym membership works well.\n\nPay the balance in full each month, ideally before the statement date (so the reported balance is near zero). Setting up autopay ensures you never miss a payment.\n\nKeep utilisation below 30% at all times, ideally below 10%. On a $300 secured card, that's $30-$90 in reported balance maximum.\n\nDon't ever pay only the minimum. Doing so means you accrue interest at the card's APR (typically 25-29% on secured cards) for no benefit. Pay in full or don't carry a balance.\n\nDon't max it out, even temporarily. A maxed-out card spikes utilisation and damages your score even if you pay it off before the next statement.",
+      },
+      {
+        h2: "How to graduate to unsecured",
+        body:
+          "After 6-12 months of perfect on-time payments and low utilisation, contact the issuer (call, secure message, or app). Ask for an account review for unsecured graduation.\n\nIf approved: your deposit is returned, the account converts to unsecured, and the credit limit may increase. The account history continues uninterrupted, which is key for your score.\n\nIf declined: ask what they want to see (longer history? higher income reported? specific behaviour?). Try again in 6 months.\n\nOnce graduated, apply for one additional starter unsecured card to expand your credit mix. Discover It Cash Back, Capital One Quicksilver, and Chase Freedom Unlimited are common next steps after a successful secured-card graduation. Keep the now-unsecured original card open as your oldest account; the length of history matters for your score.",
+      },
+    ],
+    faqs: [
+      { q: "Will applying for a secured card hurt my credit score?", a: "The hard inquiry costs 3-7 points temporarily. Once the new account starts reporting, the positive payment history more than compensates. Net effect within 60-90 days is typically a meaningful score increase." },
+      { q: "Can I get a secured card with no credit check?", a: "OpenSky offers a secured card with no credit check. Self offers a credit-builder loan with no credit check that effectively serves the same purpose. Both report to all three bureaus and work for thin files or post-bankruptcy applicants." },
+      { q: "What's the difference between a secured card and a prepaid card?", a: "Critically different. A prepaid card is a debit card backed by funds you've loaded; it doesn't report to credit bureaus and doesn't build credit. A secured card is a true credit card with reporting; the security deposit is collateral, not the spending balance." },
+      { q: "How long should I keep the secured card open after graduation?", a: "Forever, if possible. Closing your oldest account hurts your average account age, which can drop your score. Once graduated to unsecured, treat it as your foundational account: a small monthly charge paid in full, kept open indefinitely." },
+    ],
+    relatedSlugs: ["thin-credit-file-how-to-fix", "rebuild-credit-after-default", "raise-credit-score-100-points"],
+    toolLinks: [
+      { label: "Glossary: Credit score", href: "/glossary/credit-score" },
+      { label: "Glossary: Credit utilisation", href: "/glossary/credit-utilization" },
+    ],
+  },
+
+  // ─── Batch 2: Loan shopping ──────────────────────────────────────
+  {
+    slug: "banks-credit-unions-online-lenders",
+    cluster: "Loan shopping",
+    h1: "Banks vs credit unions vs online lenders: where to borrow",
+    title: "Banks vs Credit Unions vs Online Lenders: Best Personal Loan Source",
+    description:
+      "Personal loan rate comparison across banks, credit unions, and online lenders. When each option wins, who they approve, and how to choose.",
+    publishedAt: PUBLISHED,
+    reviewedAt: REVIEWED,
+    estimatedReadMinutes: 7,
+    intro:
+      "The cheapest personal loan for your specific profile comes from a credit union about half the time, an online lender about 40% of the time, and a traditional bank about 10% of the time. Here's how to figure out which one fits before you spend hard inquiries finding out the hard way.",
+    sections: [
+      {
+        h2: "Banks (the conservative option)",
+        body:
+          "Big national banks (Wells Fargo, US Bank, Discover, Citi) offer personal loans typically at the lowest APRs in the market but with the strictest underwriting. Approvals usually require FICO 660+, multi-year banking relationship, and clean recent credit.\n\nAPR range: 7% to 24% typical, with the lower end reserved for existing customers with substantial assets.\n\nLoan amounts: $3,000 to $100,000 (higher than most online lenders).\n\nFunding: 1-5 business days after approval. Slower than online lenders but faster than HELOCs.\n\nWho they fit: existing bank customers with good credit who want predictability and full in-person service. New customers and thin-file borrowers usually face declines.",
+      },
+      {
+        h2: "Credit unions (the often-overlooked best deal)",
+        body:
+          "Credit unions are member-owned non-profits regulated under federal or state credit-union charters. Their personal-loan APRs frequently beat banks AND online lenders for borrowers who qualify for membership.\n\nAPR range: 6% to 18% typical for personal loans. Even for fair-credit members, APRs often run 5-10 percentage points below comparable bank or online offers.\n\nLoan amounts: $500 to $50,000.\n\nFunding: 1-3 business days.\n\nMembership: many credit unions have broad fields of membership (geographic, employer-based, or community-based). Some accept anyone willing to join an associated organisation for a small fee. Navy Federal, PenFed, and Alliant are large credit unions with wide membership eligibility.\n\nWho they fit: anyone willing to spend 30 minutes joining. The rate savings on a multi-year loan typically pay back the membership effort hundreds of times over.",
+      },
+      {
+        h2: "Online lenders (speed and credit-tier flexibility)",
+        body:
+          "Online installment lenders (SoFi, LightStream, Marcus, Upgrade, Best Egg, LendingClub, Upstart, Avant) dominate the personal-loan market by volume. They differentiate on speed, credit-tier flexibility, and alternative-data underwriting.\n\nAPR range: 6% to 35.99%. The wide range reflects the wide credit-tier range they serve. Prime lenders like SoFi and LightStream serve 700+ FICO at single-digit APRs; subprime lenders like Avant and OneMain Financial serve 580+ FICO at 25-35% APRs.\n\nLoan amounts: $1,000 to $50,000 typical, up to $100,000 at some prime lenders.\n\nFunding: same day to next business day. Fastest in the market.\n\nWho they fit: nearly everyone. Fair-credit borrowers especially because banks and many credit unions decline them. Speed-sensitive borrowers because online funding is the fastest available.",
+      },
+      {
+        h2: "The right shopping sequence",
+        body:
+          "Step 1: pre-qualify with 3-5 online lenders through a marketplace. Soft credit pull, doesn't affect score. Captures most of the market in 5-10 minutes.\n\nStep 2: get a quote from one or two credit unions (especially Navy Federal if you have any military connection, Alliant for anyone, your local credit union if you have one). Soft pulls available on request.\n\nStep 3: if you're an existing customer at a big bank, get their quote too. They sometimes match competitor offers when you bring documentation.\n\nStep 4: compare effective APR (rate plus origination fee, the disclosed APR under TILA). Pick the lowest effective APR with terms you understand.\n\nDon't skip the credit-union step even if it feels slow. Their rates are frequently the lowest available; the 30-minute membership step pays for itself many times over.",
+      },
+    ],
+    faqs: [
+      { q: "Are credit unions really cheaper than online lenders?", a: "For fair and good credit (620-740 FICO), credit unions are cheaper about 60% of the time. For excellent credit (740+), online prime lenders like SoFi and LightStream are competitive or cheaper. For subprime credit (below 620), credit unions sometimes decline; online subprime lenders are usually the only realistic option." },
+      { q: "Can I get a personal loan from my bank without being a customer?", a: "Generally no for big national banks. Some smaller banks accept new applicants but the rates are usually worse than what an existing customer would see. If you're going to apply to a bank, become a customer first; even a savings account opened a few months earlier helps." },
+      { q: "Do credit unions check credit?", a: "Yes. The 'community lender' branding can suggest they don't, but they do. They're often more willing to factor in non-credit data (membership history, banking relationship, employer) alongside credit, which helps borderline applicants." },
+      { q: "How do I find a credit union I can join?", a: "Federal credit unions you can join from anywhere: PenFed, Alliant Credit Union, Navy Federal (military-affiliated or working at certain federal agencies). For community credit unions, NCUA.gov has a credit-union locator. Many state credit unions accept anyone living or working in the state." },
+    ],
+    relatedSlugs: ["compare-personal-loan-offers", "hidden-fees-personal-loans", "what-credit-score-for-personal-loan"],
+    toolLinks: [
+      { label: "Glossary: Credit union", href: "/glossary/credit-union" },
+      { label: "Glossary: Marketplace lender", href: "/glossary/marketplace-lender" },
+    ],
+  },
+  {
+    slug: "how-to-read-loan-agreement",
+    cluster: "Loan shopping",
+    h1: "How to read a personal loan agreement",
+    title: "How to Read a Personal Loan Agreement: What to Check Before Signing",
+    description:
+      "Section-by-section guide to reading a personal loan agreement before you sign. The clauses that matter, the ones that don't, and the red flags to walk away from.",
+    publishedAt: PUBLISHED,
+    reviewedAt: REVIEWED,
+    estimatedReadMinutes: 8,
+    intro:
+      "A personal loan agreement is usually 12-30 pages. Most of it is boilerplate you can skim. About 8-10 specific sections deserve careful reading. Here's the map of what to check and what to skip.",
+    sections: [
+      {
+        h2: "The TILA disclosure box (read first)",
+        body:
+          "Federally required under the Truth in Lending Act. Usually appears on page 1 or 2, often in a bordered box.\n\nWhat's in it:\n\n- APR (the all-in cost of credit including origination fee)\n- Finance charge (total interest plus fees over the life of the loan)\n- Amount financed (principal minus prepaid charges)\n- Total of payments (amount financed plus finance charge)\n- Payment schedule (how many, how much, when)\n\nCheck against: what the lender quoted during pre-qualification. The APR must match. If the TILA box shows a higher APR than the pre-qualification offer, that's a bait-and-switch worth challenging or walking away from.",
+      },
+      {
+        h2: "Section: 'Promissory Note' or 'Promise to Pay'",
+        body:
+          "Confirms the principal amount, the interest rate, and the payment terms. Read for: the exact principal disbursed (after origination fee deduction), the interest rate formula (fixed vs variable, and if variable, what index), and the payment due date each month.\n\nWatch for: late-payment grace period. Standard is 10-15 days. Anything shorter (5 days) is borrower-unfriendly. Anything longer (30 days) is generous and worth noting.",
+      },
+      {
+        h2: "Section: 'Default' definition",
+        body:
+          "Defines what triggers default. The standard definition is 'failure to make a scheduled payment when due.' Some loan agreements add additional triggers: 'material adverse change in financial condition,' 'cross-default clause,' (default on any other debt triggers default here), 'failure to maintain insurance,' or 'failure to maintain employment.'\n\nWatch for: cross-default clauses on personal loans. These are unusual on consumer loans but appear occasionally. They mean a missed payment on a credit card could technically trigger default on the personal loan. Walk away from cross-default consumer-loan agreements unless the rate is dramatically better than alternatives.",
+      },
+      {
+        h2: "Section: 'Prepayment'",
+        body:
+          "Defines whether you can pay off early without penalty. Standard: 'You may prepay any portion of the unpaid principal at any time without penalty.'\n\nWatch for: prepayment penalty clauses. Phrases like 'early termination fee,' 'minimum interest charge,' or 'penalty for prepayment in the first X months' all indicate the loan is more expensive than it looks. The penalty amounts vary; calculate whether the rate advantage justifies it.\n\nAlso watch for: how prepayments are applied. Ideally to principal. Some agreements apply prepayments to next month's payment (which doesn't reduce interest paid) rather than to principal.",
+      },
+      {
+        h2: "Section: 'Late Charges' and 'Other Fees'",
+        body:
+          "Itemises every fee the lender can charge. Standard list:\n\n- Origination fee (one-time, already deducted)\n- Late payment fee ($15-$40 typical)\n- NSF/returned payment fee ($15-$30 typical)\n- Wire/express payment fee (optional, for early funding or rush payoffs)\n\nWatch for: 'monthly maintenance fee' or 'account servicing fee.' These shouldn't exist on a properly priced personal loan. If they do, the loan is more expensive than the APR suggests.\n\nAlso watch for: required add-ons (credit insurance, debt protection). These are profit centres for the lender and usually overpriced. If they appear as required (not optional) charges, walk away.",
+      },
+      {
+        h2: "Section: 'Arbitration' and 'Class Action Waiver'",
+        body:
+          "Common in modern consumer loan agreements. Says any dispute is resolved via individual binding arbitration rather than court, and waives your right to participate in a class action lawsuit.\n\nMost mainstream lenders include this. It's standard, though consumer-protection advocates dislike it. Your practical recourse if you dispute the loan is the lender's own complaint process, the CFPB, or your state attorney general, rather than a courthouse.\n\nMany agreements include a 30-day opt-out clause: you can mail a letter within 30 days of accepting the loan rejecting the arbitration provision. If you're inclined to keep your court rights, exercise this opt-out. It doesn't affect the loan itself.",
+      },
+      {
+        h2: "What you can skim",
+        body:
+          "Boilerplate sections that almost never matter for a typical consumer: 'Severability' (if one provision is unenforceable, the rest survives), 'Governing Law' (which state's law applies, usually the lender's home state), 'Notices' (how the lender will send you legal notices), 'Entire Agreement' (the contract supersedes prior negotiations).\n\nThese exist because contracts need them, but they don't change the loan's economics or your day-to-day obligations.",
+      },
+    ],
+    faqs: [
+      { q: "Should I have a lawyer review a personal loan agreement?", a: "Usually not for amounts under $25,000. The TILA box is regulated and standardised enough that a careful read protects you. For loans above $50,000, or anything with unusual collateral or guarantor provisions, an hour of lawyer time ($200-$400) is cheap insurance." },
+      { q: "Can I negotiate the loan agreement?", a: "Most online and bank loan agreements are take-it-or-leave-it. Credit unions and some community banks will modify specific terms (autopay enrolment, payment date, grace-period length). Origination fee and APR are almost never negotiable post-quote." },
+      { q: "What happens if I sign and then find a problem?", a: "Most loan agreements have a right of rescission for secured loans (typically 3 days) but not for unsecured personal loans. Once signed, you're contractually bound. The CFPB complaint process is the realistic recourse if the lender misrepresented terms." },
+      { q: "Are e-signed loan agreements legally binding?", a: "Yes. The E-SIGN Act (federal, 2000) makes electronic signatures legally equivalent to wet signatures for most consumer transactions. The lender will collect explicit consent to e-sign before you click the final button." },
+    ],
+    relatedSlugs: ["compare-personal-loan-offers", "hidden-fees-personal-loans", "banks-credit-unions-online-lenders"],
+    toolLinks: [
+      { label: "Glossary: TILA", href: "/glossary/tila" },
+      { label: "Glossary: APR", href: "/glossary/apr" },
+    ],
+  },
+  {
+    slug: "loan-application-denied-what-to-do",
+    cluster: "Loan shopping",
+    h1: "Your loan application was denied. Now what?",
+    title: "Personal Loan Application Denied: Why, and What to Do Next",
+    description:
+      "The most common reasons personal loan applications are denied, how to read your adverse action notice, and the right next steps to get approved.",
+    publishedAt: PUBLISHED,
+    reviewedAt: REVIEWED,
+    estimatedReadMinutes: 6,
+    intro:
+      "A loan denial isn't permanent. Federal law requires lenders to tell you exactly why they declined, and most of the reasons can be addressed within 30-90 days. Here's how to read the denial and what to do about it.",
+    sections: [
+      {
+        h2: "Get and read the adverse action notice",
+        body:
+          "Under the Fair Credit Reporting Act (FCRA) and Equal Credit Opportunity Act (ECOA), any lender who denies your application must send you a written 'adverse action notice' within 30 days. It includes:\n\n1. The specific reasons for denial (or the right to request them).\n2. The name and contact info of the credit bureau whose report was used.\n3. Your right to a free copy of that credit report within 60 days.\n4. Your right to dispute inaccurate information.\n\nThe stated reasons are often vague ('insufficient credit history,' 'high debt-to-income ratio'). If they're too vague to act on, you have the right to request a written explanation with more specificity. Most lenders will provide it.",
+      },
+      {
+        h2: "The most common reasons (and fixes)",
+        body:
+          "Insufficient credit history. You're too new to credit, or you have too few open accounts, or your history is too short. Fix: open a secured credit card and a credit-builder loan, wait 6-12 months for the file to age.\n\nLow credit score. The score is below the lender's underwriting threshold. Fix: identify the highest-impact moves (paying down revolving balances, disputing errors), apply elsewhere or in 60-90 days.\n\nHigh debt-to-income ratio. Your existing debt payments are too large relative to income. Fix: pay down existing debt or apply for a smaller loan amount. Most lenders want DTI under 40-43%.\n\nRecent late payments or derogatories. Specific negatives on your report concern the lender. Fix: address the specific items (settle collections, dispute errors, document hardship circumstances), or wait for them to age.\n\nInsufficient income. Your stated income doesn't support the requested payment. Fix: apply with a co-applicant, request a smaller amount, or document additional income streams.\n\nUnverifiable employment or income. The lender couldn't confirm what you reported. Fix: provide pay stubs, tax returns, or bank statements showing the deposits. For self-employment, two years of tax returns is usually required.\n\nResidency or eligibility. You don't meet the lender's residency, citizenship, or age requirements. Usually not fixable; apply elsewhere.",
+      },
+      {
+        h2: "What to do in the next 30 days",
+        body:
+          "Pull the credit report referenced in the denial. Verify it matches what's actually true. If there's an error in your report driving the denial, dispute it through the bureau's online portal (free) and re-apply after the correction posts.\n\nDon't immediately re-apply at another lender. Each hard inquiry costs 3-7 points. Burning through 4-5 applications in a week stacks the inquiries and lowers your score further.\n\nDo pre-qualify (soft pull only) with 2-3 different lenders to see if any will offer a quote. Different lenders use different underwriting; the one who declined you may not be representative. Marketplace pre-qualification is fast and doesn't risk additional score impact.\n\nIf no lender will pre-qualify you, the denial reasons probably need 60-90 days of focused work (paying down balances, settling derogatories, building deposits) before any application is realistic.",
+      },
+      {
+        h2: "When to wait vs when to try again",
+        body:
+          "Try again immediately if: the denial was due to an error in your credit report that you've now corrected.\n\nTry again in 30-60 days if: the denial was due to high utilisation that you've now paid down meaningfully.\n\nTry again in 6-12 months if: the denial was due to thin credit file or recent serious delinquencies that need time to age.\n\nConsider alternatives instead if: the denial reflects a fundamental mismatch (lender's required income or credit threshold is well above where you are). Look at: credit-union PALs, secured personal loans backed by a vehicle or savings, family loans documented properly, employer hardship programs.",
+      },
+    ],
+    faqs: [
+      { q: "Will a denied application show up on my credit report?", a: "The hard inquiry shows for 2 years but only meaningfully affects scoring for the first 12 months. The denial itself doesn't show. Future lenders see the inquiry but can't tell whether it resulted in approval or denial." },
+      { q: "Can the lender tell me wasn't approved on the phone?", a: "Yes, but they also have to send the written adverse action notice. If you're told 'we can't approve this' on the phone, ask for the specific reasons before hanging up, and confirm a written notice is coming." },
+      { q: "Is there a 'soft denial' that doesn't affect my credit?", a: "Pre-qualification declines (no hard inquiry) don't show on your report and don't affect your score. Full-application denials (with hard inquiry) show the inquiry. The distinction matters for shopping; pre-qualify first whenever possible." },
+      { q: "Can I appeal a denial?", a: "Most large lenders have a manual review process for declined applications, especially if you can provide additional documentation (income, bank statements, employer letter) that wasn't in the original application. Ask if a manual review is available before re-applying." },
+    ],
+    relatedSlugs: ["what-credit-score-for-personal-loan", "compare-personal-loan-offers", "raise-credit-score-100-points"],
+    toolLinks: [
+      { label: "Bad credit loans", href: "/loans/bad-credit" },
+      { label: "Glossary: FCRA", href: "/glossary/fcra" },
+      { label: "Glossary: ECOA", href: "/glossary/ecoa" },
+    ],
+  },
+
+  // ─── Batch 2: Life events ────────────────────────────────────────
+  {
+    slug: "financing-baby-arrival",
+    cluster: "Life events",
+    h1: "Financing a baby's arrival: the realistic cost map",
+    title: "How Much Does Having a Baby Cost? Financing Options Compared",
+    description:
+      "Realistic costs of having a baby in the U.S. in 2026, what insurance covers, and the financing options for the gap. Includes a checklist of expenses people forget.",
+    publishedAt: PUBLISHED,
+    reviewedAt: REVIEWED,
+    estimatedReadMinutes: 8,
+    intro:
+      "Having a baby in the U.S. costs $3,500 to $15,000 out of pocket with insurance, much more without. Many of the costs hit in a 60-day window. Here's the realistic cost map and which financing tools work for which line items.",
+    sections: [
+      {
+        h2: "The cost map",
+        body:
+          "Prenatal care (months 1-9): typically $200-$2,000 out of pocket with insurance, depending on deductible and plan. OB visits, ultrasounds, lab work. Some employer plans cover prenatal at 100%; some apply it to deductible.\n\nDelivery (the big one): average insured out-of-pocket cost is $2,500 to $6,000 for vaginal delivery, $4,000 to $10,000 for C-section. The Kaiser Family Foundation tracks this; their data shows the median total billed amount around $15,000-$20,000 for vaginal, $25,000-$30,000 for C-section, with insurance covering most.\n\nFirst month newborn care: $300-$1,500 in pediatric visits, lactation consultation, additional supplies.\n\nDurable goods (one-time): $1,500-$5,000 for the essentials (crib, car seat, stroller, basics). Easy to spend much more if you let yourself.\n\nOngoing first year: $1,000-$3,000 per month, of which the big variable is childcare (which can be zero if a parent stays home or family helps, or $1,500-$2,500 per month if commercial daycare is used).\n\nLost income: 4-12 weeks of unpaid or reduced-pay leave for the birthing parent and 0-2 weeks for the partner. Often the largest single financial impact, depending on employer policy.",
+      },
+      {
+        h2: "What insurance actually covers",
+        body:
+          "Most employer-sponsored plans and Marketplace plans cover pregnancy, delivery, and newborn care under the ACA's essential health benefits requirement. The variable is your deductible and out-of-pocket maximum.\n\nDeductible: the amount you pay before insurance kicks in. For 2026, family-plan deductibles average $3,500-$5,000. High-deductible plans (HDHPs) often have deductibles of $5,000-$10,000.\n\nOut-of-pocket maximum: the most you'll pay in a calendar year. ACA caps this at around $9,450 for individual coverage and $18,900 for family. After this amount, insurance covers 100%.\n\nThe right strategy: if you know you'll have a baby in a specific year, try to time prenatal and delivery within the same calendar year so you only hit one deductible. Switch to family coverage as soon as the baby is born (you have 30-60 days for a Qualifying Life Event special enrollment).",
+      },
+      {
+        h2: "Financing the gap",
+        body:
+          "Don't use credit cards for delivery bills if you can avoid it. Card APRs of 22-29% on a $5,000 hospital bill stretch repayment over 3-5 years.\n\nHSA / FSA accounts. If you have access to a Health Savings Account (with an HDHP) or Flexible Spending Account, fund them before the birth. Pre-tax dollars cover medical expenses, saving roughly 25-32% on those costs compared to after-tax money.\n\nHospital payment plans. Most hospitals offer 0% interest payment plans for 12-36 months on out-of-pocket portions. Always ask. Some also offer charity care discounts for families under certain income thresholds.\n\nPersonal loan for the durable-goods phase. A $5,000 personal loan at 12% APR over 36 months ($166/month) covers crib, car seat, stroller, and the first month's setup. Cheaper than carrying credit-card debt at 25%.\n\nFor the lost-income gap: build a 'baby fund' starting 6-12 months before conception when possible. A dedicated savings account that covers 3 months of expenses smooths the income drop and prevents debt from accumulating during leave.",
+      },
+      {
+        h2: "Things people forget to budget for",
+        body:
+          "Maternity / paternity gear (clothing for the parents, not the baby): $300-$1,000.\n\nNursery setup beyond the basics (paint, furniture, decor): $500-$2,500.\n\nLactation supplies if breastfeeding: pump (often covered by insurance, but supplies aren't), bottles, storage, professional lactation consultation: $200-$800.\n\nChildcare deposit and waitlist fees: $200-$1,000 to hold a daycare spot months in advance.\n\nLife insurance: typically $300-$800 per year per parent for a 20-year term policy in the $500k-$1M range. Often skipped, often needed.\n\nUpdated estate planning (will, guardianship designation, beneficiary updates): $500-$2,000 with an attorney, less DIY.",
+      },
+    ],
+    faqs: [
+      { q: "Should I save up before having a baby or use financing?", a: "Save the deductible amount plus an additional 1-month expense buffer (~$5,000-$10,000 typical) before conception if possible. Finance the durable-goods phase and any unexpected medical costs as needed. Avoid going into debt for things you could have anticipated and saved for." },
+      { q: "Does the ACA require insurance to cover maternity?", a: "Yes. Maternity and newborn care are essential health benefits under the ACA. Any compliant insurance plan (employer, Marketplace, Medicaid) must cover these, though the cost-sharing varies by plan." },
+      { q: "Can I add the baby to insurance retroactively after birth?", a: "Yes. The baby has 30-60 days as a Qualifying Life Event to be added to either parent's insurance, with coverage retroactive to the date of birth. Don't miss this window; otherwise you wait for open enrollment or a separate QLE." },
+      { q: "What's the cost difference between hospital and birthing center?", a: "Birthing centers (for low-risk pregnancies) typically run 40-60% less than hospital deliveries, both in billed amount and out-of-pocket. Insurance coverage varies widely. The trade-off is the speed of access to surgical or NICU care if complications arise; only suitable for low-risk pregnancies with a hospital transfer plan." },
+    ],
+    relatedSlugs: ["build-emergency-fund-from-zero", "50-30-20-budget-rule"],
+    toolLinks: [
+      { label: "Medical loans", href: "/loans/medical" },
+      { label: "Loan affordability calculator", href: "/calculators/affordability" },
+    ],
+  },
+  {
+    slug: "personal-loan-during-unemployment",
+    cluster: "Life events",
+    h1: "Can you get a personal loan during unemployment?",
+    title: "Personal Loans During Unemployment: What Works, What Doesn't",
+    description:
+      "Whether you can get a personal loan while unemployed, what lenders consider income, and the alternative options that often work better.",
+    publishedAt: PUBLISHED,
+    reviewedAt: REVIEWED,
+    estimatedReadMinutes: 6,
+    intro:
+      "Personal loan approval requires verifiable income. Unemployment benefits, severance, disability, social security, retirement income, and partner income can all qualify depending on the lender. Here's what counts as income and which options work best.",
+    sections: [
+      {
+        h2: "What lenders count as income",
+        body:
+          "Unemployment insurance: counted by some lenders as temporary income (capped at expected benefit duration). Not all lenders; ask before applying.\n\nSeverance: counted as one-time income, usually not a basis for ongoing loan affordability.\n\nSocial Security retirement or disability: yes, counted as steady income by all major lenders.\n\nVeterans benefits: yes, counted as steady income.\n\nPension or annuity payments: yes, counted.\n\nRetirement account distributions: yes if regular and documented.\n\nPartner's or spouse's income (joint application): yes when applying jointly.\n\nSide-hustle / gig income (1099): yes if documented via tax returns and bank statements showing consistent deposits.\n\nFamily support or gifts: usually no. Lenders want verifiable obligation-based income.",
+      },
+      {
+        h2: "The fundamentals haven't changed",
+        body:
+          "Lenders underwrite on whether you can make the monthly payment, not on whether you currently have a job. A retiree on Social Security with low debt-to-income often has a clearer path to approval than a recently-laid-off W-2 earner whose unemployment benefits expire in 8 weeks.\n\nDebt-to-income ratio still matters. Most lenders want total debt service (including the new loan payment) below 40-43% of monthly income from all sources.\n\nCredit score still matters. Strong credit can compensate for income uncertainty; weak credit plus income uncertainty is the hardest combination.\n\nLoan amount still matters. A $3,000 loan on $2,500/month unemployment income is more realistic than $20,000 on the same income. Apply for the amount you actually need, not the maximum the lender might offer.",
+      },
+      {
+        h2: "Apply with a co-signer or co-applicant",
+        body:
+          "If your income alone won't support the loan, adding an employed co-signer often shifts the application into approvable territory.\n\nCo-signer vs co-applicant: a co-signer agrees to be responsible for repayment if you default but doesn't have access to the funds. A co-applicant has equal access and equal responsibility. Either resolves the income shortfall; choose based on the relationship.\n\nThe co-signer's credit is fully evaluated. If the co-signer has strong credit (720+) and stable income, the loan often prices at the co-signer's tier rather than yours.\n\nMake sure the co-signer fully understands: if you miss a payment, their credit is hurt. If you default, they're legally responsible for the balance. This commitment lasts the full term of the loan.",
+      },
+      {
+        h2: "Alternatives that often work better",
+        body:
+          "Credit-union PAL (Payday Alternative Loan). If you're a credit-union member (or willing to join), PALs offer $200-$2,000 at capped 28% APR with looser income verification than mainstream personal loans.\n\n0% promotional credit card. If your credit is reasonable, a 0% intro APR card can carry $5,000-$10,000 of short-term cash needs interest-free for 15-21 months. Has to be paid off within the promo, but cheaper than a loan if you'll find income within that window.\n\nHardship withdrawal or 401(k) loan. If you have retirement savings and a current 401(k) plan, a 401(k) loan (up to 50% of vested balance, capped at $50,000) can fund short-term cash needs without affecting your credit. Big caveat: if you've separated from employment, the loan typically must be repaid by the next tax filing deadline or it's treated as a taxable distribution.\n\nSelling assets. A car you don't need, a paid-off home with equity, an investment account, or even a marketplace sale of valuable items can avoid debt entirely.\n\nFamily loan documented properly. A loan from family at a reasonable rate (the IRS Applicable Federal Rate, typically 3-5%) avoids both bank declines and predatory subprime APRs. Document it with a written promissory note.",
+      },
+    ],
+    faqs: [
+      { q: "Can I get a personal loan only on unemployment income?", a: "Some online lenders will consider it for smaller amounts ($500-$5,000) within shorter terms (12-24 months). Approval is harder than with W-2 income. Prequalify (soft pull) with several lenders to see who's interested before any hard inquiry." },
+      { q: "Will applying for unemployment benefits hurt my credit?", a: "No. Unemployment claims don't appear on credit reports. The financial stress that often accompanies unemployment can affect credit (late payments, increased utilisation) but the unemployment itself doesn't." },
+      { q: "Should I take a loan now or wait until I have a new job?", a: "If the cash need is genuine and urgent (housing, medical, transportation to job interviews), a small loan now beats accumulating credit-card debt at 25%. If the need is discretionary, wait for income to resume. Don't use a personal loan to maintain a pre-unemployment lifestyle." },
+      { q: "Is there government assistance during unemployment?", a: "Beyond unemployment insurance, look at SNAP (food assistance), LIHEAP (energy bill help), Medicaid (if income drops below state thresholds), and state-specific rent and utility assistance programs. 211.org connects to local social services. Many people qualify for assistance and don't apply." },
+    ],
+    relatedSlugs: ["build-emergency-fund-from-zero", "personal-loan-vs-401k-loan", "what-credit-score-for-personal-loan"],
+    toolLinks: [
+      { label: "Emergency loans", href: "/loans/emergency" },
+      { label: "Bad credit loans", href: "/loans/bad-credit" },
+    ],
+  },
+
+  // ─── Batch 2: Money habits ───────────────────────────────────────
+  {
+    slug: "right-size-emergency-fund",
+    cluster: "Money habits",
+    h1: "What's the right size emergency fund for you?",
+    title: "How Big Should Your Emergency Fund Be? (Personal-Situation Math)",
+    description:
+      "The right emergency fund size depends on your income stability, dependents, insurance coverage, and debt situation. Here's the math for different profiles.",
+    publishedAt: PUBLISHED,
+    reviewedAt: REVIEWED,
+    estimatedReadMinutes: 6,
+    intro:
+      "The standard '3 to 6 months of expenses' answer for emergency fund size is too generic. The right number for you depends on income stability, dependents, debt load, and insurance coverage. Here's how to compute your specific target.",
+    sections: [
+      {
+        h2: "Start with monthly required expenses",
+        body:
+          "Total your unavoidable monthly costs: housing (rent or mortgage + utilities + insurance), groceries (not dining out), transportation (insurance + fuel + minimum auto loan), minimum debt payments, basic medical (insurance premiums), and basic household needs.\n\nThis is your 'survival' number, not your 'comfortable' number. In a real emergency, dining out, entertainment, subscriptions, and discretionary spending all stop. Build around the lower number.\n\nMost households find their survival number is 60-70% of their typical monthly spending. A household spending $5,000/month total often has a survival number around $3,500.",
+      },
+      {
+        h2: "The multiplier depends on your profile",
+        body:
+          "3 months target if: dual-income household, both in stable industries, employed at companies of 500+ people, no dependents who require your income, comprehensive health and disability insurance.\n\n4-5 months target if: single income, stable industry, large employer, modest dependent obligations.\n\n6 months target if: single income, volatile industry (commission sales, freelance, gig), small employer, or dependents who require your income.\n\n9-12 months target if: self-employed, very volatile income, or in an industry undergoing structural disruption. Also: if you're within 5 years of retirement and a job loss would force premature retirement.\n\nThe trade-off: every dollar in the emergency fund earns ~4-5% in a high-yield savings account but isn't invested in long-term growth assets. Holding more than you need has a real opportunity cost.",
+      },
+      {
+        h2: "Adjustments for special situations",
+        body:
+          "High medical risk (existing condition, high deductible): add 1-2 months to cover potential out-of-pocket medical maximum.\n\nHomeowner: add a roof / HVAC / appliance reserve. National Association of Home Inspectors data suggests 1-3% of home value per year for maintenance. A $400,000 home suggests $4,000-$12,000 of additional reserve.\n\nLeasing or financing a depreciating asset (car): the gap between what you owe and what the asset would sell for is a potential emergency liability. Account for it.\n\nLow disability insurance coverage: add 2-4 months to bridge a temporary disability with insufficient insurance.\n\nPlanned major expense within 12 months: don't count the planned expense as part of the emergency fund; save for it separately in a sinking fund.",
+      },
+      {
+        h2: "Where to keep different layers",
+        body:
+          "Layer 1 ($1,000 starter or 1 month expenses, whichever is bigger): high-yield savings at an online bank. Immediate liquidity. Currently earning 3.5-5% APY.\n\nLayer 2 (months 2-3): money-market fund at a brokerage (Fidelity, Schwab, Vanguard). Slightly higher yield, 1-3 day settlement to checking. Currently earning 4.5-5.5%.\n\nLayer 3 (months 4-6): mix of money-market and short-duration Treasury bills. Treasuries are state-tax-free which gives them a yield boost in high-tax states. Slightly more friction to liquidate but yields are competitive.\n\nLayer 4 (beyond 6 months): I-bonds (inflation-protected) or longer Treasuries. The 12-month lockout on I-bonds makes them less liquid; only use for the tail end of your fund where same-week access isn't critical.",
+      },
+    ],
+    faqs: [
+      { q: "Should I have a smaller emergency fund if I have a HELOC?", a: "Marginally yes. A HELOC is a backstop for true emergencies, so you can technically run a smaller cash reserve. Caveat: HELOCs can be frozen by the lender during bad economic conditions (this happened broadly in 2008-2009). Don't treat the HELOC as fully reliable backstop." },
+      { q: "Can I count my Roth IRA toward emergency fund?", a: "Roth contributions can be withdrawn tax- and penalty-free. So technically yes, but the contribution room you withdraw can't be recontributed beyond your annual cap. Most planners treat Roth as a separate retirement bucket and keep emergency fund cash explicitly liquid." },
+      { q: "Is an HSA an emergency fund?", a: "An HSA is the best account for medical emergencies if you have one, but it's only usable for qualified medical expenses (without penalty). It's a medical emergency fund, not a general one. Build both if you have access to an HSA-eligible high-deductible plan." },
+      { q: "What about credit cards as the emergency fund?", a: "Available credit can backstop a true emergency, but credit cards at 22-29% APR shouldn't be your primary cash reserve. Use them as a short-term bridge if necessary but build the savings fund as fast as possible to retire the card debt." },
+    ],
+    relatedSlugs: ["build-emergency-fund-from-zero", "50-30-20-budget-rule"],
+    toolLinks: [
+      { label: "Emergency loans", href: "/loans/emergency" },
+    ],
+  },
+  {
+    slug: "how-to-handle-windfall",
+    cluster: "Money habits",
+    h1: "How to handle a windfall: tax refund, bonus, inheritance",
+    title: "How to Handle a Windfall: Tax Refund, Bonus, or Inheritance",
+    description:
+      "Practical order-of-operations for handling unexpected money: tax refunds, work bonuses, inheritance, lawsuit settlements, or any one-time lump sum.",
+    publishedAt: PUBLISHED,
+    reviewedAt: REVIEWED,
+    estimatedReadMinutes: 6,
+    intro:
+      "How you handle a one-time windfall (tax refund, bonus, inheritance, settlement) usually matters more than the amount. The right order of operations turns even modest windfalls into meaningful long-term improvements. Here's the framework.",
+    sections: [
+      {
+        h2: "First: do nothing for 30 days",
+        body:
+          "Park the entire amount in a high-yield savings account. Don't touch it. Don't tell people. Don't make purchase decisions.\n\nThe 30-day rule prevents the most common windfall mistake: impulsive spending while in an unfamiliar emotional state. People who inherit or settle from lawsuits often spend or lose 50-70% within the first year because they made big decisions in the first week.\n\nUse the 30 days to: research tax implications (some windfalls are taxable, some aren't), think about long-term goals, and consult a fee-only fiduciary financial advisor if the amount is over $50,000.",
+      },
+      {
+        h2: "The order of operations",
+        body:
+          "Step 1: pay off high-interest debt (credit cards, payday loans, anything above 12% APR). This is mathematically the highest return available; paying off a 22% APR card balance is a guaranteed 22% return on that money.\n\nStep 2: fund the emergency fund to 3-6 months of expenses. Tier the cash across high-yield savings and money-market accounts.\n\nStep 3: max out tax-advantaged retirement accounts for the year. $23,000 to 401(k) ($30,500 if 50+), $7,000 to Roth or Traditional IRA ($8,000 if 50+). Contribute to your HSA if eligible ($4,300 individual / $8,550 family).\n\nStep 4: pay down moderate-interest debt (auto loans, student loans, mortgages above 6%) selectively. Below 6%, the math favours investing instead.\n\nStep 5: invest in taxable brokerage in low-cost index funds. Total US stock market or world-stock index funds are the standard recommendation; expense ratios under 0.10% are widely available.\n\nStep 6: large discretionary spending. House down payment increase, home renovation, or single meaningful one-time purchase.\n\nStep 7 (the last 10-20%): genuine fun money. Trip, gift to family, personal indulgence. Important; allocating zero to enjoyment is also a failure mode.",
+      },
+      {
+        h2: "Tax implications by windfall type",
+        body:
+          "Tax refund: not taxable (it's your money being returned). But also a signal that your withholding is too high; adjust your W-4 to keep more of each paycheque going forward.\n\nWork bonus: taxable as ordinary income. Federal withholding on bonuses is often 22% (flat rate) regardless of your actual bracket; high earners may owe additional tax at filing time.\n\nInheritance: federal estate tax exemption is around $13M+ for 2026, so most inheritances aren't taxed at the federal level. State estate taxes vary. Inherited IRAs and 401(k)s have specific distribution rules (the SECURE Act mostly requires distribution within 10 years for non-spouse beneficiaries). Inherited stock gets a step-up in basis to date-of-death value.\n\nLawsuit settlement: taxability depends on what's being compensated. Lost wages and punitive damages are taxable. Compensation for physical injury or sickness is generally not. Get specific tax advice if the settlement is over $25,000.\n\nGift from family member: not income to you under federal law. The gift giver may have gift-tax filing obligations if the amount exceeds the annual exclusion ($18,000 per recipient in 2026), but the recipient owes no income tax.",
+      },
+    ],
+    faqs: [
+      { q: "Should I pay off my mortgage with a windfall?", a: "Usually no if the mortgage rate is below 6%. The math favours investing the windfall and keeping the mortgage. Above 6-7%, it gets closer. Above 8%, paying it down is reasonable. Other considerations (emotional security, near retirement) can override the pure math." },
+      { q: "What if my windfall is too big for me to manage on my own?", a: "Anything over $250,000 deserves a fee-only fiduciary financial advisor (look for CFP or CFA certification, and 'fee-only' rather than commission-based). Expect to pay $2,000-$5,000 for a comprehensive plan or 0.5-1% annually for ongoing management. Don't pay commission-based advisors; their incentives are misaligned with yours." },
+      { q: "Should I tell people about my windfall?", a: "Very selectively. Telling extended family and friends about a meaningful windfall often produces requests for help, loans, or investments that strain relationships. The default should be private. Tell people only on a need-to-know basis." },
+      { q: "How should I split a windfall with a partner?", a: "If you're married, joint decision-making is usually the right approach (both legally and relationally). If unmarried, document any agreed-upon use, especially if you're sharing the windfall toward joint goals like a house down payment." },
+    ],
+    relatedSlugs: ["build-emergency-fund-from-zero", "right-size-emergency-fund", "50-30-20-budget-rule"],
+    toolLinks: [
+      { label: "Loan affordability calculator", href: "/calculators/affordability" },
+    ],
+  },
 ];
 
 export const guidesBySlug = Object.fromEntries(
@@ -635,6 +1341,7 @@ export const guideClusters: GuideCluster[] = [
   "Credit improvement",
   "Loan shopping",
   "Life events",
+  "Money habits",
 ];
 
 export function guidesInCluster(cluster: GuideCluster) {

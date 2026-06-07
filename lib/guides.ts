@@ -1330,6 +1330,256 @@ export const guides: Guide[] = [
       { label: "Loan affordability calculator", href: "/calculators/affordability" },
     ],
   },
+
+  // ─── Batch 3: tail-end high-value topics ─────────────────────────
+  {
+    slug: "escape-payday-loan-cycle",
+    cluster: "Debt management",
+    h1: "How to escape the payday loan cycle",
+    title: "How to Get Out of Payday Loan Debt: Step-by-Step (2026)",
+    description:
+      "A realistic plan to break out of payday loan debt: consolidation options, credit-union PAL programs, debt management plans, and the specific moves that work.",
+    publishedAt: PUBLISHED,
+    reviewedAt: REVIEWED,
+    estimatedReadMinutes: 9,
+    intro:
+      "Payday loans trap roughly 75% of borrowers in repeated rollovers, according to CFPB data. Getting out requires replacing high-APR payday debt with a lower-cost option and stopping the inflow of new payday borrowing. Here's the realistic playbook.",
+    sections: [
+      {
+        h2: "Why the cycle is so hard to break",
+        body:
+          "The typical payday loan charges $15-30 per $100 borrowed for a 14-day term, which annualises to 390-780% APR. The CFPB tracks the rollover pattern: more than 75% of payday loans are rolled over or re-borrowed within two weeks because the borrower can't pay the full balance plus the original fee.\n\nEach rollover compounds the problem. A $400 payday loan rolled over 8 times can cost $400-$500 in fees on top of the original $400 principal. The borrower ends up paying twice the loan amount and is still in debt.\n\nBreaking the cycle requires both eliminating the existing payday debt AND closing off the option to take new payday loans in the moment of crisis. Half-measures fail.",
+      },
+      {
+        h2: "Replace payday debt with a lower-cost option",
+        body:
+          "Federal credit-union PALs (Payday Alternative Loans) are designed specifically for this situation. Capped at 28% APR, $200-$2,000 amounts, 1-12 month terms. Most federal credit unions offer them. You typically need to be a member for 30+ days before applying, so join immediately if you're not already.\n\nA standard personal loan at any APR (even subprime 35.99%) is dramatically cheaper than payday rollovers. A $1,000 personal loan at 35% APR over 12 months is about $100/month with $200 total interest. A $1,000 payday loan rolled monthly for the same 12 months can cost $1,500-$2,000 in cumulative fees.\n\nWhere both options fail: the borrower's credit is too damaged or income too irregular to qualify. In those cases, a debt management plan through a nonprofit credit counsellor (NFCC-affiliated) can negotiate the payday balance directly with the lender for a reduced single monthly payment.",
+      },
+      {
+        h2: "Stop the inflow of new payday borrowing",
+        body:
+          "Cash-strapped borrowers often take new payday loans when an unexpected expense hits because they have no other tool. Building a small emergency reserve ($300-$500) is the only durable defence.\n\nWhile working on the consolidation step above, set aside $25-50 from each paycheck into a separate savings account (online HYSA, not your primary checking). The amount is small enough not to disrupt your monthly budget but builds the buffer that prevents the next payday loan.\n\nAlso practical: unsubscribe from payday-loan promotional emails, remove saved payment methods at any payday-loan websites you've used, and ask your bank for a low-balance alert at $50 above your minimum balance.",
+      },
+      {
+        h2: "Negotiate directly with the payday lender",
+        body:
+          "Federal law (Military Lending Act for service members, FDCPA for collections) and various state laws give borrowers more leverage with payday lenders than most people realise.\n\nIf you're in default or close to it, contact the payday lender and ask for: an extended payment plan (most states require lenders to offer one if requested before default), waiving fees, or a settlement for less than full balance. Many lenders will accept 50-70% of the outstanding amount as a settlement to close the account.\n\nWhen calling: stay calm, state the issue, ask what programs are available, and don't acknowledge new debt verbally. Follow up any verbal agreement with written confirmation before sending money.",
+      },
+      {
+        h2: "When bankruptcy is the right tool",
+        body:
+          "If your total debt (payday plus other) exceeds 50% of annual income and you can't realistically pay it down in 5 years, Chapter 7 bankruptcy may be the right move. Payday loans discharge in Chapter 7 like other unsecured debt.\n\nThe bankruptcy attorney consultation is usually free for first meeting. Don't avoid the conversation; for severely-indebted borrowers, bankruptcy often produces a better long-term outcome than years of payday-loan rollovers.",
+      },
+    ],
+    faqs: [
+      { q: "Can I just stop paying the payday loan?", a: "Possible but consequences vary. The lender will attempt collection, may report to specialty bureaus that some lenders see (TeleTrack, FactorTrust), and may sue. Most payday loans are too small to economically sue for, but exceptions happen. The lender can also drain whatever's in the checking account you authorised for ACH withdrawal." },
+      { q: "Are payday loans dischargeable in bankruptcy?", a: "Yes, in most cases. They're unsecured consumer debt and discharge with other similar debts in Chapter 7. Payday loans taken in the 70 days before filing for over $1,100 in cash advances may face exception challenges." },
+      { q: "Does paying off a payday loan help my credit?", a: "Usually no. Most payday lenders don't report to the three major bureaus (Equifax, Experian, TransUnion), so paying off doesn't generate positive history. Defaulting and being sent to collections does report negatively." },
+      { q: "Can a payday lender garnish my wages?", a: "Only after suing in civil court and winning a judgment. Most payday lenders don't pursue lawsuits because the loan amounts are too small. Federal student loans and IRS debts can garnish without judgment; payday loans cannot." },
+    ],
+    relatedSlugs: ["what-to-do-debt-collections", "consolidate-credit-card-debt-personal-loan", "build-emergency-fund-from-zero"],
+    toolLinks: [
+      { label: "Personal loan vs payday loan", href: "/compare/personal-loan-vs-payday-loan" },
+      { label: "Emergency loans", href: "/loans/emergency" },
+    ],
+  },
+  {
+    slug: "money-mistakes-that-hurt-credit",
+    cluster: "Credit improvement",
+    h1: "Five common money mistakes that hurt your credit score",
+    title: "5 Money Mistakes That Hurt Your Credit Score (and How to Avoid Them)",
+    description:
+      "Five common financial decisions that quietly damage credit scores without obvious immediate consequences. Each comes with the underlying mechanism and how to avoid it.",
+    publishedAt: PUBLISHED,
+    reviewedAt: REVIEWED,
+    estimatedReadMinutes: 7,
+    intro:
+      "Most credit-score damage doesn't come from dramatic events like bankruptcy. It comes from small, common decisions that don't feel risky at the time. Here are the five most common credit mistakes, with the mechanism behind each.",
+    sections: [
+      {
+        h2: "1. Closing old credit cards",
+        body:
+          "Closing a paid-off credit card feels like good financial hygiene. It's not. Closing the card reduces your total available credit limit and increases your utilisation ratio on remaining cards. It also lowers your average account age, which is a meaningful FICO factor.\n\nWorked example: you have a $5,000 balance across $20,000 total credit limits (25% utilisation). You close a paid-off card with $5,000 limit, leaving $15,000 total. Same $5,000 balance is now 33% utilisation. Score impact: typically 20-40 points down within one reporting cycle.\n\nThe right move: keep paid-off cards open with a small recurring charge (like a Netflix subscription) paid in full each month. Preserves credit limit and account age, costs nothing.",
+      },
+      {
+        h2: "2. Maxing out one card while keeping others low",
+        body:
+          "Total utilisation matters, but per-card utilisation matters separately. A maxed-out card hurts your score even if your aggregate utilisation across all cards is reasonable.\n\nExample: you have three cards each with $10,000 limits. Total $30,000 limit. You charge $9,500 to one card (95% on that card) and $0 to the others. Aggregate utilisation is 32% (looks fine) but the single maxed card costs 30-50 points from FICO's per-card analysis.\n\nThe right move: spread balances across multiple cards if you must carry them, keeping each card below 30% utilisation, ideally below 10%.",
+      },
+      {
+        h2: "3. Co-signing without understanding the obligation",
+        body:
+          "Co-signing a loan for a friend or family member makes you 100% legally responsible for the debt. The loan appears on your credit report, affects your DTI for any future borrowing you do, and any late payment by the primary borrower hits your score.\n\nWorst case: the primary borrower defaults. You're now liable for the full balance, the loan is in default on your credit, and the lender can pursue you directly without first exhausting collection efforts against the primary borrower.\n\nThe right move: only co-sign when you'd be comfortable paying the full loan yourself if needed. For friends and family who need help, gifting a smaller amount or lending privately (with documentation) usually beats co-signing.",
+      },
+      {
+        h2: "4. Applying for store cards at the register",
+        body:
+          "Retailers train cashiers to offer instant store-card sign-up with promised 10-15% discount on that day's purchase. Each application is a hard inquiry (3-7 score points down) and a new account (lowers average age). The 10% saved is rarely worth the credit damage.\n\nStore cards also typically have high APRs (25-30%) and low limits, which means even small balances create high utilisation ratios. The cards are designed to capture both the application discount and ongoing interest revenue from borrowers who carry balances.\n\nThe right move: skip the store-card offer unless you're making a single very large purchase you can pay off immediately, and even then evaluate whether the dollars saved justify a multi-year credit-score effect.",
+      },
+      {
+        h2: "5. Letting collections age without paying or disputing",
+        body:
+          "An old collection on your credit report continues to drag down your score even after the original debt is years old. Many borrowers leave them untouched because the balance feels too old to matter.\n\nUnder newer FICO models (FICO 9, FICO 10), paid collections are ignored entirely and medical collections under $500 are excluded regardless of payment status. So paying off a medical collection can produce immediate score improvement under those models.\n\nThe right move: pull all three credit reports, identify any remaining collections, and either pay-for-delete negotiate them (if mainstream lenders are still using older FICO 8), dispute them with the bureau if they're inaccurate or past the 7-year removal date, or settle for less than full balance if cash flow allows.",
+      },
+    ],
+    faqs: [
+      { q: "How long do these mistakes affect my credit?", a: "Most score impacts fade within 6-24 months as positive history accumulates. Hard inquiries affect scoring for 12 months but stay on reports for 24. Account closures affect average age permanently. The most durable damage is from late payments and collections, which can drag for 7 years from the date of first delinquency." },
+      { q: "Is it ever right to close a credit card?", a: "Sometimes. Close cards with high annual fees you don't get value from, or cards from issuers you want to stop doing business with (security concerns, predatory behaviour). Don't close just because the card is unused; small recurring charges keep cards alive without cost." },
+      { q: "What if I've already done several of these things?", a: "Damage is recoverable. Focus on the highest-impact remaining lever: lowering credit-card utilisation. Score improvements from paying revolving balances to below 10% utilisation typically appear within 30-60 days and can offset multiple smaller mistakes." },
+      { q: "Do these mistakes affect VantageScore the same way?", a: "Mostly yes, with small differences in weighting. VantageScore considers credit-card utilisation and payment history as the largest factors, similar to FICO. Hard inquiries affect VantageScore slightly less than FICO. The general principles apply across both scoring models." },
+    ],
+    relatedSlugs: ["raise-credit-score-100-points", "secured-credit-card-strategy"],
+    toolLinks: [
+      { label: "Glossary: Credit utilisation", href: "/glossary/credit-utilization" },
+      { label: "Glossary: Credit score", href: "/glossary/credit-score" },
+    ],
+  },
+  {
+    slug: "credit-reporting-timing-explained",
+    cluster: "Credit improvement",
+    h1: "How credit reporting timing actually works",
+    title: "Credit Reporting Timing: When Lenders Report, When Scores Update",
+    description:
+      "When lenders report to credit bureaus, when scores update, and the timing strategies for getting maximum credit-score benefit from any specific financial move.",
+    publishedAt: PUBLISHED,
+    reviewedAt: REVIEWED,
+    estimatedReadMinutes: 6,
+    intro:
+      "Most borrowers think credit scores update in real time. They don't. Understanding when lenders report and when scores recalculate is the key to timing applications, payments, and credit changes for maximum benefit.",
+    sections: [
+      {
+        h2: "When lenders report",
+        body:
+          "Most U.S. lenders report account activity to the credit bureaus monthly, typically on or near your statement closing date. For credit cards, this means the balance reported is the balance at the moment your statement closes, not your current balance or the balance after you pay the statement.\n\nThis is why borrowers sometimes see their credit score not improve after paying down a card balance: the balance was already reported as 'high' on the statement date and won't update until the next month's statement.\n\nNot all lenders report on the same schedule. Different cards in your wallet may report on different days of the month, which is why your aggregate utilisation moves around even when your total spending is stable.",
+      },
+      {
+        h2: "How to time payments for score benefit",
+        body:
+          "If you want to maximise your credit score before a specific application (a mortgage, an auto loan, a credit-product application), pay your credit-card balances down to below 10% utilisation 30-45 days BEFORE the application. This gives time for at least one reporting cycle to show the lower balance.\n\nThe specific play: pay extra so your statement balance reports as low. You can pay both before AND after the statement date. Pre-statement payment reduces what gets reported; post-statement payment avoids interest charges.\n\nFor borrowers with significant utilisation, this single timing optimisation can produce 30-60 score points in 30-45 days, which on a mortgage can equate to a meaningfully better rate or approval where it would otherwise have been a decline.",
+      },
+      {
+        h2: "When scores actually update",
+        body:
+          "Credit scores aren't stored at the bureaus. They're computed at the moment a lender requests one. When a lender pulls your credit, the bureau runs the scoring model against your current report and returns the score.\n\nThis means a 'score update' really means the underlying data in your report changed. When you pay down a balance, the new balance appears in your report once your lender reports it (typically next statement cycle), and from that moment forward any new score request reflects the lower balance.\n\nFree credit-monitoring services (Credit Karma, Experian's free app, your bank's score tool) may show stale scores because they refresh on their own schedule (often weekly or monthly), not immediately when a report changes.",
+      },
+      {
+        h2: "Disputing inaccurate items: the timeline",
+        body:
+          "File a dispute through the credit bureau's online portal. The FCRA gives the bureau 30 days to investigate. They contact the original creditor, who has roughly 21 days to respond. If the creditor can't verify the disputed item, the bureau must remove or correct it.\n\nMost disputes resolve in 14-21 days. The score impact lands when the bureau updates your report, typically within a few days of the dispute resolution. If your dispute removes a derogatory item (collection, late payment), score increases of 30-60+ points within the same week are common.\n\nIf the dispute fails (creditor verifies the item), you can file a 100-word consumer statement that attaches to the disputed item on future reports, or escalate to the CFPB if you have evidence the creditor's verification was incorrect.",
+      },
+    ],
+    faqs: [
+      { q: "Why does my credit score show different numbers on different sites?", a: "Different sites pull from different bureaus and may use different scoring models. FICO 8 is the most common model used by lenders; FICO 9 and FICO 10 are newer but used less widely. VantageScore (used by Credit Karma) is a separate model entirely. Scores can vary 20-50 points across models even on the same date." },
+      { q: "How quickly can a credit score drop after a missed payment?", a: "Late marks typically don't report until the payment is 30 days past due. Once reported, the score impact lands within days. The first 30-day late is the most damaging single item; subsequent late marks have smaller incremental impact." },
+      { q: "Does paying off a loan close it on my credit report?", a: "Yes, but the closed account stays on your report for 10 years after closure. The positive payment history continues to contribute to your score during that window. The account being closed (rather than open) does cause some scoring models to give it slightly less weight." },
+      { q: "How often should I check my credit report?", a: "Pull from each bureau (Equifax, Experian, TransUnion) at least once per year via AnnualCreditReport.com. The free weekly access expanded since 2020 means you can pull more often if monitoring for fraud or planning a major application. There's no penalty for checking your own report frequently." },
+    ],
+    relatedSlugs: ["raise-credit-score-100-points", "dispute-credit-report-errors"],
+    toolLinks: [
+      { label: "Glossary: Credit report", href: "/glossary/credit-report" },
+      { label: "Glossary: Credit score", href: "/glossary/credit-score" },
+    ],
+  },
+  {
+    slug: "how-to-choose-financial-advisor",
+    cluster: "Money habits",
+    h1: "How to choose a financial advisor",
+    title: "How to Choose a Financial Advisor (Fee-Only vs Commission, CFP, Fiduciary)",
+    description:
+      "How to find and vet a financial advisor: the difference between fee-only and commission-based advisors, what fiduciary really means, and the questions to ask before hiring.",
+    publishedAt: PUBLISHED,
+    reviewedAt: REVIEWED,
+    estimatedReadMinutes: 7,
+    intro:
+      "The financial-advisor industry is structured to make picking the right one harder than it should be. The distinction between fee-only fiduciary advisors and commission-based salespeople is the single most important factor, and most consumers don't know it exists.",
+    sections: [
+      {
+        h2: "Fee-only vs commission-based",
+        body:
+          "Fee-only advisors are paid only by the client (typically a flat fee, hourly rate, or percentage of assets managed). They earn nothing from product recommendations, which removes the conflict of interest that commission-based advisors have.\n\nCommission-based advisors earn from selling financial products: mutual funds, insurance policies, annuities. They may genuinely care about clients, but their compensation creates an incentive to recommend products that pay them, which may not be the cheapest option for the client.\n\nFee-only is almost always the right choice for objective advice. The slight upfront cost (often $1,500-$3,000 for a comprehensive plan, or 0.5-1% of assets annually for ongoing management) usually saves multiples of that over time through better product selection.",
+      },
+      {
+        h2: "What 'fiduciary' actually means",
+        body:
+          "A fiduciary is legally required to act in the client's best interest. Non-fiduciary advisors only have to meet a 'suitability' standard, which means the recommendation has to be 'suitable' but doesn't have to be the best option.\n\nIn practice, the distinction matters most when there's a cheaper alternative. A non-fiduciary can recommend a 1.5% expense-ratio fund when a 0.10% fund would serve identically. A fiduciary cannot.\n\nNot all advisors who claim to be fiduciaries are bound to that standard for all aspects of their work. Some operate dual-licensed: fiduciary for advisory services, suitability-only for product sales. Ask explicitly: 'are you a fiduciary for every recommendation you make to me?'",
+      },
+      {
+        h2: "Credentials worth looking for",
+        body:
+          "CFP (Certified Financial Planner) is the gold-standard credential for personal-finance advice. Requires 4,000+ hours of experience, a comprehensive exam, and ongoing ethics requirements. CFPs are bound by fiduciary duty for advisory work.\n\nCFA (Chartered Financial Analyst) is the deepest investment-management credential, more relevant for asset management than personal planning. CPAs with PFS (Personal Financial Specialist) designation combine tax expertise with planning. Enrolled Agents are tax specialists, not full advisors.\n\nAvoid advisors whose only credentials are sales licences (Series 7, Series 65, etc.). These are required to sell products but don't reflect planning competence.",
+      },
+      {
+        h2: "Five questions to ask before hiring",
+        body:
+          "1. Are you a fiduciary for all advice you give me? (You want 'yes' without qualification.)\n\n2. How are you paid? (You want fee-only, paid by the client directly. Avoid 'fee-based' which sounds similar but means hybrid commission and fee compensation.)\n\n3. What's your minimum asset requirement and your fee structure? (Comprehensive plans run $1,500-$5,000; ongoing management runs 0.5-1.5% of assets. Avoid advisors who can't quote a clear fee.)\n\n4. Can I see your form ADV Part 2? (This is the SEC-required disclosure of fees, conflicts, and disciplinary history. Legitimate advisors share it freely.)\n\n5. Will you commit to acting in my best interest in writing? (A fiduciary will say yes immediately. A non-fiduciary will hedge.)",
+      },
+      {
+        h2: "When you actually need an advisor",
+        body:
+          "Not everyone needs a financial advisor. For straightforward situations (W-2 income, employer 401(k), no complex assets), low-cost robo-advisors (Betterment, Wealthfront, Schwab Intelligent Portfolios) at 0.25-0.40% of assets often produce better outcomes than mid-tier human advisors.\n\nA human advisor adds clear value when: assets exceed $500,000, you own a business, you have a complex tax situation, you're navigating a major life event (divorce, inheritance, retirement transition), or you simply don't have the time or interest to manage your own planning.\n\nGood resources for finding fee-only advisors: NAPFA (National Association of Personal Financial Advisors) at napfa.org, XY Planning Network at xyplanningnetwork.com, and Garrett Planning Network at garrettplanningnetwork.com all maintain searchable directories of fee-only fiduciary advisors.",
+      },
+    ],
+    faqs: [
+      { q: "How much does a financial advisor cost?", a: "Fee-only advisors typically charge $1,500-$5,000 for a comprehensive plan, $200-$500/hour for hourly advice, or 0.5-1.5% of assets annually for ongoing management. Commission-based advisors are 'free' upfront but extract value through product fees that can run 1-2.5% per year, often without explicit disclosure." },
+      { q: "Should I use a robo-advisor instead?", a: "For straightforward portfolios (target-date retirement funds, broad-market index funds), robo-advisors at 0.25-0.40% of assets often produce equivalent outcomes to human advisors at 1% for substantially less cost. Robo-advisors don't help with comprehensive planning (tax strategy, estate planning, insurance) where human advisors add value." },
+      { q: "Can I just manage my own finances?", a: "Yes, for most people with simple situations. Resources like Bogleheads.org, the r/personalfinance wiki, and books like 'The Simple Path to Wealth' cover what you need for solid personal financial management. The complexity increases significantly with high net worth, business ownership, or complex tax situations." },
+      { q: "How do I check an advisor's background?", a: "Free at brokercheck.finra.org (for advisors registered with FINRA) and adviserinfo.sec.gov (for SEC-registered investment advisors). Both show disciplinary history, regulatory actions, and customer complaints. Check both before hiring." },
+    ],
+    relatedSlugs: ["50-30-20-budget-rule", "how-to-handle-windfall"],
+    toolLinks: [
+      { label: "Loan affordability calculator", href: "/calculators/affordability" },
+    ],
+  },
+  {
+    slug: "student-loan-refinance-alternatives",
+    cluster: "Debt management",
+    h1: "Student loan refinancing alternatives explored",
+    title: "Student Loan Refinancing: Options, Trade-offs, When to (and Not to) Refinance",
+    description:
+      "Should you refinance federal student loans? The trade-offs, the lenders worth applying to, the income-driven repayment options that disappear when you refinance, and when consolidation is the better move.",
+    publishedAt: PUBLISHED,
+    reviewedAt: REVIEWED,
+    estimatedReadMinutes: 8,
+    intro:
+      "Refinancing federal student loans into a private loan can lower your interest rate but eliminates access to income-driven repayment, public service loan forgiveness, and federal hardship programs. For some borrowers it's the right move; for others it's a costly mistake.",
+    sections: [
+      {
+        h2: "Federal vs private student loans",
+        body:
+          "Federal student loans come with protections private loans don't replicate: income-driven repayment (IDR) plans that cap payments based on income, public service loan forgiveness (PSLF) for qualifying employers, generous deferment and forbearance options, and discharge in cases of permanent disability or school closure.\n\nFederal loan rates are set by Congress annually. Currently, undergraduate direct loans are around 7-8%; graduate direct loans are higher. These rates are fixed for the life of the loan.\n\nPrivate student loans (including refinances) typically offer lower rates than federal loans for prime borrowers, but the borrower-protection features above don't transfer. Once you refinance federal into private, those protections are gone permanently.",
+      },
+      {
+        h2: "When refinancing makes sense",
+        body:
+          "Refinance to private when ALL of these are true:\n\n1. Your credit and income are strong enough to qualify for a meaningfully lower rate (typically 3+ percentage points below the federal rate)\n\n2. You're not working toward PSLF and don't plan to in the future\n\n3. You don't need income-driven repayment (your income comfortably supports the loan payment without hardship)\n\n4. You don't anticipate needing forbearance or deferment (no career changes, returning to school, or income disruption likely)\n\nFor borrowers with all four conditions, refinancing can save tens of thousands over the life of the loan. For borrowers missing any of them, the federal protections often outweigh the rate savings.",
+      },
+      {
+        h2: "When refinancing is a mistake",
+        body:
+          "Refinancing is usually a mistake if:\n\nYou work for a 501(c)(3) nonprofit, government agency, or other PSLF-qualifying employer. Refinancing eliminates PSLF eligibility, and 10 years of payments toward forgiveness is worth substantially more than rate savings.\n\nYou're on or eligible for an income-driven repayment plan with a strong remaining-balance forgiveness path (20-25 years). The forgiven balance can exceed $100k for high-debt borrowers.\n\nYour income is volatile (freelance, commission-based, early-career). Federal forbearance is a safety net private lenders don't always replicate.\n\nYou're early in your career and your income may rise dramatically. Waiting until your earnings stabilise lets you refinance more advantageously later.",
+      },
+      {
+        h2: "Lenders worth applying to",
+        body:
+          "The student-loan refinance market is competitive. The strongest current options for prime borrowers: SoFi (large lender, varied rate offerings), Earnest (allows custom term lengths), Splash Financial (marketplace that compares multiple lenders in one application), Laurel Road (medical-professional focused, broad availability), and CommonBond.\n\nFor non-prime borrowers, refinancing is harder. PenFed and credit unions often consider applicants that online lenders decline. Adding a co-signer with prime credit can shift the offer significantly toward better terms.\n\nPre-qualify with 3-5 lenders (soft pull, no score impact) before committing to any single application. Rate spreads of 1-2 percentage points are common across lenders for the same borrower.",
+      },
+      {
+        h2: "Consolidation vs refinancing",
+        body:
+          "Federal Direct Consolidation is different from refinancing. It combines multiple federal loans into one but doesn't change the rate (uses a weighted average of existing rates) and preserves federal benefits. It's primarily useful for: simplifying payments, becoming eligible for income-driven repayment plans, or fixing loan-type issues for PSLF eligibility.\n\nRefinancing (always private) replaces existing loans with a new private loan at a market rate. Lower rate possible, but federal benefits lost.\n\nMany borrowers benefit from federal consolidation specifically to enable IDR or PSLF, then keep the consolidated federal loan rather than refinancing to private.",
+      },
+    ],
+    faqs: [
+      { q: "Can I refinance only some of my student loans?", a: "Yes. You can refinance a subset of your loans and leave others on federal repayment. This is useful when you want to keep PSLF eligibility on some loans while reducing the rate on others." },
+      { q: "Does refinancing student loans hurt my credit?", a: "Short-term, yes, by a few points from the hard inquiry and new account. Mid-term, on-time payments rebuild quickly. The net effect within 6-12 months is usually neutral or slightly positive." },
+      { q: "Can I refinance student loans with bad credit?", a: "Most refinance lenders require 670+ FICO. Below that, options narrow significantly. Adding a co-signer is often the path to approval for borrowers with weaker credit." },
+      { q: "What happens if I refinance and then need to defer?", a: "Private lenders sometimes offer their own hardship deferments, but the terms are much less generous than federal options. Confirm any private lender's deferment policies in writing before refinancing if income volatility is a concern." },
+    ],
+    relatedSlugs: ["consolidate-credit-card-debt-personal-loan", "how-to-choose-financial-advisor"],
+    toolLinks: [
+      { label: "Loan payment calculator", href: "/calculators/loan-payment" },
+    ],
+  },
 ];
 
 export const guidesBySlug = Object.fromEntries(

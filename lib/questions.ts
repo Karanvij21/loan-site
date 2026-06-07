@@ -1152,6 +1152,400 @@ export const questions: Question[] = [
       { label: "APR calculator", href: "/calculators/apr" },
     ],
   },
+
+  // ─── Batch 4: Final 20 to reach 100 entries ──────────────────────
+  {
+    slug: "personal-loan-autopay-discount",
+    topic: "Process & terms",
+    question: "Do personal loans give an autopay discount?",
+    shortAnswer:
+      "Most do. Mainstream lenders typically offer a 0.25-0.50% APR discount for enrolling in automatic payments from a checking account. On a $20,000 loan over 60 months, a 0.50% discount saves about $300 in total interest.",
+    context:
+      "The autopay discount is one of the easiest APR reductions to claim because it's automatic on application. SoFi, Marcus, LightStream, Discover, and most credit unions offer some form of autopay discount.\n\nThe catch: autopay requires consistent checking-account cash flow. If your balance fluctuates and an autopay charge can trigger overdraft, the overdraft fee (typically $35) wipes out months of discount value. Set up a low-balance alert or maintain a buffer specifically for the autopay date.",
+    relatedSlugs: ["how-to-lower-personal-loan-apr"],
+    toolLinks: [
+      { label: "APR calculator", href: "/calculators/apr" },
+    ],
+  },
+  {
+    slug: "personal-loan-extra-payments",
+    topic: "Process & terms",
+    question: "Can I make extra payments on my personal loan?",
+    shortAnswer:
+      "Yes with virtually all reputable lenders. Most personal loans accept extra payments at any time without penalty. Extra payments typically apply to principal, which reduces total interest paid and shortens the payoff timeline.",
+    context:
+      "How extra payments are applied matters. The standard treatment is principal reduction, which immediately shrinks your loan balance and reduces all future interest accrual. Some lenders default to applying extras as 'pre-payments' against next month's payment instead, which doesn't reduce interest paid. Confirm by reading the loan agreement or asking the servicer.\n\nThe cleanest workflow: make your regular payment on the due date, then make extra principal payments separately (most servicer portals have a 'principal-only' payment option). This guarantees the extra dollars reduce balance and total interest.",
+    relatedSlugs: ["can-i-pay-personal-loan-early"],
+    toolLinks: [
+      { label: "Loan payment calculator", href: "/calculators/loan-payment" },
+    ],
+  },
+  {
+    slug: "personal-loan-for-home-down-payment-revisited",
+    topic: "Special situations",
+    question: "Can I use a personal loan to fund a down payment on a house?",
+    shortAnswer:
+      "Generally no for conforming mortgages. Conventional, FHA, VA, and USDA loan underwriting explicitly prohibits using borrowed funds for the down payment. The personal loan deposit will appear in your bank statements during mortgage underwriting and lead to either decline or DTI re-evaluation.",
+    context:
+      "Mortgage underwriters trace large deposits in your bank account for 60-90 days before close. A personal loan disbursement is obvious. The underwriter will either decline the application or add the loan payment to your DTI, often pushing you above the threshold.\n\nWorkarounds: take the personal loan more than 90 days before mortgage application so it 'seasons' as savings, use a documented gift from family instead (which is permitted), or explore low-down-payment loan programs (FHA 3.5%, conventional 3%) that reduce the down payment need.",
+    relatedSlugs: ["personal-loan-for-down-payment", "personal-loan-affects-mortgage"],
+    toolLinks: [
+      { label: "Glossary: DTI", href: "/glossary/debt-to-income-ratio" },
+    ],
+  },
+  {
+    slug: "personal-loan-for-college-tuition",
+    topic: "Special situations",
+    question: "Can I use a personal loan for college tuition?",
+    shortAnswer:
+      "Yes, but federal and private student loans are almost always cheaper. Federal student loans have income-driven repayment, deferment options, and potential forgiveness, none of which personal loans offer. Use personal loans for education only when student loans aren't an option or for non-tuition costs.",
+    context:
+      "Federal direct unsubsidised loans currently carry rates around 7-9% for undergrads, with much better repayment flexibility than personal loans. The federal options should always be exhausted first.\n\nWhere personal loans can fit: short-term education like coding bootcamps that don't qualify for federal aid, certificate programs at non-eligible schools, or covering the gap between aid and total cost when other options are unavailable. For traditional university education, use federal then private student loans before considering personal loans.",
+    relatedSlugs: ["personal-loan-as-student"],
+    toolLinks: [
+      { label: "Glossary: Personal loan", href: "/glossary/personal-loan" },
+    ],
+  },
+  {
+    slug: "personal-loan-with-800-credit-score",
+    topic: "Credit score",
+    question: "Can I get a personal loan with an 800 credit score?",
+    shortAnswer:
+      "Yes, at the absolute best rates available. 800+ FICO is 'exceptional' tier and qualifies for the lowest published personal-loan APRs. Expect 5.99-9.99% APR, no origination fees, and immediate approval from prime lenders like SoFi, LightStream, and Marcus.",
+    context:
+      "At 800+, lenders compete aggressively for your business because exceptional-credit borrowers have low default rates and stable payment behaviour. Pre-qualification offers from 4-5 lenders typically spread across only 1-2 percentage points of APR, making the choice come down to features like autopay discount and origination fee.\n\nFor 800+ borrowers, the cheapest financing often isn't a personal loan at all. A 0% intro APR credit card (12-21 months) routinely beats personal loans on cost for short-term needs under $25,000. Personal loans win when the term needs to exceed 21 months or the amount exceeds card limits.",
+    relatedSlugs: ["personal-loan-with-750-credit-score", "good-credit-score-for-personal-loan"],
+    toolLinks: [
+      { label: "Excellent credit loans", href: "/loans/excellent-credit" },
+    ],
+  },
+  {
+    slug: "personal-loan-with-450-credit-score",
+    topic: "Credit score",
+    question: "Can I get a personal loan with a 450 credit score?",
+    shortAnswer:
+      "Extremely difficult. 450 FICO is deep subprime, below the threshold of nearly all mainstream and subprime personal-loan lenders. Realistic options: federal credit-union PALs, secured loans backed by a vehicle or savings, or improving the score before applying.",
+    context:
+      "At 450, the borrower profile signals serious recent credit damage, likely a charge-off, repossession, or bankruptcy within the past 12 months. Most lenders interpret this as too high a default risk to underwrite at any APR.\n\nIf the cash need can wait 90-180 days, focused score improvement (paying any active collections, ensuring all current obligations are paid on time, opening a secured credit card to start building positive history) often moves a 450 score above 540, which materially expands lender options.",
+    relatedSlugs: ["personal-loan-with-500-credit-score", "rebuild-credit-after-default-guide"],
+    toolLinks: [
+      { label: "Bad credit loans", href: "/loans/bad-credit" },
+    ],
+  },
+  {
+    slug: "personal-loan-72-month-term",
+    topic: "Process & terms",
+    question: "Are 72-month personal loans available?",
+    shortAnswer:
+      "Yes, with some lenders. 60 months is the most common maximum term for personal loans, but lenders like LightStream, SoFi, and Marcus offer 72 and 84-month terms for larger loan amounts (typically $20,000+). Longer terms lower the monthly payment but materially increase total interest paid.",
+    context:
+      "The math on long-term personal loans is meaningful. A $30,000 loan at 13% APR over 60 months has a $682/month payment and $10,950 total interest. The same loan at 84 months has $545/month payment and $15,807 total interest. The $137/month savings costs nearly $5,000 in extra interest.\n\nLonger terms make sense when monthly cash flow is the binding constraint, when you have a specific plan to refinance within 2-3 years, or when the lower payment frees cash for higher-return uses (debt payoff at higher rates, retirement contributions for employer match).",
+    relatedSlugs: ["loan-term-personal-loan"],
+    toolLinks: [
+      { label: "Loan payment calculator", href: "/calculators/loan-payment" },
+    ],
+  },
+  {
+    slug: "personal-loan-fees-explained",
+    topic: "Process & terms",
+    question: "What fees come with a personal loan?",
+    shortAnswer:
+      "Origination fee (1-8% of loan, deducted from disbursement), late payment fee ($15-40 per missed payment), NSF/returned-payment fee ($15-30), and sometimes a wire/express funding fee ($15-50). Most reputable U.S. lenders don't charge prepayment penalties or monthly maintenance fees.",
+    context:
+      "The origination fee is the biggest cost variable. It's rolled into the disclosed APR under the Truth in Lending Act, so comparing effective APRs (not stated rates) gives an apples-to-apples cost comparison.\n\nAvoid lenders charging: monthly maintenance fees, account servicing fees, mandatory credit-insurance bundles, or prepayment penalties. These exist on subprime products and significantly increase real cost. Reputable mainstream lenders charge only the origination, late, and NSF fees listed above.",
+    relatedSlugs: ["hidden-fees-personal-loans-question"],
+    toolLinks: [
+      { label: "Hidden fees in personal loans (guide)", href: "/learn/hidden-fees-personal-loans" },
+    ],
+  },
+  {
+    slug: "personal-loan-lump-sum-payoff",
+    topic: "Process & terms",
+    question: "How do I pay off a personal loan in one lump sum?",
+    shortAnswer:
+      "Request a payoff quote from your lender, which is the exact balance plus per-diem interest through your target payoff date. Pay that amount via the servicer's payoff portal or by wire. The loan closes within 1-3 business days; the bureau reports the closure within 30-45 days.",
+    context:
+      "Payoff quotes are time-sensitive, they include daily interest accrual through a specific date. Request a quote good for 7-10 days in the future to give yourself time to schedule the payment without running short.\n\nAfter the lump-sum payment posts, request a written confirmation that the loan is closed and the balance is zero. Pull your credit reports 45-60 days later to confirm the loan reports as closed and the balance shows $0. Errors at this stage are common and require dispute through the credit bureau to correct.",
+    relatedSlugs: ["can-i-pay-personal-loan-early", "personal-loan-extra-payments"],
+    toolLinks: [
+      { label: "Glossary: Prepayment penalty", href: "/glossary/prepayment-penalty" },
+    ],
+  },
+  {
+    slug: "personal-loan-change-due-date",
+    topic: "Process & terms",
+    question: "Can I change my personal loan due date?",
+    shortAnswer:
+      "Usually yes. Most lenders allow one or two due-date changes per loan, free of charge, with a request through their servicing portal or customer service. The new due date typically takes effect within one billing cycle.",
+    context:
+      "Changing your due date is useful when your income arrives on a different schedule than the lender's default (often the 1st or 15th of the month). Aligning the due date with your payday cycle reduces the chance of insufficient-funds events.\n\nSome lenders limit due-date changes to once every 12 months or once per loan. A few don't allow changes at all on automatically-amortising loans. Check your loan agreement or call the servicer to confirm before assuming flexibility.",
+    relatedSlugs: ["personal-loan-autopay-discount"],
+    toolLinks: [
+      { label: "Glossary: Monthly payment", href: "/glossary/monthly-payment" },
+    ],
+  },
+  {
+    slug: "personal-loan-when-funds-arrive",
+    topic: "Process & terms",
+    question: "When do personal loan funds arrive after approval?",
+    shortAnswer:
+      "Most online lenders disburse via ACH the next business day after you accept the final offer and e-sign documents. Some offer same-day funding for an additional wire fee ($15-50). Banks and credit unions typically take 1-3 business days.",
+    context:
+      "The timeline from application to funds: pre-qualification is typically instant (soft pull, no commitment), full application and approval take minutes to hours, e-signing and acceptance take minutes, and ACH disbursement settles next business day.\n\nIf you apply Friday afternoon and accept Friday evening, funds typically appear Monday or Tuesday depending on your bank. For genuine same-day needs, look for lenders advertising same-day funding (Avant, LendUp, OneMain in some cases) and confirm before applying.",
+    relatedSlugs: ["how-long-personal-loan-funding-takes"],
+    toolLinks: [
+      { label: "How it works", href: "/how-it-works" },
+    ],
+  },
+  {
+    slug: "personal-loan-increase-amount-after-approval",
+    topic: "Process & terms",
+    question: "Can I increase my personal loan amount after approval?",
+    shortAnswer:
+      "Not typically. Once a personal loan is funded, the amount is fixed. If you need more money, options are: take a second personal loan from a different lender, refinance the existing loan to a larger amount with a new lender, or use a different financing tool (credit card, HELOC).",
+    context:
+      "Personal loans are one-time disbursements, unlike lines of credit or credit cards where you can borrow up to a limit on demand. Once funded, the loan amortises according to the original schedule.\n\nIf you anticipate needing more cash within the loan's first year, consider either taking a slightly larger loan upfront (and paying down the excess if not needed), or opening a personal line of credit instead of a fixed-amount loan. PLOCs at credit unions and some online lenders offer revolving access at lower APRs than credit cards.",
+    relatedSlugs: ["can-i-refinance-personal-loan", "can-i-have-two-personal-loans"],
+    toolLinks: [
+      { label: "Glossary: Refinance", href: "/glossary/refinance" },
+    ],
+  },
+  {
+    slug: "personal-loan-partial-prepayment",
+    topic: "Process & terms",
+    question: "Does partial prepayment save interest on personal loans?",
+    shortAnswer:
+      "Yes. Every dollar of extra principal payment reduces all future interest accrual on the loan. Even small extra payments ($25-50/month) can knock months off the payoff timeline and save hundreds in total interest over the loan's life.",
+    context:
+      "Specific example: a $15,000 loan at 14% APR over 48 months has a $410/month payment and $4,672 total interest. Adding $50/month to principal cuts the payoff to 42 months and total interest to $4,072, $600 saved.\n\nThe larger the loan and the higher the APR, the more impact extra payments have. For high-APR loans (above 20%), aggressive prepayment from any windfalls (tax refunds, bonuses, side income) is usually a higher-return move than investing the same dollars.",
+    relatedSlugs: ["personal-loan-extra-payments", "personal-loan-lump-sum-payoff"],
+    toolLinks: [
+      { label: "Loan payment calculator", href: "/calculators/loan-payment" },
+    ],
+  },
+  {
+    slug: "personal-loan-signing-online",
+    topic: "Process & terms",
+    question: "Are e-signed personal loan agreements legally binding?",
+    shortAnswer:
+      "Yes. The federal Electronic Signatures in Global and National Commerce Act (E-SIGN Act, 2000) makes electronic signatures legally equivalent to wet signatures for most consumer contracts including personal loan agreements. The lender will collect explicit E-SIGN consent before you click the final signing button.",
+    context:
+      "E-SIGN compliance requires the lender to: provide the contract in a format you can keep, get your affirmative consent to receive electronic disclosures, verify your hardware/software supports electronic delivery, and store records as the legal authoritative copy.\n\nOnce e-signed, the loan agreement has the same legal weight as a paper original. Download a PDF copy of your signed agreement and store it with your tax records. You'll need it for any future dispute, identity-theft case, or income-documentation request.",
+    relatedSlugs: ["how-to-read-loan-agreement-guide"],
+    toolLinks: [
+      { label: "Glossary: Promissory note", href: "/glossary/promissory-note" },
+    ],
+  },
+  {
+    slug: "personal-loan-payment-methods",
+    topic: "Process & terms",
+    question: "How can I pay my personal loan each month?",
+    shortAnswer:
+      "Standard options: automatic ACH from your checking account (most common), online portal payment from a bank account or debit card, mailed check, or in-person at a branch for bank loans. Most lenders charge fees for debit-card and credit-card payments; ACH is free.",
+    context:
+      "Setting up autopay is the most reliable option because it prevents missed payments. ACH from checking is free at all major lenders; debit-card payments often carry a $5-15 convenience fee; credit-card payments are usually disallowed or carry 2-3% processing fees.\n\nFor in-person payments, banks and credit unions accept cash, check, or money order at their branches. Online-only lenders don't have branches; mail payments work but take 5-7 days to process, which can cause late marks if not timed carefully.",
+    relatedSlugs: ["personal-loan-autopay-discount"],
+    toolLinks: [
+      { label: "Glossary: ACH transfer", href: "/glossary/ach-transfer" },
+    ],
+  },
+  {
+    slug: "personal-loan-multiple-prequalifications",
+    topic: "Process & terms",
+    question: "How many pre-qualifications should I do before applying?",
+    shortAnswer:
+      "Three to five. Below three you don't have enough comparison data; above five the marginal value of more quotes is small. All pre-qualifications use soft pulls, so additional shopping doesn't hurt your score.",
+    context:
+      "Pre-qualification reveals the spread between the cheapest and most expensive offers for your specific credit profile. The spread is often 3-6 percentage points of APR across mainstream lenders, which is meaningful money over a multi-year loan.\n\nMarketplace pre-qualification (one application, many offers) saves time vs applying separately at each lender. Marketplaces also typically include a mix of lender types (online, credit unions, bank-affiliated) that you might not think to apply to individually.",
+    relatedSlugs: ["compare-personal-loan-offers-question", "soft-pull-vs-hard-pull"],
+    toolLinks: [
+      { label: "Begin pre-qualification", href: "/apply" },
+    ],
+  },
+  {
+    slug: "personal-loan-vs-paycheck-advance",
+    topic: "Process & terms",
+    question: "Personal loan vs paycheck advance app: which is cheaper?",
+    shortAnswer:
+      "Paycheck advance apps (Earnin, Dave, MoneyLion) typically advance $100-$500 against your next paycheck for an optional 'tip' (effectively 3-15% per advance, which annualises to hundreds of percent APR). Personal loans are cheaper for any need that can wait 1-2 business days and is over a few hundred dollars.",
+    context:
+      "Paycheck-advance apps are technically advances against earned wages, not loans, which lets them avoid most lending regulations. Their cost structure looks cheap per-advance ($1-15) but the APR equivalent is comparable to or worse than payday loans when annualised.\n\nFor any cash need over $500 or that can wait 1-2 business days, even subprime personal loans at 30-35% APR are dramatically cheaper than repeated paycheck advances. Paycheck-advance apps make sense only for genuine $50-200 same-day micro-needs.",
+    relatedSlugs: ["personal-loan-vs-payday-loan-question"],
+    toolLinks: [
+      { label: "Emergency loans", href: "/loans/emergency" },
+    ],
+  },
+  {
+    slug: "personal-loan-after-divorce",
+    topic: "Special situations",
+    question: "Can I get a personal loan during or after divorce?",
+    shortAnswer:
+      "Yes. Divorce doesn't affect personal-loan approval directly. The relevant variables are your individual credit, individual income, and individual DTI. If joint debts are still in both spouses' names during the divorce, both income and both debt obligations factor into each person's separate underwriting.",
+    context:
+      "During divorce, your financial profile is technically still joint with your spouse until decree. Most lenders underwrite to your individual credit and income, but they see joint debts in your credit report. If you're still on a joint mortgage, the full mortgage payment counts against your DTI even though you might be paying only half.\n\nPost-divorce, separating joint debt is important. Refinancing joint debt into individual debt (refinancing the joint mortgage, paying off joint cards) cleans up the picture for future borrowing. Until that happens, joint obligations cap your individual borrowing capacity.",
+    relatedSlugs: ["personal-loan-affects-mortgage", "personal-loan-on-unemployment"],
+    toolLinks: [
+      { label: "Glossary: DTI", href: "/glossary/debt-to-income-ratio" },
+    ],
+  },
+  {
+    slug: "personal-loan-after-job-loss",
+    topic: "Special situations",
+    question: "Should I take a personal loan after losing my job?",
+    shortAnswer:
+      "Usually no if your only goal is maintaining lifestyle until re-employment. The interest cost of borrowing during unemployment compounds with the difficulty of qualifying without W-2 income. Better moves: tap emergency fund, apply for unemployment insurance, negotiate with creditors for hardship deferral.",
+    context:
+      "Lenders assess unemployment income as temporary, capped at expected benefit duration. Personal-loan APRs available to unemployed borrowers run 25-35% range, which is expensive money to spend on routine expenses.\n\nIf you must borrow during unemployment: take the smallest loan necessary, prioritise essentials (housing, utilities, transportation to job interviews), and aim to refinance into a lower-APR loan within 60-90 days of re-employment when your DTI calculation includes the new W-2 income.",
+    relatedSlugs: ["personal-loan-on-unemployment", "build-emergency-fund-from-zero-guide"],
+    toolLinks: [
+      { label: "Emergency loans", href: "/loans/emergency" },
+    ],
+  },
+  {
+    slug: "personal-loan-credit-bureau-reporting",
+    topic: "Process & terms",
+    question: "When does my personal loan show up on my credit report?",
+    shortAnswer:
+      "Typically 30-60 days after funding. Most lenders report to one or more credit bureaus monthly. The first report includes the opening balance, account age, and on-time payment marker. Some smaller lenders take 60-90 days to start reporting.",
+    context:
+      "If the loan doesn't appear on your credit reports within 90 days, contact the lender and confirm which bureaus they report to. Some non-reporting lenders exist (especially in subprime), which means on-time payments don't help your credit despite costing real money. This is a yellow flag worth knowing before accepting.\n\nFor borrowers building credit, lender-reporting behaviour is as important as APR. A 25% APR loan that reports to all three bureaus and helps your score is often worth more than a 15% APR loan that doesn't report at all.",
+    relatedSlugs: ["how-personal-loan-affects-credit-score"],
+    toolLinks: [
+      { label: "Glossary: Credit report", href: "/glossary/credit-report" },
+    ],
+  },
+
+  // ─── Batch 4: State-law specific Q&As ────────────────────────────
+  {
+    slug: "personal-loan-arkansas-apr-cap",
+    topic: "Special situations",
+    question: "Why does Arkansas cap personal loan rates at 17%?",
+    shortAnswer:
+      "Arkansas has a constitutional usury cap of 17% APR set by Amendment 89 to the state constitution. The cap applies to most consumer loans, making Arkansas one of the most restrictive states for unsecured lending. Many national online lenders don't operate in Arkansas because of the cap.",
+    context:
+      "Arkansas Amendment 89 (1982) sets the maximum consumer-loan interest rate at the higher of 17% or the federal discount rate plus 5%. In practice, with the federal discount rate well below 12%, the 17% APR cap controls.\n\nFor Arkansas residents seeking a personal loan, the limited lender pool means fewer competing offers and stricter underwriting. Federal credit-union PALs (capped at 28% APR under federal law, which preempts state caps for federal credit unions) and CDFIs are common alternatives.",
+    relatedSlugs: ["maximum-personal-loan-apr"],
+    toolLinks: [
+      { label: "Personal loans in Arkansas", href: "/personal-loans/arkansas" },
+    ],
+  },
+  {
+    slug: "personal-loan-california-fair-access-act",
+    topic: "Special situations",
+    question: "What is California's Fair Access to Credit Act?",
+    shortAnswer:
+      "California's Fair Access to Credit Act (AB 539, 2019) caps APRs on consumer loans between $2,500 and $10,000 at 36% plus the federal funds rate. The law eliminated triple-digit-APR consumer lending in California for amounts under $10,000.",
+    context:
+      "Before AB 539, California allowed installment loans of $2,500-$10,000 with no APR cap, leading to consumer loans at 100%+ APR. The Fair Access to Credit Act set a binding ceiling that aligned with the federal Military Lending Act's 36% cap.\n\nFor California residents, the law means meaningfully better-priced credit for $2,500-$10,000 loans. Above $10,000, California has no APR cap, though most mainstream lenders price well below the regulatory ceiling because of market competition.",
+    relatedSlugs: ["maximum-personal-loan-apr", "personal-loan-arkansas-apr-cap"],
+    toolLinks: [
+      { label: "Personal loans in California", href: "/personal-loans/california" },
+    ],
+  },
+  {
+    slug: "personal-loan-colorado-36-cap",
+    topic: "Special situations",
+    question: "Does Colorado cap personal loan APRs?",
+    shortAnswer:
+      "Yes. Colorado's Predatory Lending Prevention Act caps payday loans and small consumer installment loans at 36% APR. The cap applies to loans up to $1,000 (payday) and certain small installment loans. Larger personal loans in Colorado are not subject to a state APR cap.",
+    context:
+      "Colorado voters approved Proposition 111 in 2018, which set the 36% cap on payday loans and certain small installment loans. The cap meaningfully reduced predatory lending in the state.\n\nFor personal loans above $1,000, Colorado allows market-rate pricing, though mainstream lenders rarely approach the upper end of allowed rates because of competition. Pre-qualify with multiple lenders to see actual offers; Colorado borrowers typically have access to the full national lender market.",
+    relatedSlugs: ["personal-loan-vs-payday-loan-question"],
+    toolLinks: [
+      { label: "Personal loans in Colorado", href: "/personal-loans/colorado" },
+    ],
+  },
+  {
+    slug: "personal-loan-new-york-25-cap",
+    topic: "Special situations",
+    question: "What's the personal loan APR cap in New York?",
+    shortAnswer:
+      "New York has a 25% civil usury cap and a 16% criminal usury threshold for unsecured consumer loans. Unlicensed lenders charging above 16% commit a misdemeanour. Licensed lenders operating under New York's banking law can charge up to 25% with specific exceptions for small loans.",
+    context:
+      "New York's usury law is one of the strictest in the country. The 25% civil cap voids the contract; the 16% criminal cap is enforced through the Department of Financial Services. National lenders operating in New York must comply by either licensing as state banks or routing loans through partner banks under federal preemption.\n\nFor New York consumers, the practical effect is dramatically fewer lender options compared to neighbouring states, with all offered rates below 25%. The lender market is concentrated in established players rather than the broad subprime online lending market common in states without caps.",
+    relatedSlugs: ["personal-loan-california-fair-access-act"],
+    toolLinks: [
+      { label: "Personal loans in New York", href: "/personal-loans/new-york" },
+    ],
+  },
+  {
+    slug: "personal-loan-texas-no-apr-cap",
+    topic: "Special situations",
+    question: "Does Texas cap personal loan APRs?",
+    shortAnswer:
+      "Texas has no general APR cap on consumer installment loans, making it one of the more lender-friendly states. Mainstream personal loan lenders operate in Texas at standard market rates (typically 6-36% depending on credit). Payday lending has separate Texas-specific regulations.",
+    context:
+      "Texas's hands-off approach to consumer-loan APRs results in broad lender access for Texas residents. The full national market of online installment lenders, banks, and credit unions competes for Texas borrowers, often producing competitive pricing through market forces rather than regulation.\n\nThe trade-off: without a regulatory ceiling, the worst subprime products in Texas can charge APRs above what other states allow. Texas borrowers should compare offers carefully and avoid lenders charging above 36% APR, which is the de-facto industry ceiling in most other states.",
+    relatedSlugs: ["maximum-personal-loan-apr"],
+    toolLinks: [
+      { label: "Personal loans in Texas", href: "/personal-loans/texas" },
+    ],
+  },
+  {
+    slug: "personal-loan-florida-state-rules",
+    topic: "Special situations",
+    question: "Are there state rules on personal loans in Florida?",
+    shortAnswer:
+      "Yes. Florida caps consumer installment loans at 18% APR for the first $500, 30% for $500-$2,000, and 24% for amounts above $2,000 under the Florida Consumer Finance Act. Loans by state-licensed consumer finance companies can charge these capped rates; bank loans operate under federal preemption.",
+    context:
+      "Florida's tiered cap structure means a $500 loan can carry up to 18% APR while a $10,000 loan can carry up to 24% APR. Federal banks and credit unions can lend at higher rates by operating under federal regulation, but state-licensed consumer-finance companies must comply with state caps.\n\nIn practice, most Florida personal-loan borrowers see offers from national online lenders operating under federal-bank partnerships, with APRs determined by credit profile rather than state law. Pre-qualify across multiple lenders to find the best available rate.",
+    relatedSlugs: ["personal-loan-texas-no-apr-cap", "personal-loan-colorado-36-cap"],
+    toolLinks: [
+      { label: "Personal loans in Florida", href: "/personal-loans/florida" },
+    ],
+  },
+  {
+    slug: "personal-loan-illinois-predatory-lending",
+    topic: "Special situations",
+    question: "What protections does Illinois offer personal loan borrowers?",
+    shortAnswer:
+      "Illinois passed the Predatory Loan Prevention Act in 2021, capping all consumer loans at 36% APR including fees. The law applies to all installment loans, payday loans, and title loans, making Illinois one of the more borrower-protective states.",
+    context:
+      "The Illinois Predatory Loan Prevention Act (PLPA) set a uniform 36% Military-APR-equivalent ceiling across all consumer loan types, eliminating most subprime lending in the state. The law took effect immediately on signing in March 2021.\n\nFor Illinois residents, the practical effect is materially better pricing on small-dollar loans (where APRs previously ran 200%+ for payday and similar products), at the cost of fewer lender options for deeply subprime borrowers. Federal credit-union PALs and CDFIs remain available.",
+    relatedSlugs: ["personal-loan-colorado-36-cap"],
+    toolLinks: [
+      { label: "Personal loans in Illinois", href: "/personal-loans/illinois" },
+    ],
+  },
+  {
+    slug: "personal-loan-state-availability",
+    topic: "Special situations",
+    question: "Why aren't all personal loans available in every state?",
+    shortAnswer:
+      "States set their own consumer-lending laws, including APR caps, licensing requirements, and disclosure rules. Lenders choose where to operate based on whether they can profitably serve a state's regulatory environment. Strict states (Arkansas, New York, Illinois) attract fewer lenders than permissive states (Texas, Utah, Nevada).",
+    context:
+      "Each U.S. state regulates consumer lending through its own banking department or equivalent agency. Federal preemption allows national banks and federally-chartered credit unions to operate across state lines under federal rules, which is why some lenders are available everywhere while others are state-limited.\n\nFor borrowers, the practical implication: pre-qualify only through marketplaces or lenders that explicitly serve your state. Applying with a lender that doesn't operate in your state wastes a hard inquiry on a guaranteed decline.",
+    relatedSlugs: ["personal-loan-arkansas-apr-cap", "personal-loan-texas-no-apr-cap"],
+    toolLinks: [
+      { label: "Loans by state", href: "/personal-loans" },
+    ],
+  },
+  {
+    slug: "personal-loan-military-mla-protections",
+    topic: "Special situations",
+    question: "Do military service members have personal loan protections?",
+    shortAnswer:
+      "Yes. The federal Military Lending Act caps consumer credit to active-duty service members and their dependents at 36% Military Annual Percentage Rate (MAPR). MAPR includes interest, fees, and certain credit-insurance premiums, making it a stricter cap than typical APR.",
+    context:
+      "The Military Lending Act (MLA) applies to active-duty members of the Armed Forces, National Guard or Reserves on active duty for over 30 consecutive days, and their dependents (spouses and certain children). Lenders are required to check covered-borrower status before extending credit.\n\nLenders that violate the MLA face severe penalties including void contracts. For service members, the practical effect is access to mainstream lenders at the same APRs available to civilians (which are typically well below 36%) and zero exposure to triple-digit-APR subprime products.",
+    relatedSlugs: ["maximum-personal-loan-apr"],
+    toolLinks: [
+      { label: "Glossary: MLA", href: "/glossary/mla" },
+    ],
+  },
+  {
+    slug: "personal-loan-cfpb-complaint",
+    topic: "Special situations",
+    question: "How do I file a CFPB complaint about a personal loan?",
+    shortAnswer:
+      "File at consumerfinance.gov/complaint. The CFPB sends the complaint to the lender, requires a response within 15 days, tracks the resolution, and publishes anonymised complaint data. Most lenders take CFPB complaints seriously because they affect regulatory standing.",
+    context:
+      "The CFPB complaint process is one of the most effective tools for resolving lender disputes. Filing takes 10-15 minutes and requires the loan details, the issue, and the resolution you're seeking. The CFPB tracks lender response times publicly, which incentivises prompt resolution.\n\nCommon valid complaints: incorrect loan terms or balance, late-fee errors, payment posting errors, unauthorised inquiries on your credit, harassment by collectors, or refusal to provide payoff quotes. Frivolous complaints (just unhappy with the rate you agreed to) are dismissed quickly.",
+    relatedSlugs: ["adverse-action-notice"],
+    toolLinks: [
+      { label: "Glossary: CFPB", href: "/glossary/cfpb" },
+    ],
+  },
 ];
 
 export const questionsBySlug = Object.fromEntries(

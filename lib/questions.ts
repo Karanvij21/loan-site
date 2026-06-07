@@ -736,6 +736,422 @@ export const questions: Question[] = [
       { label: "Glossary: Hard inquiry", href: "/glossary/hard-inquiry" },
     ],
   },
+
+  // ─── Batch 3: Credit-score granularity ───────────────────────────
+  {
+    slug: "personal-loan-with-540-credit-score",
+    topic: "Credit score",
+    question: "Can I get a personal loan with a 540 credit score?",
+    shortAnswer:
+      "Possibly, with a small number of subprime online lenders. A 540 FICO sits in the 'poor' tier and excludes you from most mainstream personal-loan lenders. Realistic loan amounts are $500-$3,000 with APRs at or near the 35.99% legal cap. Federal credit-union PALs (capped at 28% APR) are a better-cost alternative if you qualify.",
+    context:
+      "Below 580 FICO is the deepest subprime tier in personal-loan underwriting. Lenders here weight income, employment stability, and bank-account history heavily because the score itself signals high default risk. Approval at 540 is realistic with verified income above $1,800/month and a clean recent banking history.\n\nIf the cash need can wait 60-90 days, focused score-improvement work (paying down revolving balances, disputing inaccurate negatives) often moves a 540 score into the 580-620 range, which materially expands lender options and drops APR by 5-10 percentage points.",
+    relatedSlugs: ["personal-loan-with-500-credit-score", "personal-loan-with-580-credit-score", "how-to-raise-credit-score-fast"],
+    toolLinks: [
+      { label: "Bad credit loans", href: "/loans/bad-credit" },
+    ],
+  },
+  {
+    slug: "personal-loan-with-580-credit-score",
+    topic: "Credit score",
+    question: "Can I get a personal loan with a 580 credit score?",
+    shortAnswer:
+      "Yes, with several online lenders. 580 FICO sits at the bottom edge of the 'fair' tier and is the typical minimum threshold for mainstream online installment lenders. Expect APRs of 22-35.99%, loan amounts up to $10,000-$15,000, and stricter income verification than higher-tier applicants.",
+    context:
+      "580 is a meaningful threshold in personal-loan underwriting. Above it you're in the addressable market of most online installment lenders (Avant, Upstart, OneMain, LendingPoint, Upgrade). Below it, options narrow to subprime specialists with worse pricing.\n\nApproval at 580 typically requires verifiable monthly income above $2,500, an active checking account with consistent direct deposits, and no recent (within 90 days) charge-offs or new collections. Adding a co-applicant with stronger credit drops APR substantially.",
+    relatedSlugs: ["personal-loan-with-540-credit-score", "personal-loan-with-600-credit-score"],
+    toolLinks: [
+      { label: "580 credit score loans", href: "/loans/580-credit-score" },
+    ],
+  },
+  {
+    slug: "personal-loan-with-620-credit-score",
+    topic: "Credit score",
+    question: "Can I get a personal loan with a 620 credit score?",
+    shortAnswer:
+      "Yes, with broad lender access. 620 sits comfortably in the 'fair' tier and most online lenders compete for these applications. Expect APRs of 18-30%, loan amounts up to $25,000, and a wider range of term options than 580 borrowers see.",
+    context:
+      "The jump from 580 to 620 unlocks meaningful APR savings, often 5-8 percentage points at the same income level, because lenders' risk models step down sharply at this credit band.\n\nDebt-to-income ratio becomes the binding constraint at this tier. Lenders prefer DTI under 40% post-loan, with the best APRs reserved for borrowers under 30%. Pre-qualify with 3-5 lenders through a marketplace to see the range of offers before committing.",
+    relatedSlugs: ["personal-loan-with-600-credit-score", "personal-loan-with-650-credit-score"],
+    toolLinks: [
+      { label: "620 credit score loans", href: "/loans/620-credit-score" },
+    ],
+  },
+  {
+    slug: "personal-loan-with-680-credit-score",
+    topic: "Credit score",
+    question: "Can I get a personal loan with a 680 credit score?",
+    shortAnswer:
+      "Yes, with competitive offers. 680 FICO crosses into the 'good' tier and qualifies for nearly all mainstream online lenders plus most bank personal-loan programs. Expect APRs of 11-18%, loan amounts up to $40,000-$50,000, and minimal origination fees compared to fair-credit pricing.",
+    context:
+      "680 is the threshold where bank personal loans become accessible. Discover, U.S. Bank, Wells Fargo, and Citi all consider applications starting around this score, often with better APRs than online lenders for existing banking customers.\n\nFor borrowers at this credit band, the binding cost variable is origination fee. Compare effective APRs (rate plus fee, the disclosed APR under TILA) across offers rather than just headline rates. LightStream and SoFi advertise no-fee loans for 680+ borrowers.",
+    relatedSlugs: ["personal-loan-with-650-credit-score", "personal-loan-with-700-credit-score"],
+    toolLinks: [
+      { label: "Good credit loans", href: "/loans/good-credit" },
+    ],
+  },
+  {
+    slug: "personal-loan-with-720-credit-score",
+    topic: "Credit score",
+    question: "Can I get a personal loan with a 720 credit score?",
+    shortAnswer:
+      "Yes, with the lowest APRs in the market. 720 FICO is the threshold most prime lenders use for their top-tier pricing. Expect APRs of 7-13%, no or minimal origination fees, and access to the full $50,000-$100,000 amount range from premium lenders like SoFi and LightStream.",
+    context:
+      "720 unlocks prime-tier pricing across most personal-loan lenders. Above this score, additional credit improvements produce diminishing rate benefits; 720 to 770 typically shifts APR by less than a percentage point at the same income.\n\nAt this credit band, the differentiator is which lender offers the best total package: lowest effective APR, longest term flexibility, fastest funding, and add-on benefits like unemployment protection or refinance pre-approval. Pre-qualify across SoFi, LightStream, Marcus, Discover, and your primary bank to see the spread.",
+    relatedSlugs: ["personal-loan-with-700-credit-score", "personal-loan-with-750-credit-score"],
+    toolLinks: [
+      { label: "Excellent credit loans", href: "/loans/excellent-credit" },
+    ],
+  },
+  {
+    slug: "personal-loan-with-750-credit-score",
+    topic: "Credit score",
+    question: "Can I get a personal loan with a 750 credit score?",
+    shortAnswer:
+      "Yes, at the best APRs available. 750 FICO qualifies for the lowest published personal-loan rates from prime lenders. Expect APRs of 6-11%, zero origination fees from most prime lenders, and immediate approval decisions across the full lender market.",
+    context:
+      "At 750+, the personal-loan market competes on every dimension other than approval. Whether you should take the offer depends more on your need and overall financial position than on whether you can qualify.\n\nFor 750+ borrowers, the cheapest financing options often aren't personal loans at all: a 0% intro APR balance-transfer credit card (if the need is short-term and under $25,000) can beat any personal loan on cost. Personal loans win when the term needs to exceed 18-21 months or the amount exceeds typical card limits.",
+    relatedSlugs: ["personal-loan-with-720-credit-score", "personal-loan-with-700-credit-score"],
+    toolLinks: [
+      { label: "Excellent credit loans", href: "/loans/excellent-credit" },
+    ],
+  },
+  {
+    slug: "good-credit-score-for-personal-loan",
+    topic: "Credit score",
+    question: "What's a good credit score for a personal loan?",
+    shortAnswer:
+      "670 or higher qualifies for competitive personal-loan offers from mainstream lenders. 720+ unlocks the lowest published APRs. Anything below 580 is considered poor and limits you to subprime specialists with capped APRs near the 35.99% legal ceiling.",
+    context:
+      "FICO's official tiers: 800+ exceptional, 740-799 very good, 670-739 good, 580-669 fair, below 580 poor. Lenders' effective tiers shift slightly: most personal-loan lenders treat 700+ as the threshold for the best pricing, with material APR improvements at each 30-40 point increment below that.\n\nThere's no universally 'good' score; what matters is what's good for the specific loan you want. A 660 FICO qualifies for personal loans, but won't get you a mortgage's best rate. A 720 FICO is excellent for personal loans, but mortgage lenders typically want 740+ for their best terms.",
+    relatedSlugs: ["what-credit-score-needed-for-5000-loan", "personal-loan-with-700-credit-score"],
+    toolLinks: [
+      { label: "Glossary: Credit score", href: "/glossary/credit-score" },
+    ],
+  },
+  {
+    slug: "does-checking-credit-score-hurt",
+    topic: "Credit score",
+    question: "Does checking my credit score hurt it?",
+    shortAnswer:
+      "No. Checking your own credit score is a soft inquiry that does not affect your score, regardless of how many times you check it. Lenders pulling your credit for an application is a hard inquiry, which can lower your score by 3-7 points temporarily.",
+    context:
+      "The distinction between soft and hard inquiries is critical and often misunderstood. Soft inquiries include checking your own score through Credit Karma, Experian, your credit card's free score tool, or AnnualCreditReport.com. None of these affect your score.\n\nHard inquiries happen when a lender pulls your full credit report to decide on a loan or credit card application. These appear on your credit report for 24 months but only meaningfully affect your score for the first 12. Multiple hard inquiries for the same loan type within 14-45 days typically count as one inquiry under FICO's rate-shopping logic.",
+    relatedSlugs: ["does-pre-qualification-hurt-credit-score", "how-personal-loan-affects-credit-score"],
+    toolLinks: [
+      { label: "Glossary: Soft inquiry", href: "/glossary/soft-inquiry" },
+      { label: "Glossary: Hard inquiry", href: "/glossary/hard-inquiry" },
+    ],
+  },
+
+  // ─── Batch 3: Loan amount granularity ────────────────────────────
+  {
+    slug: "what-credit-score-needed-for-1000-loan",
+    topic: "Credit score",
+    question: "What credit score do I need for a $1,000 personal loan?",
+    shortAnswer:
+      "Most lenders approving $1,000 personal loans accept FICO scores from 580 up, with some subprime lenders considering 540+. Federal credit-union PALs (Payday Alternative Loans, capped at 28% APR) often work at this loan size with looser credit requirements.",
+    context:
+      "$1,000 is at the small end of the personal-loan market. Many borrowers at this size would be better served by credit-union PALs (which top out at $2,000), small-dollar credit-builder loans from Self or Kikoff, or a secured credit card if the goal is also to build credit.\n\nWhen $1,000 is the right amount: short-term emergency need (car repair, medical copay), where the loan will be paid off in 6-12 months. Loan-payment math: $1,000 at 28% APR over 12 months is about $97/month, manageable but expensive interest at $164 total.",
+    relatedSlugs: ["what-credit-score-needed-for-5000-loan", "personal-loan-with-580-credit-score"],
+    toolLinks: [
+      { label: "$1,000 personal loan", href: "/loans/amount/1000" },
+    ],
+  },
+  {
+    slug: "what-credit-score-needed-for-3000-loan",
+    topic: "Credit score",
+    question: "What credit score do I need for a $3,000 personal loan?",
+    shortAnswer:
+      "Most lenders approving $3,000 personal loans accept FICO scores from 580 up. The best APRs require 670+. Expect APRs of 15-32% depending on credit and income. Approval is straightforward for fair-credit borrowers with stable income above $2,500/month.",
+    context:
+      "$3,000 is a common emergency or moderate-purchase loan amount. The market is broad enough that even fair-credit applicants typically get multiple offers when pre-qualifying through a marketplace.\n\nMonthly payment math: $3,000 at 18% over 36 months is about $108/month. At 28% APR (subprime tier) the same loan runs $124/month. Both are manageable at moderate income levels but require committed monthly cash flow.",
+    relatedSlugs: ["what-credit-score-needed-for-5000-loan", "what-credit-score-needed-for-10000-loan"],
+    toolLinks: [
+      { label: "$3,000 personal loan", href: "/loans/amount/3000" },
+    ],
+  },
+  {
+    slug: "what-credit-score-needed-for-7500-loan",
+    topic: "Credit score",
+    question: "What credit score do I need for a $7,500 personal loan?",
+    shortAnswer:
+      "Most lenders require FICO 620+ for $7,500 personal loans, with the best APRs at 680+. Expect APRs of 12-26%. Debt-to-income ratio starts mattering meaningfully at this loan size: lenders want total monthly debt service below 40% of gross income post-loan.",
+    context:
+      "$7,500 is in the middle of the personal-loan market by amount and sees the widest range of competing lenders. Most prime online lenders cover this size, and bank personal loans become competitive for borrowers above 680 FICO.\n\nMonthly payment math: $7,500 at 14% over 48 months is about $205/month. At 22% APR over 60 months it's $207/month. The APR vs term trade-off is meaningful here: shorter terms at higher APR can save more interest than longer terms at lower APR, depending on how the math shakes out.",
+    relatedSlugs: ["what-credit-score-needed-for-5000-loan", "what-credit-score-needed-for-10000-loan"],
+    toolLinks: [
+      { label: "Loan payment calculator", href: "/calculators/loan-payment" },
+    ],
+  },
+  {
+    slug: "what-credit-score-needed-for-15000-loan",
+    topic: "Credit score",
+    question: "What credit score do I need for a $15,000 personal loan?",
+    shortAnswer:
+      "Most lenders require FICO 660+ for $15,000 personal loans. The best APRs (single-digit to low double-digit) require 720+. Expect annual income above $50,000 for approval at most lenders. Debt-to-income post-loan needs to stay under 40-43%.",
+    context:
+      "$15,000 sits in the most competitive personal-loan amount range. Borrowers in this range often qualify with multiple lenders and can drive meaningful rate competition by pre-qualifying across the market.\n\nMonthly payment math: $15,000 at 13% APR over 60 months is about $341/month. At 18% over 48 months it's $441/month. The monthly payment difference is often more important than the total interest difference for borrowers managing cash flow tightly.",
+    relatedSlugs: ["what-credit-score-needed-for-10000-loan", "what-credit-score-needed-for-20000-loan"],
+    toolLinks: [
+      { label: "$15,000 personal loan", href: "/loans/amount/15000" },
+    ],
+  },
+  {
+    slug: "what-credit-score-needed-for-25000-loan",
+    topic: "Credit score",
+    question: "What credit score do I need for a $25,000 personal loan?",
+    shortAnswer:
+      "Most lenders require FICO 680+ for $25,000 personal loans. The best APRs require 740+ and verified annual income above $75,000. Below 680, options narrow to smaller online lenders and some specialty programs.",
+    context:
+      "At $25,000, debt-to-income becomes the binding constraint for most applicants. A typical 60-month $25,000 loan at 12% APR has a $556/month payment. Combined with existing debt service, this pushes many fair-credit applicants past DTI thresholds.\n\nFor borrowers below 680 FICO needing $25,000, splitting into a smaller personal loan plus another financing source (HELOC if you own a home, 401k loan if you have retirement savings) often works better than chasing a single large personal loan at a high APR.",
+    relatedSlugs: ["what-credit-score-needed-for-20000-loan", "highest-personal-loan-amount"],
+    toolLinks: [
+      { label: "Loan affordability calculator", href: "/calculators/affordability" },
+    ],
+  },
+  {
+    slug: "minimum-income-for-personal-loan",
+    topic: "Approval & amount",
+    question: "What's the minimum income for a personal loan?",
+    shortAnswer:
+      "Most online lenders require $24,000-$36,000 minimum annual income, though some accept lower with smaller loan amounts. Federal credit-union PALs have looser income requirements (often $1,500/month documented). The binding constraint is usually debt-to-income ratio, not income alone.",
+    context:
+      "There's no federal minimum income for personal loans, but lender-set thresholds reflect the reality that the loan's monthly payment has to fit a realistic household budget. A lender approving a $400/month payment on $20,000 annual income is setting the borrower up to fail.\n\nFor borrowers below typical income thresholds, options include: smaller loan amounts ($500-$3,000 range), credit-union PALs, secured loans backed by a vehicle or savings, or co-applicant arrangements with someone whose income meets the threshold.",
+    relatedSlugs: ["how-much-loan-with-40000-income", "personal-loan-with-no-job"],
+    toolLinks: [
+      { label: "Loan affordability calculator", href: "/calculators/affordability" },
+    ],
+  },
+
+  // ─── Batch 3: Purpose-specific use cases ─────────────────────────
+  {
+    slug: "personal-loan-for-taxes",
+    topic: "Special situations",
+    question: "Can I use a personal loan to pay IRS taxes?",
+    shortAnswer:
+      "Yes. Personal loans are unrestricted-use and many borrowers use them to pay tax debts. Compare the loan's APR against the IRS payment plan interest rate (typically the federal short-term rate plus 3%, currently around 8-10%). For most borrowers, the IRS payment plan is cheaper than a personal loan.",
+    context:
+      "The IRS offers both short-term (180 days) and long-term installment agreements for unpaid taxes. The long-term plan currently charges around 8-10% APR plus a $31-$130 setup fee. For borrowers with fair credit, a personal loan at 18-30% APR is usually more expensive than the IRS plan.\n\nWhere a personal loan can win: when you have good credit (sub-10% APR available) AND the IRS debt is large enough that the setup fee plus monthly admin friction makes the personal loan cleaner. Or when you want to avoid the IRS appearing as a debt on your credit (though IRS installment agreements typically don't report to bureaus).",
+    relatedSlugs: ["personal-loan-vs-401k-loan", "is-personal-loan-interest-tax-deductible"],
+    toolLinks: [
+      { label: "APR calculator", href: "/calculators/apr" },
+    ],
+  },
+  {
+    slug: "personal-loan-for-legal-fees",
+    topic: "Special situations",
+    question: "Can I use a personal loan for legal fees?",
+    shortAnswer:
+      "Yes. Personal loans are commonly used for divorce, immigration, criminal defense, and civil-suit legal fees. Some specialty 'litigation finance' lenders exist for personal-injury plaintiffs but charge high rates. For most legal needs, a standard personal loan is cheaper.",
+    context:
+      "Legal fees can quickly run into five or six figures, especially for divorce, immigration, or criminal defense. Most borrowers find personal loans more accessible than legal-specific financing because the underwriting is standard and pricing is transparent.\n\nLitigation finance (where a third party funds your legal fees in exchange for a percentage of any settlement) is a specialty product mostly used in personal-injury cases. Rates are effectively 30-50% APR equivalent in many deals. A standard personal loan at 12-25% APR usually beats litigation finance on cost for borrowers who can qualify.",
+    relatedSlugs: ["personal-loan-for-business"],
+    toolLinks: [
+      { label: "Glossary: Personal loan", href: "/glossary/personal-loan" },
+    ],
+  },
+  {
+    slug: "personal-loan-for-vet-bill",
+    topic: "Special situations",
+    question: "Can I use a personal loan for veterinary bills?",
+    shortAnswer:
+      "Yes. Personal loans are commonly used for emergency vet bills, surgery costs, and major pet medical expenses. Most veterinary practices accept CareCredit (a medical credit card with 0% promotional periods), which can be cheaper than a personal loan if you'll pay off within the promo window.",
+    context:
+      "Veterinary emergencies can produce $3,000-$10,000+ bills quickly, especially for surgery or extended ICU stays. Most pet insurance reimburses after you've paid, so you need immediate funding regardless of coverage.\n\nCareCredit's 6-24 month 0% promotional offers often beat personal loans if you'll pay in full by the deadline. The trap: missed deadline triggers deferred interest from day one at 26-28%, retroactively. If there's any chance you can't pay off in the promo window, a fixed-rate personal loan is safer.",
+    relatedSlugs: ["personal-loan-vs-balance-transfer"],
+    toolLinks: [
+      { label: "Emergency loans", href: "/loans/emergency" },
+    ],
+  },
+  {
+    slug: "personal-loan-to-refinance-auto-loan",
+    topic: "Special situations",
+    question: "Can I use a personal loan to refinance my auto loan?",
+    shortAnswer:
+      "Yes, but auto-loan refinancing is usually cheaper. Auto refinance loans use the car as collateral, which keeps APRs lower than an unsecured personal loan. Personal-loan refinancing of an auto loan makes sense only when the car is too old for auto refinancers (typically 8-10 years), or when you want to remove a lien on the title.",
+    context:
+      "Auto refinance lenders like Auto Approve, RateGenius, and Lightstream's auto-refi product typically beat personal-loan APRs by 3-7 percentage points at the same credit tier because the car secures the loan.\n\nWhere a personal loan wins: very old vehicles (auto refinancers usually decline cars older than 8-10 years or above ~100,000 miles), private-party situations, or when you want to clear the lien from the title (a personal loan with no collateral lets you receive a clean title for the car you can then sell freely).",
+    relatedSlugs: ["personal-loan-buy-car"],
+    toolLinks: [
+      { label: "Glossary: Secured loan", href: "/glossary/secured-loan" },
+    ],
+  },
+  {
+    slug: "personal-loan-pay-off-credit-cards",
+    topic: "Special situations",
+    question: "Should I use a personal loan to pay off credit cards?",
+    shortAnswer:
+      "Often yes. If the personal loan's APR is meaningfully lower than your weighted credit-card APR (typical card rates are 22-29%, personal loans for prime credit run 7-15%), consolidating saves substantial interest and gives you a defined payoff date. Avoid running the cards back up after consolidating.",
+    context:
+      "Credit-card consolidation via personal loan is one of the most common and financially effective uses of personal loans. The math works when the new APR is at least 5 percentage points below your weighted card APR.\n\nThe behavioural trap: many borrowers consolidate, feel relief from lower monthly payments, then gradually run the credit-card balances back up. Six months later they have the personal loan plus new card debt. If you don't trust yourself to keep cards at zero, freeze or lock them after consolidating.",
+    relatedSlugs: ["consolidate-credit-card-debt-personal-loan"],
+    toolLinks: [
+      { label: "Debt consolidation loans", href: "/loans/debt-consolidation" },
+      { label: "Debt payoff calculator", href: "/calculators/debt-payoff" },
+    ],
+  },
+  {
+    slug: "personal-loan-for-home-repair",
+    topic: "Special situations",
+    question: "Can I use a personal loan for home repair?",
+    shortAnswer:
+      "Yes. Personal loans are commonly used for unsecured home repair financing when speed matters and the project is too small to justify a HELOC. For repairs under $25,000 or when you need funds in days rather than weeks, a personal loan typically beats secured alternatives.",
+    context:
+      "Home-repair financing has three main options: HELOC (lowest APR but 30-45 day close), personal loan (fast funding, no lien on home), and credit cards (highest APR but instant). For urgent repairs (roof leak, HVAC failure, broken plumbing), the personal loan's same-day-to-next-business-day funding wins.\n\nFor planned major renovations above $25,000-$50,000, a HELOC's lower APR more than compensates for the slower close and the lien on your home. The break-even shifts based on the project size and timeline.",
+    relatedSlugs: ["personal-loan-vs-heloc-question", "kitchen-remodel-heloc-vs-personal-loan-guide"],
+    toolLinks: [
+      { label: "Home improvement loans", href: "/loans/home-improvement" },
+    ],
+  },
+  {
+    slug: "personal-loan-for-solar-panels",
+    topic: "Special situations",
+    question: "Can I use a personal loan for solar panels?",
+    shortAnswer:
+      "Yes, though specialty solar financing usually offers better rates. Companies like Mosaic, Sunlight Financial, and GoodLeap offer solar-specific loans with longer terms (15-25 years) and lower APRs (5-9%) than personal loans. Personal loans make sense for partial solar projects or when solar-specific financing is unavailable.",
+    context:
+      "Solar financing is its own niche because the systems qualify for federal tax credits (currently 30% of installed cost) and have predictable long-term electric-bill offsets. Solar-loan providers underwrite around the savings, which lets them offer better terms than general-purpose personal loans.\n\nWhere a personal loan wins: smaller solar projects under $15,000 (where solar-loan minimums kick in too high), DIY installations where you're sourcing equipment yourself, or supplemental funding for the gap between solar-loan amount and total project cost.",
+    relatedSlugs: ["personal-loan-for-home-repair"],
+    toolLinks: [
+      { label: "Home improvement loans", href: "/loans/home-improvement" },
+    ],
+  },
+  {
+    slug: "personal-loan-for-moving-expenses",
+    topic: "Special situations",
+    question: "Can I use a personal loan for moving expenses?",
+    shortAnswer:
+      "Yes. Personal loans are commonly used to cover moving costs: movers, truck rental, security deposits, first-month rent, utility setup. Loan amounts of $1,000-$10,000 are typical. The fast funding fits the relocation timeline; most lenders disburse funds the next business day after acceptance.",
+    context:
+      "Moving costs run $1,500-$8,000 for a typical local move and $3,000-$15,000+ for cross-country. Add security deposits and first/last month's rent and the upfront cash need can easily exceed $10,000.\n\nIf your employer is reimbursing moving expenses (common for corporate relocations), the timing gap between paying expenses and receiving reimbursement is exactly what a short-term personal loan can bridge. Take a 12-24 month term so the payment is manageable until the reimbursement lands.",
+    relatedSlugs: ["financing-baby-arrival-guide"],
+    toolLinks: [
+      { label: "Moving loans", href: "/loans/moving" },
+    ],
+  },
+  {
+    slug: "personal-loan-for-fertility-treatment",
+    topic: "Special situations",
+    question: "Can I use a personal loan for fertility treatment or IVF?",
+    shortAnswer:
+      "Yes. IVF and fertility treatments routinely cost $15,000-$30,000 per cycle and are often financed via personal loans because most U.S. health insurance doesn't cover them. Specialty fertility-financing companies (CapexMD, Future Family) also exist with sometimes better terms.",
+    context:
+      "Fertility treatment financing is a substantial niche because most insurance plans either don't cover IVF or impose strict lifetime maximums. Out-of-pocket cycle costs of $15,000-$30,000 plus medication ($3,000-$5,000) and storage fees are common.\n\nFor borrowers comparing options: standard personal loans at 10-20% APR typically beat fertility-specialty lenders for borrowers with strong credit. Specialty lenders can win for borrowers with fair credit who get declined by mainstream lenders. Some clinics also offer in-house payment plans worth comparing.",
+    relatedSlugs: ["financing-baby-arrival-guide"],
+    toolLinks: [
+      { label: "Medical loans", href: "/loans/medical" },
+    ],
+  },
+
+  // ─── Batch 3: Approval scenarios ─────────────────────────────────
+  {
+    slug: "personal-loan-with-judgment",
+    topic: "Special situations",
+    question: "Can I get a personal loan with a judgment on my credit?",
+    shortAnswer:
+      "Possible but harder. A civil judgment on your credit report signals to lenders that prior creditors had to sue to collect. Most mainstream lenders decline, though some online subprime lenders consider applications if the judgment is older than 12-24 months and you're current on other obligations.",
+    context:
+      "Civil judgments stop appearing on credit reports under FCRA Public Records reforms (since 2017, most judgments are no longer reported because they don't meet stricter data-accuracy standards). However, lenders can still discover judgments through public-records searches outside the credit-bureau system.\n\nIf you're trying to get credit with an outstanding judgment, the cleanest path is to settle or satisfy the judgment first (even if at a discount). A 'satisfied' judgment is much less damaging to lender perception than an open one.",
+    relatedSlugs: ["personal-loan-with-no-credit-history", "what-happens-if-default-personal-loan"],
+    toolLinks: [
+      { label: "Glossary: Default", href: "/glossary/default" },
+    ],
+  },
+  {
+    slug: "personal-loan-with-collections",
+    topic: "Special situations",
+    question: "Can I get a personal loan with collections on my credit?",
+    shortAnswer:
+      "Possible with online subprime lenders. Mainstream lenders typically decline applications with active collections under $500. Older or paid collections are less damaging. Medical collections under $500 are ignored by modern FICO scoring models (FICO 9, FICO 10).",
+    context:
+      "Newer FICO models (FICO 9 and FICO 10) and current VantageScore models ignore paid collections entirely and treat medical collections differently than other consumer debt. Some lenders use these newer models; many still rely on FICO 8 or older.\n\nFor borrowers with collections seeking a loan: prioritise paying or settling the largest open collection first (negotiating for 'pay for delete' if possible), then wait 30-60 days for the credit bureau to update. The score impact of removing a single significant collection is often 30-60 points.",
+    relatedSlugs: ["what-to-do-debt-collections-question", "personal-loan-with-580-credit-score"],
+    toolLinks: [
+      { label: "Glossary: Charge-off", href: "/glossary/charge-off" },
+    ],
+  },
+  {
+    slug: "personal-loan-after-bankruptcy",
+    topic: "Special situations",
+    question: "Can I get a personal loan after bankruptcy?",
+    shortAnswer:
+      "Yes. Many subprime online lenders specifically serve post-bankruptcy borrowers as soon as 30-90 days after discharge. APRs run high (25-35.99%) for the first 12-24 months, but on-time payments rebuild credit faster than most borrowers expect.",
+    context:
+      "Bankruptcy discharge clears most unsecured debt and gives the borrower a fresh start. Post-discharge, your debt-to-income ratio is often dramatically improved even though your credit score has taken a major hit.\n\nThe rebuild timeline: secured credit card within 30-60 days, small personal loan within 6-12 months, auto loan within 12-24 months (often at higher APRs), mortgage within 2-4 years (FHA loans allow as little as 2 years post-Chapter 7 discharge). The bankruptcy stays on your report 7-10 years but matters less and less as positive history accumulates.",
+    relatedSlugs: ["rebuild-credit-after-default-guide", "personal-loan-discharged-bankruptcy"],
+    toolLinks: [
+      { label: "Bad credit loans", href: "/loans/bad-credit" },
+    ],
+  },
+  {
+    slug: "personal-loan-with-itin",
+    topic: "Special situations",
+    question: "Can I get a personal loan with an ITIN instead of an SSN?",
+    shortAnswer:
+      "Limited options. Most mainstream U.S. personal-loan lenders require a Social Security Number. Some credit unions (especially those serving immigrant communities), Community Development Financial Institutions (CDFIs), and specialty fintech lenders like Stilt and Camino Financial accept Individual Taxpayer Identification Numbers (ITIN).",
+    context:
+      "ITIN-only borrowers face the tightest borrowing constraints in the U.S. consumer-credit market because most credit-scoring infrastructure was built around SSN as the identifier. CDFIs (federally-designated mission-driven lenders) are explicitly chartered to serve underbanked populations including ITIN holders.\n\nStilt specifically targets newcomers to the U.S. who have ITIN-only or thin SSN credit profiles. Their underwriting weights employment, education, and country-of-origin financial data alongside whatever U.S. credit history exists. Approval and pricing are reasonable for stable income applicants.",
+    relatedSlugs: ["personal-loan-as-non-citizen", "personal-loan-with-no-credit-history"],
+    toolLinks: [
+      { label: "Glossary: Personal loan", href: "/glossary/personal-loan" },
+    ],
+  },
+
+  // ─── Batch 3: Process and rate ───────────────────────────────────
+  {
+    slug: "can-i-cancel-personal-loan-after-accepting",
+    topic: "Process & terms",
+    question: "Can I cancel a personal loan after accepting?",
+    shortAnswer:
+      "Sometimes, but the window is short. Unsecured personal loans typically don't have a federal right of rescission (only secured loans against your primary residence do). Some lenders offer a 1-3 business day cancellation window in their loan agreement. After that, you can prepay (pay it off immediately) instead.",
+    context:
+      "Federal Truth in Lending Act rescission rights apply to home-equity loans (3 business days), not to unsecured personal loans. For personal loans, your contractual right to cancel depends entirely on the loan agreement language.\n\nSome lenders include a 'cooling-off' period of 1-3 business days during which you can cancel without consequence. After that window closes (or if the agreement doesn't include one), your option is to receive the funds and immediately prepay the loan. Most reputable lenders don't charge prepayment penalties, so the cost is just the few days of interest accrued before payoff.",
+    relatedSlugs: ["can-i-pay-personal-loan-early"],
+    toolLinks: [
+      { label: "Glossary: Prepayment penalty", href: "/glossary/prepayment-penalty" },
+    ],
+  },
+  {
+    slug: "how-to-lower-personal-loan-apr",
+    topic: "Process & terms",
+    question: "How can I lower my personal loan APR?",
+    shortAnswer:
+      "Three levers, ranked by impact: improve your credit score before applying (a 50-point increase can drop APR 5-8 points), apply jointly with a co-applicant who has stronger credit, or enrol in autopay (most lenders give 0.25-0.50% APR discount). Shopping multiple lenders also reveals pricing differences worth 2-4 points.",
+    context:
+      "The largest APR lever is credit score. Paying down revolving balances to below 30% utilisation typically produces a 30-60 point score increase within 60-90 days, which can shift APR by 5-10 percentage points at the same income level.\n\nMost borrowers underuse the comparison shopping lever. Pre-qualifying with 4-5 lenders through a marketplace (soft pull, no score impact) routinely reveals 3-6 percentage points of APR spread between offers for the same borrower. Take the lowest effective APR (rate plus origination fee), not the lowest headline rate.",
+    relatedSlugs: ["how-to-raise-credit-score-fast", "compare-personal-loan-offers-question"],
+    toolLinks: [
+      { label: "APR calculator", href: "/calculators/apr" },
+    ],
+  },
+  {
+    slug: "soft-pull-vs-hard-pull",
+    topic: "Process & terms",
+    question: "What's the difference between a soft pull and a hard pull?",
+    shortAnswer:
+      "A soft pull (soft inquiry) is a credit check that doesn't affect your score and isn't visible to other lenders. Used for pre-qualification, account monitoring, and checking your own score. A hard pull (hard inquiry) happens when a lender pulls full credit for an actual application decision, lowering your score by 3-7 points temporarily.",
+    context:
+      "Soft pulls include: checking your own score, pre-qualification at most marketplaces, lender account monitoring (existing accounts pulling your credit for risk management), and pre-screened credit-card offers in the mail.\n\nHard pulls happen when you formally apply for credit and the lender pulls your full report to decide. They stay on your report for 24 months but only meaningfully affect your score for the first 12. Multiple hard inquiries for the same loan type within 14-45 days (depending on scoring model) count as one inquiry under FICO's rate-shopping window.",
+    relatedSlugs: ["does-pre-qualification-hurt-credit-score", "does-checking-credit-score-hurt"],
+    toolLinks: [
+      { label: "Glossary: Soft inquiry", href: "/glossary/soft-inquiry" },
+      { label: "Glossary: Hard inquiry", href: "/glossary/hard-inquiry" },
+    ],
+  },
+  {
+    slug: "what-is-good-apr-personal-loan",
+    topic: "Process & terms",
+    question: "What's a good APR for a personal loan?",
+    shortAnswer:
+      "Depends on your credit tier. Below 8% is excellent (requires 740+ FICO). 8-13% is good (670-739 FICO). 14-22% is fair (620-669 FICO). 23-35% is the subprime range (below 620 FICO). Anything above 35.99% is illegal in most U.S. states for unsecured personal loans.",
+    context:
+      "The 'good APR' bar shifts dramatically by credit tier because lender risk-pricing is steep. The same borrower's FICO score moving from 660 to 720 typically shifts their available APR by 6-10 percentage points.\n\nFor any specific borrower, a 'good' offer is one that's at or below the median APR of 4-5 pre-qualifications across mainstream lenders. If your fourth offer is dramatically lower than the others, verify the lender's reputation before accepting; suspiciously-low offers sometimes come with deferred origination fees or unfavourable contract terms.",
+    relatedSlugs: ["maximum-personal-loan-apr", "compare-personal-loan-offers-question"],
+    toolLinks: [
+      { label: "APR calculator", href: "/calculators/apr" },
+    ],
+  },
 ];
 
 export const questionsBySlug = Object.fromEntries(

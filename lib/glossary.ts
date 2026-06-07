@@ -489,6 +489,98 @@ export const glossaryTerms: GlossaryTerm[] = [
     long: "The minimum payment is the smallest payment a lender requires each month to keep an account current. On credit cards, minimum payments are typically 1% to 3% of the balance plus interest and fees, which can stretch repayment over decades and produce very high total interest. Personal loans require a fixed monthly payment instead of a minimum, which is one of the reasons borrowers use them to consolidate credit-card debt.",
     related: ["revolving-credit", "amortization"],
   },
+
+  // ─── Batch 2: Process and documentation ───────────────────────────
+  {
+    slug: "promissory-note",
+    name: "Promissory note",
+    category: "Application",
+    short:
+      "The signed legal document in which a borrower promises to repay a loan according to specified terms. The promissory note is the loan's enforceable contract.",
+    long: "A promissory note is the signed legal document that obligates a borrower to repay a loan. It specifies the principal amount, APR, payment schedule, default conditions, and the lender's remedies on non-payment. The promissory note is the loan's enforceable contract; if the lender ever needs to sue for non-payment, the promissory note is the evidence. Both unsecured and secured loans have promissory notes; secured loans add a separate security agreement that establishes the lender's lien on the collateral.",
+    related: ["loan-agreement", "default"],
+  },
+  {
+    slug: "loan-servicer",
+    name: "Loan servicer",
+    category: "Application",
+    short:
+      "The company that handles day-to-day loan management on behalf of the loan's owner: collecting payments, sending statements, processing payoffs, and (when needed) referring delinquent accounts to collection.",
+    long: "The loan servicer is the entity you interact with after origination: where you make payments, get statements, request payoffs, and contact for hardship requests. The servicer may or may not be the same company as the original lender. Loans are frequently sold or transferred between owners, but the servicer often stays the same. If servicing changes, you receive a notice at least 15 days in advance, and your payment history is preserved.",
+    related: ["lender", "monthly-payment"],
+  },
+  {
+    slug: "adverse-action-notice",
+    name: "Adverse action notice",
+    category: "Regulation",
+    short:
+      "Federally required written notice a lender must send within 30 days of denying a credit application. Discloses the specific reasons for denial and the credit bureau whose report was used.",
+    long: "Under the Fair Credit Reporting Act and the Equal Credit Opportunity Act, any lender that denies a credit application must send the applicant a written 'adverse action notice' within 30 days. It must include the specific reasons for denial (or the right to request them), the name and contact of the credit bureau whose report was used, your right to a free copy of that credit report within 60 days, and your right to dispute inaccurate information. The adverse action notice is the borrower's roadmap for understanding the decline and addressing the underlying issues.",
+    related: ["fcra", "ecoa", "credit-report"],
+  },
+  {
+    slug: "forbearance",
+    name: "Forbearance",
+    category: "Repayment",
+    short:
+      "A temporary agreement allowing a borrower to pause or reduce payments during hardship, without the loan being treated as delinquent. Interest typically still accrues on the balance.",
+    long: "Forbearance is a lender-granted accommodation that pauses or reduces a borrower's payments for a defined period (often 3-12 months) without treating the loan as past-due. The borrower's credit is protected from late marks during the forbearance window. Interest typically continues to accrue and is either added to the balance or repaid through extended terms after forbearance ends. Forbearance is more common on student loans and mortgages than on personal loans, but some personal-loan lenders offer hardship-program equivalents.",
+    related: ["delinquency", "loan-modification"],
+  },
+  {
+    slug: "balloon-payment",
+    name: "Balloon payment",
+    category: "Repayment",
+    short:
+      "A large final loan payment that's significantly bigger than the regular monthly payments. Common on some commercial loans, short-term mortgages, and certain auto loans; rare on personal loans.",
+    long: "A balloon payment is the final loan payment, structured to be substantially larger than the regular monthly payments. Typical structures: a 5-year loan where monthly payments amortise as if it were a 30-year loan, with the remaining balance due in full at month 60. Used to give borrowers a low monthly payment in exchange for refinancing or paying off the balance later. Mainstream U.S. personal loans don't use balloon payments. Some commercial loans, owner-financed real estate deals, and certain auto loans do.",
+    related: ["amortization", "monthly-payment"],
+  },
+  {
+    slug: "bridge-loan",
+    name: "Bridge loan",
+    category: "Lender types",
+    short:
+      "A short-term loan used to cover a financing gap, typically 6-12 months. Common in real estate when buying a new home before selling the existing one, and for short-term business cash-flow needs.",
+    long: "A bridge loan is a short-term financing tool designed to span a defined gap, usually 6-12 months. Real-estate bridge loans let homebuyers purchase a new property before their existing one sells. Business bridge loans cover temporary cash-flow gaps between an expected receivable and a current obligation. Bridge loans typically carry higher APRs than long-term financing because of the short repayment horizon and the lender's elevated risk. Most personal loans are not bridge loans; they have standard 2-7 year amortising terms.",
+    related: ["personal-loan", "secured-loan"],
+  },
+  {
+    slug: "ach-transfer",
+    name: "ACH transfer",
+    category: "Application",
+    short:
+      "Automated Clearing House transfer: the electronic bank-to-bank payment network used for most U.S. personal-loan disbursements and monthly payments. Settles in 1-3 business days, typically free.",
+    long: "ACH (Automated Clearing House) is the U.S. electronic payment network operated by NACHA that handles most consumer bank-to-bank transactions, including direct deposit, autopay, and personal-loan funding. When you accept a personal loan, the lender disburses funds via ACH, which lands in your checking account the next business day. Monthly payments to the lender also typically run via ACH. ACH transfers are free for the consumer in nearly all cases; wire transfers (faster, more expensive) are the alternative for time-sensitive funding.",
+    related: ["personal-loan", "monthly-payment"],
+  },
+  {
+    slug: "identity-theft",
+    name: "Identity theft",
+    category: "Credit",
+    short:
+      "The use of someone's personal information (SSN, name, date of birth) without authorisation to open accounts or take loans. Federal law gives victims tools to dispute, recover, and prevent further damage.",
+    long: "Identity theft happens when someone uses your personal information without permission to open credit accounts, take loans, or commit fraud in your name. If you discover identity theft: file a report at IdentityTheft.gov (FTC), file a police report, place a fraud alert or freeze with the three credit bureaus, dispute fraudulent accounts in writing with each lender and bureau, and request the fraudulent accounts be removed from your credit report. Federal law (Fair Credit Reporting Act and Identity Theft and Assumption Deterrence Act) protects victims from liability for fraudulent debts.",
+    related: ["credit-freeze", "credit-report", "fcra"],
+  },
+  {
+    slug: "credit-freeze",
+    name: "Credit freeze",
+    category: "Credit",
+    short:
+      "A free request to a credit bureau that prevents new creditors from accessing your credit report, which blocks new accounts from being opened in your name. Useful after identity theft or as preventive protection.",
+    long: "A credit freeze (also called a security freeze) is a request to each of the three credit bureaus (Equifax, Experian, TransUnion) to prevent new creditors from pulling your credit report. With a freeze in place, identity thieves can't easily open accounts in your name because lenders that can't pull your file usually decline. You can place, lift, or remove a freeze for free under federal law (Economic Growth, Regulatory Relief, and Consumer Protection Act, 2018). Lifting takes about an hour through each bureau's online portal. A credit freeze does not affect your credit score or your existing accounts.",
+    related: ["identity-theft", "credit-report", "fcra"],
+  },
+  {
+    slug: "joint-application",
+    name: "Joint application",
+    category: "Application",
+    short:
+      "A loan application submitted by two borrowers who are both equally responsible for repayment. Combines both incomes and credit profiles for qualification, often unlocking better terms than either could achieve alone.",
+    long: "A joint loan application means two borrowers apply together, both signing the promissory note and both fully liable for the debt. The lender pulls both credit reports and documents both incomes. The loan appears on both credit files. Joint applications differ from cosigning: a cosigner guarantees a primary borrower's loan but isn't a co-borrower; joint applicants are equal borrowers. Joint applications are useful when one applicant has stronger income and the other has stronger credit; combining unlocks larger amounts or better APRs than either could achieve alone.",
+    related: ["co-applicant", "co-signer", "promissory-note"],
+  },
 ];
 
 export const glossaryBySlug = Object.fromEntries(

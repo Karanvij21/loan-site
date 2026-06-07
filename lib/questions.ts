@@ -471,6 +471,271 @@ export const questions: Question[] = [
       { label: "Glossary: Credit utilisation", href: "/glossary/credit-utilization" },
     ],
   },
+
+  // ─── Batch 2: Scenarios & edge cases ─────────────────────────────
+  {
+    slug: "personal-loan-with-no-job",
+    topic: "Special situations",
+    question: "Can I get a personal loan with no job?",
+    shortAnswer:
+      "Possible but limited. You'll need to show alternative verifiable income such as Social Security, disability, pension, retirement distributions, alimony, child support, or a partner's income on a joint application. Most lenders require documented monthly income sufficient to make the payment.",
+    context:
+      "The federal Equal Credit Opportunity Act prohibits lenders from declining solely because you lack a W-2 job, as long as you have qualifying income. Acceptable income includes Social Security, disability, veterans benefits, pension, annuities, regular retirement distributions, and (in many cases) unemployment insurance.\n\nYour debt-to-income ratio still has to support the new monthly payment. If your only income is $1,200/month from Social Security and you want a $10,000 loan with a $250/month payment, lenders will look at whether the payment leaves enough for basic living expenses. Lower loan amounts are easier to approve in these situations.\n\nAdding a co-applicant with W-2 income often unlocks better terms. Federal credit-union PALs are also more flexible on income verification than mainstream personal-loan lenders.",
+    relatedSlugs: ["personal-loan-on-unemployment", "personal-loan-as-retiree"],
+    toolLinks: [
+      { label: "Glossary: ECOA", href: "/glossary/ecoa" },
+    ],
+  },
+  {
+    slug: "personal-loan-as-non-citizen",
+    topic: "Special situations",
+    question: "Can I get a personal loan as a non-citizen?",
+    shortAnswer:
+      "Yes if you're a permanent resident (green card holder). Non-citizens with valid work visas (H-1B, L-1, etc.) and an SSN can qualify with some online lenders, though approval is harder. Tourist visas typically don't qualify.",
+    context:
+      "Most U.S. personal-loan lenders require permanent U.S. residency and a Social Security number. Permanent residents are usually treated identically to citizens once they have established U.S. credit history.\n\nFor visa holders, fintech lenders like Stilt and SoFi (in some cases) underwrite using alternative data (education, employment, country-of-origin credit) for borrowers without a long U.S. credit file. Approval is realistic for H-1B and L-1 visa holders with stable U.S. employment but uncommon for short-term visa categories.\n\nITIN-only borrowers (no SSN) face the tightest constraints. Some credit unions and community-development financial institutions (CDFIs) lend to ITIN borrowers, but options are narrow.",
+    relatedSlugs: ["personal-loan-with-no-credit-history", "personal-loan-with-600-credit-score"],
+    toolLinks: [
+      { label: "Glossary: ECOA", href: "/glossary/ecoa" },
+    ],
+  },
+  {
+    slug: "personal-loan-just-got-hired",
+    topic: "Special situations",
+    question: "Can I get a personal loan if I just got hired?",
+    shortAnswer:
+      "Possible but most lenders prefer 30-90 days of employment at the current job. An offer letter alone usually isn't enough; you typically need at least one pay stub showing the new income. Prior employment history in the same field strengthens approval odds.",
+    context:
+      "Lenders use employment stability as a proxy for income reliability. The standard underwriting question is whether the borrower will still have income when payments start. A brand-new hire technically has near-zero employment tenure at the new employer, which raises perceived risk.\n\nWhat helps: a prior multi-year W-2 history (especially in the same industry), a salary increase rather than a lateral move, and at least one pay stub from the new role. Some lenders will manually review applications with strong prior history despite short tenure at the current employer.\n\nIf you're between paid-leave and a confirmed start date, wait until you have one pay stub before applying. Applying too early often produces a hard inquiry and no approval.",
+    relatedSlugs: ["personal-loan-on-unemployment", "personal-loan-as-student"],
+    toolLinks: [
+      { label: "Glossary: Underwriting", href: "/glossary/underwriting" },
+    ],
+  },
+  {
+    slug: "can-i-refinance-personal-loan",
+    topic: "Process & terms",
+    question: "Can I refinance a personal loan?",
+    shortAnswer:
+      "Yes. Refinancing means taking a new personal loan to pay off the existing one, usually to lower the APR or change the term. Makes sense when your credit has improved since the original loan or when market rates have fallen meaningfully (typically a 3+ percentage-point APR drop).",
+    context:
+      "The mechanics are simple: you apply for a new personal loan with the new lender, use those funds to pay off the existing loan in full, and continue with the new loan's payment schedule.\n\nWhen it makes sense: your credit has improved 50+ points since origination (often the case when the original loan was for debt consolidation that lowered your utilisation), market rates have fallen, or your income has risen enough to support a shorter term.\n\nWhen it doesn't: the new APR is close to the old one, the new loan has high origination fees, or your original loan has a prepayment penalty (which would offset the savings). Always check for prepayment penalties on the original loan before refinancing.",
+    relatedSlugs: ["compare-personal-loan-offers-question", "hidden-fees-personal-loans-question"],
+    toolLinks: [
+      { label: "Glossary: Refinance", href: "/glossary/refinance" },
+      { label: "Glossary: Prepayment penalty", href: "/glossary/prepayment-penalty" },
+    ],
+  },
+  {
+    slug: "personal-loan-to-pay-off-personal-loan",
+    topic: "Process & terms",
+    question: "Can I get a personal loan to pay off another personal loan?",
+    shortAnswer:
+      "Yes. This is functionally a refinance. It makes sense when the new loan has a lower APR, shorter term, or both. Lenders see the existing loan in your credit report and add the new payment to your DTI calculation when underwriting the second loan.",
+    context:
+      "There's no federal rule preventing you from holding two personal loans simultaneously, but most borrowers refinance rather than hold both. The refinance pattern is: new lender disburses funds to your checking account, you immediately pay off the original loan in full, and continue on the new loan.\n\nWhen DTI is tight, holding both loans simultaneously can push you past the 40% threshold most lenders use, which can complicate any other application (mortgage, auto) during that window. Refinancing keeps the total loan count steady.\n\nIf you're refinancing to lower the APR by less than 2 percentage points, the savings often don't justify the new origination fee. Run the math through our APR calculator before committing.",
+    relatedSlugs: ["can-i-refinance-personal-loan", "can-i-have-two-personal-loans"],
+    toolLinks: [
+      { label: "APR calculator", href: "/calculators/apr" },
+    ],
+  },
+  {
+    slug: "personal-loan-affects-mortgage",
+    topic: "Special situations",
+    question: "Can a personal loan affect getting a mortgage?",
+    shortAnswer:
+      "Yes. The personal loan's monthly payment is included in your debt-to-income ratio, which mortgage underwriters review. A new personal loan can also drop your credit score by 5-15 points short-term from the hard inquiry. Both can affect mortgage approval or rate.",
+    context:
+      "Mortgage underwriters apply strict DTI limits, typically 43% for qualified mortgages and 50% for FHA. A new personal loan with a $400/month payment can push borderline applicants past the threshold and trigger decline or rate adjustment.\n\nThe hard inquiry from a personal loan also affects FICO mortgage scoring models, though by less than people fear (3-7 points, fading within 12 months). The new account lowers your average account age slightly, which is a small additional drag.\n\nIf you're within 6-12 months of a planned mortgage application, avoid taking new personal loans unless absolutely necessary. If you must, time it so the personal loan account ages at least 6 months before the mortgage application.",
+    relatedSlugs: ["how-personal-loan-affects-credit-score", "how-fast-credit-score-recovers"],
+    toolLinks: [
+      { label: "Glossary: DTI", href: "/glossary/debt-to-income-ratio" },
+    ],
+  },
+  {
+    slug: "personal-loan-discharged-bankruptcy",
+    topic: "Special situations",
+    question: "Can a personal loan be discharged in bankruptcy?",
+    shortAnswer:
+      "Yes in most cases. Personal loans are unsecured consumer debt and are typically discharged in Chapter 7 bankruptcy. Chapter 13 may require partial repayment through the court plan. Loans taken out fraudulently or shortly before filing may be excepted from discharge.",
+    context:
+      "Standard personal loans behave like credit card debt in bankruptcy: in Chapter 7 they discharge after the 4-6 month case completes, and in Chapter 13 they become part of the 3-5 year payment plan with the unpaid balance discharged at the end.\n\nExceptions: personal loans taken within 90 days of filing for over $800 of luxury goods or services are presumed non-dischargeable. Cash advances over $1,100 within 70 days of filing have similar treatment. Loans obtained through false financial statements (lying on the application) can be challenged by the lender.\n\nMost borrowers' personal-loan obligations discharge cleanly. If you have a personal loan you cannot repay, bankruptcy is a legitimate tool worth discussing with a consumer bankruptcy attorney rather than continuing to accrue late fees and credit damage indefinitely.",
+    relatedSlugs: ["what-happens-if-default-personal-loan", "what-to-do-debt-collections-question"],
+    toolLinks: [
+      { label: "Glossary: Default", href: "/glossary/default" },
+    ],
+  },
+  {
+    slug: "cosign-personal-loan",
+    topic: "Process & terms",
+    question: "Can I cosign a personal loan for someone?",
+    shortAnswer:
+      "Yes. As a cosigner you're legally responsible for the full debt if the borrower defaults. The loan appears on your credit report, affects your DTI, and any late payments hurt your score. Cosigning is a significant financial commitment that often outlasts the borrower's reliability assessment.",
+    context:
+      "Cosigning a personal loan is functionally borrowing the money yourself, with the borrower as the primary payer. The lender can pursue you directly for missed payments without first exhausting collection efforts against the primary borrower.\n\nPractical implications: the loan reduces your available borrowing capacity for the term of the loan (the payment is part of your DTI), late payments by the primary borrower drop your credit score, and removing yourself as cosigner after the fact is essentially impossible without a refinance.\n\nMost financial advisors recommend cosigning only when you'd be comfortable paying the full loan yourself if needed. If you're not in that position, the safer alternative is gifting or lending the borrower a smaller amount directly.",
+    relatedSlugs: ["personal-loan-with-no-credit-history", "personal-loan-as-student"],
+    toolLinks: [
+      { label: "Glossary: Co-signer", href: "/glossary/co-signer" },
+    ],
+  },
+  {
+    slug: "personal-loan-secured-or-unsecured",
+    topic: "Process & terms",
+    question: "Are personal loans secured or unsecured?",
+    shortAnswer:
+      "Most are unsecured (no collateral required). Some lenders offer secured personal loans backed by a vehicle, CD, or savings account, which typically come with lower APRs but put the collateral at risk if you default. Standard mainstream personal loans are unsecured.",
+    context:
+      "An unsecured personal loan relies entirely on your credit and income for underwriting. The lender's recourse on default is limited to collections, credit reporting, and possibly a lawsuit. They cannot repossess specific property.\n\nSecured personal loans backed by collateral exist but are less common. Common collateral: a paid-off vehicle (auto-equity loan), a savings or CD account at the lender (share-secured loan), or investment account assets. Secured personal-loan APRs are typically 3-8 percentage points lower than unsecured equivalents at the same credit tier.\n\nThe trade-off is concrete: lower APR for the lender's improved recovery position. Use secured personal loans when you have a useful asset, stable cash flow, and would rather pay less interest than carry collateral risk.",
+    relatedSlugs: ["do-personal-loans-require-collateral"],
+    toolLinks: [
+      { label: "Glossary: Secured loan", href: "/glossary/secured-loan" },
+      { label: "Glossary: Unsecured loan", href: "/glossary/unsecured-loan" },
+    ],
+  },
+  {
+    slug: "personal-loan-rates-fixed-or-variable",
+    topic: "Process & terms",
+    question: "Are personal loan rates fixed or variable?",
+    shortAnswer:
+      "Most U.S. personal loans are fixed-rate, meaning the APR stays the same for the life of the loan and your monthly payment never changes. Variable-rate personal loans exist but are uncommon; HELOCs and credit cards are the more common variable-rate consumer products.",
+    context:
+      "Fixed-rate personal loans dominate the U.S. market because borrowers value payment predictability and lenders price the rate-risk premium into the upfront rate. The total interest you'll pay is known at signing.\n\nVariable-rate personal loans appear occasionally, usually from credit unions or fintech lenders, and adjust monthly with the prime rate plus a margin. Starting rates are sometimes lower than fixed offers, but the borrower takes on rate risk: a 2 percentage-point market move can add hundreds to total interest paid.\n\nUnless a specific variable-rate offer is meaningfully cheaper at origination and you'll repay within 12-18 months, a fixed-rate personal loan is the standard recommendation.",
+    relatedSlugs: ["maximum-personal-loan-apr"],
+    toolLinks: [
+      { label: "Glossary: Fixed rate", href: "/glossary/fixed-rate" },
+      { label: "Glossary: Variable rate", href: "/glossary/variable-rate" },
+    ],
+  },
+  {
+    slug: "documents-needed-personal-loan",
+    topic: "Process & terms",
+    question: "What documents do I need for a personal loan?",
+    shortAnswer:
+      "Standard documents: government-issued ID, proof of address (utility bill or lease), 2-3 recent pay stubs or last year's tax return, and bank statements (typically 60-90 days). Self-employed applicants need two years of tax returns. Most online lenders accept document uploads or bank-data verification via Plaid.",
+    context:
+      "Most online personal-loan lenders use automated income verification via Plaid (which connects to your bank account and reads recent deposits) instead of requiring manual document uploads. This shortens the application and speeds up funding.\n\nManual document uploads are required when Plaid can't connect to your bank, your income is from multiple sources, you're self-employed, or the loan amount is large enough to trigger additional verification.\n\nFor self-employed borrowers: two years of federal tax returns (Form 1040 with Schedules C, E, and/or K-1), 3-6 months of business bank statements, and a year-to-date profit-and-loss statement if available. Lenders often want to see consistent net income trending up or flat year-over-year.",
+    relatedSlugs: ["how-long-personal-loan-approval-takes"],
+    toolLinks: [
+      { label: "Glossary: Pre-qualification", href: "/glossary/pre-qualification" },
+    ],
+  },
+  {
+    slug: "personal-loan-income-tax",
+    topic: "Special situations",
+    question: "Are personal loans considered income for taxes?",
+    shortAnswer:
+      "No. Personal loan proceeds are not taxable income because you have to repay them. However, if any portion of the loan is forgiven or settled for less than the full balance, the forgiven amount is reportable as cancellation-of-debt income (Form 1099-C) and may be taxable.",
+    context:
+      "Loan proceeds are not income for tax purposes, you're borrowing money you'll repay, not earning it. This applies to personal loans, mortgages, auto loans, student loans, and any other borrowed amount.\n\nThe tax exposure arises if the loan is partially forgiven. If you settle a $10,000 personal loan balance for $4,000, the lender typically issues a 1099-C reporting the $6,000 of forgiven debt as cancellation-of-debt income. You owe federal income tax on that $6,000 at your marginal rate.\n\nException: the insolvency exclusion. If your total liabilities exceed your total assets at the time of forgiveness, the forgiven debt isn't taxable up to the amount of insolvency. File IRS Form 982. Consult a tax professional for specific cases.",
+    relatedSlugs: ["is-personal-loan-interest-tax-deductible", "what-happens-if-default-personal-loan"],
+    toolLinks: [
+      { label: "Glossary: Charge-off", href: "/glossary/charge-off" },
+    ],
+  },
+  {
+    slug: "personal-loan-buy-car",
+    topic: "Special situations",
+    question: "Can I use a personal loan to buy a car?",
+    shortAnswer:
+      "Yes, but auto loans almost always cost less. Auto loans are secured by the car itself, so APRs run 3-8 percentage points lower than unsecured personal loans at the same credit tier. Personal loans for vehicles make sense mainly when buying an older car or from a private seller where auto loans aren't available.",
+    context:
+      "Standard auto financing pricing: prime credit (740+) sees auto-loan APRs of 5-7%, while personal loans at the same credit tier run 8-12%. The spread compounds over the loan's life; a $25,000 vehicle financed over 60 months can cost $3,000-$5,000 more interest via personal loan than via auto loan.\n\nWhen a personal loan makes sense: vehicle older than most auto-loan lenders' age cutoff (typically 8-10 years), private-party purchase where the seller wants cash rather than a financing contract, or buying a vehicle that doesn't meet auto-loan condition requirements.\n\nFor a new or used car from a dealer, financing through the dealer or your own bank/credit union nearly always beats a personal loan on cost.",
+    relatedSlugs: ["personal-loan-vs-heloc-question"],
+    toolLinks: [
+      { label: "Glossary: Secured loan", href: "/glossary/secured-loan" },
+    ],
+  },
+  {
+    slug: "personal-loan-start-business",
+    topic: "Special situations",
+    question: "Can I use a personal loan to start a business?",
+    shortAnswer:
+      "Yes. Personal loans are unrestricted-use, so you can fund startup costs with them. This is common for sole proprietors and very small businesses without established business credit. Interest may be partially deductible as a business expense if you keep clean records separating personal and business use.",
+    context:
+      "Many small business owners use personal loans for startup costs because the alternatives (SBA loans, business lines of credit) require established business credit history, revenue documentation, and a longer application process that early-stage businesses don't have.\n\nKey trade-off: the debt is in your personal name, which limits your personal borrowing capacity and exposes your personal credit to any business missteps. Once the business has 1-2 years of revenue, refinancing personal-loan business debt into business-specific financing (SBA Microloan, line of credit, equipment financing) usually makes sense.\n\nKeep clean records separating business and personal use of loan funds from day one. If 100% goes to business expenses, all the interest may be deductible. Mixed-use loans require pro-rata accounting that's harder to defend in an audit.",
+    relatedSlugs: ["personal-loan-for-business"],
+    toolLinks: [
+      { label: "Glossary: Personal loan", href: "/glossary/personal-loan" },
+    ],
+  },
+  {
+    slug: "personal-loan-vs-savings",
+    topic: "Special situations",
+    question: "Is it better to use savings or take a personal loan?",
+    shortAnswer:
+      "Use savings when possible. Borrowing always costs more than the interest your savings earn. The exception: never deplete your emergency fund (3-6 months of expenses) for non-emergency spending, and never use savings if doing so would prevent essential employer 401(k) match.",
+    context:
+      "On pure math, savings always beats borrowing. Even at the best 4-5% high-yield savings APY, the gap between earning 4% on savings and paying 10-30% on a loan means borrowing destroys value.\n\nThe nuance: emergency fund integrity matters. If your only liquid savings is your emergency fund and you spend it on a discretionary purchase, you've increased the risk that an actual emergency forces you into worse borrowing later. The rule of thumb is to maintain a $1,000 minimum starter fund untouched, with the goal of growing to 3-6 months of expenses.\n\nAlso: if depleting savings would prevent you from getting your full 401(k) employer match (typically 50-100% return), borrowing for the cash need preserves the higher-return savings vehicle.",
+    relatedSlugs: ["build-emergency-fund-from-zero-guide"],
+    toolLinks: [
+      { label: "Loan affordability calculator", href: "/calculators/affordability" },
+    ],
+  },
+  {
+    slug: "how-many-personal-loans-at-once",
+    topic: "Approval & amount",
+    question: "How many personal loans can I have at once?",
+    shortAnswer:
+      "No federal limit. Most borrowers can technically hold 2-3 personal loans simultaneously if DTI permits, but each additional loan adds underwriting friction. Practical limit is debt-to-income; once new monthly payments push you above 40-43% of gross income, additional lenders decline.",
+    context:
+      "There's no rule limiting personal-loan count. Some individual lenders cap their own exposure at one loan per borrower (so SoFi won't issue you a second SoFi loan while the first is open) but cross-lender there's no aggregate cap.\n\nThe binding constraint is DTI. Each existing loan's monthly payment counts against your debt service. By the time you're holding two personal loans plus a car payment plus rent or mortgage, DTI is usually near the threshold where new lenders decline.\n\nIt's almost always cheaper to refinance multiple personal loans into a single larger one rather than maintain parallel obligations. Two origination fees, two payment dates, two credit-inquiry sequences, all friction without benefit unless the loans serve genuinely separate purposes at meaningfully different terms.",
+    relatedSlugs: ["can-i-have-two-personal-loans", "can-i-refinance-personal-loan"],
+    toolLinks: [
+      { label: "Loan affordability calculator", href: "/calculators/affordability" },
+    ],
+  },
+  {
+    slug: "joint-personal-loan-application",
+    topic: "Approval & amount",
+    question: "Can I apply for a personal loan jointly?",
+    shortAnswer:
+      "Yes with some lenders. Joint applications combine both incomes for qualification and use a blended credit profile (often the lower score controls pricing). Both applicants are equally responsible for repayment. Not all online lenders accept joint applications; credit unions and banks more commonly do.",
+    context:
+      "Joint applications are useful when one applicant has stronger income but weaker credit, and the other has the inverse, combining unlocks both higher loan amounts and better pricing than either could achieve alone.\n\nMechanically, both applicants' credit reports are pulled, both incomes are documented, both sign the promissory note, and both are 100% liable for the full balance. The loan reports on both credit files. Late payments hurt both.\n\nWhich lenders offer joint applications shifts over time. Navy Federal, PenFed, and many community credit unions accept them. SoFi and several online prime lenders do not, citing automated-underwriting limits. Pre-qualify with a marketplace that supports joint applications to see your real options.",
+    relatedSlugs: ["cosign-personal-loan"],
+    toolLinks: [
+      { label: "Glossary: Co-applicant", href: "/glossary/co-applicant" },
+    ],
+  },
+  {
+    slug: "personal-loan-online-vs-bank",
+    topic: "Process & terms",
+    question: "Should I get a personal loan online or at a bank?",
+    shortAnswer:
+      "Depends on your priorities. Online lenders are faster (same-day to next-day funding), accept wider credit tiers, and use modern UX. Bank loans often have lower APRs for existing customers with strong credit but take longer to close and have stricter underwriting. Credit unions frequently beat both on rate.",
+    context:
+      "Online lenders dominate by volume because they fund fast and serve fair-credit borrowers banks decline. For a 620-700 FICO borrower needing a $5,000-$15,000 loan, the most competitive offers nearly always come from online installment lenders.\n\nBanks (Wells Fargo, U.S. Bank, Discover, Citi) often beat online lenders on APR for existing customers with 700+ FICO and substantial deposit relationships. The trade-off: stricter underwriting and slower funding (1-5 business days vs same-day to next-day online).\n\nCredit unions are frequently the cheapest option of all if you qualify for membership. PenFed, Navy Federal, and Alliant accept wide membership eligibility and often beat both banks and online lenders on rate for the same credit profile.",
+    relatedSlugs: ["compare-personal-loan-offers-question"],
+    toolLinks: [
+      { label: "Banks vs credit unions vs online lenders (guide)", href: "/learn/banks-credit-unions-online-lenders" },
+    ],
+  },
+  {
+    slug: "best-time-apply-personal-loan",
+    topic: "Process & terms",
+    question: "When is the best time to apply for a personal loan?",
+    shortAnswer:
+      "After you've optimised your credit profile and verified income documentation, not before. Pay down revolving balances 30-60 days before applying so updated utilisation reports to bureaus, gather pay stubs and tax returns, and pre-qualify with 3-5 lenders within the same 14-day window so multiple inquiries count as one.",
+    context:
+      "Most rate-shopping advice focuses on the application step, but the higher-leverage move is preparation. A 30-point credit-score increase from paying down balances can shift APR by 3-5 percentage points, which on a multi-year loan saves more than any aggressive negotiation could.\n\nTiming within the year is mostly noise. Late Q4 sometimes sees slightly better rates as lenders push to hit annual originations targets, but the difference is small. Don't delay a legitimate need to chase a 0.25% APR variation.\n\nDo pre-qualify multiple lenders within the FICO rate-shopping window (14-45 days depending on scoring model). Multiple hard inquiries for the same loan type within the window count as one inquiry for score impact.",
+    relatedSlugs: ["how-to-raise-credit-score-fast", "compare-personal-loan-offers-question"],
+    toolLinks: [
+      { label: "Glossary: Hard inquiry", href: "/glossary/hard-inquiry" },
+    ],
+  },
+  {
+    slug: "personal-loan-and-rent",
+    topic: "Special situations",
+    question: "Can a personal loan affect my apartment application?",
+    shortAnswer:
+      "Possibly. Landlords running tenant-screening services see the loan on your credit report and factor it into DTI assessment. The new monthly payment reduces your apparent ability to pay rent. The hard inquiry also drops your score 3-7 points temporarily, which some landlord screeners weight heavily.",
+    context:
+      "Landlord underwriting varies widely. Some landlords care only about income (typically 3x rent), payment history, and prior eviction history. Others use full credit-report-based scoring that weights all your debt obligations.\n\nFor competitive rental markets where landlords have many applicants, a fresh hard inquiry plus an additional monthly debt obligation can push a borderline application into decline. For markets with vacancy, the marginal impact is usually minor.\n\nIf you're within 30-60 days of a planned apartment application, defer the personal loan until after the lease is signed unless the need is urgent. The personal loan can come right after move-in once the lease is locked in.",
+    relatedSlugs: ["personal-loan-affects-mortgage", "how-personal-loan-affects-credit-score"],
+    toolLinks: [
+      { label: "Glossary: Hard inquiry", href: "/glossary/hard-inquiry" },
+    ],
+  },
 ];
 
 export const questionsBySlug = Object.fromEntries(

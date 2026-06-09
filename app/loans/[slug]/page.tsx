@@ -15,6 +15,7 @@ import {
 } from "@/components/seo/JsonLd";
 import { defaultAuthor, defaultReviewer, authorUrl } from "@/lib/authors";
 import { formatCurrency } from "@/lib/utils";
+import { HeroPattern } from "@/components/HeroPattern";
 
 const PUBLISHED = "2026-02-01";
 const REVIEWED = "2026-05-22";
@@ -170,7 +171,11 @@ export default async function LoanPageRoute({ params }: Props) {
       <SpeakableJsonLd url={url} cssSelectors={[".loan-intro"]} />
 
       {/* HERO */}
-      <section className="border-b border-cream-300">
+      <section className="relative overflow-hidden border-b border-cream-300">
+        <HeroPattern
+          variant="loan"
+          className="pointer-events-none absolute right-0 top-0 hidden h-[360px] w-[360px] -translate-y-10 translate-x-12 text-forest-700/12 lg:block"
+        />
         <div className="mx-auto max-w-[1280px] px-6 pt-12 pb-20 lg:px-10 lg:pt-16 lg:pb-24">
           <nav aria-label="Breadcrumb" className="flex items-center gap-3 text-[12px] text-ink-500">
             <Link href="/" className="hover:text-ink-900">Home</Link>

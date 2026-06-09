@@ -10,6 +10,7 @@ import {
   questionTopics,
   questionsByTopic,
 } from "@/lib/questions";
+import { HeroPattern } from "@/components/HeroPattern";
 
 export const metadata: Metadata = {
   title: "Personal Loan Questions: Quick Answers to Common Questions",
@@ -44,7 +45,11 @@ export default function QuestionsIndex() {
         }))}
       />
 
-      <article className="mx-auto max-w-[1080px] px-6 py-20 lg:px-10 lg:py-28">
+      <article className="relative mx-auto max-w-[1080px] overflow-hidden px-6 py-20 lg:px-10 lg:py-28">
+        <HeroPattern
+          variant="education"
+          className="pointer-events-none absolute right-0 top-0 hidden h-[320px] w-[320px] -translate-y-8 translate-x-8 text-forest-700/12 lg:block"
+        />
         <nav aria-label="Breadcrumb" className="flex items-center gap-3 text-[12px] text-ink-500">
           <Link href="/" className="hover:text-ink-900">Home</Link>
           <span className="text-ink-300">/</span>

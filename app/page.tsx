@@ -7,6 +7,7 @@ import { TrustBar } from "@/components/home/TrustBar";
 import { HeroMark } from "@/components/home/HeroMark";
 import { SocialProof } from "@/components/home/SocialProof";
 import { HomepagePushPrompt } from "@/components/home/HomepagePushPrompt";
+import { HeroPattern } from "@/components/HeroPattern";
 
 export const metadata: Metadata = {
   title: `${siteConfig.name} · Personal Loans up to $50,000`,
@@ -61,7 +62,12 @@ export default function HomePage() {
       <HomepagePushPrompt />
 
       {/* ─────────────────────── HERO ─────────────────────── */}
-      <section className="relative">
+      <section className="relative overflow-hidden">
+        {/* Decorative SVG accent, hidden on small screens, doesn't intercept clicks. */}
+        <HeroPattern
+          variant="loan"
+          className="pointer-events-none absolute right-0 top-0 hidden h-[420px] w-[420px] -translate-y-12 translate-x-16 text-forest-700/15 lg:block"
+        />
         <div className="mx-auto max-w-[1280px] px-6 pt-14 pb-20 lg:px-10 lg:pt-20 lg:pb-28">
           {/* Eyebrow pill */}
           <div className="reveal reveal-1">

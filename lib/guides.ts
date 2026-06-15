@@ -49,7 +49,7 @@ export type Guide = {
 };
 
 const PUBLISHED = "2026-04-15";
-const REVIEWED = "2026-05-22";
+const REVIEWED = "2026-06-15";
 
 export const guides: Guide[] = [
   // ─── Debt management ────────────────────────────────────────────

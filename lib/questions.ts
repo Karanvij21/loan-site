@@ -30,7 +30,7 @@ export type Question = {
 };
 
 const PUBLISHED = "2026-05-22";
-const REVIEWED = "2026-05-22";
+const REVIEWED = "2026-06-15";
 
 export const QUESTIONS_PUBLISHED = PUBLISHED;
 export const QUESTIONS_REVIEWED = REVIEWED;
@@ -1544,6 +1544,140 @@ export const questions: Question[] = [
     relatedSlugs: ["adverse-action-notice"],
     toolLinks: [
       { label: "Glossary: CFPB", href: "/glossary/cfpb" },
+    ],
+  },
+
+  // ─── After denial / after funding arc ─────────────────────────────
+  {
+    slug: "personal-loan-denied-what-next",
+    topic: "Special situations",
+    question: "I was denied a personal loan. What should I do next?",
+    shortAnswer:
+      "Read the adverse action notice the lender is required to send within 30 days. It lists the specific reasons for denial. Fix the top one or two reasons, wait 30 to 60 days, then re-apply with a different lender. Do not re-apply with the same lender within 30 days.",
+    context:
+      "Under the federal Equal Credit Opportunity Act (Regulation B), every declined application triggers a written adverse action notice within 30 days. The notice names the specific reasons (low score, high DTI, short employment history, recent derogatory marks) and the credit-reporting agency used.\n\nUse the notice as a checklist. If the top reason is high credit utilisation, pay down a card balance. If it is short credit history, wait and let accounts age. If it is recent inquiries, stop applying for two or three months. Each fix raises your score on the next pull.\n\nDifferent lenders weight risk differently, so a denial at one lender does not mean denial everywhere. Once you have addressed the named reason, re-apply with a different marketplace or a lender that targets your credit tier. Soft-pull pre-qualification will not hurt your score.",
+    relatedSlugs: ["personal-loan-denied-reasons-why", "personal-loan-second-application-after-denial", "personal-loan-cosigner-after-denial"],
+    toolLinks: [
+      { label: "Glossary: Adverse action notice", href: "/glossary/adverse-action-notice" },
+      { label: "Bad credit loans", href: "/loans/bad-credit" },
+    ],
+  },
+  {
+    slug: "personal-loan-denied-reasons-why",
+    topic: "Approval & amount",
+    question: "Why do lenders deny personal-loan applications?",
+    shortAnswer:
+      "The five most common reasons are: credit score below the lender minimum, debt-to-income above 43%, insufficient or unverifiable income, very recent derogatory marks (60 day late, collection, charge-off), and thin or no credit history. Lenders disclose the specific reason in the adverse action notice.",
+    context:
+      "Lenders evaluate the same handful of factors, but their thresholds differ. A 620 FICO is below the floor at some lenders and well within range at others. DTI ceilings range from 40% to 50%. Income documentation rules vary widely, especially for self-employed and 1099 applicants.\n\nThe one factor that gets every applicant denied is a recent derogatory mark. A 60-day late payment in the last six months, a charge-off in the last 12 months, or an active collection account weighs heavily in every underwriter's model, regardless of score.\n\nThin credit (fewer than three open trade lines, or files less than 24 months old) is the second most common surprise denial. The fix is time plus secured-card or credit-builder loan activity to thicken the file.",
+    relatedSlugs: ["personal-loan-denied-what-next", "personal-loan-second-application-after-denial", "what-credit-score-needed-for-5000-loan"],
+    toolLinks: [
+      { label: "Glossary: Debt-to-income ratio", href: "/glossary/debt-to-income-ratio" },
+    ],
+  },
+  {
+    slug: "personal-loan-second-application-after-denial",
+    topic: "Approval & amount",
+    question: "How long should I wait to re-apply after a personal-loan denial?",
+    shortAnswer:
+      "Wait at least 30 days before re-applying with the same lender. With a different lender, you can re-apply immediately if the denial reason is lender-specific (DTI ceiling, income type) but wait 30 to 60 days if the reason is score or recent derogatory marks. Soft-pull pre-qualification first, hard application second.",
+    context:
+      "There is no federal waiting period, but two practical limits matter. Hard credit inquiries from formal applications stay on the report for 24 months and ding the score 3 to 8 points each; clustering them looks like distress to underwriters. And the same lender re-running you within 30 days is wasted effort because their underwriting model is unchanged.\n\nThe better pattern is to fix the named denial reason first (pay down a balance, document income differently, wait out a hard inquiry), then pre-qualify with two or three different lenders via soft pull. Only proceed to formal application with the lender that returns the strongest pre-qualified offer.\n\nIf the denial cited insufficient credit history, a 90-day to 6-month wait while you build trade-line activity is usually the right timeline.",
+    relatedSlugs: ["personal-loan-denied-what-next", "personal-loan-multiple-prequalifications", "personal-loan-cosigner-after-denial"],
+    toolLinks: [
+      { label: "Apply", href: "/apply" },
+    ],
+  },
+  {
+    slug: "personal-loan-cosigner-after-denial",
+    topic: "Approval & amount",
+    question: "Will a cosigner help after a personal-loan denial?",
+    shortAnswer:
+      "Often yes, but not always. A cosigner with a 700+ FICO and stable income can flip a borderline denial to approval and drop APR by 3 to 8 percentage points. Not every lender allows cosigners, so check eligibility before asking. The cosigner is fully liable for repayment and the loan reports on their credit too.",
+    context:
+      "A cosigner functions as a backup borrower. The lender underwrites both files and prices the loan to the stronger one. Cosigners help most when the primary applicant has thin credit, low income relative to the requested amount, or a recent score dip but otherwise clean history.\n\nThe trade-offs are significant for the cosigner. They take on full legal responsibility for the debt, the loan appears on their credit report and counts toward their DTI, and any missed payment by the primary borrower damages the cosigner's score too. About 38% of cosigners end up paying at least one payment on a cosigned loan, per CFPB data.\n\nIf a cosigner is not available, secured personal loans (backed by a savings account or vehicle title) and credit-union Payday Alternative Loans offer alternate paths to approval at sub-36% APR.",
+    relatedSlugs: ["personal-loan-denied-what-next", "personal-loan-joint-application", "personal-loan-with-500-credit-score"],
+    toolLinks: [
+      { label: "Glossary: Cosigner", href: "/glossary/co-signer" },
+    ],
+  },
+  {
+    slug: "personal-loan-after-funding-checklist",
+    topic: "Process & terms",
+    question: "What should I do in the first 30 days after my personal loan funds?",
+    shortAnswer:
+      "Confirm the disbursement amount, calendar the first payment date, set up autopay, save the loan agreement and amortisation schedule, and resist using freed-up credit-card limits. The first 30 days are the highest-risk window for the consolidation trap and for missed-first-payment fees.",
+    context:
+      "Lenders typically deduct origination fees from the disbursed amount, so the cash that hits your account is less than the loan principal. Verify the deposit matches the agreed net amount; if it does not, contact the lender within five business days while documentation is fresh.\n\nThe first payment is usually due 30 to 45 days after disbursement. Set up autopay from the same account, both because most lenders discount APR by 0.25 to 0.50 percentage points for autopay and because the first payment missed is the most common trigger for late fees and credit damage.\n\nIf you took the loan to consolidate cards, the most expensive mistake is leaving the cards open and running them back up. Either close the cards or, if you want to preserve the credit history, freeze them in a drawer and zero out their auto-charges.",
+    relatedSlugs: ["personal-loan-when-funds-arrive", "personal-loan-payment-methods", "personal-loan-change-due-date"],
+    toolLinks: [
+      { label: "Debt payoff calculator", href: "/calculators" },
+    ],
+  },
+  {
+    slug: "personal-loan-late-payment-grace-period",
+    topic: "Process & terms",
+    question: "Is there a grace period on a personal-loan late payment?",
+    shortAnswer:
+      "Most lenders offer a 10 to 15 day grace period before charging a late fee. The late payment is not reported to credit bureaus until it is 30 days past due. Call the lender within the grace window if you know you will be late; most will waive the fee for a first-time borrower in good standing.",
+    context:
+      "Grace period length is set in the loan agreement and varies by lender. Federal credit unions are generally on the longer end (15 days). Online lenders and bank affiliates tend toward 10 days. Late fees range from $15 to $39 or 5% of the missed payment, whichever is lower (state caps apply in some jurisdictions).\n\nThe credit-bureau reporting threshold is 30 days past due. A payment that lands on day 25 still incurs the late fee but does not hit the credit file. A payment that lands on day 31 is reported as a 30-day late, which can drop a strong score by 60 to 110 points.\n\nIf you cannot make the payment, contact the lender before the due date. Most offer hardship options (one-time deferral, modified payment plan) that keep the account current on the credit file even when cash flow does not allow on-time payment.",
+    relatedSlugs: ["personal-loan-missed-payment-credit-impact", "personal-loan-default-vs-charge-off"],
+    toolLinks: [
+      { label: "Glossary: Late fee", href: "/glossary/late-fee" },
+    ],
+  },
+  {
+    slug: "personal-loan-missed-payment-credit-impact",
+    topic: "Process & terms",
+    question: "How much will one missed personal-loan payment drop my credit score?",
+    shortAnswer:
+      "A single 30-day late payment drops a strong score (740+) by 60 to 110 points. The same late on a fair-credit score (620 to 680) drops it 40 to 80 points. The late mark stays on the credit report for seven years from the date of the missed payment, though its impact fades materially after 24 months.",
+    context:
+      "Payment history is 35% of the FICO score, the single largest factor. A 30-day late is the smallest reportable derogatory; 60-day, 90-day, and 120-day lates compound the damage at each step.\n\nThe higher the starting score, the further the drop. FICO's model assumes high-score borrowers have spotless histories, so a single late is a larger deviation from baseline than the same late on a borrower with a history of occasional issues.\n\nRecovery starts immediately once you bring the account current. Scores typically recover 50 to 70% within 12 months if no further negatives are added. A goodwill letter to the lender asking them to remove the late mark sometimes works for first-time issues on long-tenured accounts; success rates are 20 to 30%.",
+    relatedSlugs: ["personal-loan-late-payment-grace-period", "personal-loan-default-vs-charge-off", "how-to-raise-credit-score-fast"],
+    toolLinks: [
+      { label: "Glossary: FICO score", href: "/glossary/fico-score" },
+    ],
+  },
+  {
+    slug: "personal-loan-default-vs-charge-off",
+    topic: "Process & terms",
+    question: "What is the difference between loan default and charge-off?",
+    shortAnswer:
+      "Default is the lender's formal declaration that you have breached the loan agreement, typically after 90 to 120 days of non-payment. Charge-off is the accounting step where the lender writes the debt off its books as a loss, usually at 180 days past due. You still owe the debt after charge-off; it is the most damaging single mark on a credit report.",
+    context:
+      "Default and charge-off are sequential states. Default happens first, usually at 90 days past due though the trigger varies by contract. Default unlocks the lender's remedies under the loan agreement: accelerating the full balance due, suing for the debt, and reporting the default to bureaus.\n\nCharge-off follows at 180 days under federal banking regulation for most consumer loans. The lender removes the receivable from its balance sheet (an accounting move) and either continues internal collection, places it with a third-party collection agency, or sells the debt to a debt buyer. The status changes from \"default\" to \"charged off\" on the credit report.\n\nNeither step extinguishes the debt. You still owe it, and statute of limitations on collection lawsuits varies by state (3 to 10 years). A charge-off mark on the credit report stays seven years from the original date of delinquency, regardless of subsequent payment.",
+    relatedSlugs: ["personal-loan-missed-payment-credit-impact", "personal-loan-debt-sold-to-collections-rights"],
+    toolLinks: [
+      { label: "Glossary: Charge-off", href: "/glossary/charge-off" },
+    ],
+  },
+  {
+    slug: "personal-loan-debt-sold-to-collections-rights",
+    topic: "Special situations",
+    question: "What are my rights if my personal loan is sold to a collections agency?",
+    shortAnswer:
+      "Under the federal Fair Debt Collection Practices Act, the collector must send a written validation notice within five days of first contact. You can demand debt validation in writing within 30 days; the collector must stop collection until they prove the debt is yours and the amount is correct. They cannot call before 8 AM or after 9 PM, contact your employer, or use threats.",
+    context:
+      "Debt buyers acquire portfolios of charged-off accounts at pennies on the dollar. Many lack full documentation, which is the core of your leverage. Send a written debt-validation request within 30 days of first contact (use certified mail with return receipt). Collection must pause until they produce the original loan agreement, signed assignment of the debt from the original creditor, and an itemised balance.\n\nAbout 25 to 40% of validation requests return either no response or insufficient documentation, in which case the collector cannot legally pursue the debt or report it to bureaus. They sometimes still try; that is itself an FDCPA violation worth a CFPB complaint.\n\nDo not make a partial payment or verbally acknowledge the debt before deciding strategy. In some states, either step restarts the statute-of-limitations clock from zero, extending the collector's legal window.",
+    relatedSlugs: ["personal-loan-default-vs-charge-off", "personal-loan-cfpb-complaint"],
+    toolLinks: [
+      { label: "Glossary: FDCPA", href: "/glossary/fdcpa" },
+      { label: "Glossary: Debt validation letter", href: "/glossary/debt-validation-letter" },
+    ],
+  },
+  {
+    slug: "personal-loan-refinance-when",
+    topic: "Process & terms",
+    question: "When does it make sense to refinance a personal loan?",
+    shortAnswer:
+      "Refinance when the new APR is at least 2 percentage points lower than your current one AND the origination fee on the new loan is under 3%. Also consider it if you need a longer term to lower the payment or a shorter term to pay off faster without origination fees eating the savings. Avoid refinancing in the last 12 months of an existing loan.",
+    context:
+      "The math test is simple. Take your current loan's remaining balance and remaining months. Calculate total remaining interest at the current APR. Then run the same balance at the new APR over the new term, adding the origination fee on top. If the new total cost is meaningfully lower, refinance pays off.\n\nThe two situations where refinancing is almost always a mistake: late in the loan when most interest is already paid (the fee outweighs savings), and stretching the term significantly longer just to lower the monthly payment (you save monthly cash flow but pay more total interest).\n\nCredit profile improvements are the most common refi trigger. A 60-point score increase after 18 to 24 months of on-time payments can drop APR by 5 to 8 percentage points, easily justifying the fee.",
+    relatedSlugs: ["personal-loan-lump-sum-payoff", "personal-loan-partial-prepayment"],
+    toolLinks: [
+      { label: "APR calculator", href: "/calculators" },
     ],
   },
 ];

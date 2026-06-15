@@ -10,6 +10,24 @@ export function generateStaticParams() {
   return states.map((s) => ({ state: s.slug }));
 }
 
+// State-law Q&As we have published per-state. Empty for states without a
+// dedicated state-law Q&A; the cross-cutting list below still applies.
+const STATE_LAW_QA: Record<string, { slug: string; label: string } | undefined> = {
+  arkansas: { slug: "personal-loan-arkansas-apr-cap", label: "Arkansas's 17% constitutional APR cap on consumer loans" },
+  california: { slug: "personal-loan-california-fair-access-act", label: "California Fair Access to Credit Act (36% APR ceiling)" },
+  colorado: { slug: "personal-loan-colorado-36-cap", label: "Colorado's 36% all-in APR cap on consumer loans" },
+  "new-york": { slug: "personal-loan-new-york-25-cap", label: "New York's 25% criminal-usury ceiling on consumer lending" },
+  texas: { slug: "personal-loan-texas-no-apr-cap", label: "Texas: no APR cap on unsecured consumer loans" },
+  florida: { slug: "personal-loan-florida-state-rules", label: "Florida's tiered APR caps on consumer installment loans" },
+  illinois: { slug: "personal-loan-illinois-predatory-lending", label: "Illinois Predatory Loan Prevention Act (36% MAPR cap)" },
+};
+
+const CROSS_CUTTING_LAW_QA: Array<{ slug: string; label: string }> = [
+  { slug: "personal-loan-state-availability", label: "Why personal loans aren't available in every state" },
+  { slug: "personal-loan-military-mla-protections", label: "Military Lending Act (MLA) protections for active-duty servicemembers" },
+  { slug: "personal-loan-cfpb-complaint", label: "How to file a CFPB complaint against a lender" },
+];
+
 type Props = { params: Promise<{ state: string }> };
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
@@ -219,6 +237,59 @@ export default async function StatePage({ params }: Props) {
           </div>
         </section>
       )}
+
+      {/* STATE LAW + CONSUMER PROTECTION Q&As, AEO + internal linking */}
+      <section className="border-t border-cream-300 bg-paper-50">
+        <div className="mx-auto max-w-[1080px] px-6 py-16 lg:px-10">
+          <span className="eyebrow">{s.name} consumer protection</span>
+          <h2 className="mt-3 text-[26px] leading-[1.1] tracking-tight text-ink-900 lg:text-[32px]">
+            State law and your rights as a {s.name} borrower.
+          </h2>
+          <p className="mt-3 max-w-[60ch] text-[14px] leading-relaxed text-ink-700">
+            Short-form answers to the most common state-law and borrower-rights questions {s.name} residents ask before applying.
+          </p>
+          <ul className="mt-8 grid gap-3 sm:grid-cols-2">
+            {STATE_LAW_QA[s.slug] && (
+              <li>
+                <Link
+                  href={`/questions/${STATE_LAW_QA[s.slug]!.slug}`}
+                  className="group block rounded-xl border border-cream-300 bg-cream-50 p-5 transition-colors hover:bg-cream-100 hover:border-cream-400"
+                >
+                  <span className="text-[11px] uppercase tracking-[0.15em] text-forest-700">
+                    {s.name} specific
+                  </span>
+                  <p className="mt-2 text-[15px] font-semibold leading-snug text-ink-900 group-hover:text-forest-700">
+                    {STATE_LAW_QA[s.slug]!.label}
+                  </p>
+                </Link>
+              </li>
+            )}
+            {CROSS_CUTTING_LAW_QA.map((q) => (
+              <li key={q.slug}>
+                <Link
+                  href={`/questions/${q.slug}`}
+                  className="group block rounded-xl border border-cream-300 bg-cream-50 p-5 transition-colors hover:bg-cream-100 hover:border-cream-400"
+                >
+                  <p className="text-[15px] font-semibold leading-snug text-ink-900 group-hover:text-forest-700">
+                    {q.label}
+                  </p>
+                </Link>
+              </li>
+            ))}
+            <li>
+              <Link
+                href="/data/personal-loan-apr-by-state"
+                className="group block rounded-xl border border-cream-300 bg-cream-50 p-5 transition-colors hover:bg-cream-100 hover:border-cream-400"
+              >
+                <span className="text-[11px] uppercase tracking-[0.15em] text-forest-700">Data study</span>
+                <p className="mt-2 text-[15px] font-semibold leading-snug text-ink-900 group-hover:text-forest-700">
+                  All-state APR cap comparison: {s.name} vs the rest of the country
+                </p>
+              </Link>
+            </li>
+          </ul>
+        </div>
+      </section>
 
       {/* NEIGHBOURING STATES, internal linking */}
       <section>

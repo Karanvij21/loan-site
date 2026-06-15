@@ -581,6 +581,58 @@ export const glossaryTerms: GlossaryTerm[] = [
     long: "A joint loan application means two borrowers apply together, both signing the promissory note and both fully liable for the debt. The lender pulls both credit reports and documents both incomes. The loan appears on both credit files. Joint applications differ from cosigning: a cosigner guarantees a primary borrower's loan but isn't a co-borrower; joint applicants are equal borrowers. Joint applications are useful when one applicant has stronger income and the other has stronger credit; combining unlocks larger amounts or better APRs than either could achieve alone.",
     related: ["co-applicant", "co-signer", "promissory-note"],
   },
+
+  // ─── Collections, default, post-funding ──────────────────────────
+  {
+    slug: "fdcpa",
+    name: "Fair Debt Collection Practices Act (FDCPA)",
+    aka: ["Fair Debt Collection Practices Act"],
+    category: "Regulation",
+    short:
+      "A federal law that prohibits abusive, deceptive, and unfair practices by third-party debt collectors. Limits when and how often they can contact you, requires written validation of the debt, and gives you the right to demand they stop contacting you in writing.",
+    long: "The Fair Debt Collection Practices Act (FDCPA), 15 U.S.C. §§ 1692-1692p, is the primary federal consumer-protection law for third-party debt collection. It applies to collection agencies and debt buyers (not to original creditors). Core protections: collectors must identify themselves, send a written validation notice within five days of first contact, stop collection on a disputed debt until proof is provided, and cease contact in writing if the consumer demands it. Forbidden tactics include calls before 8 AM or after 9 PM, contacting your employer, threats, or using deceptive language. Violations carry actual damages plus $1,000 statutory damages per case, and the CFPB enforces parallel rules under Regulation F.",
+    related: ["debt-validation-letter", "charge-off", "cfpb"],
+  },
+  {
+    slug: "debt-validation-letter",
+    name: "Debt validation letter",
+    aka: ["debt verification letter", "FDCPA validation request"],
+    category: "Regulation",
+    short:
+      "A written request sent to a debt collector within 30 days of first contact, demanding proof the debt is yours and the amount is correct. The collector must pause collection activity and bureau reporting until they provide documentation.",
+    long: "A debt validation letter is a formal exercise of the consumer's rights under FDCPA § 1692g. Sent to the collector within 30 days of the initial validation notice (use certified mail with return receipt as proof of timing), the letter requests: the original creditor's name, the original loan agreement, an itemised statement of the amount owed, and documentation of the chain of assignment showing the collector has legal authority to collect. Until the collector provides this evidence, they must halt all collection activity, including credit-bureau reporting. About 25 to 40% of validation requests on older or sold debts result in no response, after which the debt is uncollectable by that party. Sample letters are available from the CFPB consumer-tools site.",
+    related: ["fdcpa", "assignment-of-debt", "cfpb"],
+  },
+  {
+    slug: "assignment-of-debt",
+    name: "Assignment of debt",
+    aka: ["debt assignment", "sold debt"],
+    category: "Regulation",
+    short:
+      "The legal transfer of a creditor's right to collect a debt to another party, typically a debt buyer that purchases charged-off accounts in bulk. The new party steps into the original creditor's shoes but inherits all the consumer's defenses.",
+    long: "Assignment of debt is the contractual transfer of a creditor's interest in a receivable to a third party. After a personal loan is charged off (typically at 180 days past due), the original lender often sells the account to a debt buyer for pennies on the dollar. The buyer can then collect, sue, and report to bureaus as if they were the original creditor. However, the consumer keeps every defense and counterclaim available against the original lender, plus FDCPA protections that did not apply to the original lender. A common debt-buyer weakness is incomplete chain-of-title documentation: when forced to prove the assignment in court or through debt validation, many buyers cannot, which can defeat the claim entirely.",
+    related: ["fdcpa", "charge-off", "debt-validation-letter"],
+  },
+  {
+    slug: "right-to-cure",
+    name: "Right to cure",
+    aka: ["cure period", "notice of right to cure"],
+    category: "Regulation",
+    short:
+      "A state-law requirement that a lender give a defaulted borrower written notice and a defined window (typically 10 to 30 days) to bring the loan current before the lender can accelerate the balance, repossess collateral, or sue. About 20 states require it on consumer loans.",
+    long: "The right to cure is a state-level borrower protection that interrupts a lender's path from default to legal remedies. Where it applies (Connecticut, Iowa, Kansas, Maine, Massachusetts, Wisconsin, and roughly 15 other states each with their own statute), the lender must serve a notice that specifies the missed payment amount, the deadline to pay (typically 10, 15, 20, or 30 days), and the consequence of not curing. If the borrower pays the past-due amount plus permitted late fees within the cure window, the loan is reinstated and the lender cannot accelerate or sue based on that default. Right-to-cure does not exist under federal law for unsecured personal loans, so out-of-state lenders sometimes attempt to skip the step; in cure-required states, doing so is grounds for a counterclaim.",
+    related: ["default", "fdcpa"],
+  },
+  {
+    slug: "statute-of-limitations-debt",
+    name: "Statute of limitations on debt",
+    aka: ["debt SOL", "time-barred debt"],
+    category: "Regulation",
+    short:
+      "The maximum time after a debt becomes delinquent during which a creditor or collector can sue to collect. Varies by state and debt type, typically 3 to 10 years for personal loans. After the period expires, the debt is time-barred and unenforceable in court, though it remains on credit reports for seven years.",
+    long: "The statute of limitations on consumer debt is a state-law clock that starts at the date of first delinquency (the date you missed the payment that was never cured). For written contracts (which includes most personal loans), the SOL is typically 3 to 6 years; for oral or open-ended accounts, often 3 to 4 years. Once the SOL runs, a lawsuit to collect can be defeated by raising the SOL as an affirmative defense. SOL does not extinguish the underlying debt and does not erase the credit-report mark (which is governed separately by the seven-year FCRA reporting window). Two consumer pitfalls reset the clock: making a partial payment or providing a written acknowledgment of the debt. In about half of states, a verbal acknowledgment is enough. Time-barred debts are still legally pursued via collection calls and bureau pressure; only the lawsuit path is closed.",
+    related: ["fdcpa", "charge-off", "assignment-of-debt"],
+  },
 ];
 
 export const glossaryBySlug = Object.fromEntries(

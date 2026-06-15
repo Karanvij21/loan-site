@@ -11,7 +11,7 @@ import { HeroPattern } from "@/components/HeroPattern";
 import { defaultAuthor, defaultReviewer, authorUrl } from "@/lib/authors";
 
 const PUBLISHED = "2026-05-22";
-const REVIEWED = "2026-05-22";
+const REVIEWED = "2026-06-15";
 const URL = `${siteConfig.url}/data/personal-loan-apr-by-state`;
 
 export const metadata: Metadata = {

@@ -70,13 +70,17 @@ export const cities: City[] = [
   city("San Francisco", "san-francisco", "california", 815_000),
   city("Fresno", "fresno", "california", 545_000),
   city("Sacramento", "sacramento", "california", 525_000),
+  city("Long Beach", "long-beach", "california", 456_000),
   city("Oakland", "oakland", "california", 430_000),
+  city("Bakersfield", "bakersfield", "california", 407_000),
+  city("Anaheim", "anaheim", "california", 346_000),
 
   // Colorado
   city("Denver", "denver", "colorado", 715_000),
   city("Colorado Springs", "colorado-springs", "colorado", 480_000),
   city("Aurora", "aurora", "colorado", 387_000),
   city("Fort Collins", "fort-collins", "colorado", 170_000),
+  city("Boulder", "boulder", "colorado", 108_000),
 
   // Connecticut
   city("Bridgeport", "bridgeport", "connecticut", 148_000),
@@ -98,7 +102,9 @@ export const cities: City[] = [
   city("Tampa", "tampa", "florida", 395_000),
   city("Orlando", "orlando", "florida", 320_000),
   city("St. Petersburg", "st-petersburg", "florida", 260_000),
+  city("Hialeah", "hialeah", "florida", 220_000),
   city("Tallahassee", "tallahassee", "florida", 200_000),
+  city("Fort Lauderdale", "fort-lauderdale", "florida", 183_000),
 
   // Georgia
   city("Atlanta", "atlanta", "georgia", 510_000),
@@ -304,6 +310,8 @@ export const cities: City[] = [
   city("Fort Worth", "fort-worth", "texas", 960_000),
   city("El Paso", "el-paso", "texas", 680_000),
   city("Arlington", "arlington", "texas", 395_000),
+  city("Corpus Christi", "corpus-christi", "texas", 317_000),
+  city("Plano", "plano", "texas", 288_000),
 
   // Utah
   city("Salt Lake City", "salt-lake-city", "utah", 200_000),

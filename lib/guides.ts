@@ -1580,6 +1580,128 @@ export const guides: Guide[] = [
       { label: "Loan payment calculator", href: "/calculators/loan-payment" },
     ],
   },
+
+  // ─── Loan shopping: 2026 checklist guide ─────────────────────────
+  {
+    slug: "how-to-choose-personal-loan-2026-checklist",
+    cluster: "Loan shopping",
+    h1: "How to choose a personal loan in 2026: a complete checklist",
+    title: "How to Choose a Personal Loan in 2026: The Complete Checklist",
+    description:
+      "A step-by-step checklist for choosing a personal loan in 2026. How to compare APRs, watch for hidden fees, pick the right term, and avoid the common mistakes that cost borrowers thousands.",
+    publishedAt: PUBLISHED,
+    reviewedAt: REVIEWED,
+    estimatedReadMinutes: 14,
+    intro:
+      "Choosing a personal loan well is mostly about ignoring the marketing and running a few specific comparisons. This checklist walks through the decisions that actually matter in 2026: what to do before you apply, how to compare offers apples-to-apples, the fees most borrowers miss, and the term-length math that costs more than the interest rate ever will.",
+    sections: [
+      {
+        h2: "Step 1: Pin down the actual purpose before you shop",
+        body:
+          "The single biggest predictor of whether a personal loan is the right tool is whether the borrower can articulate the purpose in one sentence. \"Consolidate $8,400 of credit-card balances at 24% APR\" is a clear purpose. \"Have some extra cash\" is not.\n\nThe purpose matters because it determines two things: the right loan size and the right loan term. Consolidation usually wants the shortest term you can afford so total interest stays low. A medical bill might warrant a longer term to keep monthly cash flow manageable. A home repair sits somewhere between. The size should match the purpose plus a small buffer, not a round number you'd like to have on hand.\n\nIf the purpose is vague, that is information too. Vague purposes correlate strongly with rolling cash from a personal loan back onto credit cards within 90 days, which is the worst-case outcome: you end up with the loan AND the cards. If the purpose does not survive the one-sentence test, do not take the loan.",
+        bullets: [
+          "Write the purpose in one sentence including the dollar amount",
+          "Match loan size to purpose plus a small buffer (5 to 10%), not a round number",
+          "Match term length to purpose: consolidation favours shorter, large one-time costs favour longer",
+        ],
+      },
+      {
+        h2: "Step 2: Check your credit score and report before applying",
+        body:
+          "Lenders price loans against the score they see, not the score you think you have. The two scores can differ materially. The free FICO score from Discover Credit Scorecard, Experian, or Credit Karma's VantageScore is a useful approximation, but the score a marketplace lender sees during pre-qualification is the authoritative one.\n\nMore important than the score is the credit report itself. About 25% of credit reports contain errors that affect score, per FTC research. Common errors: accounts that aren't yours, balances reported higher than current, late marks that were paid as agreed, collections that should have aged off. Each of these can be disputed for free via the credit-bureau dispute process. Disputes resolve in 30 days. Removing one wrongly-reported late mark can move a score 30 to 60 points.\n\nPull all three reports at annualcreditreport.com (the only authorised free source under federal law). Read every line. Dispute errors before applying. The 30-day delay pays for itself many times over if it nets a lower APR.",
+        bullets: [
+          "Free reports at annualcreditreport.com (not Credit Karma, which is VantageScore approximation)",
+          "Dispute errors via the bureau's online portal; takes 30 days",
+          "If score is borderline, pay down revolving balances below 30% utilisation before applying",
+        ],
+      },
+      {
+        h2: "Step 3: Pre-qualify with 3 to 5 lenders, not 1",
+        body:
+          "Pre-qualification is a soft credit pull that returns an estimated rate and term without affecting your credit score. Doing this with multiple lenders is the single most valuable step in loan shopping. Rate spreads between lenders for the same borrower routinely hit 8 to 12 percentage points. Picking the first acceptable offer leaves real money on the table.\n\nPre-qualifying with three to five lenders takes about 30 minutes total. Use a mix: at least one marketplace aggregator (which routes the request to many lenders behind the scenes), one direct online lender, and one credit union if you're a member or can join. Each will return a small set of pre-qualified offers within minutes.\n\nThe pre-qualified offer is not the final offer. The final APR is set after a hard credit pull at formal application. About 70 to 80% of pre-qualified offers convert to the same or better terms at finalisation, per industry data. If the final offer worsens materially, you are free to walk away.",
+        bullets: [
+          "Pre-qualification uses soft pull only; no credit-score impact",
+          "Compare at least one marketplace, one direct online lender, and one credit union",
+          "Pre-qualified offers are estimates; final terms can change at hard-pull stage",
+        ],
+      },
+      {
+        h2: "Step 4: Compare APR, not interest rate. And factor in the origination fee.",
+        body:
+          "The single most common loan-shopping mistake is comparing interest rates instead of APRs. The interest rate is the cost of borrowing the principal. The APR adds in the origination fee and other mandatory charges. A 10% interest rate with a 6% origination fee is materially more expensive than an 11.5% interest rate with no origination fee, despite the lower headline rate.\n\nFederal Truth-in-Lending Act (TILA) disclosure requires every lender to state the APR. Use that number for comparisons. If a lender obscures APR in marketing materials and only shows interest rate, that is itself a signal worth weighting.\n\nOrigination fees in 2026 typically run 0% to 8% of the loan amount. They are usually deducted from the disbursed funds, not added to the balance. A $10,000 loan with a 6% origination fee disburses $9,400 of cash, but you repay the full $10,000 plus interest. Plan for the reduction: if you need a full $10,000 of usable cash, borrow $10,640.\n\nFor consolidation specifically, calculate the effective cost both ways. A 14% APR loan with 0% origination beats a 12% APR loan with 5% origination if the term is short enough. Our APR calculator runs the full comparison.",
+        bullets: [
+          "Compare APRs, not interest rates",
+          "Origination fees are typically 0 to 8% of principal, deducted at funding",
+          "Borrow slightly more than you need if origination is high (to net the actual usable amount)",
+          "A no-origination loan at a higher rate sometimes beats a lower-rate loan with high origination",
+        ],
+      },
+      {
+        h2: "Step 5: Pick the shortest term you can actually afford",
+        body:
+          "Term length is where the most-overlooked money mistake hides. Loan sites prominently display the monthly payment for the longest available term because it makes the loan look most affordable. But total interest paid is roughly linear in term length: a 60-month loan costs about twice as much in interest as a 30-month loan at the same APR. Choose the shortest term that fits monthly cash flow, not the longest term that fits.\n\nA worked example. $15,000 at 14% APR over 36 months: $513 monthly, $3,469 total interest. The same $15,000 at the same 14% APR over 72 months: $307 monthly, $7,121 total interest. The longer term saves $206 monthly but costs $3,652 more in total interest. Whether that trade is worth it depends entirely on what else the monthly $206 is doing. If it's covering a real cash-flow need, the trade can be acceptable. If it's freeing up money that immediately gets spent elsewhere, the trade is a wealth transfer to the lender.\n\nThe right way to choose term: compute the monthly payment at the shortest term that fits your budget plus a 10% cushion. That gives you the lowest total cost without trapping yourself in a payment you can't make in a bad month.",
+        bullets: [
+          "Total interest is roughly linear in term length at the same APR",
+          "Aim for the shortest term where the payment plus a 10% buffer fits your budget",
+          "Avoid the maximum term unless monthly cash flow truly requires it",
+        ],
+      },
+      {
+        h2: "Step 6: Check for prepayment penalties and other small-print traps",
+        body:
+          "Most U.S. personal loans in 2026 have no prepayment penalty: you can pay extra principal at any time and reduce total interest. But not all. A handful of subprime lenders charge a prepayment fee on early payoff, especially in the first 12 to 24 months. The fee is usually expressed as a percentage of the remaining balance or a number of months of interest. Check the loan agreement explicitly for the words \"prepayment penalty\" or \"prepayment charge.\"\n\nOther small-print items worth reading: the late-fee schedule (federal cap is 4% of the missed payment; some lenders charge less), the grace period before late fees apply (usually 10 to 15 days), the credit-bureau reporting policy (most lenders report at 30 days past due, which is when the score damage starts), and any insurance products bundled into the loan. Credit insurance, payment-protection insurance, and similar add-ons are almost always overpriced and rarely beneficial.\n\nIf the loan agreement is long, search for these specific words: \"prepayment,\" \"insurance,\" \"refundable,\" \"acceleration,\" \"arbitration.\" Each one points to a clause worth understanding before signing.",
+        bullets: [
+          "Confirm no prepayment penalty (most loans in 2026 have none; verify yours)",
+          "Decline bundled credit insurance, payment protection, or similar add-ons unless you've priced them separately",
+          "Read the acceleration clause (when can the lender call the full balance due?)",
+          "Note the arbitration clause if any (you may be waiving the right to a court trial)",
+        ],
+      },
+      {
+        h2: "Step 7: Sign, set up autopay, save the documents",
+        body:
+          "Once you've picked the offer and signed, the loan funds typically arrive in your checking account within one to two business days via ACH. Confirm the disbursement amount matches the agreed net (loan principal minus origination fee). If it does not, contact the lender within five business days while documentation is fresh.\n\nSet up autopay from the same account that received the disbursement. Two reasons. First, most lenders discount the APR by 0.25 to 0.50 percentage points for autopay enrollment, which usually pays for itself. Second, missed first payments are the single most common cause of credit damage on new personal loans. Autopay removes that risk.\n\nSave three documents: the final loan agreement, the amortisation schedule (showing how each payment splits between principal and interest), and the welcome email. Store them somewhere you'll find them in three years: a labelled folder in your email, a synced cloud drive, or a personal-finance app. You'll want them if you sell or refinance the loan, if there's a dispute about the balance, or if you're considering early payoff and need the exact figure.",
+        bullets: [
+          "Verify disbursement amount matches your agreed net (principal minus origination)",
+          "Enroll in autopay for the APR discount and to eliminate missed-first-payment risk",
+          "Save the loan agreement, amortisation schedule, and welcome email together",
+        ],
+      },
+      {
+        h2: "Common mistakes to avoid",
+        body:
+          "Three patterns cause the most expensive personal-loan outcomes.\n\nFirst, consolidating credit-card balances and then running the cards back up. About 30% of consolidation borrowers reaccumulate card debt within 18 months, per CFPB research. The result is the loan plus new card balances at the original APRs, often a worse total position than before consolidation. The fix is structural: close the cards, or freeze them in a drawer, or move all autopayments off them. Behavioural intent is not enough.\n\nSecond, applying with too many lenders in a short window. Hard credit inquiries from formal applications cluster in a 14 to 45-day window count as one inquiry for FICO scoring, but they still leave individual marks on the report and can flag the application as distressed. Use soft-pull pre-qualification to narrow to one or two finalists before any hard application.\n\nThird, choosing the longest term to make the monthly payment look small. Lenders display this as the default for a reason. Run the total-interest math at multiple term lengths before signing. The right term is the shortest one your cash flow can support.",
+      },
+    ],
+    faqs: [
+      {
+        q: "How long should I shop before signing?",
+        a: "Plan for 1 to 2 weeks. That's enough time to dispute any credit-report errors (30 days but most resolve faster), pre-qualify with 3 to 5 lenders, run total-cost comparisons, and read each agreement carefully. Faster is fine if the rate environment is favorable and the lender is established; rushing for a same-day decision usually leaves money on the table.",
+      },
+      {
+        q: "Should I use a personal loan to pay off a personal loan?",
+        a: "Sometimes yes, sometimes no. The math test: take your current loan's remaining balance and remaining months, calculate total remaining interest at the current APR, then run the same balance at the new APR over the new term, adding the origination fee on top. If the new total is meaningfully lower, refinance. Late in the loan when most interest has already been paid, refinancing is usually a mistake; the origination fee will eat the savings.",
+      },
+      {
+        q: "What's the lowest APR I should expect?",
+        a: "Best published rates in 2026 are 5.99% to 7%, available to FICO 740+ borrowers with low DTI and verifiable income. Most borrowers see APRs of 10% to 18% in the prime-to-near-prime credit range, 18% to 28% in the fair-credit range, and 28% to 35.99% in the subprime range. State APR caps apply in about 24 states.",
+      },
+      {
+        q: "Should I take a personal loan to invest?",
+        a: "Almost never. Borrowing at a 10% APR to invest expecting a 7% return is negative-expected-value math, even though the long-term U.S. equity return historically exceeds 7%. The variance is large enough that the leveraged position can be deeply negative in any given 3 to 5-year window. Avoid; if you have the cash flow to service a loan payment, redirect it into investing directly instead.",
+      },
+      {
+        q: "What if my score changes between pre-qualification and final offer?",
+        a: "Pre-qualification reflects the score on the day of soft pull. The hard pull at formal application uses the current score. If the score moved significantly (because of new derogatories, a new account opened, or a balance change), the final offer can be repriced. Avoid opening new credit or taking on new debt between pre-qualification and final approval.",
+      },
+    ],
+    relatedSlugs: ["compare-personal-loan-offers", "hidden-fees-personal-loans", "what-credit-score-for-personal-loan"],
+    toolLinks: [
+      { label: "APR calculator", href: "/calculators/apr", blurb: "Convert headline rates plus origination fees to true APR." },
+      { label: "Loan payment calculator", href: "/calculators/loan-payment", blurb: "Estimate monthly payment at any APR and term." },
+      { label: "Pre-qualify with multiple lenders", href: "/apply", blurb: "Soft credit check, no obligation, results in minutes." },
+    ],
+  },
 ];
 
 export const guidesBySlug = Object.fromEntries(

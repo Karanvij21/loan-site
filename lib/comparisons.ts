@@ -306,6 +306,282 @@ export const comparisons: Record<string, Comparison> = {
       { q: "Can I switch from variable to fixed?", a: "Indirectly, by refinancing into a fixed-rate product. Some HELOCs offer a 'fix-the-rate' option that converts a portion of the outstanding balance to a fixed instalment within the same account." },
     ],
   },
+
+  "personal-loan-vs-home-equity-loan": {
+    slug: "personal-loan-vs-home-equity-loan",
+    h1: "Personal loan vs home equity loan",
+    title: "Personal Loan vs Home Equity Loan: Costs, Risk, and When Each Wins",
+    description:
+      "Home equity loans price 4 to 8 points lower than personal loans, but they put your house on the line. Side-by-side: APR, closing costs, risk, tax treatment, and best-fit scenarios.",
+    aName: "Personal loan",
+    bName: "Home equity loan",
+    intro:
+      "Both are fixed installment loans with predictable monthly payments. The home equity loan typically wins on price (your house is collateral, so the lender risks less) but loses on flexibility, speed, and the size of the downside if you cannot pay. A home equity loan that defaults can mean foreclosure; a personal loan that defaults damages your credit but cannot take the house.",
+    rows: [
+      { k: "Collateral", a: "None (unsecured)", b: "Your home (secured)" },
+      { k: "APR range (typical)", a: "5.99% to 35.99%", b: "7% to 12%" },
+      { k: "Loan amount", a: "$100 to $50,000", b: "Up to 85% of home equity" },
+      { k: "Term", a: "3 to 72 months", b: "5 to 30 years" },
+      { k: "Closing costs", a: "$0 to 8% origination", b: "2% to 5% of loan amount, plus appraisal" },
+      { k: "Time to fund", a: "Next business day", b: "4 to 8 weeks" },
+      { k: "Worst-case risk if you default", a: "Credit damage and collections", b: "Foreclosure on your home" },
+      { k: "Tax treatment", a: "Interest never deductible for personal use", b: "Interest may be deductible if used for substantial home improvement (post-TCJA)" },
+      { k: "Closing cost recovered in", a: "Immediate (low or no fees)", b: "24 to 36 months of interest savings, typically" },
+    ],
+    verdicts: [
+      { scenario: "Borrowing $30,000+ for a major home renovation", pick: "b", reason: "Lower APR and possible tax deduction make the closing-cost outlay worth it for large, long-term borrowing tied to the property." },
+      { scenario: "Borrowing $5,000 for any non-home purpose", pick: "a", reason: "Closing costs alone on a home equity loan would eat the APR savings, and you would be securing a small debt with your house." },
+      { scenario: "You need funds in under a week", pick: "a", reason: "Home equity loans require appraisal and underwriting; personal loans fund in days." },
+      { scenario: "You worry about job security or future income volatility", pick: "a", reason: "An unsecured default damages credit. A secured default can cost you the house." },
+    ],
+    faqs: [
+      { q: "Is a home equity loan the same as a HELOC?", a: "No. A home equity loan is a fixed-rate lump sum repaid in equal installments. A HELOC is a revolving line of credit with a variable rate. Both use your home as collateral, but the cash-flow profile and risk differ. See our separate personal-loan-vs-HELOC comparison for that side." },
+      { q: "How much equity do I need?", a: "Most lenders require you to retain at least 15 to 20% equity in the home after the new loan. If your home is worth $400,000 and your mortgage balance is $250,000, you have $150,000 of equity; you might borrow up to about $90,000 to $120,000 depending on the lender's combined LTV ceiling." },
+      { q: "Are home equity loan interest payments tax-deductible?", a: "Only if the loan is used to 'buy, build, or substantially improve' the home that secures the loan, per the Tax Cuts and Jobs Act (2017). Interest on funds used for debt consolidation, tuition, or other non-home purposes is not deductible. Consult a CPA on your specific use." },
+      { q: "What credit score do I need?", a: "Home equity loans typically require a FICO of 660+ and a debt-to-income ratio under 43%. The best pricing usually requires a 720+ score." },
+    ],
+  },
+
+  "personal-loan-vs-bnpl": {
+    slug: "personal-loan-vs-bnpl",
+    h1: "Personal loan vs Buy Now Pay Later (BNPL)",
+    title: "Personal Loan vs Buy Now Pay Later: Costs, Credit Impact, Hidden Risks",
+    description:
+      "BNPL is interest-free if you pay on time, but late fees, deferred interest, and credit-report changes have shifted the math. Side-by-side with personal loans for purchase financing.",
+    aName: "Personal loan",
+    bName: "BNPL",
+    intro:
+      "Buy Now Pay Later splits a single purchase into 4 to 12 short installments, typically at 0% APR if you pay on time. Personal loans amortise a larger principal over 12 to 72 months at a stated APR. BNPL wins for small, single-store purchases you will repay quickly; personal loans win for anything larger, multi-merchant, or longer-term.",
+    rows: [
+      { k: "Structure", a: "Fixed installment loan", b: "Short-term installment plan, typically 4 payments over 6 weeks" },
+      { k: "Loan amount", a: "$100 to $50,000", b: "$50 to $5,000 per purchase, lender-specific cap" },
+      { k: "APR if paid on time", a: "5.99% to 35.99%", b: "0%" },
+      { k: "APR if late", a: "5.99% to 35.99% (same)", b: "Deferred interest can retroactively apply 20% to 30% on the original purchase" },
+      { k: "Credit check", a: "Soft pull at pre-qualification", b: "Soft pull (most providers); some hard pull for longer plans" },
+      { k: "Credit-bureau reporting", a: "Reports as installment loan", b: "Increasingly reports to bureaus (Klarna, Affirm reporting changed in 2025)" },
+      { k: "Where you can use it", a: "Any purpose (cash to your bank account)", b: "Only at participating merchants" },
+      { k: "Late fees", a: "$15 to $39, capped by state law", b: "Up to $7 per missed payment per BNPL provider; sometimes more" },
+      { k: "Best for", a: "Larger purchases, debt consolidation, multi-merchant spend", b: "A single sub-$500 purchase you will fully repay in 6 weeks" },
+    ],
+    verdicts: [
+      { scenario: "Furniture or appliance under $1,500", pick: "b", reason: "0% APR over 6 weeks beats any loan interest, assuming you have the cash flow to pay on time." },
+      { scenario: "Consolidating multiple BNPL plans", pick: "a", reason: "Stacking multiple BNPL plans is the modern equivalent of carrying multiple card minimums. A personal loan rolls them all into one payment." },
+      { scenario: "$5,000+ purchase", pick: "a", reason: "Most BNPL caps below $5,000; personal loans price competitively at this size and amortise over a manageable term." },
+      { scenario: "You routinely miss credit-card payment dates", pick: "a", reason: "Personal-loan late fees are capped and predictable. BNPL deferred-interest products can retroactively apply 20%+ APR on the original purchase price." },
+    ],
+    faqs: [
+      { q: "Does BNPL affect my credit score?", a: "Increasingly yes. Klarna and Affirm now report most plans to TransUnion and Experian (as of 2025). On-time payments build positive history; missed payments are reported as delinquencies. Older 'pay in 4' plans often did not report; new plans usually do. Read the disclosure before signing." },
+      { q: "What is deferred interest?", a: "Some BNPL plans (especially the 6, 12, or 24-month variety) are structured as 'deferred interest': the 0% promotional APR disappears retroactively if the balance is not paid in full by the promo end date. If you carry even $1 past that date, the original purchase price gets charged the post-promo APR (often 20%+) retroactive to the purchase date." },
+      { q: "Can I get a BNPL plan with bad credit?", a: "The 'pay in 4' style plans are usually approved instantly on a soft pull with minimal underwriting. Longer plans require a hard pull and standard underwriting. Sub-580 FICO applicants often face denials on the longer plans." },
+      { q: "How many BNPL plans is too many?", a: "Industry research suggests borrowers carrying 3+ active BNPL plans simultaneously are materially more likely to miss a payment. The CFPB has flagged 'BNPL stacking' as a 2025 priority enforcement area." },
+    ],
+  },
+
+  "personal-loan-vs-pawn-loan": {
+    slug: "personal-loan-vs-pawn-loan",
+    h1: "Personal loan vs pawn loan",
+    title: "Personal Loan vs Pawn Loan: APRs, Risk, and When Each Makes Sense",
+    description:
+      "Pawn loans require no credit check but charge 100% to 200% APR and risk losing your item. Personal loans take longer to approve but cost a fraction. Side-by-side analysis.",
+    aName: "Personal loan",
+    bName: "Pawn loan",
+    intro:
+      "A pawn loan is a short-term cash advance against a physical item you surrender to the pawnbroker as collateral. No credit check, no income verification, no application beyond presenting the item. The trade-off is brutal pricing (effective APRs of 100% to 240%) and the risk of losing the item if you cannot repay within the typically 30 to 90-day window.",
+    rows: [
+      { k: "Collateral", a: "None (unsecured)", b: "Physical item (jewelry, electronics, tools, instruments)" },
+      { k: "APR range", a: "5.99% to 35.99%", b: "100% to 240% effective APR (state-regulated)" },
+      { k: "Loan amount", a: "$100 to $50,000", b: "25% to 60% of the item's resale value" },
+      { k: "Term", a: "3 to 72 months", b: "30 to 90 days (renewable in some states)" },
+      { k: "Credit check", a: "Soft pull at pre-qualification", b: "None" },
+      { k: "Income verification", a: "Yes", b: "None" },
+      { k: "Time to fund", a: "Next business day", b: "Same-day cash" },
+      { k: "Worst case if you default", a: "Credit damage and collections", b: "Lose the item; no further credit damage" },
+      { k: "Best for", a: "Most borrowers; cheaper and longer-term", b: "A 30-day cash bridge with no other access and an item the borrower can accept losing" },
+    ],
+    verdicts: [
+      { scenario: "Any amount over $500 and any timeline over 30 days", pick: "a", reason: "Pawn-loan effective APRs make the math nearly always worse than a personal loan once the loan extends past one month." },
+      { scenario: "No credit, no bank account, $200 needed today, item the borrower can afford to lose", pick: "b", reason: "Pawn loans are sometimes the only option for the deeply unbanked. Borrowers should treat them as a sale at a discount, not a loan." },
+      { scenario: "Avoiding any credit-report impact", pick: "b", reason: "Pawn loans do not pull credit and do not report to bureaus. Personal loans appear on the report regardless of outcome." },
+      { scenario: "Borrower has a sub-580 FICO and needs $1,500 for 60 days", pick: "a", reason: "Even subprime personal-loan APRs of 35.99% cost a fraction of pawn APRs over a 60-day window. Pre-qualify with a marketplace before pawning." },
+    ],
+    faqs: [
+      { q: "Does a pawn loan affect my credit score?", a: "No. Pawn loans do not require a credit pull and are not reported to the three credit bureaus, whether you repay or forfeit the item. This is the main upside for borrowers with damaged credit or active collections." },
+      { q: "What happens if I cannot repay?", a: "The pawnbroker keeps and sells the item. There is no further collection, no court judgment, and no credit-report mark. From the lender's perspective the loan is collateralised, so they have no need to pursue the borrower personally." },
+      { q: "What is the typical pawn loan APR?", a: "Effective APRs vary by state law and item type. Common ranges: 10% per month (about 120% APR) in light-regulation states, 25% per month (about 300%) in heavy-pawn states like Florida and Georgia, capped at lower rates in California and a few others. Always compute the APR, not just the monthly fee." },
+      { q: "Can I extend a pawn loan?", a: "In most states, yes. The borrower pays the accrued interest, the principal remains, and the term extends another 30 or 60 days. Repeated extensions are how a 30-day $200 loan becomes a $300 debt. State laws cap the total number of extensions in some jurisdictions." },
+    ],
+  },
+
+  "personal-loan-vs-cash-advance": {
+    slug: "personal-loan-vs-cash-advance",
+    h1: "Personal loan vs credit card cash advance",
+    title: "Personal Loan vs Credit Card Cash Advance: APRs, Fees, and Cheaper Alternatives",
+    description:
+      "Cash advances charge a transaction fee, a higher APR than the card's purchase APR, and accrue interest from day one. Personal loans cost a fraction. Side-by-side breakdown.",
+    aName: "Personal loan",
+    bName: "Cash advance",
+    intro:
+      "Pulling cash from a credit card is one of the most expensive ways to borrow. The transaction fee is 3% to 5% of the amount, the cash-advance APR is typically 4 to 6 points higher than the card's purchase APR, and interest accrues from the moment of withdrawal with no grace period. Personal loans price-out one-tenth the cost in most situations.",
+    rows: [
+      { k: "Structure", a: "Fixed installment loan", b: "Revolving balance on the card" },
+      { k: "APR", a: "5.99% to 35.99%", b: "Typically 25% to 30% (cash-advance APR, separate from purchase APR)" },
+      { k: "Grace period", a: "30 to 45 days before first payment", b: "None. Interest accrues from day of withdrawal" },
+      { k: "Transaction fee", a: "0% to 8% origination at loan funding", b: "3% to 5% of amount, or $10 minimum, per withdrawal" },
+      { k: "Amount", a: "$100 to $50,000", b: "Up to your cash-advance limit (usually a fraction of the credit limit)" },
+      { k: "Time to fund", a: "Next business day", b: "Instant at ATM or bank teller" },
+      { k: "Reports as", a: "New installment trade line", b: "Higher utilisation on existing card; may flag the account" },
+      { k: "Best for", a: "Almost every situation over $500", b: "Sub-$300 emergency with no other access in the next 24 hours" },
+    ],
+    verdicts: [
+      { scenario: "Any amount $500 or larger over any timeline", pick: "a", reason: "Personal-loan total cost is materially lower because of the grace period and the lower APR; the transaction-fee math alone makes cash advances expensive." },
+      { scenario: "Need $200 in cash tonight, no other access", pick: "b", reason: "Cash advance is instant. Repay within 14 days to minimise interest exposure, then pursue a personal loan if the cash need recurs." },
+      { scenario: "Using a cash advance to pay another credit-card minimum", pick: "a", reason: "This pattern signals distress. A debt-consolidation personal loan addresses the root cause; rolling cash advances delays the reckoning at higher cost." },
+      { scenario: "Want to keep credit-card utilisation low for an upcoming mortgage application", pick: "a", reason: "A personal loan does not raise credit-card utilisation. Cash advances do, and the spike at the wrong moment hurts mortgage pricing." },
+    ],
+    faqs: [
+      { q: "Why does a cash advance APR differ from a purchase APR?", a: "Card issuers price cash advances as higher-risk borrowing because the cash is not tied to a recoverable purchase, the borrower has shown a preference for liquidity, and historic default rates on cash advances exceed default rates on purchase balances. The premium runs 4 to 6 percentage points above the purchase APR for most cards." },
+      { q: "Does a cash advance hurt my credit score?", a: "Indirectly. The transaction itself is not reported separately, but the increased balance raises the card's utilisation ratio, which is the second-largest factor in FICO scoring. A $1,500 cash advance on a $5,000-limit card pushes utilisation past 30%, typically dropping the score 15 to 40 points until repaid." },
+      { q: "Are there cheaper alternatives to a cash advance?", a: "Yes, in this priority order: small personal loan from a credit union or marketplace, federal credit-union Payday Alternative Loan (capped at 28% APR), borrowing from family with a written note, hardship withdrawal from a 401(k) if the situation qualifies, and payday lender as the last resort (still cheaper than the typical cash-advance/rollover cycle when factoring in cash-advance fees and lost grace period)." },
+      { q: "Is there a daily cash-advance limit?", a: "Yes. Most cards cap cash advances at 20% to 50% of the total credit limit, with a per-day ATM limit of $300 to $1,000. The lower per-day limit is set by the issuing bank for fraud control; the credit limit cap is contractual." },
+    ],
+  },
+
+  "personal-loan-vs-title-loan": {
+    slug: "personal-loan-vs-title-loan",
+    h1: "Personal loan vs car title loan",
+    title: "Personal Loan vs Car Title Loan: APRs, Risk of Repossession, Alternatives",
+    description:
+      "Title loans run 200% to 300% effective APR and put your vehicle at risk. Personal loans cost a fraction. Side-by-side on price, risk, and consumer-protection differences.",
+    aName: "Personal loan",
+    bName: "Car title loan",
+    intro:
+      "A car title loan is a small-dollar, short-term loan secured by the borrower's vehicle title. No credit check. Same-day cash. Effective APRs typically run 200% to 300% and the vehicle can be repossessed on a single missed payment. We do not market title loans; this comparison exists so borrowers understand the alternative cost.",
+    rows: [
+      { k: "Collateral", a: "None (unsecured)", b: "Vehicle title (lender holds title; borrower keeps and drives the car)" },
+      { k: "APR range", a: "5.99% to 35.99%", b: "200% to 300% effective APR (state-regulated)" },
+      { k: "Loan amount", a: "$100 to $50,000", b: "25% to 50% of the vehicle's wholesale value" },
+      { k: "Term", a: "3 to 72 months", b: "15 to 30 days, often rolled over" },
+      { k: "Credit check", a: "Soft pull at pre-qualification", b: "None or minimal" },
+      { k: "Time to fund", a: "Next business day", b: "Same-day cash" },
+      { k: "Worst case if you default", a: "Credit damage and collections", b: "Vehicle repossession, often within days of missed payment" },
+      { k: "State availability", a: "All 50 states", b: "Banned in 30+ states; capped or restricted in many others" },
+      { k: "CFPB classification", a: "Standard installment loan", b: "High-cost small-dollar loan; CFPB-flagged consumer-protection priority" },
+    ],
+    verdicts: [
+      { scenario: "Any amount, any timeline", pick: "a", reason: "Title-loan effective APRs and rollover dynamics make them a net wealth transfer from borrower to lender. A personal loan, even at the 35.99% cap, costs a fraction." },
+      { scenario: "Sub-580 FICO, $1,000 needed in 24 hours, vehicle is borrower's only transportation", pick: "a", reason: "The risk of losing the only vehicle is catastrophic. Subprime personal loans and credit-union PALs exist for this need; pursue those before a title loan." },
+      { scenario: "Borrower's only transportation and the loan term is 14 days", pick: "a", reason: "CFPB data shows the average title-loan borrower renews 8 times before payoff or repossession. The 14-day plan is rarely 14 days in practice." },
+      { scenario: "Avoiding any credit-report impact", pick: "b", reason: "Title loans do not pull credit and do not report. This is the only legitimate use case, and only if losing the vehicle is acceptable." },
+    ],
+    faqs: [
+      { q: "How fast can a title-loan lender repossess my car?", a: "In most states, the lender can begin repossession within 1 to 10 days of a missed payment, with no court process required. The lender holds the title, so they only need to retrieve the vehicle; in some states they can charge for the recovery, adding to the deficiency balance." },
+      { q: "What states ban title loans?", a: "About 30 states either ban title loans outright or cap APRs at levels that make the product economically unviable. The remaining states allow them, with varying consumer-protection requirements (right to cure, rollover limits, deficiency restrictions). Check your state's regulator before signing." },
+      { q: "If they repossess the car, do I still owe the rest?", a: "Depends on state law. In about half of states, the lender sells the car at auction and any deficit between the sale price and the loan balance is the borrower's responsibility (the 'deficiency balance'). In the other half, repossession satisfies the debt. Read the contract before signing." },
+      { q: "What are cheaper alternatives?", a: "Subprime personal loans (capped at 35.99% APR in most states), credit-union PALs (capped at 28% APR, $200 to $2,000), CDFI personal loans, employer hardship advances, and family loans with written notes. All cost a fraction of title-loan APRs." },
+    ],
+  },
+
+  "personal-loan-vs-family-loan": {
+    slug: "personal-loan-vs-family-loan",
+    h1: "Personal loan vs borrowing from family",
+    title: "Personal Loan vs Family Loan: Pricing, Tax, and the Relationship Cost",
+    description:
+      "Family loans can be interest-free if structured at the IRS Applicable Federal Rate, but they carry relationship risk and tax pitfalls. Side-by-side with a personal loan.",
+    aName: "Personal loan",
+    bName: "Family loan",
+    intro:
+      "Family loans are usually the cheapest pre-tax option (the IRS Applicable Federal Rate runs well below market personal-loan APRs) and the most expensive emotional one. Personal loans cost more in dollars but cost nothing in the relationship. The right answer depends on the size of the loan, the durability of the relationship, and how disciplined both sides are about treating the arrangement as a loan rather than a gift.",
+    rows: [
+      { k: "Interest rate", a: "5.99% to 35.99%", b: "0% to AFR (currently 4 to 5% short-term, 4 to 5% mid-term)" },
+      { k: "Underwriting", a: "Credit + income + DTI checks", b: "None (or whatever the family agrees to)" },
+      { k: "Time to fund", a: "Next business day", b: "As fast as the family member transfers it" },
+      { k: "Documentation", a: "Loan agreement, promissory note, TILA disclosures", b: "Should be a written promissory note (often skipped, often regretted)" },
+      { k: "Credit-bureau reporting", a: "Yes, builds credit history", b: "No, neutral effect on credit" },
+      { k: "Default consequences", a: "Credit damage, collections, possible lawsuit", b: "Relationship damage, family-event tension, possible lawsuit if formalised" },
+      { k: "Tax consequences", a: "Borrower: none. Lender: none.", b: "Loans over $10,000 below AFR can trigger 'imputed interest' rules; gifts over annual exclusion ($18,000 in 2026) trigger gift-tax reporting" },
+      { k: "Best for", a: "Most borrowers, especially when the alternative is asking family", b: "Large amounts ($25k+) between disciplined relatives with documentation" },
+    ],
+    verdicts: [
+      { scenario: "$3,000 to consolidate cards, multiple relatives offering", pick: "a", reason: "Save the relationship. Personal-loan total cost at this size is small; the optionality of paying a stranger has real value." },
+      { scenario: "$50,000 down payment from parents at AFR, written note, both sides disciplined", pick: "b", reason: "The dollar savings vs a personal loan are real and the family is documenting properly. Best-case use of a family loan." },
+      { scenario: "You have missed payments to family in the past", pick: "a", reason: "Past behaviour predicts future behaviour. If a family loan is likely to default, do not start a second cycle of relationship damage." },
+      { scenario: "Family member has the cash but expects you to pay back with interest", pick: "a", reason: "If interest is going to be charged anyway, paying it to a third party preserves the family relationship and builds the borrower's credit history at the same time." },
+    ],
+    faqs: [
+      { q: "What is the IRS Applicable Federal Rate (AFR)?", a: "The AFR is the minimum interest rate the IRS requires on private loans to avoid the loan being treated as a partial gift. Three tiers: short-term (under 3 years), mid-term (3 to 9 years), and long-term (over 9 years). The IRS publishes the rates monthly. As of mid-2026, AFRs are roughly 4 to 5% across tiers." },
+      { q: "Do I need to charge interest on a family loan?", a: "Not strictly. Loans under $10,000 can be interest-free with no tax consequences. Loans of $10,000 to $100,000 below AFR trigger 'imputed interest' rules where the IRS treats the foregone interest as taxable income to the lender, even if no money changed hands. Loans over $100,000 are stricter still. Charge at least AFR to avoid the headache." },
+      { q: "Should we put it in writing?", a: "Yes, always. A simple promissory note with the principal, interest rate, payment schedule, and default terms protects both sides. It also makes the arrangement feel real, which improves repayment discipline. Templates from LegalZoom or Rocket Lawyer cost under $50." },
+      { q: "What if the family member dies before I repay?", a: "The loan becomes an asset of the lender's estate. The executor must collect from the borrower as part of probate. This is a common reason to formalise the loan: an undocumented family loan can become a contested estate matter, where heirs disagree about whether it was a loan or a gift." },
+    ],
+  },
+
+  "personal-loan-vs-credit-union-loan": {
+    slug: "personal-loan-vs-credit-union-loan",
+    h1: "Marketplace personal loan vs credit union loan",
+    title: "Marketplace Personal Loan vs Credit Union Loan: Where Each Wins in 2026",
+    description:
+      "Credit unions price 2 to 4 points lower than online marketplaces but membership and underwriting are slower. Side-by-side on cost, speed, and approval odds.",
+    aName: "Marketplace personal loan",
+    bName: "Credit union loan",
+    intro:
+      "Both deliver fixed-rate, fixed-term unsecured personal loans. Credit unions are member-owned, not-for-profit, and federally capped at 18% APR (28% for short-term Payday Alternative Loans). Marketplaces are for-profit aggregators that route applications across many lenders. Pricing usually favours credit unions; speed and convenience favour marketplaces.",
+    rows: [
+      { k: "APR cap", a: "Lender-set; up to 35.99% in most states", b: "18% federal cap for federal credit unions; 28% APR for PALs" },
+      { k: "Typical pricing for 680 FICO", a: "12% to 18%", b: "9% to 14%" },
+      { k: "Loan amount", a: "$100 to $50,000", b: "$200 to $50,000 (varies by CU)" },
+      { k: "Membership requirement", a: "None", b: "Yes; eligibility is location, employer, family, or community based" },
+      { k: "Pre-qualification", a: "Soft-pull, results in minutes", b: "Often requires membership first, then full application" },
+      { k: "Time to fund", a: "Next business day", b: "1 to 5 business days, often longer if member is new" },
+      { k: "Approval flexibility", a: "Wide; many lenders, varied underwriting", b: "Narrower; CU underwriting is conservative but values member relationship" },
+      { k: "Best for", a: "Speed, optionality, applicants who want to compare 3-5 lenders at once", b: "Lowest pricing for moderate to strong credit, applicants already CU members" },
+    ],
+    verdicts: [
+      { scenario: "Existing credit-union member with 680+ FICO needs $10,000", pick: "b", reason: "Pricing advantage is real, relationship already exists, and approval odds are strong. Best-case CU." },
+      { scenario: "Need funds in 48 hours, no existing CU membership", pick: "a", reason: "Marketplace pre-qualifies in minutes and funds next-day. New CU membership plus application plus underwriting can take a week." },
+      { scenario: "Sub-620 FICO seeking $5,000", pick: "a", reason: "Marketplaces include subprime lenders that price loans in the 28 to 35.99% range. Most CUs decline at this credit tier; the ones that don't typically max at the PAL caps." },
+      { scenario: "Want to maximise approval odds without harming credit", pick: "a", reason: "Marketplace soft pulls reveal pre-qualified offers from multiple lenders simultaneously; a CU often requires a hard pull at application." },
+    ],
+    faqs: [
+      { q: "How do I join a credit union?", a: "Most credit unions accept membership based on geography (anyone living, working, or worshipping in the area), employer affiliation, family of an existing member, or a small donation to a designated charity. Major national-membership credit unions include PenFed, Navy Federal (military and family), and Alliant. Join first, then apply for the loan." },
+      { q: "Are credit-union personal loans the cheapest option?", a: "Often yes for prime and near-prime borrowers (FICO 680+). The federal 18% APR cap on federal credit unions binds before most CU pricing reaches it, so even mediocre credit can score sub-15% pricing. Subprime borrowers usually do not benefit because CUs decline at higher rates than marketplaces." },
+      { q: "What is a credit-union Payday Alternative Loan (PAL)?", a: "A federally-regulated small-dollar loan product offered by federal credit unions as a payday-loan alternative. PALs cap at 28% APR, $200 to $2,000 principal, 1 to 12 month term, $20 application fee maximum. Designed for short-term cash needs at far lower cost than payday loans." },
+      { q: "Can I pre-qualify with both a marketplace and a credit union?", a: "Yes. Marketplace pre-qualification is soft-pull; many credit unions also pre-qualify with a soft pull before formal application. Pursue both. Accept whichever offer is cheapest after factoring origination fees and term length." },
+    ],
+  },
+
+  "personal-loan-vs-401k-hardship-withdrawal": {
+    slug: "personal-loan-vs-401k-hardship-withdrawal",
+    h1: "Personal loan vs 401(k) hardship withdrawal",
+    title: "Personal Loan vs 401(k) Hardship Withdrawal: Tax Cost and Retirement Impact",
+    description:
+      "A hardship withdrawal incurs income tax plus a 10% penalty and permanently shrinks retirement savings. Personal loans cost less and leave the 401(k) intact.",
+    aName: "Personal loan",
+    bName: "401(k) hardship withdrawal",
+    intro:
+      "A 401(k) hardship withdrawal taps your retirement savings to meet an immediate and heavy financial need. Unlike a 401(k) loan (which is repaid), a hardship withdrawal is permanent: you pay income tax on the distribution, plus a 10% early-withdrawal penalty if you're under 59½, and you lose decades of compounded growth on the withdrawn amount. Personal loans almost always cost less overall.",
+    rows: [
+      { k: "Repayable", a: "Yes, with predictable installments", b: "No, withdrawal is permanent" },
+      { k: "Immediate cost", a: "5.99% to 35.99% APR + origination", b: "Income tax (10% to 37% marginal) + 10% early penalty under 59½" },
+      { k: "Effective cost to retirement", a: "$0 (retirement savings unchanged)", b: "Compounded loss of 6 to 8% per year on the withdrawn principal until age 65" },
+      { k: "Eligibility", a: "Credit + income underwriting", b: "Must meet IRS 'immediate and heavy financial need' criteria; plan must allow hardship withdrawals" },
+      { k: "Approval window", a: "Days", b: "Typically 2 to 6 weeks" },
+      { k: "Income-tax impact in the withdrawal year", a: "None", b: "Withdrawal added to taxable income; can push the household into a higher bracket" },
+      { k: "Contribution-suspension impact", a: "None", b: "Some plans suspend new contributions for 6 months after withdrawal" },
+      { k: "Best for", a: "Almost every borrower", b: "Borrowers who cannot qualify for any other credit and face a true emergency" },
+    ],
+    verdicts: [
+      { scenario: "$15,000 needed for medical bills, borrower has decent credit", pick: "a", reason: "A 10-year personal loan at 15% APR costs less than the immediate tax-plus-penalty hit of a hardship withdrawal, and the 401(k) keeps compounding." },
+      { scenario: "Borrower 60 years old, needs $20,000, no other credit access", pick: "b", reason: "At 60, the 10% early-withdrawal penalty does not apply. The income-tax bill is still real, but the math closes vs alternatives without credit access." },
+      { scenario: "Cash flow can support a $400/month loan payment for 3 years", pick: "a", reason: "If the borrower can service a loan, the personal loan beats the withdrawal every time, even at 30% APR." },
+      { scenario: "Imminent foreclosure, no qualifying credit, all other options exhausted", pick: "b", reason: "Hardship withdrawals exist for this scenario. The 401(k) is worth less than the home if the alternative is losing the home." },
+    ],
+    faqs: [
+      { q: "What qualifies as a hardship withdrawal under IRS rules?", a: "The IRS recognises specific 'safe harbour' hardship categories: medical expenses, primary-residence purchase, post-secondary education, prevention of eviction or foreclosure, funeral expenses, and certain casualty losses. Plans may permit additional categories at the plan sponsor's discretion. The borrower must certify the need." },
+      { q: "Is a 401(k) loan better than a hardship withdrawal?", a: "Almost always yes. A 401(k) loan is repaid back into your own account (interest goes to you, not a bank), avoids income tax and the 10% penalty, and lets the principal continue compounding once repaid. The catch: if you leave the employer before repayment, the outstanding balance is typically due in 60 to 90 days or treated as a distribution (triggering the tax and penalty)." },
+      { q: "What's the real long-term cost of withdrawing $20,000?", a: "Run the compounding math. $20,000 withdrawn at age 35 from a 401(k) earning 7% annually loses about $135,000 of future retirement savings by age 65. Plus the immediate $4,000 to $8,000 federal tax bill and the $2,000 early-withdrawal penalty. Total economic cost: $140,000+ to receive $20,000 of cash today." },
+      { q: "Can I avoid the 10% penalty?", a: "Yes, in specific cases. Medical expenses exceeding 7.5% of adjusted gross income are penalty-free. Withdrawals by someone receiving Social Security Disability are penalty-free. Substantially Equal Periodic Payments (SEPP / 72(t)) avoid the penalty but lock the borrower into a defined withdrawal schedule for 5 years or until age 59½, whichever is later." },
+    ],
+  },
 };
 
 export const comparisonSlugs = Object.keys(comparisons);

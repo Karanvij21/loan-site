@@ -31,12 +31,22 @@ export type AmountPage = {
 
 export const amounts: AmountPage[] = [
   { slug: "500", amount: 500, tier: "small", aprMin: 14.99, aprMax: 35.99, termMin: 3, termMax: 24, exampleTermMonths: 12, exampleApr: 29.99 },
+  { slug: "750", amount: 750, tier: "small", aprMin: 13.99, aprMax: 35.99, termMin: 3, termMax: 24, exampleTermMonths: 12, exampleApr: 28.99 },
   { slug: "1000", amount: 1000, tier: "small", aprMin: 12.99, aprMax: 35.99, termMin: 6, termMax: 36, exampleTermMonths: 24, exampleApr: 26.99 },
+  { slug: "1500", amount: 1500, tier: "small", aprMin: 11.99, aprMax: 35.99, termMin: 6, termMax: 36, exampleTermMonths: 24, exampleApr: 25.99 },
+  { slug: "2000", amount: 2000, tier: "small", aprMin: 10.99, aprMax: 35.99, termMin: 6, termMax: 36, exampleTermMonths: 24, exampleApr: 24.99 },
+  { slug: "2500", amount: 2500, tier: "small", aprMin: 10.49, aprMax: 35.99, termMin: 12, termMax: 36, exampleTermMonths: 24, exampleApr: 23.99 },
   { slug: "3000", amount: 3000, tier: "small", aprMin: 9.99, aprMax: 35.99, termMin: 12, termMax: 48, exampleTermMonths: 36, exampleApr: 22.99 },
+  { slug: "4000", amount: 4000, tier: "small", aprMin: 9.49, aprMax: 35.99, termMin: 12, termMax: 48, exampleTermMonths: 36, exampleApr: 21.99 },
   { slug: "5000", amount: 5000, tier: "mid", aprMin: 7.99, aprMax: 35.99, termMin: 12, termMax: 60, exampleTermMonths: 36, exampleApr: 19.99 },
+  { slug: "6000", amount: 6000, tier: "mid", aprMin: 7.99, aprMax: 34.99, termMin: 24, termMax: 60, exampleTermMonths: 48, exampleApr: 18.99 },
+  { slug: "7500", amount: 7500, tier: "mid", aprMin: 7.49, aprMax: 33.99, termMin: 24, termMax: 60, exampleTermMonths: 48, exampleApr: 18.49 },
   { slug: "10000", amount: 10000, tier: "mid", aprMin: 6.99, aprMax: 32.99, termMin: 24, termMax: 60, exampleTermMonths: 48, exampleApr: 17.99 },
   { slug: "15000", amount: 15000, tier: "mid", aprMin: 6.49, aprMax: 29.99, termMin: 24, termMax: 60, exampleTermMonths: 48, exampleApr: 15.99 },
   { slug: "20000", amount: 20000, tier: "large", aprMin: 5.99, aprMax: 29.99, termMin: 36, termMax: 72, exampleTermMonths: 60, exampleApr: 13.99 },
+  { slug: "25000", amount: 25000, tier: "large", aprMin: 5.99, aprMax: 28.99, termMin: 36, termMax: 72, exampleTermMonths: 60, exampleApr: 13.49 },
+  { slug: "30000", amount: 30000, tier: "large", aprMin: 5.99, aprMax: 27.99, termMin: 36, termMax: 72, exampleTermMonths: 60, exampleApr: 12.99 },
+  { slug: "40000", amount: 40000, tier: "large", aprMin: 5.99, aprMax: 26.99, termMin: 36, termMax: 72, exampleTermMonths: 60, exampleApr: 12.49 },
   { slug: "50000", amount: 50000, tier: "large", aprMin: 5.99, aprMax: 24.99, termMin: 36, termMax: 72, exampleTermMonths: 60, exampleApr: 11.99 },
 ];
 

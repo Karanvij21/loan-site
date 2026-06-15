@@ -26,6 +26,9 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
             <Link href="/admin/leads" className="rounded-md px-3 py-1.5 hover:bg-paper-100">
               Leads
             </Link>
+            <Link href="/admin/traffic" className="rounded-md px-3 py-1.5 hover:bg-paper-100">
+              Traffic
+            </Link>
             <Link href="/" className="rounded-md px-3 py-1.5 text-ink-500 hover:bg-paper-100">
               View site ↗
             </Link>

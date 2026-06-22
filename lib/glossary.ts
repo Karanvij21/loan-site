@@ -623,6 +623,67 @@ export const glossaryTerms: GlossaryTerm[] = [
     long: "The right to cure is a state-level borrower protection that interrupts a lender's path from default to legal remedies. Where it applies (Connecticut, Iowa, Kansas, Maine, Massachusetts, Wisconsin, and roughly 15 other states each with their own statute), the lender must serve a notice that specifies the missed payment amount, the deadline to pay (typically 10, 15, 20, or 30 days), and the consequence of not curing. If the borrower pays the past-due amount plus permitted late fees within the cure window, the loan is reinstated and the lender cannot accelerate or sue based on that default. Right-to-cure does not exist under federal law for unsecured personal loans, so out-of-state lenders sometimes attempt to skip the step; in cure-required states, doing so is grounds for a counterclaim.",
     related: ["default", "fdcpa"],
   },
+  // ─── Borrower-segment terms ──────────────────────────────────────
+  {
+    slug: "itin",
+    name: "ITIN (Individual Taxpayer Identification Number)",
+    aka: ["Individual Taxpayer Identification Number", "tax ID number"],
+    category: "Application",
+    short:
+      "A nine-digit IRS-issued identifier for people who file U.S. tax returns but do not have a Social Security number, including undocumented workers, certain non-resident aliens, and foreign nationals with U.S. tax obligations. Some lenders accept an ITIN in place of an SSN on a personal-loan application.",
+    long: "The Individual Taxpayer Identification Number (ITIN), issued by the IRS, allows people without a Social Security number to file federal taxes, claim certain credits, and (at participating financial institutions) open accounts and borrow. ITINs always begin with 9 and have 7 or 8 in the fourth digit, distinguishing them from SSNs. For personal-loan underwriting, ITIN-only applicants typically work with community development financial institutions (CDFIs), credit unions with explicit ITIN-friendly products, or specialised online lenders. The credit bureaus (Experian, Equifax, TransUnion) accept ITIN-based files, so an ITIN holder can build a credit history through secured cards or credit-builder loans, then qualify for unsecured personal loans on the strength of that history.",
+    related: ["bank-statement-loan", "tradeline"],
+  },
+  {
+    slug: "bank-statement-loan",
+    name: "Bank-statement loan",
+    aka: ["bank-statement underwriting", "alt-doc loan"],
+    category: "Lender types",
+    short:
+      "A loan underwritten on 12 to 24 months of bank-deposit history instead of tax returns. Common for self-employed borrowers, gig workers, and tipped employees whose reported taxable income materially understates true cash flow.",
+    long: "Bank-statement loans are an alternative-documentation underwriting path. Instead of qualifying off line 31 of Schedule C or W-2 wage history, the lender averages 12 or 24 months of personal or business bank deposits to derive a qualifying income figure. The approach lets self-employed borrowers, 1099 contractors, gig workers, and high-tip earners qualify based on actual cash flow rather than after-deduction taxable income. The trade-off is pricing: bank-statement loans typically run 1 to 3 percentage points above fully documented loans because the data is thinner and the borrower base is higher-risk on average. Most bank-statement personal loans are written by CDFIs, credit unions, or specialty online lenders rather than mainstream marketplace platforms.",
+    related: ["itin", "tradeline", "seasoning-period"],
+  },
+  {
+    slug: "seasoning-period",
+    name: "Seasoning period",
+    aka: ["employment seasoning", "income seasoning"],
+    category: "Application",
+    short:
+      "The minimum time a borrower must have held a job, self-employment, or other income source before a lender will count it toward qualifying income. Typically 24 months for self-employment and tipped income; 90 to 180 days for new W-2 employment in the same field.",
+    long: "Seasoning period is underwriter shorthand for 'how long the income source must exist before we trust it.' Standard seasoning rules: W-2 employment in the same field, 30 to 90 days; W-2 employment in a new field, 90 to 180 days; self-employment, 24 months minimum; bank-statement-based deposit averaging, 12 to 24 months; rental income, 24 months of Schedule E history. Seasoning rules differ between lenders and product types, and some are explicit in published underwriting guides (Fannie Mae's seller guide, for example, sets seasoning rules that conventional mortgages follow). Personal-loan lenders have less standardisation; the practical seasoning floor for marketplace lending is usually 90 days of W-2 employment or 24 months of self-employment.",
+    related: ["bank-statement-loan", "verification-of-employment"],
+  },
+  {
+    slug: "tradeline",
+    name: "Tradeline",
+    aka: ["credit tradeline", "credit account"],
+    category: "Credit",
+    short:
+      "A single credit account as reported on a credit report. Each open or closed account (credit card, auto loan, mortgage, personal loan) is a separate tradeline. FICO and VantageScore models weight tradeline count, age, and payment history heavily.",
+    long: "A tradeline is the unit of measurement on a credit report. Each lender reports each open or closed credit account as its own tradeline, with fields including original balance, current balance, monthly payment, payment history (the 84-month grid of on-time / 30 / 60 / 90+ marks), date opened, date closed, and credit type (revolving vs installment). FICO scoring models consider files with fewer than three open tradelines as 'thin file' and may decline to generate a score. Older tradelines weigh more heavily on positive impact than newer ones; the average age of accounts is a meaningful score input. Closing an old tradeline removes it from the average-age calculation after 10 years (for accounts in good standing) or 7 years (for accounts with derogatories), which is why advisors generally counsel against closing old cards even when unused.",
+    related: ["credit-report", "credit-utilization", "fico-score"],
+  },
+  {
+    slug: "mapr",
+    name: "MAPR (Military Annual Percentage Rate)",
+    aka: ["Military Annual Percentage Rate"],
+    category: "Regulation",
+    short:
+      "A specialized APR calculation under the federal Military Lending Act that includes interest, fees, credit insurance premiums, and certain ancillary charges. The MLA caps MAPR at 36% for active-duty servicemembers and their dependents.",
+    long: "The Military Annual Percentage Rate (MAPR), defined in the Military Lending Act (32 CFR Part 232), is a broader calculation than standard TILA APR. MAPR includes interest, all credit-related fees (origination, application, service charges), credit-insurance premiums whether voluntary or mandatory, fees for ancillary products sold with the loan, and certain other charges. The federal MLA caps MAPR at 36% on consumer loans extended to covered borrowers (active-duty servicemembers, their spouses, and dependents). Loans exceeding 36% MAPR are void and any payments must be refunded. Lender verification of covered status is done through the DoD Manpower Data Center, which lenders query against the applicant's SSN. Because of MAPR rules, most online personal-loan lenders cap pricing at 35.99% across the board to avoid civilian-vs-military compliance bifurcation.",
+    related: ["mla", "apr", "fdcpa"],
+  },
+  {
+    slug: "verification-of-employment",
+    name: "Verification of employment (VOE)",
+    aka: ["VOE", "employment verification"],
+    category: "Application",
+    short:
+      "The lender's process of confirming an applicant's employer, position, and salary. Done via direct contact with the employer's HR department, a verification service (The Work Number, etc.), or by reviewing recent paystubs and tax documents.",
+    long: "Verification of employment (VOE) is one of the four standard underwriting verifications, alongside credit pull, income calculation, and asset verification. Lenders run a VOE near the end of the application process by directly contacting the employer's HR department, querying a verification service like The Work Number (Equifax's database, which covers about 70% of U.S. employers), or accepting a written letter from the employer on letterhead. VOE confirms three things: that the applicant is currently employed at the stated position, the stated salary or hourly rate, and the start date. Discrepancies between the application and the VOE result either delays or denials. Self-employed borrowers cannot do a traditional VOE; lenders substitute tax returns, bank statements, and sometimes CPA letters as analogous documentation.",
+    related: ["seasoning-period", "bank-statement-loan"],
+  },
   {
     slug: "statute-of-limitations-debt",
     name: "Statute of limitations on debt",

@@ -1680,6 +1680,192 @@ export const questions: Question[] = [
       { label: "APR calculator", href: "/calculators" },
     ],
   },
+
+  // ─── Borrower-segment arc: self-employed, gig, military, retirees, etc ──
+  {
+    slug: "personal-loan-self-employed-qualify",
+    topic: "Approval & amount",
+    question: "How do self-employed borrowers qualify for a personal loan?",
+    shortAnswer:
+      "Self-employed applicants typically need two years of tax returns (Schedule C, K-1, or 1120-S) showing stable or growing net income. Lenders qualify off the net income after deductions, not gross revenue, which is the most common surprise. Some lenders accept 12 to 24 months of bank statements as alternative documentation.",
+    context:
+      "Self-employment makes underwriting harder because there's no employer to verify income against. The standard approach is two years of personal tax returns. Lenders qualify off line 31 of Schedule C (net profit) for sole proprietors, or distributions plus W-2 wages for S-corp owners, not gross revenue or top-line receipts. This catches many self-employed borrowers off-guard: a freelancer billing $180,000 a year but taking $60,000 of business deductions qualifies as a $120,000 earner, not a $180,000 one.\n\nBank-statement loans are an alternative for borrowers whose tax returns understate true cash flow. The lender averages 12 to 24 months of personal or business deposits to derive a qualifying income. Bank-statement loans typically price 1 to 3 percentage points higher than fully documented loans.\n\nIf the self-employment is under two years old, expect declines from prime lenders. Subprime and marketplace lenders that underwrite primarily on credit and DTI rather than income can sometimes approve thin-documentation applicants, but pricing reflects the higher risk.",
+    relatedSlugs: ["personal-loan-1099-contractor-application", "personal-loan-gig-worker-income", "personal-loan-multiple-income-sources"],
+    toolLinks: [
+      { label: "Self-employed loans", href: "/loans/self-employed" },
+      { label: "Glossary: Bank-statement loan", href: "/glossary/bank-statement-loan" },
+    ],
+  },
+  {
+    slug: "personal-loan-1099-contractor-application",
+    topic: "Process & terms",
+    question: "What does a 1099 contractor need to apply for a personal loan?",
+    shortAnswer:
+      "Two years of 1099 income shown on Schedule C, the most recent two years of personal tax returns, and three months of business bank statements. Lenders qualify off net income after business deductions, plus year-to-date deposits as confirmation of current trajectory.",
+    context:
+      "1099 contractors face the same underwriting standards as other self-employed applicants but with one wrinkle: the income is documented on the 1099 forms themselves, which acts as a baseline verification. Lenders cross-check the tax-return numbers against the 1099 totals to catch under-reporting.\n\nFor a high-deduction contractor (heavy mileage, home office, large equipment depreciation), tax-return net income can run 40 to 60% below the 1099 gross. Plan for this by either reducing the loan amount requested or applying with a bank-statement lender that derives income from deposits instead. A contractor netting $80K but depositing $200K of business revenue per year qualifies for materially more loan with the bank-statement approach.\n\nThe self-employment must be at least 24 months old at most lenders. Newer contractors sometimes qualify with co-signers, with secured loans backed by a savings account, or with credit-union Personal Loans tied to membership history.",
+    relatedSlugs: ["personal-loan-self-employed-qualify", "personal-loan-gig-worker-income"],
+    toolLinks: [
+      { label: "1099 contractor loans", href: "/loans/1099-contractor" },
+    ],
+  },
+  {
+    slug: "personal-loan-gig-worker-income",
+    topic: "Approval & amount",
+    question: "Can Uber, DoorDash, or other gig workers get a personal loan?",
+    shortAnswer:
+      "Yes, but income documentation is the gating step. Provide app-platform earnings statements (Uber 1099-K, DoorDash earnings report, etc.), 12 to 24 months of bank statements showing deposit history, and two years of personal tax returns. Stable or growing weekly earnings over at least 12 months are the key signal.",
+    context:
+      "Gig workers face two distinct underwriting headwinds. First, the income is variable week-to-week, so lenders look at trailing-12-month averages rather than recent weeks. Second, deductions on Schedule C are usually heavy (vehicle expenses, mileage, phone), so reported taxable income materially understates gross earnings.\n\nThe right approach: download the earnings report directly from each platform, the relevant 1099-K or 1099-NEC, and 12 months of bank statements showing the platform deposits. A lender willing to write bank-statement loans can derive a qualifying income from the deposit average, which usually beats the tax-return number. Marketplace lenders and CDFI loans are gig-friendlier than traditional banks.\n\nApprovals improve materially after 24 months of gig income with consistent weekly patterns. Borrowers under 12 months should expect declines from prime lenders and target subprime or secured options instead.",
+    relatedSlugs: ["personal-loan-self-employed-qualify", "personal-loan-multiple-income-sources"],
+    toolLinks: [
+      { label: "Gig worker loans", href: "/loans/gig-workers" },
+    ],
+  },
+  {
+    slug: "personal-loan-active-duty-military",
+    topic: "Special situations",
+    question: "What personal-loan protections do active-duty military have?",
+    shortAnswer:
+      "Active-duty servicemembers (including their spouses and dependents) are protected by the Military Lending Act, which caps Military APR (MAPR) at 36% and bans mandatory arbitration, prepayment penalties, and rollover-style refinancing. The Servicemembers Civil Relief Act (SCRA) caps APR at 6% on pre-service debts.",
+    context:
+      "The Military Lending Act (MLA) is the strongest federal consumer-credit protection. Lenders verify active-duty status through the DoD Manpower Data Center; any loan to a covered borrower must comply with the 36% MAPR cap, which includes interest, fees, credit insurance premiums, and certain ancillary charges. Loans that exceed MAPR are void and the lender must refund payments. Most online personal-loan lenders simply price below 35% for everyone to avoid the compliance headache.\n\nSCRA is a separate protection covering debts incurred before active duty. On any pre-service consumer loan, including a personal loan taken before deployment, the servicemember can request a rate reduction to 6% APR for the duration of active service. The lender must reduce the rate within 30 days of the written request and a copy of orders.\n\nNavy Federal Credit Union, USAA, and PenFed are the standard military-focused lenders and typically offer the best pricing for active-duty applicants. Membership is open to active-duty, veterans, and family.",
+    relatedSlugs: ["personal-loan-military-mla-protections", "personal-loan-veteran-options"],
+    toolLinks: [
+      { label: "Glossary: MAPR", href: "/glossary/mapr" },
+    ],
+  },
+  {
+    slug: "personal-loan-veteran-options",
+    topic: "Special situations",
+    question: "What personal-loan options do veterans have?",
+    shortAnswer:
+      "Veterans qualify for general consumer personal loans plus veteran-specific options at Navy Federal, USAA, and PenFed (membership open to veterans). The VA does not directly offer or guarantee personal loans the way it does mortgages, but veteran-focused credit unions often discount APR by 0.25 to 0.50 percentage points for service members.",
+    context:
+      "Veterans should default to credit-union lending. Navy Federal, USAA, and PenFed all require veteran or veteran-family membership and price personal loans materially below mainstream online lenders for prime-credit applicants. APRs at these credit unions typically start near the 18% federal cap rather than the 35.99% marketplace ceiling, even for fair-credit applicants.\n\nThere are no VA-guaranteed personal loans. The VA's loan-guarantee programs cover home mortgages, home-improvement loans tied to the VA mortgage, and small-business loans (the latter via the SBA). Marketing that pitches a \"VA personal loan\" is typically using the term loosely to refer to a marketplace loan with veteran-friendly underwriting.\n\nVeteran identification can also unlock minor APR discounts at other lenders (LightStream, SoFi, Marcus all have programs). The discount is usually 0.25 percentage points, which is meaningful but not the difference-maker; the credit-union route still beats it.",
+    relatedSlugs: ["personal-loan-active-duty-military", "personal-loan-credit-union-loan"],
+    toolLinks: [
+      { label: "Compare: Marketplace vs credit-union loan", href: "/compare/personal-loan-vs-credit-union-loan" },
+    ],
+  },
+  {
+    slug: "personal-loan-retiree-social-security-income",
+    topic: "Approval & amount",
+    question: "Can a retiree on Social Security get a personal loan?",
+    shortAnswer:
+      "Yes. Social Security counts as income for personal-loan underwriting, just like W-2 wages. Lenders need documentation of the benefit amount (the most recent SSA-1099 or benefit verification letter) plus credit score and DTI in normal ranges. Pension income is also accepted with the 1099-R.",
+    context:
+      "Federal law (the Equal Credit Opportunity Act) prohibits age discrimination in consumer lending, and Social Security is treated as stable income because the federal government is the payor. A retiree with $2,500 of monthly Social Security plus a $1,500 pension qualifies on the same income basis as a working borrower making $4,000 of W-2 wages, before adjusting for any other risk factors.\n\nDocumentation is the only meaningful difference. Lenders ask for the SSA-1099 (annual benefit statement) and often a current benefit verification letter, which can be downloaded from the my.ssa.gov portal in a few minutes. For pension income, the 1099-R from the pension provider plus the most recent monthly deposit statement is standard.\n\nTerm length is sometimes a practical consideration for older borrowers. A 72-month loan taken at age 70 will outlast the typical retiree's primary cash-flow planning horizon. Many credit unions counsel retirees toward shorter terms even when monthly affordability would support longer; the trade-off is between monthly cash flow and total interest paid.",
+    relatedSlugs: ["personal-loan-no-credit-history-options"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-itin-applicant",
+    topic: "Special situations",
+    question: "Can someone with an ITIN instead of an SSN get a personal loan?",
+    shortAnswer:
+      "Yes, at a smaller set of lenders. ITIN-only applicants typically need to apply with a credit union or CDFI that explicitly accepts ITIN, since most marketplace lenders require an SSN to pull credit. Bank-statement-based underwriting (12 to 24 months of deposits) is the common path because ITIN holders often have thin or no credit files.",
+    context:
+      "An Individual Taxpayer Identification Number (ITIN) is issued by the IRS to people who file taxes but don't have a Social Security number, including undocumented workers and certain non-resident aliens. ITIN holders can build credit (most credit bureaus accept ITIN-only applications) but the credit file is often thin or non-existent.\n\nThe practical lending path for an ITIN applicant: a community-development financial institution (CDFI), a credit union with explicit ITIN-friendly underwriting, or an online lender specialising in the immigrant market. Self-Help Credit Union, Latino Credit Union, and Mission Asset Fund all have ITIN-friendly products. Approvals usually depend on bank-statement income verification and a co-signer with an SSN-based file, plus stable U.S. address history of 12+ months.\n\nAPRs tend to run 2 to 5 percentage points above comparable SSN-based loans because of the thinner data. Building 12 to 24 months of secured-card or credit-builder-loan activity before applying for an unsecured personal loan usually pays for itself in better pricing.",
+    relatedSlugs: ["personal-loan-no-credit-history-options"],
+    toolLinks: [
+      { label: "Glossary: ITIN", href: "/glossary/itin" },
+    ],
+  },
+  {
+    slug: "personal-loan-no-credit-history-options",
+    topic: "Approval & amount",
+    question: "How do borrowers with no credit history get approved for a personal loan?",
+    shortAnswer:
+      "Three paths: a secured personal loan backed by a savings deposit, a credit-builder loan from a credit union or CDFI, or an unsecured loan with a co-signer who has established credit. All three build credit history while delivering funds.",
+    context:
+      "A \"no credit history\" file (sometimes called \"credit invisible\") usually means fewer than three open trade lines or a file younger than 24 months. Without this baseline, FICO can't score the file at all, which makes most unsecured-loan applications auto-decline.\n\nThe secured-loan path uses a deposit (typically the loan amount itself, locked in a savings account) as collateral. The lender extends a parallel personal loan and reports payments to the bureaus, building credit history from month one. Self Financial, Self Lender, and most credit-union secured-loan products work this way.\n\nThe credit-builder-loan path is similar but flipped: the lender holds the loan proceeds in escrow while the borrower pays monthly installments. At payoff, the borrower receives the principal back minus interest. CDFIs price these at 4 to 8% APR. After 12 months of on-time payments, the file has enough history to apply unsecured.\n\nThe co-signer path is the fastest. A borrower with a credit-established co-signer (FICO 700+) can usually qualify for a standard unsecured personal loan immediately, with the co-signer's credit driving pricing.",
+    relatedSlugs: ["personal-loan-cosigner-after-denial", "personal-loan-itin-applicant", "personal-loan-with-500-credit-score"],
+    toolLinks: [
+      { label: "Glossary: Tradeline", href: "/glossary/tradeline" },
+    ],
+  },
+  {
+    slug: "personal-loan-stay-at-home-spouse",
+    topic: "Approval & amount",
+    question: "Can a stay-at-home spouse with no income get a personal loan?",
+    shortAnswer:
+      "Yes, via a joint application or co-signed loan that uses the working spouse's income to qualify. Under federal Regulation B, lenders cannot discount a spouse's earned income, so a joint household income of $80,000 qualifies the household even if only one spouse earns it. A solo application with no income generally cannot qualify for an unsecured loan.",
+    context:
+      "Regulation B (the Equal Credit Opportunity Act's implementing regulation) explicitly requires lenders to consider all income, including a spouse's, when both spouses sign the loan. A joint application combining one income and the other's strong credit history can sometimes deliver better pricing than the working spouse's individual application alone.\n\nThe distinction matters: a joint application makes both spouses fully liable for the debt and reports on both credit files. A co-signed loan makes the stay-at-home spouse the primary applicant and the working spouse the secondary; this is unusual structurally and lenders sometimes decline because it inverts the typical liability pattern.\n\nA stay-at-home spouse with no other income source who needs a personal loan independently of the working spouse typically has only the secured-loan path (with a deposit as collateral) or a family loan. Lenders cannot extend unsecured credit to a borrower with zero qualifying income; this is true regardless of marital status.",
+    relatedSlugs: ["personal-loan-joint-application", "personal-loan-cosigner-after-denial"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-teacher-nurse-public-employee",
+    topic: "Special situations",
+    question: "Are there personal-loan discounts for teachers, nurses, or other public employees?",
+    shortAnswer:
+      "Yes, at several credit unions and online lenders. Discounts typically run 0.25 to 0.75 percentage points off APR for verified public-service employment (teaching, nursing, first responder, public-safety, military). The discount is usually applied via membership pricing at NEA-affiliated credit unions or via promotional APR at lenders like LightStream and SoFi.",
+    context:
+      "Public-service discounts are marketing as much as they are pricing. The actual underwriting is identical to other applicants: credit, income, DTI all run through the same model. The discount comes off the final APR at funding and is documented on the loan agreement. Common qualifying occupations: K-12 teaching, university faculty, registered nursing, licensed practical nursing, emergency medical services, law enforcement, firefighting, active-duty and reserve military.\n\nThe higher-leverage angle for public employees is the credit-union route. State-employee credit unions (the State Employees Credit Union of North Carolina, the New York State Employees Federal Credit Union, etc.) typically price personal loans at 6 to 12% APR for prime-credit members, well below mainstream marketplace pricing. Eligibility is usually employment at the qualifying agency or family relation to an employee.\n\nFor borrowers eligible for Public Service Loan Forgiveness on federal student debt, a personal loan is often financially the wrong move because PSLF eligibility hinges on staying in income-driven repayment on the federal student loans. Consolidating PSLF-eligible student debt into a personal loan voids the forgiveness path.",
+    relatedSlugs: ["personal-loan-credit-union-loan"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-multiple-income-sources",
+    topic: "Approval & amount",
+    question: "How do lenders handle applicants with multiple part-time jobs or income streams?",
+    shortAnswer:
+      "Lenders combine documented income streams (W-2 wages, 1099 contracting, rental income, Social Security, alimony) to compute total qualifying income, but each stream must be documented separately. Streams with under 24 months of history are usually excluded. The stable, documented portion drives qualification.",
+    context:
+      "Mixed-income applicants face a documentation puzzle. Each source needs its own paper trail: W-2s and recent paystubs for W-2 jobs; tax returns and bank statements for 1099 income; lease agreements and tax returns showing Schedule E for rental income; benefit verification letters for Social Security or pension. Streams documented for under 24 months are typically excluded from qualifying income, even if they're real, because lenders cannot rely on continuation.\n\nThe practical workaround when paperwork is messy: apply with the stable W-2 portion as the primary income and let the variable streams supplement DTI only if needed. Many borrowers actually qualify more cleanly that way than by piling every source into the application, because the additional sources sometimes introduce edge cases the underwriter has to chase.\n\nFor borrowers piecing together multiple short-tenure gigs, an alternative-documentation lender (CDFI, bank-statement lender) can derive income from 12 months of deposit history rather than per-stream documentation. This is usually the better path when no single income source dominates.",
+    relatedSlugs: ["personal-loan-self-employed-qualify", "personal-loan-gig-worker-income", "personal-loan-cash-tip-income-server"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-new-job-30-days-old",
+    topic: "Approval & amount",
+    question: "Can I get a personal loan if I just started a new job 30 days ago?",
+    shortAnswer:
+      "Sometimes yes, particularly if the new job is in the same field as a prior 24+ month position. Lenders look for two things: continuity of profession (same field counts as continuous employment for underwriting) and a job offer letter or first paystub that documents salary. Brand-new entries to the workforce face declines from most lenders until 90 to 180 days of employment.",
+    context:
+      "Underwriters distinguish between a job change (one position to another in the same field) and a workforce entry (no recent employment history). A job change is treated as continuous employment if the gap was under 30 days and the field is similar. A nurse moving from one hospital to another after 5 years of nursing qualifies as a 5-year nurse, not a 30-day employee.\n\nA workforce entry, or a career change to a meaningfully different field, restarts the employment-history clock from the new lender's perspective. Most lenders want 90 to 180 days minimum before approving. Some accept a written offer letter from a reputable employer plus one paystub as sufficient documentation in lieu of tenure.\n\nIf the gap between old job and new is over 30 days, expect more skepticism. Applicants in this situation often qualify by demonstrating savings cushion (3+ months of expenses) or by applying with a co-signer until the new employment seasons.",
+    relatedSlugs: ["personal-loan-denied-reasons-why", "personal-loan-cosigner-after-denial"],
+    toolLinks: [
+      { label: "Glossary: Seasoning period", href: "/glossary/seasoning-period" },
+    ],
+  },
+  {
+    slug: "personal-loan-cash-tip-income-server",
+    topic: "Approval & amount",
+    question: "How do servers, bartenders, and other tipped workers document income for a personal loan?",
+    shortAnswer:
+      "Two years of personal tax returns are the baseline because reported tip income on the W-2 is the qualifying figure. Bank-statement loans are the better path for under-reporters: 12 to 24 months of deposits showing the cash flow that hits the bank account, regardless of what was reported to the IRS.",
+    context:
+      "Tipped workers face the same documentation problem as self-employed contractors: reported income often understates actual cash flow. A server netting $55,000 in tips and reporting $35,000 to the IRS will qualify for less loan based on the W-2 number, even though the bank account shows the higher figure.\n\nThe straightforward fix is bank-statement underwriting. Lenders that offer this product (often credit unions, CDFIs, and a subset of online lenders) derive qualifying income from deposit averages. A server depositing $4,500 per month consistently qualifies at $54,000 of annual income for these lenders.\n\nThe trade-off is twofold. Bank-statement loans usually price 1 to 3 percentage points above fully documented loans, and the documentation burden (12 to 24 months of clean statements showing the deposit pattern) is heavier. For servers with otherwise strong credit and DTI, the higher rate is usually worth it for the higher qualifying amount.",
+    relatedSlugs: ["personal-loan-self-employed-qualify", "personal-loan-gig-worker-income"],
+    toolLinks: [
+      { label: "Glossary: Bank-statement loan", href: "/glossary/bank-statement-loan" },
+    ],
+  },
+  {
+    slug: "personal-loan-rental-property-landlord",
+    topic: "Approval & amount",
+    question: "Can rental-property income count toward a personal-loan application?",
+    shortAnswer:
+      "Yes, with two years of Schedule E showing the rental income net of expenses and depreciation. Lenders typically count 75% of the net rental income to account for vacancy and maintenance. Vacant or under-rented units are excluded. Lease agreements alone are usually not sufficient documentation.",
+    context:
+      "Rental income is the trickiest non-W-2 source to document. Lenders require two years of Schedule E (the IRS form for rental real estate) showing the property has produced consistent net income. The qualifying figure is net rental income after expenses, mortgage interest, and depreciation, multiplied by a 75% vacancy factor.\n\nThe 75% factor catches landlords off-guard. A property netting $1,200 a month on paper qualifies at $900 for underwriting purposes, on the assumption that vacancy and capex will eventually erode some portion. Lenders apply this even to fully-occupied long-tenured rentals.\n\nProperties under 24 months of ownership are typically excluded from qualifying income; the lender wants two full tax years of rental history. Short-term rental income (Airbnb, Vrbo) is treated similarly: two years of Schedule E history, with the 75% factor, and the additional caveat that some lenders apply a higher vacancy adjustment (50 to 60%) on short-term rental because the income is less predictable.",
+    relatedSlugs: ["personal-loan-self-employed-qualify", "personal-loan-multiple-income-sources"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-maternity-leave",
+    topic: "Special situations",
+    question: "Can I get a personal loan while on maternity leave?",
+    shortAnswer:
+      "Yes, if you're returning to the same job. Submit the employer letter confirming your return date and pre-leave salary; lenders treat that as continuous employment. Paid leave income (if FMLA is paid through your employer or short-term disability) also counts. Unpaid leave with no confirmed return triggers most declines.",
+    context:
+      "Federal Regulation B prohibits discrimination against borrowers on parental leave. Lenders may not deny a loan because the applicant is currently on FMLA, maternity, or paternity leave, provided the employment situation will return to normal. The standard documentation is a letter from the employer confirming the leave dates, the return date, and the pre-leave salary, plus the most recent paystubs from before leave began.\n\nIf the leave is paid (through accrued PTO, employer-paid maternity, or short-term disability insurance), the paid portion counts as current income on the application. Unpaid FMLA leave is the harder case: lenders typically require the return-date letter as the bridge between current zero income and future restored income, and they may underwrite to the post-leave salary as the qualifying figure.\n\nApplications during leave for parents who do not intend to return to the same employer face the same underwriting as anyone between jobs: limited approval options, usually requiring co-signers or secured collateral.",
+    relatedSlugs: ["personal-loan-after-job-loss", "personal-loan-stay-at-home-spouse"],
+    toolLinks: [],
+  },
 ];
 
 export const questionsBySlug = Object.fromEntries(

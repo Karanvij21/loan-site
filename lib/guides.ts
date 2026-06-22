@@ -1702,6 +1702,121 @@ export const guides: Guide[] = [
       { label: "Pre-qualify with multiple lenders", href: "/apply", blurb: "Soft credit check, no obligation, results in minutes." },
     ],
   },
+
+  // ─── Loan shopping: APR negotiation guide ────────────────────────
+  {
+    slug: "how-to-negotiate-lower-personal-loan-apr",
+    cluster: "Loan shopping",
+    h1: "How to negotiate a lower personal loan APR",
+    title: "How to Negotiate a Lower Personal Loan APR (2026 Tactics)",
+    description:
+      "Personal-loan APRs are more negotiable than most borrowers think. The exact lever you have depends on which lender you're talking to. A complete tactical guide to negotiating down before you sign.",
+    publishedAt: PUBLISHED,
+    reviewedAt: REVIEWED,
+    estimatedReadMinutes: 13,
+    intro:
+      "Most borrowers accept the first APR a lender offers because they don't know what's actually negotiable. In reality, marketplace pricing has 2 to 5 percentage points of flex on the high side, credit-union APRs respond to relationship factors not captured in the initial offer, and direct-lender promotional terms cycle every few weeks. The lever you have depends on which kind of lender you're talking to. This guide walks through what works at each.",
+    sections: [
+      {
+        h2: "First understand what's actually negotiable",
+        body:
+          "Personal-loan APRs are a function of five variables: credit score, debt-to-income ratio, loan amount, loan term, and lender-specific risk model. Three of these (credit, DTI, amount) you can change. One (term) you can adjust at the offer stage. The fifth (the risk model) is fixed per lender but varies wildly across lenders for the same borrower, which is where most of the leverage actually lives.\n\nThe practical implication is that 'negotiating' a personal-loan APR usually does not mean haggling with a single lender. It means presenting yourself in a way that triggers better pricing tier classifications, then forcing competing lenders to match each other. Direct phone calls with a lender's loan officer rarely move pricing in marketplace-style lending; competitor offers and tier-shift triggers do.\n\nCredit unions are the exception. Because credit unions are member-owned and underwriters have meaningful discretion, presenting an existing relationship, a longer-tenured account, or a referral from another member sometimes does move pricing in conversation.",
+      },
+      {
+        h2: "Strategy 1: Raise your score before applying, not during",
+        body:
+          "The single highest-leverage move is changing how the lender's risk model classifies you, which means changing your credit score. A 30 to 60 point score increase typically moves a borrower one tier (e.g., 'fair' to 'good' or 'good' to 'very good') and drops APR by 3 to 6 percentage points. The math on this is more powerful than any negotiation tactic.\n\nThree levers move scores fastest:\n\nFirst, pay credit-card balances down below 30% of credit limit. Utilisation is the second-largest factor in FICO scoring. A card maxed at 80% utilisation moved to 25% utilisation can lift the score 30 to 80 points in one month. Pay before the statement closes; the statement balance is what gets reported.\n\nSecond, dispute report errors. About 25% of credit reports contain errors that affect scoring, per FTC research. The dispute process is free and resolves in 30 days. Common removable errors: accounts that aren't yours, balances reported higher than current, paid charge-offs not updated, late marks past their seven-year reporting window.\n\nThird, request credit-limit increases on existing cards. A limit increase reduces utilisation without paying down balances; it's a free score boost if the issuer grants it via a soft pull. Discover, Chase, and Amex routinely grant 50 to 100% limit increases on tenured accounts via the app, no hard pull required.",
+        bullets: [
+          "Pay revolving balances below 30% utilisation BEFORE the statement closes",
+          "Dispute report errors at all three bureaus (annualcreditreport.com is the only authorised free source)",
+          "Request limit increases on existing cards (soft-pull request only, granted or denied without score impact)",
+          "Wait 30 to 45 days for changes to flow through to the bureau and the lender's risk model",
+        ],
+      },
+      {
+        h2: "Strategy 2: Pre-qualify with 5 to 7 lenders, not 3",
+        body:
+          "Most borrowers stop at 3 pre-qualifications. The data says you should run more. Industry surveys show the rate spread between the best and worst pre-qualified offer for the same borrower typically runs 8 to 12 percentage points; on a $20,000 loan at 60 months, that's $7,000+ of total cost difference for 20 minutes of additional shopping.\n\nThe ideal pre-qualification mix:\n\n- 2 to 3 marketplace aggregators (they route to many lenders each, so this reveals a wide spread quickly)\n- 1 to 2 direct online lenders (LightStream, SoFi, Marcus, etc., which set their own pricing and sometimes beat marketplace lenders for prime credit)\n- 1 credit union (Navy Federal, PenFed, your local CU, or any major credit-union network you're eligible to join)\n- 1 bank you have a relationship with (existing checking account, mortgage, or auto loan)\n\nAll pre-qualifications are soft-pull, so the credit-score impact is zero. Doing them in a 14-day window also clusters any future hard pulls under FICO's rate-shopping window, so they count as one inquiry for scoring purposes if you decide to formally apply with multiple.",
+        bullets: [
+          "Mix marketplaces, direct online lenders, credit unions, and your primary bank",
+          "Run all pre-qualifications in the same 1 to 2-week window",
+          "Compare APRs net of origination fees, not headline interest rates",
+          "Keep the top 2 to 3 offers active; you'll use them in Strategy 3",
+        ],
+      },
+      {
+        h2: "Strategy 3: Use competing offers as leverage",
+        body:
+          "This is the closest thing to traditional negotiation that exists in personal-loan markets, and it works specifically at credit unions, banks where you have a deposit relationship, and direct online lenders. Marketplace aggregators usually cannot reduce APR because the underlying lender sets the price; the marketplace just passes the rate through.\n\nThe scripted version: pre-qualify with your top 5 to 7 lenders. Identify the lowest APR offer. Then call the credit union, primary bank, or direct online lender where you'd prefer to do business and tell them, with specifics: 'I have a pre-qualified offer at 11.49% APR with a 1% origination fee from Lender X. I'd prefer to work with you. Can you match or beat that rate?' About 30 to 50% of the time, the credit union or relationship bank will counter. Sometimes by reducing origination, sometimes by tweaking APR within the loan officer's discretion, sometimes by changing the term to deliver the same monthly payment at lower total cost.\n\nThe move does not work with most online marketplace lenders because the loan-officer-discretion layer doesn't exist; the algorithm is the entire underwriting. But the same competitive-offer leverage works in reverse: when you decline a marketplace offer, the lender sometimes follows up within 48 hours with a slightly better counter to retain the application. This is automated, but it's still real money.",
+        bullets: [
+          "Always have a written pre-qualified competing offer to reference (screenshots work)",
+          "Credit unions and relationship banks counter most often",
+          "Marketplace lenders sometimes counter via automated follow-up email after decline",
+          "Don't bluff; specifics make the negotiation; vague claims fail",
+        ],
+      },
+      {
+        h2: "Strategy 4: Shorten the term to lower the APR",
+        body:
+          "Lenders price longer terms higher because the loan is exposed to more economic risk and the borrower's credit can deteriorate over a longer window. The pricing increment is usually 0.5 to 1.5 percentage points for each step up in term (36 to 48 months, 48 to 60, 60 to 72). Shortening from 60 to 36 months on the same loan amount can drop APR by 1.5 to 4.5 percentage points.\n\nThe trade-off is the monthly payment. A $15,000 loan at 14% APR over 60 months is $349 monthly; over 36 months at 11% APR is $491 monthly. The 36-month version saves $4,300 in total interest but costs $142 more per month. Whether the trade is worth it depends entirely on cash flow.\n\nThe right move at the offer stage: ask the lender to show pricing at 36, 48, and 60 months. Most online lender portals let you adjust term and see the new APR immediately. Pick the shortest term where the monthly payment plus a 10% buffer fits your budget. The shortest term you can carry is almost always the cheapest total cost.",
+        bullets: [
+          "Each step up in term typically adds 0.5 to 1.5 percentage points of APR",
+          "Online portals let you adjust term and see new APR in real time",
+          "Pick the shortest term where (monthly payment x 1.10) fits your budget",
+          "Total interest savings from shortening 60 to 36 months on a $15k loan: ~$4,300",
+        ],
+      },
+      {
+        h2: "Strategy 5: Lower the loan amount to qualify for a better tier",
+        body:
+          "Smaller loans sometimes price worse because lenders have fixed costs per loan and prefer larger principals. But the inverse is also true at the high end: borrowers who request right at the edge of a lender's tier ceiling often get priced into the next-higher (worse) tier. Pulling the request slightly below the threshold can move the offer back into the better tier.\n\nExample: Many lenders have a $35,000 or $40,000 cap on the 'good credit' tier and price loans above that into a 'jumbo personal loan' tier with 2 to 4 percentage points higher APR. Asking for $34,500 instead of $40,000 sometimes drops the APR enough that the lower principal still delivers more usable cash.\n\nThis is rarely worth doing for small amounts (sub-$10,000) but matters meaningfully on $30,000+ loans. Run the math: if the lower amount delivers a materially lower APR over 5+ years, the per-dollar borrowing cost is lower and the total cash needed for the actual purpose may not require the original amount anyway.",
+      },
+      {
+        h2: "Strategy 6: Add a co-signer or apply jointly",
+        body:
+          "A co-signer with a strong credit profile (FICO 720+, low DTI, stable income) can move a borderline applicant up one or two pricing tiers, dropping APR by 3 to 8 percentage points. The co-signer must be willing to sign full liability, the loan reports on their credit too, and any default damages their score. About 38% of cosigners end up paying at least one payment on the cosigned loan, per CFPB data.\n\nJoint application is similar but distinct: both applicants are equal borrowers from the start, both signing the promissory note, both fully liable. Joint applications are common between spouses or domestic partners and unlock the income-combining benefit explicitly: both incomes count toward the qualifying figure, both credit scores influence pricing.\n\nThe co-signer move usually only makes sense when the alternative APR is materially worse. If you're a 660-FICO borrower being quoted 22% and a parent with 760 FICO can co-sign to drop you to 14%, the co-signed loan saves real money. If you're already getting 11%, adding a co-signer for a 9% offer is rarely worth the relationship risk.",
+        bullets: [
+          "Co-signer must be FICO 720+ for meaningful pricing improvement",
+          "Co-signer takes on full legal liability for the debt",
+          "Joint application is similar but both parties are primary borrowers from the start",
+          "Worth it when APR spread is large (5+ percentage points); rarely worth it for small spreads",
+        ],
+      },
+      {
+        h2: "Strategy 7: Enroll in autopay for the discount",
+        body:
+          "Almost every personal-loan lender offers an APR discount for autopay enrollment. The discount typically runs 0.25 to 0.50 percentage points. On a $20,000 loan at 14% over 60 months, a 0.50 percentage point reduction saves about $290 in total interest. Almost free money.\n\nThe one tactical note: autopay must come from a checking account at a bank that supports ACH (essentially all U.S. banks). Some lenders require the autopay account to be at the same bank that originated the loan (only relevant if you're borrowing from your primary bank). The discount usually applies from the first payment and continues for the life of the loan as long as autopay stays enrolled.\n\nIf you switch banks during the loan, re-enroll autopay at the new bank immediately. Some lenders pull the discount silently if autopay lapses for even one billing cycle.",
+      },
+    ],
+    faqs: [
+      {
+        q: "Will the lender hold the lower negotiated rate if my credit changes?",
+        a: "Usually no. The pre-qualified offer reflects your credit at soft-pull time. If the hard pull at final application reveals a meaningfully worse profile (new derogatories, opened accounts, balance increases), the lender can reprice. Avoid opening new credit or taking on new debt between pre-qualification and final approval.",
+      },
+      {
+        q: "Is there a 'negotiated rate' line on the loan disclosure?",
+        a: "No. The TILA-required disclosure shows the final APR, finance charge, amount financed, and total of payments. There's no record of what the originally-offered rate was. Keep your own paper trail (screenshots of pre-qualified offers, emails confirming counters) if you want documentation of how the final number was reached.",
+      },
+      {
+        q: "How long does the whole process take?",
+        a: "Plan for 1 to 2 weeks if you want to do this properly. Score improvements need 30 to 45 days to flow through to the bureaus and the lender's risk model. Pre-qualification with 5 to 7 lenders takes 45 to 60 minutes once you have documents ready. The negotiation calls with credit unions or relationship banks take an hour or two. The final hard-pull application and funding take 2 to 5 business days.",
+      },
+      {
+        q: "What if I don't have time to negotiate?",
+        a: "Even in a 24-hour timeline, the highest-leverage move is pre-qualifying with 3 to 5 lenders to compare offers. The spread between the best and worst is usually large enough that selecting the best one (without further negotiation) captures most of the value. Skip Strategies 1, 3, and 5 if pressed; keep 2, 4, and 7.",
+      },
+      {
+        q: "Do mortgage-style 'discount points' exist on personal loans?",
+        a: "No. Personal loans don't offer the option to prepay interest in exchange for a lower rate (the way mortgage 'points' work). The closest equivalent is paying a higher origination fee in exchange for a lower APR at some lenders, but the math usually doesn't favour this on personal loan timelines. Compare APRs net of fees rather than buying down rates.",
+      },
+    ],
+    relatedSlugs: ["how-to-choose-personal-loan-2026-checklist", "compare-personal-loan-offers", "hidden-fees-personal-loans"],
+    toolLinks: [
+      { label: "APR calculator", href: "/calculators/apr", blurb: "Compare APRs net of origination fees side by side." },
+      { label: "Loan payment calculator", href: "/calculators/loan-payment", blurb: "See how a 1 to 3 percentage point APR reduction changes total interest." },
+      { label: "Pre-qualify with multiple lenders", href: "/apply", blurb: "Soft credit check, no obligation, results in minutes." },
+    ],
+  },
 ];
 
 export const guidesBySlug = Object.fromEntries(

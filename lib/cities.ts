@@ -62,6 +62,7 @@ export const cities: City[] = [
   city("Little Rock", "little-rock", "arkansas", 202_000),
   city("Fort Smith", "fort-smith", "arkansas", 88_000),
   city("Fayetteville", "fayetteville", "arkansas", 95_000),
+  city("Springdale", "springdale", "arkansas", 90_000),
 
   // California
   city("Los Angeles", "los-angeles", "california", 3_900_000),
@@ -87,6 +88,8 @@ export const cities: City[] = [
   city("New Haven", "new-haven", "connecticut", 134_000),
   city("Hartford", "hartford", "connecticut", 121_000),
   city("Stamford", "stamford", "connecticut", 137_000),
+  city("Waterbury", "waterbury", "connecticut", 115_000),
+  city("Norwalk", "norwalk", "connecticut", 91_000),
 
   // Delaware
   city("Wilmington", "wilmington", "delaware", 71_000),
@@ -115,6 +118,7 @@ export const cities: City[] = [
 
   // Hawaii
   city("Honolulu", "honolulu", "hawaii", 345_000),
+  city("Pearl City", "pearl-city", "hawaii", 47_000),
   city("Hilo", "hilo", "hawaii", 45_000),
   city("Kailua", "kailua", "hawaii", 38_000),
 
@@ -122,6 +126,7 @@ export const cities: City[] = [
   city("Boise", "boise", "idaho", 235_000),
   city("Meridian", "meridian", "idaho", 130_000),
   city("Nampa", "nampa", "idaho", 110_000),
+  city("Idaho Falls", "idaho-falls", "idaho", 67_000),
 
   // Illinois
   city("Chicago", "chicago", "illinois", 2_700_000),
@@ -140,12 +145,15 @@ export const cities: City[] = [
   city("Des Moines", "des-moines", "iowa", 213_000),
   city("Cedar Rapids", "cedar-rapids", "iowa", 137_000),
   city("Davenport", "davenport", "iowa", 100_000),
+  city("Sioux City", "sioux-city", "iowa", 85_000),
+  city("Iowa City", "iowa-city", "iowa", 75_000),
 
   // Kansas
   city("Wichita", "wichita", "kansas", 395_000),
   city("Overland Park", "overland-park", "kansas", 200_000),
   city("Kansas City", "kansas-city", "kansas", 156_000),
   city("Topeka", "topeka", "kansas", 126_000),
+  city("Olathe", "olathe", "kansas", 142_000),
 
   // Kentucky
   city("Louisville", "louisville", "kentucky", 625_000),
@@ -192,6 +200,7 @@ export const cities: City[] = [
   city("Jackson", "jackson", "mississippi", 145_000),
   city("Gulfport", "gulfport", "mississippi", 72_000),
   city("Southaven", "southaven", "mississippi", 55_000),
+  city("Hattiesburg", "hattiesburg", "mississippi", 47_000),
 
   // Missouri
   city("Kansas City", "kansas-city", "missouri", 510_000),
@@ -283,6 +292,7 @@ export const cities: City[] = [
   city("Providence", "providence", "rhode-island", 190_000),
   city("Warwick", "warwick", "rhode-island", 82_000),
   city("Cranston", "cranston", "rhode-island", 82_000),
+  city("Pawtucket", "pawtucket", "rhode-island", 75_000),
 
   // South Carolina
   city("Charleston", "charleston", "south-carolina", 155_000),

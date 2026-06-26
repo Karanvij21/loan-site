@@ -580,6 +580,90 @@ export const useCases: Record<string, UseCase> = {
       { q: "Do I need to tell the lender I'm buying an RV?", a: "You'll typically select a loan purpose category on the application. 'Major purchase' or 'recreation' is appropriate. Lenders don't monitor how you spend unsecured personal loan funds, but providing an accurate purpose is good practice and ensures you get the right product rather than a loan type that might exclude certain uses." },
     ],
   },
+  "engagement-ring": {
+    slug: "engagement-ring",
+    h1: "Personal loans for an engagement ring",
+    title: "Engagement Ring Loans 2026: Best Personal Loan Rates vs Jewelry Financing",
+    description:
+      "Compare personal loans vs in-store jewelry financing for an engagement ring. No deferred interest traps, fixed APR, funds in 1-2 days. Rates from 7.99% for good credit.",
+    eyebrow: "Use case",
+    intro:
+      "A personal loan for an engagement ring gives you a fixed APR and a set payoff date, unlike in-store financing plans that often use deferred interest. Online lenders fund in 1-2 business days, and because the loan is unsecured, there is no requirement to use a specific jeweler or purchase a specific ring. Borrowers with good credit (700+) can often find rates well below the 25%+ APR of most retail jewelry financing.",
+    amountMin: 500,
+    amountMax: 20000,
+    termMin: 12,
+    termMax: 60,
+    aprMin: 7.99,
+    aprMax: 35.99,
+    bullets: [
+      "Fixed monthly payment with no balloon or deferred interest",
+      "Works at any jeweler, lab-grown diamond site, or private seller",
+      "Loan amounts from $500 to $20,000",
+      "APRs 7.99%-35.99% based on credit score",
+      "Funds typically next business day",
+    ],
+    faqs: [
+      { q: "Is it worth financing an engagement ring with a personal loan?", a: "It depends on the APR and how quickly you can pay it off. A personal loan at 10%-14% for 24 months on a $4,000 ring costs about $300-$400 in total interest - a reasonable cost to avoid depleting savings. In-store plans with deferred interest (like 12-month no-APR offers) are better if you can guarantee full payoff before the promo period ends; worse if you can't, since retroactive interest at 25%-29% applies to the original balance." },
+      { q: "What credit score do I need to finance a ring with a personal loan?", a: "Mainstream online lenders (LightStream, SoFi, Marcus) typically require 660+, with the best rates (7%-12%) available at 720+. Borrowers with 580-659 can still qualify through lenders like Avant or Upgrade, typically at 18%-30% APR. Below 580, options narrow to credit unions or secured lenders." },
+      { q: "How does jeweler financing compare to a personal loan?", a: "Many jewelry retailers offer 6-24 month deferred interest plans through Synchrony or similar providers. These look like 0% APR, but if you don't pay the entire balance before the promo period ends, the issuer charges interest on the full original amount retroactively, often at 26%-29% APR. A personal loan at 14% for 24 months is more expensive if you do pay on time, but significantly cheaper if you don't." },
+    ],
+  },
+  "kitchen-remodel": {
+    slug: "kitchen-remodel",
+    h1: "Personal loans for kitchen remodels",
+    title: "Kitchen Remodel Loans 2026: Personal Loan Rates and Amounts for Renovations",
+    description:
+      "Finance a kitchen remodel with a personal loan: no home equity needed, no lien on your home, fixed APR, and funds in 1-3 business days. Compare costs vs HELOC.",
+    eyebrow: "Use case",
+    intro:
+      "A personal loan for a kitchen remodel gives you fast access to funds without requiring home equity or placing a lien on your property. Amounts up to $50,000 cover most kitchen projects, and fixed monthly payments make budgeting predictable. For renters, recent homebuyers with little equity, or anyone who wants to avoid collateral risk, a personal loan is often the only practical option.",
+    amountMin: 2000,
+    amountMax: 50000,
+    termMin: 24,
+    termMax: 84,
+    aprMin: 7.99,
+    aprMax: 29.99,
+    bullets: [
+      "No home equity required - works for renters and recent buyers",
+      "No lien on your property",
+      "Loan amounts from $2,000 to $50,000",
+      "Fixed APR 7.99%-29.99% based on credit",
+      "Funds typically within 1-3 business days",
+    ],
+    faqs: [
+      { q: "What is the average cost of a kitchen remodel and how much should I borrow?", a: "Minor kitchen refresh (new hardware, paint, new appliances): $5,000-$15,000. Mid-range remodel (new cabinets, countertops, appliances): $20,000-$45,000. Full gut renovation: $50,000-$100,000+. For the minor to mid-range category, a personal loan up to $50,000 covers the full project. For full renovations over $50,000, a HELOC or home equity loan typically offers lower rates if you have sufficient equity." },
+      { q: "Personal loan vs HELOC for a kitchen remodel: which is better?", a: "HELOC wins on rate (typically 8%-10% vs 10%-18% for personal loans) but requires 20%+ home equity, an appraisal, 4-6 weeks for approval, and places a lien on your home. A personal loan wins on speed (1-3 days), no equity requirement, no collateral risk, and a fixed interest rate. For projects under $20,000 where the APR difference isn't large, the personal loan's speed and simplicity often make it the better choice." },
+      { q: "Can I use a personal loan for contractor payments?", a: "Yes. Most contractors accept ACH bank transfer or check. A personal loan deposits funds directly to your bank account, which you then use to pay the contractor. There is no restriction on the contractor you use, and you don't need to provide contractor receipts to the lender. This gives you flexibility to negotiate directly and pay multiple contractors or supply vendors." },
+    ],
+  },
+  "emergency": {
+    slug: "emergency",
+    h1: "Emergency personal loans",
+    title: "Emergency Personal Loans 2026: Same-Day Funds, No Collateral, Soft Credit Check",
+    description:
+      "Emergency personal loans from $500-$35,000 with same-day approval and next-business-day funding. Compare lenders, APRs, and faster alternatives when you need cash fast.",
+    eyebrow: "Use case",
+    intro:
+      "An emergency personal loan is an unsecured installment loan approved and funded quickly - often within one business day - to cover unexpected expenses: car breakdowns, urgent medical bills, burst pipes, sudden travel, or any expense that cannot wait. Unlike payday loans, emergency personal loans have fixed monthly payments and APRs that do not exceed 36% at reputable lenders.",
+    amountMin: 500,
+    amountMax: 35000,
+    termMin: 12,
+    termMax: 60,
+    aprMin: 7.99,
+    aprMax: 35.99,
+    bullets: [
+      "Same-day decisions and next-business-day funding at top lenders",
+      "No collateral required - credit and income only",
+      "Loan amounts from $500 to $35,000",
+      "Fixed APRs from 7.99%-35.99% based on credit",
+      "Soft credit check pre-qualification with no score impact",
+    ],
+    faqs: [
+      { q: "Which lenders can fund an emergency loan the same day?", a: "LightStream, Avant, and Rocket Loans advertise same-day or next-day funding for applicants who complete verification early in the business day. Upstart and Upgrade typically fund within 1-2 business days. Credit unions may take 1-3 business days but often have lower rates. Wire transfers are faster than ACH; ask the lender whether wire is an option if you need funds the same afternoon." },
+      { q: "What credit score do I need for an emergency personal loan?", a: "LightStream and SoFi require 660+. Avant, Upgrade, and Upstart serve borrowers down to 580-600. OneMain Financial and some credit unions work with borrowers below 580. Lower credit scores mean higher APRs (22%-36%) and lower maximum amounts, but options exist across the credit spectrum." },
+      { q: "Are there faster alternatives to an emergency personal loan?", a: "Faster options include: a credit card (instant, if you have available credit), a 401(k) loan from your employer plan (1-3 business days, no credit check), borrowing from family or friends, or a payroll advance from your employer. These are worth exploring first. If the expense exceeds your credit card limit or 401(k) loan eligibility, or if you need a fixed repayment schedule, a personal loan is the right tool." },
+    ],
+  },
 };
 
 export const useCaseSlugs = Object.keys(useCases);

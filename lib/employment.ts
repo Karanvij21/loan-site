@@ -356,6 +356,65 @@ export const employmentTypes: Record<string, UseCase> = {
       { q: "How does taking a personal loan now help my credit later?", a: "Payment history (35% of your FICO score) is built over time by making consistent on-time payments. An installment loan also improves your credit mix, showing you can manage both revolving credit (credit cards) and installment accounts (loans). A 24-month personal loan repaid on time adds 24 months of positive installment history to your credit report. This builds the track record that future lenders will review when you apply for an auto loan, mortgage, or larger personal loan." },
     ],
   },
+
+  "teachers": {
+    slug: "teachers",
+    eyebrow: "Employment type",
+    h1: "Personal loans for teachers and educators (2026)",
+    title: "Personal Loans for Teachers 2026: Rates, Amounts & Lenders",
+    description:
+      "Personal loan options for teachers, school administrators, and public education employees. APRs from 7.99% to 24.99% and amounts from $2,000 to $50,000.",
+    intro:
+      "Teachers and education professionals have stable, documented income that most lenders view favorably. School district employment typically means predictable annual salary, year-round (or 10-month) pay schedules, and strong job security - all positive factors for loan approval. Whether you need funds for classroom supplies, summer gap coverage, continuing education, home improvement, or debt consolidation, personal loans offer a flexible solution.",
+    amountMin: 2000,
+    amountMax: 50000,
+    termMin: 12,
+    termMax: 84,
+    aprMin: 7.99,
+    aprMax: 24.99,
+    bullets: [
+      "Stable school district income viewed favorably by lenders",
+      "APRs typically 7.99% to 24.99% depending on credit score",
+      "Loan amounts from $2,000 to $50,000",
+      "10-month pay schedule borrowers: lenders use annual income, not just in-school months",
+      "Soft credit check pre-qualification available",
+    ],
+    faqs: [
+      { q: "How do lenders handle the 10-month school pay schedule?", a: "Lenders use annual income, not monthly income from the school calendar. If you earn $52,000/year paid over 10 months ($5,200/month during the school year), lenders calculate your monthly income as $52,000 divided by 12 = $4,333 for DTI purposes. This is standard practice. If your pay stubs only show 10 months of salary, provide your employment contract or a letter from HR showing your annual salary." },
+      { q: "Are there loan programs specifically for teachers?", a: "A handful of credit unions and community banks offer teacher-specific products with preferred rates or fees, especially those associated with school district employees (like education credit unions). Nationwide, some lenders advertise 'teacher loans' but these are standard personal loans with marketing. The more impactful benefit for teachers is that school district employment - government employer, stable income, pension - signals low risk to lenders, which improves your rate even at standard lenders." },
+      { q: "Can a teacher get a personal loan during the summer without a current paycheck?", a: "Yes - income is verified at application time, not monthly. When you apply in June, lenders verify your annual salary from your most recent pay stubs, W-2, or employment contract. Most lenders do not re-verify income monthly. Approval is based on annual income and DTI, not whether you currently have an active paycheck. Payments will still be due during summer, so plan your budget around meeting payments from savings during the non-pay period." },
+      { q: "Can I use a personal loan for classroom supplies?", a: "Yes - personal loans can be used for any purpose, including classroom supplies. Separately, teachers can deduct up to $300 per year (federal Educator Expense Deduction) for out-of-pocket classroom expenses. This deduction applies to the underlying expense, not to loan interest. Personal loan interest is not tax-deductible for consumer purposes. The $300 educator deduction is an above-the-line deduction regardless of whether you itemize." },
+    ],
+  },
+
+  "disability-recipients": {
+    slug: "disability-recipients",
+    eyebrow: "Employment type",
+    h1: "Personal loans for disability recipients (SSDI and SSI, 2026)",
+    title: "Personal Loans for Disability Recipients 2026: SSDI & SSI Options",
+    description:
+      "Personal loan options for recipients of SSDI and SSI disability benefits. Amounts from $500 to $20,000 and lenders that count disability income for qualification.",
+    intro:
+      "Disability income - whether SSDI, SSI, VA disability benefits, or long-term disability insurance - is recognized as qualifying income by personal loan lenders under the Equal Credit Opportunity Act. You cannot be denied or offered worse terms solely because your income comes from disability benefits. The key factors are the same as for any borrower: income amount, credit score, and existing debt obligations.",
+    amountMin: 500,
+    amountMax: 20000,
+    termMin: 12,
+    termMax: 60,
+    aprMin: 10.99,
+    aprMax: 35.99,
+    bullets: [
+      "SSDI, SSI, VA disability, and long-term disability all count as qualifying income",
+      "ECOA prohibits lenders from discounting or denying based on disability income source",
+      "Loan amounts from $500 to $20,000 depending on monthly benefit and credit score",
+      "Documentation: SSA benefit verification letter or VA award letter",
+      "Soft credit check pre-qualification with no score impact",
+    ],
+    faqs: [
+      { q: "What documentation does a disability recipient need to apply?", a: "For SSDI or SSI: an SSA Benefit Verification Letter, available at ssa.gov/myaccount or by calling 1-800-772-1213. The letter shows your current monthly benefit amount. For VA disability: your VA Rating Decision letter showing your combined disability rating and monthly payment. For private long-term disability: the benefit award letter from the insurance carrier. Have recent bank statements available to show the deposits arriving regularly." },
+      { q: "Can I get a personal loan if SSI is my only income?", a: "SSI (Supplemental Security Income) is means-tested for low-income individuals with disabilities. The maximum federal SSI benefit in 2026 is approximately $967/month for an individual. At this income level, qualifying for a meaningful loan is difficult: $967/month supports approximately $240-$290/month in total debt payments at 25%-30% DTI, limiting eligibility to amounts around $2,000-$5,000. SSDI recipients with higher monthly benefits (average SSDI in 2026 is approximately $1,580/month) have more options." },
+      { q: "Will the loan affect my disability benefits?", a: "For SSDI recipients: No. SSDI has no asset limit, and loan proceeds are not considered income under SSDI rules. For SSI recipients: SSI has a $2,000 asset limit ($3,000 for couples). Holding loan proceeds in a bank account above that limit could affect your SSI eligibility for that month. Spend loan funds in the same month received, or consult a WIPA benefits counselor (Work Incentive Planning and Assistance, available free through SSA) before borrowing." },
+    ],
+  },
 };
 
 export const employmentSlugs = Object.keys(employmentTypes);

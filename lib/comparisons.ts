@@ -942,6 +942,111 @@ export const comparisons: Record<string, Comparison> = {
       { q: "Are there any exceptions to the 10% early withdrawal penalty?", a: "Yes. The IRS allows penalty-free early withdrawals for: first-time home purchase (up to $10,000 from an IRA), substantially equal periodic payments (SEPP/72(t)), disability, death, medical expenses exceeding 7.5% of AGI, certain military reservist calls to active duty, qualified disasters (per IRS guidance), and others. You still owe income tax on these withdrawals - only the 10% penalty is waived. Check IRS Publication 590-B or consult a tax advisor for your specific situation." },
     ],
   },
+
+  "personal-loan-vs-salary-advance": {
+    slug: "personal-loan-vs-salary-advance",
+    h1: "Personal Loan vs Salary Advance: Which Should You Use?",
+    title: "Personal Loan vs Salary Advance (2026) | Get Advance Loan",
+    description:
+      "Personal loans vs employer salary advances: rates, amounts, credit impact, and when each makes sense. Side-by-side comparison for 2026.",
+    aName: "Personal Loan",
+    bName: "Salary Advance",
+    intro:
+      "A salary advance lets you access wages you have already earned, before payday. A personal loan gives you cash beyond your next paycheck, with a fixed repayment schedule. Each has a distinct use case: salary advances work for small, immediate gaps; personal loans work for larger amounts or longer repayment horizons.",
+    rows: [
+      { k: "Amount range", a: "$1,000 - $100,000", b: "$100 - $2,000 (typically one pay period's net wages)" },
+      { k: "Interest rate", a: "7.99% - 35.99% APR", b: "0% - 5% flat fee, or free via employer programs" },
+      { k: "Repayment", a: "Fixed monthly payments over 12 - 84 months", b: "Automatic deduction from next paycheck (1-2 weeks)" },
+      { k: "Credit check", a: "Soft pull to pre-qualify; hard pull to apply", b: "No credit check in most programs" },
+      { k: "Credit impact", a: "Can build credit with on-time payments", b: "Does not appear on credit report" },
+      { k: "Funding speed", a: "1 - 3 business days after approval", b: "Same day or next day in most programs" },
+      { k: "Eligibility", a: "Based on credit score, income, DTI", b: "Active employment; employer must offer the program" },
+      { k: "Maximum term", a: "Up to 84 months", b: "One or two pay periods maximum" },
+      { k: "Tax implications", a: "None (loan is not income)", b: "None (advance of earned wages is not new income)" },
+      { k: "Examples", a: "LightStream, SoFi, Upgrade, Avant", b: "Earnin, Dave, DailyPay, employer payroll programs" },
+    ],
+    verdicts: [
+      { scenario: "You need under $500 before your next payday", pick: "b", reason: "A salary advance or earned wage access app (Earnin, Dave) is free or very cheap for small, short-term gaps. No credit impact, no application, and no fixed monthly payment. Perfect for a utility bill or car repair before payday." },
+      { scenario: "You need over $2,000 or more than 2 weeks to repay", pick: "a", reason: "Salary advances are capped at one pay period's wages and repaid within days. Any amount requiring weeks or months to repay, or exceeding $2,000, needs a personal loan with a structured repayment schedule." },
+      { scenario: "You have poor credit and need cash quickly", pick: "b", reason: "Salary advance apps do not check credit. If your credit score is 550 and you need $400 before payday, a salary advance is both accessible and cheaper than a subprime personal loan at 35% APR." },
+      { scenario: "You need to consolidate multiple debts", pick: "a", reason: "Salary advances are not suitable for debt consolidation - the amount is too small and the term too short. A personal loan with 24-84 months of fixed payments is the right tool for consolidating credit cards, medical bills, or other debts." },
+    ],
+    faqs: [
+      { q: "Are salary advance apps the same as payday loans?", a: "No - though they serve a similar short-term purpose, the economics are very different. Payday loans charge 300%-400% APR equivalents by lending at fees like $15 per $100 for 2 weeks. Salary advance apps (Earnin, Dave) advance wages you have already earned and typically charge $0-$3 or accept optional tips. Some newer employer-integrated programs (DailyPay, Even) are free. The fundamental difference is that salary advance apps access wages you have earned; payday lenders create new debt." },
+      { q: "Does using a salary advance app affect my credit score?", a: "Generally no. Most earned wage access apps do not report to credit bureaus. They also do not typically perform credit checks. The transaction does not appear on your credit report. This means salary advances neither help nor hurt your credit score, unlike personal loans which are reported and can build or damage credit depending on payment history." },
+      { q: "What if I cannot repay the salary advance from my next check?", a: "Salary advance apps recover funds automatically from your next paycheck via direct deposit. If your check is less than expected (overtime missed, hours reduced), the recovery may fail. Apps typically retry on the following pay period without additional fees. Unlike payday loans, most salary advance apps do not charge rollover fees or send unpaid balances to collections. Contact the app before your payday if you expect a shortfall - most have hardship policies." },
+    ],
+  },
+
+  "personal-loan-vs-medical-loan": {
+    slug: "personal-loan-vs-medical-loan",
+    h1: "Personal Loan vs Medical Loan: Which Is Better for Medical Bills?",
+    title: "Personal Loan vs Medical Loan (2026) | Get Advance Loan",
+    description:
+      "Comparing personal loans and medical loans for covering healthcare costs in 2026. Rates, approval odds, and when each makes sense.",
+    aName: "Personal Loan",
+    bName: "Medical Loan",
+    intro:
+      "A 'medical loan' is typically just a personal loan marketed specifically for healthcare expenses, or a specialized healthcare financing product offered through a medical provider. Understanding the distinction helps you choose the genuinely cheaper option for surgeries, dental work, fertility treatments, and other out-of-pocket medical costs.",
+    rows: [
+      { k: "What it actually is", a: "Unsecured personal loan; flexible use", b: "Often: (1) personal loan rebranded, or (2) healthcare-specific product like CareCredit" },
+      { k: "APR range", a: "7.99% - 35.99%", b: "0% promotional (if paid on time) or 26.99% deferred interest" },
+      { k: "Deferred interest risk", a: "None - fixed APR from day one", b: "High - CareCredit and similar use deferred interest; missing the window triggers back-interest" },
+      { k: "Where to use", a: "Any provider; pay bill directly", b: "Must use in-network providers that accept CareCredit or the specific product" },
+      { k: "Approval speed", a: "1 - 3 business days", b: "Minutes to hours at point of care" },
+      { k: "Credit check", a: "Soft pull to pre-qualify; hard pull to approve", b: "Hard pull; credit union medical loans may soft pull first" },
+      { k: "Amounts", a: "$1,000 - $100,000", b: "CareCredit: up to $25,000; medical personal loans vary" },
+      { k: "Monthly payment", a: "Fixed", b: "Fixed (personal loan) or 0% promo minimum (CareCredit)" },
+      { k: "Best for", a: "Amounts you cannot repay within 12-18 months", b: "Short-term amounts you CAN repay within the promo window" },
+      { k: "Risk level", a: "Low - rate is known upfront", b: "High if you miss the 0% window; very low if you pay on time" },
+    ],
+    verdicts: [
+      { scenario: "You need to pay a medical bill you can repay in 12 months or less", pick: "b", reason: "If the medical lender offers 0% promotional financing and you can pay the full balance before the promo period ends, you pay zero interest. No personal loan can beat free. Just verify it is true 0% (not deferred interest) and set up auto-pay for the full balance." },
+      { scenario: "You need 24-60 months to repay the medical cost", pick: "a", reason: "For longer repayment timelines, the deferred interest model of CareCredit becomes dangerous. A personal loan at a fixed 12-18% APR is more predictable and typically cheaper than paying 26.99% deferred interest on a large balance after the promo period expires." },
+      { scenario: "Your provider does not accept medical financing cards", pick: "a", reason: "Personal loans deposit funds in your bank account, which you can use at any provider. If your surgeon, specialist, or out-of-network hospital does not accept CareCredit, a personal loan is the only option for provider-financed borrowing." },
+      { scenario: "You are not confident you can pay off the balance in time", pick: "a", reason: "The downside risk of missing the deferred-interest deadline is enormous. If you have $3,000 remaining when the promo expires, 26.99% retroactive interest on the original balance (not just the remainder) is immediately charged. A personal loan removes this timing risk entirely." },
+    ],
+    faqs: [
+      { q: "Is CareCredit the same as a medical loan?", a: "CareCredit is a healthcare credit card, not technically a loan. It offers revolving credit (like a Mastercard or Visa) accepted at enrolled healthcare providers. Promotional financing offers at 0% for 12-24 months make it appealing, but the deferred interest structure means unpaid balances after the period trigger back-interest at 26.99% on the original amount. A medical personal loan has a fixed interest rate from day one - safer but not free." },
+      { q: "Can I negotiate my medical bill before financing it?", a: "Yes - and you should always try first. Hospitals and large medical providers have financial counselors who can establish payment plans (often 0% interest), apply charity care discounts for income-qualified patients, or negotiate the bill amount. Many providers offer 20%-50% discounts for self-pay patients who pay upfront or on a structured plan. Financing should be a last resort after you have determined the actual amount owed after negotiation and insurance coordination." },
+      { q: "Will a medical loan affect my credit score?", a: "A true personal loan (including medical personal loans) will appear on your credit report. The application creates a hard inquiry (5-10 points temporarily). The loan account then affects credit mix, average account age, and payment history. Timely payments build credit; missed payments damage it. CareCredit also reports to credit bureaus as a revolving account. Unpaid medical bills at a collection agency affect credit only after they are sold to collections - the original medical bill itself does not appear on your credit report." },
+    ],
+  },
+
+  "personal-loan-vs-home-warranty": {
+    slug: "personal-loan-vs-home-warranty",
+    h1: "Personal Loan vs Home Warranty: Covering Home Repairs in 2026",
+    title: "Personal Loan vs Home Warranty for Repairs (2026) | Get Advance Loan",
+    description:
+      "Personal loans vs home warranty plans for covering home repair costs in 2026. True cost analysis, claim denial rates, and when each makes financial sense.",
+    aName: "Personal Loan",
+    bName: "Home Warranty",
+    intro:
+      "When a major home system or appliance breaks, you face two financial tools: borrowing to pay for repairs as they occur (personal loan), or prepaying for a warranty plan that theoretically covers future repairs (home warranty). The right choice depends on your home's age, repair history, and risk tolerance.",
+    rows: [
+      { k: "What it covers", a: "Any expense: repair, replace, upgrade", b: "Listed systems/appliances only; excludes pre-existing conditions, cosmetic issues, improper installation" },
+      { k: "Annual cost", a: "Loan interest (variable by amount and rate)", b: "$400 - $1,200/year in premiums + $75 - $150 service call fee per claim" },
+      { k: "Coverage trigger", a: "Available anytime you choose to borrow", b: "Only for covered failures, after 30-day waiting period, excluding listed exclusions" },
+      { k: "Claim denial rate", a: "N/A - loan funds go directly to your account", b: "Industry estimates: 30%-45% of claims are denied or partially paid" },
+      { k: "Repair quality", a: "Choose any contractor at your discretion", b: "Contractor selected by warranty company; quality varies significantly" },
+      { k: "Replacement quality", a: "Replace with the unit of your choice", b: "Replacement to 'functional equivalent' - often cheapest model that meets spec" },
+      { k: "Credit impact", a: "Builds credit with on-time payments", b: "No credit impact" },
+      { k: "Cancellability", a: "Refinanceable; can pay off early", b: "Cancel anytime, often with prorated refund" },
+      { k: "Best suited for", a: "Specific known repairs; large amounts; urgent needs", b: "High-risk older systems in homes where you expect multiple repairs" },
+      { k: "Worst suited for", a: "Ongoing maintenance budgeting", b: "New homes with newer systems; single large repair events" },
+    ],
+    verdicts: [
+      { scenario: "Your HVAC system just failed and you need $4,000 to replace it", pick: "a", reason: "A home warranty does not help with a repair that already happened (there is a waiting period for new policies, and pre-existing conditions are excluded). A personal loan funds the replacement within 1-3 days with your choice of contractor and equipment." },
+      { scenario: "You are buying an older home with systems 10-15 years old", pick: "b", reason: "A home warranty makes economic sense when you have multiple aging systems likely to fail within a few years. Paying $600/year when a water heater ($800-$1,500), dishwasher ($300-$700), and HVAC blower ($500-$1,000) are all near end-of-life can be worth it if claims are paid." },
+      { scenario: "You have a newer home (under 5 years old) with builder warranties", pick: "a", reason: "New homes typically have builder warranties covering structural and system defects for 1-10 years. Adding a home warranty is redundant during this period. If a repair does arise, a personal loan is more flexible than duplicating warranty coverage." },
+      { scenario: "You want predictable monthly housing costs", pick: "b", reason: "A home warranty converts unpredictable large repair bills into a predictable monthly premium. For homeowners who prioritize budget certainty over optimal financial efficiency, this trade is reasonable, with full awareness that 30%-45% of claims may not be paid as expected." },
+    ],
+    faqs: [
+      { q: "Why do home warranties deny so many claims?", a: "Home warranty policies are written with extensive exclusions. Common denial reasons: 'pre-existing condition' (the unit showed wear before coverage began), 'improper installation' (the contractor who installed it did not follow manufacturer specs), 'lack of maintenance' (the unit was not professionally serviced on a recommended schedule), or the specific component that failed is listed as excluded in the fine print. Consumer advocates recommend reading the full policy document before purchasing and comparing exclusions across providers." },
+      { q: "What is the actual average payout of a home warranty claim?", a: "Industry data suggests the average home warranty claim payout is $300-$700 after service call fees. For a $600/year premium plus a $100 service call fee, a single claim returning $500 net means you broke even - only if you filed exactly one claim that year. Multiple small claims or one large claim can make the warranty worthwhile. Multiple denied claims can make it a money loser. The statistical case for home warranties is contested; most financial analysts find them poor value for newer homes." },
+      { q: "Can I use a personal loan to pay for repairs while a home warranty claim is pending?", a: "Yes. If your home warranty company takes 5-10 days to dispatch a contractor and approve a claim, and you need immediate repair (a burst pipe, failed furnace in winter), you can use a personal loan to pay for emergency repairs and then seek reimbursement from the warranty company. Be aware that warranty companies prefer to use their own contractors and may not reimburse costs incurred with contractors they did not authorize. Get pre-authorization in writing before using your own contractor for a warranty claim if you want reimbursement." },
+    ],
+  },
 };
 
 export const comparisonSlugs = Object.keys(comparisons);

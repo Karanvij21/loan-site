@@ -103,7 +103,7 @@ export default async function StatePage({ params }: Props) {
 
           <div className="mt-8 grid items-end gap-10 lg:grid-cols-[1fr_360px] lg:gap-20">
             <div>
-              <span className="eyebrow">State loan guide · {s.region}</span>
+              <span className="eyebrow">State loan guide · {s.region} · Updated June 2026</span>
               <h1 className="mt-4 text-[40px] leading-[1.02] tracking-tight text-ink-900 lg:text-[64px]">
                 Personal loans in <span className="text-forest-700">{s.name}</span>.
               </h1>

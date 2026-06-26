@@ -1,14 +1,17 @@
 import type { Metadata } from "next";
 import { Suspense } from "react";
 import Link from "next/link";
-import { BreadcrumbJsonLd } from "@/components/seo/JsonLd";
+import { BreadcrumbJsonLd, HowToJsonLd } from "@/components/seo/JsonLd";
 import { siteConfig } from "@/lib/site";
 import { RoundSkyForm } from "@/components/apply/RoundSkyForm";
 
+// CTR-tuned title: front-loads the dollar range and soft-pull language
+// rather than the generic "Begin your request". Google's freshness signal
+// (year in title) is the secondary lift.
 export const metadata: Metadata = {
-  title: "Begin your request",
+  title: "Apply for a Personal Loan: $100-$50,000, Soft Check (2026)",
   description:
-    "Apply for a personal loan from $100 to $50,000. Two minutes. Soft credit check only. No impact on your credit score.",
+    "Apply for a personal loan from $100 to $50,000 in about 2 minutes. Soft credit check, no impact on your score. Free, no obligation. Funds as fast as the next business day.",
   alternates: { canonical: "/apply", languages: { "en-US": "/apply", "es-US": "/es/apply" } },
   robots: { index: true, follow: true },
 };
@@ -20,6 +23,28 @@ export default function ApplyPage() {
         items={[
           { name: "Home", url: `${siteConfig.url}/` },
           { name: "Apply", url: `${siteConfig.url}/apply` },
+        ]}
+      />
+      <HowToJsonLd
+        name="How to apply for a personal loan"
+        description="Three-step process to compare personal loan offers from a network of lenders without affecting your credit score."
+        totalTime="PT2M"
+        steps={[
+          {
+            name: "Submit a short request",
+            text: "Complete a 2-minute form with your loan amount, purpose, and contact details. We perform a soft credit inquiry only, with no impact to your credit score.",
+            url: `${siteConfig.url}/apply`,
+          },
+          {
+            name: "Review pre-qualified offers",
+            text: "Lenders in our network respond in real time with personalised rates, terms, and example monthly payments. Compare APRs net of origination fees to find the best total cost.",
+            url: `${siteConfig.url}/apply`,
+          },
+          {
+            name: "Get funded",
+            text: "Accept the offer that fits, e-sign the lender's loan agreement, and receive funds via ACH as fast as the next business day. Bank processing may add a day for some applicants.",
+            url: `${siteConfig.url}/apply`,
+          },
         ]}
       />
       <article className="mx-auto max-w-[1080px] px-6 pt-12 pb-20 lg:px-10 lg:pt-16 lg:pb-24">

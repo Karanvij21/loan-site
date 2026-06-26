@@ -20,7 +20,7 @@ import {
 import { defaultAuthor, defaultReviewer, authorUrl } from "@/lib/authors";
 
 const PUBLISHED = "2026-03-10";
-const REVIEWED = "2026-05-22";
+const REVIEWED = "2026-06-15";
 
 export function generateStaticParams() {
   return allCitySlugs();
@@ -105,6 +105,8 @@ export default async function CityPage({ params }: Props) {
             <Link href={`/personal-loans/${s.slug}`} className="hover:text-ink-900">{s.name}</Link>
             <span className="text-ink-300">/</span>
             <span className="text-ink-900">{c.name}</span>
+            <span className="text-ink-300">·</span>
+            <span className="text-ink-500">Updated June 2026</span>
           </nav>
 
           <div className="mt-8 grid items-end gap-10 lg:grid-cols-[1fr_360px] lg:gap-20">

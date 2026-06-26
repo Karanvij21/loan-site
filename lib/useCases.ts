@@ -720,6 +720,64 @@ export const useCases: Record<string, UseCase> = {
       { q: "Will I qualify for a personal loan for cosmetic surgery?", a: "Cosmetic surgery is an accepted loan purpose at all major online lenders. Approval depends on your credit score and income, not the medical purpose. Borrowers with 700+ credit scores qualify for $10,000-$25,000 at 9%-15% APR. Fair-credit borrowers (620-699) can typically get $2,000-$15,000 at 16%-28% APR. Apply 2-4 weeks before your scheduled procedure to ensure funds arrive on time for the required deposit." },
     ],
   },
+
+  "swimming-pool": {
+    slug: "swimming-pool",
+    eyebrow: "Use case",
+    h1: "Personal Loans for a Swimming Pool (2026): Rates & What to Know",
+    title: "Swimming Pool Loans 2026: Personal Loan Rates | Get Advance Loan",
+    description:
+      "Finance a backyard pool with a personal loan. See current rates (8%-22% APR), loan amounts up to $100,000, and compare personal loans to pool-specific financing.",
+    intro:
+      "An inground swimming pool costs $35,000-$65,000 on average; above-ground pools run $3,000-$15,000. Personal loans cover the full range, deposit funds directly to your bank account, and carry no risk to your home - unlike a home equity loan or HELOC that puts your property on the line. Approval requires good-to-excellent credit for the largest amounts.",
+    amountMin: 5000,
+    amountMax: 100000,
+    termMin: 24,
+    termMax: 84,
+    aprMin: 7.99,
+    aprMax: 24.99,
+    bullets: [
+      "Funds deposited in 1-3 business days - pay the pool contractor directly",
+      "No home equity required - renters and recent buyers qualify",
+      "Loan amounts up to $100,000 for inground pools",
+      "Fixed monthly payment: easier to budget than a HELOC",
+      "Soft credit check pre-qualification with no impact to your score",
+    ],
+    faqs: [
+      { q: "Is a personal loan or home equity loan better for a pool?", a: "A home equity loan or HELOC typically offers lower rates (6%-10% vs 10%-20% for personal loans) and the interest may be tax-deductible if the pool is considered a home improvement. However, if you do not have significant home equity, are a renter, or do not want your home at risk as collateral, a personal loan is the right choice. For pools over $50,000, the rate difference on a home equity loan often justifies the added complexity." },
+      { q: "What credit score do I need for a pool loan?", a: "For $35,000-$50,000 (typical inground pool range), most lenders require 680-700+ credit score. LightStream (which offers up to $100,000) targets 720+. For above-ground pools ($5,000-$15,000), approval is more accessible down to 620-640. The higher your score, the lower your rate: a 750+ borrower may pay 8%-10% APR vs 18%-22% for a 640 borrower on the same loan amount." },
+      { q: "Does a pool add enough value to justify the loan cost?", a: "National data from the National Association of Realtors suggests an inground pool increases home value by approximately 7% on average, though this varies significantly by climate and neighborhood. In warm-climate markets (Arizona, Florida, Texas, Southern California), pools can return close to their full cost in home value. In Northern states with short swim seasons, the value add is lower. Consider whether your neighborhood has many pools (buyers may expect one) and how long you plan to stay in the home." },
+    ],
+  },
+
+  "landscaping": {
+    slug: "landscaping",
+    eyebrow: "Use case",
+    h1: "Personal Loans for Landscaping (2026): Rates & Financing Options",
+    title: "Landscaping Loans 2026: Finance Your Yard | Get Advance Loan",
+    description:
+      "Finance landscaping projects with a personal loan. Current rates, loan amounts from $2,000 to $35,000, and when a personal loan beats a home equity line.",
+    intro:
+      "Major landscaping projects - outdoor kitchens, retaining walls, irrigation systems, mature tree planting, hardscaping - commonly run $5,000-$25,000. Personal loans are ideal for borrowers who do not have home equity to tap, need funds quickly, or want a fixed payoff schedule rather than an open-ended credit line.",
+    amountMin: 2000,
+    amountMax: 35000,
+    termMin: 12,
+    termMax: 60,
+    aprMin: 8.99,
+    aprMax: 28.99,
+    bullets: [
+      "Funds deposit to your bank account - pay any landscaping contractor",
+      "No home collateral required",
+      "Fixed monthly payments over 12-60 months",
+      "Loan amounts from $2,000 for smaller projects to $35,000 for major hardscaping",
+      "Pre-qualify with a soft credit check before committing",
+    ],
+    faqs: [
+      { q: "What landscaping projects can I finance with a personal loan?", a: "Any outdoor improvement: lawn installation and grading, retaining walls, patio and deck construction, irrigation and sprinkler systems, fence installation, driveway paving, outdoor kitchens and fire pits, mature tree planting, drought-resistant xeriscaping, landscape lighting, and drainage solutions. Because personal loan funds are unrestricted once deposited, you can pay any contractor, purchase materials directly, or mix cash and loan funds across a large project." },
+      { q: "Should I use a personal loan or HELOC for landscaping?", a: "A HELOC (home equity line of credit) offers lower rates (6%-10%) but requires home equity, takes 4-8 weeks to open, and charges closing costs ($500-$2,000). A personal loan approves in hours, funds in 1-3 days, requires no equity, and has no closing costs. For projects under $10,000, the closing cost advantage of a personal loan often outweighs the rate difference. For projects over $25,000 where you have significant equity, a HELOC's lower rate may save more in total interest." },
+      { q: "Does landscaping add enough value to justify borrowing?", a: "Professional landscaping is often cited as offering a 100%-200% return on investment at resale, making it one of the highest-ROI home improvements. Curb appeal improvements (lawn, plantings, front walkway) tend to return more than backyard-only projects. However, highly personalized or luxury landscaping (elaborate water features, exotic plants, complex hardscaping) may appeal to fewer buyers. Standard improvements to reach neighborhood curb appeal norms tend to have the highest practical ROI." },
+    ],
+  },
 };
 
 export const useCaseSlugs = Object.keys(useCases);

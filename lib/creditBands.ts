@@ -528,6 +528,65 @@ export const creditBands: Record<string, UseCase> = {
       { q: "Is 750 enough to get the best personal loan rates?", a: "At most lenders, yes - 750 puts you in the top pricing tier or very close to it. Some lenders have a distinct 760+ or 800+ tier with marginally lower rates, but the jump to 750 from 700 or 720 is where the biggest rate improvements happen. At 750 you've captured most of the available rate benefit from credit score improvement." },
     ],
   },
+
+  "770-credit-score": {
+    slug: "770-credit-score",
+    h1: "Personal loans with a 770 credit score",
+    title: "Personal Loans With a 770 Credit Score 2026: Best Rates from 6% to 13%",
+    description:
+      "A 770 FICO is in the very good range, just below excellent. You qualify for top-tier APRs and high amounts. See which lenders offer the best terms at 770.",
+    eyebrow: "By score",
+    intro:
+      "A 770 FICO is in the upper tier of 'very good' credit (740-799) and approaches the 'exceptional' range (800+). At 770, you qualify for virtually every lender's best pricing tier, with APRs starting as low as 6.5%-8% depending on loan amount and term. Income and DTI are the primary remaining variables - your credit score is no longer a limiting factor for most borrowers at this range.",
+    amountMin: 2000,
+    amountMax: 100000,
+    termMin: 12,
+    termMax: 84,
+    aprMin: 6.49,
+    aprMax: 13.99,
+    bullets: [
+      "770 FICO qualifies for top-tier rates at every major lender",
+      "LightStream offers up to $100,000 for 770+ borrowers",
+      "APRs typically 6.49% to 13.99% depending on term and DTI",
+      "Approval odds near 95%+ for borrowers with stable income",
+      "Minimal application friction - many decisions in under 24 hours",
+    ],
+    faqs: [
+      { q: "How much better are rates at 770 vs 720?", a: "The typical APR improvement between 720 and 770 at major lenders is 1%-2.5%. On a $20,000 loan over 48 months, a 2% APR reduction saves approximately $800-$900 in total interest. The gains between 720 and 770 are meaningful, though not as dramatic as the jump from, say, 620 to 680." },
+      { q: "Which lenders are best at 770?", a: "LightStream consistently offers the lowest rates for 770+ borrowers: starting around 6.49%-7.99% for well-qualified applicants. SoFi offers competitive rates with no fees and member benefits. Marcus by Goldman Sachs is strong for borrowers who want no origination fee and a straightforward fixed rate. For the highest amounts (up to $100,000), LightStream is the primary option. Rate shop with at least 3 lenders via soft-pull pre-qualification." },
+      { q: "Does it make sense to wait for 800+ before applying at 770?", a: "For most borrowers, no. The marginal rate improvement from 770 to 800 is typically 0.25%-0.75% APR. On a $15,000 loan, that is $100-$250 in total savings over 36 months - rarely worth delaying a legitimate need. At 770 you have already reached the top pricing tier at most lenders. Focus on getting competing quotes via soft pulls, then accept the best offer rather than waiting months for marginal score improvement." },
+      { q: "What DTI is acceptable at a 770 credit score?", a: "Lenders are more flexible on DTI for high-credit-score borrowers. At 770, many lenders will approve up to 45%-50% DTI (vs 40% for average-credit borrowers), recognizing that a strong credit score signals disciplined financial management. That said, DTI above 40% may reduce the loan amount offered or push you toward longer terms to keep payments manageable. Paying down existing debts before applying remains the single most effective way to increase your qualifying loan amount." },
+    ],
+  },
+
+  "560-credit-score": {
+    slug: "560-credit-score",
+    h1: "Personal loans with a 560 credit score",
+    title: "Personal Loans With a 560 Credit Score 2026: Can You Get Approved?",
+    description:
+      "A 560 FICO is below the prime threshold but not impossible to finance. See which lenders consider 560 scores, realistic rates (25%-36% APR), and better alternatives.",
+    eyebrow: "By score",
+    intro:
+      "A 560 FICO sits in the 'poor' credit range (300-579). Most mainstream personal loan lenders set their minimum at 580-600, so a 560 score means mainstream lenders will decline. However, specialized lenders (Avant, OppFi) and credit unions with manual underwriting do consider borrowers at 560, typically at rates of 25%-36% APR. At this score, the priority should be evaluating whether the cost is sustainable and whether credit-building alternatives make more sense.",
+    amountMin: 500,
+    amountMax: 10000,
+    termMin: 12,
+    termMax: 36,
+    aprMin: 25.99,
+    aprMax: 35.99,
+    bullets: [
+      "Approval possible at Avant, OppFi, and some credit unions",
+      "Loan amounts typically $500-$5,000 at 560 score",
+      "APRs run 25%-36% - substantially higher than prime rates",
+      "Secured personal loans (using savings as collateral) are a lower-rate alternative",
+      "Credit-builder loans help raise score 30-50 points in 12 months",
+    ],
+    faqs: [
+      { q: "Can I get a personal loan with a 560 credit score?", a: "Yes, but options are limited. Avant considers scores starting at 580 but may make exceptions at 560 for borrowers with strong income and low DTI. OppFi (OppLoans) targets credit-challenged borrowers and considers 560. Some credit unions with community development missions consider 560+ with manual underwriting. Payday loans and tribal lenders also approve at 560, but at rates that can reach 300%-400% APR - avoid these." },
+      { q: "What is a realistic APR at 560?", a: "At 560 FICO, you should expect APRs of 25%-36% from any legitimate lender who will approve you. OppFi quotes 59%-160% in some states, which is far too expensive for most needs. Avant typically quotes 25%-35.99% for below-prime borrowers. A credit union personal loan may come in at 18%-24% if you can establish membership. Run the total interest cost before accepting any offer: $2,000 at 36% over 24 months = $846 in total interest." },
+      { q: "What are better alternatives to a high-rate personal loan at 560?", a: "Several alternatives may be more cost-effective: (1) Secured personal loan - borrow against a savings account or CD at the credit union, rates typically 8%-12%, much lower than unsecured. (2) Credit-builder loan - a product specifically designed to build credit while you save, costs are low and the outcome (score improvement) makes future loans cheaper. (3) Paycheck advance through your employer if the need is urgent. (4) Family or friend loan with a formal written agreement. (5) Nonprofit credit counseling to evaluate debt management options. At 560, raising your score to 580-620 in 6 months (by reducing utilization and maintaining on-time payments) can drop your future loan rate by 10+ points." },
+    ],
+  },
 };
 
 export const creditBandSlugs = Object.keys(creditBands);

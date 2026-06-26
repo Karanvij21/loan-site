@@ -3122,6 +3122,172 @@ export const questions: Question[] = [
     toolLinks: [],
   },
   {
+    slug: "personal-loan-for-swimming-pool",
+    question: "Can I use a personal loan to build a swimming pool?",
+    topic: "Special situations",
+    shortAnswer:
+      "Yes. Swimming pools are an accepted use for personal loans. Amounts up to $100,000 are available from lenders like LightStream. Above-ground pools ($3,000-$15,000) are accessible for most credit profiles; inground pools ($35,000-$65,000+) require 680+ credit.",
+    context:
+      "Types of pools and typical costs: Above-ground pool with deck: $3,000-$12,000. Semi-inground pool: $15,000-$30,000. Inground fiberglass pool: $35,000-$60,000. Inground gunite/concrete pool with landscaping: $50,000-$100,000+.\n\nPersonal loan vs home equity for a pool: A HELOC or home equity loan typically offers lower rates (6%-10%) but requires home equity, takes 4-8 weeks to process, and uses your home as collateral. A personal loan funds in 1-3 days, requires no equity, and has no risk to your home. For above-ground pools under $15,000, the simplicity of a personal loan often wins. For inground pools $40,000+, the interest savings of a home equity loan are worth the added complexity.\n\nPool financing from the contractor: Many pool contractors offer their own financing through lending partners (often Synchrony or regional lenders). These may have promotional rates but often use deferred interest that retroactively charges 26.99% if not fully paid within the promotional window. A personal loan with a fixed rate is less risky.\n\nCredit requirements by pool size: Above-ground pool ($5,000-$12,000): 620-640 FICO sufficient at most lenders. Semi-inground ($20,000-$30,000): 660-680+ needed. Full inground ($50,000+): LightStream requires 720+ for their $100,000 maximum. SoFi also reaches $100,000 for well-qualified borrowers.\n\nDoes a pool add home value: In warm-climate markets (Florida, Arizona, California, Texas), pools typically add 7%-10% to home value. In northern states with short swim seasons, the return is lower. If you plan to sell within 2-3 years, factor this into the borrowing decision.",
+    relatedSlugs: ["personal-loan-for-home-improvement", "personal-loan-vs-home-equity-line-of-credit"],
+    toolLinks: [
+      { label: "Loan: Swimming pool financing", href: "/loans/swimming-pool" },
+    ],
+  },
+  {
+    slug: "personal-loan-vs-tax-refund-advance",
+    question: "Should I get a personal loan instead of a tax refund advance?",
+    topic: "Special situations",
+    shortAnswer:
+      "Tax refund advances (refund anticipation loans) charge effective APRs that can exceed 100% when the fee is annualized. A personal loan at 12%-20% APR is almost always cheaper if you can qualify. Use a refund advance only if you need funds before your refund arrives and cannot qualify for a personal loan.",
+    context:
+      "What a tax refund advance is: Tax preparers (H&R Block, Jackson Hewitt, TurboTax) offer 0-day to 21-day loans against your expected refund. Amounts typically range from $200 to $6,000. Some advertise '0% interest' - but they may charge fees for the associated debit card or preparation services that effectively make the loan expensive.\n\nTrue cost of refund advances: A $500 refund advance with a $30 fee that is repaid when your refund arrives in 10 days has an effective APR of approximately 219%. A $25 'Refund Transfer' fee on a $2,000 advance repaid in 21 days equals roughly 22% APR. Compare to a personal loan at 15% APR, which is substantially cheaper for any duration longer than a few weeks.\n\nWhen refund advances make sense: If you genuinely cannot qualify for a personal loan and need $200-$1,000 immediately to cover essential expenses (rent, utilities, groceries), a short-term refund advance that is truly no-fee or very low-fee can be reasonable. The key is verifying the all-in cost including preparation fees.\n\nWhen to use a personal loan instead: If you need more than $1,000, or need funds for longer than your refund timeline, a personal loan is far cheaper. If you qualify for a personal loan at 15%-20% APR, you will pay dramatically less in interest than a refund advance fee annualized over the same period.\n\nFiling for free: The IRS Free File program allows taxpayers earning under $79,000 (2025) to file for free through partner software. Free filing plus direct deposit gets most federal refunds in 10-21 days, eliminating the need for a refund advance entirely.",
+    relatedSlugs: ["personal-loan-vs-payday-loan", "personal-loan-for-emergency-expenses"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-impact-on-buying-car",
+    question: "Will a personal loan affect my ability to get a car loan?",
+    topic: "Credit score",
+    shortAnswer:
+      "Yes. A personal loan affects your car loan eligibility through two channels: DTI (adding a monthly payment reduces available capacity) and credit score (the hard inquiry and new account temporarily lower your score). If both loans are planned, get the car loan first.",
+    context:
+      "DTI impact: Every monthly debt payment increases your DTI. If you take a $10,000 personal loan at 15% APR over 48 months, you add a $278/month payment to your DTI. A lender evaluating your car loan application will see this payment and reduce the car loan amount you qualify for by roughly $278/month of capacity at the same DTI threshold.\n\nCredit score impact: Taking a personal loan (hard inquiry plus new account plus reduced average account age) typically reduces your FICO by 5-15 points temporarily. Over 6-12 months of on-time payments, the score usually recovers. If you apply for a car loan within 3-6 months of opening a personal loan, you may be working with a temporarily lower score.\n\nThe optimal sequence: If you need both a personal loan and a car loan in the near future, get the car loan first. Getting the auto loan while your DTI and credit score are optimal, then taking the personal loan, preserves the best terms on both.\n\nAlternatively, do both simultaneously: Applying for both loans within a 14-day window means only one grouped credit inquiry impact (rate-shopping protection). However, both lenders see the other application in process and may factor it into their decisions.\n\nIn practice: If the personal loan is $5,000-$10,000 with a payment under $200/month, and your income is $4,000+/month, the DTI impact on car loan eligibility is likely minimal. The concern is more significant if the personal loan is large relative to your income.",
+    relatedSlugs: ["soft-pull-vs-hard-pull", "what-is-debt-to-income-ratio"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-income-changed-during-application",
+    question: "What happens if my income changes while my personal loan application is being processed?",
+    topic: "Process & terms",
+    shortAnswer:
+      "You are required to disclose material income changes before closing. If income increased, your approval terms may improve. If income decreased significantly, the lender may reduce the loan amount, increase the rate, or cancel the approval.",
+    context:
+      "Material change disclosure obligation: Loan applications typically include a certification that all information is accurate and that you will disclose material changes before funds are disbursed. A significant income change (job loss, pay cut, end of contract work) is a material change you are legally obligated to report.\n\nIncome increased: If you received a raise, promotion, or new higher-paying job during the application process, proactively update the lender. More income may qualify you for a higher loan amount or a lower rate tier. Contact your loan officer or customer service to update income documentation.\n\nIncome decreased - job loss: This is the most serious scenario. If you lose your job between application and funding, you must notify the lender. Most lenders will cancel the approval rather than fund a loan to someone without current income. Hiding the job loss and accepting loan funds is loan fraud.\n\nIncome decreased - temporary reduction: If your income temporarily dropped (reduced hours, unpaid leave) but is expected to return, explain this to the lender with documentation. Some lenders will maintain the approval if the reduction is clearly temporary.\n\nTiming: If you are applying for a personal loan and anticipate an income disruption, consider whether to proceed. Committing to monthly payments you may not be able to make is a mistake even if the loan approves.",
+    relatedSlugs: ["personal-loan-after-job-loss", "personal-loan-denied-what-to-do"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-overpayment-refund",
+    question: "What happens if I overpay my personal loan at payoff?",
+    topic: "Process & terms",
+    shortAnswer:
+      "If you send more than the payoff amount, the lender must refund the excess. Most lenders issue the refund within 30 days by check or ACH. Request a formal payoff statement before sending final payment to get the exact amount due.",
+    context:
+      "How overpayments happen: Borrowers often overpay at payoff because they estimate the remaining balance without accounting for daily accrued interest. Interest accrues daily between your last payment date and the payoff date. If you send last month's payment amount without requesting a payoff quote, you may owe an additional $20-$100 in accrued interest.\n\nGetting the exact payoff amount: Always request a '10-day payoff quote' from your lender before sending final payment. This gives a specific dollar amount that pays off the loan in full if received within 10 days. The quote includes principal remaining plus interest accrued through the payoff date.\n\nWhat happens if you overpay: Federal consumer protection regulations require lenders to refund overpayments on closed accounts. The lender closes the account within a few business days of receiving full payment, calculates the overpayment, and issues a refund check or ACH within 30 days. Some lenders process this faster.\n\nIf the refund is delayed: Contact customer service with your payment confirmation. If 30 days pass without a refund, file a complaint with the CFPB (consumerfinance.gov/complaint).\n\nGetting loan closure confirmation: After payoff, request a letter confirming the loan is paid in full and the account is closed. This is important if you ever need to prove the obligation was satisfied for a mortgage underwriter, future lender, or legal matter.",
+    relatedSlugs: ["how-to-pay-off-personal-loan-early", "personal-loan-rate-after-approval"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-for-manufactured-home",
+    question: "Can I use a personal loan to buy or repair a manufactured home?",
+    topic: "Special situations",
+    shortAnswer:
+      "Yes for repairs; more complex for purchase. Manufactured home purchases often use Title I FHA loans or chattel loans. Personal loans work well for repairs ($5,000-$40,000) and may be the only option if the home sits on leased land.",
+    context:
+      "Manufactured home purchase financing: Traditional mortgages are often unavailable for manufactured homes on leased land. Options include: FHA Title I loans (up to $69,678 for a single-section home), chattel loans (secured by the home as personal property, rates 8%-14%), and personal loans (unsecured, amounts up to $100,000 for well-qualified borrowers).\n\nRepairs and improvements: Personal loans are well-suited for manufactured home repairs regardless of ownership structure. Typical uses: roof replacement ($5,000-$15,000), HVAC ($3,000-$8,000), new skirting ($1,000-$3,000), deck addition ($5,000-$15,000), bathroom remodel ($8,000-$20,000).\n\nWhy personal loans work when other financing does not: In many manufactured home communities, homes sit on leased land. This makes the home personal property rather than real estate, meaning mortgages, home equity loans, and HELOCs are unavailable. A personal loan secured only by your creditworthiness and income is often the only institutional financing option.\n\nLenders to consider: All major personal loan lenders (LightStream, SoFi, Avant, Upgrade) allow manufactured home repairs and improvements. For home purchase, Vanderbilt Mortgage and 21st Mortgage Corporation specialize in manufactured housing finance.\n\nAmount considerations: For purchase or major renovation, LightStream and SoFi both reach $100,000 for well-qualified borrowers, making substantial manufactured home financing possible.",
+    relatedSlugs: ["personal-loan-for-home-repair", "personal-loan-for-home-addition"],
+    toolLinks: [
+      { label: "Calculator: Monthly payment", href: "/calculators/monthly-payment" },
+    ],
+  },
+  {
+    slug: "personal-loan-co-borrower-removal",
+    question: "Can I remove a co-borrower from a personal loan?",
+    topic: "Process & terms",
+    shortAnswer:
+      "Removing a co-borrower from an existing personal loan is rarely possible without refinancing. Most lenders do not offer mid-loan co-borrower releases. Refinancing in your name alone - if you now qualify independently - is the standard path.",
+    context:
+      "Why removal is difficult: When you took the loan with a co-borrower, the lender approved the combined credit profile and income. Removing the co-borrower means the lender must re-underwrite the loan with only your profile - and they have no obligation to do so.\n\nLenders that allow co-borrower release: A small number of lenders include co-borrower release provisions after a set number of on-time payments (e.g., 12-24 consecutive). Check your original loan agreement for any co-borrower release language.\n\nRefinancing as the practical solution: Apply for a new personal loan in your name only. Use the proceeds to pay off the joint loan. If you qualify independently (credit score, income, DTI sufficient), this is straightforward. The old loan closes with the co-borrower released.\n\nIf you cannot refinance independently: If you took the loan with a co-borrower because you needed their credit or income to qualify, you may not yet qualify alone. Options: work on credit improvement for 12-18 months then refinance, or find a different co-borrower if the original situation has changed.\n\nCommon scenarios: Relationship ending - need to remove an ex-partner. Parent wants to remove themselves from an adult child's loan. Business dissolution. All require refinancing or full payoff.",
+    relatedSlugs: ["personal-loan-cosigner-vs-co-borrower", "personal-loan-score-to-refinance"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-for-landscaping-project",
+    question: "Is a personal loan a good way to finance landscaping?",
+    topic: "Special situations",
+    shortAnswer:
+      "Yes. Personal loans work well for landscaping projects from $2,000 to $35,000. You get a fixed rate, fixed payment, and can pay any contractor. For projects over $20,000 where you have significant home equity, a HELOC's lower rate may save more in total interest.",
+    context:
+      "Typical landscaping project costs: Lawn installation and grading: $2,000-$8,000. Basic patio (pavers or concrete): $3,000-$10,000. Retaining wall: $4,000-$15,000. Irrigation system: $3,000-$7,000. Outdoor kitchen: $8,000-$25,000. Complete yard overhaul with hardscaping: $15,000-$50,000.\n\nPersonal loan advantages: Funds deposit directly to your bank account so you can pay any contractor. Fixed rate and term mean no payment surprises. No home equity required. Approval in hours; funding in 1-3 days.\n\nHELOC vs personal loan for landscaping: HELOCs offer rates 3-7 points lower than personal loans and may allow tax deduction for home improvement interest. However, they take 4-8 weeks to open, require home equity (usually 15-20%), and use your home as collateral. For projects under $10,000, a personal loan often wins when closing costs and time are factored in. For $25,000+ projects with significant equity available, the HELOC rate savings become substantial.\n\nDoes landscaping ROI justify borrowing: Professional landscaping often shows 100%-200% return on investment at resale. Curb appeal improvements (front lawn, walkway, plantings) tend to return the most. Borrowing to bring your property to neighborhood standards or improve curb appeal is financially defensible.",
+    relatedSlugs: ["personal-loan-for-home-improvement", "personal-loan-vs-home-equity-line-of-credit"],
+    toolLinks: [
+      { label: "Loan: Landscaping financing", href: "/loans/landscaping" },
+    ],
+  },
+  {
+    slug: "personal-loan-with-2-years-credit-history",
+    question: "Can I get a personal loan with only 2 years of credit history?",
+    topic: "Approval & amount",
+    shortAnswer:
+      "Yes. Two years of clean credit history is sufficient for many lenders if your score is 640+. Lenders like Upstart specifically target borrowers with shorter credit histories and use income and education to supplement a thin file.",
+    context:
+      "What 2 years of credit history looks like: Average age of accounts is approximately 12-24 months. Number of accounts is likely 2-5. No long-established tradelines. FICO scores in this range often fall 620-700 depending on how well existing accounts were managed.\n\nLenders known for thin-file approval: Upstart uses an AI underwriting model incorporating non-traditional signals (education, work history, income trajectory) to approve thin-file borrowers. LendingClub and Avant also actively serve borrowers with 2-3 year credit histories. Federal credit unions provide relationship-based underwriting that helps members with shorter histories.\n\nBuilding credit quickly to improve terms: (1) Become an authorized user on a long-established family member's credit card - their history adds to your report. (2) Pay down card balances below 10% utilization - adds 20-40 points in one billing cycle. (3) Ensure all existing accounts are in perfect standing.\n\nMaximum amounts with a thin file: With 2 years of history and 660+ score, most lenders will consider $5,000-$20,000. For $20,000-$40,000, lenders typically want 3-5 years of history. A co-signer with established credit dramatically expands what is available.\n\nStudent loan history: If you have had student loans for 2 years with on-time payments, this is a solid foundation for a personal loan application.",
+    relatedSlugs: ["personal-loan-approval-odds", "personal-loan-first-time-borrower-tips"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-self-employed-documentation",
+    question: "What documents do self-employed borrowers need for a personal loan?",
+    topic: "Process & terms",
+    shortAnswer:
+      "Self-employed borrowers typically need 2 years of tax returns (Schedule C or business returns), 3-12 months of bank statements, and sometimes a profit-and-loss statement. Income is calculated from net profit, not gross revenue.",
+    context:
+      "Why self-employment documentation is different: Lenders need to verify income, but self-employed income does not come with W-2s or pay stubs. Standard verification is tax returns showing reported income. The challenge: legitimate business owners often deduct significant expenses, reducing taxable profit below actual cash flow.\n\nRequired documents at most lenders: (1) Two years of signed federal tax returns (1040 with all schedules). Schedule C shows business profit/loss for sole proprietors. Lenders typically use a 2-year average of net self-employment income. (2) Business bank statements (3-12 months). Some lenders use bank statement income instead of or supplementing tax returns - they average monthly deposits and apply a 50%-75% expense ratio to estimate income. (3) Profit and loss statement (current year to date) for borrowers whose income has changed significantly since the most recent tax return.\n\nLenders that work well with self-employed borrowers: Avant and Upgrade have historically been accessible to self-employed borrowers with bank statement income verification. LendingClub accepts 2-year average Schedule C income. Credit unions with local relationship underwriting can be especially helpful.\n\nCommon pitfall: If you show $30,000 in net profit on Schedule C due to heavy deductions but gross revenue was $120,000, lenders will use $30,000 for qualification. The qualifying loan amount is based on documented income, not revenue.",
+    relatedSlugs: ["personal-loan-income-proof-options", "personal-loan-approval-odds"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-principal-vs-interest-payments",
+    question: "How much of my personal loan payment goes to principal vs interest?",
+    topic: "Process & terms",
+    shortAnswer:
+      "Early payments are weighted toward interest; later payments toward principal. On a $10,000 loan at 15% APR over 36 months, your first $347 payment includes roughly $125 in interest and $222 in principal. By payment 30, only $26 is interest and $321 is principal. This is amortization.",
+    context:
+      "How amortization works: Personal loans use fully amortizing schedules. Each monthly payment is the same dollar amount, but the split between principal and interest changes every month. Early on, outstanding principal is high so more interest accrues. As principal declines, less interest accrues per month, freeing more of the fixed payment for principal reduction.\n\nExample: $15,000 loan at 12% APR over 48 months = $395/month payment. Month 1: $150 interest, $245 principal. Month 12: $133 interest, $262 principal. Month 24: $108 interest, $287 principal. Month 36: $79 interest, $316 principal. Month 48: $4 interest, $391 principal.\n\nWhy this matters for prepayment: Extra principal payments early in the loan life save the most interest, because you reduce the balance accruing interest for the remaining months. Making an extra $500 payment in month 3 saves more total interest than the same payment in month 30.\n\nHow to see your amortization schedule: Most lenders provide a full amortization table in your loan documents or online account. A standard amortization calculator also generates this with your loan amount, rate, and term.\n\nTotal interest cost perspective: On the $15,000 at 12% over 48 months, total interest paid is approximately $1,960. This is the real cost of the loan and illustrates why a lower rate or shorter term dramatically reduces total cost.",
+    relatedSlugs: ["personal-loan-amortization", "how-to-pay-off-personal-loan-early"],
+    toolLinks: [
+      { label: "Calculator: Monthly payment", href: "/calculators/monthly-payment" },
+    ],
+  },
+  {
+    slug: "personal-loan-or-pay-off-credit-cards",
+    question: "Should I use a personal loan to pay off credit cards, or just pay the cards directly?",
+    topic: "Special situations",
+    shortAnswer:
+      "Use a personal loan if the loan rate is at least 5-8 points lower than your average card rate, the payment fits your budget, and you will not re-run the cards. Pay cards directly if the total balance is under $3,000, you can pay off within 12 months, or you qualify for a 0% balance transfer.",
+    context:
+      "When a personal loan wins: Your average credit card APR is 22%+ and you qualify for a personal loan at 12%-15%. You have $5,000-$30,000 in card debt that will take 24-60 months to pay off. A fixed monthly payment helps you stay on track better than variable minimum-payment statements.\n\nMath example: $12,000 in credit card debt at 24% average APR, paying $350/month. Payoff time: approximately 48 months. Total interest: approximately $4,600. Alternative: $12,000 personal loan at 14% APR, 48 months, $332/month. Total interest: approximately $3,936. Savings: $664 in interest.\n\nThe re-running-cards risk: The main failure mode is using the personal loan to pay off cards, then accumulating new card balances. Now you have both the personal loan payment AND new card debt. If you use this strategy, consider closing or locking away the paid-off cards.\n\nWhen paying cards directly makes more sense: Total balance is under $3,000 and you can pay aggressively in 6-12 months. You qualify for a 0% balance transfer card - free financing beats any personal loan rate. Your personal loan rate would be 20%+ (near card rates), making the swap not worthwhile.\n\nHybrid approach: Pay off the highest-rate cards with a personal loan and continue aggressive direct payments on lower-rate cards. This maximizes interest savings without transferring all debt to a fixed-term structure.",
+    relatedSlugs: ["personal-loan-for-debt-consolidation", "personal-loan-balance-transfer-vs"],
+    toolLinks: [
+      { label: "Calculator: Monthly payment", href: "/calculators/monthly-payment" },
+    ],
+  },
+  {
+    slug: "personal-loan-early-payoff-calculation",
+    question: "How do I calculate how early I can pay off my personal loan?",
+    topic: "Process & terms",
+    shortAnswer:
+      "Request a current payoff statement from your lender, then use a loan payoff calculator with your remaining balance, rate, and extra payment amount. Your lender can also give you a '10-day payoff quote' for the exact amount to close the loan.",
+    context:
+      "Getting an official payoff quote: Call or log into your lender's portal and request a '10-day payoff quote.' This gives the exact amount needed to close the loan if payment is received within 10 days. The quote includes remaining principal plus interest accrued to that date.\n\nEstimating early payoff yourself: You need: remaining balance, current APR, and the extra payment amount. A loan payoff calculator with extra payments shows: how many months are eliminated by a given extra payment, total interest saved, and new payoff date.\n\nFor example: $8,000 remaining balance at 14% APR, $250/month minimum. Adding $100/month extra: payoff moves from approximately 41 months to 27 months. Interest saved: approximately $750.\n\nVerify no prepayment penalty: Before making large extra payments, confirm your loan has no prepayment penalty. Read your loan agreement or call customer service. Most personal loans from major lenders have no prepayment penalty, but some older or smaller lenders still charge them.\n\nExtra payment instruction: When making an extra payment, specify 'apply to principal' rather than 'apply to next month's payment.' If credited to next month's payment, it does not reduce your outstanding balance as quickly. Most lenders allow you to specify this in online payment settings.",
+    relatedSlugs: ["how-to-pay-off-personal-loan-early", "personal-loan-overpayment-refund"],
+    toolLinks: [
+      { label: "Calculator: Monthly payment", href: "/calculators/monthly-payment" },
+    ],
+  },
+  {
+    slug: "personal-loan-build-emergency-fund",
+    question: "Should I use a personal loan to build an emergency fund?",
+    topic: "Special situations",
+    shortAnswer:
+      "Generally no. Borrowing at 10%-25% APR to hold cash earning 4%-5% in savings creates negative arbitrage. You pay more in interest than you earn. Exception: if you have zero savings and a genuinely precarious income situation, a small short-term loan may prevent a more expensive crisis.",
+    context:
+      "The math problem: If you borrow $5,000 at 15% APR and put it in a high-yield savings account earning 4.5%, you pay 10.5 percentage points net per year on the spread. On $5,000, that is $525/year in negative arbitrage. Holding borrowed cash in savings almost never makes economic sense.\n\nWhy people consider this: The appeal is 'having money if something goes wrong.' But if you have a personal loan to repay, the monthly payment itself becomes a fixed obligation that increases financial stress in a crisis.\n\nWhen a limited exception might apply: You have zero savings and your income is genuinely precarious. You can borrow a small amount ($1,000-$2,000) at a manageable rate and pay it off quickly. The monthly payment is small enough not to strain your budget. In this narrow scenario, having $1,000 in savings while paying $30/month on a loan might prevent a $200 overdraft fee plus a payday loan cycle - the math can work for very small amounts.\n\nBetter approaches to building an emergency fund: Automate savings from each paycheck - even $25/month compounds to $900 over 3 years. Redirect a portion of the next raise or bonus directly to savings. Use a tax refund to seed the fund. Take on temporary extra income (freelance, side gig) specifically to build the fund. Pause discretionary spending for 3-6 months to fund the account.",
+    relatedSlugs: ["personal-loan-for-emergency-expenses", "personal-loan-amount-vs-income"],
+    toolLinks: [],
+  },
+  {
     slug: "personal-loan-paid-off-early-credit-dip",
     question: "Why did my credit score drop after I paid off a personal loan?",
     topic: "Credit score",

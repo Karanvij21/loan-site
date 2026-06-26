@@ -124,6 +124,93 @@ export const employmentTypes: Record<string, UseCase> = {
       { q: "What if I just started a new W-2 job?", a: "Most lenders want at least 30-90 days at the new employer plus a prior history in the same field. Job-hopping within an industry is usually fine; switching industries can require longer recent tenure. An offer letter alone usually isn't enough for approval before the first paycheque clears." },
     ],
   },
+  "part-time": {
+    slug: "part-time",
+    h1: "Personal loans for part-time workers",
+    title: "Personal Loans for Part-Time Workers 2026: Qualify on Variable Income",
+    description:
+      "How part-time workers get personal loan approval: income documentation, lender requirements, and APRs available on part-time or variable income.",
+    eyebrow: "Employment type",
+    intro:
+      "Part-time workers can qualify for personal loans using the same underwriting as full-time employees. Lenders care about total monthly income and DTI ratio, not the number of hours worked. A part-time worker earning $2,500/month with low existing debt can qualify for the same loan amount as a full-time worker with identical numbers. The key is documenting income consistently.",
+    amountMin: 500,
+    amountMax: 25000,
+    termMin: 12,
+    termMax: 60,
+    aprMin: 9.99,
+    aprMax: 35.99,
+    bullets: [
+      "Part-time income qualifies the same as full-time at most lenders",
+      "Loan amounts from $500 to $25,000 based on income",
+      "APRs typically 9.99% to 35.99% depending on credit",
+      "2-3 recent pay stubs or bank statements document income",
+      "Soft credit check, no score impact to compare offers",
+    ],
+    faqs: [
+      { q: "Can I get a personal loan working part time?", a: "Yes. Lenders don't require full-time status; they require verifiable income and a DTI ratio that supports the loan payment. If your part-time income is consistent and documented (pay stubs, bank statements, or 1099s), you can qualify for a personal loan the same way a full-time employee would." },
+      { q: "How do I document part-time income for a loan application?", a: "Two to three recent pay stubs work for W-2 part-time work. For part-time contract or freelance work, 3 months of bank statements showing recurring income deposits is the most accepted alternative. Some lenders also accept a letter from your employer confirming pay rate and schedule." },
+      { q: "Will multiple part-time jobs count together?", a: "Yes at most lenders. If you hold multiple part-time jobs, you can typically report combined income from all sources. You'll need documentation for each income stream. Lenders generally want to see income from each source for at least 2-6 months before counting it." },
+      { q: "What's the maximum loan amount on part-time income?", a: "It depends on total monthly income and existing debt. On $2,000/month part-time income with minimal debt, a $10,000 loan over 36 months at 18% APR results in a $363 payment, which is 18% of gross monthly income (well within lender guidelines). On $3,000/month income, you can support a proportionally larger loan." },
+    ],
+  },
+  "retired": {
+    slug: "retired",
+    h1: "Personal loans for retired people",
+    title: "Personal Loans for Retired Borrowers 2026: Social Security, Pension & Fixed Income",
+    description:
+      "How retirees qualify for personal loans using Social Security, pension, IRA distributions, and fixed income. APRs, amounts, and documentation requirements.",
+    eyebrow: "Employment type",
+    intro:
+      "Retirement income, including Social Security, pension payments, IRA/401(k) distributions, and investment income, counts the same as earned income for personal loan purposes under ECOA. Lenders may not discriminate based on age or income source. A retired borrower with consistent documented income and a good credit score can access the same loan amounts and APRs as a working borrower with equivalent numbers.",
+    amountMin: 1000,
+    amountMax: 40000,
+    termMin: 12,
+    termMax: 60,
+    aprMin: 7.99,
+    aprMax: 29.99,
+    bullets: [
+      "Social Security, pension, and IRA income fully counts",
+      "ECOA prohibits age discrimination in lending",
+      "Loan amounts from $1,000 to $40,000",
+      "APRs typically 7.99% to 29.99% based on credit",
+      "Soft credit check pre-qualification, no score impact",
+    ],
+    faqs: [
+      { q: "Can retired people get personal loans?", a: "Yes. The Equal Credit Opportunity Act prohibits lenders from discriminating based on age. Retirement income (Social Security, pension, IRA/401k distributions, rental income, investment income) counts as qualifying income the same as wages. A retiree with $4,000/month in documented retirement income and a 720 credit score is a strong applicant." },
+      { q: "What income counts for retired borrowers?", a: "Social Security retirement benefits, pension payments (public or private), regular IRA or 401(k) distributions, annuity payments, rental income, and investment dividend income all count. The income should be regular (monthly or at set intervals) and documentable. Social Security award letters and 1099-R forms are the standard proof documents." },
+      { q: "Does my age affect my loan term options?", a: "Legally, no. Lenders cannot shorten your available loan term based on age. The same 60-month or 72-month personal loan terms available to younger borrowers must be offered to older borrowers with equivalent credit. Some retirees prefer shorter terms to minimize total interest; this is a personal choice, not a lender requirement." },
+      { q: "How do I document retirement income?", a: "Social Security: use your annual SSA benefit verification letter or SSA-1099. Pension: pension award letter or 1099-R from the payer. IRA/401(k) distributions: 1099-R plus recent distribution statements. Consistent bank statements showing deposits also work as supplemental documentation at most lenders." },
+    ],
+  },
+  "military": {
+    slug: "military",
+    h1: "Personal loans for military members and veterans",
+    title: "Personal Loans for Military & Veterans 2026: MLA Protections, APR Cap & Options",
+    description:
+      "Personal loans for active-duty military and veterans: 36% MLA APR cap, SCRA protections, VA loan alternatives, and lenders that specialize in military borrowers.",
+    eyebrow: "Employment type",
+    intro:
+      "Active-duty service members and their dependents have two important federal protections: the Military Lending Act (MLA) caps consumer loan APRs at 36% MAPR, and the Servicemembers Civil Relief Act (SCRA) caps interest on pre-service debts at 6%. Veterans without active-duty status have the same access as civilians but can benefit from military-affiliated credit unions (USAA, Navy Federal, PenFed) that often offer lower APRs and better underwriting for military income.",
+    amountMin: 500,
+    amountMax: 50000,
+    termMin: 12,
+    termMax: 84,
+    aprMin: 5.99,
+    aprMax: 35.99,
+    bullets: [
+      "MLA caps APR at 36% for active-duty members and dependents",
+      "Military credit unions often offer lowest personal loan APRs",
+      "Loan amounts from $500 to $50,000",
+      "VA income (BAH, BAS) counts toward qualifying income",
+      "Soft credit check pre-qualification available",
+    ],
+    faqs: [
+      { q: "What is the MLA and how does it protect military borrowers?", a: "The Military Lending Act caps the Military Annual Percentage Rate (MAPR, which includes fees) at 36% for personal loans to active-duty service members, spouses, and certain dependents. Lenders must disclose this rate and certain loan terms orally and in writing. A lender offering a product that would exceed 36% MAPR to a covered borrower is violating federal law." },
+      { q: "Do military credit unions offer better personal loan rates?", a: "Often significantly better. Navy Federal Credit Union, USAA Federal Savings Bank, and Pentagon Federal Credit Union regularly offer personal loan APRs starting around 7-8% for members with good credit, well below what most online lenders offer to the same credit profile. If you or an immediate family member have ever served, membership eligibility is worth checking." },
+      { q: "Does military pay (BAH, BAS) count as qualifying income?", a: "Yes. Base pay, Basic Allowance for Housing (BAH), and Basic Allowance for Subsistence (BAS) all count as qualifying income for personal loans. These allowances are non-taxable, so lenders that 'gross up' non-taxable income may apply a 25-35% adjustment upward to the allowance figure, effectively increasing your qualifying income." },
+      { q: "Can veterans (not active duty) access military loan protections?", a: "Veterans after discharge are not covered by MLA protections (which apply only during active duty to covered borrowers). However, veterans retain access to military-affiliated credit unions with favorable terms and strong service. Some lenders also have veteran-specific programs. SCRA protections apply only during active service for pre-service debts." },
+    ],
+  },
 };
 
 export const employmentSlugs = Object.keys(employmentTypes);

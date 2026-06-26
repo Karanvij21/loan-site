@@ -241,6 +241,64 @@ export const creditBands: Record<string, UseCase> = {
       { q: "Should I apply now at 700 or wait and try to reach 740?", a: "It depends on the urgency of the need and the loan size. On a $5,000 loan, the interest difference between 700 and 740 is relatively small. On a $30,000 loan over 60 months, 5 percentage points of APR means about $4,000 in total interest. If you can realistically reach 740 in 3-6 months (by reducing utilization and avoiding new inquiries), waiting on large loan amounts often pays." },
     ],
   },
+  "720-credit-score": {
+    slug: "720-credit-score",
+    h1: "Personal loans with a 720 credit score",
+    title: "Personal Loans With a 720 Credit Score 2026: Prime Rates, Up to $50,000",
+    description:
+      "A 720 FICO puts you in the prime credit tier. Which lenders offer the best APRs at 720 and how to use competing offers to push the rate lower.",
+    eyebrow: "By score",
+    intro:
+      "A 720 FICO sits comfortably in the 'good' credit band (670-739) and is only 20 points below the 'very good' threshold of 740, where many lenders unlock their best-rate tiers. At 720, virtually every personal-loan lender accepts your application, and you're positioned to receive pre-qualified offers in the single-digit to low-teens APR range if your income and DTI support it.",
+    amountMin: 2000,
+    amountMax: 50000,
+    termMin: 12,
+    termMax: 84,
+    aprMin: 8.99,
+    aprMax: 19.99,
+    bullets: [
+      "720 qualifies at every major online lender and most banks",
+      "Loan amounts from $2,000 to $50,000",
+      "APRs typically 8.99% to 19.99%",
+      "Multiple lenders competing for your application keeps rates lower",
+      "Pre-qualify via soft check, no score impact",
+    ],
+    faqs: [
+      { q: "Is 720 a good score for a personal loan?", a: "720 is a strong score. It's in the prime credit tier and qualifies you with the full personal-loan market including banks, credit unions, and online lenders. You'll receive some of the better rate offers in the market, though the very best rates (sub-8% APR) typically require 760+. At 720 with strong income, single-digit APRs are achievable at some lenders." },
+      { q: "What APR will I actually get with a 720 credit score?", a: "The realistic range is 9-16% for a well-qualified borrower at 720. If your DTI is below 30% and you have stable income, offers toward the lower end are realistic. If you have high existing debt or a shorter credit history, expect the higher end. Use soft-pull pre-qualification at 3-5 lenders to see your actual offers without impacting your score." },
+      { q: "How do I get from 720 to 740 to unlock better rates?", a: "The primary lever is credit-card utilization. Dropping balances so your total utilization is below 15-20% can add 15-25 points for some borrowers. Keeping all accounts current and avoiding new credit applications for 60-90 days also helps. A single billing cycle with dramatically lower utilization can move the needle to 740." },
+      { q: "Should I shop multiple lenders at 720?", a: "Absolutely. At 720, multiple lenders want your business. The spread between the best and worst offer for the same borrower profile at this score tier can be 5-6 percentage points of APR. Pre-qualifying (soft pull) at 3-5 lenders takes about 15 minutes and can save thousands in interest over the loan's life." },
+    ],
+  },
+  "740-credit-score": {
+    slug: "740-credit-score",
+    h1: "Personal loans with a 740 credit score",
+    title: "Personal Loans With a 740 Credit Score 2026: Best APRs & Maximum Amounts",
+    description:
+      "740 FICO unlocks the best personal-loan rate tiers most lenders offer. Compare the top APRs, amounts, and terms available at this credit score.",
+    eyebrow: "By score",
+    intro:
+      "A 740 FICO crosses into the 'very good' credit tier (740-799), where many lenders' best-rate pricing begins. At 740, you're likely to see offers approaching single-digit APRs from credit unions and highly competitive rates from online lenders. This score tier typically unlocks the maximum loan amounts and longest available terms.",
+    amountMin: 2000,
+    amountMax: 50000,
+    termMin: 12,
+    termMax: 84,
+    aprMin: 6.99,
+    aprMax: 17.99,
+    bullets: [
+      "740 unlocks best-rate tiers at most personal-loan lenders",
+      "Loan amounts from $2,000 to $50,000",
+      "APRs typically 6.99% to 17.99%",
+      "Credit unions often offer lowest APRs at this tier",
+      "Soft credit check to compare, no score impact",
+    ],
+    faqs: [
+      { q: "What APR can I expect with a 740 credit score?", a: "Offers range from roughly 7% to 16% at 740 depending on lender, income, and DTI. Credit unions that offer below-10% rates often start at 720-740. Online marketplace lenders tend to cluster in the 10-14% range for 740 borrowers with good income. If your DTI is below 25%, you have a strong case for the lower end of any lender's range." },
+      { q: "How much can I borrow at 740?", a: "Most lenders extend their full loan range (up to $50,000) at 740. Income is the binding constraint: monthly payment on the new loan plus existing debt should be below 40-45% of gross monthly income. A $50,000 loan at 10% over 72 months is $924/month, requiring roughly $2,300+ gross monthly income dedicated to debt." },
+      { q: "Is 740 significantly better than 720 for loan rates?", a: "Yes, meaningfully so. 740 is a threshold many lenders use to unlock their best-rate tier. For the same loan amount and term, a 740 borrower might see offers 2-4 percentage points lower than a 720 borrower at the same lender. On a $25,000 loan over 60 months, 3 percentage points of APR translates to roughly $2,000 in total interest savings." },
+      { q: "Does 760 get even better rates than 740?", a: "Marginally at some lenders. Some lenders have a 760+ pricing tier that's slightly better, but the bigger jump is from 700 to 740. Above 740, the difference between adjacent scores is smaller. If you're at 740, the ROI of time spent raising your score vs. borrowing now is typically lower than it was getting from 700 to 740." },
+    ],
+  },
 };
 
 export const creditBandSlugs = Object.keys(creditBands);

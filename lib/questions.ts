@@ -2582,6 +2582,192 @@ export const questions: Question[] = [
     relatedSlugs: ["personal-loan-new-job", "personal-loan-approval-odds"],
     toolLinks: [],
   },
+  {
+    slug: "personal-loan-apr-vs-interest-rate",
+    question: "What is the difference between APR and interest rate on a personal loan?",
+    topic: "Process & terms",
+    shortAnswer:
+      "The interest rate is the base cost of borrowing. APR (annual percentage rate) is the interest rate plus all fees - origination, administration - expressed as a single annual figure. Always compare APRs, not stated interest rates.",
+    context:
+      "Why the distinction matters: Two loans with the same 10% interest rate can have very different real costs if one charges a 3% origination fee and the other charges nothing. APR folds that fee into the rate math so you see the true cost of each option side by side.\n\nFormula: APR accounts for the interest rate plus any fees charged at origination, spread over the loan term. A $10,000 loan at 10% interest with a $300 origination fee has an APR slightly above 10% because you are paying $300 upfront for $9,700 in actual proceeds.\n\nFederal disclosure requirement: Under the Truth in Lending Act (TILA), lenders must disclose APR before you sign. It appears on your loan estimate and on the loan agreement.\n\nWhen the gap between interest rate and APR is large: A big spread (more than 1-2 percentage points) signals a heavy origination fee. Some lenders advertise a 9.9% interest rate with a 6% origination fee, making the true APR much higher. Compare the APR, not the headline rate.\n\nNo-fee loans: Some lenders (LightStream, for example) charge no origination fee. For these, the interest rate and APR are identical or nearly so.\n\nShopping advice: Use APR as your primary comparison metric across all lenders. Then, within similar APRs, check the term length and monthly payment to confirm affordability.",
+    relatedSlugs: ["what-is-good-interest-rate-personal-loan", "personal-loan-fees-explained"],
+    toolLinks: [
+      { label: "Glossary: APR", href: "/glossary/annual-percentage-rate" },
+      { label: "Glossary: Origination fee", href: "/glossary/origination-fee" },
+    ],
+  },
+  {
+    slug: "personal-loan-cosigner-vs-co-borrower",
+    question: "What is the difference between a co-signer and a co-borrower on a personal loan?",
+    topic: "Process & terms",
+    shortAnswer:
+      "A co-signer guarantees repayment if you default but does not receive the funds or have any rights to the money. A co-borrower is a joint applicant who shares ownership of the loan proceeds and equal responsibility for repayment.",
+    context:
+      "Co-signer role: A co-signer pledges their credit and income as a backstop. If you miss payments, the lender can pursue the co-signer for repayment. The loan appears on both credit reports. The co-signer has no legal right to use the loan proceeds.\n\nCo-borrower role: A co-borrower (sometimes called a joint applicant) applies alongside you. Both incomes count toward qualification, which can mean approval for a larger amount or a lower rate. Both parties receive equal ownership of the funds and equal legal liability. This is common for couples or business partners.\n\nCredit impact on both: Both a co-signer and co-borrower will see the loan appear on their credit report. A hard inquiry is pulled on both at application. On-time payments help both scores; late payments hurt both.\n\nWho to choose: If the purpose is to help someone with thin credit qualify, a co-signer is sufficient. If both parties genuinely need the funds (a couple consolidating joint debt, for example), a co-borrower application is more appropriate.\n\nRisk for the helper: Whether co-signer or co-borrower, the helper's DTI is affected. Their mortgage lender, for example, will count this obligation against their debt load even if the primary borrower is making every payment on time. Make sure the helper understands this before agreeing.",
+    relatedSlugs: ["cosign-personal-loan", "personal-loan-cosigner-removal"],
+    toolLinks: [
+      { label: "Glossary: Co-borrower", href: "/glossary/co-borrower" },
+    ],
+  },
+  {
+    slug: "personal-loan-credit-score-after-payoff",
+    question: "What happens to my credit score when I pay off a personal loan?",
+    topic: "Credit score",
+    shortAnswer:
+      "Paying off a personal loan is generally positive long-term but can cause a small temporary dip. The closed installment account reduces credit mix and average account age, which may lower your score by 5-15 points before it recovers.",
+    context:
+      "Why the score might dip: Your credit mix (the variety of account types) is a scoring factor. An active installment loan like a personal loan contributes positively to mix. When the account closes, that contribution stops. Average age of accounts also matters - closing a loan account can pull the average down slightly if it was one of your older accounts.\n\nWhy the net effect is positive: The biggest scoring factor is payment history (35% of FICO). If you made every payment on time, that positive record stays on your credit report for 10 years after the account closes. Your score already captured most of the benefit during repayment.\n\nTypical timeline: A small dip of 5-15 points may appear in the first 1-2 months after payoff. Most borrowers recover to their pre-payoff score within 3-6 months, often slightly higher, because their DTI improved.\n\nAlso improves: Paying off the loan reduces your debt-to-income ratio and your total reported debt obligations. This is a positive signal to future lenders even if it does not show directly in the FICO score.\n\nAsk for a paid-in-full letter: After payoff, request written confirmation from your lender that the balance is $0 and the account is closed in good standing. This protects you if there is a dispute later.",
+    relatedSlugs: ["how-personal-loan-affects-credit-score", "paying-off-personal-loan-early-credit"],
+    toolLinks: [
+      { label: "Q&A: Paying off early and credit", href: "/questions/paying-off-personal-loan-early-credit" },
+    ],
+  },
+  {
+    slug: "personal-loan-credit-union-vs-bank",
+    question: "Are personal loan rates better at a credit union than a bank?",
+    topic: "Process & terms",
+    shortAnswer:
+      "Usually yes. Credit unions are member-owned nonprofits and typically offer rates 1-3 percentage points lower than big banks. Federally chartered credit unions cap personal loan rates at 18% APR by law.",
+    context:
+      "Why credit unions tend to be cheaper: Credit unions do not pay shareholders. Profits return to members as lower rates on loans and higher rates on deposits. The National Credit Union Administration (NCUA) caps the rate federal credit unions can charge on most loans at 18% APR, which protects members from the 29%-36% rates online marketplace lenders sometimes charge higher-risk borrowers.\n\nWho can join: Anyone can join a credit union. Requirements vary: some are employer-based (Boeing Employees Credit Union), some are geography-based (a state or regional CU), some are association-based (teachers, military, etc.). Many also accept anyone who donates $5-$25 to a partner charity. Use MyCreditUnion.gov to find credit unions you can join.\n\nTrade-offs vs online lenders: Credit unions typically require membership, may need a branch visit or phone call, take longer to fund (3-7 days vs 1-2 days online), and have simpler online platforms. Online lenders fund faster, offer better technology, and are available to everyone.\n\nWhen credit union wins: For borrowers who already have a relationship, have fair-to-good credit (620-730), want the lowest possible rate, or need a loan the NCUA 18% cap protects - credit union is often the best choice.\n\nWhen online lender wins: Excellent credit borrowers (750+) sometimes find online lenders like LightStream beat credit union rates. Online also wins for speed: funds can arrive the same day for some lenders.",
+    relatedSlugs: ["personal-loan-online-vs-bank", "what-is-good-interest-rate-personal-loan"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-max-dti-lenders-accept",
+    question: "What is the maximum debt-to-income ratio lenders will accept for a personal loan?",
+    topic: "Approval & amount",
+    shortAnswer:
+      "Most personal loan lenders set a hard limit at 40%-50% DTI. Below 36% is considered strong. Above 50% makes approval very difficult regardless of credit score.",
+    context:
+      "DTI definition: Debt-to-income ratio is your total monthly debt payments (loans, credit card minimums, car payments, rent or mortgage) divided by your gross monthly income. A $500/month loan payment on $2,500/month income equals 20% DTI for that payment alone.\n\nLender thresholds by category:\n\nOnline prime lenders (SoFi, LightStream, Marcus): Typically want total DTI below 40-43%. Some publish 50% as their stated maximum but approval odds drop sharply above 43%.\n\nNear-prime lenders (Upgrade, LendingClub): May accept up to 50-55% DTI but offset with higher interest rates.\n\nSubprime lenders (Avant, OneMain, OppFi): Focus less on DTI and more on income amount and stability. These lenders price for the risk rather than setting strict DTI gates.\n\nCredit unions: Often more flexible on DTI than banks, particularly for existing members with strong payment history.\n\nHow to improve DTI before applying: (1) Pay off small debts - eliminating a $150/month payment immediately improves DTI more than paying extra on a large balance. (2) Apply for a smaller loan amount so the new payment is lower. (3) Add a co-borrower's income to the application. (4) Increase income documentation (rental income, side income, Social Security).\n\nWhat counts in DTI: Most lenders count credit card minimum payments, student loans (even in deferment), auto loans, personal loans, and mortgage or rent. Utilities, subscriptions, and insurance typically do not count.",
+    relatedSlugs: ["what-is-debt-to-income-ratio", "personal-loan-dti-impact"],
+    toolLinks: [
+      { label: "Glossary: DTI", href: "/glossary/debt-to-income-ratio" },
+    ],
+  },
+  {
+    slug: "personal-loan-during-chapter-13",
+    question: "Can I get a personal loan while in an active Chapter 13 bankruptcy plan?",
+    topic: "Special situations",
+    shortAnswer:
+      "You can borrow during Chapter 13, but you must get court approval first. The bankruptcy trustee and the judge must approve any new debt above a small threshold (typically $1,000-$2,500 depending on the district).",
+    context:
+      "Why court approval is required: Chapter 13 is a reorganization plan - you are repaying creditors under court supervision. Taking on new debt could jeopardize payments to existing creditors. The court has authority over your finances for the 3-5 year plan period.\n\nHow to get approval: (1) Contact your bankruptcy attorney. (2) File a motion with the bankruptcy court explaining the reason for the new debt and how you can afford it alongside plan payments. (3) The trustee and the judge review the motion. (4) If approved, you may proceed.\n\nLenders who serve Chapter 13 debtors: Very few mainstream lenders will lend during an active plan. Specialized bad-credit lenders (OneMain Financial, some credit unions) may participate if court approval is in hand. Expect high rates (25%-36% APR).\n\nEmergency exceptions: Courts regularly approve urgent borrowing for car replacement needed to get to work, essential home repairs, or medical costs. The more clearly necessary the loan, the easier approval typically is.\n\nAfter discharge vs during plan: After Chapter 13 discharge (3-5 years), court supervision ends and you are free to borrow without permission. Lenders typically ask if you have filed for bankruptcy in the last 7-10 years. Chapter 13 discharge opens up more mainstream options than a Chapter 7 discharge does in some cases because it shows you repaid creditors.\n\nThis is different from personal-loan-after-chapter-13 (post-discharge), which covers when the plan is already complete.",
+    relatedSlugs: ["personal-loan-after-chapter-13", "personal-loan-discharged-bankruptcy"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-for-wedding",
+    question: "Can I get a personal loan to pay for a wedding?",
+    topic: "Special situations",
+    shortAnswer:
+      "Yes. Weddings are one of the most common personal loan purposes. Amounts from $5,000 to $35,000 cover most wedding budgets. Approval depends on credit score and income, not the loan purpose.",
+    context:
+      "Why lenders accept wedding loans: Personal loans are unsecured and lenders do not restrict spending for lifestyle events. Some lenders (LightStream, for example) even list weddings as a specific loan category with dedicated rates.\n\nTypical wedding loan amounts: The average U.S. wedding costs $30,000+. Common loan amounts: venue deposit ($3,000-$10,000), catering ($5,000-$15,000), photography ($2,000-$5,000), or total event financing ($10,000-$35,000).\n\nRate expectations: Borrowers with 700+ credit scores qualify for 9%-16% APR on a 3-year term. For a $15,000 loan at 12% over 36 months, monthly payment is about $498 and total interest is $928. At 20% APR, total interest climbs to $1,620.\n\nAlternatives to consider first: Venue payment plans (many offer 6-12 month no-interest payment schedules), 0% intro APR credit cards (if you can pay off within the intro window), family contributions with clear repayment terms.\n\nWhen to use a personal loan: A personal loan beats a credit card if you need 2-5 years to repay and the APR is lower. It is cleaner than mixing wedding expenses across multiple cards. And it gives you a fixed monthly payment so budget planning is straightforward.\n\nPaying it off early: Choose a lender with no prepayment penalty. If gift money arrives after the wedding, apply it as a lump sum to reduce total interest paid.",
+    relatedSlugs: ["personal-loan-for-vacation", "what-is-good-interest-rate-personal-loan"],
+    toolLinks: [
+      { label: "Calculator: Monthly payment", href: "/calculators/monthly-payment" },
+    ],
+  },
+  {
+    slug: "personal-loan-for-adoption",
+    question: "Can I use a personal loan to pay for adoption costs?",
+    topic: "Special situations",
+    shortAnswer:
+      "Yes. Adoption costs $20,000-$50,000 for domestic private adoption and up to $60,000 for international. Personal loans covering $5,000-$40,000 help bridge the gap alongside tax credits and grants.",
+    context:
+      "Adoption costs by type: Domestic public (foster care): $0-$2,500, largely covered by government. Domestic private agency: $20,000-$45,000. Independent domestic: $15,000-$40,000. International: $30,000-$60,000 depending on country.\n\nFederal adoption tax credit: In 2026, the federal adoption tax credit is up to $15,950 per child for qualified expenses. This is a dollar-for-dollar credit, not a deduction. You cannot claim it until the adoption is finalized, so you need upfront cash and can apply the credit on next year's taxes.\n\nAdoption grants: Several nonprofits offer grants ($1,000-$7,500): National Adoption Foundation, Gift of Adoption Fund, Lifesong for Orphans. These do not need repayment. Apply first and fill remaining gaps with loans.\n\nUsing a personal loan: Borrow to cover agency fees, legal fees, home study costs, travel, and finalization costs. Choose a term that lets you carry the loan until you receive the tax credit (12-24 months often works). Then make a large lump-sum payment once you file and receive the credit.\n\nLoan amounts and rates: Credit scores above 700 qualify for $15,000-$40,000 at 9%-16% APR. Shorter terms keep interest costs down. No lender restrictions on adoption as a use; simply select 'personal/family' or 'major purchase' as the purpose.\n\nSome specialized options: USAA and PenFed Credit Union often serve this need well for eligible borrowers. Prosper and LightStream also list family planning as accepted purposes.",
+    relatedSlugs: ["personal-loan-for-fertility-treatment", "personal-loan-income-tax"],
+    toolLinks: [
+      { label: "Calculator: Monthly payment", href: "/calculators/monthly-payment" },
+    ],
+  },
+  {
+    slug: "personal-loan-income-proof-options",
+    question: "What counts as proof of income for a personal loan?",
+    topic: "Process & terms",
+    shortAnswer:
+      "W-2 pay stubs and tax returns are the standard. But lenders also accept bank statements, Social Security award letters, 1099s, rental income documentation, pension statements, and offer letters for new employment.",
+    context:
+      "Primary income documentation: Pay stubs (most recent 1-2, showing YTD earnings), W-2 forms from the past 1-2 years, or federal tax returns (Form 1040) for the most recent 1-2 years.\n\nSelf-employed and 1099 earners: Two years of federal tax returns (Schedule C), plus recent bank statements (3-6 months) showing consistent deposits. Some lenders also accept profit and loss statements prepared by a CPA. Lenders typically average the two years of net income, not gross.\n\nAlternative income sources accepted by most lenders:\n- Social Security benefits: SSA award letter or recent benefit statement\n- Pension/retirement: Pension award letter or 1099-R\n- Disability (SSDI/SSI): Award letter showing monthly benefit amount\n- Rental income: Schedule E from tax returns or signed lease agreements\n- Alimony/child support: Divorce decree or court order, plus 12 months of deposit evidence\n- Investment income: Brokerage statements showing dividends and interest\n- Offer letter: A signed offer letter with a start date within 30-90 days works at many lenders\n\nBank statements as backup: Most lenders ask for 2-3 months of bank statements to verify income deposits align with claimed income, even when primary documents are provided.\n\nDigital verification: Many online lenders now use Plaid or similar services to instantly verify income and bank account history. This speeds approval but you must consent to read-only access to your account data.",
+    relatedSlugs: ["how-lenders-verify-income", "personal-loan-self-employed-qualify"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-for-funeral-expenses",
+    question: "Can I get a personal loan to cover funeral expenses?",
+    topic: "Special situations",
+    shortAnswer:
+      "Yes. Funeral and burial costs are a recognized and accepted loan purpose. The average funeral costs $7,000-$12,000. Funds from an online personal loan can arrive in 1-2 days, which is critical for time-sensitive arrangements.",
+    context:
+      "Why speed matters: Funeral homes typically require payment within days of the arrangement. Personal loans that fund in 24-48 hours are one of the few options that can meet this window.\n\nAverage costs: Funeral with burial: $7,000-$12,000. Cremation with service: $2,000-$5,000. Full-service funeral + burial plot: $10,000-$20,000. Most funeral homes require a deposit and full payment before or shortly after the service.\n\nFast-funding lenders: Upgrade, Avant, and Upstart often fund within 24-48 hours of approval. LightStream and SoFi sometimes fund the same day for well-qualified borrowers. Apply before 4pm local time for fastest processing.\n\nFuneral home financing: Many funeral homes partner with financing companies (Lyon Financial, a common one) to offer in-house payment plans. These are often 6-24 months, sometimes 0% promotional, but can have high rates afterward. Compare the APR to a personal loan before choosing.\n\nAssistance programs: Social Security lump-sum death payment ($255) and Veterans Affairs burial benefits (up to $800 for veterans) offset costs. Ask the funeral director about direct billing for these benefits.\n\nApplication process: Apply online before making arrangements or immediately after. State the purpose as 'funeral expenses' or 'family emergency.' Credit scores down to 580 have options, though at higher rates. Even fair-credit borrowers can find $5,000-$10,000 for this purpose.",
+    relatedSlugs: ["personal-loan-same-day-deposit", "personal-loan-approval-odds"],
+    toolLinks: [
+      { label: "Calculator: Monthly payment", href: "/calculators/monthly-payment" },
+    ],
+  },
+  {
+    slug: "personal-loan-hardship-deferment",
+    question: "Can I pause or defer payments on a personal loan if I face hardship?",
+    topic: "Process & terms",
+    shortAnswer:
+      "Many lenders offer a hardship or forbearance program that lets you skip 1-3 payments or reduce the payment temporarily. You must call the lender proactively before missing a payment to access these options.",
+    context:
+      "What is hardship deferment: A temporary agreement with your lender to skip or reduce payments for 1-3 months. Interest typically continues to accrue during the deferral period, which extends the loan term or increases the final payment. No credit bureau reporting as missed payment if the deferment is approved in writing before the due date.\n\nWhich lenders offer hardship programs: Most major online lenders and credit unions have some form of program, though they do not always advertise it. Known programs: SoFi (payment pause), LendingClub (hardship plan), Upgrade (payment deferral), Avant (forbearance), Marcus by Goldman Sachs (payment deferral). Credit unions often have the most flexible programs.\n\nHow to request: Call the lender's customer service line, do not use the app. Explain the specific hardship (job loss, medical emergency, natural disaster). Have income documentation ready if they ask. Get the agreement in writing (email confirmation) before the due date.\n\nWhat hardship deferment does NOT do: It does not waive interest. It does not guarantee no reporting to credit bureaus (ask explicitly about this). It is not permanent - you must resume payments after the agreed period.\n\nIf hardship continues beyond deferment: Ask about a loan modification (reduced interest rate), extended term (lower payments over more months), or settlement if the loan is already delinquent. A nonprofit credit counselor (NFCC member agencies) can negotiate on your behalf at no or low cost.\n\nMissing a payment without calling first: A missed payment with no prior contact typically reports as 30 days late, costing 60-110 credit score points. Always call before the due date.",
+    relatedSlugs: ["personal-loan-late-payment-grace-period", "what-happens-if-miss-personal-loan-payment"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-how-much-can-i-afford",
+    question: "How much personal loan can I afford based on my income?",
+    topic: "Approval & amount",
+    shortAnswer:
+      "A commonly used rule: keep total debt payments (including the new loan) below 35-40% of gross monthly income. Multiply your monthly gross income by 0.35, subtract all existing monthly debt payments, and that remainder is your maximum safe loan payment.",
+    context:
+      "The math: Monthly gross income $5,000. Target 35% DTI: $5,000 x 0.35 = $1,750. Existing payments (car $350, credit card min $100, student loan $200) = $650. Max new loan payment = $1,750 - $650 = $1,100.\n\nConverting payment to loan size: Use a loan payment calculator to work backward. A $1,100/month payment at 12% APR for 36 months supports roughly a $33,000 loan. At 24% APR for the same term, that same payment only supports about $28,000.\n\nWhy 35% is the ceiling, not the goal: At 35-40% DTI you are approved but stretched. Any income disruption puts you at risk. A more comfortable level is 20-28% DTI total. If you can get the new payment under 15% of gross income, you are in solid shape.\n\nTotal cost, not just monthly payment: A $500/month payment over 60 months at 18% APR means $10,000 in total interest on a $20,000 loan. The monthly feels manageable but the total cost is real. Run the math both ways.\n\nFactor in the purpose: A debt consolidation loan that eliminates $800/month in card minimums while adding a $600/month loan payment is a net improvement of $200/month even at a higher total balance. An additive loan for discretionary spending worsens your position even if you can technically afford the payment.\n\nAccount for job and income uncertainty: Lenders qualify you on current income. You should qualify yourself on income that would survive 3-6 months of job loss or a 20% pay cut. Build in a personal stress test.",
+    relatedSlugs: ["what-is-debt-to-income-ratio", "how-much-loan-with-40000-income"],
+    toolLinks: [
+      { label: "Calculator: Monthly payment", href: "/calculators/monthly-payment" },
+    ],
+  },
+  {
+    slug: "personal-loan-first-time-borrower-tips",
+    question: "What should first-time personal loan borrowers know before applying?",
+    topic: "Process & terms",
+    shortAnswer:
+      "Pre-qualify with soft pulls at 3-5 lenders before choosing. Understand that APR includes fees. Choose the shortest term you can afford. Autopay saves 0.25%-0.50%. Read the loan agreement before signing.",
+    context:
+      "Step 1 - Check your credit before lenders do: Pull your free credit reports from AnnualCreditReport.com. Dispute errors (wrong balances, accounts that are not yours, late payments reported incorrectly). Errors take 30-45 days to fix and can improve your score significantly.\n\nStep 2 - Use soft-pull pre-qualification: Every major online lender offers a pre-qualification that shows you estimated rate and amount with no hard inquiry. Do this at Credible, NerdWallet, or directly at 3-5 lenders. Your credit score is not affected. Hard inquiries only happen when you formally apply and accept.\n\nStep 3 - Compare APRs, not interest rates: APR includes the origination fee (1%-8% at most lenders). Two loans at '10% interest rate' can have very different APRs if fees differ. LightStream charges no origination fee; many others charge 3%-6%.\n\nStep 4 - Choose the shortest term you can comfortably afford: Shorter terms mean less total interest. A $10,000 loan at 12% APR for 24 months costs $1,291 in total interest. The same loan for 60 months costs $3,346. The monthly payment is lower for 60 months but the total cost is much higher.\n\nStep 5 - Sign up for autopay: Almost every lender offers 0.25%-0.50% rate discount for autopay enrollment. Do it at sign-up, not after. On a $20,000 loan, that discount saves $200-$500 over the term.\n\nStep 6 - Read the agreement before signing: Look for: prepayment penalty clauses, late fee amounts, whether the rate is truly fixed, and the exact monthly due date. Once you sign, you are committed.",
+    relatedSlugs: ["personal-loan-multiple-prequalifications", "what-is-good-interest-rate-personal-loan"],
+    toolLinks: [
+      { label: "Glossary: APR", href: "/glossary/annual-percentage-rate" },
+    ],
+  },
+  {
+    slug: "personal-loan-joint-application-married",
+    question: "Should my spouse and I apply for a personal loan jointly or separately?",
+    topic: "Approval & amount",
+    shortAnswer:
+      "Apply jointly if it improves the combined credit profile or adds qualifying income. Apply separately if one spouse has significantly better credit, since the joint rate uses the lower of the two scores at most lenders.",
+    context:
+      "How joint personal loan applications work: Both incomes are included, which can support a larger loan amount or lower rate by reducing DTI. Both credit profiles are evaluated. Most lenders use the lower (primary borrower) score, though some use an average. Hard inquiries are pulled on both.\n\nWhen joint is better: One spouse has strong income but limited credit history. Two incomes combined push DTI below the approval threshold. Both have similar credit scores and the combined income is the deciding factor.\n\nWhen separate is better: One spouse has a 780 credit score and the other has 620. Applying separately in the higher-score spouse's name avoids the rate penalty of the 620 score. The lower-score spouse can be added as an authorized user on an account to improve their score over time.\n\nAlternative - one primary, one co-signer: Rather than a joint application where both incomes and both scores count fully, some lenders allow one borrower to list the other as a co-signer. This structure sometimes allows more flexibility than a joint application.\n\nLegal implications: Both joint applicants are equally liable. If the marriage ends, joint debt obligations do not automatically transfer. A divorce decree is not binding on the lender - both parties remain obligated to the lender regardless of what the divorce agreement says about who is responsible.\n\nTax note: Interest on a personal loan is not deductible, so the married filing jointly vs separately tax status does not affect the loan interest situation.",
+    relatedSlugs: ["joint-personal-loan-application", "cosign-personal-loan"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-foreign-national",
+    question: "Can a foreign national or non-US citizen get a personal loan in the US?",
+    topic: "Special situations",
+    shortAnswer:
+      "Yes, but options are more limited. You generally need a valid visa, a US address, a Social Security Number or ITIN, a US bank account, and US credit history. Some lenders specialize in serving immigrants and visa holders.",
+    context:
+      "What lenders require: Valid US address (P.O. boxes typically not accepted). Social Security Number (SSN) or Individual Taxpayer Identification Number (ITIN). US bank account in your name. Some form of US credit history or income verification.\n\nVisa types that typically qualify: H-1B, H-4 EAD, O-1, L-1, J-1, F-1 OPT (with authorization to work), E-2, TN visa holders (Canada/Mexico). Most lenders require a visa with at least 12 months remaining validity.\n\nLenders known to serve non-citizens: Stilt (specialized lender for visa holders, considers visa type and future earnings potential). Avant (accepts ITIN). Upgrade (accepts ITIN and work visa). Some community banks and credit unions with immigrant-serving missions. Self Credit Builder (for building US credit history first).\n\nBuilding US credit from scratch: If you are new to the US with no credit history, start with a secured credit card (CATO Bank, Deserve, or a credit union secured card). Use it for 6-12 months. Then apply for a personal loan using the credit history you have built. This is the fastest path to qualifying at reasonable rates.\n\nITIN vs SSN: An ITIN (Individual Taxpayer Identification Number) is available to non-residents and resident aliens who cannot get an SSN. Fewer lenders accept ITIN, but those who do (Avant, Upgrade, Stilt) treat ITIN borrowers similarly to SSN borrowers if other criteria are met.\n\nUndocumented individuals: Options are very limited. Some community development financial institutions (CDFIs) and credit unions serve this population. Stilt and some Mexican consulate programs also have products for this group.",
+    relatedSlugs: ["personal-loan-with-itin", "personal-loan-as-non-citizen"],
+    toolLinks: [
+      { label: "Q&A: Personal loan with ITIN", href: "/questions/personal-loan-with-itin" },
+    ],
+  },
 ];
 
 export const questionsBySlug = Object.fromEntries(

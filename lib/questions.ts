@@ -5056,6 +5056,160 @@ export const questions: Question[] = [
     relatedSlugs: ["personal-loan-joint-vs-solo", "personal-loan-co-signer-vs-co-borrower"],
     toolLinks: [],
   },
+  {
+    slug: "personal-loan-for-foundation-repair",
+    question: "Can I get a personal loan for foundation repair?",
+    topic: "Special situations",
+    shortAnswer:
+      "Yes. Foundation repair is one of the most urgent home repair needs - structural damage worsens if left unaddressed. Costs of $4,000-$25,000 are common. Personal loans, home equity products, and contractor financing are the main options. Do not delay: water intrusion and settlement are time-sensitive.",
+    context:
+      "Foundation repair cost ranges: Minor cracks and waterproofing: $2,000-$7,000. Piering or underpinning (stabilizing a settling foundation): $8,000-$25,000. Drainage and waterproofing systems: $5,000-$15,000. Full foundation replacement (rare, extreme cases): $30,000-$80,000.\n\nWhy delay is expensive: Foundation problems compound. A small crack that allows water intrusion can lead to mold, structural movement, and eventually partial collapse of sections of the home. What costs $5,000 to fix today may cost $20,000 in 18 months. This makes foundation repair more urgent than most home repairs - financing to fix it now almost always costs less than the damage caused by waiting.\n\nFinancing options: Personal loan: fastest access (1-3 days), no home equity required, amounts up to $35,000-$50,000 at most lenders. Good for mid-range repairs. Home equity loan or HELOC: lower rates (7%-10% vs. 10%-20% for personal loans), but takes 2-6 weeks to close. Better for large repairs where the rate difference materially affects cost. Contractor financing: many foundation specialists offer financing through partners. Rates vary widely (5%-30% APR). Confirm whether there is deferred interest before accepting. Homeowner's insurance: typically does not cover gradual settlement or most foundation issues. Earthquake insurance covers seismic damage. Check your policy.\n\nFinding qualified contractors: Foundation repair requires specialized structural contractors (not general contractors). Get 3 bids from licensed, insured specialists with verifiable references. Be cautious of door-to-door solicitations after heavy rainfall or earthquakes - these are frequently fraud or low-quality vendors.",
+    relatedSlugs: ["personal-loan-for-home-repairs-after-insurance", "personal-loan-for-new-roof"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-income-from-bonus",
+    question: "Can I include bonus income when applying for a personal loan?",
+    topic: "Approval & amount",
+    shortAnswer:
+      "Yes, if you can document 2 years of consistent bonus history. Lenders typically average 2 years of bonus income from W-2s or tax returns and treat that average as qualifying income. A single large bonus with no history is usually excluded or discounted heavily.",
+    context:
+      "How lenders treat bonus income: Conservative approach: exclude bonus income entirely and qualify only on base salary. Most-common approach: average last 2 years of bonus income (from W-2 Box 14 or separate bonus pay stubs) and add the average to base salary for DTI calculation. Example: base $70,000 + average bonus $15,000/year (over 2 years) = $85,000 qualifying income. Favorable approach (some online lenders): accept documented bonus income with only 1 year of history, especially for salaried professionals in fields where bonuses are structurally part of compensation (finance, tech, sales).\n\nDocumentation needed for bonus income: The past 2 years' W-2s showing total earnings (bonuses generally show in Box 1 gross wages or Box 14 depending on how your employer reports them). Pay stubs showing the most recent bonus if it falls within the current year. A letter from your employer confirming the bonus is a regular, recurring part of compensation may help at lenders requiring employer verification.\n\nIncome types similarly treated (2-year history requirement): Commission income, overtime income, investment dividends, rental income. These all follow the same averaging approach because they are variable and cannot be assumed to continue at peak levels.\n\nWhen bonus income hurts more than helps: If you received an unusually large bonus last year that you do not expect to repeat, voluntarily excluding it from your income statement may be more accurate and avoids misrepresentation. Lenders verify income claims and if your actual income in subsequent years is lower, it could affect refinancing or reflect poorly in a hardship scenario.",
+    relatedSlugs: ["personal-loan-how-much-income-needed", "personal-loan-income-documentation"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-transfer-to-different-lender",
+    question: "Can I transfer my personal loan to a different lender for a lower rate?",
+    topic: "Process & terms",
+    shortAnswer:
+      "Yes - this is called refinancing. You apply for a new personal loan at a lower rate, use the proceeds to pay off the existing loan, and repay the new lender. The savings depend on the rate difference, remaining term, and any fees (origination fee on the new loan, prepayment penalty on the old one).",
+    context:
+      "Step-by-step refinancing process: Get a payoff quote from your current lender (valid for 10-30 days typically). Apply to multiple new lenders for a personal loan at or above your payoff amount. Compare rates, fees, and terms across offers. Accept the best offer. The new lender funds the loan - often directly to the old lender if you specify, or to your bank account from which you pay off the old loan. Confirm the old loan is paid and closed (request a payoff confirmation letter).\n\nWhen refinancing makes financial sense: Rate reduction of at least 2%-3% APR. The interest savings over the remaining term exceed the new origination fee. You are not near the end of the loan (refinancing in the last 6-12 months of a loan typically does not save meaningful interest because most interest was front-loaded). No prepayment penalty on the current loan (or the penalty is less than the interest savings).\n\nQuick math for evaluating a refinance: Remaining interest on current loan = (remaining monthly payments x monthly payment) - remaining balance. Remaining interest on new loan = (new monthly payment x new term) + origination fee. If Remaining interest on current loan > Remaining interest on new loan, refinancing saves money.\n\nCredit impact of refinancing: Hard inquiry when applying to new lenders. New account opened (average age of accounts may decrease slightly). Old account closed (may show as 'paid in full' which is positive). Net effect is usually minor and temporary (2-5 point dip recovering in 2-3 months).",
+    relatedSlugs: ["personal-loan-rate-shopping", "personal-loan-origination-fee-negotiable"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-for-water-damage",
+    question: "Can I get a personal loan to fix water damage in my home?",
+    topic: "Special situations",
+    shortAnswer:
+      "Yes. Water damage remediation is time-sensitive - mold develops within 24-48 hours of water intrusion. A personal loan funds emergency repairs immediately while you navigate an insurance claim that may take weeks to settle. Many borrowers use the loan to start repairs, then pay it down when the insurance settlement arrives.",
+    context:
+      "Water damage cost ranges: Minor water intrusion (single room, no mold): $1,000-$5,000 for drying and repair. Moderate water damage (multiple rooms, some mold): $5,000-$20,000. Severe flooding or pipe burst (structural damage, full remediation): $20,000-$75,000+. Mold remediation alone: $2,000-$10,000 depending on square footage.\n\nInsurance coverage for water damage: Homeowners insurance typically covers: sudden and accidental water discharge (burst pipe, appliance malfunction). Does NOT typically cover: gradual leaks, flooding from outside, storm surge, groundwater seepage. Flood insurance (separate NFIP or private policy): covers rising water, surface water intrusion, flooding. Deductibles: standard homeowners deductibles run $500-$10,000; flood insurance deductibles are often $1,000-$5,000 or more.\n\nWhy timing matters: FEMA data shows that mold can begin growing within 24-48 hours of initial water exposure. Waiting for an insurance adjuster (3-10 days for appointment, then 1-3 weeks for settlement) risks mold proliferation that multiplies remediation costs. Emergency service companies begin work before insurance approval all the time - the debt incurred is then covered (partially or fully) by the insurance settlement.\n\nPersonal loan as bridge financing: Borrow $10,000 to start emergency water damage remediation immediately. File insurance claim simultaneously. When insurance settles for $7,000 (after deductible): use the settlement to pay down the loan to $3,000. Pay remaining $3,000 over 12-18 months. This approach prevents catastrophic mold damage while the insurance process plays out.",
+    relatedSlugs: ["personal-loan-for-home-repairs-after-insurance", "personal-loan-for-foundation-repair"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-paycheck-to-paycheck",
+    question: "Can I get a personal loan if I live paycheck to paycheck?",
+    topic: "Approval & amount",
+    shortAnswer:
+      "Possibly, but this is a warning sign worth addressing. Living paycheck to paycheck means you have little financial cushion - adding a loan payment increases that stress. Approval depends on your income, credit score, and existing debt, not on your cash flow timing. But taking a loan that further tightens finances can lead to a debt spiral.",
+    context:
+      "What 'paycheck to paycheck' means for loan underwriting: Lenders approve based on gross income, credit score, and DTI ratio - not on whether you have savings or positive monthly cash flow. A borrower earning $55,000 and spending every dollar still qualifies if their credit is good and existing debt payments are manageable. The lender does not see your bank balance month to month.\n\nThe practical risk: Adding a loan payment to an already tight budget creates a new recurring obligation. Any disruption - missed paycheck, car repair, medical bill - may cause you to miss the loan payment. Late payments hurt your credit score and can trigger late fees, making the situation worse. 63% of Americans report living paycheck to paycheck (PYMNTS data, 2024). For many, this is a temporary situation; for others, it reflects a persistent gap between income and expenses.\n\nQuestions to ask yourself before borrowing: What happens if I have an unexpected $1,000 expense? Can I absorb the loan payment AND a financial surprise? Does this loan solve a structural problem (high-rate debt being consolidated at a lower rate, freeing cash flow) or add another obligation on top of existing ones? Do I need to borrow or do I need to reduce spending?\n\nWhen a personal loan helps someone in this situation: Consolidation: replacing 3 high-rate credit card payments ($600/month total) with one personal loan payment ($380/month) actually creates breathing room - the loan improves the paycheck-to-paycheck situation. Emergency: a single unexpected large expense (medical, car repair) that a loan handles cleanly is better than carrying a high-rate credit card balance.\n\nWhen a personal loan makes things worse: Borrowing for discretionary spending (vacation, electronics) adds permanent obligation without addressing the underlying cash flow issue.",
+    relatedSlugs: ["personal-loan-to-avoid-bankruptcy", "personal-loan-hardship-program"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-for-construction",
+    question: "Can I use a personal loan for home construction or an addition?",
+    topic: "Special situations",
+    shortAnswer:
+      "Yes for small additions and improvements ($10,000-$40,000). Personal loans fund immediately, without the inspections and draw schedules of construction loans. For major construction ($50,000+), dedicated construction loans or home equity products are typically more cost-effective due to lower rates.",
+    context:
+      "Personal loan vs. construction loan: Construction loan: lends in draws (disbursements as work is completed and inspected). Rates are variable (prime-based). Converts to a permanent mortgage upon completion. Complex process, typically requires 20% down, detailed plans, and licensed contractors. Takes 30-60 days to close. Best for: major additions, new construction, full gut renovations. Personal loan: lends the full amount upfront. Fixed rate. No inspections or draw schedules. Fast funding (1-3 days). No home equity required. Best for: smaller additions, garage conversion, bathroom addition, sunroom.\n\nCommon projects financed with personal loans in the construction category: Bathroom addition (adding a half-bath or full bath to an existing structure): $15,000-$30,000. Deck or screened porch addition: $10,000-$25,000. Garage conversion to living space: $20,000-$40,000. Basement finishing: $20,000-$50,000. Sunroom or enclosed porch: $15,000-$35,000.\n\nKey consideration - permits required: Any structural addition requires permits. Unpermitted construction complicates home sales, insurance claims, and resale value. Budget permit fees ($500-$5,000 depending on project size and location) into your total loan amount.\n\nContractor requirements: For work financed by a personal loan, any licensed general contractor can do the work - there is no lender approval of the contractor required (unlike construction loans). Get at least 3 bids and verify licensing and insurance independently.",
+    relatedSlugs: ["personal-loan-for-garage-conversion", "personal-loan-for-basement-waterproofing"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-application-denied-appeal",
+    question: "Can I appeal a personal loan denial?",
+    topic: "Approval & amount",
+    shortAnswer:
+      "Yes. Most lenders have a reconsideration process, though it is not widely advertised. You can request a manual review, provide additional context (explanation of negative items, updated income documentation), or apply with a co-borrower. The adverse action notice tells you the specific denial reasons to address.",
+    context:
+      "The reconsideration request: After receiving a denial, contact the lender and ask: 'Is there a reconsideration or manual review process?' Online lenders with automated underwriting may have limited reconsideration options. Banks and credit unions are more likely to allow a loan officer to manually review with additional documentation.\n\nWhat to provide in a reconsideration: Explanation letter: if you had a past delinquency with a specific explainable cause (medical emergency, temporary job loss), a brief letter explaining the circumstance may help a loan officer contextualize the credit history. Updated or additional income documentation: if you have income sources not captured in the original application (a new job, freelance income, rental income), provide documentation. Co-borrower: adding a co-borrower with stronger credit changes the application profile. The lender may reverse a denial if a creditworthy co-borrower joins.\n\nAlternative: apply elsewhere: Some denials are lender-specific rather than reflecting your overall creditworthiness. A credit union with more flexible underwriting, or an online lender with lower minimum score requirements (Avant, Upstart), may approve an application that a prime lender declined.\n\nWhat cannot be reconsidered: Denials based on OFAC (Treasury's sanctions list) or fraud flags are not reconsiderable through a simple appeal. If denied for identity verification reasons, you must resolve the identity verification issue first.\n\nCost: Reconsideration typically costs nothing. Some lenders will not pull a new hard inquiry for a reconsideration within 30-60 days of the original application - ask before requesting the reconsideration review.",
+    relatedSlugs: ["personal-loan-denied-what-next", "personal-loan-denied-reasons"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-for-tiny-house",
+    question: "Can I use a personal loan to build or buy a tiny house?",
+    topic: "Special situations",
+    shortAnswer:
+      "Yes. Tiny houses on wheels (THOWs) are classified as recreational vehicles by most lenders, not real estate, which means mortgage financing is unavailable. Personal loans fill this gap. Costs of $30,000-$80,000 for custom-built tiny houses make this a substantial but feasible personal loan use.",
+    context:
+      "Tiny house financing landscape: Traditional mortgages do not work for: tiny houses on wheels (THOW) - classified as RVs, not real property. Tiny houses on permanent foundation may qualify for some mortgage products but require land ownership, permits, and meeting local minimum square footage codes (many municipalities have 600-900 sq ft minimums). RV loan: some lenders offer RV loans for factory-built tiny houses on wheels with RVIA certification. Personal loan: most widely applicable option for custom-built or non-RVIA-certified tiny houses. Higher rate than an RV loan but no collateral requirement.\n\nCost ranges: DIY build: $15,000-$35,000 (owner as general contractor, sourcing materials). Professionally built (custom): $40,000-$100,000+. Factory-built (standard models): $25,000-$65,000. Used tiny house: $15,000-$45,000.\n\nFinancing options ranked by cost: RV loan (certified THOW): 8%-15% APR, lower down payment, but requires RVIA certification. Personal loan: 8%-25% APR, no collateral, flexible for any builder. Builder financing: some custom tiny house builders partner with lenders - compare rates carefully. Home equity loan (if you own land with equity): 7%-10% APR, lowest rate, but requires existing home equity as collateral.\n\nKey challenge - land: A tiny house requires land. Land cost (purchase or rental of a lot in a tiny house community) is separate from the house cost. Many tiny house buyers overlook this when budgeting. Personal loans do not cover land acquisition - a separate land loan or personal loan would be needed.",
+    relatedSlugs: ["personal-loan-for-rv", "personal-loan-to-buy-land"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-for-gym-membership",
+    question: "Should I use a personal loan to pay for a gym membership or fitness equipment?",
+    topic: "Special situations",
+    shortAnswer:
+      "Avoid using a personal loan for ongoing membership fees - they are recurring expenses, not one-time purchases. For home gym equipment ($2,000-$10,000+), a personal loan may be justified. Most equipment retailers also offer 0% financing. Do not finance routine monthly expenses that do not end.",
+    context:
+      "Gym memberships vs. equipment: Gym memberships: a monthly subscription. Using a personal loan to prepay a multi-year membership creates inflexibility (gyms close, you move, preferences change) and incurs interest on a recurring service. This is almost always a mistake. Equipment: a one-time purchase. A treadmill, weight set, or Peloton is an asset that depreciates but does not recur monthly. Financing equipment is structurally similar to financing other durable goods.\n\nHome gym equipment financing options: Retailer financing: Peloton, Bowflex, NordicTrack all offer 0% APR for 12-39 months on qualifying equipment. If you can pay off within the promotional period, this is free financing. Affirm or Klarna: BNPL options at retail; sometimes 0%, sometimes 10%-30% APR depending on duration. Personal loan: fixed rate and term, available for larger equipment packages ($5,000-$15,000 for a full home gym build-out).\n\nWhen a personal loan for equipment makes sense: You are building a full home gym (rack, weights, cardio, flooring, mirrors) totaling $5,000-$15,000 where retailer financing covers only part. You need a longer repayment term than BNPL offers (24-60 months). You have a strong credit score and can access rates of 8%-12% APR.\n\nWhen a personal loan is the wrong tool: Monthly gym memberships (recurring expense). Single pieces of moderate-cost equipment ($500-$1,500) that can be saved for. Gym membership fees that should be reduced or eliminated as a spending category if cash is tight.",
+    relatedSlugs: ["personal-loan-for-home-security-system", "personal-loan-minimum-amount"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-impact-on-taxes",
+    question: "Is personal loan interest tax deductible?",
+    topic: "Process & terms",
+    shortAnswer:
+      "No. Interest on unsecured personal loans is not tax deductible for most borrowers. Exceptions exist if the loan proceeds are used for business expenses (deductible as a business expense), investment purposes (limited deduction against investment income), or home improvement if secured against your home.",
+    context:
+      "The general rule: Consumer personal loan interest has not been deductible since the Tax Reform Act of 1986 eliminated the consumer interest deduction. This applies to: personal loans used for debt consolidation, medical expenses, vacations, weddings, appliances, vehicles purchased personally, and most other personal uses.\n\nExceptions where personal loan interest IS deductible: Business use: if you take a personal loan and use the proceeds to fund business operations or equipment (and you are a sole proprietor, partnership, or LLC), the interest is deductible as a business expense on Schedule C. The key is the use of funds, not the type of loan. Investment use: personal loan proceeds invested in taxable accounts (stocks, mutual funds) allow deduction of interest as an investment interest expense, limited to net investment income. Student loan interest: while student loans are a distinct product, borrowers sometimes use personal loans for education - these are not eligible for the student loan interest deduction (which is specific to qualified student loans). Home equity exception: if your personal loan is secured by your home and used for home improvement, it may be treated like a home equity loan and the interest may be deductible (up to the applicable limit under current law). Verify this with your tax professional - the loan must be secured by the home, not just used for home improvement.\n\nPractical implication: For most borrowers, there is no tax benefit to personal loan interest. This should factor into the comparison of personal loans vs. alternatives with deductible interest (HELOC for home improvement, margin loans for investment purposes). Consult a CPA or tax advisor for your specific situation.",
+    relatedSlugs: ["personal-loan-tax-implications", "personal-loan-for-investment"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-declined-for-existing-debt",
+    question: "Can I get a personal loan if I already have a lot of debt?",
+    topic: "Approval & amount",
+    shortAnswer:
+      "It depends on your income. High debt is only disqualifying if your debt-to-income ratio (DTI) exceeds lenders' limits (typically 40%-50%). A borrower earning $100,000 can qualify with $50,000 in existing debt. A borrower earning $40,000 may be declined with $20,000 in existing debt. Income is the denominator.",
+    context:
+      "How DTI determines approval with existing debt: DTI = Total monthly debt payments / Gross monthly income. Most lenders have a maximum DTI of 36%-50%. Example 1: $6,000/month income, existing debt payments of $1,500/month (25% DTI). New personal loan payment would be $300/month. New total DTI: $1,800 / $6,000 = 30%. Well within limits. Example 2: $3,500/month income, existing debt payments of $1,200/month (34% DTI). New personal loan payment would be $300/month. New total DTI: $1,500 / $3,500 = 43%. Some lenders approve at 43%; others decline.\n\nWhen debt consolidation helps with this: If the personal loan will pay off existing debts (consolidation), the analysis changes. The new loan replaces multiple obligations, potentially reducing total monthly payments even while technically adding a new account. Lenders that do direct payoff to creditors will count the closed accounts as eliminated from your DTI calculation immediately.\n\nTypes of debt that always count in DTI: Credit card minimum payments (full minimum payment, even if you pay more). Auto loans. Student loans. Mortgage payments. Other personal loans. Alimony and child support.\n\nTypes of debt that may not count: Medical debt in collections (FICO 9 and VantageScore 4 exclude paid medical collections; some lenders follow this policy for DTI as well). Student loans in income-driven repayment (some lenders use the actual payment amount, others use 1% of balance regardless). Authorized user accounts (typically not counted in your DTI unless you are listed as a required payer).",
+    relatedSlugs: ["personal-loan-debt-to-income-calculation", "personal-loan-what-is-debt-consolidation"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-with-judgments",
+    question: "Can I get a personal loan if I have a judgment against me?",
+    topic: "Credit score",
+    shortAnswer:
+      "Possibly, but it is difficult. A judgment (court-ordered debt) shows on your credit report and signals to lenders that a previous creditor had to sue you to collect. Some lenders (particularly credit unions and non-prime online lenders) may still approve at higher rates. The judgment's age and whether it has been paid affect outcomes significantly.",
+    context:
+      "What a judgment does to your credit: Unsatisfied (unpaid) judgment: extremely damaging to credit scores. Prevents home and auto loans at most lenders. Some credit unions and non-prime personal loan lenders may still consider the application based on current income and employment stability. Satisfied (paid) judgment: still appears on credit report but is less damaging. Shows the debt was ultimately resolved. More lenders are willing to consider applications with satisfied judgments, especially if 2+ years old.\n\nJudgment lien risk: An unsatisfied money judgment may be filed as a lien against your property (real estate, in some states bank accounts and wages). Before taking a new loan, confirm whether any existing judgment creditors have filed liens - new lenders may discover these and decline to add another creditor ahead of an existing judgment lien.\n\nLenders most likely to approve despite a judgment: Non-prime online lenders (Avant, OppFi): specialize in borrowers with imperfect credit histories. Credit unions: relationship-based lending may consider the full picture beyond credit score. Secured personal loans: offering collateral (a savings account or car) reduces lender risk enough to overcome credit history concerns.\n\nNegotiating or resolving the judgment first: If the judgment is relatively small, paying it off before applying significantly improves approval odds at more lenders. Even a settlement for less than full amount, resulting in a 'satisfied judgment,' is meaningfully better than an outstanding unsatisfied judgment. If the judgment is large and cannot be paid, a bankruptcy consultation with an attorney may be warranted before taking on additional debt.",
+    relatedSlugs: ["personal-loan-denied-reasons", "personal-loan-denied-what-next"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-after-car-repossession",
+    question: "Can I get a personal loan after my car has been repossessed?",
+    topic: "Credit score",
+    shortAnswer:
+      "Yes, but not immediately. Repossession severely damages your credit score (100-150 point drop is common) and appears on your report for 7 years. Approval within 6-12 months of repossession is possible at non-prime lenders (Avant, OneMain) at high rates (25%-35% APR). Waiting 18-24 months and rebuilding credit first produces significantly better loan terms.",
+    context:
+      "What repossession does to credit: A repossession appears on your credit report as a negative entry. If there was a deficiency balance (the lender sold your car for less than the loan balance), that deficiency may also appear as an additional negative item or go to collections. Combined score impact: 100-150 points in the short term. The repossession notation remains for 7 years from the date of first delinquency that led to repossession.\n\nApproval timeline after repossession: 0-6 months post-repossession: extremely limited options. Most lenders decline. Payday lenders or high-rate installment lenders only. 6-18 months: non-prime online lenders (Avant, OppFi, LendingPoint) may approve at 25%-40% APR. Credit unions that you have a relationship with. 18-36 months post-repossession: if you have been consistent with all other payments, credit scores begin recovering meaningfully. More lenders become accessible at improving rates. 36+ months: most non-prime lenders will approve; prime lenders may also depending on total credit profile.\n\nCredit rebuilding after repossession: Open a secured credit card (Green Dot, Discover Secured, Capital One Secured) and make on-time payments monthly - this builds positive history. Keep balances low (under 30% of limit). Make all remaining payments on time. Avoid opening multiple new accounts simultaneously. With consistent positive behavior, moving from 520 post-repossession to 620 within 18-24 months is achievable.\n\nDeficiency balance: If you have an outstanding deficiency balance from the repossession, address this before applying for new credit when possible. Even settling the deficiency for less than full value (get the settlement in writing) is better than leaving it outstanding.",
+    relatedSlugs: ["personal-loan-denied-what-next", "personal-loan-with-thin-credit-file"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-for-new-mattress",
+    question: "Should I use a personal loan to buy a mattress?",
+    topic: "Special situations",
+    shortAnswer:
+      "Avoid a personal loan for a mattress if possible. Mattress retailers offer 0% financing for 12-60 months that costs nothing if paid within the promotional period. A personal loan at 12%-20% APR adds hundreds of dollars in interest to a mattress that will be worth nothing at resale.",
+    context:
+      "Why mattress-specific financing is usually better: Tempur-Pedic, Purple, Saatva, and most major mattress brands and retailers offer 0% APR financing for 12-60 months on purchases over $500-$1,000. A $2,000 mattress at 0% for 36 months costs $55.56/month with zero interest. The same mattress on a personal loan at 15% APR over 36 months costs $69.35/month and $496 in total interest. The 0% retailer financing wins by $496.\n\nThe deferred interest risk: Many mattress financing offers use deferred interest (like CareCredit). If NOT paid off by the promotional deadline, all interest accrues retroactively. A $2,000 mattress financed at 29.99% deferred interest means that if you still owe $1 at month 37, you could be charged $600+ in retroactive interest. Avoid carrying any balance past the promotional deadline.\n\nWhen a personal loan might apply for sleep purchases: You are furnishing an entire bedroom (bed frame, mattress, dressers) totaling $4,000-$8,000 and want a single fixed loan. The mattress is a medical necessity (back surgery, sleep disorder) and you are consolidating multiple health-related expenses into one personal loan.\n\nCheaper alternatives: Mattress companies frequently run 30%-50% off sales aligned with major holidays (Presidents Day, Memorial Day, Labor Day, Black Friday). Waiting for a sale can reduce a $2,000 mattress to $1,000-$1,400, eliminating the financing need entirely. Certified refurbished or previous model mattresses from the manufacturer directly are also materially less expensive.",
+    relatedSlugs: ["personal-loan-for-appliance", "personal-loan-minimum-amount"],
+    toolLinks: [],
+  },
 ];
 
 export const questionsBySlug = Object.fromEntries(

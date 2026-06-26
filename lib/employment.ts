@@ -298,6 +298,64 @@ export const employmentTypes: Record<string, UseCase> = {
       { q: "Will a lender count a recent big commission month toward my income?", a: "Generally no. One standout month does not move the qualifying income number much when lenders are averaging 12-24 months. The flip side is also true: one bad month has limited impact. Lenders are looking for the sustainable trend, not the peak. If you recently closed an unusually large deal, note it in your application but expect qualifying income to be based on the multi-year average." },
     ],
   },
+  "small-business-owners": {
+    slug: "small-business-owners",
+    h1: "Personal loans for small business owners",
+    title: "Personal Loans for Small Business Owners 2026: Qualification Guide",
+    description:
+      "Small business owners can use personal loans for business or personal needs. Learn how lenders evaluate business income, what documents are required, and when a personal loan beats a business loan.",
+    eyebrow: "Employment type",
+    intro:
+      "Small business owners who take owner distributions, pay themselves a salary, or report business income on personal tax returns can qualify for personal loans. Lenders evaluate the business's net income (after expenses) rather than gross revenue, which can create challenges when business deductions are aggressive. This guide explains how to position your income for approval.",
+    amountMin: 2000,
+    amountMax: 100000,
+    termMin: 12,
+    termMax: 84,
+    aprMin: 7.99,
+    aprMax: 29.99,
+    bullets: [
+      "Net business income (Schedule C) used for qualifying, not gross revenue",
+      "Two years of personal and business tax returns typically required",
+      "Loan amounts from $2,000 to $100,000 depending on lender",
+      "Faster and simpler than an SBA loan for amounts under $50,000",
+      "Soft credit check pre-qualification available at most online lenders",
+    ],
+    faqs: [
+      { q: "Will a lender care that the loan is for my business if I apply personally?", a: "Most personal loan lenders do not restrict the use of unsecured loan proceeds and do not ask whether you plan to use funds for personal or business purposes. A small business owner can apply for a personal loan and use the funds for business inventory, equipment, cash flow, or any other purpose. If you tell the lender the purpose is 'business,' some lenders may redirect you to a business loan product. The loan remains a personal loan with personal liability regardless of how you use it." },
+      { q: "Do I need to provide business tax returns in addition to personal returns?", a: "Often yes. If you are a sole proprietor filing Schedule C, your personal and business returns are combined on your Form 1040. If you own an S-corp or partnership, lenders typically want 2 years of business returns (Form 1120S or 1065) plus your personal return to see your K-1 income. Lenders want to verify the business is profitable and that your owner income is sustainable." },
+      { q: "My business had a bad year - will that disqualify me?", a: "One bad year is manageable if the prior year was strong and you can explain the circumstance (market conditions, a one-time expense). Lenders that use a 2-year income average will smooth out one weak year. If two consecutive years show declining net income, approval becomes harder. In that case, consider a co-borrower with stable W-2 income or apply for a smaller loan amount with more manageable payments." },
+      { q: "Is a personal loan or a business loan better for my small business?", a: "For amounts under $50,000 and when you need funds quickly, a personal loan is typically faster and simpler. Business loans (SBA 7(a), bank term loans) offer higher amounts, longer terms, and business credit building, but require more documentation, longer timelines (weeks to months), and often collateral. Personal loans do not build business credit but fund in 1-3 days. For working capital or equipment under $50,000 on a short timeline, a personal loan usually wins on speed. For growth capital over $100,000, a business loan is the appropriate tool." },
+    ],
+  },
+  "recent-graduates": {
+    slug: "recent-graduates",
+    h1: "Personal loans for recent college graduates",
+    title: "Personal Loans for Recent College Graduates 2026: Building Credit While Borrowing",
+    description:
+      "Recent graduates often have limited credit history but real income. Learn how to qualify for a personal loan right after college, what rates to expect, and how borrowing responsibly builds the credit profile you will need for the next decade.",
+    eyebrow: "Employment type",
+    intro:
+      "Recent college graduates face a common credit paradox: they have a degree, a new job, and income - but little credit history to show lenders. This thin-file problem means most graduates start with a moderate credit score (580-680) and pay higher rates than their income would otherwise suggest. The good news: a responsibly managed personal loan is one of the fastest tools for building the credit history that unlocks better rates going forward.",
+    amountMin: 1000,
+    amountMax: 25000,
+    termMin: 12,
+    termMax: 60,
+    aprMin: 10.99,
+    aprMax: 29.99,
+    bullets: [
+      "Thin credit history is the primary obstacle, not income",
+      "A co-signer from a parent can dramatically improve approval odds and rate",
+      "Loan amounts from $1,000 to $25,000 depending on income and credit score",
+      "On-time repayment rapidly builds credit history for future borrowing",
+      "Soft credit check pre-qualification available with no score impact",
+    ],
+    faqs: [
+      { q: "What credit score does a recent graduate typically have?", a: "Many new graduates have scores in the 580-680 range if they have had a credit card for 1-4 years. Graduates with no credit history at all may have no score (unscoreable) or a thin-file score. Scores in the 580-680 range are sufficient for approval at near-prime lenders such as Avant, Upgrade, and LendingClub, but will result in higher interest rates, typically 15%-28% APR. A co-signer with a 720+ credit score dramatically improves both approval odds and the rate offered." },
+      { q: "Can I use my new job offer letter to qualify before I have a paycheck?", a: "Yes, many lenders accept a signed offer letter as proof of income for applications within 30-90 days of a start date. Include the letter, start date, and annual salary clearly. Call the lender to confirm they accept offer letters before applying. Upgrade, SoFi, and several credit unions explicitly allow this. Once you receive your first paycheck, the process becomes more straightforward." },
+      { q: "Should I use a personal loan to pay off my student loans?", a: "This is rarely advisable. Federal student loans come with income-based repayment options, forgiveness programs (PSLF, IDR), deferment, and forbearance options that a personal loan does not provide. Refinancing federal loans into a personal loan permanently eliminates those protections. For private student loans at high rates, refinancing into a personal loan is worth calculating if the personal loan rate is materially lower. But do not refinance federal loans with a personal loan." },
+      { q: "How does taking a personal loan now help my credit later?", a: "Payment history (35% of your FICO score) is built over time by making consistent on-time payments. An installment loan also improves your credit mix, showing you can manage both revolving credit (credit cards) and installment accounts (loans). A 24-month personal loan repaid on time adds 24 months of positive installment history to your credit report. This builds the track record that future lenders will review when you apply for an auto loan, mortgage, or larger personal loan." },
+    ],
+  },
 };
 
 export const employmentSlugs = Object.keys(employmentTypes);

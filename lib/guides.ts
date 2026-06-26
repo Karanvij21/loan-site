@@ -1817,6 +1817,247 @@ export const guides: Guide[] = [
       { label: "Pre-qualify with multiple lenders", href: "/apply", blurb: "Soft credit check, no obligation, results in minutes." },
     ],
   },
+
+  // ─── Loan shopping: co-signer guide ──────────────────────────────
+  {
+    slug: "co-signer-personal-loan",
+    cluster: "Loan shopping",
+    h1: "How to get a personal loan with a co-signer",
+    title: "Co-Signer Personal Loan 2026: How It Works, Who Qualifies & Risks",
+    description:
+      "A co-signer can unlock approval or cut your APR by 8-15 percentage points. A complete guide to finding one, what lenders require, and the legal and relationship risks both parties take on.",
+    publishedAt: PUBLISHED,
+    reviewedAt: REVIEWED,
+    estimatedReadMinutes: 11,
+    intro:
+      "Adding a co-signer to a personal loan is one of the fastest ways to change your approval odds or APR when your own credit profile isn't strong enough to qualify on its own. Done right, it benefits both the primary borrower (access to funds, better rates) and the co-signer (helping someone they trust without putting up physical collateral). Done wrong, it strains relationships and damages both credit files. This guide covers the mechanics, the risks, and the conversation you need to have before anyone signs.",
+    sections: [
+      {
+        h2: "What a co-signer actually does",
+        body:
+          "A co-signer agrees to be equally responsible for repaying the loan if the primary borrower does not. They are not a guarantor (who pays only after the lender has exhausted remedies against the primary borrower) - co-signers are fully on the hook from day one.\n\nThe co-signer's credit profile is used alongside the primary borrower's in underwriting. Lenders typically price the loan to the stronger of the two credit scores, or to the co-signer's score if the primary borrower's score is the weakest part of the application. This is why a co-signer with a 750 FICO can unlock a prime APR for a primary borrower with a 580 FICO.\n\nThe loan appears on both credit reports - the primary borrower's and the co-signer's. On-time payments help both. Late payments or defaults hurt both equally.\n\nDistinct from a co-borrower: a co-borrower is also called a joint applicant. Both parties have equal rights to the loan funds and the loan appears on both credit reports. A co-signer typically has no right to the loan proceeds and signs only to back the obligation. The exact rules vary by lender - confirm which structure you are agreeing to before signing.",
+      },
+      {
+        h2: "When a co-signer is most useful",
+        body:
+          "Three scenarios where adding a co-signer materially changes the outcome:\n\nScenario 1: Primary borrower has a thin credit file (fewer than 3 tradelines, under 12 months of credit history). Many lenders decline thin-file applicants regardless of score. A co-signer with a thick, positive history gives the lender the repayment track record it needs to approve the loan.\n\nScenario 2: Primary borrower's score is below the lender's minimum. Most mainstream online lenders have a floor around 580-620 FICO. Below that, a co-signer meeting the minimum allows the application to proceed. The primary borrower's income still needs to support the payment.\n\nScenario 3: Primary borrower qualifies alone but at a high APR. Adding a co-signer with excellent credit can shift the offer by 5-15 percentage points. On a $15,000 loan at 48 months, dropping from 28% APR to 13% APR saves roughly $3,800 in interest.",
+        bullets: [
+          "Thin credit file: fewer than 3 accounts with under 2 years of history",
+          "Score below lender minimum (typically 580-620): co-signer meeting floor unlocks approval",
+          "High APR: 740+ co-signer credit score can drop offer by 5-15 percentage points",
+          "High DTI: co-signer income can be included at some lenders to lower DTI",
+        ],
+      },
+      {
+        h2: "What lenders require from a co-signer",
+        body:
+          "Co-signer requirements vary by lender, but common requirements include:\n\nCredit score: Most lenders want the co-signer to have a 650+ FICO, though the higher the better for APR impact. Some lenders (particularly online marketplace lenders) do not accept co-signers at all - confirm before you apply.\n\nIncome: The co-signer must document their own income with pay stubs, W-2s, or tax returns. Their income may or may not be combined with the primary borrower's to calculate DTI, depending on lender policy.\n\nDebt-to-income ratio: The co-signer's own DTI must typically be below the lender's threshold (usually 40-45%). If they are already co-signed on other loans or carry significant revolving debt, their DTI may be too high even with strong income.\n\nU.S. resident or citizen: Most personal-loan co-signer requirements include U.S. residency. Some lenders require the co-signer to be a U.S. citizen.\n\nNot all lenders allow co-signers on personal loans: Marcus by Goldman Sachs, LightStream, and several others do not allow co-signers. Credit unions and community banks are generally the most flexible.",
+      },
+      {
+        h2: "The legal and financial risks co-signers take on",
+        body:
+          "The most important conversation to have before co-signing is about risk. Co-signers take on:\n\nFull repayment liability: If the primary borrower stops paying, the lender can pursue the co-signer immediately for the full remaining balance. There is no requirement for the lender to exhaust collection against the primary borrower first.\n\nCredit score impact: The loan appears on the co-signer's credit report as a regular tradeline. It increases their total debt load, which affects their own DTI if they apply for credit. It also increases their credit utilization on installment credit. Delinquencies hit the co-signer's score as hard as the primary borrower's.\n\nBorrowing capacity reduction: Lenders count co-signed obligations in the co-signer's DTI when they apply for their own credit (mortgage, auto loan, etc.). Even if payments are made on time by the primary borrower, the co-signed loan reduces what the co-signer can borrow in the future.\n\nRemoval is difficult: Most personal-loan agreements do not allow co-signer release during the loan term. The only paths to removing the co-signer are paying off the loan or refinancing into a new loan in the primary borrower's name alone. Document the expectation upfront.",
+        bullets: [
+          "Full repayment liability from day one, not after exhausting primary borrower",
+          "Loan appears on co-signer's credit report and counts against their DTI",
+          "Delinquencies and defaults hit both credit files equally",
+          "Co-signer removal mid-loan is rare; refinancing is the standard exit path",
+        ],
+      },
+      {
+        h2: "How to ask someone to co-sign",
+        body:
+          "The co-signer conversation is as important as the financial mechanics. A few guidelines:\n\nBe transparent about why you need a co-signer. If your credit is damaged, say so. If it's a thin file issue, explain. Asking someone to co-sign without disclosing the full picture is unfair and sets up the relationship for failure.\n\nPresent a repayment plan. Show your monthly budget and how the loan payment fits into it. The more concrete you can be ('my monthly take-home is $X, my fixed expenses are $Y, so I have $Z available for this payment'), the more confidence you project.\n\nAgree on a fallback. What happens if you lose your job? Is there a savings buffer? Would you sell an asset before missing a payment? Having this conversation upfront, uncomfortable as it is, protects the relationship if things go sideways.\n\nDocument the agreement separately. The loan documents only cover the lender relationship. A separate written agreement between co-signer and borrower (not legally required, but useful) can cover how each party will handle hardship, what notice is expected, and what happens to the relationship if the loan goes into default.",
+      },
+    ],
+    faqs: [
+      { q: "Does being a co-signer hurt your credit score?", a: "It adds the loan to your credit report and increases your total debt load, which can slightly reduce your score if your credit utilization or DTI was already high. Ongoing on-time payments have a neutral to positive effect. A missed payment or default on the co-signed loan hurts your score exactly as much as if you were the primary borrower." },
+      { q: "Can a co-signer be removed from a personal loan?", a: "Rarely. Most personal-loan agreements do not include a co-signer release provision. The practical exit is for the primary borrower to refinance into a new personal loan in their name only once their credit has improved enough to qualify alone." },
+      { q: "What happens to the co-signer if the primary borrower defaults?", a: "The lender can pursue the co-signer for the full remaining balance immediately. Collections, wage garnishment (in states that allow it), and civil judgments are all available remedies. The co-signer's credit report will also show the default." },
+    ],
+    relatedSlugs: ["compare-personal-loan-offers", "what-credit-score-for-personal-loan", "loan-application-denied-what-to-do"],
+    toolLinks: [
+      { label: "Pre-qualify with multiple lenders", href: "/apply", blurb: "See offers with or without a co-signer. Soft credit check, no obligation." },
+      { label: "Loan payment calculator", href: "/calculators/loan-payment", blurb: "Estimate the monthly payment the co-signer would be responsible for if you default." },
+    ],
+  },
+
+  // ─── Credit improvement: personal loan default guide ─────────────
+  {
+    slug: "personal-loan-default-what-happens",
+    cluster: "Credit improvement",
+    h1: "What happens if you default on a personal loan",
+    title: "Personal Loan Default 2026: Timeline, Credit Impact & Recovery Options",
+    description:
+      "Defaulting on a personal loan triggers a predictable sequence: late fees, credit damage, collections, potential lawsuit. Here is the exact timeline and what to do at each stage to limit the damage.",
+    publishedAt: PUBLISHED,
+    reviewedAt: REVIEWED,
+    estimatedReadMinutes: 12,
+    intro:
+      "Missing a personal loan payment feels catastrophic in the moment, but the consequences are predictable and often manageable if you act quickly at each stage. The sequence from first missed payment to lawsuit follows a known timeline, and there are intervention points along the way where borrowers who communicate with their lender typically fare significantly better than those who go silent. This guide walks through every stage.",
+    sections: [
+      {
+        h2: "The default timeline: day by day",
+        body:
+          "Day 1-14 (grace period): Most lenders offer a 10-15 day grace period after the due date. No late fee during this window, and no credit bureau reporting. If you realize you will miss a payment, this is the best window to call your lender and explain - many will accept a same-day payment, grant a one-time extension, or waive the late fee entirely for first-time misses with good history.\n\nDay 15-29 (late fee applies, no bureau impact yet): After the grace period, the late fee is charged - typically $25-$39 or 5% of the payment, whichever is less, though this varies by lender. Critically, most lenders do not report a payment as late to the credit bureaus until it is 30 days past the due date. You still have time to cure the delinquency without credit damage.\n\nDay 30 (first bureau report): At 30 days past due, the lender almost certainly reports the delinquency to one or more credit bureaus. This is the first credit-report mark. Expect a 60-110 point score drop depending on your prior score. A borrower at 750 sees a larger drop than a borrower at 620, because the model penalizes deviation from expected behavior.\n\nDay 60-90 (escalation): Each 30-day interval of non-payment adds an additional delinquency mark (60-day late, then 90-day late). Each incremental mark causes additional score damage and escalates the lender's internal collection efforts - calls increase, letters become more formal, and internal collectors become more aggressive about negotiating settlement.\n\nDay 90-180 (charge-off): Most lenders charge off personal loans between 90 and 180 days of non-payment. Charge-off is an accounting event where the lender writes the debt off as a loss. This does not erase your obligation. The charged-off account appears on your credit report and may be sold to a collection agency.",
+      },
+      {
+        h2: "What lenders can actually do to collect",
+        body:
+          "Personal loans are unsecured - there is no collateral the lender can automatically repossess. This limits the lender's remedies compared to a car loan or mortgage, but leaves several powerful options:\n\nInternal collection calls and letters: From day 1 of delinquency, the lender's collections department pursues contact. This is annoying but not legally threatening.\n\nSell to a collection agency: After charge-off, many lenders sell the debt to a third-party debt buyer for 5-20 cents on the dollar. The collector then owns the right to collect the full balance. They are regulated by the FDCPA.\n\nCivil lawsuit and judgment: The lender or a collection agency can sue you in civil court for the unpaid balance. If they win (and they often do if you don't respond), they receive a judgment. With a judgment in hand, they can:\n- Garnish wages in most states (Texas and Florida prohibit wage garnishment for consumer debt; verify your state rules)\n- Levy bank accounts (usually after notice, varies by state)\n- Place a lien on real property in some states\n\nThe statute of limitations on suing varies by state and debt type, typically 3-6 years from the date of first delinquency for written contracts. After the SOL expires, the lawsuit path closes, though collection calls and bureau pressure continue.",
+        bullets: [
+          "No automatic repossession (unsecured loan) but lenders can sue and win judgments",
+          "Wage garnishment available in most states (TX and FL are major exceptions)",
+          "Statute of limitations on lawsuit: 3-6 years depending on state",
+          "Selling debt to collectors is common after 90-180 day charge-off",
+        ],
+      },
+      {
+        h2: "How to limit the damage at each stage",
+        body:
+          "Before the first missed payment (hardship programs): Most lenders have hardship programs that are not advertised. If you lose your job, face a medical emergency, or have another documented crisis, call the lender before the payment is due. Hardship arrangements typically involve one to three months of reduced or deferred payments. The key: you must call before the payment is missed, or very shortly after. Lenders are far less willing to negotiate once an account is 60+ days delinquent.\n\n30-90 days delinquent (negotiate a cure): At this stage, you can still negotiate a reinstatement by paying the full arrears (back payments plus fees). Some lenders will waive some late fees in exchange for bringing the account current. Others will agree to a modified payment plan. Get any modification in writing before making any payment.\n\n90-180 days delinquent (settlement window): As the charge-off date approaches, lenders become more willing to settle for less than the full balance - typically 40-60% in a lump sum. This is the widest settlement window for personal loans. Be aware that forgiven debt above $600 is reported on a 1099-C and may be taxable income.\n\nAfter charge-off (debt collection): At this stage, contact is now with the collection agency, not the original lender. Request debt validation in writing within 30 days of first collector contact (FDCPA right). This forces the collector to stop collection activity until they verify the debt. Then negotiate: collectors often accept 40-50 cents on the dollar because they bought the debt cheaply.",
+      },
+      {
+        h2: "Rebuilding credit after a personal loan default",
+        body:
+          "The negative mark (delinquency, charge-off, collection) stays on your credit report for 7 years from the date of first delinquency. The impact fades each year. The fastest recovery strategy combines three elements simultaneously:\n\nFirst, open new positive tradelines immediately. A secured credit card (Discover it Secured or Capital One Secured) or a credit-builder loan reports on-time monthly payments to all three bureaus. Start the positive history clock now, not years from now.\n\nSecond, keep every other account current. A default with otherwise clean payment history recovers faster than a default surrounded by multiple late marks. One bad item in a sea of positive is unusual; multiple bad items suggest a pattern that scoring models penalize more heavily.\n\nThird, dispute inaccurate negative items. After resolving the defaulted account (paying, settling, or negotiating deletion), check all three bureau reports for accuracy. Common errors: wrong balance reported, date of first delinquency reported as a later date than actual (re-aging), duplicate entries. Dispute errors at the bureau directly under FCRA rights.",
+        bullets: [
+          "Open secured credit card or credit-builder loan immediately to start positive history",
+          "Keep every other tradeline current (one bad item recovers faster than several)",
+          "Default mark fades each year - significant recovery typically takes 2-3 years of clean history",
+          "Dispute inaccurate items: re-aging, wrong balances, duplicate entries",
+        ],
+      },
+    ],
+    faqs: [
+      { q: "Will a personal loan default result in a lawsuit?", a: "It can, but it depends on the balance and the lender. Balances under $2,000-$3,000 are often not worth the legal cost to pursue. Larger balances, especially with debt buyers who purchase at volume, are more frequently sued. The statute of limitations in your state limits how long they can wait to file." },
+      { q: "Can defaulting on a personal loan lead to wage garnishment?", a: "Yes, but only after winning a civil judgment in court. The lender or collection agency must sue, win, and then petition for garnishment separately. Most states allow wage garnishment for consumer debt; Texas and Florida prohibit it, which significantly limits remedies in those states." },
+      { q: "Is it better to pay a collection or negotiate a settlement?", a: "Paying in full is better for credit scores than settling, but settling for less than full balance is better than leaving it unpaid. Before paying any collection, attempt to negotiate a 'pay for delete' arrangement in writing - the collector agrees to remove the tradeline entirely from your report in exchange for payment. Not all collectors agree, but many smaller agencies do." },
+    ],
+    relatedSlugs: ["rebuild-credit-after-default", "what-to-do-debt-collections", "when-bankruptcy-makes-sense"],
+    toolLinks: [
+      { label: "Debt payoff calculator", href: "/calculators/debt-payoff", blurb: "Model how long to pay off the defaulted balance under different settlement scenarios." },
+      { label: "Pre-qualify with lenders", href: "/apply", blurb: "After rebuilding, see which lenders will work with you. Soft check, no obligation." },
+    ],
+  },
+
+  // ─── Loan shopping: how long to fund guide ───────────────────────
+  {
+    slug: "how-long-to-get-personal-loan",
+    cluster: "Loan shopping",
+    h1: "How long does it take to get a personal loan",
+    title: "How Long Does It Take to Get a Personal Loan in 2026? (Timeline Guide)",
+    description:
+      "Online personal loans fund in 1-2 business days after acceptance. Banks take 1-2 weeks. Credit unions 1-4 weeks. The exact timeline depends on income verification, lender type, and when you apply. Full breakdown.",
+    publishedAt: PUBLISHED,
+    reviewedAt: REVIEWED,
+    estimatedReadMinutes: 9,
+    intro:
+      "The gap between 'I need money' and 'funds are in my account' ranges from hours (rare same-day funding) to several weeks (traditional bank or credit union). The biggest variable is not the lender's processing speed - it is how quickly you can complete income verification, sign documents, and whether your bank supports instant ACH pushes. This guide walks through every stage of the timeline so you know exactly where the delays hide.",
+    sections: [
+      {
+        h2: "Stage 1: Application (5-15 minutes)",
+        body:
+          "The application itself is fast. Online lenders have optimized forms that take 5-15 minutes to complete. You will provide: personal information (name, address, SSN or ITIN), employment and income information, desired loan amount and purpose, and bank account information for verification.\n\nSome lenders use open-banking connections (Plaid, Finicity, Argyle) to pull income and bank data directly, which eliminates the document upload step entirely and compresses the verification stage. If your bank supports Plaid, the application + verification cycle can complete in under 10 minutes.\n\nAt this stage, the lender performs a soft credit pull only. No score impact yet.",
+      },
+      {
+        h2: "Stage 2: Pre-qualification and offer (instant to 24 hours)",
+        body:
+          "After submission, the lender's underwriting system evaluates your application and produces a pre-qualification result. For fully automated underwriters (most online lenders), this takes seconds. For lenders with manual review components (some credit unions, community banks), it can take hours or up to one business day.\n\nIf you pre-qualify, you receive an offer showing the loan amount, APR, term, and estimated monthly payment. This offer is based on the soft credit pull. It is conditional - the final offer may change after income verification and the hard credit pull.\n\nAt marketplace aggregators, you may receive multiple offers from different lenders simultaneously. This is the step to compare and choose - you are not committed to any loan yet.",
+      },
+      {
+        h2: "Stage 3: Document verification (0-48 hours, the main bottleneck)",
+        body:
+          "This stage is where timelines diverge most:\n\nFast path (0-2 hours): You connect your bank account via Plaid or upload pay stubs immediately. The system auto-verifies income, employment, and bank deposits. The lender issues a final binding offer within 2 hours. This is the path for W-2 employees with a Plaid-compatible bank.\n\nMedium path (same day to 24 hours): You upload documents manually (pay stubs, W-2, ID). A human reviewer validates them. Typical turnaround at a well-staffed online lender is same-business-day if documents are uploaded before noon.\n\nSlow path (1-5 business days): Self-employed borrowers, 1099 contractors, or gig workers typically submit more documents (tax returns, bank statements, sometimes a CPA letter) and may trigger manual underwriting. Lenders handling complex income documentation can take 2-5 business days for full review.\n\nCredit union and bank path (1-4 weeks): Traditional lenders often queue applications for branch review, require an in-person meeting, and have slower internal approval workflows. Some community banks and credit unions have adopted digital-first workflows; others have not.",
+      },
+      {
+        h2: "Stage 4: Final approval and e-signing (minutes to 24 hours)",
+        body:
+          "Once verification is complete, the lender issues a final binding offer with exact APR, origination fee (if any), disbursement amount, and full amortization schedule. Reviewing and e-signing the loan agreement typically takes 10-20 minutes and can be done immediately.\n\nIf you need time to review, most lenders hold the offer for 5-30 days before it expires. There is no advantage to delaying, but there is no penalty for taking a day to read the agreement carefully - do not skip this step.\n\nAfter e-signing, the lender triggers disbursement. The hard credit pull also happens here (not earlier).",
+      },
+      {
+        h2: "Stage 5: Funding (next business day typical, same day possible)",
+        body:
+          "Standard ACH disbursement: Funds arrive in your bank account on the next business day after the lender initiates the transfer. ACH transfers submitted before the bank's cutoff time (usually 3-5 p.m. local time) settle the following business day. Transfers submitted after cutoff or on Friday settle on Monday.\n\nInstant or same-day funding: A handful of lenders offer instant funding via real-time payment networks (RTP) or push-to-debit to a linked debit card for a fee (typically $15-$30). LightStream offers same-day funding with approval before 2:30 p.m. ET on business days. Avant and Upgrade also advertise same-day options for approved borrowers.\n\nWhat can slow funding: your bank's hold policy on ACH deposits (some banks hold large incoming ACH transfers for 1-2 business days), weekends and federal holidays, and any additional stipulations the lender adds post-e-sign (such as providing a voided check to confirm bank account).",
+        bullets: [
+          "Standard ACH: next business day after lender initiates (plan for weekends and holidays)",
+          "Same-day funding: possible with LightStream, Avant, Upgrade (before 2:30 p.m. ET typically)",
+          "Real-time to debit card: fastest option, typically $15-$30 fee",
+          "Bank holds: your bank may hold large incoming ACH deposits for 1-2 days",
+        ],
+      },
+    ],
+    faqs: [
+      { q: "What is the fastest way to get a personal loan?", a: "Apply with an online lender that accepts bank-account verification via Plaid (SoFi, Upgrade, Avant, LightStream). If you are a W-2 employee and your bank is Plaid-compatible, the entire application-to-funding cycle can complete in 1 business day. LightStream offers same-day funding on business days if approval is completed by 2:30 p.m. ET." },
+      { q: "How long do banks take to approve personal loans?", a: "Traditional banks take 1-2 weeks for personal loans, largely due to branch-review workflows and manual underwriting queues. Banks with digital-first platforms (like Citi or Wells Fargo's online loan tools) can cut this to 2-4 business days, but still rarely match pure-play online lenders." },
+      { q: "What can delay my personal loan funding?", a: "Most delays trace to one of four causes: slow document upload on the applicant's side, manual underwriting triggered by complex income (self-employed, 1099, gig workers), the lender missing the ACH cutoff for same-day submission, or the receiving bank placing a hold on incoming ACH deposits." },
+    ],
+    relatedSlugs: ["compare-personal-loan-offers", "how-to-choose-personal-loan-2026-checklist", "hidden-fees-personal-loans"],
+    toolLinks: [
+      { label: "Pre-qualify with multiple lenders", href: "/apply", blurb: "See offers from lenders with same-day and next-day funding options. Soft check." },
+      { label: "Loan payment calculator", href: "/calculators/loan-payment", blurb: "Estimate your monthly payment before you apply." },
+    ],
+  },
+
+  // ─── Credit improvement: understanding interest ───────────────────
+  {
+    slug: "personal-loan-interest-explained",
+    cluster: "Credit improvement",
+    h1: "How personal loan interest works",
+    title: "How Personal Loan Interest Works in 2026: APR, Simple Interest & Total Cost",
+    description:
+      "Personal loans use simple interest, not compound. Your total interest cost is fixed at signing. How APR differs from interest rate, how origination fees change the true cost, and what the amortization schedule actually shows.",
+    publishedAt: PUBLISHED,
+    reviewedAt: REVIEWED,
+    estimatedReadMinutes: 10,
+    intro:
+      "Personal loans are simpler than most borrowers expect. Unlike credit cards (which compound interest daily on a revolving balance) or mortgages (with complex escrow and private mortgage insurance), personal loans use simple interest on a fixed amortization schedule. Once you sign, your total interest cost is mathematically locked in. This guide explains exactly how that math works so you can compare offers confidently.",
+    sections: [
+      {
+        h2: "Simple interest vs compound interest",
+        body:
+          "Personal loans use simple interest: interest is calculated only on the outstanding principal balance, not on previously accrued interest. Each payment goes first to interest accrued since the last payment, then to principal reduction. As the principal falls, the interest portion of each payment falls too - even though the total payment amount stays fixed.\n\nCredit cards compound daily: interest is added to the balance each day, and you then pay interest on that interest. This is why a $5,000 credit-card balance at 24% APR costs dramatically more than a $5,000 personal loan at 24% APR if you only make minimum payments - the daily compounding accelerates on revolving debt.\n\nThe practical implication: a personal loan's total interest cost is completely predictable from the start. There are no surprises, no compounding cliffs, no rate resets unless you have a variable-rate personal loan (uncommon, but some exist).",
+      },
+      {
+        h2: "Interest rate vs APR: the key difference",
+        body:
+          "The interest rate (also called the nominal rate or note rate) is the annual percentage the lender charges on the outstanding balance. The APR (Annual Percentage Rate, as defined by TILA) includes the interest rate plus certain fees, primarily the origination fee, expressed as an annual rate.\n\nExample: A $10,000 personal loan with a 12% interest rate and a 3% origination fee ($300) has an APR higher than 12%. Because the origination fee comes out of the loan proceeds upfront (you receive $9,700 but owe $10,000), you are effectively paying the 12% interest rate on a slightly smaller sum. The APR calculation accounts for this and produces a number higher than 12% - in this case approximately 13.8% APR on a 36-month term.\n\nWhen comparing loan offers, always compare APRs, not interest rates. Two offers at the same interest rate but with different origination fees have different effective costs. The APR already accounts for the origination fee, making it the apples-to-apples comparison number. A loan with a 14% APR and no origination fee costs less than a loan with a 12% interest rate and a 3% origination fee on most term lengths.",
+        bullets: [
+          "Interest rate: annual charge on the outstanding balance only",
+          "APR: interest rate plus origination fee, expressed as an annual rate (TILA-mandated disclosure)",
+          "Always compare APR, not interest rate, when shopping across lenders",
+          "Loans with no origination fee: APR = interest rate",
+        ],
+      },
+      {
+        h2: "How the amortization schedule works",
+        body:
+          "Amortization is the process of paying off a loan in fixed installments where each payment shifts gradually from mostly interest to mostly principal over time.\n\nAt the start of the loan: the outstanding balance is highest, so the interest portion of each payment is largest. On a $15,000 loan at 12% APR over 48 months, the first payment might be $395 total - roughly $150 interest and $245 principal.\n\nAt the end of the loan: the outstanding balance is near zero, so the interest portion shrinks. By month 47, the payment is still $395, but now roughly $4 goes to interest and $391 reduces the last of the principal.\n\nThis is not a disadvantage - it is simply how amortization math works. You are not 'paying more interest early' in any punitive sense; you are paying the exact interest owed on the exact outstanding balance each month. Prepaying reduces the principal faster and therefore shrinks the remaining interest more quickly.",
+      },
+      {
+        h2: "How extra payments reduce total interest",
+        body:
+          "Because personal loans use simple interest on the outstanding principal, every dollar of extra principal payment reduces the remaining interest cost dollar for dollar.\n\nMathematical example: $15,000 at 12% APR over 48 months = $3,967 total interest. If you make one extra $500 payment in month 6, the remaining principal drops faster, the amortization recalculates, and total interest decreases by roughly $200-$300 depending on your lender's exact calculation method.\n\nMost online personal-loan lenders allow unlimited prepayment without penalty. Confirm in your loan agreement under 'prepayment' or 'early payoff' before assuming no penalty applies.\n\nThe reverse is also true: extending the term of a personal loan lowers the monthly payment but increases total interest paid. A $10,000 loan at 15% APR costs $3,462 in interest over 36 months but $6,824 over 72 months - roughly double the interest cost for a monthly payment reduction of about $115.",
+        bullets: [
+          "Extra principal payments reduce total interest cost dollar for dollar",
+          "Confirm no prepayment penalty in your loan agreement before prepaying",
+          "Longer term = lower monthly payment but significantly more total interest",
+          "Use the loan payment calculator to see the total cost trade-off between terms",
+        ],
+      },
+    ],
+    faqs: [
+      { q: "Do personal loans use compound or simple interest?", a: "Simple interest. Interest is calculated on the outstanding principal balance, not on previously accumulated interest. Your total interest cost is determined at signing and does not grow as it would on a compound-interest credit card." },
+      { q: "What is the difference between APR and interest rate on a personal loan?", a: "The interest rate is the annual charge on the balance. The APR includes the interest rate plus the origination fee (if any), expressed as an annual rate. Always compare APRs across lenders because a loan with a lower interest rate but a higher origination fee can cost more than a loan with a higher rate and no fee." },
+      { q: "Does paying off a personal loan early save interest?", a: "Yes, because interest is only charged on the outstanding balance. Every dollar of principal you pay off early eliminates all future interest that would have accrued on that dollar for the remaining loan term. First verify your lender does not charge a prepayment penalty." },
+    ],
+    relatedSlugs: ["compare-personal-loan-offers", "hidden-fees-personal-loans", "how-to-negotiate-lower-personal-loan-apr"],
+    toolLinks: [
+      { label: "APR calculator", href: "/calculators/apr", blurb: "Convert rate + origination fee to true APR for side-by-side comparison." },
+      { label: "Loan payment calculator", href: "/calculators/loan-payment", blurb: "See total interest cost at different terms and APRs." },
+      { label: "Pre-qualify with multiple lenders", href: "/apply", blurb: "Compare real APRs from multiple lenders. Soft check, no obligation." },
+    ],
+  },
 ];
 
 export const guidesBySlug = Object.fromEntries(

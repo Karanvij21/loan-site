@@ -9,9 +9,9 @@ import { amounts, monthlyPayment } from "@/lib/amounts";
 import { formatCurrency } from "@/lib/utils";
 
 export const metadata: Metadata = {
-  title: "Personal Loans by Amount: $500 to $50,000",
+  title: "Personal Loans by Amount 2026: $500-$50,000, Example Payments & APRs",
   description:
-    "Browse personal-loan information by exact amount: $500, $1,000, $3,000, $5,000, $10,000, $15,000, $20,000, $50,000. APR ranges, example monthly payments, and term options.",
+    "Browse personal-loan details by exact amount: $500, $1,000, $3,000, $5,000, $10,000, $15,000, $20,000, $50,000. APR ranges, example monthly payments, and term options. Soft check.",
   alternates: { canonical: "/loans/amount" },
   openGraph: {
     title: "Personal Loans by Amount",

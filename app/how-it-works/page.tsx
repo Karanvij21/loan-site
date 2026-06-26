@@ -10,9 +10,9 @@ import {
 const URL = `${siteConfig.url}/how-it-works`;
 
 export const metadata: Metadata = {
-  title: "How it works",
+  title: "How Personal Loans Work in 2026: 3 Steps, Soft Check, Funds Next Day",
   description:
-    "Three steps: submit a free request, review your offers, receive funds. Soft credit check, no obligation.",
+    "Three steps: submit a free 2-minute request (soft check, no score impact), review lender offers, get funded as fast as the next business day. Free, no obligation.",
   alternates: { canonical: "/how-it-works", languages: { "en-US": "/how-it-works", "es-US": "/es/how-it-works" } },
 };
 

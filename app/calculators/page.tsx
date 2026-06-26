@@ -8,9 +8,9 @@ import {
 import { HeroPattern } from "@/components/HeroPattern";
 
 export const metadata: Metadata = {
-  title: "Free Loan Calculators: Payment, APR, Debt Payoff, Affordability",
+  title: "Free Loan Calculators 2026: Monthly Payment, APR, Debt Payoff & Affordability",
   description:
-    "Four free loan calculators: estimate your monthly payment, compare effective APR with fees, model a credit-card or loan payoff, and check what loan amount fits your budget.",
+    "Four free personal loan calculators: estimate monthly payment, compare effective APR with fees included, model a debt payoff, and find the loan amount your budget can support.",
   alternates: { canonical: "/calculators" },
   openGraph: {
     title: "Free Loan Calculators",

@@ -5,8 +5,8 @@ import { siteConfig } from "@/lib/site";
 const URL = `${siteConfig.url}/faq`;
 
 export const metadata: Metadata = {
-  title: "Frequently asked questions",
-  description: "Answers to common questions about personal loans, credit checks, eligibility, funding speed, fees, and more.",
+  title: "Personal Loan FAQ 2026: Credit Check, Eligibility, Rates & Funding Speed",
+  description: "Answers to common personal-loan questions: soft credit check, how much you can borrow, approval odds, APR ranges, funding timeline, fees, and repayment. Free, no obligation.",
   alternates: { canonical: "/faq", languages: { "en-US": "/faq", "es-US": "/es/faq" } },
 };
 

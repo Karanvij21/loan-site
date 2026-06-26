@@ -5,8 +5,8 @@ import { siteConfig } from "@/lib/site";
 import { BreadcrumbJsonLd } from "@/components/seo/JsonLd";
 
 export const metadata: Metadata = {
-  title: "Personal Loans by State",
-  description: "Compare personal loan offers from $100 to $50,000 in every U.S. state. State-specific APR ranges, regulators, and lender rules summarised on each page.",
+  title: "Personal Loans by State 2026: $100-$50,000, APR Caps & Lender Rules",
+  description: "Compare personal loan offers in every U.S. state. State-specific APR caps, lender requirements, and borrower protections. Soft credit check, funds next day.",
   alternates: { canonical: "/personal-loans" },
 };
 

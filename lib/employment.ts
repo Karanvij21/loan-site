@@ -269,6 +269,35 @@ export const employmentTypes: Record<string, UseCase> = {
       { q: "Can veterans (not active duty) access military loan protections?", a: "Veterans after discharge are not covered by MLA protections (which apply only during active duty to covered borrowers). However, veterans retain access to military-affiliated credit unions with favorable terms and strong service. Some lenders also have veteran-specific programs. SCRA protections apply only during active service for pre-service debts." },
     ],
   },
+  "commission-based": {
+    slug: "commission-based",
+    h1: "Personal loans for commission-based workers",
+    title: "Personal Loans for Commission-Based Workers 2026: Variable Income Qualification Guide",
+    description:
+      "Sales reps, real estate agents, and other commission earners can qualify for personal loans. Here is how lenders verify irregular income, what documents you need, and the APR ranges to expect.",
+    eyebrow: "Employment type",
+    intro:
+      "Commission-based workers - real estate agents, sales representatives, independent insurance agents, financial advisors, and others with variable monthly income - can qualify for personal loans. The underwriting challenge is proving reliable average income when no two paychecks are the same. Most lenders use a 12-24 month average of documented commissions rather than a recent month's earnings.",
+    amountMin: 1000,
+    amountMax: 50000,
+    termMin: 12,
+    termMax: 72,
+    aprMin: 7.99,
+    aprMax: 35.99,
+    bullets: [
+      "Lenders average your last 12-24 months of documented commission income",
+      "Loan amounts from $1,000 to $50,000",
+      "APRs typically 7.99%-35.99% based on credit score and income stability",
+      "Two years of tax returns (Schedule C or W-2 with commissions) typically required",
+      "Soft credit check pre-qualification available at most online lenders",
+    ],
+    faqs: [
+      { q: "How do lenders verify commission income?", a: "Most lenders require 1-2 years of federal tax returns (Schedule C for self-employed or W-2 plus commission statements for employees), recent bank statements showing the deposits, and sometimes a signed letter from your employer confirming the commission structure. Lenders will typically average the total annual commission over the past 12-24 months and divide by 12 to arrive at a monthly income figure. If your income has been growing, some lenders will weight more recent income more heavily." },
+      { q: "What if my commission income is irregular month-to-month?", a: "This is expected for commission earners, and lenders account for it. The averaging approach (total commissions over 24 months divided by 24) smooths out the peaks and valleys. However, if your current year's income is significantly lower than prior years (for example, during a real estate market slowdown), lenders may use the current year or discount prior years. Providing a written explanation of your income trajectory and the nature of your business can help." },
+      { q: "Do lenders distinguish between W-2 commission employees and independent contractors?", a: "Yes. W-2 commission employees (common in corporate sales jobs) have more predictable documentation - W-2 forms and employer-provided commission statements. Independent contractors (1099 income) are treated more like self-employed borrowers and typically need to provide Schedule C filings and business bank statements. The income averaging principle is the same, but independent contractors face additional scrutiny on business expenses and net income versus gross commissions." },
+      { q: "Will a lender count a recent big commission month toward my income?", a: "Generally no. One standout month does not move the qualifying income number much when lenders are averaging 12-24 months. The flip side is also true: one bad month has limited impact. Lenders are looking for the sustainable trend, not the peak. If you recently closed an unusually large deal, note it in your application but expect qualifying income to be based on the multi-year average." },
+    ],
+  },
 };
 
 export const employmentSlugs = Object.keys(employmentTypes);

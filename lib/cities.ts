@@ -106,6 +106,7 @@ export const cities: City[] = [
   city("Wilmington", "wilmington", "delaware", 71_000),
   city("Dover", "dover", "delaware", 39_000),
   city("Newark", "newark", "delaware", 30_000),
+  city("Middletown", "middletown", "delaware", 24_000),
 
   // DC
   city("Washington", "washington", "district-of-columbia", 712_000),
@@ -138,6 +139,7 @@ export const cities: City[] = [
   city("Pearl City", "pearl-city", "hawaii", 47_000),
   city("Hilo", "hilo", "hawaii", 45_000),
   city("Kailua", "kailua", "hawaii", 38_000),
+  city("Kaneohe", "kaneohe", "hawaii", 34_000),
 
   // Idaho
   city("Boise", "boise", "idaho", 235_000),
@@ -198,6 +200,7 @@ export const cities: City[] = [
   city("Portland", "portland", "maine", 68_000),
   city("Lewiston", "lewiston", "maine", 36_000),
   city("Bangor", "bangor", "maine", 31_000),
+  city("Augusta", "augusta", "maine", 21_000),
 
   // Maryland
   city("Baltimore", "baltimore", "maryland", 575_000),
@@ -269,6 +272,8 @@ export const cities: City[] = [
   city("Manchester", "manchester", "new-hampshire", 115_000),
   city("Nashua", "nashua", "new-hampshire", 91_000),
   city("Concord", "concord", "new-hampshire", 44_000),
+  city("Derry", "derry", "new-hampshire", 35_000),
+  city("Rochester", "rochester", "new-hampshire", 31_000),
 
   // New Jersey
   city("Newark", "newark", "new-jersey", 305_000),
@@ -389,6 +394,8 @@ export const cities: City[] = [
   city("West Valley City", "west-valley-city", "utah", 140_000),
   city("Provo", "provo", "utah", 116_000),
   city("West Jordan", "west-jordan", "utah", 116_000),
+  city("Sandy", "sandy", "utah", 98_000),
+  city("Ogden", "ogden", "utah", 90_000),
 
   // Vermont
   city("Burlington", "burlington", "vermont", 45_000),
@@ -423,11 +430,14 @@ export const cities: City[] = [
   city("Madison", "madison", "wisconsin", 270_000),
   city("Green Bay", "green-bay", "wisconsin", 107_000),
   city("Kenosha", "kenosha", "wisconsin", 100_000),
+  city("Racine", "racine", "wisconsin", 78_000),
+  city("Appleton", "appleton", "wisconsin", 76_000),
 
   // Wyoming
   city("Cheyenne", "cheyenne", "wyoming", 65_000),
   city("Casper", "casper", "wyoming", 59_000),
   city("Laramie", "laramie", "wyoming", 32_000),
+  city("Gillette", "gillette", "wyoming", 33_000),
 ];
 
 /** Index by state slug → ordered cities in that state. */

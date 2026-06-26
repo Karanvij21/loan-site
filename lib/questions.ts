@@ -4572,6 +4572,160 @@ export const questions: Question[] = [
     relatedSlugs: ["personal-loan-impact-on-401k-contributions", "personal-loan-interest-tax-deductible"],
     toolLinks: [],
   },
+  {
+    slug: "personal-loan-for-weight-loss-surgery",
+    question: "Can I get a personal loan for weight loss surgery like gastric bypass or sleeve gastrectomy?",
+    topic: "Special situations",
+    shortAnswer:
+      "Yes. Bariatric surgery costs $15,000-$25,000 and is often not covered by insurance. A personal loan is one of the most common ways to finance these procedures. Some lenders like LightStream have a specific medical/surgical loan category. CareCredit is also widely accepted at bariatric surgery centers.",
+    context:
+      "Bariatric surgery cost breakdown: Gastric sleeve (sleeve gastrectomy): $15,000-$20,000. Gastric bypass (Roux-en-Y): $20,000-$30,000. Lap-Band adjustable gastric band: $14,000-$18,000. Revision surgery: $20,000-$35,000. These costs include surgeon fees, anesthesia, hospital stay, and required pre-op testing. Post-operative costs (nutrition counseling, follow-up visits, supplements) add $2,000-$5,000/year.\n\nInsurance coverage: Some private insurance plans cover bariatric surgery if the patient meets BMI and comorbidity criteria and completes a required medically supervised weight loss program (typically 3-6 months). Medicare covers bariatric surgery for patients with a BMI of 35+ and at least one obesity-related condition. If insurance covers it, the out-of-pocket after insurance is typically $2,000-$5,000. If not covered, the full cost applies.\n\nFinancing options: Personal loan: $15,000-$25,000 at 8%-20% APR depending on credit. Fixed payments, funded in 1-5 days. CareCredit: accepted at many bariatric surgery centers. If you qualify for and can use the 0% promo period (12-24 months), it beats a personal loan for amounts under $20,000 you can pay off in time. Medical credit cards (Prosper Healthcare Lending, United Medical Credit): specialized medical lenders with terms designed for surgical financing.",
+    relatedSlugs: ["personal-loan-for-dental-implants", "personal-loan-for-medical-bills"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-to-buy-land",
+    question: "Can I use a personal loan to buy land?",
+    topic: "Special situations",
+    shortAnswer:
+      "Yes, but it's rarely the best option. Land loans (specifically designed for raw or improved land) are available from many lenders and offer better rates by using the land as collateral. Personal loans are useful for small land purchases (under $25,000) where land loan minimum amounts are too high, or for raw land that land lenders won't finance.",
+    context:
+      "Land loan vs personal loan: Land loans: secured by the land itself. Available from banks, credit unions, and USDA (for rural land). Rates: 5%-12% APR. Terms: 2-20 years. Require down payments (20%-50% depending on land type). Harder to qualify for raw undeveloped land. Personal loans: unsecured. Rates: 8%-25% APR. Terms: up to 7 years. No collateral required. Maximum amounts typically $50,000-$100,000.\n\nWhen personal loans make sense for land: Amounts under $25,000 where land loan minimums are too high. Raw, undeveloped land that land lenders consider too risky. Faster purchase timeline (personal loan in 1-5 days vs land loan in 2-4 weeks). Land with contamination or title issues a lender might reject for collateral. Auction purchases requiring immediate payment.\n\nUSDA rural land loan programs: The USDA offers farm and rural land loans through the Farm Service Agency for agricultural operations. These have favorable rates for qualifying farmers and rural land buyers but require the land to be used for agricultural purposes.\n\nSeller financing: Many rural land sellers offer owner financing (seller becomes the lender). Rates vary but terms are negotiable. Down payments are typically lower. This can be more accessible than bank loans for unconventional parcels and competes with personal loans as a financing method for private sales.",
+    relatedSlugs: ["personal-loan-for-vacation-home-down-payment", "personal-loan-for-home-improvement"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-for-home-security-system",
+    question: "Can I use a personal loan to install a home security system?",
+    topic: "Special situations",
+    shortAnswer:
+      "Yes, but most home security system installations cost $300-$2,000 - amounts where a personal loan is excessive due to origination fees and interest. Professional systems with full camera networks, smart locks, and monitoring infrastructure can cost $3,000-$10,000, where a personal loan becomes more appropriate.",
+    context:
+      "Home security cost ranges: Basic DIY system (Ring, SimpliSafe): $200-$600 equipment + $10-$20/month monitoring. No financing needed. Professional installed system (ADT, Vivint): $99-$600 equipment + $30-$60/month monitoring. Often subsidized by long monitoring contracts. Comprehensive wired system: $2,000-$5,000 installed. Smart home integration (cameras, locks, video doorbell, motion sensors, professional installation): $3,000-$10,000.\n\nWhen a personal loan makes sense: Custom wired security installation: professional wired systems with multiple cameras, commercial-grade NVR, and smart home integration can cost $5,000-$10,000. A personal loan at 9%-15% APR covers the full project without a monitoring contract.\n\nAlternatives to personal loans for security: Home equity line of credit: for systems over $3,000 if you have equity. Vivint and ADT financing programs: many professional security companies offer their own financing (typically through Synchrony Bank). These may have 0% promotions tied to long monitoring agreements. Check the total contract commitment cost vs personal loan interest before deciding. The monitoring contract (3-5 years at $40-$60/month) can cost $1,440-$3,600 - often comparable to or more than financing a quality system outright without a long-term contract.",
+    relatedSlugs: ["personal-loan-for-fence", "personal-loan-for-home-improvement"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-co-signer-vs-co-borrower",
+    question: "What is the difference between a co-signer and a co-borrower on a personal loan?",
+    topic: "Process & terms",
+    shortAnswer:
+      "A co-signer guarantees the loan but is not a primary borrower - they pay only if you default. A co-borrower is equally responsible and has equal rights to the loan funds. Co-borrowers are typically used for shared expenses; co-signers are typically used to help someone qualify who could not do so alone.",
+    context:
+      "Co-signer details: A co-signer applies alongside the primary borrower and their credit score and income help the primary borrower qualify or get a better rate. However, the co-signer is a guarantor: they only make payments if the primary borrower defaults. In most personal loan structures, the co-signer does not receive the loan proceeds and is not expected to manage the account. The loan appears on the co-signer's credit report. If the primary borrower misses payments, the co-signer's credit is damaged. If the primary defaults entirely, the lender pursues the co-signer for the full remaining balance.\n\nCo-borrower details: A co-borrower (joint applicant) is equally responsible for repayment from day one. Both applicants have equal access to account information and equal legal obligation. The loan appears on both borrowers' credit reports. This structure is used for shared expenses (a couple buying furniture together, siblings splitting a medical bill). Co-borrowers share both the benefit (both credit profiles are strengthened by on-time payments) and the risk (both are pursued in default).\n\nLender offerings: Most major online personal loan lenders offer joint (co-borrower) applications: LendingClub, Upgrade, LightStream, SoFi, Marcus. Co-signer programs (without full co-borrower status) are less common - Upstart and some credit unions offer this structure.\n\nChoosing between the two: If you need help qualifying due to your credit, and the lender of choice offers co-signer (not just co-borrower): a co-signer protects your helper if the lender pursues them for full repayment. If you are splitting an expense with another person who will benefit: a co-borrower arrangement reflects the shared obligation accurately.",
+    relatedSlugs: ["personal-loan-joint-vs-solo", "personal-loan-cosigner-release-request-denied"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-for-gambling-debt",
+    question: "Can I use a personal loan to pay off gambling debt?",
+    topic: "Special situations",
+    shortAnswer:
+      "Technically yes - lenders do not verify how you will use debt consolidation funds. But borrowing to cover gambling losses may worsen your financial situation without addressing the underlying behavior. If problem gambling is involved, resources like the National Problem Gambling Helpline (1-800-522-4700) should be a first step alongside any financial planning.",
+    context:
+      "What lenders see: Personal loan applications typically list debt consolidation or personal/living expenses as the purpose. Lenders do not investigate the source of the debts being consolidated. A personal loan used to consolidate credit card debt from gambling losses is underwritten identically to any other debt consolidation loan.\n\nWhen consolidation can help: Gambling debts spread across multiple credit cards at 24%-30% APR may be consolidated into a single personal loan at 12%-18% APR. This lowers the monthly payment and total interest if no further gambling occurs. The financial math can work. The behavioral condition is the critical variable.\n\nWhen it creates more risk: Taking a personal loan to pay off gambling debts and then continuing to gamble results in: original gambling debts replaced by a personal loan payment, plus new gambling losses accumulated. This escalating debt spiral is dangerous and common. Research on problem gambling shows that access to credit enables continued gambling rather than facilitating recovery.\n\nResources: National Problem Gambling Helpline: 1-800-522-4700 (24/7, free, confidential). Gamblers Anonymous: peer support groups. Financial counseling: NFCC member agencies offer nonprofit credit counseling. If gambling is a factor: consult a gambling counselor or therapist alongside a financial counselor before taking any action - including a personal loan. The two issues need to be addressed together.",
+    relatedSlugs: ["personal-loan-for-medical-bills", "personal-loan-hardship-program"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-credit-utilization-effect",
+    question: "How does a personal loan affect my credit utilization ratio?",
+    topic: "Credit score",
+    shortAnswer:
+      "A personal loan does NOT count toward your credit utilization ratio. Utilization only measures revolving credit (credit cards, HELOCs). Installing a personal loan adds to your total debt but does not increase credit card utilization. If you use a personal loan to pay off credit card balances, your utilization ratio drops, which typically improves your credit score.",
+    context:
+      "Credit utilization defined: Credit utilization = total revolving credit balances / total revolving credit limits. Only revolving credit accounts (credit cards, personal lines of credit, HELOCs) are counted. Installment loans (personal loans, auto loans, mortgages, student loans) are NOT included in the utilization calculation. A $20,000 personal loan balance has zero effect on your credit card utilization ratio.\n\nHow a personal loan can improve utilization: If you use a personal loan to pay off $5,000 in credit card debt: your credit card balances decrease by $5,000. Your utilization ratio falls (same limits, lower balances). Your credit score rises (lower utilization is the second-largest FICO factor at 30% of the score). The personal loan balance replaces the credit card balance but does not appear in the utilization calculation - a net positive for your score.\n\nThe tradeoff: While the personal loan improves utilization, it adds a new installment account (new account reduces average account age slightly) and triggers a hard inquiry at application. Net effect: most borrowers who use a personal loan to consolidate credit card debt see a credit score improvement within 1-3 months, driven by the utilization reduction outweighing the inquiry and new account effects.\n\nWarning: After paying off credit cards with a personal loan, keeping the credit cards open (and not accumulating new balances) maintains the low utilization. If you run the credit cards back up while also carrying the personal loan, your total debt increases and your score will fall.",
+    relatedSlugs: ["personal-loan-debt-to-income-calculation", "personal-loan-what-is-fico-score"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-for-timeshare",
+    question: "Should I use a personal loan to buy or exit a timeshare?",
+    topic: "Special situations",
+    shortAnswer:
+      "Almost never for buying. Timeshares depreciate rapidly and are notoriously difficult to sell. For exiting an unwanted timeshare, exit company fees ($4,000-$12,000) may be the expense driving you to borrow. Before financing any timeshare transaction - purchase or exit - understand the total lifetime cost and the resale market.",
+    context:
+      "Timeshare purchase: Timeshare developers offer in-house financing at 15%-20% APR. A personal loan would be a lower rate alternative for the purchase price ($10,000-$50,000). However, the fundamental problem is not the financing rate: timeshares lose 80%-95% of their value immediately after purchase. They are virtually impossible to resell at the original price (average resale price on the secondary market is $1-$2 for many timeshares). Annual maintenance fees ($800-$1,500+) escalate each year. The total cost of ownership over 10 years often exceeds the original purchase price again. Do not take a personal loan to buy a timeshare.\n\nTimeshare exit: Legitimate timeshare exit companies charge $4,000-$12,000 to negotiate a deed-back or legal exit from the timeshare contract. Some consumers borrow to pay these fees. Significant warning: the timeshare exit industry has numerous scammers. Verify any exit company with the American Resort Development Association (ARDA), BBB, and your state attorney general's office before paying. Some exit companies take large fees upfront and do nothing. Report scams to the FTC.\n\nLower-cost exit alternatives: Deed-back programs: some major timeshare companies (Wyndham, Marriott, Hilton) have in-house exit programs that are free or low-cost for owners current on maintenance fees. Contact the resort directly before hiring an exit company. Rent the timeshare: listing on Redweek or VRBO to offset maintenance fees is not an exit, but reduces the annual carrying cost while you pursue other options.",
+    relatedSlugs: ["personal-loan-for-vacation-home-down-payment", "personal-loan-for-investment"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-repayment-strategies",
+    question: "What are the best strategies for repaying a personal loan?",
+    topic: "Process & terms",
+    shortAnswer:
+      "The best repayment strategy: always pay on time (avoiding late fees and credit damage), set up autopay for the discount (0.25%-0.50% rate reduction at most lenders), and make extra principal payments whenever possible. For most borrowers, autopay plus an extra $50-$100/month reduces total interest by $300-$800 on a typical loan.",
+    context:
+      "Foundation: on-time payments every month. A single 30-day late payment reduces your credit score by 60-110 points and triggers a late fee ($25-$40). No repayment strategy compensates for missed payments. Set up autopay immediately after loan funding - it is almost always free, often earns a rate discount, and eliminates the risk of forgetting.\n\nAutopay discount: Most lenders reduce your interest rate by 0.25%-0.50% for enrolling in autopay (automatic monthly deductions from your checking account). On a $15,000 loan at 12% APR over 48 months, a 0.25% reduction saves approximately $100 in interest over the loan life. Small but free. Always enroll.\n\nExtra payments: Extra payments directed to principal reduce future interest because every dollar of principal paid early removes that dollar from the compounding interest calculation for the remaining months. Keep extra payments manageable: $50-$100/month extra on a 48-month loan reduces total interest by $300-$600 and shortens the term by 2-4 months. Apply windfalls (tax refunds, bonuses) as lump-sum principal payments. Always specify 'apply to principal only' when making extra payments.\n\nBi-weekly payment strategy: Pay half your monthly payment every two weeks instead of once per month. 26 half-payments = 13 full payments vs 12 standard. The extra 13th payment hits principal directly. Reduces total interest by 5%-8% on a typical loan and shortens the term by 2-4 months without requiring large lump sums.\n\nDebt priority: If you have multiple debts, the debt avalanche (paying extra toward the highest-APR debt first) minimizes total interest paid across all debts. Your personal loan's rate relative to other debts determines whether it should be the extra-payment target.",
+    relatedSlugs: ["personal-loan-refinance-to-lower-payment", "personal-loan-autopay-discount"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-for-new-roof",
+    question: "Can I use a personal loan to pay for a roof replacement?",
+    topic: "Special situations",
+    shortAnswer:
+      "Yes. Roof replacement costs $5,000-$20,000 for most residential homes. A personal loan is one of the fastest financing options (funds in 1-5 business days), with no lien on your home. Roofing companies often offer contractor financing (GreenSky, Hearth) that may compete with or beat personal loan rates.",
+    context:
+      "Roof replacement cost ranges: Asphalt shingles (standard): $5,000-$12,000 for a 1,500-2,500 sq ft home. Architectural/dimensional shingles: $8,000-$16,000. Metal roofing: $10,000-$25,000. Tile (clay or concrete): $15,000-$35,000. Flat roof replacement (EPDM, TPO): $4,000-$12,000. These costs include tear-off, materials, installation, and disposal.\n\nPersonal loan advantages for roofing: Fast funding: roof damage can worsen quickly with rain and weather. A personal loan that funds in 3-5 business days allows you to schedule a contractor immediately. No lien: preserves your home equity position for future credit needs. Fixed rate: predictable monthly payments during the repair period.\n\nContractor financing: Roofing contractors frequently partner with Hearth, GreenSky, Renovate America, or Mosaic to offer point-of-sale financing. Rates vary: 0% promo for 12-18 months (with deferred interest), or fixed rates of 7%-19.99% APR over 3-10 years. Compare these rates directly to personal loan APRs. If the contractor's financing carries a dealer fee that increases the effective APR, a personal loan may be cheaper.\n\nInsurance: Many roof replacements are covered partially or fully by homeowners insurance if the damage was caused by a covered peril (hail, wind, storm). Before financing the full replacement: file an insurance claim. Get a public adjuster involved for large claims to maximize the settlement. Use the insurance proceeds to reduce or eliminate the financing need. A $12,000 roof with $8,000 in insurance coverage only requires financing for the $4,000 difference.",
+    relatedSlugs: ["personal-loan-for-home-improvement", "personal-loan-for-basement-waterproofing"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-for-fertility-treatment",
+    question: "Can I get a personal loan for IVF or fertility treatments?",
+    topic: "Special situations",
+    shortAnswer:
+      "Yes. IVF costs $12,000-$25,000 per cycle and is rarely covered by insurance. A personal loan is a common financing path. Specialized fertility financing programs (CapexMD, Future Family, Prosper Healthcare Lending) offer competitive terms specifically for IVF. Compare these to general personal loan rates before committing.",
+    context:
+      "Fertility treatment costs: IVF single cycle: $12,000-$20,000 (plus $3,000-$6,000 medications). Frozen embryo transfer (FET): $3,000-$5,000. Egg freezing: $6,000-$12,000. Donor egg IVF: $20,000-$40,000. Intrauterine insemination (IUI): $500-$2,000. Average number of IVF cycles for success: 2-3. Total expected cost for IVF: $25,000-$60,000+.\n\nSpecialized fertility financing: CapexMD: personal loans specifically for fertility treatment. Rates 6.99%-17.99% APR, terms up to 7 years. Approved at most fertility clinics. Future Family: multi-cycle financing with refund programs tied to treatment success. Prosper Healthcare Lending: healthcare-specific financing accepted at fertility clinics. These programs have competitive rates and understand the multi-cycle nature of fertility treatment.\n\nGeneral personal loan comparison: LightStream (medical category): rates 7.99%-24.99% APR, no origination fee, amounts up to $100,000. If your credit is strong (720+), LightStream may match or beat specialty fertility lenders. Unsecured personal loans from SoFi, Discover, Marcus: similarly competitive for strong credit profiles.\n\nInsurance and employer benefits: Check your health plan: some states (IL, NJ, MA, CT, MD, RI) mandate insurance coverage for fertility treatments. Some employers (large tech companies, Fortune 500) offer fertility benefits of $10,000-$30,000. Exhaust insurance and employer benefits before borrowing.",
+    relatedSlugs: ["personal-loan-for-adoption-expenses", "personal-loan-for-medical-bills"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-what-is-amortization",
+    question: "How does amortization work on a personal loan?",
+    topic: "Process & terms",
+    shortAnswer:
+      "Amortization is the process of paying off a loan through regular payments that include both interest and principal. Each month, the lender calculates interest on the remaining balance, deducts it from your fixed payment, and applies the rest to principal. Early payments are mostly interest; later payments are mostly principal.",
+    context:
+      "How each payment is calculated: Each month, interest is calculated as: remaining balance x (annual rate / 12). Example: $10,000 balance at 12% APR. Month 1 interest: $10,000 x (0.12/12) = $10,000 x 0.01 = $100. If your monthly payment is $332, then: $100 goes to interest, $232 goes to principal. Month 2: new balance = $10,000 - $232 = $9,768. Interest: $9,768 x 0.01 = $97.68. Principal: $332 - $97.68 = $234.32. The principal payment grows each month because the balance (and therefore the interest charge) shrinks.\n\nAmortization schedule example: $10,000 loan at 12% APR over 36 months. Monthly payment: $332.14. Month 1: $100 interest, $232.14 principal, $9,767.86 balance. Month 18: $66.08 interest, $266.06 principal, $6,342.66 balance. Month 36: $3.29 interest, $328.85 principal, $0.00 balance. Notice how interest falls from $100 to $3.29 over the loan life - that is amortization at work.\n\nWhy this matters: In the first 1/3 of the loan term, a large portion of each payment is interest. This means: if you pay off the loan early in the term, you save the most interest. Refinancing early in the term (when the balance is high) saves more than refinancing late. Extra payments in early months have more impact than the same extra payment in month 30 (because more months remain for the interest savings to compound).\n\nGetting your amortization schedule: Your lender provides a Truth in Lending disclosure with a payment schedule. Many lenders also offer an amortization schedule in your online account. Online calculators (Bankrate, NerdWallet) generate full schedules for any loan amount, rate, and term.",
+    relatedSlugs: ["personal-loan-simple-interest-explained", "personal-loan-refinance-to-lower-payment"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-for-energy-efficiency",
+    question: "Can I use a personal loan for energy efficiency upgrades like solar, insulation, or windows?",
+    topic: "Special situations",
+    shortAnswer:
+      "Yes. Energy efficiency improvements - solar panels, insulation, new windows, heat pumps, energy-efficient HVAC - are eligible personal loan uses. Some specialized 'green loan' products (Mosaic, Goodleap, Enerbank/Regions EnergyHome) offer competitive rates. The Inflation Reduction Act's 25C and 25D tax credits reduce your net cost after filing.",
+    context:
+      "Common energy efficiency project costs: Solar panel installation: $15,000-$35,000 (before ITC tax credit). Home insulation upgrade: $3,000-$10,000. Window replacement (energy-efficient): $5,000-$20,000 for whole home. Heat pump water heater: $1,000-$3,000 installed. Heat pump HVAC: $4,500-$12,000 installed. Air sealing and weatherization: $1,500-$5,000.\n\nInflation Reduction Act credits (2026): Energy Efficient Home Improvement Credit (25C): 30% credit on qualifying improvements, max $3,200/year ($1,200 general + $2,000 for heat pumps). Covers windows, doors, insulation, heat pumps. Residential Clean Energy Credit (25D): 30% credit on solar, battery storage, and geothermal systems. No annual cap for solar. These credits reduce your federal tax liability - directly reducing the net cost of the project.\n\nGreen loan programs: Mosaic: solar and home improvement loans, rates 5.99%-24.99% APR, up to 25-year terms. Goodleap: solar and clean energy financing, similar rates and terms. Enerbank (Regions EnergyHome): home improvement and energy efficiency loans through contractors, competitive rates. PACE financing: Property Assessed Clean Energy programs offer low-rate financing repaid through your property tax bill - but these are liens on your property and affect mortgage refinancing; research carefully.\n\nPersonal loan vs green loan: For strong credit (720+), general personal loans from LightStream, SoFi, or Marcus are often competitive with or better than specialized green lenders. Run both comparisons before committing.",
+    relatedSlugs: ["personal-loan-for-home-improvement", "personal-loan-interest-tax-deductible"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-for-medical-bills",
+    question: "Should I use a personal loan to pay off medical bills?",
+    topic: "Special situations",
+    shortAnswer:
+      "Before taking a personal loan for medical bills, always try: hospital financial assistance (charity care), negotiating a direct payment plan with the hospital at 0% interest, and verifying billing accuracy. Medical debt is uniquely negotiable - hospitals often settle for 30%-60% of the bill or offer 0% payment plans. A personal loan makes sense only after exhausting these options.",
+    context:
+      "Why medical debt is different from other debt: Hospitals are required by federal law (IRS Form 990 requirements for nonprofits) to offer financial assistance programs. Most large hospitals have charity care programs for uninsured or underinsured patients. You can apply retroactively even after receiving a bill. Nonprofit hospitals that fail to offer this risk losing their tax-exempt status.\n\nNegotiation: Medical bills are among the most negotiable of all debts. Strategies: (1) Request an itemized bill and dispute errors (billing errors are extremely common). (2) Request a charity care application from the billing department. (3) Ask for the 'self-pay rate' - hospitals often have lower rates for patients paying cash vs insurance negotiated rates. (4) Offer a lump sum settlement at 40%-60% of the bill amount - hospitals often accept this to avoid the cost of pursuing collections. (5) Ask for a 0% interest payment plan. Most hospital systems will set up $50-$200/month payment plans with no interest charge.\n\nCredit reporting changes: As of 2023, medical debt under $500 no longer appears on credit reports. Paid medical collections are removed immediately from credit reports. Medical debt in collections has reduced weight in newer FICO and VantageScore models.\n\nWhen a personal loan makes sense: After exhausting financial assistance and negotiation. The negotiated amount is large ($10,000+) and the hospital's payment plan term is shorter than you can afford. A personal loan at 10%-15% APR is better than accruing late fees or going to collections. The personal loan consolidates multiple hospital bills into one payment.",
+    relatedSlugs: ["personal-loan-for-dental-implants", "personal-loan-for-fertility-treatment"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-for-used-car-private-seller",
+    question: "Can I use a personal loan to buy a used car from a private seller?",
+    topic: "Special situations",
+    shortAnswer:
+      "Yes, and it is one of the best use cases for personal loans. Private party auto sales cannot use dealership financing. If the car is older (10+ years) or high-mileage, auto lenders may decline. A personal loan has no vehicle age or mileage restrictions, making it ideal for older or unusual vehicles in private sales.",
+    context:
+      "Why private party purchases are different: Dealership financing: the dealer arranges financing through partner lenders. The vehicle serves as collateral. Private party sales: no dealer. The buyer must bring their own financing. Auto lenders for private party sales: many banks and credit unions offer private party auto loans, but they require the vehicle to be a certain age (typically under 10 years) and mileage (under 100,000-150,000 miles). Older vehicles with high mileage may not qualify for a private party auto loan.\n\nPersonal loan advantages for private car purchases: No vehicle age or mileage restriction. No vehicle inspection required by the lender. Funded to your bank account (you bring cash to the seller). Faster - no waiting for auto loan approval conditioned on vehicle information. Works for unique vehicles (antiques, rebuilt titles, specialty vehicles) that auto lenders decline.\n\nPersonal loan vs private party auto loan rates: Private party auto loans from credit unions: 6%-12% APR for qualified borrowers. Personal loans: 8%-25% APR. If you qualify for a private party auto loan at your credit union, it is typically cheaper than a personal loan. Personal loans become the better option when the vehicle does not qualify for auto financing, or when the personal loan rate from your lender is competitive.\n\nPractical steps for private seller: Know your total budget before seeing the car. Get pre-approved for a personal loan before making an offer (shows you are a serious buyer). Once agreed on price, apply and fund the loan. Bring a certified check or bank transfer to the sale. Handle title transfer through your state's DMV.",
+    relatedSlugs: ["personal-loan-for-rv", "personal-loan-for-car-repairs"],
+    toolLinks: [],
+  },
 ];
 
 export const questionsBySlug = Object.fromEntries(

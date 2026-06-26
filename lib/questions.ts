@@ -1866,6 +1866,171 @@ export const questions: Question[] = [
     relatedSlugs: ["personal-loan-after-job-loss", "personal-loan-stay-at-home-spouse"],
     toolLinks: [],
   },
+  {
+    slug: "what-is-debt-to-income-ratio",
+    topic: "Approval & amount",
+    question: "What is a debt-to-income ratio and how does it affect loan approval?",
+    shortAnswer:
+      "DTI is your total monthly debt payments divided by gross monthly income. Most personal-loan lenders want DTI below 40%; below 36% unlocks better rates. A $500 car payment plus a $200 minimum credit-card payment on $3,000 monthly income gives you a 23% DTI.",
+    context:
+      "Debt-to-income ratio (DTI) is one of the two main underwriting levers alongside credit score. Lenders calculate it by summing all recurring monthly debt obligations (minimum credit-card payments, auto loans, student-loan payments, existing personal loans, mortgage or rent if the lender includes it) and dividing by gross monthly income before taxes.\n\nThe resulting percentage tells the lender how much of each dollar you earn is already spoken for. A DTI of 35% means 35 cents of every gross dollar goes to existing debt, leaving 65 cents for the new payment plus living expenses.\n\nMost personal-loan lenders set a hard cap at 40-45% DTI (including the proposed new payment). Prime lenders compete most aggressively for borrowers under 30%. High income can offset a higher DTI: a borrower with $200k income and 42% DTI may qualify where a borrower with $50k income and 42% DTI is declined.\n\nTo lower DTI before applying, pay down or close revolving accounts (this also raises your credit score) or pay off smaller installment balances. Increasing income is faster if you can document it with a recent pay raise or a new job offer letter.",
+    relatedSlugs: ["personal-loan-approval-odds", "how-much-can-i-borrow-personal-loan"],
+    toolLinks: [],
+  },
+  {
+    slug: "consolidate-student-loans-personal-loan",
+    topic: "Special situations",
+    question: "Can I use a personal loan to consolidate student loans?",
+    shortAnswer:
+      "Technically yes, but it almost never makes sense. Federal student loans carry 5-8% fixed rates plus income-driven repayment, deferment, and forgiveness options. A personal loan at 10-36% APR strips all those protections away permanently. Only consider it for small private student-loan balances where the rate math clearly wins.",
+    context:
+      "Personal loans can legally be used to pay off student-loan balances, but federal student-loan borrowers almost always lose more than they gain. Federal Direct Loans include income-driven repayment plans (PAYE, SAVE, IBR), Public Service Loan Forgiveness eligibility, deferment and forbearance during hardship, and fixed rates set by Congress (currently 5.5-8.05% depending on loan type and year). Refinancing into a personal loan permanently forfeits all of those protections.\n\nThe math can favor a personal loan only for private student loans with very high fixed rates (15%+), if you have excellent credit and can qualify for a personal loan at a materially lower APR, and if you do not expect to need income-driven repayment or forgiveness. Even then, dedicated student-loan refinancing lenders (SoFi, Earnest, Laurel Road, ELFI) offer lower rates than the personal-loan market for student-debt refinancing and are purpose-built for this use case.\n\nBorrowers who use a personal loan to pay federal student debt should be aware they can never un-do the move: once federal loans are paid off, the federal benefits and forgiveness programs disappear permanently.",
+    relatedSlugs: ["debt-consolidation-loan", "personal-loan-pay-off-debt"],
+    toolLinks: [],
+  },
+  {
+    slug: "paying-off-personal-loan-early-credit",
+    topic: "Credit score",
+    question: "Does paying off a personal loan early hurt my credit score?",
+    shortAnswer:
+      "Usually a small, temporary dip - not damage. Closing the account removes it from your 'active accounts' mix and can slightly shorten average account age. For most borrowers this is a few points and recovers quickly. The interest savings almost always outweigh the score cost.",
+    context:
+      "Paying off a personal loan early eliminates the account from your open-account mix. Two credit-score factors are briefly affected: account mix (personal loans are installment credit, which adds variety to a file dominated by revolving accounts) and average age of accounts (if the loan was your oldest or one of your older accounts, closing it can shorten the average).\n\nIn practice, the score impact is typically 5-15 points and temporary. FICO scoring models keep closed accounts on your credit history for up to 10 years, so the account age benefit does not vanish immediately. The reduction in total debt load (a positive signal) often partially offsets the closure effect.\n\nBefore paying off early, confirm whether your lender charges a prepayment penalty. Most online personal-loan lenders do not, but some older bank and credit-union loan agreements still include one. The fee is usually 1-2% of the remaining balance and only makes sense to pay if the remaining interest over the life of the loan exceeds it.\n\nFor borrowers with thin credit files (fewer than 5 open accounts), the impact of closing the loan can be larger. In those cases, opening a credit-builder card before payoff can cushion the account-mix effect.",
+    relatedSlugs: ["personal-loan-prepayment-penalty", "personal-loan-pay-off-debt"],
+    toolLinks: [],
+  },
+  {
+    slug: "collection-account-loan-approval",
+    topic: "Approval & amount",
+    question: "How does a collection account affect personal loan approval?",
+    shortAnswer:
+      "A collection account hurts approval odds but does not automatically disqualify you. Age and balance matter most: a paid collection from 4 years ago has far less impact than an active $3,000 collection. Some online lenders explicitly work with borrowers who have collections; banks and credit unions rarely do.",
+    context:
+      "When a debt goes to collections it typically results in a 100+ point credit score drop and leaves a negative tradeline on your report for 7 years from the original delinquency date. The impact fades over time: a collection that is 4+ years old and paid has much less underwriting weight than a recent or unpaid collection.\n\nLenders treating collections differently by type and amount: many online lenders will approve loans when collections are small (under $1,000), old (3+ years), or paid. Medical collections receive special treatment since the major bureaus began a phased removal of paid medical debts and smaller unpaid medical debts in 2023-2024. A medical collection under $500 should no longer appear on the major FICO-relevant bureau files.\n\nFor active large unpaid collections, the lender may require you to pay or settle the collection before funding a loan. Some lenders require a clear-to-close from all three bureaus meaning no outstanding collections above a threshold.\n\nIf you plan to apply with collections on your file, pull your free credit report at AnnualCreditReport.com first. Verify the collection is reporting accurately (amount, date, status). Inaccurate collection entries can be disputed under the FCRA. Settling a collection before applying improves both your score and your negotiating position with lenders.",
+    relatedSlugs: ["personal-loan-bad-credit", "credit-report-error-dispute"],
+    toolLinks: [],
+  },
+  {
+    slug: "refinance-personal-loan-lower-rate",
+    topic: "Process & terms",
+    question: "Can I refinance a personal loan to get a lower interest rate?",
+    shortAnswer:
+      "Yes. Refinancing means taking out a new personal loan to pay off the old one, ideally at a lower APR or better terms. It makes sense when your credit score has improved significantly since the original loan, rates have dropped, or you want to change the term length.",
+    context:
+      "Refinancing a personal loan is mechanically simple: you apply for a new personal loan, use the proceeds to pay off the old loan in full, and then repay the new loan. The economic case requires the new loan's total cost (APR multiplied over the remaining term, plus any origination fee) to be lower than continuing the old loan.\n\nThe best candidates for refinancing are borrowers whose credit score has improved 40+ points since the original loan (common after 12-18 months of on-time payments), or who took a high-rate loan in a past emergency and now qualify for prime pricing.\n\nBefore applying, run the math: (old remaining balance) x (old APR - new APR) / 12 x remaining months = approximate monthly saving. Subtract any origination fee on the new loan (typically 1-8% of principal). If the net saving over the remaining term exceeds the fee, refinancing pays.\n\nWatch for prepayment penalties on the old loan. Most modern personal-loan agreements do not include them, but confirm in your original loan agreement before proceeding.\n\nThe application process is identical to a new loan: soft-pull pre-qualification first, then a hard inquiry if you accept an offer. Your credit score will absorb the hard inquiry (a few points) and recover within a few months of on-time payments.",
+    relatedSlugs: ["personal-loan-prepayment-penalty", "what-apr-will-i-get"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-default-credit-report-duration",
+    topic: "Credit score",
+    question: "How long does a personal loan default stay on my credit report?",
+    shortAnswer:
+      "Seven years from the date of first delinquency on the original account. That clock starts when you first missed the payment that led to default, not when the lender declared default or sold the debt to collections.",
+    context:
+      "Under the Fair Credit Reporting Act (FCRA), most negative information, including loan defaults, charge-offs, and resulting collection accounts, can remain on your credit report for 7 years. The 7-year clock begins from the date of first delinquency: the date of the first missed payment that was never cured and eventually led to the default.\n\nThis matters because debt collectors sometimes try to re-age a debt by reporting the collection account as if it started when they received the debt rather than when the original delinquency occurred. This practice is illegal under the FCRA. If a collection account appears with a date of first delinquency that seems too recent, you can dispute it directly with the bureau or file a complaint with the CFPB.\n\nSome variations: Chapter 7 bankruptcy (which may discharge the defaulted loan) stays on your report for 10 years from the filing date. Tax liens and unpaid child support judgments have different rules.\n\nThe 7-year negative item and the statute of limitations for debt collection are separate legal concepts. In many states, the statute of limitations for suing to collect a debt is 3-6 years, meaning a collector may no longer be able to sue you long before the credit reporting period expires. Making any payment on an old debt can reset the statute of limitations in some states, so verify your state law before paying an old defaulted loan.",
+    relatedSlugs: ["credit-report-error-dispute", "personal-loan-bad-credit"],
+    toolLinks: [],
+  },
+  {
+    slug: "multiple-personal-loans-same-time",
+    topic: "Approval & amount",
+    question: "Can I have multiple personal loans at the same time?",
+    shortAnswer:
+      "Yes, there is no federal law limiting the number of personal loans you can hold. Whether a specific lender will approve a second or third loan depends on your debt-to-income ratio, credit score, and the lender's internal policy. Existing loan payments count against your DTI for any new application.",
+    context:
+      "Nothing in federal law prevents a borrower from holding multiple personal loans simultaneously. Lenders evaluate each application on its own merits, but they do see your existing personal-loan obligations on your credit report and will count those payments in your debt-to-income ratio calculation.\n\nPractical limits emerge through the DTI ceiling. If your existing personal loan consumes most of your available DTI headroom, a second lender will see that and may decline or limit the new loan amount accordingly. The combined monthly payments plus the new proposed payment must fit within the lender's DTI cap (usually 40-45%).\n\nSome lenders have explicit internal policies, such as 'no more than two personal loans with us simultaneously' or 'maximum total personal-loan exposure of $X across all lenders.' These are lender-level policies, not regulatory requirements.\n\nCredit-score effects: each application results in a hard inquiry and the new account ages your average account age. If you open multiple personal loans in a short window, FICO treats inquiries of the same type within a 45-day rate-shopping window as a single inquiry. But the new accounts themselves (not the inquiries) lower average account age and increase total debt.\n\nBest practice: max out a single loan to the amount you need rather than taking multiple smaller loans. Multiple personal loans signal financial stress to future lenders and can trigger manual underwriting reviews.",
+    relatedSlugs: ["how-much-can-i-borrow-personal-loan", "what-is-debt-to-income-ratio"],
+    toolLinks: [],
+  },
+  {
+    slug: "hard-inquiry-credit-score-impact",
+    topic: "Credit score",
+    question: "How much does a hard inquiry lower my credit score?",
+    shortAnswer:
+      "Typically 5 points or fewer for a single inquiry, and it recovers within 12 months of on-time payments. Multiple inquiries of the same loan type within 45 days count as one under FICO 8 and FICO 9, so rate-shopping during a short window costs you at most one inquiry's worth of points.",
+    context:
+      "A hard inquiry is placed on your credit report when a lender pulls your full credit file to evaluate a loan application. FICO's research shows the average impact is less than 5 points, and many borrowers see no measurable change because the inquiry carries little weight against a thick, positive history.\n\nBorrowers most affected are those with thin credit files (fewer than 5-6 accounts) or short histories (under 2 years). In those cases a single hard inquiry can temporarily cost 10-15 points because the inquiry is a larger proportion of the available credit history signal.\n\nFICO's rate-shopping window: FICO 8 (the most widely used score) groups all mortgage, auto, and student-loan inquiries within a 45-day window as a single inquiry. Personal loans are NOT explicitly included in this window in all scoring models. FICO 9 and VantageScore 3.0/4.0 are more generous and typically include personal-loan inquiries in the shopping window. To be safe with personal loans, try to complete all pre-approvals and final applications within a 2-3 week period.\n\nAlso note: soft inquiries (pre-qualification checks, employer background checks, account reviews by existing creditors) do not appear to other lenders and do not affect your FICO score. Only hard inquiries triggered by a new-credit application appear to future lenders and carry scoring impact.",
+    relatedSlugs: ["personal-loan-soft-credit-check", "credit-score-personal-loan"],
+    toolLinks: [],
+  },
+  {
+    slug: "maximum-unsecured-personal-loan-amount",
+    topic: "Approval & amount",
+    question: "What is the maximum amount I can borrow with an unsecured personal loan?",
+    shortAnswer:
+      "Most online lenders cap unsecured personal loans at $50,000. A few lenders (SoFi, LightStream) go to $100,000 for excellent-credit borrowers with high incomes. Your personal maximum depends on your credit score, income, and existing debt obligations, not just the lender's ceiling.",
+    context:
+      "The unsecured personal loan market is broadly segmented by credit tier. For prime borrowers (740+ FICO, strong income, low DTI), the practical ceiling from most online marketplace lenders is $50,000. Select lenders extend to $100,000 for borrowers who can document income well above the resulting payment.\n\nBelow the prime tier, loan maximums drop. Fair-credit lenders (580-669 FICO) typically cap at $15,000-$25,000. Bad-credit lenders may cap at $5,000-$10,000. The ceiling is set by the lender's loss rate at each credit tier, not by regulation.\n\nYour personal borrowing maximum is set by income and DTI rather than credit score alone. A borrower with a 760 FICO and $30,000 annual income may be capped at $20,000 because the monthly payment on a $40,000 loan would push DTI past the lender's threshold. The same FICO at $120,000 income could be approved for the full $50,000.\n\nFor amounts above $50,000, borrowers typically shift to secured options: HELOC, home equity loan, or cash-out refinance. These products require collateral but offer much lower APRs and higher limits. Unsecured business loans also occupy this space for business-purpose borrowing.\n\nMarketplace pre-qualification tools show your actual approved amount before you trigger a hard inquiry, making them the most efficient way to discover your true borrowing ceiling.",
+    relatedSlugs: ["how-much-can-i-borrow-personal-loan", "what-is-debt-to-income-ratio"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-debt-management-plan",
+    topic: "Special situations",
+    question: "Can I get a personal loan while enrolled in a debt management plan?",
+    shortAnswer:
+      "Rarely, and your DMP counseling agency may require you to close the plan first. Most DMP agreements restrict you from opening new credit. If you need additional funds while on a DMP, talk to your credit counseling agency first - they may be able to renegotiate existing terms instead.",
+    context:
+      "A debt management plan (DMP) is an informal repayment arrangement administered by a nonprofit credit counseling agency. The agency negotiates reduced interest rates with your creditors in exchange for your agreement to make fixed monthly payments and, critically, to not open any new credit during the plan period (typically 3-5 years).\n\nLenders can see a DMP on your credit report (it may appear as a notation on the enrolled accounts or show in your payment history). Combined with the lower credit scores typical of DMP enrollees and the existing debt load, most prime personal-loan lenders will decline applications from current DMP participants. The few lenders that might approve are higher-rate, and taking a new high-rate loan while trying to pay off existing debt undercuts the plan's purpose.\n\nIf you need additional funds while enrolled in a DMP, the right first call is your credit counseling agency. They may be able to request a temporary forbearance from enrolled creditors, renegotiate the plan payment amount, or help you identify other options. Exiting a DMP early by taking a new personal loan typically results in the creditors reinstating their original interest rates and terms, eliminating the DMP's interest savings.\n\nOnce you complete the DMP, your credit score typically has improved enough to qualify for mainstream personal-loan products, and the completion is noted positively by creditors.",
+    relatedSlugs: ["debt-consolidation-loan", "personal-loan-bad-credit"],
+    toolLinks: [],
+  },
+  {
+    slug: "how-lenders-verify-income",
+    topic: "Process & terms",
+    question: "How do lenders verify income for a personal loan application?",
+    shortAnswer:
+      "Most lenders use a combination of self-reported income on the application, pay stubs or tax returns, and instant bank-data verification via Plaid or Finicity. The verification level scales with loan size: a $2,000 loan may need only a pay stub, while a $40,000 loan typically requires full document review.",
+    context:
+      "Income verification in personal lending has evolved substantially with open-banking APIs. Three main methods are used, often in combination:\n\n1. Document upload: You upload recent pay stubs (typically 2-3 most recent), the last 1-2 years' W-2s, or tax returns (for self-employed borrowers, Schedule C or K-1). The lender's underwriting system or a human reviewer validates the document against the income you stated on the application.\n\n2. Bank data aggregation: Services like Plaid, Finicity (Mastercard Open Banking), or Argyle connect to your bank account with your permission and pull 3-6 months of transaction history. The lender's system identifies recurring payroll deposits, calculates average monthly income, and verifies it matches the stated figure. This is the most common method for online lenders and can produce a decision in minutes.\n\n3. Manual employment verification: The lender calls or sends an electronic inquiry to your employer's HR system to confirm employment status, start date, and salary. This is standard for larger loans and traditional bank lenders.\n\nFor self-employed, 1099, or gig-economy borrowers, the verification is more intensive: typically 2 years of personal tax returns plus bank statements. Some lenders also accept a year-to-date P&L statement for newer businesses.\n\nIf you provide inaccurate income information on a loan application, it is considered bank fraud, a federal crime. Lenders cross-check stated income against verified sources, and large discrepancies trigger manual review and likely denial.",
+    relatedSlugs: ["personal-loan-self-employed", "personal-loan-gig-workers"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-social-security-disability",
+    topic: "Special situations",
+    question: "Can I get a personal loan on Social Security disability income?",
+    shortAnswer:
+      "Yes. SSDI and SSI payments count as qualifying income under Equal Credit Opportunity Act regulations; lenders cannot discount disability income solely because of its source. Your approval odds depend on the same factors as any applicant: credit score, monthly income, and debt-to-income ratio.",
+    context:
+      "The Equal Credit Opportunity Act (ECOA) and Regulation B prohibit lenders from discriminating against applicants based on the fact that their income comes from public assistance, disability benefits, or other protected sources. SSDI (Social Security Disability Insurance) and SSI (Supplemental Security Income) both qualify as documented, verifiable income for loan underwriting.\n\nIn practice, the underwriting math is the same: your monthly SSDI or SSI benefit amount is treated as gross monthly income, and the lender calculates your debt-to-income ratio against it. If the DTI falls within the lender's acceptable range and your credit score meets their threshold, you qualify.\n\nDocumentation typically required: an award letter from the Social Security Administration confirming the monthly benefit amount and the fact that it is permanent (or the review date if it is a temporary award). Some lenders also accept recent bank statements showing the recurring SSA deposits.\n\nChallenges: SSI has an income cap (as of 2025, the federal benefit rate is about $943/month for an individual) that can make qualifying for larger loan amounts difficult due to DTI constraints. SSDI amounts vary based on work history and can be higher. Borrowers on SSDI should also verify whether a personal loan would affect any income-based asset limits for their specific benefit, though most disability programs distinguish between loans (not income) and income.\n\nAvoid predatory lenders who specifically market to disability recipients at very high APRs. A marketplace pre-qualification lets you compare mainstream lender offers without affecting your credit.",
+    relatedSlugs: ["personal-loan-bad-credit", "personal-loan-approval-odds"],
+    toolLinks: [],
+  },
+  {
+    slug: "medical-debt-collections-loan-approval",
+    topic: "Special situations",
+    question: "Does medical debt in collections disqualify me for a personal loan?",
+    shortAnswer:
+      "Less so than it used to. Since 2023-2024, paid medical collections and medical collections under $500 have been removed from major credit bureau files, and the three main bureaus committed to removing all medical collections over time. Unpaid medical collections above $500 still appear and still affect scores, but lenders treat medical collections more leniently than consumer-debt collections.",
+    context:
+      "Medical collections have historically been treated the same as other negative credit items, but that changed significantly in 2022-2024. The three major credit bureaus (Equifax, Experian, TransUnion) implemented several changes:\n\n- July 2022: Paid medical collections removed from credit reports.\n- April 2023: Medical collections under $500 removed regardless of paid/unpaid status.\n- January 2025 (CFPB rulemaking proposal, status may vary): The CFPB proposed a rule to remove all medical debt from credit reports entirely; enforcement status as of mid-2026 varies.\n\nFor personal-loan underwriting specifically, lenders have always weighted medical collections differently from consumer debt collections because medical debt is often incurred involuntarily and in emergencies. Many lenders explicitly exclude medical collections from their adverse-action criteria or apply lower thresholds.\n\nFICO 9 and VantageScore 4.0 also reduced the scoring weight of medical collections compared to older models. However, most lenders still use FICO 8, which does not distinguish medical from non-medical collections.\n\nIf you have medical debt in collections and are planning to apply for a personal loan: check whether those specific accounts still appear on your bureau files (many have been removed already), confirm whether they are paid or unpaid, and use soft-pull pre-qualification to see which lenders' systems approve you before triggering a hard inquiry.",
+    relatedSlugs: ["collection-account-loan-approval", "credit-report-error-dispute"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-two-years-after-bankruptcy",
+    topic: "Special situations",
+    question: "Can I get a personal loan 2 years after bankruptcy?",
+    shortAnswer:
+      "Yes, though not from every lender. At the 2-year mark after Chapter 7 discharge, a growing number of online lenders will consider you if you have rebuilt your credit to at least 580-620 and can show stable income. Expect APRs in the 20-35% range and loan amounts under $10,000 initially.",
+    context:
+      "Bankruptcy recovery follows a predictable timeline in personal lending. Chapter 7 remains on your credit report for 10 years from the filing date, but its underwriting weight fades with time and positive rebuilding steps.\n\nAt 0-12 months post-discharge: Very limited options. Secured credit cards and credit-builder loans are the primary tools for rebuilding. Most personal-loan lenders decline.\n\nAt 12-24 months: Some online installment lenders specifically designed for credit rebuilding will consider applications, typically at high APRs ($1,000-$3,000 amounts). Your score may still be 500-580 if rebuilding has been passive.\n\nAt 24 months (your question): If you have actively rebuilt (on-time secured card payments, kept utilization low, no new delinquencies), your score may have risen to 580-650. At this level, a meaningful subset of online marketplace lenders will consider you. Expect strict DTI requirements and smaller loan amounts ($1,000-$7,500) at rates of 20-35% APR.\n\nAt 3-5 years: Approval options expand significantly. Many mainstream lenders treat a discharged bankruptcy that is 3+ years old with no subsequent delinquencies as a 'prior period' event and underwrite primarily on current credit profile.\n\nKey rebuilding signals lenders want to see at 2 years: 24 consecutive on-time payments (zero late payments post-discharge), at least one positive revolving tradeline open for 12+ months, current employment documentation, and stable housing.",
+    relatedSlugs: ["personal-loan-bad-credit", "personal-loan-after-job-loss"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-without-social-security-number",
+    topic: "Special situations",
+    question: "Can I get a personal loan without a Social Security number?",
+    shortAnswer:
+      "Yes, if you have an Individual Taxpayer Identification Number (ITIN). A small but growing number of lenders accept ITIN in place of an SSN for personal-loan applications. ITIN borrowers typically need stronger income documentation and may face slightly higher APRs, but the same federal consumer-protection laws apply.",
+    context:
+      "The Social Security number is used by lenders primarily to pull credit reports and verify identity. For people who do not have an SSN (non-citizens without work authorization, certain visa holders), the IRS-issued Individual Taxpayer Identification Number (ITIN) serves as an alternative identifier.\n\nITIN credit reporting: Experian, Equifax, and TransUnion all accept ITIN as a credit-file identifier. Borrowers who have been in the U.S. and making on-time payments on installment accounts (auto loans, credit-union accounts) using their ITIN can have a full credit history. A lender that accepts ITIN applications can pull this file exactly as they would an SSN-based file.\n\nLenders that explicitly accept ITIN: A limited number of community development financial institutions (CDFIs), credit unions (particularly those serving immigrant communities), and fintech lenders have built ITIN workflows. The set of mainstream marketplace lenders accepting ITIN has grown but remains smaller than SSN-only lenders.\n\nDocumentation requirements are typically heavier: ITIN card or IRS letter, government-issued photo ID (passport, consular ID), 2+ years of tax returns filed with the ITIN, and 3-6 months of bank statements showing income deposits. Some lenders also require a co-applicant with SSN.\n\nConsumer protections: ECOA, FCRA, and TILA apply equally to ITIN borrowers. Lenders may not discriminate based on national origin. If you receive an adverse-action notice, you have the same right to know the reason and to dispute it.",
+    relatedSlugs: ["personal-loan-approval-odds", "how-lenders-verify-income"],
+    toolLinks: [],
+  },
 ];
 
 export const questionsBySlug = Object.fromEntries(

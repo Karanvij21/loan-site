@@ -115,6 +115,9 @@ export const cities: City[] = [
   city("Columbus", "columbus", "georgia", 197_000),
   city("Savannah", "savannah", "georgia", 145_000),
   city("Athens", "athens", "georgia", 128_000),
+  city("Macon", "macon", "georgia", 160_000),
+  city("Sandy Springs", "sandy-springs", "georgia", 115_000),
+  city("Roswell", "roswell", "georgia", 98_000),
 
   // Hawaii
   city("Honolulu", "honolulu", "hawaii", 345_000),
@@ -256,6 +259,8 @@ export const cities: City[] = [
   city("Greensboro", "greensboro", "north-carolina", 300_000),
   city("Durham", "durham", "north-carolina", 285_000),
   city("Winston-Salem", "winston-salem", "north-carolina", 252_000),
+  city("Fayetteville", "fayetteville", "north-carolina", 210_000),
+  city("Cary", "cary", "north-carolina", 175_000),
 
   // North Dakota
   city("Fargo", "fargo", "north-dakota", 125_000),
@@ -322,6 +327,13 @@ export const cities: City[] = [
   city("Arlington", "arlington", "texas", 395_000),
   city("Corpus Christi", "corpus-christi", "texas", 317_000),
   city("Plano", "plano", "texas", 288_000),
+  city("Laredo", "laredo", "texas", 260_000),
+  city("Lubbock", "lubbock", "texas", 263_000),
+  city("Garland", "garland", "texas", 240_000),
+  city("Irving", "irving", "texas", 243_000),
+  city("Amarillo", "amarillo", "texas", 200_000),
+  city("McKinney", "mckinney", "texas", 200_000),
+  city("Grand Prairie", "grand-prairie", "texas", 195_000),
 
   // Utah
   city("Salt Lake City", "salt-lake-city", "utah", 200_000),

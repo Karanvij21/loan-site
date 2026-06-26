@@ -67,6 +67,8 @@ export const cities: City[] = [
   city("Fort Smith", "fort-smith", "arkansas", 88_000),
   city("Fayetteville", "fayetteville", "arkansas", 95_000),
   city("Springdale", "springdale", "arkansas", 90_000),
+  city("Jonesboro", "jonesboro", "arkansas", 80_000),
+  city("Conway", "conway", "arkansas", 67_000),
 
   // California
   city("Los Angeles", "los-angeles", "california", 3_900_000),
@@ -142,6 +144,8 @@ export const cities: City[] = [
   city("Meridian", "meridian", "idaho", 130_000),
   city("Nampa", "nampa", "idaho", 110_000),
   city("Idaho Falls", "idaho-falls", "idaho", 67_000),
+  city("Pocatello", "pocatello", "idaho", 57_000),
+  city("Coeur d'Alene", "coeur-dalene", "idaho", 51_000),
 
   // Illinois
   city("Chicago", "chicago", "illinois", 2_700_000),
@@ -200,6 +204,8 @@ export const cities: City[] = [
   city("Frederick", "frederick", "maryland", 80_000),
   city("Rockville", "rockville", "maryland", 67_000),
   city("Annapolis", "annapolis", "maryland", 40_000),
+  city("Columbia", "columbia", "maryland", 104_000),
+  city("Gaithersburg", "gaithersburg", "maryland", 70_000),
 
   // Massachusetts
   city("Boston", "boston", "massachusetts", 650_000),
@@ -243,6 +249,7 @@ export const cities: City[] = [
   city("Billings", "billings", "montana", 117_000),
   city("Missoula", "missoula", "montana", 75_000),
   city("Great Falls", "great-falls", "montana", 60_000),
+  city("Bozeman", "bozeman", "montana", 55_000),
 
   // Nebraska
   city("Omaha", "omaha", "nebraska", 487_000),
@@ -275,6 +282,8 @@ export const cities: City[] = [
   city("Las Cruces", "las-cruces", "new-mexico", 113_000),
   city("Rio Rancho", "rio-rancho", "new-mexico", 110_000),
   city("Santa Fe", "santa-fe", "new-mexico", 88_000),
+  city("Roswell", "roswell", "new-mexico", 48_000),
+  city("Farmington", "farmington", "new-mexico", 44_000),
 
   // New York
   city("New York City", "new-york-city", "new-york", 8_300_000),
@@ -297,6 +306,7 @@ export const cities: City[] = [
   city("Fargo", "fargo", "north-dakota", 125_000),
   city("Bismarck", "bismarck", "north-dakota", 75_000),
   city("Grand Forks", "grand-forks", "north-dakota", 59_000),
+  city("Minot", "minot", "north-dakota", 47_000),
 
   // Ohio
   city("Columbus", "columbus", "ohio", 910_000),
@@ -319,6 +329,8 @@ export const cities: City[] = [
   city("Eugene", "eugene", "oregon", 175_000),
   city("Salem", "salem", "oregon", 175_000),
   city("Gresham", "gresham", "oregon", 110_000),
+  city("Hillsboro", "hillsboro", "oregon", 107_000),
+  city("Bend", "bend", "oregon", 100_000),
 
   // Pennsylvania
   city("Philadelphia", "philadelphia", "pennsylvania", 1_580_000),
@@ -332,12 +344,15 @@ export const cities: City[] = [
   city("Warwick", "warwick", "rhode-island", 82_000),
   city("Cranston", "cranston", "rhode-island", 82_000),
   city("Pawtucket", "pawtucket", "rhode-island", 75_000),
+  city("Woonsocket", "woonsocket", "rhode-island", 43_000),
 
   // South Carolina
   city("Charleston", "charleston", "south-carolina", 155_000),
   city("Columbia", "columbia", "south-carolina", 138_000),
   city("North Charleston", "north-charleston", "south-carolina", 115_000),
   city("Mount Pleasant", "mount-pleasant", "south-carolina", 95_000),
+  city("Greenville", "greenville", "south-carolina", 75_000),
+  city("Rock Hill", "rock-hill", "south-carolina", 75_000),
 
   // South Dakota
   city("Sioux Falls", "sioux-falls", "south-dakota", 200_000),
@@ -401,6 +416,7 @@ export const cities: City[] = [
   city("Charleston", "charleston", "west-virginia", 47_000),
   city("Huntington", "huntington", "west-virginia", 45_000),
   city("Morgantown", "morgantown", "west-virginia", 30_000),
+  city("Parkersburg", "parkersburg", "west-virginia", 29_000),
 
   // Wisconsin
   city("Milwaukee", "milwaukee", "wisconsin", 575_000),

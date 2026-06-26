@@ -2403,6 +2403,185 @@ export const questions: Question[] = [
       { label: "Learn: Loan application denied", href: "/learn/loan-application-denied-what-to-do" },
     ],
   },
+  {
+    slug: "what-is-good-interest-rate-personal-loan",
+    question: "What is a good interest rate for a personal loan in 2026?",
+    topic: "Process & terms",
+    shortAnswer:
+      "Anything below 12% APR is excellent in 2026. Borrowers with scores above 750 can often qualify for 7%-10%. Above 20% starts to look expensive; above 30% you are in high-cost territory.",
+    context:
+      "APR benchmarks by credit tier in 2026:\n\nExcellent (750+): 6%-12%. Top online lenders (LightStream, SoFi) regularly offer rates in this band for well-qualified borrowers.\n\nGood (700-749): 10%-18%. You will qualify at mainstream lenders but won't get the lowest advertised rate.\n\nFair (650-699): 16%-24%. Still worth shopping; rates vary widely by lender.\n\nPoor (580-649): 22%-32%. Some lenders serve this tier but the loan cost is high. Consider whether the loan need is urgent or can wait until your credit improves.\n\nBad (below 580): 30%-36%. Rates approach the 36% consumer-friendly cap. At this level a secured loan or credit-union relationship may be more cost-effective.\n\nHow to get the best rate: (1) Pull your free credit reports from AnnualCreditReport.com and dispute errors. (2) Pay down revolving balances to get utilization below 30%. (3) Pre-qualify at 3-5 lenders using soft pulls before choosing. (4) Consider a shorter term - 24 vs 48 months - lenders often price shorter terms lower. (5) Ask about autopay discounts (typically 0.25%-0.50% off).\n\nComparison warning: APR includes the origination fee; an interest rate alone does not. Always compare APRs, not stated interest rates.",
+    relatedSlugs: ["what-is-apr-on-personal-loan", "personal-loan-approval-odds"],
+    toolLinks: [
+      { label: "Calculator: Monthly payment", href: "/calculators/monthly-payment" },
+    ],
+  },
+  {
+    slug: "personal-loan-for-vacation",
+    question: "Can I use a personal loan for a vacation?",
+    topic: "Special situations",
+    shortAnswer:
+      "Yes. Lenders do not restrict how you spend unsecured personal loan funds, including travel. The question is whether it makes financial sense to borrow for a discretionary expense.",
+    context:
+      "Is it legal? Yes. There is no lender rule against using personal loan proceeds for travel or vacation. The loan application may ask the purpose, but 'vacation' or 'personal' is a valid answer.\n\nDoes it make financial sense? That depends on the alternative. If the choice is between a personal loan at 12% APR and putting the trip on a credit card at 24% APR, the personal loan is cheaper. If you would otherwise save up and pay cash in 6 months, borrowing costs you real money for a depreciating experience.\n\nBetter-than-nothing uses: Travel medical emergency, destination wedding you are in, family reunion you cannot defer.\n\nCaution flags: A 3-year loan for a 10-day trip means you are still paying for it two years after you have forgotten what you ate. If the total interest cost of the loan equals more than 15%-20% of the trip cost, saving up is almost always better.\n\nAlternatives: 0% intro APR travel credit cards (15-21 month windows), travel rewards cards for flights and hotels, high-yield savings account goals (earn 4%+ while saving rather than pay 12%+ while borrowing).\n\nIf you proceed: Borrow only the minimum needed, choose the shortest term you can afford, and set up autopay for the discount.",
+    relatedSlugs: ["personal-loan-approval-odds", "what-is-good-interest-rate-personal-loan"],
+    toolLinks: [
+      { label: "Calculator: Monthly payment", href: "/calculators/monthly-payment" },
+    ],
+  },
+  {
+    slug: "personal-loan-home-improvement-no-equity",
+    question: "Can I get a home improvement loan without home equity?",
+    topic: "Special situations",
+    shortAnswer:
+      "Yes. An unsecured personal loan works for home improvement without requiring equity or a lien on your home. Rates are typically 8%-24% vs 6%-10% for HELOCs, but the process is faster and your home is not collateral.",
+    context:
+      "Options when you have no equity or do not want to use it:\n\nUnsecured personal loan: No appraisal, no lien, funds in 1-3 days. Amounts up to $50,000 from online lenders, up to $100,000 from credit unions. Rates depend on your credit - good credit borrowers get 8%-14%.\n\nTitle I FHA Home Improvement Loan: Government-backed program up to $25,000 for home improvements, no equity required, through FHA-approved lenders. Rates are fixed and usually competitive.\n\nContractor financing: Many contractors offer 12-month same-as-cash through GreenSky, Mosaic, or similar. Fine if you will pay in full within the promo period - deferred interest kicks in if you do not.\n\nCredit union personal loan: Often 1%-2% lower rates than online lenders for members. Worth checking if you have a local credit union relationship.\n\nFannie Mae HomeStyle / FHA 203(k): For major renovations, these wrap improvement costs into a mortgage refinance. Only useful if you are also refinancing your primary loan.\n\nWhen personal loan beats HELOC: HELOC closing costs run $500-$1,000+, appraisal required, and approval takes 4-8 weeks. For projects under $15,000 or when you need funds quickly, a personal loan is almost always faster and cheaper in total cost even at a higher rate.",
+    relatedSlugs: ["personal-loan-vs-home-equity-loan", "what-is-good-interest-rate-personal-loan"],
+    toolLinks: [
+      { label: "Learn: Personal loan vs HELOC", href: "/learn/personal-loan-vs-heloc-deep-dive" },
+    ],
+  },
+  {
+    slug: "how-many-personal-loans-can-i-have",
+    question: "How many personal loans can I have at the same time?",
+    topic: "Approval & amount",
+    shortAnswer:
+      "There is no legal limit, but most lenders have their own policies - some allow 1 active loan, others allow 2-3. The bigger constraint is your DTI: each loan payment increases it, which squeezes approval odds for subsequent loans.",
+    context:
+      "Lender-specific caps: LightStream, SoFi, and Discover generally allow one personal loan per borrower at a time. Upgrade and Best Egg sometimes allow a second loan after you have paid down the first. Credit unions set their own policies and often allow two simultaneously.\n\nThe DTI math: If you have a $300/month existing personal loan and apply for another loan with a $250/month payment, lenders see $550/month in loan obligations before your housing costs. At $4,000/month gross income, that alone is 13.75% DTI from loans - pushing your total DTI quickly toward the 40%-45% ceiling most lenders use.\n\nHard-inquiry stacking: Each application adds a hard inquiry. Multiple inquiries within a short period (outside a rate-shopping window) can knock 5-15 points off your score and signal credit-seeking behavior to underwriters.\n\nWhen multiple loans make sense: Debt consolidation (paying off existing loans with a new lower-rate loan leaves you net zero or better), emergency on top of an existing loan you have been paying responsibly for 12+ months.\n\nBetter path: If you need a second loan soon after a first, consider paying down the balance on the first or choosing a lender with a higher-limit product rather than stacking two smaller ones.",
+    relatedSlugs: ["personal-loan-with-high-dti", "personal-loan-approval-odds"],
+    toolLinks: [
+      { label: "Calculator: DTI ratio", href: "/calculators/debt-to-income" },
+    ],
+  },
+  {
+    slug: "personal-loan-new-job",
+    question: "Can I get a personal loan if I just started a new job?",
+    topic: "Special situations",
+    shortAnswer:
+      "Yes, but it is harder. Most lenders want to see at least 2 years at your current employer. New employees can still qualify if the income is strong, the credit score is solid, and the loan amount is modest.",
+    context:
+      "What lenders look for on employment: Stability matters because they want to know the income will continue. Just starting means no proof of sustained earnings at this position.\n\nFavorable factors that overcome short tenure: (1) Same industry as prior employer - a nurse changing hospitals is less risky than someone switching fields entirely. (2) Employment contract or offer letter showing the salary and start date. (3) Credit score above 700. (4) Substantial savings or assets. (5) Low DTI even at the new salary.\n\nLenders more likely to approve: Credit unions that underwrite manually, online lenders like Upstart that use education and job title in their models, LightStream for excellent-credit borrowers.\n\nProbationary periods: If your offer letter mentions a 90-day probation, some lenders will wait to see you past it. Applying 90 days in improves your odds.\n\nPay stubs required? Usually yes - 1-2 recent pay stubs and an employment verification or offer letter. If you are paid bi-weekly, you may need to wait 2-4 weeks after your start date just to have pay stubs to submit.\n\nSelf-employed with less than 2 years? See the self-employment Q&A - that is a separate and harder qualification path.",
+    relatedSlugs: ["personal-loan-self-employed", "personal-loan-approval-odds"],
+    toolLinks: [],
+  },
+  {
+    slug: "what-is-unsecured-personal-loan",
+    question: "What is an unsecured personal loan?",
+    topic: "Process & terms",
+    shortAnswer:
+      "An unsecured personal loan is a loan that does not require collateral - you borrow based on your creditworthiness alone, not against your home or car. Most personal loans are unsecured.",
+    context:
+      "Secured vs unsecured: A secured loan is backed by an asset (your car, your home, a savings deposit). If you default, the lender can take that asset. An unsecured loan has no such backstop - the lender's only recourse if you default is a collections process and possible legal judgment.\n\nWhy unsecured loans have higher rates: Without collateral, the lender takes on more risk. That risk is priced into the interest rate. A secured auto loan at 6% covers default risk with a repossessible vehicle; an unsecured personal loan at 10% prices in the same expected default risk through a higher rate.\n\nBenefits of unsecured personal loans: (1) No collateral at risk - if you cannot pay, you owe money but cannot lose your house or car through the loan itself. (2) Faster - no appraisal or lien process. (3) Flexible use - proceeds can go anywhere. (4) Fixed rate and term - unlike a credit card, you know exactly when it is paid off.\n\nWho issues them: Online lenders, credit unions, banks, and some fintech lenders. Amounts typically run $1,000-$100,000, terms 1-7 years.\n\nCredit requirements: Since there is no collateral cushion, lenders lean harder on your credit score and DTI. Most mainstream lenders want 620+; the best rates require 720+.\n\nException - secured personal loans: Some lenders offer personal loans secured by a CD or savings account (called a credit-builder or share-secured loan) at much lower rates. These are a niche product but worth knowing about.",
+    relatedSlugs: ["what-is-apr-on-personal-loan", "personal-loan-approval-odds"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-without-bank-account",
+    question: "Can I get a personal loan without a bank account?",
+    topic: "Special situations",
+    shortAnswer:
+      "Most traditional and online lenders require a bank account for deposit and autopay. Without one, your options narrow to some credit unions, CDFI lenders, or prepaid-card-friendly products - but terms are significantly worse.",
+    context:
+      "Why lenders require bank accounts: (1) Funds disbursement - almost all lenders disburse via ACH to a checking or savings account. Physical checks are increasingly rare. (2) Payment collection - autopay setup via bank account lowers the lender's default risk and often earns the borrower a rate discount. (3) Bank account history is used as an underwriting signal by some lenders (Plaid-based income verification).\n\nOptions without a bank account: Credit unions often have fewer requirements for members - some will deposit to a share account at the credit union itself. CDFIs (Community Development Financial Institutions) serve the unbanked and underbanked. Some payday-alternative lenders accept prepaid cards, but costs are much higher.\n\nThe prepaid card trap: Some fintech lenders advertise 'no bank account needed' but charge steep fees for prepaid card reloads or disburse via expensive money-transfer networks.\n\nBetter first step: Open a checking account. Many banks and credit unions offer second-chance checking accounts for people with ChexSystems records. Chime, Varo, and other fintechs offer checking with no minimum balance and no ChexSystems check. Once you have a bank account, your options open dramatically.\n\nGreen Dot, Current, and similar prepaid cards with routing/account numbers: Some lenders treat these as valid bank accounts for ACH purposes. Check with the specific lender before applying.",
+    relatedSlugs: ["personal-loan-approval-odds", "personal-loan-self-employed"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-for-car-down-payment",
+    question: "Can I use a personal loan for a car down payment?",
+    topic: "Special situations",
+    shortAnswer:
+      "You can, but most auto lenders prohibit borrowed down payments and will ask about the source of funds. Using a personal loan for a down payment also stacks two loan payments and increases your DTI, making auto loan approval harder.",
+    context:
+      "Why auto lenders care about down payment source: The down payment is supposed to represent your equity stake and reduce the lender's loss-given-default. If the down payment is itself borrowed, you have no true equity, which raises the risk of being underwater immediately.\n\nAuto lender policies: Most traditional auto lenders (banks, captive finance arms like Ford Motor Credit) require that down payments come from personal savings, trade-in equity, or gift funds - not borrowed money. Some will ask for a source-of-funds explanation if they see a recent deposit or large transfer.\n\nWhen it sometimes works: Private-party car purchases from individual sellers do not involve the same underwriting as dealer-financed sales. If you take a personal loan and then buy a car with cash from an individual seller, there is no dealer checking your financing source.\n\nThe DTI math problem: If you borrow $3,000 for a down payment (say $120/month at 12% for 3 years) and then add a $400/month auto loan, you have committed $520/month before housing costs. That quickly crowds out DTI.\n\nBetter alternatives: Save the down payment, negotiate a lower purchase price, use a 0% APR credit card for a smaller gap amount (under $2,000), or look at a more affordable vehicle that requires a smaller down payment.",
+    relatedSlugs: ["personal-loan-approval-odds", "how-many-personal-loans-can-i-have"],
+    toolLinks: [],
+  },
+  {
+    slug: "does-preapproval-hurt-credit-score",
+    question: "Does personal loan pre-approval hurt my credit score?",
+    topic: "Credit score",
+    shortAnswer:
+      "Pre-qualification (soft check) does not affect your score. Pre-approval with a hard inquiry does - usually 2-5 points, temporarily. The hit is small and recovers within 3-6 months.",
+    context:
+      "The key distinction - soft vs hard pull:\n\nSoft inquiry: Most online lenders offer a 'check your rate' or 'pre-qualify' step that uses a soft pull. Soft inquiries are invisible to other lenders and do not affect your score in any way. You can do unlimited soft pulls.\n\nHard inquiry: Once you formally apply and ask the lender to make a credit decision, they pull your full credit report with a hard inquiry. This is recorded and visible to other lenders. It typically costs 2-5 credit score points and stays on your report for 2 years (but only impacts scoring for about 12 months).\n\nRate shopping window: FICO and VantageScore treat multiple hard inquiries for the same loan type within a 14-45 day window as a single inquiry. So if you apply to 4 personal lenders within 2 weeks, you get one inquiry impact, not four.\n\nPractical sequence: (1) Use soft-pull pre-qualification at 3-5 lenders to see rates without any score impact. (2) Choose the best offer. (3) Submit one formal application, triggering one hard inquiry. (4) If you want to rate-shop further, do it within 14 days to stay within the shopping window.\n\nLenders that advertise 'no hard pull ever': These lenders skip the hard inquiry but compensate by using their own risk models or charging higher rates. Sometimes worthwhile for very thin-file applicants; usually not worth the rate premium for established-credit borrowers.",
+    relatedSlugs: ["does-applying-for-personal-loan-hurt-credit", "personal-loan-approval-odds"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-vs-balance-transfer",
+    question: "Should I use a personal loan or a balance transfer card to pay off debt?",
+    topic: "Process & terms",
+    shortAnswer:
+      "A 0% balance transfer card beats a personal loan if you can pay off the balance before the promo period ends (12-21 months). A personal loan wins if the balance is large, you need more time, or your credit does not qualify for a good transfer offer.",
+    context:
+      "Balance transfer card math: Typical cards offer 0% APR for 15-21 months with a 3%-5% transfer fee. On $5,000 of debt, that is $150-$250 in fees upfront, then zero interest if paid off in time. If you can pay about $270/month, you are done before the promo expires.\n\nPersonal loan math: On the same $5,000 at 12% APR for 36 months, you pay about $166/month and about $975 in total interest. More than the balance transfer fee, but you have 3 years to pay it off - not 15-21 months.\n\nBalance transfer wins when: (1) You can reliably pay off the full balance within the promo period. (2) The transfer fee is lower than the personal loan's origination fee plus interest. (3) Your credit score qualifies you for a good transfer offer (usually 700+).\n\nPersonal loan wins when: (1) The debt is too large to pay off in 15-21 months. (2) You have tried balance transfers before and rolled the balance when the promo expired. (3) Your credit score is 650-699 - you might get a personal loan but not a 0% balance transfer card. (4) You want the psychological discipline of a fixed payoff date.\n\nThe trap to avoid: Rolling a balance transfer to a new card when the 0% period expires, while only paying minimums. This is how people stay in debt for years.\n\nHybrid approach: Use a balance transfer card for the amount you can pay off in the promo period, and a personal loan for the remainder.",
+    relatedSlugs: ["personal-loan-for-debt-consolidation", "what-is-good-interest-rate-personal-loan"],
+    toolLinks: [
+      { label: "Compare: Balance transfer vs personal loan", href: "/compare/personal-loan-vs-balance-transfer-card" },
+    ],
+  },
+  {
+    slug: "personal-loan-dti-impact",
+    question: "How does a personal loan affect my debt-to-income ratio?",
+    topic: "Approval & amount",
+    shortAnswer:
+      "Taking a personal loan raises your DTI by adding a monthly payment to your obligations. Paying one off lowers your DTI. Lenders cap most approvals at 40%-45% total DTI.",
+    context:
+      "How DTI is calculated: DTI = monthly debt payments / gross monthly income. Debt payments include all recurring obligations: minimum credit card payments, existing loan payments, rent or mortgage, car payments, student loans. Gross income is pre-tax.\n\nExample: Earn $5,000/month gross. Current payments: $1,200 mortgage, $350 car loan = $1,550/month = 31% DTI. A new personal loan with a $300/month payment pushes you to $1,850/$5,000 = 37% DTI. Still approvable at most lenders.\n\nWhere the ceiling is: Most banks and online lenders cap at 40%-45% back-end DTI. At 43% DTI you are often at the qualifying limit. At 50%+ DTI most prime lenders decline.\n\nUsing a personal loan to improve DTI: If you are consolidating high-balance credit cards, you can actually lower your DTI by replacing multiple minimum payments with one personal loan payment. Example: Three cards with $200+$175+$150 minimums ($525 total) consolidated into one $400/month loan reduces monthly debt by $125.\n\nWhen the loan purpose affects the DTI calculation: When you apply for a mortgage later, the mortgage underwriter will see the personal loan payment in your DTI. Timing matters: pay down the personal loan significantly before applying for a mortgage.\n\nHow lenders use proposed DTI: Most lenders calculate both your current DTI and your 'proposed' DTI (after the new loan is added). Both need to look acceptable.",
+    relatedSlugs: ["personal-loan-with-high-dti", "what-is-debt-to-income-ratio"],
+    toolLinks: [
+      { label: "Calculator: DTI ratio", href: "/calculators/debt-to-income" },
+    ],
+  },
+  {
+    slug: "personal-loan-maximum-term",
+    question: "What is the longest repayment term available on a personal loan?",
+    topic: "Process & terms",
+    shortAnswer:
+      "Most personal loan lenders cap terms at 5-7 years (60-84 months). A few lenders extend to 12 years for very large amounts. Longer terms lower monthly payments but significantly increase total interest paid.",
+    context:
+      "Typical term ranges by lender type:\n\nOnline lenders: 24-84 months (2-7 years) is most common. LightStream extends to 144 months (12 years) for home improvement loans over $25,000.\n\nCredit unions: 12-60 months most common; some go to 84 months.\n\nBanks: 12-60 months typical.\n\nThe interest math on long terms: On a $20,000 loan at 10% APR: 36-month term = $645/month, $3,220 total interest. 84-month term = $330/month, $7,720 total interest. The 84-month term saves $315/month but costs $4,500 more in total interest.\n\nWhen a longer term makes sense: (1) Cashflow is the constraint - you genuinely cannot afford the higher monthly payment of a short term. (2) You plan to pay it off early (no prepayment penalty) - take the longer term for flexibility, pay more when you can. (3) The rate difference between short and long terms is negligible at your lender.\n\nPrepayment penalties: Most online lenders charge no prepayment penalty. Always verify. If there is no penalty, a longer term just gives you a lower minimum payment; you can still pay it off early.\n\nImpact on approval: Longer terms mean lower DTI impact from the monthly payment, which can help approval odds. Lenders sometimes offer longer terms to reduce per-payment risk.",
+    relatedSlugs: ["personal-loan-variable-rate-risk", "what-is-apr-on-personal-loan"],
+    toolLinks: [
+      { label: "Calculator: Monthly payment", href: "/calculators/monthly-payment" },
+    ],
+  },
+  {
+    slug: "personal-loan-after-chapter-13",
+    question: "Can I get a personal loan after Chapter 13 bankruptcy?",
+    topic: "Special situations",
+    shortAnswer:
+      "Yes, but it requires bankruptcy court approval while the Chapter 13 plan is active. After discharge (3-5 years), you can apply without court permission - approval depends on your credit rebuilding progress.",
+    context:
+      "Two distinct situations:\n\n1. Borrowing DURING an active Chapter 13 plan: You are legally required to get permission from your bankruptcy trustee and court before taking on new debt above a certain threshold (typically around $1,000). The trustee must approve because new debt could affect your repayment plan. Some trustees approve emergency loans; discretionary borrowing is usually denied.\n\n2. Borrowing AFTER Chapter 13 discharge: No court permission needed. Chapter 13 appears on your credit report for 7 years from the filing date (not discharge date). After discharge, your credit score typically starts at 500-580 and improves as you rebuild.\n\nTimeline after discharge: Year 1 - mostly credit unions and secured cards; 22%-36% APR on small loans. Year 2-3 - Avant, Upgrade, OneMain open up; rates 18%-30%. Year 3-5 - mainstream lenders become accessible if you have been responsible; rates 12%-24%. Year 5+ - approaching normal credit access if the record is clean since discharge.\n\nHow Chapter 13 vs Chapter 7 differs for new lending: Chapter 13 stays on credit for 7 years from filing; Chapter 7 stays for 10 years. Counterintuitively, lenders often view Chapter 13 somewhat more favorably because it shows you repaid at least some of the debt.\n\nRebuilding during the plan: Open a secured credit card if the trustee approves. Make every plan payment on time. These actions hit your credit report and help set the stage for better post-discharge rates.",
+    relatedSlugs: ["personal-loan-after-bankruptcy-discharge", "personal-loan-with-collections-account"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-cosigner-removal",
+    question: "Can I remove a co-signer from a personal loan?",
+    topic: "Process & terms",
+    shortAnswer:
+      "Most personal loan lenders do not allow co-signer release. The standard path to removing a co-signer is to refinance the loan in your name alone once your credit qualifies.",
+    context:
+      "Why co-signer release is rare for personal loans: Unlike student loans - where some lenders offer co-signer release after 24-36 on-time payments - personal loan terms rarely include this provision. The co-signer's commitment usually runs for the life of the loan.\n\nCo-signer release policies by lender: A small number of lenders (some credit unions, Discover) do offer co-signer release after a period of on-time payments. Check your original loan agreement for a co-signer release clause. If there is none, the lender is not required to release the co-signer.\n\nRefinancing to remove a co-signer: (1) Wait until you have made 12-24 months of on-time payments, improving your credit score. (2) Check your credit score - you will need it to qualify alone. (3) Apply for a new personal loan in only your name, using proceeds to pay off the co-signed loan. (4) The original co-signed loan is paid off, the co-signer's obligation ends.\n\nCredit impact on the co-signer: While the loan is active, it appears on the co-signer's credit report and affects their DTI and credit score - for better (on-time payments help them) or worse (late payments hurt them). This is why co-signers often want to be released.\n\nIf you cannot refinance yet: Make every payment on time. Keep the co-signer informed of the account status. Work on improving your credit so you can refinance as soon as possible.",
+    relatedSlugs: ["personal-loan-approval-odds", "personal-loan-denied-what-to-do"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-for-moving-expenses",
+    question: "Can I get a personal loan for moving expenses?",
+    topic: "Special situations",
+    shortAnswer:
+      "Yes. Moving is a legitimate, common loan purpose. Lenders do not restrict fund use for relocation. Amounts from $1,000 to $10,000 cover most moves; approval depends on your credit and income.",
+    context:
+      "What moving costs a personal loan can cover: Professional movers ($1,000-$5,000+ depending on distance), truck rental ($200-$2,000), security deposit and first/last month rent at new place ($2,000-$5,000), temporary storage ($100-$300/month), travel costs for long-distance moves.\n\nWhy moving is a strong loan purpose: It is tied to income continuity - you are moving for a job or to reduce housing costs. Lenders implicitly prefer loans for life events over discretionary spending.\n\nTypical loan size for moving: Local move: $1,000-$3,000. Cross-country move: $3,000-$8,000. International relocation: $8,000-$20,000+.\n\nFaster alternatives: Some employers offer relocation assistance or advances - ask your HR department before borrowing. USAA and military banks offer relocation loans specifically for military moves. If the move is for a job, some companies pay deposits as part of a relocation package.\n\nTiming: Apply 2-4 weeks before the move so funds are available. Most online lenders fund in 1-3 business days after approval, but give yourself buffer. If you are starting a new job, apply before you give notice - approval during employment transitions can be trickier.\n\nCredit requirements: Any credit score range has options, but rates diverge sharply. Good credit (700+) can get 10%-14%; fair credit (620-699) typically 18%-26%; bad credit (below 620) may need to look at credit unions or OneMain.",
+    relatedSlugs: ["personal-loan-new-job", "personal-loan-approval-odds"],
+    toolLinks: [],
+  },
 ];
 
 export const questionsBySlug = Object.fromEntries(

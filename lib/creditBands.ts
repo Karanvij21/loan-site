@@ -212,6 +212,34 @@ export const creditBands: Record<string, UseCase> = {
       { q: "Can I get a better rate by adding a co-signer?", a: "Often yes. A co-signer with a 720+ FICO can shift the offer to that co-signer's pricing tier, sometimes cutting the APR in half. The co-signer takes on full repayment responsibility, so this only works with someone who fully understands the commitment." },
     ],
   },
+  "600-credit-score": {
+    slug: "600-credit-score",
+    h1: "Personal loans with a 600 credit score",
+    title: "Personal Loans With a 600 Credit Score 2026: Lenders, APRs, and Faster Approval Tips",
+    description:
+      "A 600 FICO opens more lender options than 580 but still carries high APRs. See which lenders accept 600, what rates to expect, and the 20-point path to better offers at 620.",
+    eyebrow: "By score",
+    intro:
+      "A 600 FICO score sits at the upper edge of the 'poor' credit tier (300-579) or the very low end of 'fair' (580-669), depending on scoring model version. More lenders accept 600 than 580 - Avant, Upgrade, Upstart, and some credit unions all work in this range - but APRs remain elevated (22%-35.99%). Pushing your score 20 more points to 620 opens the door to a wider lender pool and meaningfully lower rates.",
+    amountMin: 500,
+    amountMax: 15000,
+    termMin: 12,
+    termMax: 60,
+    aprMin: 22.99,
+    aprMax: 35.99,
+    bullets: [
+      "600 FICO opens more lender options than 550-580",
+      "Loan amounts from $500 to $15,000",
+      "APRs typically 22.99% to 35.99%",
+      "20 more points (to 620) further expands available lenders",
+      "Soft credit check pre-qualification at most online lenders",
+    ],
+    faqs: [
+      { q: "Which lenders accept a 600 credit score?", a: "Avant accepts scores as low as 580-600 with APRs from 9.95%-35.99%. Upgrade markets to 600+ borrowers. Upstart's AI model sometimes approves 600-score applicants who have strong educational backgrounds or income. OneMain Financial focuses on income and collateral options for lower-score borrowers. Local credit unions, especially those that underwrite manually, are also worth contacting directly." },
+      { q: "What APR should I expect at a 600 credit score?", a: "Expect 22%-35.99% from lenders who approve 600-score borrowers. The 35.99% rate (the maximum allowed under most state caps) is common for the very bottom of approval ranges. If you receive an offer above 30%, compare the total cost vs alternatives before accepting." },
+      { q: "How do I get from 600 to 620 quickly?", a: "The two fastest levers: (1) Reduce credit card balances to below 30% of each card's limit before the statement closing date. Even paying down one card can add 15-25 points within one billing cycle. (2) Dispute any errors on your credit reports at AnnualCreditReport.com. Inaccurate late payments, wrong balances, or accounts that aren't yours can suppress your score unnecessarily." },
+    ],
+  },
   "620-credit-score": {
     slug: "620-credit-score",
     h1: "Personal loans with a 620 credit score",
@@ -299,6 +327,34 @@ export const creditBands: Record<string, UseCase> = {
       { q: "Are credit unions better than online lenders at 660?", a: "Often yes for members. Credit unions can offer lower APRs and more flexible underwriting for members with established relationships. If you're already a credit union member (especially a larger one like Navy Federal, PenFed, or BECU), request a pre-qualification there alongside marketplace options." },
     ],
   },
+  "680-credit-score": {
+    slug: "680-credit-score",
+    h1: "Personal loans with a 680 credit score",
+    title: "Personal Loans With a 680 Credit Score 2026: Good Rates Starting at 10.99%",
+    description:
+      "A 680 FICO is in the lower end of 'good' credit. See which lenders compete for this score, what APRs are realistic, and how 20 more points to 700 unlocks better terms.",
+    eyebrow: "By score",
+    intro:
+      "A 680 FICO sits in the 'good' credit tier (670-739) and opens access to a broad range of mainstream lenders. Rates typically start around 10%-14% for well-qualified 680-score borrowers and rise to the low-20s% depending on income, DTI, and loan amount. At 680, you're beyond the high-rate subprime market, but still 20 points away from the 700+ tier where the best mainstream rates begin.",
+    amountMin: 1000,
+    amountMax: 45000,
+    termMin: 12,
+    termMax: 84,
+    aprMin: 10.99,
+    aprMax: 24.99,
+    bullets: [
+      "680 qualifies you at most mainstream personal loan lenders",
+      "Loan amounts from $1,000 to $45,000",
+      "APRs typically 10.99% to 24.99%",
+      "20 more points to 700 unlocks lower rate tiers",
+      "Soft credit check pre-qualification available",
+    ],
+    faqs: [
+      { q: "Which lenders offer the best rates at 680?", a: "LightStream, SoFi, and Discover are competitive for borrowers around 680, especially those with strong income and low DTI. Upgrade and Best Egg also offer solid rates in this tier. Pre-qualify (soft pull) at 3-5 lenders since the rate spread for a 680-score borrower across lenders can be 5-8 percentage points on the same loan amount." },
+      { q: "How much better are rates at 700 vs 680?", a: "Typically 2-5 percentage points lower APR for the same loan profile. On a $20,000 loan at 36 months, a 4-point APR difference (say 18% vs 14%) is about $1,300 in total interest savings. If your need isn't immediate and you can push to 700 in 60-90 days, it may be worth the wait." },
+      { q: "What is the fastest way to get from 680 to 700?", a: "Lower credit card utilization is the single fastest lever. If your cards are above 30% utilization, paying them down before the statement closing date can add 15-20 points within one billing cycle. Avoid new credit applications for 60-90 days, keep all accounts current, and check your credit report for errors at AnnualCreditReport.com." },
+    ],
+  },
   "700-credit-score": {
     slug: "700-credit-score",
     h1: "Personal loans with a 700 credit score",
@@ -384,6 +440,34 @@ export const creditBands: Record<string, UseCase> = {
       { q: "How much can I borrow at 740?", a: "Most lenders extend their full loan range (up to $50,000) at 740. Income is the binding constraint: monthly payment on the new loan plus existing debt should be below 40-45% of gross monthly income. A $50,000 loan at 10% over 72 months is $924/month, requiring roughly $2,300+ gross monthly income dedicated to debt." },
       { q: "Is 740 significantly better than 720 for loan rates?", a: "Yes, meaningfully so. 740 is a threshold many lenders use to unlock their best-rate tier. For the same loan amount and term, a 740 borrower might see offers 2-4 percentage points lower than a 720 borrower at the same lender. On a $25,000 loan over 60 months, 3 percentage points of APR translates to roughly $2,000 in total interest savings." },
       { q: "Does 760 get even better rates than 740?", a: "Marginally at some lenders. Some lenders have a 760+ pricing tier that's slightly better, but the bigger jump is from 700 to 740. Above 740, the difference between adjacent scores is smaller. If you're at 740, the ROI of time spent raising your score vs. borrowing now is typically lower than it was getting from 700 to 740." },
+    ],
+  },
+  "750-credit-score": {
+    slug: "750-credit-score",
+    h1: "Personal loans with a 750 credit score",
+    title: "Personal Loans With a 750 Credit Score 2026: Near-Best APRs from 7% to 13%",
+    description:
+      "A 750 FICO puts you in the very good credit tier - top-tier rates, high approval odds, and amounts up to $50,000. See the best lenders and rates for your score.",
+    eyebrow: "By score",
+    intro:
+      "A 750 FICO sits firmly in the 'very good' credit tier (740-799). At this score, most major lenders compete for your business with their near-best rates. Approval odds are high, loan amounts go up to $50,000, and application friction is minimal. The main decision is which lender's rate offer to accept - so rate shopping via soft-pull pre-qualification matters more than at lower score tiers.",
+    amountMin: 2000,
+    amountMax: 50000,
+    termMin: 12,
+    termMax: 84,
+    aprMin: 6.99,
+    aprMax: 14.99,
+    bullets: [
+      "750 FICO qualifies for near-best rates at all major lenders",
+      "Loan amounts from $2,000 to $50,000",
+      "APRs typically 6.99% to 14.99%",
+      "High approval odds - income and DTI are the main variables",
+      "Soft credit check pre-qualification available",
+    ],
+    faqs: [
+      { q: "What APR can I realistically expect at 750?", a: "Borrowers at 750 with good income and low DTI often qualify for APRs in the 7%-13% range. LightStream is known to offer rates starting around 6.99% for well-qualified borrowers. SoFi and Marcus typically quote 8%-11% for 750-score applicants. Rates climb toward 14%-17% for 750 borrowers with higher DTI or thin income documentation." },
+      { q: "Should I try to reach 800 before applying?", a: "For most borrowers, no. The rate improvement between 750 and 800 at most lenders is 0.5%-1.5% APR. On a $15,000 loan at 48 months, that's $200-$400 in total savings - meaningful but often not worth delaying a legitimate financial need by several months. The larger gains are in earlier score ranges (580 to 620, or 660 to 700)." },
+      { q: "Is 750 enough to get the best personal loan rates?", a: "At most lenders, yes - 750 puts you in the top pricing tier or very close to it. Some lenders have a distinct 760+ or 800+ tier with marginally lower rates, but the jump to 750 from 700 or 720 is where the biggest rate improvements happen. At 750 you've captured most of the available rate benefit from credit score improvement." },
     ],
   },
 };

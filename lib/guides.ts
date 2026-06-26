@@ -2140,6 +2140,92 @@ export const guides: Guide[] = [
       { label: "Pre-qualify for a personal loan", href: "/apply", blurb: "Soft check, real offers from multiple lenders. No obligation." },
     ],
   },
+  {
+    slug: "how-to-pay-off-personal-loan-early",
+    publishedAt: PUBLISHED,
+    reviewedAt: REVIEWED,
+    estimatedReadMinutes: 7,
+    cluster: "Debt management",
+    title: "How to Pay Off a Personal Loan Early in 2026 (And Whether You Should)",
+    description: "Strategies to pay off your personal loan ahead of schedule: extra payments, bi-weekly splits, lump-sum paydowns, and the math on when early payoff makes financial sense.",
+    h1: "How to pay off a personal loan early",
+    intro: "Paying off a personal loan before the scheduled end date saves real money in interest. On a $15,000 loan at 16% APR with a 5-year term, paying it off 18 months early saves approximately $2,200 in interest. This guide explains how to calculate your payoff savings, the three main strategies for accelerating payoff, and the one scenario where early payoff may not be your best financial move.",
+    sections: [
+      {
+        h2: "First: Check for a Prepayment Penalty",
+        body: "Before putting extra money toward your loan, confirm your lender charges no prepayment penalty. Prepayment penalties - fees for paying off a loan ahead of schedule - were common a decade ago but are now rare among mainstream online lenders. LightStream, SoFi, Marcus, Upgrade, and most credit unions charge no prepayment penalty.\n\nTo check: Review your original loan agreement under 'prepayment' or 'early payoff.' If there is a penalty, calculate whether the interest savings exceed the penalty before proceeding. If your loan has a prepayment penalty of 2% of the remaining balance and you have $10,000 outstanding, that is a $200 fee. Compare that to the interest savings from paying off a year early - if savings exceed $200, early payoff still wins.\n\nNote: If you have a loan with a prepayment penalty and you are refinancing to a no-penalty loan, factor in the penalty as a closing cost in your break-even analysis.",
+      },
+      {
+        h2: "Strategy 1: Extra Monthly Payments",
+        body: "The simplest approach is adding a fixed extra amount to every monthly payment. Even $50-$100 extra per month compresses the payoff timeline significantly.\n\nExample: $10,000 loan at 14% APR, 48-month term. Regular payment: $273/month. Add $100 extra per month ($373 total). Payoff time: 34 months instead of 48. Interest saved: approximately $770.\n\nKey step: When making the extra payment, instruct your lender to apply the extra amount to principal, not to future payments. Some lenders automatically apply extra payments to principal; others move your next payment date forward (which does not save interest). Call or log in and confirm the application method.\n\nAutomation tip: Set up two automatic transfers on the same day - the standard payment via autopay, and a separate manual payment labeled 'principal only.' This prevents the extra amount from being misapplied.",
+      },
+      {
+        h2: "Strategy 2: Bi-Weekly Payments",
+        body: "Instead of 12 monthly payments per year, split your payment in half and pay every two weeks. The result is 26 half-payments = 13 full payments per year instead of 12 - one extra full payment annually, applied to principal.\n\nExample: $15,000 loan at 12% APR, 60-month term. Monthly payment: $333. Bi-weekly payment: $167. Result: payoff in approximately 54 months instead of 60. Interest saved: approximately $500-$600.\n\nCaveats: Not all lenders support bi-weekly payments. Some lenders require monthly payments and will hold the first bi-weekly payment until the second arrives to process as a monthly payment (eliminating the extra-payment benefit). Confirm with your lender that they will apply each payment immediately and not hold it.\n\nAlternative if your lender is inflexible: Make 12 regular monthly payments, then make one additional 13th payment each year in December or whenever you have extra cash (bonus, tax refund, etc.). The math is similar over a full year.",
+      },
+      {
+        h2: "Strategy 3: Lump-Sum Paydowns",
+        body: "Applying a windfall - tax refund, bonus, inheritance, selling an asset - to your loan principal is the fastest way to reduce outstanding balance and interest.\n\nPrioritization math: Before applying a windfall to your loan, compare your loan APR to what the money could earn elsewhere. If your loan is 20% APR and a high-yield savings account earns 4.5%, every dollar toward the loan saves 20% - far better than earning 4.5%. At the other extreme, if your loan is 7% APR and you have high-interest credit card debt at 22%, pay the credit card first.\n\nAverage tax refund strategy: The average U.S. tax refund is approximately $3,000. Applied as a lump sum to a $12,000 loan at 18% APR with 36 months remaining, that $3,000 reduces the loan balance to $9,000 and - if you maintain the same payment - reduces the payoff timeline by approximately 9 months. Interest savings: approximately $1,100.\n\nRequest a payoff quote: Ask your lender for a 10-day payoff quote. This shows the exact amount needed to close the loan, including any accrued interest. Pay this exact amount to avoid any remaining balance.",
+      },
+      {
+        h2: "When NOT to Pay Off Early",
+        body: "Early payoff is not always the optimal financial move. Consider these scenarios:\n\n1. You have higher-rate debt: If you have credit card debt at 22% and a personal loan at 9%, pay the credit card first. Every dollar of extra payment on the 9% loan has an opportunity cost of 13 cents per year versus the credit card.\n\n2. You lack an emergency fund: If early loan payoff would drain your savings below 3-6 months of expenses, keep the emergency cushion. Rebuilding emergency savings after an unexpected expense often requires more high-rate borrowing, negating the interest savings.\n\n3. The loan has a low rate you are unlikely to beat: A personal loan at 6%-7% APR is close to historical after-inflation equity returns. If you have tax-advantaged retirement contributions available (especially with employer match), maxing those may generate better after-tax returns than paying off a 6% loan early.\n\n4. Credit score impact: A personal loan's on-time payment history actively builds your credit mix and payment history. Paying it off eliminates the account, which can slightly reduce your score (by reducing account mix or closing a newer account). This matters if you are planning a mortgage application within 12 months.",
+      },
+    ],
+    faqs: [
+      { q: "Will paying off my personal loan early hurt my credit score?", a: "Slightly, temporarily. Closing a loan account reduces your credit mix and can lower your average account age. The impact is usually 5-15 points and temporary. However, the debt reduction and freed-up DTI generally outweigh this in 2-4 months, especially if you maintain other open accounts." },
+      { q: "How do I get a loan payoff quote?", a: "Log into your lender's account portal and look for 'payoff amount' or 'loan payoff quote.' Most lenders also allow you to call customer service and request a 10-day payoff quote by phone. The payoff amount is slightly more than your current balance because it includes any interest accrued since your last payment." },
+      { q: "Can I pay off a personal loan with another personal loan to get a lower rate?", a: "Yes, this is called refinancing. If your credit score has improved since you took the original loan, or if market rates have dropped, you may qualify for a lower APR. Calculate total interest on both options (remaining interest on the current loan vs total interest on the new loan) and subtract any origination fee on the new loan to determine whether refinancing saves money." },
+    ],
+    relatedSlugs: ["personal-loan-refinancing", "debt-payoff-strategies", "personal-loan-vs-credit-card"],
+    toolLinks: [
+      { label: "Monthly payment calculator", href: "/calculators/monthly-payment", blurb: "Model extra payments and see interest savings." },
+      { label: "Pre-qualify for a lower rate", href: "/apply", blurb: "If refinancing to a lower APR makes sense, start here." },
+    ],
+  },
+  {
+    slug: "personal-loan-after-job-loss",
+    publishedAt: PUBLISHED,
+    reviewedAt: REVIEWED,
+    estimatedReadMinutes: 8,
+    cluster: "Life events",
+    title: "Personal Loan After Job Loss 2026: Options, Risks, and Alternatives",
+    description: "Lost your job and need cash? Know which lenders still approve the unemployed, what income types qualify, hardship program options, and when borrowing is the wrong move.",
+    h1: "Personal loan after job loss: what to do",
+    intro: "Losing a job is one of the most financially stressful events in adult life. Bills keep coming even when the paycheck stops. A personal loan can bridge the gap - but qualification is harder without employment income, and the wrong decision can make the situation worse. This guide covers who can still qualify, what documentation helps, and the alternatives that are usually better than borrowing.",
+    sections: [
+      {
+        h2: "Can You Qualify Without a Job?",
+        body: "Lenders underwrite income, not employment. If you have documented income from sources other than a paycheck, you may still qualify. Qualifying income sources after job loss:\n\nUnemployment benefits: Counted as income by many lenders. The amount varies by state ($200-$800+/week). Duration matters - most personal loans are 1-5 years; UI benefits typically last 12-26 weeks. Lenders may discount unemployment income for longer terms because of its temporary nature.\n\nSeverance pay: A lump sum or continuing severance from a former employer is income. Provide the severance agreement as documentation.\n\nSpouse or partner income: If you apply jointly (co-borrower), your partner's income counts. This is the most reliable path to qualification if your partner has stable employment.\n\nFreelance or gig income: If you immediately transition to gig work or freelance, document earnings with bank statements. Two to three months of statements showing consistent deposits help.\n\nInvestment income: Dividends, rental income, or withdrawals from taxable investment accounts can qualify as income. Document with brokerage statements or Schedule E tax returns.\n\nSocial Security or disability: Fully qualifies. Document with the SSA award letter.",
+      },
+      {
+        h2: "Lenders Most Likely to Approve",
+        body: "Not all lenders have the same flexibility on non-employment income. These are better options when you are between jobs:\n\nCredit unions: Community credit unions often underwrite manually and consider the full picture - your relationship, savings, employment history, and income source. If you have been a member for years, call and explain your situation before applying.\n\nUpstart: Uses alternative underwriting including educational background and job history. May weigh recent layoff from a strong employer differently than a long-term unemployment situation.\n\nAvant and OneMain Financial: Serve borrowers with varied income situations, including non-traditional income sources. Rates will be higher (18%-35%) but qualification is broader.\n\nCDFIs (Community Development Financial Institutions): Mission-driven lenders that serve people in economic transitions. Lower rates and more flexible underwriting than mainstream lenders, though loan amounts may be limited.\n\nLenders likely to decline: LightStream, SoFi, Marcus, and other premium lenders require stable full-time employment and excellent credit. They will likely decline applicants with recent job loss even with strong credit histories.",
+      },
+      {
+        h2: "What to Prepare Before Applying",
+        body: "Documentation is critical when employment is absent. Gather before applying:\n\nProof of income: Unemployment benefit award letter, severance agreement, most recent 3 months of bank statements showing deposits, investment account statements, or Social Security award letter.\n\nProof of assets: If you have savings, a 401(k), or other assets, these reduce lender risk even if they cannot formally count as income in all underwriting models.\n\nCredit report review: Pull your free credit report from AnnualCreditReport.com and address any errors before applying. Errors can unfairly lower your score and push you into higher-rate products.\n\nJob search evidence: While not standard documentation, some credit unions may ask about your job search status. Having a timeline and active applications signals intention to resolve the income gap.\n\nCo-borrower option: If you have a family member with stable income willing to co-sign or co-borrow, this dramatically improves both approval odds and rate. The co-borrower takes on equal liability, so this is a serious ask.",
+      },
+      {
+        h2: "Hardship Programs: Use These First",
+        body: "Before taking a personal loan to pay existing bills, contact your current creditors about hardship programs. Most major lenders offer temporary relief options that are better than new debt:\n\nCredit cards: Call the number on the back of your card and ask for the hardship or financial assistance program. Common accommodations include: lowered interest rate (8%-12% vs 22%+), waived minimum payments for 2-3 months, late fee waivers.\n\nMortgage/rent: FHA, Fannie Mae, and Freddie Mac loans have formal forbearance processes. Private landlords may negotiate payment plans or deferral. Contact before you miss a payment, not after.\n\nUtilities: Many utility companies have low-income assistance programs, payment plans, and shut-off protections. The federal LIHEAP program provides heating assistance.\n\nStudent loans: Federal loans have income-driven repayment, forbearance, and deferment options available regardless of employment status.\n\nCalling creditors first costs nothing and reduces the amount you need to borrow. A $3,000 personal loan taken to cover bills you could have deferred costs $300-$600 in interest over 12-18 months.",
+      },
+      {
+        h2: "When Borrowing Still Makes Sense",
+        body: "After exhausting hardship programs, borrowing may be appropriate in these specific situations:\n\n1. Bridge loan to a known start date: You have a signed offer letter starting in 6-8 weeks and a specific cash flow gap to cover. A short-term personal loan with a 12-month term is a reasonable bridge if the payment is affordable on your new salary.\n\n2. Emergency expense that cannot wait: A car repair that is the only way to commute to a new job, a medical expense with health consequences if delayed.\n\n3. You have a co-borrower: Joint applications with a working spouse or partner make approval likely and rates reasonable.\n\nWhen NOT to borrow: If you do not have a clear income timeline, borrowing to pay general living expenses creates a debt obligation on top of financial stress. The loan payment becomes another bill due every month. Exhaust savings, hardship programs, family assistance, and gig income before adding installment debt.",
+      },
+    ],
+    faqs: [
+      { q: "Does unemployment count as income for a personal loan?", a: "Yes, most lenders count unemployment benefits as qualifying income. Document it with your state unemployment benefit award letter showing the weekly amount and benefit end date. Lenders may weight it less heavily than employment income for longer loan terms, since UI typically ends within 6 months." },
+      { q: "Can I defer my existing personal loan if I lose my job?", a: "Many lenders offer hardship programs including payment deferral (skipping 1-3 payments with interest added to the end of the loan), reduced payment plans, or interest-rate reductions. Call your lender's customer service line and ask specifically about their hardship or financial assistance program. These programs are rarely advertised but widely available. Do not wait until you miss a payment - call when you first anticipate difficulty." },
+      { q: "What is the risk of taking a personal loan while unemployed?", a: "The primary risk is that your income does not return as expected. A personal loan commits you to a monthly payment for 1-7 years. If you are still unemployed when the payment is due, you risk default, collections, and credit damage on top of the original financial stress. Only borrow if you have a clear near-term income plan and the payment is manageable even on a reduced income." },
+    ],
+    relatedSlugs: ["personal-loan-approval-odds", "personal-loan-new-job", "personal-loan-self-employed"],
+    toolLinks: [
+      { label: "Pre-qualify with soft check", href: "/apply", blurb: "See real rate offers without affecting your credit score." },
+      { label: "DTI calculator", href: "/calculators/debt-to-income", blurb: "Check whether the payment fits your current income situation." },
+    ],
+  },
 ];
 
 export const guidesBySlug = Object.fromEntries(

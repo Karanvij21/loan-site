@@ -713,6 +713,37 @@ export const comparisons: Record<string, Comparison> = {
       { q: "What is the true APR of a deferred-interest card if I don't pay it off?", a: "Much higher than the stated rate. If you borrow $3,000 on 18-month 0% deferred interest, pay only the minimum each month, and owe $2,400 at month 18, you get charged interest on the full $3,000 not the $2,400 remaining. On a 26.99% card, that's $810 in retroactive interest - an effective annual rate far above 26.99% on what you actually borrowed." },
     ],
   },
+  "personal-loan-vs-buy-now-pay-later": {
+    slug: "personal-loan-vs-buy-now-pay-later",
+    h1: "Personal loan vs. buy now, pay later (BNPL)",
+    title: "Personal Loan vs Buy Now Pay Later 2026 (Affirm, Klarna, Afterpay): Which to Choose",
+    description:
+      "BNPL splits purchases into 4 installments or monthly plans. Compare BNPL vs personal loans on APR, amounts, merchant limits, and credit building to choose the right option.",
+    aName: "Personal loan",
+    bName: "Buy now, pay later",
+    intro: "Buy now, pay later services (Affirm, Klarna, Afterpay, Sezzle) split a purchase into equal installments - often 4 payments over 6 weeks at 0% interest on small amounts, or longer monthly plans at 10%-36% APR. Personal loans fund your bank account directly and can be used anywhere. BNPL is simpler for specific merchant purchases but limited in scope; personal loans are more flexible and can handle larger, non-merchant needs.",
+    rows: [
+      { k: "APR range", a: "7.99%-35.99% (fixed, disclosed upfront)", b: "0% on 4-payment plans; 10%-36% on longer monthly plans; varies by provider" },
+      { k: "Loan amounts", a: "$500-$50,000", b: "$50-$17,500 (most BNPL caps are well below personal loan maximums)" },
+      { k: "Where it works", a: "Any use: deposits to bank account, any merchant, any payee", b: "Only at enrolled merchants or via BNPL virtual card at selected retailers" },
+      { k: "Credit check", a: "Soft pull for pre-qual; hard pull on application", b: "Soft pull or no check on 4-payment plans; hard check on longer plans" },
+      { k: "Credit bureau reporting", a: "Yes - builds credit history with on-time payments", b: "Inconsistent: Affirm reports some loans; Afterpay and Klarna report in some cases. Buy-as-needed habit can result in many small tradelines" },
+      { k: "Late fees", a: "Varies; typically $15-$39 or 5% of payment", b: "Afterpay: $8 capped at 25% of order. Klarna: up to $7. Affirm: no late fees on most plans" },
+      { k: "Overspending risk", a: "Loan amount fixed at origination", b: "Easy to stack multiple BNPL plans across different merchants, creating many simultaneous obligations that are hard to track" },
+      { k: "Merchant returns", a: "No complication - loan stands, you receive refund to original payment method", b: "Refunds can be complicated - you may continue owe installments while waiting for merchant refund to process" },
+    ],
+    verdicts: [
+      { scenario: "Specific purchase at a major retailer under $500 you can pay in 4 bi-weekly payments", pick: "b", reason: "0% APR on 4-payment BNPL is genuinely free money. If you will pay the 4 installments reliably, BNPL on a specific purchase beats a personal loan's interest cost for that amount." },
+      { scenario: "Need $2,000+ or need to pay a person, service provider, or bill", pick: "a", reason: "BNPL cannot pay utility bills, rent, non-enrolled contractors, or medical providers directly. A personal loan deposits cash to your account for any use." },
+      { scenario: "You want to build your credit history", pick: "a", reason: "Personal loan on-time payments are consistently reported to all 3 bureaus. BNPL reporting is inconsistent and building credit through small BNPL plans is unreliable." },
+      { scenario: "You have multiple BNPL plans already", pick: "a", reason: "Stacking many simultaneous BNPL obligations across merchants makes budgeting difficult and creates default risk. Consolidating into one personal loan payment is cleaner and often cheaper." },
+    ],
+    faqs: [
+      { q: "Does BNPL affect my credit score?", a: "It depends on the provider and plan. Affirm reports loans over a certain threshold to Experian. Klarna and Afterpay have expanded credit reporting in recent years. On-time payments can help; missed payments can hurt. FICO 10T and VantageScore 4.0 have begun incorporating BNPL data, so the impact is growing. The safest assumption: treat BNPL payments as seriously as any credit account." },
+      { q: "Can I use BNPL for services (medical, home repair)?", a: "Affirm has partnerships with some service providers. Klarna has expanded to some service categories. However, most BNPL networks still focus on retail products. For services, medical bills, home repairs, or anything not through an enrolled merchant, a personal loan is the only option." },
+      { q: "Is BNPL a good substitute for a personal loan?", a: "For small retail purchases you can repay within 6 weeks, BNPL at 0% is cheaper than a personal loan. For larger amounts, longer repayment, or non-retail needs, BNPL cannot substitute. Financially, the biggest BNPL risk is stacking multiple plans and losing track of total obligations - a personal loan's single fixed payment is more transparent to budget." },
+    ],
+  },
 };
 
 export const comparisonSlugs = Object.keys(comparisons);

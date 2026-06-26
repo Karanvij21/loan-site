@@ -15,9 +15,9 @@ import {
 } from "@/lib/glossary";
 
 export const metadata: Metadata = {
-  title: "Personal Loan Glossary: 131 Terms Defined (2026)",
+  title: "Personal Loan Glossary: 141 Terms Defined (2026)",
   description:
-    "Plain-English definitions for 131 personal-loan terms: APR, amortisation, FICO, TILA, soft inquiry, debt-to-income ratio, origination fee, and more. Updated June 2026.",
+    "Plain-English definitions for 141 personal-loan terms: APR, amortisation, FICO, TILA, soft inquiry, debt-to-income ratio, origination fee, and more. Updated June 2026.",
   alternates: { canonical: "/glossary" },
   openGraph: {
     title: "Personal Loan Glossary",

@@ -4891,6 +4891,171 @@ export const questions: Question[] = [
     relatedSlugs: ["personal-loan-for-new-roof", "personal-loan-for-hvac"],
     toolLinks: [],
   },
+  {
+    slug: "personal-loan-for-solar-panels",
+    question: "Can I use a personal loan to pay for solar panels?",
+    topic: "Special situations",
+    shortAnswer:
+      "Yes. Personal loans fund solar panel installations when you lack home equity or want faster funding than a HELOC offers. Rates of 8%-18% APR are typical. The 30% federal tax credit applies regardless of how you finance the system, which significantly reduces the net cost.",
+    context:
+      "Solar installation costs: A typical residential solar system (6-8 kW) costs $15,000-$25,000 before the 30% federal Investment Tax Credit (ITC). After the ITC, net cost is $10,500-$17,500 for most homeowners. This is a substantial amount, but the system generates electricity for 25+ years with minimal operating costs.\n\nPersonal loan vs. solar-specific loan: Solar-specific lenders (Mosaic, Sunlight Financial, GoodLeap) offer rates of 5%-12% APR - often lower than personal loan rates for the same borrower. The trade-off: you must use an installer in their network. A personal loan gives you installer freedom and funds in 1-3 days.\n\nHow the 30% tax credit interacts with a loan: The ITC is calculated on the full system cost, not the financed amount. Finance $18,000 system via personal loan: your ITC is still $5,400 (30% of $18,000). You receive this credit when you file taxes. Many borrowers apply the tax refund as a lump-sum payment against the loan in year 1, reducing the effective interest cost substantially.\n\nPayback period math: A $20,000 system at 10% APR over 7 years costs $337/month. Average electricity bill reduction: $100-$200/month (varies by location and usage). After-tax cost (with $6,000 ITC in year 1): effective net investment of $14,000. Payback period: 6-9 years. Years 7-25+: essentially free electricity.",
+    relatedSlugs: ["personal-loan-for-energy-efficiency", "personal-loan-for-home-security-system"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-with-no-bank-account",
+    question: "Can I get a personal loan without a bank account?",
+    topic: "Approval & amount",
+    shortAnswer:
+      "It is very difficult. Nearly all personal loan lenders require a bank account for fund disbursement and payment collection. A few options exist: prepaid card lenders, credit unions that may work with unbanked members, or payday lenders (very expensive). Opening a basic checking account is strongly recommended before applying.",
+    context:
+      "Why lenders require bank accounts: Lenders disburse funds via ACH transfer to a bank account. They also collect payments via automatic ACH debit from the same account. Without a bank account, both functions are disrupted.\n\nAlternatives for unbanked borrowers: Prepaid debit card accounts: some online lenders accept prepaid debit cards with routing and account numbers (Green Dot, Netspend). However, many lenders' systems reject prepaid cards even when they have a routing number. Check with each lender. Payday lenders: most payday lenders will issue checks or prepaid cards, but rates are typically 300%-400% APR. Not recommended for any significant amount. Credit unions: some credit unions in lower-income communities accept members who are unbanked and provide both basic banking and small personal loans as a package. Search for 'community development credit union' or 'CDFI' in your area.\n\nHow to open a bank account with damaged history: If you were denied a bank account due to ChexSystems or Early Warning Services negative history, second-chance checking accounts are available from many banks and credit unions. Examples: Wells Fargo Clear Access Banking, Bank of America SafeBalance, Chime (online, no ChexSystems check). Once a bank account is established (usually 30-60 days of activity), you become eligible for most personal loan lenders.\n\nThe fastest path: Open a second-chance checking account (same-day at online banks like Chime), fund it with a small deposit, wait 30-60 days, then apply for a personal loan with that account information.",
+    relatedSlugs: ["personal-loan-with-thin-credit-file", "personal-loan-denied-reasons"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-vs-borrow-from-family",
+    question: "When is a personal loan better than borrowing from family?",
+    topic: "Special situations",
+    shortAnswer:
+      "A personal loan is better than a family loan when: you want to preserve the family relationship, you need a large amount the family member cannot afford to lose, the family member is not financially stable, or you want a credit-building record. Family loans are better when rates are favorable and both parties can handle the arrangement professionally.",
+    context:
+      "The case for a personal loan over family borrowing: Preserves the relationship: money disputes are among the top causes of family conflict. If you default or pay late on a family loan, it damages the relationship. A personal loan default affects only your credit score, not your family. No emotional debt: family loans often come with unspoken expectations ('I helped you so now you owe me'). Credit building: a personal loan from a lender reports to credit bureaus; a family loan does not. Building credit via loan repayment is valuable.\n\nThe case for a family loan: Cost: family members may lend at 0% or very low interest. On a $10,000 loan, 0% vs. 12% APR saves $1,300-$1,500 in interest over 2 years. Flexibility: family members may be more patient about repayment timing if circumstances change. No hard inquiry: family loans do not require a credit check.\n\nHow to structure a family loan to minimize conflict: Use a promissory note (a written loan document) even between family members. Specify: loan amount, interest rate (even 0% explicitly stated), repayment schedule, what happens if a payment is missed. Some families use IRS Applicable Federal Rates (AFR) as the minimum interest rate to avoid gift tax complications. Sites like National Family Mortgage provide formal documentation tools.\n\nBest practice: be honest with yourself about repayment likelihood. If you have any concern about your ability to repay reliably and on schedule, a personal loan protects the relationship even if it costs more in interest.",
+    relatedSlugs: ["personal-loan-what-is-debt-consolidation", "personal-loan-for-gambling-debt"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-credit-score-after-payoff",
+    question: "What happens to my credit score when I pay off a personal loan?",
+    topic: "Credit score",
+    shortAnswer:
+      "Your score typically dips 2-10 points when a personal loan is paid off and closed, then recovers within 1-3 months. This happens because closing an account reduces your mix of credit types and may shorten your average account age. The positive payment history remains on your report for 10 years.",
+    context:
+      "Why scores dip at payoff: Credit mix: FICO rewards having both revolving credit (credit cards) and installment credit (loans). When you pay off and close your only installment loan, you lose that mix point. If you have other installment loans (auto, student loan), the dip is smaller. Average account age: closing an account removes it from the average age calculation over time (though closed accounts stay on your report for up to 10 years, they stop contributing to average age when closed). Score impact: 2-10 points is typical, with larger impacts for borrowers with thin credit files or limited remaining accounts.\n\nWhy it does not matter much: The paid-off loan's positive payment history remains on your credit report for 10 years from closure. This long-standing record of on-time payments continues to benefit your score. The dip is temporary and usually recovers within 1-3 months as your remaining accounts accumulate additional on-time history.\n\nStrategic timing: If you plan to apply for a major loan (mortgage, auto) within 1-3 months, be aware that a recent payoff can cause a temporary score dip. This is usually minor and most lenders understand the cause. It is almost never worth keeping a loan open (and paying interest) solely to avoid this temporary dip.\n\nThe financial reality: paying off a loan saves interest that far outweighs any credit score cost. At 12% APR on a $10,000 loan, paying off 12 months early saves approximately $600-$700 in interest. No minor score fluctuation justifies foregoing those savings.",
+    relatedSlugs: ["personal-loan-repayment-strategies", "personal-loan-payoff-early-calculator"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-for-land-purchase",
+    question: "Can I use a personal loan to buy land?",
+    topic: "Special situations",
+    shortAnswer:
+      "Yes. Personal loans are one of the few financing options for raw land purchases without a structure. Land loans from banks typically require 20%-50% down, established credit with the bank, and have rates 1%-3% higher than mortgage rates. For smaller land purchases ($10,000-$75,000), a personal loan is often simpler.",
+    context:
+      "Why land financing is difficult: Raw land (no structure) is considered one of the riskiest collateral types for lenders because: no income stream, illiquid market, difficult to value, and many buyers cannot develop it. Most conventional lenders and Fannie Mae/Freddie Mac do not purchase raw land loans. This creates a gap that personal loans can fill.\n\nLand loan vs. personal loan comparison: Land loan: secured by the land. Lower rates (prime + 1%-3%) but requires 20%-50% down, detailed land appraisal, survey, environmental review, and credit history with the institution. Typically limited to $100,000+ land purchases where the collateral justifies the process. Personal loan: unsecured. Higher rates (8%-25%) but no collateral, faster funding, and no minimum purchase size. Works for small rural land parcels, hunting land, recreational plots.\n\nSmart use cases for personal loan land purchase: Rural recreational land ($5,000-$40,000): hunting land, camping parcels, fishing property. Future homesite ($10,000-$75,000): buying land now to build later (within 3-5 years). Agricultural small plots: vegetable gardens, small farming operations. Investment land: smaller parcels in growing areas.\n\nKey consideration: interest is not deductible. Personal loan interest is never deductible (unlike mortgage interest). Some land loan interest may be deductible if the land is used for investment or business purposes. Consult a tax professional.",
+    relatedSlugs: ["personal-loan-to-buy-land", "personal-loan-for-investment"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-income-documentation",
+    question: "What income documents do I need for a personal loan?",
+    topic: "Process & terms",
+    shortAnswer:
+      "Most lenders require: recent pay stubs (last 2-4), W-2s or tax returns (last 1-2 years), and bank statements (last 2-3 months). Self-employed borrowers need 2 years of tax returns and business bank statements. Some online lenders accept bank account access (Plaid) instead of paper documents.",
+    context:
+      "Standard documentation for W-2 employees: 2-4 most recent pay stubs (shows current income and YTD earnings). Prior 1-2 years' W-2 forms (shows income stability and history). Sometimes: 2-3 months of bank statements (verifies take-home pay deposits match stated income).\n\nSelf-employed / 1099 / gig worker documentation: 2 years of personal tax returns (Schedule C shows net business income - this is what lenders use, not gross revenue). 2 years of business tax returns (if a corporation or partnership). 2-3 months of business bank statements (shows revenue and cash flow). Year-to-date profit and loss statement (P&L) if applying mid-year and recent tax returns do not reflect current income level.\n\nOther income types: Social Security / disability: award letter (from the SSA) showing monthly benefit amount. Pension / retirement: most recent benefit statement. Alimony / child support: court order and 3-6 months of payment history showing receipt. Rental income: lease agreement and last 2 years of Schedule E (tax return showing rental income/loss). Investment income: 2 years of tax returns showing dividend and interest income.\n\nBank account access (modern verification): Many online lenders (via Plaid, Finicity, MX) offer income verification through read-only connection to your bank account instead of paper documents. This pulls transaction history automatically and can verify income faster. Some borrowers prefer this; others prefer not sharing account access - both options are typically available.\n\nTip: gather all documents before applying to avoid delays. Most denials for documentation reasons come from incomplete submissions, not the income level itself.",
+    relatedSlugs: ["personal-loan-how-much-income-needed", "personal-loan-for-startup-business"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-for-bail-bond",
+    question: "Can I use a personal loan to pay a bail bond?",
+    topic: "Special situations",
+    shortAnswer:
+      "Yes, legally. Personal loan funds are yours to use for any legal purpose, including paying a bail bondsman's fee (typically 10%-15% of the bail amount). However, the funds are not recoverable if the defendant fails to appear. This is a high-stakes decision that should involve consultation with a criminal defense attorney.",
+    context:
+      "How bail works: A judge sets bail as the amount a defendant must pay to be released pending trial. The defendant (or family) can pay the full bail amount to the court directly (refundable when the case concludes, minus any fees). Alternatively, a bail bondsman charges a non-refundable fee (typically 10%-15% of the bail amount) and posts the full bail with the court.\n\nPersonal loan for the bondsman's fee: If bail is set at $50,000, the bondsman's fee is $5,000-$7,500. This is non-refundable. A personal loan for this amount ($5,000-$10,000 at 12%-20% APR over 2-3 years) may be feasible if the borrower has sufficient credit and income. The loan proceeds are disbursed to your bank account, from which you pay the bondsman.\n\nRisk factors to evaluate: If the defendant fails to appear, the bondsman may pursue the co-signer for the full bail amount (not just the fee). Make sure you understand whether you are signing as a co-signer on the bond - this is different from just paying the fee. The personal loan debt remains regardless of the case outcome. The non-refundable fee is lost if the defendant skips. Consulting an attorney before posting bond for someone other than yourself is strongly recommended.\n\nAlternative: pay bail directly to the court: If you can access the full bail amount (personal loan for the full amount, if feasible), posting cash bail directly to the court is fully refundable when the case concludes. A $50,000 cash bail personal loan is unrealistic for most borrowers, but smaller bail amounts ($2,000-$10,000) may be payable directly.",
+    relatedSlugs: ["personal-loan-for-legal-fees", "personal-loan-denied-reasons"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-debt-settlement-vs-payoff",
+    question: "Should I settle my personal loan debt or pay it off in full?",
+    topic: "Special situations",
+    shortAnswer:
+      "Pay in full if you can. Debt settlement (paying less than owed after default) severely damages your credit score, results in a taxable 1099-C for the forgiven amount, and leaves a 'settled for less than full amount' notation on your credit report for 7 years. Settlement only makes sense when you genuinely cannot pay and default has already occurred.",
+    context:
+      "What debt settlement is: Debt settlement occurs after you have stopped making payments (typically 90-180+ days past due). The lender or a collection agency may agree to accept a lump-sum payment of 30%-60% of the balance instead of the full amount to close the account.\n\nCredit score damage: A settled account shows as 'Paid - Settled for Less Than Full Amount' on your credit report. This negative notation remains for 7 years from the date of first delinquency. FICO and VantageScore treat settlements as significant negative events - similar in impact to charge-offs and collection accounts. If you are already severely delinquent, the settlement itself does not make things much worse, because the delinquencies are already damaging your score.\n\nTax consequences: Forgiven debt is generally treated as taxable income. If a lender forgives $5,000 of your debt through settlement, you will receive a 1099-C for $5,000. This amount is added to your taxable income for that year. You may owe federal and state income tax on it. Exceptions: debt forgiven while insolvent (total debts exceed total assets at the time of forgiveness) may be excluded. Consult a tax professional.\n\nWhen settlement may be appropriate: You have already defaulted and cannot pay the full balance. The statute of limitations on the debt is approaching. A lump sum for settlement is available but not enough to pay in full. You plan to file bankruptcy and settlement avoids that outcome.\n\nBetter alternatives if you have not yet defaulted: Contact the lender proactively - hardship programs may reduce interest or pause payments without default notation. Refinance if a lower rate is available. Use a nonprofit credit counselor (NFCC member agencies) to negotiate a debt management plan (pays in full at reduced rates, no credit notation damage).",
+    relatedSlugs: ["personal-loan-hardship-program", "personal-loan-what-happens-if-lender-goes-bankrupt"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-for-ac-unit",
+    question: "Should I finance a new air conditioner with a personal loan?",
+    topic: "Special situations",
+    shortAnswer:
+      "Yes - a failed AC unit in a hot climate is a genuine emergency, not a discretionary purchase. HVAC contractor financing (often 0% for 12-18 months) is the first option to check. If you cannot pay off within the promotional period, a personal loan with a defined rate and term is safer than deferred-interest contractor financing.",
+    context:
+      "AC unit costs in 2026: Central AC unit only (2.5-4 ton, excluding installation): $1,200-$3,500. Installed with labor and refrigerant: $3,500-$7,500. Whole-home heat pump (replaces both AC and heating): $4,500-$12,000 installed.\n\nContractor financing vs. personal loan: Most major HVAC brands and large contractors partner with lenders (GreenSky, Synchrony, Ally Lending) offering 12-18 months at 0% APR. This is effectively free financing if paid off before the deadline. If NOT paid off by the promotional deadline, deferred interest at 24.99%-29.99% APR is charged retroactively on the original purchase price. Risk: if your finances are uncertain, carrying a $5,000 balance to month 18 and having $1,200+ in interest added back is expensive.\n\nPersonal loan advantages: Fixed rate (no deferred interest surprise). Fixed monthly payment and defined payoff date. Rate of 10%-15% over 3-4 years on $5,000 costs $800-$1,100 total interest - well-understood and predictable.\n\nIRS tax credit for energy-efficient AC: The Inflation Reduction Act provides a 30% tax credit (max $600/year) for ENERGY STAR Most Efficient central AC units. This credit reduces what you effectively need to finance. On a $4,000 AC system, the $600 credit reduces net cost to $3,400.\n\nDecision rule: If you can realistically pay off the contractor financing in 12-18 months, take the 0% promotional rate. If there is meaningful risk of carrying the balance past the deadline, a personal loan with a known rate is the better financial choice.",
+    relatedSlugs: ["personal-loan-for-hvac-replacement", "personal-loan-for-energy-efficiency"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-to-avoid-bankruptcy",
+    question: "Can a personal loan help me avoid bankruptcy?",
+    topic: "Special situations",
+    shortAnswer:
+      "Potentially, if the core problem is high-rate debt that can be consolidated at a lower rate. A personal loan that reduces your monthly payment burden to a manageable level can provide the breathing room to repay without filing. But a personal loan cannot help if the fundamental problem is income that cannot support any debt repayment schedule.",
+    context:
+      "When a personal loan can help: You have high-rate credit card or payday debt consuming 40%-50% of income. Consolidating to a personal loan at a lower rate reduces monthly payments enough to make them sustainable. Example: 5 credit cards with minimum payments totaling $1,200/month consolidated into a personal loan at $650/month. This $550/month reduction may be the difference between defaulting and repaying.\n\nWhen a personal loan cannot help: If total monthly debt obligations (loan + rent + food + utilities) exceed your income after consolidation. If the debt load is simply too large relative to income regardless of rate. If the personal loan would be adding another debt obligation rather than replacing existing ones. In these cases, bankruptcy evaluation with an attorney (initial consultations are often free or low-cost) is appropriate.\n\nThe 'kicking the can' risk: Taking a personal loan to avoid bankruptcy can delay but ultimately worsen the situation if the underlying financial problem is not addressed. Bankruptcy, though serious, eliminates dischargeable debt and starts a recovery timeline. A personal loan that buys 12 months but then leads to default on the personal loan AND the original debts may be worse than filing earlier.\n\nNonprofit alternatives before either option: NFCC member nonprofit credit counselors offer free or low-cost debt management plan (DMP) consultations. A DMP negotiates with creditors to reduce interest rates (often to 5%-10%) and creates a consolidated monthly payment. No new loan is taken; creditors accept lower rates in exchange for a structured repayment plan. Many people avoid bankruptcy through DMPs.",
+    relatedSlugs: ["personal-loan-hardship-program", "personal-loan-debt-settlement-vs-payoff"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-for-home-repairs-after-insurance",
+    question: "Can I get a personal loan to cover home repair costs that insurance won't pay?",
+    topic: "Special situations",
+    shortAnswer:
+      "Yes. Insurance gaps (deductibles, exclusions, claim underpayment) are a common driver of personal loan applications for home repairs. Personal loans fund the gap between what insurance covers and actual repair costs, with no restriction on how you use the funds.",
+    context:
+      "Common insurance gap scenarios: High deductibles: homeowners policies with $5,000-$10,000 deductibles require substantial out-of-pocket payment before insurance contributes. A personal loan covers the deductible. Excluded causes: most homeowners policies exclude flooding, earthquakes, and gradual water damage. A leaky roof that damages ceilings over time may be excluded as gradual damage. Personal loans cover these excluded repairs. Underpaid claims: insurance adjusters may settle claims for less than contractor actual cost. The gap between the settlement and actual repair cost must be paid by the homeowner. Depreciation deductions: many policies pay actual cash value (ACV), not replacement cost value (RCV). The depreciation deduction can be thousands of dollars on older roofs or systems.\n\nTiming: Insurance claims can take weeks to months to settle. If emergency repairs are needed before the claim is paid, a personal loan bridges the gap - it can be paid off in full when the insurance check arrives (if your loan has no prepayment penalty).\n\nDocumentation tip: Get multiple contractor estimates before applying for the loan. This establishes the true repair cost and helps size the loan correctly. Your insurance claim settlement amount can serve as documentation of the reason for the loan if a lender asks for context.\n\nAlternative: contractor financing: many contractors who specialize in insurance restoration work offer in-house financing or partner with lenders. Compare this against a personal loan rate before committing.",
+    relatedSlugs: ["personal-loan-for-new-roof", "personal-loan-for-roof-repair-vs-replacement"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-what-is-cosigning",
+    question: "What does co-signing a personal loan actually mean?",
+    topic: "Process & terms",
+    shortAnswer:
+      "Co-signing means agreeing to be equally responsible for repaying someone else's loan if they default. The loan appears on your credit report, affects your DTI, and any late payments hurt your score directly. Co-signing is not a favor - it is accepting full financial liability for someone else's debt.",
+    context:
+      "What co-signing legally means: A co-signer is equally liable from day one. If the primary borrower misses a single payment, the lender can contact the co-signer and report the late payment to both credit bureaus simultaneously. The lender does not need to exhaust collection against the primary borrower before pursuing the co-signer. This is fundamentally different from being a 'reference' or 'guarantor' in the casual sense.\n\nImpact on the co-signer's finances: The full loan amount appears as a debt on the co-signer's credit report. This increases DTI and may reduce the co-signer's ability to qualify for their own credit (mortgage, auto loan). Every late payment is reported to the co-signer's credit report. If the primary borrower defaults and the co-signer does not pay, the lender can sue the co-signer and obtain a judgment - leading to wage garnishment or asset seizure.\n\nCredit report implications: The loan shows as an open installment account under the co-signer's name and SSN. It increases the co-signer's total debt burden, affecting their own DTI calculations when applying for credit. On-time payments do benefit the co-signer's payment history. Account closure (positive or negative) affects the co-signer's report for 7-10 years.\n\nWhen co-signing may make sense: You fully trust the primary borrower and they have a genuine need (recent graduate, first credit account). You have excess borrowing capacity that will not be needed soon. You have full visibility into the borrower's financial situation and income stability. You are prepared to make payments yourself if needed, without financial harm.\n\nAlternatives to co-signing: Joint loan application (both parties are equally primary borrowers). Helping the primary borrower open a secured credit card to build credit first. Gifting a smaller amount directly rather than taking on long-term liability.",
+    relatedSlugs: ["personal-loan-cosigner-release-request-denied", "personal-loan-co-signer-vs-co-borrower"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-for-storage-unit",
+    question: "Can I use a personal loan to pay for moving costs and storage?",
+    topic: "Special situations",
+    shortAnswer:
+      "Yes. Moving expenses including truck rental, movers, temporary storage, and security deposits are valid personal loan uses. For moves within $1,000-$5,000 in total cost, a small personal loan or 0% intro APR credit card is typically sufficient.",
+    context:
+      "Moving cost breakdown: Local move (same city): $500-$2,000 (rental truck) or $1,000-$3,500 (full-service movers). Long-distance move (across states): $3,000-$10,000 for full-service movers depending on weight and distance. Storage unit: $50-$300/month. Security deposit for new apartment: first month + security deposit = $2,000-$5,000 in many markets. Overlap housing costs: paying rent in both old and new locations during transition.\n\nWhen a personal loan makes sense for moving: Job relocation with a new employer who reimburses later: a personal loan bridges the cash flow gap until reimbursement. High-cost cities where moving in requires significant upfront cash (deposits, first and last month's rent). Long-distance move with high freight costs. Military PCS moves where government reimbursement takes months to arrive.\n\nSmaller alternatives: A 0% intro APR credit card works well for moving costs under $3,000 that can be paid off within 12-15 months. Cash advances from a checking account with overdraft protection. Asking the new employer for a signing bonus or relocation advance.\n\nStorage-specific: if the loan is primarily for an extended storage period ($200/month for 6+ months = $1,200+), it may be worth evaluating whether stored items have more value than the ongoing storage cost. Selling items and replacing them later may be cheaper than storing and financing.",
+    relatedSlugs: ["personal-loan-for-moving-expenses", "personal-loan-deposit-timeline"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-for-college-textbooks",
+    question: "Can I use a personal loan for college textbooks and supplies?",
+    topic: "Special situations",
+    shortAnswer:
+      "Yes, but exhaust student aid first. Federal student loans cover textbooks and supplies as part of the cost of attendance. Using federal student loans (lower rates, income-based repayment options) for books is typically cheaper than a personal loan. Use personal loans only if all student aid options are exhausted.",
+    context:
+      "Why student loans are better for education costs: Federal Direct Subsidized Loans: rates of 6.53% (2026) with interest subsidized while enrolled at least half-time. Income-driven repayment options available if income is low after graduation. Public Service Loan Forgiveness and other forgiveness programs available. Federal Direct Unsubsidized Loans: same low rate (6.53% undergrad) with more flexible access. Cost of attendance at most schools officially includes textbooks and supplies; student aid up to the cost of attendance can be used for these expenses.\n\nWhen a personal loan might fill a gap: All federal aid is exhausted and textbook costs remain. You are enrolled in a non-Title IV program (bootcamp, vocational training) that does not qualify for federal aid. Books are needed immediately (beginning of semester) but financial aid disbursement is delayed by 2-3 weeks.\n\nPersonal loan for books: practical reality: textbook costs per semester average $500-$1,200. This is a small loan. Personal loan minimums of $1,000-$2,000 may exceed what you need. High-rate personal loans on small amounts create disproportionate interest cost. Alternatives: rent textbooks instead of buying ($20-$100/book vs. $100-$300 to buy), use campus library reserves for required texts, purchase previous editions (often 80%-90% of content identical at fraction of cost), use Interlibrary Loan for less-used texts.",
+    relatedSlugs: ["personal-loan-for-college-tuition", "personal-loan-for-startup-business"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-joint-application-credit-score",
+    question: "Which credit score is used when applying for a personal loan jointly?",
+    topic: "Credit score",
+    shortAnswer:
+      "Lenders pull all applicants' credit scores and underwrite based on the lower (or sometimes the lower of the two primary borrowers). Some lenders use the primary borrower's score. Adding a co-borrower with a higher score helps; adding one with a lower score than yours may not improve your application and could complicate it.",
+    context:
+      "How joint underwriting works: Each applicant's credit is pulled separately. The lender evaluates both. For pricing (rate determination): most personal loan lenders use the primary borrower's credit score for the rate determination, especially if the primary has higher income. For approval: the weaker credit profile may act as a floor - if one co-borrower has very poor credit, some lenders will decline regardless of the stronger borrower's score.\n\nContrast with mortgage practice: In mortgage lending, lenders commonly use 'the lower of the two middle scores.' If one borrower's middle score is 640 and the other's is 780, the mortgage is underwritten at 640. Personal loan lenders vary more widely - some use the highest qualifying score, others use the lower score.\n\nWhen a joint application helps: Primary borrower has insufficient income for the loan amount but good credit. Adding a co-borrower with additional income (even similar credit) increases qualifying income. Co-borrower has significantly better credit than primary, and that lender prices off the better score.\n\nWhen a joint application may not help (or could hurt): Co-borrower has lower credit score than primary and lender uses the lower score. Co-borrower's high existing DTI is factored in, worsening the combined DTI picture. Lender requires separate hard pulls for each applicant, resulting in multiple inquiries.\n\nBest practice: ask the lender directly how they handle joint applications before submitting. Understand whose score determines the rate and whether your co-borrower's credit and income picture improves or complicates the application.",
+    relatedSlugs: ["personal-loan-joint-vs-solo", "personal-loan-co-signer-vs-co-borrower"],
+    toolLinks: [],
+  },
 ];
 
 export const questionsBySlug = Object.fromEntries(

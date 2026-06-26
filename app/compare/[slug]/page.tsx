@@ -12,7 +12,7 @@ import { comparisons, comparisonSlugs } from "@/lib/comparisons";
 import { defaultAuthor, defaultReviewer, authorUrl } from "@/lib/authors";
 
 const PUBLISHED = "2026-03-01";
-const REVIEWED = "2026-05-22";
+const REVIEWED = "2026-06-15";
 
 export function generateStaticParams() {
   return comparisonSlugs.map((slug) => ({ slug }));

@@ -16,7 +16,7 @@ import {
 import { defaultAuthor, defaultReviewer, authorUrl } from "@/lib/authors";
 
 const GLOSSARY_PUBLISHED = "2026-01-15";
-const GLOSSARY_REVIEWED = "2026-05-22";
+const GLOSSARY_REVIEWED = "2026-06-15";
 
 export function generateStaticParams() {
   return glossaryTerms.map((t) => ({ term: t.slug }));
@@ -28,7 +28,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { term } = await params;
   const t = glossaryBySlug[term];
   if (!t) return {};
-  const title = `${t.name}: Definition & Example`;
+  const title = `${t.name}: Definition & Examples (2026)`;
   return {
     title,
     description: t.short,

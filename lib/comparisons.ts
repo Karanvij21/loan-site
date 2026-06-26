@@ -72,7 +72,7 @@ export const comparisons: Record<string, Comparison> = {
   "personal-loan-vs-payday-loan": {
     slug: "personal-loan-vs-payday-loan",
     h1: "Personal loan vs payday loan",
-    title: "Personal Loan vs Payday Loan: APRs, Risks, Alternatives",
+    title: "Personal Loan vs Payday Loan: APRs, Risks & Alternatives (2026)",
     description:
       "Why a personal loan is almost always cheaper and safer than a payday loan. APR comparisons, repayment structure, and consumer-protection differences.",
     aName: "Personal loan",
@@ -106,7 +106,7 @@ export const comparisons: Record<string, Comparison> = {
   "personal-loan-vs-heloc": {
     slug: "personal-loan-vs-heloc",
     h1: "Personal loan vs HELOC",
-    title: "Personal Loan vs HELOC: Which Is Better for Home Projects?",
+    title: "Personal Loan vs HELOC: Which Is Better for Home Projects? (2026)",
     description:
       "Compare unsecured personal loans to home equity lines of credit. APRs, fees, closing time, lien risk, and when each option wins for home-improvement financing.",
     aName: "Personal loan",
@@ -141,7 +141,7 @@ export const comparisons: Record<string, Comparison> = {
   "personal-loan-vs-401k-loan": {
     slug: "personal-loan-vs-401k-loan",
     h1: "Personal loan vs 401(k) loan",
-    title: "Personal Loan vs 401(k) Loan: True Costs Compared",
+    title: "Personal Loan vs 401(k) Loan: True Costs Compared (2026)",
     description:
       "A 401(k) loan looks free because the interest goes back to you. Why that's misleading once you factor in lost market growth, the leave-job risk, and tax exposure.",
     aName: "Personal loan",
@@ -175,7 +175,7 @@ export const comparisons: Record<string, Comparison> = {
   "personal-loan-vs-balance-transfer": {
     slug: "personal-loan-vs-balance-transfer",
     h1: "Personal loan vs balance transfer card",
-    title: "Personal Loan vs 0% Balance Transfer Card: Which Pays Off Debt Faster?",
+    title: "Personal Loan vs Balance Transfer Card: Which Pays Off Debt Faster? (2026)",
     description:
       "When a 0% balance transfer beats a personal loan, when the math flips, and how to avoid the deferred-interest trap that erases the promo benefit.",
     aName: "Personal loan",
@@ -209,7 +209,7 @@ export const comparisons: Record<string, Comparison> = {
   "secured-vs-unsecured-loan": {
     slug: "secured-vs-unsecured-loan",
     h1: "Secured vs unsecured loan",
-    title: "Secured vs Unsecured Loan: APRs, Risks, and When Each Wins",
+    title: "Secured vs Unsecured Loan: APRs, Risks & When Each Wins (2026)",
     description:
       "What collateral means for a loan, how it affects APR, and the trade-off between cheaper rates and putting an asset at risk.",
     aName: "Secured loan",
@@ -243,7 +243,7 @@ export const comparisons: Record<string, Comparison> = {
   "installment-vs-revolving-credit": {
     slug: "installment-vs-revolving-credit",
     h1: "Installment vs revolving credit",
-    title: "Installment vs Revolving Credit: How They Affect Your Score and Cost",
+    title: "Installment vs Revolving Credit: Score & Cost Compared (2026)",
     description:
       "The two main credit structures explained: how installment loans (personal, auto, mortgage) differ from revolving accounts (credit cards, HELOC) on cost, payment, and credit-score impact.",
     aName: "Installment credit",
@@ -277,7 +277,7 @@ export const comparisons: Record<string, Comparison> = {
   "fixed-vs-variable-rate": {
     slug: "fixed-vs-variable-rate",
     h1: "Fixed vs variable interest rate",
-    title: "Fixed vs Variable Interest Rate: Which Is Better for Personal Loans?",
+    title: "Fixed vs Variable Interest Rate: Which Is Better for Personal Loans? (2026)",
     description:
       "Fixed rates lock in your payment for the life of the loan. Variable rates move with the prime rate. Which suits which borrower, and why most personal loans are fixed.",
     aName: "Fixed rate",
@@ -310,7 +310,7 @@ export const comparisons: Record<string, Comparison> = {
   "personal-loan-vs-home-equity-loan": {
     slug: "personal-loan-vs-home-equity-loan",
     h1: "Personal loan vs home equity loan",
-    title: "Personal Loan vs Home Equity Loan: Costs, Risk, and When Each Wins",
+    title: "Personal Loan vs Home Equity Loan: Costs, Risk & When Each Wins (2026)",
     description:
       "Home equity loans price 4 to 8 points lower than personal loans, but they put your house on the line. Side-by-side: APR, closing costs, risk, tax treatment, and best-fit scenarios.",
     aName: "Personal loan",
@@ -345,7 +345,7 @@ export const comparisons: Record<string, Comparison> = {
   "personal-loan-vs-bnpl": {
     slug: "personal-loan-vs-bnpl",
     h1: "Personal loan vs Buy Now Pay Later (BNPL)",
-    title: "Personal Loan vs Buy Now Pay Later: Costs, Credit Impact, Hidden Risks",
+    title: "Personal Loan vs BNPL: Costs, Credit Impact & Hidden Risks (2026)",
     description:
       "BNPL is interest-free if you pay on time, but late fees, deferred interest, and credit-report changes have shifted the math. Side-by-side with personal loans for purchase financing.",
     aName: "Personal loan",
@@ -380,7 +380,7 @@ export const comparisons: Record<string, Comparison> = {
   "personal-loan-vs-pawn-loan": {
     slug: "personal-loan-vs-pawn-loan",
     h1: "Personal loan vs pawn loan",
-    title: "Personal Loan vs Pawn Loan: APRs, Risk, and When Each Makes Sense",
+    title: "Personal Loan vs Pawn Loan: APRs, Risk & When Each Makes Sense (2026)",
     description:
       "Pawn loans require no credit check but charge 100% to 200% APR and risk losing your item. Personal loans take longer to approve but cost a fraction. Side-by-side analysis.",
     aName: "Personal loan",
@@ -415,7 +415,7 @@ export const comparisons: Record<string, Comparison> = {
   "personal-loan-vs-cash-advance": {
     slug: "personal-loan-vs-cash-advance",
     h1: "Personal loan vs credit card cash advance",
-    title: "Personal Loan vs Credit Card Cash Advance: APRs, Fees, and Cheaper Alternatives",
+    title: "Personal Loan vs Cash Advance: APRs, Fees & Cheaper Alternatives (2026)",
     description:
       "Cash advances charge a transaction fee, a higher APR than the card's purchase APR, and accrue interest from day one. Personal loans cost a fraction. Side-by-side breakdown.",
     aName: "Personal loan",
@@ -449,7 +449,7 @@ export const comparisons: Record<string, Comparison> = {
   "personal-loan-vs-title-loan": {
     slug: "personal-loan-vs-title-loan",
     h1: "Personal loan vs car title loan",
-    title: "Personal Loan vs Car Title Loan: APRs, Risk of Repossession, Alternatives",
+    title: "Personal Loan vs Car Title Loan: APRs, Repossession Risk & Alternatives (2026)",
     description:
       "Title loans run 200% to 300% effective APR and put your vehicle at risk. Personal loans cost a fraction. Side-by-side on price, risk, and consumer-protection differences.",
     aName: "Personal loan",
@@ -484,7 +484,7 @@ export const comparisons: Record<string, Comparison> = {
   "personal-loan-vs-family-loan": {
     slug: "personal-loan-vs-family-loan",
     h1: "Personal loan vs borrowing from family",
-    title: "Personal Loan vs Family Loan: Pricing, Tax, and the Relationship Cost",
+    title: "Personal Loan vs Family Loan: Pricing, Tax & Relationship Cost (2026)",
     description:
       "Family loans can be interest-free if structured at the IRS Applicable Federal Rate, but they carry relationship risk and tax pitfalls. Side-by-side with a personal loan.",
     aName: "Personal loan",
@@ -552,7 +552,7 @@ export const comparisons: Record<string, Comparison> = {
   "personal-loan-vs-401k-hardship-withdrawal": {
     slug: "personal-loan-vs-401k-hardship-withdrawal",
     h1: "Personal loan vs 401(k) hardship withdrawal",
-    title: "Personal Loan vs 401(k) Hardship Withdrawal: Tax Cost and Retirement Impact",
+    title: "Personal Loan vs 401(k) Hardship Withdrawal: Tax & Retirement Impact (2026)",
     description:
       "A hardship withdrawal incurs income tax plus a 10% penalty and permanently shrinks retirement savings. Personal loans cost less and leave the 401(k) intact.",
     aName: "Personal loan",

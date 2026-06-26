@@ -134,7 +134,7 @@ export const guides: Guide[] = [
     slug: "snowball-vs-avalanche-debt-payoff",
     cluster: "Debt management",
     h1: "Snowball vs avalanche: which debt payoff method wins?",
-    title: "Snowball vs Avalanche: Which Debt Payoff Method Saves More?",
+    title: "Snowball vs Avalanche: Which Debt Payoff Method Saves More? (2026)",
     description:
       "The two most popular debt payoff strategies compared on math, behaviour, and real-world success rates. Includes a worked example showing exact dollar differences.",
     publishedAt: PUBLISHED,
@@ -183,7 +183,7 @@ export const guides: Guide[] = [
     slug: "what-to-do-debt-collections",
     cluster: "Debt management",
     h1: "What to do when your debt goes to collections",
-    title: "Debt in Collections: Your Rights, Your Moves, Your Recovery",
+    title: "Debt in Collections: Your Rights, Moves & Recovery Plan (2026)",
     description:
       "If a creditor sent your debt to collections, here's exactly what to do: your FDCPA rights, how to negotiate, what to never say on a call, and how to repair your credit afterward.",
     publishedAt: PUBLISHED,
@@ -348,7 +348,7 @@ export const guides: Guide[] = [
     slug: "dispute-credit-report-errors",
     cluster: "Credit improvement",
     h1: "How to dispute errors on your credit report",
-    title: "How to Dispute Credit Report Errors (Step-by-Step, FCRA)",
+    title: "How to Dispute Credit Report Errors Step-by-Step (FCRA 2026)",
     description:
       "Step-by-step guide to disputing errors on your credit report under the Fair Credit Reporting Act. Includes sample letter, what bureaus must do, and how to escalate.",
     publishedAt: PUBLISHED,
@@ -406,7 +406,7 @@ export const guides: Guide[] = [
     slug: "compare-personal-loan-offers",
     cluster: "Loan shopping",
     h1: "How to compare personal loan offers like a pro",
-    title: "How to Compare Personal Loan Offers: APR, Fees, Terms (Checklist)",
+    title: "How to Compare Personal Loan Offers: APR, Fees & Terms (2026 Checklist)",
     description:
       "Step-by-step checklist for comparing personal loan offers correctly: effective APR, origination fees, prepayment terms, autopay discounts, and the lines you should never skim.",
     publishedAt: PUBLISHED,
@@ -462,7 +462,7 @@ export const guides: Guide[] = [
     slug: "hidden-fees-personal-loans",
     cluster: "Loan shopping",
     h1: "Hidden fees in personal loans (and how to spot them)",
-    title: "Hidden Fees in Personal Loans: Origination, Late, Prepayment",
+    title: "Hidden Fees in Personal Loans: Origination, Late & Prepayment (2026)",
     description:
       "Every fee a personal-loan lender can charge, why each exists, and how to find them buried in the loan agreement. Includes the federal TILA disclosure box decoded.",
     publishedAt: PUBLISHED,
@@ -529,7 +529,7 @@ export const guides: Guide[] = [
     slug: "should-you-take-loan-for-wedding",
     cluster: "Life events",
     h1: "Should you take a personal loan for a wedding?",
-    title: "Should You Take a Personal Loan for a Wedding? The Honest Math",
+    title: "Personal Loan for a Wedding: Costs, Risks & Honest Math (2026)",
     description:
       "The financial case for and against borrowing to pay for a wedding, with a 30-second decision framework and the specific numbers that should drive your call.",
     publishedAt: PUBLISHED,
@@ -631,7 +631,7 @@ export const guides: Guide[] = [
     slug: "negotiate-payoff-with-creditor",
     cluster: "Debt management",
     h1: "How to negotiate a debt payoff with a creditor",
-    title: "Negotiate a Debt Payoff: Scripts, Tactics, Realistic Settlement Ranges",
+    title: "Negotiate a Debt Payoff: Scripts, Tactics & Settlement Ranges (2026)",
     description:
       "How to negotiate a lump-sum payoff with a credit card company, original creditor, or collection agency. Includes scripts, realistic settlement ranges by stage, and tax-impact warnings.",
     publishedAt: PUBLISHED,
@@ -728,7 +728,7 @@ export const guides: Guide[] = [
     slug: "50-30-20-budget-rule",
     cluster: "Debt management",
     h1: "The 50/30/20 budget rule, explained",
-    title: "The 50/30/20 Budget Rule: How It Works and When It Breaks",
+    title: "The 50/30/20 Budget Rule: How It Works and When It Breaks (2026)",
     description:
       "The 50/30/20 budget rule allocates after-tax income into needs, wants, and savings. Here's the math, when it works, and the income levels where it stops being realistic.",
     publishedAt: PUBLISHED,
@@ -773,7 +773,7 @@ export const guides: Guide[] = [
     slug: "build-emergency-fund-from-zero",
     cluster: "Debt management",
     h1: "How to build an emergency fund from zero",
-    title: "How to Build an Emergency Fund From Zero (Step-by-Step)",
+    title: "How to Build an Emergency Fund From Zero in 2026 (Step-by-Step)",
     description:
       "A realistic month-by-month plan to build your first emergency fund. Where to keep it, how much to target, and what counts as an emergency.",
     publishedAt: PUBLISHED,
@@ -818,7 +818,7 @@ export const guides: Guide[] = [
     slug: "credit-counseling-vs-debt-settlement-vs-bankruptcy",
     cluster: "Debt management",
     h1: "Credit counselling vs debt settlement vs bankruptcy",
-    title: "Credit Counselling vs Debt Settlement vs Bankruptcy: Which Fits?",
+    title: "Credit Counseling vs Debt Settlement vs Bankruptcy: Which Fits? (2026)",
     description:
       "Side-by-side comparison of the three main paths out of severe debt. Cost, credit impact, timeline, and which kind of debt situation each one fits.",
     publishedAt: PUBLISHED,
@@ -951,7 +951,7 @@ export const guides: Guide[] = [
     slug: "secured-credit-card-strategy",
     cluster: "Credit improvement",
     h1: "Secured credit card strategy for credit building",
-    title: "Secured Credit Cards: How to Pick, Use, and Graduate",
+    title: "Secured Credit Cards: How to Pick, Use and Graduate (2026)",
     description:
       "Step-by-step guide to using secured credit cards to build or rebuild credit. Picking the right card, optimal usage pattern, and how to graduate to unsecured.",
     publishedAt: PUBLISHED,
@@ -999,7 +999,7 @@ export const guides: Guide[] = [
     slug: "banks-credit-unions-online-lenders",
     cluster: "Loan shopping",
     h1: "Banks vs credit unions vs online lenders: where to borrow",
-    title: "Banks vs Credit Unions vs Online Lenders: Best Personal Loan Source",
+    title: "Banks vs Credit Unions vs Online Lenders: Best Personal Loan Source (2026)",
     description:
       "Personal loan rate comparison across banks, credit unions, and online lenders. When each option wins, who they approve, and how to choose.",
     publishedAt: PUBLISHED,
@@ -1045,7 +1045,7 @@ export const guides: Guide[] = [
     slug: "how-to-read-loan-agreement",
     cluster: "Loan shopping",
     h1: "How to read a personal loan agreement",
-    title: "How to Read a Personal Loan Agreement: What to Check Before Signing",
+    title: "How to Read a Personal Loan Agreement: 2026 Signing Checklist",
     description:
       "Section-by-section guide to reading a personal loan agreement before you sign. The clauses that matter, the ones that don't, and the red flags to walk away from.",
     publishedAt: PUBLISHED,
@@ -1106,7 +1106,7 @@ export const guides: Guide[] = [
     slug: "loan-application-denied-what-to-do",
     cluster: "Loan shopping",
     h1: "Your loan application was denied. Now what?",
-    title: "Personal Loan Application Denied: Why, and What to Do Next",
+    title: "Personal Loan Application Denied: Why It Happens & What to Do (2026)",
     description:
       "The most common reasons personal loan applications are denied, how to read your adverse action notice, and the right next steps to get approved.",
     publishedAt: PUBLISHED,
@@ -1155,7 +1155,7 @@ export const guides: Guide[] = [
     slug: "financing-baby-arrival",
     cluster: "Life events",
     h1: "Financing a baby's arrival: the realistic cost map",
-    title: "How Much Does Having a Baby Cost? Financing Options Compared",
+    title: "How Much Does Having a Baby Cost in 2026? Financing Options Compared",
     description:
       "Realistic costs of having a baby in the U.S. in 2026, what insurance covers, and the financing options for the gap. Includes a checklist of expenses people forget.",
     publishedAt: PUBLISHED,
@@ -1201,7 +1201,7 @@ export const guides: Guide[] = [
     slug: "personal-loan-during-unemployment",
     cluster: "Life events",
     h1: "Can you get a personal loan during unemployment?",
-    title: "Personal Loans During Unemployment: What Works, What Doesn't",
+    title: "Personal Loans During Unemployment: What Works in 2026 (and What Doesn't)",
     description:
       "Whether you can get a personal loan while unemployed, what lenders consider income, and the alternative options that often work better.",
     publishedAt: PUBLISHED,
@@ -1249,7 +1249,7 @@ export const guides: Guide[] = [
     slug: "right-size-emergency-fund",
     cluster: "Money habits",
     h1: "What's the right size emergency fund for you?",
-    title: "How Big Should Your Emergency Fund Be? (Personal-Situation Math)",
+    title: "How Big Should Your Emergency Fund Be? (2026 Personal-Situation Math)",
     description:
       "The right emergency fund size depends on your income stability, dependents, insurance coverage, and debt situation. Here's the math for different profiles.",
     publishedAt: PUBLISHED,
@@ -1294,7 +1294,7 @@ export const guides: Guide[] = [
     slug: "how-to-handle-windfall",
     cluster: "Money habits",
     h1: "How to handle a windfall: tax refund, bonus, inheritance",
-    title: "How to Handle a Windfall: Tax Refund, Bonus, or Inheritance",
+    title: "How to Handle a Windfall in 2026: Tax Refund, Bonus or Inheritance",
     description:
       "Practical order-of-operations for handling unexpected money: tax refunds, work bonuses, inheritance, lawsuit settlements, or any one-time lump sum.",
     publishedAt: PUBLISHED,
@@ -1387,7 +1387,7 @@ export const guides: Guide[] = [
     slug: "money-mistakes-that-hurt-credit",
     cluster: "Credit improvement",
     h1: "Five common money mistakes that hurt your credit score",
-    title: "5 Money Mistakes That Hurt Your Credit Score (and How to Avoid Them)",
+    title: "5 Money Mistakes That Hurt Your Credit Score in 2026 (and How to Fix Them)",
     description:
       "Five common financial decisions that quietly damage credit scores without obvious immediate consequences. Each comes with the underlying mechanism and how to avoid it.",
     publishedAt: PUBLISHED,
@@ -1438,7 +1438,7 @@ export const guides: Guide[] = [
     slug: "credit-reporting-timing-explained",
     cluster: "Credit improvement",
     h1: "How credit reporting timing actually works",
-    title: "Credit Reporting Timing: When Lenders Report, When Scores Update",
+    title: "Credit Reporting Timing in 2026: When Lenders Report, When Scores Update",
     description:
       "When lenders report to credit bureaus, when scores update, and the timing strategies for getting maximum credit-score benefit from any specific financial move.",
     publishedAt: PUBLISHED,
@@ -1484,7 +1484,7 @@ export const guides: Guide[] = [
     slug: "how-to-choose-financial-advisor",
     cluster: "Money habits",
     h1: "How to choose a financial advisor",
-    title: "How to Choose a Financial Advisor (Fee-Only vs Commission, CFP, Fiduciary)",
+    title: "How to Choose a Financial Advisor in 2026 (Fee-Only vs Commission, CFP, Fiduciary)",
     description:
       "How to find and vet a financial advisor: the difference between fee-only and commission-based advisors, what fiduciary really means, and the questions to ask before hiring.",
     publishedAt: PUBLISHED,
@@ -1534,7 +1534,7 @@ export const guides: Guide[] = [
     slug: "student-loan-refinance-alternatives",
     cluster: "Debt management",
     h1: "Student loan refinancing alternatives explored",
-    title: "Student Loan Refinancing: Options, Trade-offs, When to (and Not to) Refinance",
+    title: "Student Loan Refinancing in 2026: Options, Trade-offs & When to Refinance",
     description:
       "Should you refinance federal student loans? The trade-offs, the lenders worth applying to, the income-driven repayment options that disappear when you refinance, and when consolidation is the better move.",
     publishedAt: PUBLISHED,

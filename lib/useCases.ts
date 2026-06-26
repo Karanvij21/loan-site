@@ -319,6 +319,122 @@ export const useCases: Record<string, UseCase> = {
       { q: "What about energy-efficient appliances, any rebates?", a: "Many states and utilities offer rebates for ENERGY STAR appliances. Combining a manufacturer rebate + utility rebate + personal loan can sharply reduce out-of-pocket cost. Check your utility's website before you buy." },
     ],
   },
+  pet: {
+    slug: "pet",
+    h1: "Personal loans for pet expenses",
+    title: "Pet Loans 2026: Personal Loans for Vet Bills & Pet Care, Soft Check",
+    description:
+      "Personal loans for veterinary bills, emergency pet care, pet surgery, and adoption fees. $300 to $25,000, soft credit check, funds as fast as the next business day.",
+    eyebrow: "Use case",
+    intro:
+      "A pet loan is an unsecured personal loan used to cover veterinary bills, emergency surgery, chronic illness treatment, or large pet-adoption fees. Unlike CareCredit or vet payment plans (which require the vet to be in-network and may carry deferred-interest traps), a personal loan deposits funds directly into your checking account so you can pay any veterinarian, any specialty clinic, or any animal hospital of your choice.",
+    amountMin: 300,
+    amountMax: 25000,
+    termMin: 6,
+    termMax: 60,
+    aprMin: 7.99,
+    aprMax: 35.99,
+    bullets: [
+      "Cover vet bills, emergency surgery, cancer treatment, dental, or adoption fees",
+      "Loan amounts from $300 to $25,000",
+      "APRs typically 7.99% to 35.99% depending on credit",
+      "Use at any veterinarian or animal hospital, in-network or not",
+      "Soft credit check to compare offers, funds next business day",
+    ],
+    faqs: [
+      { q: "Is a personal loan better than CareCredit for vet bills?", a: "It depends. CareCredit works only at enrolled providers. A personal loan works anywhere and has a known APR from the start, with no deferred-interest risk if you don't pay in full by the promotional deadline. For large bills or if your vet isn't in-network, a personal loan is almost always more flexible." },
+      { q: "What credit score do I need for a pet loan?", a: "Scores as low as 580 are considered by some lenders in our network. The higher your score, the better the APR. For a $1,500 vet bill, many fair-credit borrowers qualify for same-day approval." },
+      { q: "Can I use a personal loan for pet insurance deductibles?", a: "Yes. Personal loans are general-purpose. You can use them for deductibles, copays, treatments not covered by insurance, or any other out-of-pocket pet expense." },
+      { q: "How fast can I get the money?", a: "Most online lenders fund the next business day after you accept and e-sign. In a veterinary emergency where the clinic requires payment upfront, check whether your lender offers same-day funding before you apply." },
+    ],
+  },
+  fertility: {
+    slug: "fertility",
+    h1: "Personal loans for fertility treatments",
+    title: "Fertility Loans 2026: Personal Loans for IVF & Reproductive Care, Soft Check",
+    description:
+      "Personal loans for IVF, egg freezing, IUI, and other fertility treatments. $3,000 to $50,000, fixed APRs, soft credit check, no collateral required.",
+    eyebrow: "Use case",
+    intro:
+      "A fertility loan is an unsecured personal loan used to cover IVF cycles, egg freezing, IUI, donor egg or sperm, surrogacy legal fees, or adoption-related fertility treatments. A single IVF cycle averages $12,000-$15,000 out of pocket, and many patients need multiple cycles. Personal loans provide a predictable monthly payment across the full treatment timeline instead of depleting savings all at once.",
+    amountMin: 3000,
+    amountMax: 50000,
+    termMin: 24,
+    termMax: 72,
+    aprMin: 6.99,
+    aprMax: 35.99,
+    bullets: [
+      "Fund IVF cycles, egg freezing, IUI, donor embryo, or surrogacy costs",
+      "Loan amounts from $3,000 to $50,000",
+      "APRs typically 6.99% to 35.99% based on credit profile",
+      "Use at any fertility clinic, not restricted to in-network providers",
+      "Soft credit check to compare offers with no score impact",
+    ],
+    faqs: [
+      { q: "How much does IVF cost and how much should I borrow?", a: "A single IVF cycle in the U.S. averages $12,000-$15,000 for procedures alone, plus $3,000-$6,000 for medications, plus anesthesia, embryo storage, and genetic testing. Many couples budget $20,000-$25,000 per cycle for all-in costs, and a meaningful percentage need 2-3 cycles. Borrow for one cycle at a time if possible, to avoid over-borrowing." },
+      { q: "Are fertility loans tax-deductible?", a: "Fertility treatment costs that exceed 7.5% of your adjusted gross income may be deductible as a medical expense on Schedule A. This includes IVF, IUI, and prescription fertility medications. Interest paid on a personal loan used for qualifying medical expenses is generally not separately deductible. Consult a tax professional for your specific situation." },
+      { q: "Can both partners apply together for a larger loan?", a: "Yes, as a joint application or co-borrower arrangement. Combining both incomes on the application typically increases the approved loan amount and, if both have strong credit, can lower the APR." },
+      { q: "Are there specialty fertility financing programs I should compare?", a: "Yes. Some fertility clinics partner with specialty lenders (Prosper Healthcare Lending, CapexMD, United Medical Credit) that may offer promotional rates or multi-cycle financing. Compare their total cost (APR plus origination fees) against a marketplace personal loan to see which is actually cheaper." },
+    ],
+  },
+  adoption: {
+    slug: "adoption",
+    h1: "Personal loans for adoption expenses",
+    title: "Adoption Loans 2026: Personal Loans for Adoption Costs, Soft Check",
+    description:
+      "Personal loans to cover domestic, international, or foster adoption costs. Agency fees, legal costs, home study fees, and travel. $2,000 to $40,000, fixed APRs.",
+    eyebrow: "Use case",
+    intro:
+      "An adoption loan is an unsecured personal loan used to cover the costs of domestic, international, or foster-care adoption. Total adoption costs range from $0 for foster-care adoptions to $20,000-$50,000+ for private domestic or international adoptions. A personal loan provides a single fixed payment across the process, which can span 12-36 months from home study to finalization.",
+    amountMin: 2000,
+    amountMax: 40000,
+    termMin: 24,
+    termMax: 72,
+    aprMin: 6.99,
+    aprMax: 35.99,
+    bullets: [
+      "Cover agency fees, legal fees, home study, court costs, and travel",
+      "Loan amounts from $2,000 to $40,000",
+      "APRs typically 6.99% to 35.99% based on credit profile",
+      "Use at any agency, attorney, or court (not restricted)",
+      "Federal adoption tax credit (up to $15,950 for 2024) can offset costs",
+    ],
+    faqs: [
+      { q: "How much does adoption typically cost?", a: "Costs range widely: foster care adoption through state agencies is typically $0-$2,500 with state subsidies. Domestic private adoption: $25,000-$45,000 through an agency, $15,000-$25,000 through an attorney. International adoption: $20,000-$50,000 depending on country. The federal adoption tax credit (up to $15,950 in 2024) can offset a large portion for qualifying adoptions." },
+      { q: "Can I get an adoption tax credit and a personal loan?", a: "Yes, these are separate. You borrow to cover costs as they arise, then claim the tax credit on your return for the tax year the adoption is finalized. The tax credit can reduce your federal tax liability dollar for dollar, and it's refundable if you adopt a child with special needs." },
+      { q: "How far in advance should I secure financing?", a: "Apply for pre-qualification early in the home study phase (12-18 months before finalization is typical). Knowing your approved amount lets you budget realistically. Most lenders hold a pre-qualified offer for 30-90 days, so time the formal application 4-8 weeks before your largest expected disbursement." },
+      { q: "Are there grants available I should exhaust first?", a: "Yes. Several foundations offer adoption grants: Gift of Adoption Fund, Lifesong for Orphans, National Adoption Foundation, and others. These are non-repayable and should be applied for before borrowing. Many families combine grants plus personal loan to close the gap." },
+    ],
+  },
+  solar: {
+    slug: "solar",
+    h1: "Personal loans for solar panels",
+    title: "Solar Panel Loans 2026: Personal Loans for Solar Installation, No Equity Required",
+    description:
+      "Unsecured personal loans for residential solar panel installation. No home equity required. $5,000 to $50,000, fixed APRs, compare offers in minutes.",
+    eyebrow: "Use case",
+    intro:
+      "A solar loan is an unsecured personal loan used to fund residential solar panel installation without pledging your home as collateral. Unlike dedicated solar financing (PACE loans, manufacturer financing) or HELOCs, an unsecured personal loan gives you full ownership of the system immediately, works for renters in some cases, and carries no lien on your property.",
+    amountMin: 5000,
+    amountMax: 50000,
+    termMin: 24,
+    termMax: 84,
+    aprMin: 5.99,
+    aprMax: 29.99,
+    bullets: [
+      "Fund the full cost of residential solar installation, no home equity needed",
+      "Loan amounts from $5,000 to $50,000",
+      "APRs typically 5.99% to 29.99% for prime borrowers",
+      "No lien on your home (unlike PACE loans or HELOCs)",
+      "Federal solar tax credit (ITC) of 30% of system cost available through 2032",
+    ],
+    faqs: [
+      { q: "What is the federal solar tax credit?", a: "The Residential Clean Energy Credit (ITC) allows you to deduct 30% of the cost of a qualifying solar installation from your federal taxes. On a $25,000 system, that's a $7,500 credit. The credit applies to the full installed cost including panels, inverters, labor, and permitting. It applies to your tax year of installation and is non-refundable (reduces taxes owed but doesn't generate a refund if you owe less than the credit amount)." },
+      { q: "Is a personal loan or a HELOC better for solar?", a: "Depends on your situation. A HELOC offers lower APRs because it's secured by your home, but it puts your home at risk and typically requires 20%+ equity. An unsecured personal loan is faster (funded next day vs. 3-6 weeks), carries no foreclosure risk, and works whether you have equity or not. For amounts under $30,000, the APR difference often doesn't justify the HELOC complexity." },
+      { q: "Are there PACE loans I should consider?", a: "PACE (Property Assessed Clean Energy) loans are repaid through property tax assessments rather than a separate loan payment. They are easy to qualify for but carry a lien on your home, have higher effective APRs than they appear (when amortized correctly), and some buyers' lenders won't approve homes with PACE liens. For most homeowners, a personal loan is less risky and more portable." },
+      { q: "Can I borrow more than the solar installation cost?", a: "Yes. Some homeowners roll in the cost of a battery storage system, EV charger, or electrical panel upgrade into the same personal loan. Confirm with your installer what can be included in the project scope, then borrow for the full bundled cost." },
+    ],
+  },
 };
 
 export const useCaseSlugs = Object.keys(useCases);

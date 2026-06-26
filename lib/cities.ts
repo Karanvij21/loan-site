@@ -158,6 +158,8 @@ export const cities: City[] = [
   city("Fort Wayne", "fort-wayne", "indiana", 270_000),
   city("Evansville", "evansville", "indiana", 117_000),
   city("South Bend", "south-bend", "indiana", 103_000),
+  city("Bloomington", "bloomington", "indiana", 86_000),
+  city("Carmel", "carmel", "indiana", 103_000),
 
   // Iowa
   city("Des Moines", "des-moines", "iowa", 213_000),
@@ -177,12 +179,16 @@ export const cities: City[] = [
   city("Louisville", "louisville", "kentucky", 625_000),
   city("Lexington", "lexington", "kentucky", 322_000),
   city("Bowling Green", "bowling-green", "kentucky", 75_000),
+  city("Owensboro", "owensboro", "kentucky", 60_000),
+  city("Covington", "covington", "kentucky", 43_000),
 
   // Louisiana
   city("New Orleans", "new-orleans", "louisiana", 380_000),
   city("Baton Rouge", "baton-rouge", "louisiana", 220_000),
   city("Shreveport", "shreveport", "louisiana", 185_000),
   city("Lafayette", "lafayette", "louisiana", 121_000),
+  city("Lake Charles", "lake-charles", "louisiana", 78_000),
+  city("Metairie", "metairie", "louisiana", 140_000),
 
   // Maine
   city("Portland", "portland", "maine", 68_000),
@@ -200,6 +206,8 @@ export const cities: City[] = [
   city("Worcester", "worcester", "massachusetts", 205_000),
   city("Springfield", "springfield", "massachusetts", 155_000),
   city("Cambridge", "cambridge", "massachusetts", 118_000),
+  city("Lowell", "lowell", "massachusetts", 115_000),
+  city("Brockton", "brockton", "massachusetts", 105_000),
 
   // Michigan
   city("Detroit", "detroit", "michigan", 630_000),
@@ -213,18 +221,23 @@ export const cities: City[] = [
   city("Saint Paul", "saint-paul", "minnesota", 308_000),
   city("Rochester", "rochester", "minnesota", 121_000),
   city("Duluth", "duluth", "minnesota", 86_000),
+  city("Brooklyn Park", "brooklyn-park", "minnesota", 86_000),
+  city("Plymouth", "plymouth", "minnesota", 80_000),
 
   // Mississippi
   city("Jackson", "jackson", "mississippi", 145_000),
   city("Gulfport", "gulfport", "mississippi", 72_000),
   city("Southaven", "southaven", "mississippi", 55_000),
   city("Hattiesburg", "hattiesburg", "mississippi", 47_000),
+  city("Biloxi", "biloxi", "mississippi", 46_000),
 
   // Missouri
   city("Kansas City", "kansas-city", "missouri", 510_000),
   city("Saint Louis", "saint-louis", "missouri", 300_000),
   city("Springfield", "springfield", "missouri", 170_000),
   city("Columbia", "columbia", "missouri", 127_000),
+  city("Independence", "independence", "missouri", 120_000),
+  city("Lee's Summit", "lees-summit", "missouri", 101_000),
 
   // Montana
   city("Billings", "billings", "montana", 117_000),
@@ -235,12 +248,15 @@ export const cities: City[] = [
   city("Omaha", "omaha", "nebraska", 487_000),
   city("Lincoln", "lincoln", "nebraska", 295_000),
   city("Bellevue", "bellevue", "nebraska", 65_000),
+  city("Grand Island", "grand-island", "nebraska", 53_000),
 
   // Nevada
   city("Las Vegas", "las-vegas", "nevada", 650_000),
   city("Henderson", "henderson", "nevada", 320_000),
   city("Reno", "reno", "nevada", 265_000),
   city("North Las Vegas", "north-las-vegas", "nevada", 268_000),
+  city("Sparks", "sparks", "nevada", 103_000),
+  city("Carson City", "carson-city", "nevada", 58_000),
 
   // New Hampshire
   city("Manchester", "manchester", "new-hampshire", 115_000),
@@ -295,6 +311,8 @@ export const cities: City[] = [
   city("Tulsa", "tulsa", "oklahoma", 410_000),
   city("Norman", "norman", "oklahoma", 130_000),
   city("Broken Arrow", "broken-arrow", "oklahoma", 116_000),
+  city("Edmond", "edmond", "oklahoma", 97_000),
+  city("Lawton", "lawton", "oklahoma", 93_000),
 
   // Oregon
   city("Portland", "portland", "oregon", 650_000),

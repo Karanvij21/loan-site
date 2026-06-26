@@ -2940,6 +2940,187 @@ export const questions: Question[] = [
       { label: "Guide: How to refinance", href: "/learn/how-to-refinance-personal-loan" },
     ],
   },
+  {
+    slug: "personal-loan-rewards-points",
+    question: "Do any personal loans earn rewards or cashback?",
+    topic: "Process & terms",
+    shortAnswer:
+      "Almost no personal loans offer rewards or cashback. Personal loans are designed for one-time borrowing, not ongoing spending, so the rewards model that works for credit cards does not apply. A few lenders offer relationship discounts but not per-dollar rewards.",
+    context:
+      "Why personal loans rarely have rewards: Credit card rewards are funded by interchange fees (1%-3% charged to merchants on each transaction) and by interest paid by cardholders who carry balances. Personal loans have neither - they generate revenue only from interest and fees on a fixed principal. There is no margin structure to fund per-dollar rewards.\n\nLender loyalty programs as a partial substitute: Some lenders offer member benefits that loosely resemble rewards. SoFi offers member rate discounts, career coaching, financial planning, and referral bonuses. LightStream offers a rate beat program. These are not per-dollar earning, but they do provide value to repeat customers.\n\nAutopay discount as effective cashback: The 0.25%-0.50% APR discount for autopay enrollment is economically equivalent to earning cashback on each payment. On a $15,000 loan at 0.25% discount, the total savings over 36 months is approximately $75-$100 - comparable to modest cashback earnings.\n\nIf rewards are your priority: Use a 0% intro APR credit card for purchases where you earn rewards, then pay off the balance before the intro period ends. This earns rewards AND avoids interest. A personal loan is the right tool when the amount is too large for a credit card or when you need a structured payoff schedule longer than an intro APR window.\n\nExceptions: Some credit unions give points toward future loan rate reductions as a loyalty program. These are rare and not widely advertised.",
+    relatedSlugs: ["personal-loan-autopay-discount", "personal-loan-credit-union-vs-bank"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-origination-fee-worth-it",
+    question: "Is it worth paying an origination fee for a personal loan?",
+    topic: "Process & terms",
+    shortAnswer:
+      "Sometimes yes. An origination fee is worth paying if the lender's interest rate is low enough that the total cost (interest plus fee) beats a no-fee lender. Always compare total repayment cost, not just APR or just the fee.",
+    context:
+      "The origination fee trade-off: Some lenders charge no origination fee but have higher interest rates. Others charge 1%-8% upfront but offer lower rates. Neither model is always better - it depends on the loan amount and how long you hold the loan.\n\nWhen origination fee can be worth it: If you are borrowing a large amount ($20,000+) and the lower rate over 3-5 years saves more than the upfront fee. If you plan to hold the loan to full term (no early payoff), the interest savings compound over the full period.\n\nWhen to avoid origination fees: If you plan to pay off the loan early (within 12-18 months), an upfront fee hurts more because you do not hold the loan long enough to recoup savings from the lower rate. Also, if you are comparing two lenders with similar underlying rates and only one charges a fee, the no-fee option is clearly better.\n\nThe comparison math: For a $10,000 loan at 10% APR (no fee) vs 8% APR with a 3% origination fee ($300), you receive $9,700 net on the second option. Over 36 months: Total paid at 10% = $11,616. Total paid at 8% + fee = $11,290 (payments only, not counting the $300 already paid). Total cost comparison: $11,616 vs $11,590. The lower-rate/fee loan saves about $26 total here. But at a 2% fee, the no-fee loan at 10% wins for terms shorter than 30 months.\n\nSimplest rule: Compare APRs. The lender must include the origination fee in the APR under TILA. The lender with the lower APR has the better deal on an apples-to-apples basis, provided you do not pay off early.",
+    relatedSlugs: ["personal-loan-fees-explained", "personal-loan-apr-vs-interest-rate"],
+    toolLinks: [
+      { label: "Glossary: Origination fee", href: "/glossary/origination-fee" },
+    ],
+  },
+  {
+    slug: "personal-loan-broker-vs-direct",
+    question: "Should I use a loan marketplace/broker or apply directly to a lender?",
+    topic: "Process & terms",
+    shortAnswer:
+      "Both work. Marketplaces (Credible, LendingTree) let you compare multiple lenders in one form with one soft pull. Direct lenders sometimes offer lower rates to direct applicants (no broker commission). The best approach is often to start with a marketplace to identify the rate range, then apply directly to the top 1-2 options.",
+    context:
+      "How loan marketplaces work: A marketplace (Credible, LendingTree, NerdWallet, Bankrate) collects your information once and shows you offers from multiple partner lenders simultaneously. Usually one soft pull shows offers from 5-15 lenders. You then choose a lender and proceed directly with them for the formal application (which triggers a hard pull).\n\nAdvantages of marketplaces: See the full rate landscape in one place. Single form saves time. Soft pull means no score impact at the shopping stage. Good for borrowers who are not sure which lenders serve their credit profile.\n\nAdvantages of going direct: Some lenders offer slightly better rates to direct applicants because they do not pay referral fees to a marketplace. LightStream and SoFi, for example, do not participate in most loan marketplaces and must be approached directly. A direct relationship can also mean better service and faster communication.\n\nThe hybrid approach: Start with Credible or NerdWallet to see the realistic rate range for your profile. Then go directly to the top 1-2 lenders that appeared in your marketplace results AND check 1-2 lenders (like LightStream) that are not on marketplaces. Compare the best direct offer against the best marketplace offer.\n\nWatch for bait-and-switch: A marketplace pre-qualification rate is based on self-reported information. After you apply to the lender and they verify income and pull a hard inquiry, the final rate may differ. This is normal and not specific to marketplaces. Always compare final approved rates before signing.",
+    relatedSlugs: ["personal-loan-multiple-prequalifications", "what-is-good-interest-rate-personal-loan"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-for-home-office",
+    question: "Can I use a personal loan to set up a home office?",
+    topic: "Special situations",
+    shortAnswer:
+      "Yes. Home office equipment and furniture is a common and accepted personal loan purpose. Amounts from $1,000 for basic setup to $10,000+ for full studio or professional workspace. Some costs may be tax-deductible if you are self-employed.",
+    context:
+      "What a home office loan can cover: Standing desk and ergonomic chair ($500-$2,000). Computer and peripherals ($1,000-$3,000). Monitors, webcam, headset ($300-$1,000). Soundproofing or room partition ($500-$2,000). Video lighting for content creators or remote work ($200-$1,000). Office renovation or insulation for a garage or basement conversion ($5,000-$15,000).\n\nWhy personal loan over credit card: For amounts over $2,000 where you need 12+ months to repay, a personal loan's fixed rate (typically 10%-18%) beats a credit card's variable rate (typically 20%-29%) and gives you a predictable payoff schedule.\n\nTax deduction for self-employed: If you are self-employed and use the home office exclusively for business, home office equipment and furniture may be deductible under the home office deduction or Section 179 (immediate expensing of equipment). The personal loan interest is not deductible, but the items purchased with it may be. Consult a tax advisor for specifics.\n\nRemote work note: W-2 employees working from home cannot currently deduct home office expenses under federal law (the deduction for employees was eliminated under the 2017 Tax Cuts and Jobs Act). Some states still allow it. This does not affect whether you can borrow for the setup, only the tax treatment.\n\nAlternative: Many employers now offer work-from-home stipends or equipment reimbursement programs. Check with your employer before borrowing - some will cover setup costs as a benefit.",
+    relatedSlugs: ["personal-loan-for-business", "personal-loan-income-tax"],
+    toolLinks: [
+      { label: "Calculator: Monthly payment", href: "/calculators/monthly-payment" },
+    ],
+  },
+  {
+    slug: "personal-loan-for-cosmetic-dentistry",
+    question: "Can I finance dental veneers, implants, or cosmetic dentistry with a personal loan?",
+    topic: "Special situations",
+    shortAnswer:
+      "Yes. Cosmetic dental procedures not covered by insurance - veneers, implants, Invisalign, whitening, and bonding - are commonly financed with personal loans. Amounts from $2,000 for minor work to $30,000+ for full-mouth reconstruction.",
+    context:
+      "Common cosmetic dental costs: Dental implant per tooth: $3,000-$6,000. Full mouth of implants (all-on-4): $20,000-$45,000. Porcelain veneers per tooth: $1,000-$2,500 (6-8 teeth typical = $6,000-$20,000). Invisalign: $3,000-$8,000. Dental bonding per tooth: $300-$600. Professional whitening: $300-$1,000.\n\nWhy personal loan beats dental office financing: Most dental offices partner with CareCredit or Lending Club Patient Solutions. These typically use deferred interest (not true 0%) - if you do not pay in full by the promo end date, the full backdated interest at 26.99% is charged. A personal loan at 10%-15% APR avoids this trap and gives you a fixed payment schedule.\n\nApplying timing: Apply for the personal loan 2-4 weeks before your dental procedure. Most procedures require a deposit; having funds ready avoids delays. Loan proceeds deposit to your bank account, and you pay the dentist directly. This also gives you more negotiating power on cost since you are effectively a cash-paying patient.\n\nDental school alternative: Accredited dental schools offer most cosmetic procedures at 30%-70% discount compared to private practices. The work is done by supervised dental students. Quality is generally high. For very large cases, this can save thousands even with the extended timeline.\n\nInsurance reality: Dental insurance typically covers restorative procedures (fillings, crowns for tooth health reasons) but explicitly excludes cosmetic procedures. Verify with your insurer before relying on coverage.",
+    relatedSlugs: ["personal-loan-for-medical-bills", "personal-loan-for-irs-debt"],
+    toolLinks: [
+      { label: "Calculator: Monthly payment", href: "/calculators/monthly-payment" },
+    ],
+  },
+  {
+    slug: "personal-loan-credit-score-during-repayment",
+    question: "Does making personal loan payments improve my credit score over time?",
+    topic: "Credit score",
+    shortAnswer:
+      "Yes. Every on-time payment adds to your positive payment history, the largest factor in your FICO score (35%). The improvement is gradual and cumulative: expect 10-30 points of improvement over 12-24 months of consistent on-time payments.",
+    context:
+      "Why payments improve your score: Payment history is the single largest factor in FICO scores (35%) and VantageScore (40%). Each on-time payment is a positive data point that accumulates over time. A personal loan also adds installment account history, which improves credit mix (10% of FICO).\n\nExpected improvement timeline: Months 1-3: Score may temporarily dip due to the hard inquiry at application and the new account reducing average account age. Months 3-6: Score stabilizes as the new loan ages and payments accumulate. Months 6-12: Score typically rises above the pre-loan baseline as payment history builds. Months 12-24: Continued improvement as the account matures and you demonstrate sustained repayment. Some borrowers see 20-50+ point improvements over this period.\n\nWhat accelerates the improvement: Keeping credit card balances low (reduces utilization, the second-largest scoring factor). Making all payments across all accounts on time. Avoiding new credit applications during this period (each hard inquiry costs 5-10 points).\n\nWhat can offset the improvement: Missing even a single payment by 30+ days wipes out months of positive history. A 30-day late payment typically costs 60-100 credit score points and remains on your report for 7 years. This is why setting up autopay from day one is critical.\n\nThe payoff question: The account shows on your credit report for 10 years after payoff, continuing to contribute positive history. So the benefit of responsible repayment is durable, not temporary.",
+    relatedSlugs: ["how-personal-loan-affects-credit-score", "does-personal-loan-hurt-credit-score"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-annual-fee-question",
+    question: "Do personal loans have annual fees?",
+    topic: "Process & terms",
+    shortAnswer:
+      "Reputable personal loans do not have annual fees. The standard cost structure for a personal loan is a one-time origination fee (0%-8%) and an interest rate. Avoid any lender that charges recurring annual fees on a personal loan - this is not an industry norm.",
+    context:
+      "Standard personal loan cost structure: Origination fee (one-time): 0%-8% of loan amount, deducted from disbursement. Interest (ongoing): Charged daily on remaining balance, collected monthly. Late fee: Charged if payment is more than a grace period late (typically 10-15 days). Prepayment penalty: Charged by some (not all) lenders if you pay off early. ACH or check processing fee: Very rare.\n\nAnnual fees are for revolving credit, not installment loans: Annual fees exist on credit cards and sometimes on lines of credit - revolving products where the issuer maintains an open account indefinitely. A personal loan is an installment loan with a fixed end date. There is no reason to charge an ongoing annual fee on a product that self-terminates.\n\nRed flags: Any personal loan lender charging an annual fee should be viewed with skepticism. This is not standard practice and may indicate a predatory lender. The same goes for monthly maintenance fees - these are not standard on personal loans from reputable lenders.\n\nSome confusing products: Credit-builder loans (offered by Self Lender and some credit unions) sometimes charge a monthly fee ($1-$25/month). These are a distinct product from a standard personal loan - the fee covers administrative costs of a unique structure where your payments build savings you receive at the end. This is not the same as an annual fee on a personal loan.\n\nVerify before signing: Before accepting any loan offer, read the fee schedule in the loan agreement. Every fee must be disclosed under TILA. Annual fees, monthly fees, or maintenance fees on a standard personal loan are unusual and should prompt you to check competing lenders.",
+    relatedSlugs: ["personal-loan-fees-explained", "personal-loan-origination-fee-worth-it"],
+    toolLinks: [
+      { label: "Glossary: Annual fee", href: "/glossary/annual-fee" },
+    ],
+  },
+  {
+    slug: "personal-loan-credit-score-for-5-percent",
+    question: "What credit score do I need to get a personal loan under 10% APR?",
+    topic: "Credit score",
+    shortAnswer:
+      "To qualify for personal loan rates under 10% APR from mainstream lenders, you typically need a 720-740+ FICO score, strong income, low DTI, and a long credit history. The very best rates (6.99%-7.99%) require 760+ and near-perfect credit profiles.",
+    context:
+      "Rate tiers by credit score (mid-2026 benchmarks):\n\n760+ FICO: LightStream offers rates from 6.99% APR for well-qualified borrowers. Marcus and SoFi offer rates starting 7.99%-8.99%. This is the tier that reliably gets under 8% APR.\n\n740-759 FICO: Rates from 8.99%-11.99% are typical at prime lenders. Getting under 10% is achievable but requires strong income and low DTI alongside the score.\n\n720-739 FICO: Many lenders price this tier at 10%-14% APR. Rates below 10% are uncommon at 720, though some credit unions may offer them to existing members with long relationships.\n\n700-719 FICO: Rates typically start at 11%-14% at mainstream lenders. Sub-10% is rare at this tier.\n\nIncome and DTI matter as much as score: A 730 FICO borrower with $150,000 income and 15% DTI may get a better rate than a 750 FICO borrower with $40,000 income and 40% DTI. Lenders use both credit score and risk indicators in pricing.\n\nCredit union advantage: Federal credit unions cap rates at 18% and often offer better rates than banks for scores in the 700-740 range, particularly for existing members.\n\nLender-specific factors: LightStream is known for the lowest rates but requires strong credit (720+) and uses a proprietary underwriting model that considers not just score but also credit depth - number of years of credit, types of accounts, and savings history.",
+    relatedSlugs: ["what-is-good-interest-rate-personal-loan", "personal-loan-credit-union-vs-bank"],
+    toolLinks: [
+      { label: "Calculator: Monthly payment", href: "/calculators/monthly-payment" },
+    ],
+  },
+  {
+    slug: "personal-loan-servicer-changes",
+    question: "What happens if my personal loan servicer changes while I am repaying?",
+    topic: "Process & terms",
+    shortAnswer:
+      "Your loan terms do not change if the servicer changes - the rate, payment amount, and term are contractually fixed. You will receive written notice and a new payment address or portal. Any automatic payments must be updated to the new servicer.",
+    context:
+      "Why servicers change: Lenders sometimes sell loan portfolios or transfer servicing rights to other companies. This is common in mortgage servicing but less frequent with personal loans. Some marketplace lenders (LendingClub, Prosper) have shifted servicers as their business models evolved.\n\nYour rights when servicer changes: Federal law (RESPA applies to mortgages; for personal loans, contract law and CFPB supervision govern) requires written notice at least 15 days before the transfer. The notice must include the new servicer's name, address, payment address, and phone number. You have a 60-day grace period after the transfer during which late payments cannot be charged if you sent payment to the old servicer.\n\nWhat you need to do: Update your autopay if you set it up with the original lender's bank pull. Update the payee in your bank's bill pay if you pay directly. Confirm your account number with the new servicer - it may change. Check your credit report 1-2 billing cycles later to confirm payments are being reported correctly.\n\nWhat does not change: Your interest rate. Your remaining balance. Your monthly payment amount. Your payoff date. The original loan terms are contractually binding regardless of who services the loan.\n\nIf the original lender shut down: Even if a lender stops operating, your loan obligation continues. The bankruptcy estate or an assigned servicer takes over. You still owe the debt. The loan terms are preserved because they were set at origination and exist as a legal contract independent of the lender's ongoing business.",
+    relatedSlugs: ["personal-loan-after-funding-checklist", "personal-loan-credit-bureau-reporting"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-for-tiny-home",
+    question: "Can I finance a tiny home with a personal loan?",
+    topic: "Special situations",
+    shortAnswer:
+      "Yes. Tiny homes on wheels (THOWs) do not qualify for traditional mortgages, making personal loans one of the primary financing options. Amounts up to $100,000 at some lenders. Certified tiny homes may also qualify for RV loans at lower rates.",
+    context:
+      "Why traditional mortgages do not work for tiny homes: Traditional mortgages require a permanent foundation, minimum square footage (typically 400+ sq ft for FHA loans), and compliance with local zoning for residential construction. Most tiny homes - especially those on wheels - do not meet these requirements.\n\nTiny home financing options: Personal loan ($500-$100,000): Fast approval, no collateral required, no title complications. Best for THOWs or foundation-built tiny homes. Rates 7.99%-29.99% depending on credit.\n\nRV loan: If your THOW is RVIA-certified (Recreation Vehicle Industry Association), it qualifies for RV financing through banks and credit unions at typically lower rates than personal loans (6%-12% APR, 10-20 year terms).\n\nManufactured/modular home financing: If your tiny home is on a permanent foundation, some lenders offer chattel loans or land-home packages. FHA Title I loans can finance manufactured housing.\n\nLendersspecific to tiny homes: Some lenders like LightStream explicitly list tiny homes as an accepted purpose. This is functionally the same as a home improvement or RV loan but categorized specifically.\n\nTypical costs: THOW (trailer-based): $40,000-$90,000. Foundation-built tiny home: $50,000-$100,000+. DIY kit tiny home: $15,000-$40,000. Land (if needed): $10,000-$150,000+ depending on location.\n\nZoning research first: Before financing, confirm you have a legal place to park or install the tiny home. Many municipalities have restrictive zoning that limits where THOWs can be permanently located. This is a due diligence step before committing to purchase.",
+    relatedSlugs: ["personal-loan-for-rv", "personal-loan-home-improvement-no-equity"],
+    toolLinks: [
+      { label: "Calculator: Monthly payment", href: "/calculators/monthly-payment" },
+    ],
+  },
+  {
+    slug: "personal-loan-after-short-sale",
+    question: "Can I get a personal loan after a short sale of my home?",
+    topic: "Special situations",
+    shortAnswer:
+      "Yes. A short sale does not prevent you from getting a personal loan - it affects mortgage eligibility (2-7 year waiting periods), not unsecured personal loan eligibility. What matters is your current credit score and income, not the past short sale itself.",
+    context:
+      "How short sales affect credit: A short sale typically results in a 'settled for less than full amount' notation on your credit report. It causes a 50-150 point credit score drop at the time it occurs, similar to a foreclosure. The notation remains for 7 years from the date of the short sale.\n\nWhere short sales restrict you: Conventional mortgage (Fannie/Freddie): 2-7 year waiting period after a short sale depending on down payment size. FHA mortgage: 3 years. VA loan: 2 years. These are the primary restrictions.\n\nWhere short sales do not restrict you: Personal loan lenders do not have mandatory waiting periods tied to short sales. They look at your current credit score, not the type of negative event that caused a lower score. A short sale from 3 years ago with a 640 credit score today is treated identically to any other borrower with a 640 score.\n\nWhat actually matters: Your current credit score. Your current income and DTI. Whether you have any recent (last 2 years) derogatory marks - late payments, collections, judgments. Whether you have any open charge-offs.\n\nCredit score recovery after a short sale: Credit scores typically begin recovering 12-24 months after a short sale as the event ages and you establish new positive history. Actively rebuilding with a secured credit card and on-time payments accelerates recovery. Many borrowers reach the 620-680 range within 18-36 months of a short sale.",
+    relatedSlugs: ["personal-loan-after-bankruptcy-discharge", "personal-loan-credit-score-during-repayment"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-vacation-vs-travel-card",
+    question: "Is a personal loan or a travel credit card better for vacation financing?",
+    topic: "Special situations",
+    shortAnswer:
+      "A 0% intro APR travel credit card beats a personal loan for vacations you can pay off within 12-21 months, especially when it also earns travel rewards. For longer-term financing (24-60 months) or amounts over your credit limit, a personal loan's fixed rate is more predictable.",
+    context:
+      "Travel credit card advantages: If you qualify for a card with 0% intro APR for 15-21 months, you effectively borrow interest-free for that period. Additionally, you earn travel rewards (miles, points, cashback on travel) on the vacation spending itself. The Citi Premier, Chase Sapphire Preferred, and similar cards offer both 0% introductory periods and sign-up bonuses worth hundreds of dollars.\n\nPersonal loan advantages: Fixed monthly payment you know in advance. No risk of the intro APR expiring with remaining balance (at which point card rates jump to 20%-29%). Works for amounts over your available credit card limit. No risk of accidentally spending the credit limit on other purchases before paying down the vacation charges.\n\nThe critical question: 'Can I realistically pay this off within the intro APR window?' If yes, the travel card likely wins on total cost (0% + rewards). If there is meaningful uncertainty about payoff timing, the personal loan's fixed rate provides cost certainty.\n\nBorrowing to travel is generally not optimal: Either tool involves real cost. A $5,000 vacation financed with a 12% personal loan over 36 months costs $960 in interest. The same vacation on a card with 25% APR (after the intro period) if not paid in time costs far more. Saving in advance for discretionary travel is almost always cheaper. But if the goal is to use credit, the card with 0% intro + rewards wins when you are confident of payoff.\n\nHybrid approach: Use the travel card for the actual booking to earn rewards, then pay it off with a personal loan immediately if you need longer repayment. This gets the rewards while locking in a fixed rate.",
+    relatedSlugs: ["personal-loan-for-vacation", "personal-loan-vs-balance-transfer"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-prepay-penalty-how-to-check",
+    question: "How do I know if my personal loan has a prepayment penalty?",
+    topic: "Process & terms",
+    shortAnswer:
+      "Check your loan agreement (the signed credit agreement or promissory note). Look for phrases like 'prepayment penalty', 'early termination fee', or 'rebate method'. Most online lenders have no prepayment penalty - but always verify before you sign.",
+    context:
+      "Where to find the prepayment penalty clause: The loan agreement you sign at closing (electronic or paper) contains the full terms including any prepayment penalty. Look in the 'Prepayment' section or search the document for 'prepayment', 'early payoff', or 'penalty'. The Truth in Lending disclosure should also mention it if applicable.\n\nLenders that commonly have no prepayment penalty: LightStream, SoFi, Marcus, Discover, LendingClub, Prosper, Avant, Upgrade - these all advertise no prepayment penalty. Most major online lenders have moved away from prepayment penalties.\n\nWho might still charge one: Some community banks and credit unions still charge a prepayment penalty, though this is becoming less common. Some installment loan companies (OneMain Financial historically) include them. Always check regardless of lender type.\n\nHow penalties are calculated when they exist: Flat fee ($100-$300). Percentage of remaining balance (1%-3%). Interest for a set number of months (60-90 days interest). The 'Rule of 78s' (a now-uncommon method that front-loads interest calculation and effectively penalizes early payoff). The Rule of 78s is now illegal for loans over 61 months under federal law.\n\nIf you already signed and discover a penalty: Calculate whether early payoff savings exceed the penalty. If savings minus penalty are positive, paying off early still makes financial sense. If the penalty eliminates most of the savings, making extra principal payments without fully paying off can reduce total interest without triggering the penalty clause (check your agreement - some penalties only trigger on full payoff).",
+    relatedSlugs: ["can-i-pay-personal-loan-early", "personal-loan-extra-payments"],
+    toolLinks: [
+      { label: "Glossary: Prepayment penalty", href: "/glossary/prepayment-penalty" },
+    ],
+  },
+  {
+    slug: "personal-loan-for-gym-equipment",
+    question: "Can I use a personal loan to finance home gym equipment?",
+    topic: "Special situations",
+    shortAnswer:
+      "Yes. Home gym equipment is a completely acceptable personal loan purpose. Amounts from $500 for basic weights to $10,000+ for a full home gym setup with Peloton, squat rack, and cardio equipment.",
+    context:
+      "What a home gym loan covers: Cardio machines (Peloton, treadmill, elliptical): $1,500-$4,500. Power rack or squat cage: $300-$2,000. Barbell set with plates: $300-$800. Adjustable dumbbells: $200-$600. Rubber flooring: $200-$600. Cable machine or functional trainer: $800-$3,000. Full home gym setup (cardio + strength): $3,000-$10,000.\n\nPersonal loan vs Peloton/equipment financing: Peloton and NordicTrack offer in-house financing through partner lenders (Citizens Bank, TD Financing). These often have 0%-12 month promotional periods but can carry 19.99%-29.99% APR after the promo or without promotional pricing. A personal loan at 10%-14% APR with a fixed term often wins on total cost.\n\nSingle-merchant financing limitation: Financing through a specific equipment company ties your credit check and loan to one purchase from one vendor. A personal loan deposits funds to your bank so you can shop multiple vendors, buy used equipment, or mix brands as needed.\n\nLongview math: A $5,000 home gym at 12% APR over 36 months costs $830 in interest. Monthly gym membership at $50/month over 36 months costs $1,800. Net benefit: $970 saved plus the convenience of home workouts. The math often favors the home gym for frequent exercisers.\n\nNote: Loan proceeds cannot be restricted by lenders for personal use. There is no lender requirement that you disclose you are buying gym equipment - 'home improvement' or 'personal' works as a stated purpose on most applications.",
+    relatedSlugs: ["personal-loan-for-vacation", "personal-loan-minimum-amount"],
+    toolLinks: [
+      { label: "Calculator: Monthly payment", href: "/calculators/monthly-payment" },
+    ],
+  },
+  {
+    slug: "personal-loan-multiple-rejections-credit",
+    question: "Does being rejected for a personal loan hurt my credit score again?",
+    topic: "Credit score",
+    shortAnswer:
+      "The rejection itself does not hurt your score - only the hard inquiry from the application does. A hard inquiry typically costs 5-10 points and stays on your report for 2 years. Multiple rejections at different lenders mean multiple hard inquiries, each costing a few points.",
+    context:
+      "What actually affects your score: A credit application triggers a hard inquiry regardless of whether you are approved or denied. The inquiry is recorded whether the lender says yes or no. The rejection decision itself does not create a second negative entry.\n\nMultiple inquiries in a short window: FICO treats multiple hard inquiries for the same loan type within a 14-45 day window as a single inquiry. This rate-shopping protection applies to mortgages, auto loans, and student loans explicitly. For personal loans, the same protection applies in FICO 8 and 9 (the most widely used models), though the window is the same 14-45 days.\n\nStrategic application approach: Do not apply to 6 lenders over 3 months. Do apply to 2-4 lenders you have already screened with soft pulls, all within the same 2-week period. This gives you multiple actual approvals to compare while potentially counting as only one inquiry group.\n\nAfter a rejection: Wait 30 days before reapplying if possible. Use the adverse action notice to identify and address the specific rejection reason. Correct errors on your credit report. If the rejection was income-based, increase documentation. If score-based, improve your score before reapplying - even a 20-30 point improvement can move you into a different approval tier.\n\nSoft pulls first: Use every lender's pre-qualification tool (soft pull, no score impact) before submitting any formal application. This shows you which lenders will likely approve you, so you only trigger hard pulls at lenders where you have a reasonable chance.",
+    relatedSlugs: ["personal-loan-denied-what-to-do", "soft-pull-vs-hard-pull"],
+    toolLinks: [],
+  },
 ];
 
 export const questionsBySlug = Object.fromEntries(

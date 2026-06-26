@@ -2768,6 +2768,178 @@ export const questions: Question[] = [
       { label: "Q&A: Personal loan with ITIN", href: "/questions/personal-loan-with-itin" },
     ],
   },
+  {
+    slug: "personal-loan-vs-cash-out-refinance",
+    question: "Should I get a personal loan or a cash-out refinance?",
+    topic: "Special situations",
+    shortAnswer:
+      "A cash-out refinance is cheaper (typically 6%-8% APR vs 10%-22% for a personal loan) but requires home equity, an appraisal, and 30-45 days to close. A personal loan funds in 1-3 days with no home equity needed and no risk to your home.",
+    context:
+      "Cash-out refinance basics: You replace your existing mortgage with a new, larger mortgage and receive the difference in cash. Because the loan is secured by your home, rates are far lower than unsecured personal loans. However, you must have equity, pay closing costs ($3,000-$7,000+), and accept a new 15-30 year mortgage term.\n\nWhen cash-out refinance wins: You need a large amount ($30,000+). You already have significant home equity. You plan to stay in the home long enough to recoup closing costs. Your mortgage rate would not increase materially from current levels. The project improves home value.\n\nWhen personal loan wins: You need funds quickly (days, not weeks). The amount is under $30,000 where closing costs make cash-out refi uneconomical. You do not own a home or lack sufficient equity. You do not want your home at risk. You are in a period of rising mortgage rates where refinancing your mortgage would substantially increase your monthly payment.\n\nBreak-even math for cash-out refi: If refinancing your mortgage from 3% to 7% to access $20,000 in cash increases your monthly mortgage payment by $500, you are paying $6,000/year more just to access that cash. A personal loan at 12% APR on $20,000 over 3 years costs $3,346 in total interest - far less than the $18,000+ extra you would pay on the mortgage over the next 3 years.\n\nCredit score impact: Both trigger a hard inquiry. A mortgage refinance also requires an appraisal and often involves more credit documentation. Personal loan applications are completed in 15-30 minutes online.",
+    relatedSlugs: ["personal-loan-vs-heloc-question", "personal-loan-home-improvement-no-equity"],
+    toolLinks: [
+      { label: "Calculator: Monthly payment", href: "/calculators/monthly-payment" },
+    ],
+  },
+  {
+    slug: "personal-loan-for-rv",
+    question: "Is a personal loan a good way to finance an RV?",
+    topic: "Special situations",
+    shortAnswer:
+      "For RVs under $25,000, a personal loan can work well: faster than RV financing, no down payment required, and no lien on the vehicle. For larger RVs, a dedicated RV loan (secured) typically offers lower rates and longer terms.",
+    context:
+      "How RV loans differ from personal loans: A dedicated RV loan is a secured installment loan using the RV as collateral, similar to an auto loan. Terms up to 20 years, amounts up to $300,000, rates typically 6%-12% for good credit. The lender holds the title until the loan is paid.\n\nPersonal loan advantages for RV financing: No down payment requirement. No lien on the RV (you own it outright from day one). Faster approval (1-3 days vs 1-2 weeks for RV lenders). Simpler process - no title transfer, no vehicle inspection. Useful when buying from a private seller who cannot work with RV financing.\n\nPersonal loan limitations for RVs: Loan amounts typically max at $50,000-$100,000 (most personal loans max out at $50K). Terms max at 7 years (vs 20 years for RV loans). Rates are higher for fair-to-good credit borrowers.\n\nWhen personal loan works: New or used RV under $25,000. Private seller purchase where dealer financing is not available. You have excellent credit and can qualify for competitive rates. You want to avoid the RV depreciating underwater and prefer to own free and clear.\n\nWhen dedicated RV loan works better: RV costs $30,000+. You need 10-20 years to repay. You have fair credit and need the collateral to get approved. The monthly payment is a key budget constraint.\n\nRV dealers and lenders: Major RV lenders include Bank of the West, US Bank, Lightstream (which is actually a personal loan lender that accepts RV as a stated purpose), and credit unions like Navy Federal. Interest on RV loans for your primary or secondary residence may be deductible as mortgage interest - check with a tax advisor.",
+    relatedSlugs: ["personal-loan-buy-car", "personal-loan-approval-odds"],
+    toolLinks: [
+      { label: "Calculator: Monthly payment", href: "/calculators/monthly-payment" },
+    ],
+  },
+  {
+    slug: "personal-loan-where-funds-deposited",
+    question: "Where does the money go when a personal loan is approved?",
+    topic: "Process & terms",
+    shortAnswer:
+      "Funds are deposited directly into your bank account - the one you provided during the application. For debt consolidation loans, some lenders send payment directly to your creditors instead. Funds typically arrive 1-3 business days after signing.",
+    context:
+      "Standard disbursement: After you sign the loan agreement electronically, the lender initiates an ACH transfer to the bank account you linked during the application. The funds appear as a deposit in your checking or savings account, typically within 1-3 business days.\n\nSame-day and next-day options: Some lenders offer expedited funding. Upgrade and LightStream can fund the same business day for well-qualified applicants who sign early in the day. Many lenders fund the next business day after signing. Weekend disbursements are less common but possible with some lenders.\n\nDebt consolidation direct payment: Some lenders (Happy Money, Payoff) specialize in debt consolidation and send loan proceeds directly to your credit card companies rather than to you. This eliminates the temptation to spend the funds elsewhere. You receive a statement showing which accounts were paid and for how much.\n\nOrigination fee deduction: If your loan has an origination fee, it is typically deducted from the loan proceeds before disbursement. A $10,000 loan with a 3% origination fee ($300) results in $9,700 deposited to your account. You still owe repayment on the full $10,000 principal.\n\nWhat you cannot change: After approval and signing, you cannot change the bank account for the initial disbursement. For future monthly payments, most lenders let you update your payment account through the borrower portal.\n\nVerification: Expect the lender to verify your bank account via micro-deposits or instant verification (Plaid) before funding. This is a one-time step during the application that you authorize.",
+    relatedSlugs: ["how-long-personal-loan-funding-takes", "personal-loan-same-day-deposit"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-can-lender-sue",
+    question: "Can a personal loan lender sue me if I stop paying?",
+    topic: "Process & terms",
+    shortAnswer:
+      "Yes. After exhausting collection attempts (typically 90-180 days of non-payment), a lender can file a civil lawsuit to obtain a court judgment. A judgment gives them additional collection powers including wage garnishment and bank levy.",
+    context:
+      "Timeline from missed payment to lawsuit: Day 1-30: Late payment fee charged, phone and email contact from lender. Day 30-90: Account reported as delinquent to credit bureaus. Day 90-180: Account typically charged off internally (lender books it as a loss). Day 90-365: Account sold to a debt collection agency or retained for lawsuit. Day 180-730+: Lawsuit filed if balance justifies legal costs.\n\nThe lawsuit process: The creditor or debt buyer files a complaint in your local civil court. You are served with papers and have 20-30 days to respond. If you do not respond (default judgment), the creditor wins automatically. If you respond and dispute, there may be a hearing. Most lawsuits result in default judgments because borrowers do not respond.\n\nWhat a judgment enables: Wage garnishment (up to 25% of disposable income in most states). Bank levy (freeze and take funds from your bank account). Lien on your real property. These tools are powerful - avoid default judgment if at all possible.\n\nState statutes of limitations: The creditor has a limited window to sue, set by state law (typically 3-6 years from the date of default, but varies). After the statute expires, the debt is 'time-barred' and suing is barred. Check your state's law - making a partial payment can restart the clock in some states.\n\nNegotiating before lawsuit: If you cannot pay, contact the lender before lawsuit stage. Many will settle for 40%-60% of the balance to avoid legal costs. A debt settlement agreement in writing eliminates the lawsuit risk for that creditor.",
+    relatedSlugs: ["personal-loan-default-vs-charge-off", "what-happens-if-default-personal-loan"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-debt-sold",
+    question: "What happens when my personal loan is sold to a debt collector?",
+    topic: "Process & terms",
+    shortAnswer:
+      "After charge-off (typically 120-180 days of non-payment), the original lender often sells the debt to a debt buyer for cents on the dollar. The debt buyer now owns the debt and has the right to collect. Your legal rights under the FDCPA still apply.",
+    context:
+      "Why lenders sell debt: Original lenders write off delinquent accounts (charge-off) and sell portfolios of bad debt to third-party debt buyers for 5-25 cents per dollar of face value. The lender recovers some value; the debt buyer attempts to collect the full balance for profit.\n\nWhat changes after the sale: The original lender is no longer your creditor. The debt buyer (often Portfolio Recovery Associates, Midland Credit Management, or LVNV Funding) is now the creditor. You may start receiving collection calls and letters from the new owner or a collection agency they hire.\n\nYour rights under the FDCPA: The Fair Debt Collection Practices Act applies to any third-party collector. They cannot call before 8am or after 9pm. They cannot harass, threaten, or use false statements. You can demand they stop calling via a written cease communication letter. You have the right to a debt validation letter (they must send it within 5 days of first contact).\n\nVerify the debt before paying: Always request a debt validation letter first. Confirm the debt is yours, the amount is accurate, and the collector has legal standing to collect. Errors and fraudulent collections do exist.\n\nNegotiating with the debt buyer: Because they paid 10-25 cents per dollar, debt buyers are often willing to settle for 40%-60% of the original balance. Get any settlement agreement in writing before paying. Confirm that payment constitutes full satisfaction of the debt.\n\nCredit report impact: The original charge-off and any collection account both appear on your credit report for up to 7 years from the original delinquency date, regardless of whether the debt is sold or settled.",
+    relatedSlugs: ["personal-loan-default-vs-charge-off", "personal-loan-debt-sold-to-collections-rights"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-for-home-addition",
+    question: "Can I use a personal loan to pay for a home addition or room addition?",
+    topic: "Special situations",
+    shortAnswer:
+      "Yes. A personal loan works for home additions, especially for projects under $50,000 where you want to avoid tapping home equity. No appraisal, no lien on your home, and funding in 1-3 days. Rates are higher than a HELOC but the speed and simplicity often justify it.",
+    context:
+      "Home addition costs: A room addition typically runs $20,000-$80,000 depending on size, complexity, and local labor rates. Garage additions: $15,000-$30,000. Bathroom additions: $15,000-$25,000. Master suite additions: $40,000-$100,000+.\n\nPersonal loan for home additions: For projects under $50,000, a personal loan offers speed (funds in days) and no risk to your home (no lien). You also avoid the 4-8 week timeline and $500-$1,000+ closing costs of a HELOC. Rates for good credit borrowers run 9%-18% APR.\n\nHELOC for home additions: If you have significant home equity, a HELOC (home equity line of credit) offers rates of 6%-10% - materially lower than a personal loan. The trade-offs: 4-8 week approval process, appraisal required, your home is the collateral, and variable interest rates on most HELOCs.\n\nFannie Mae HomeStyle and FHA 203(k) rehab loans: For major additions tied to a purchase or refinance, these wrap renovation costs into the mortgage. Rates are mortgage-like (6%-8%) but only applicable if you are also buying or refinancing.\n\nContractor financing: Many general contractors partner with GreenSky, Mosaic, or similar to offer financing directly. These are often 12-month deferred interest (same-as-cash) arrangements. Fine if you pay in full within the promo window; expensive if you do not.\n\nGet multiple contractor quotes first: Before choosing a financing method, get 2-3 contractor quotes in hand. The actual project cost determines whether a personal loan, HELOC, or contractor financing is the right fit.",
+    relatedSlugs: ["personal-loan-home-improvement-no-equity", "personal-loan-vs-heloc-question"],
+    toolLinks: [
+      { label: "Calculator: Monthly payment", href: "/calculators/monthly-payment" },
+    ],
+  },
+  {
+    slug: "personal-loan-minimum-amount",
+    question: "What is the minimum personal loan amount I can borrow?",
+    topic: "Approval & amount",
+    shortAnswer:
+      "Most online lenders set minimums of $1,000-$2,000. Some credit unions and banks offer personal loans starting at $250-$500. For very small amounts ($200-$500), a credit-builder loan or secured credit card is often a better tool than a personal loan.",
+    context:
+      "Minimum loan amounts by lender type:\n\nOnline marketplace lenders: Most set $1,000 as the minimum. Upgrade minimum: $1,000. LendingClub: $1,000. Prosper: $2,000. Avant: $2,000. Best Egg: $2,000.\n\nBanks: Wells Fargo and TD Bank personal loans start at $3,000. Discover: $2,500. Marcus by Goldman Sachs: $3,500.\n\nCredit unions: Often offer smaller loans. Federal credit unions frequently offer $250-$500 personal or payday alternative loans (PALs) as a lower-cost substitute for payday loans. These are specifically designed for small emergency borrowing.\n\nLightStream: $5,000 minimum (designed for larger, well-qualified borrowers).\n\nWhy minimums exist: Processing and underwriting cost roughly the same for a $500 loan and a $5,000 loan. Small loans generate minimal interest income that does not cover the per-loan cost. This economic reality pushes lenders toward minimums.\n\nAlternatives for small amounts: For $200-$1,000, consider: (1) A payday alternative loan (PAL) from a federal credit union - up to $2,000, rate capped at 28%, 1-12 month term. (2) A cash advance from an employer (many HR platforms offer this). (3) A 0% intro credit card with a small purchase limit. (4) Asking family with a written repayment plan.\n\nWhen borrowing small is still the right call: If a small loan prevents a larger financial problem (avoiding a bounced check, a utility shutoff, a missed bill that would incur a penalty), the cost may be justified even if the absolute amount is small.",
+    relatedSlugs: ["what-credit-score-needed-for-1000-loan", "personal-loan-approval-odds"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-savings-secured",
+    question: "What is a savings-secured personal loan?",
+    topic: "Special situations",
+    shortAnswer:
+      "A savings-secured loan uses your own savings account as collateral. You borrow against your balance (typically $500-$25,000), keep earning interest on the deposit, and make monthly payments. It is one of the best ways to build or repair credit because approval is nearly guaranteed and rates are low.",
+    context:
+      "How it works: You deposit funds into a savings or certificate account at a credit union or bank. You borrow against that deposit (usually 90%-100% of the balance). The funds remain in the account (earning interest, though locked as collateral) while you repay the loan monthly. When the loan is paid off, the funds are released.\n\nWhy lenders offer it: Default risk is nearly zero - if you stop paying, the lender simply seizes your collateral. This allows lenders to approve borrowers with poor or no credit history and to offer rates far below unsecured personal loans.\n\nTypical terms: Rates: 2%-4% above the savings account interest rate (so net cost is very low). Amounts: $500-$25,000, limited to your deposit. Terms: 6-120 months. Approval: Virtually automatic.\n\nCredit building mechanism: The loan reports to all three credit bureaus as an installment loan. Making every payment on time builds a positive payment history, the most heavily weighted credit scoring factor. After 12-24 months of on-time payments, your credit score improves enough to qualify for unsecured loans at competitive rates.\n\nBest institutions for savings-secured loans: Navy Federal Credit Union, Alliant Credit Union, Self Lender (a fintech version that structures it as a credit-builder loan), many local credit unions. Banks offer these less commonly.\n\nIf you already have good credit: You do not need a secured loan - you can borrow at lower rates unsecured. This product is specifically valuable for thin-file borrowers, recent bankruptcy filers, and anyone rebuilding credit from scratch.",
+    relatedSlugs: ["personal-loan-secured-or-unsecured", "personal-loan-no-credit-history"],
+    toolLinks: [
+      { label: "Glossary: Secured loan", href: "/glossary/secured-loan" },
+    ],
+  },
+  {
+    slug: "personal-loan-rate-after-approval",
+    question: "Can my personal loan interest rate change after I am approved?",
+    topic: "Process & terms",
+    shortAnswer:
+      "No - once you sign the loan agreement, a fixed-rate personal loan's rate cannot change. Your rate and monthly payment are locked for the full term. Only variable-rate personal loans can change, and even those only adjust according to a published index, not at the lender's discretion.",
+    context:
+      "Fixed-rate loans after signing: The vast majority of personal loans have fixed rates. Once you sign the loan agreement, the rate is set for the entire loan term. Your monthly payment stays identical from the first payment to the last. Neither the lender nor external market conditions can change the rate.\n\nVariable-rate loans: A small number of lenders offer variable-rate personal loans tied to a published index (SOFR or the prime rate). These loans can change in rate as the index changes. However, even variable loans cannot change arbitrarily - the rate adjustment is mechanical, tied to a published benchmark, and typically capped by a ceiling rate disclosed in the loan agreement.\n\nBait-and-switch warning: Legitimate lenders present their final terms at application (or at the latest before signing). Be wary of any lender who quotes one rate during pre-qualification and then presents a materially higher rate at signing without a clear reason (such as a change in your income or credit documentation). Pre-qualification rates are estimates; final rates are confirmed once all underwriting is complete. If the final rate offered is much higher than the pre-qual estimate, you may decline before signing.\n\nRate lock period: Your approved rate is typically valid for 30-60 days from approval date. If you do not accept and sign within that window, you may need to re-apply.\n\nPost-signing autopay discount: Some lenders apply a rate discount (0.25%-0.50%) only after you successfully enroll in autopay. This is an effective rate reduction, not a change - it is disclosed at the time of application.",
+    relatedSlugs: ["personal-loan-variable-rate-risk", "personal-loan-autopay-discount"],
+    toolLinks: [
+      { label: "Glossary: Fixed rate", href: "/glossary/fixed-rate" },
+    ],
+  },
+  {
+    slug: "personal-loan-cosigner-income-counts",
+    question: "Does a co-signer's income count toward personal loan qualification?",
+    topic: "Approval & amount",
+    shortAnswer:
+      "Yes. When you apply with a co-signer or co-borrower, the lender includes the co-signer's income in the debt-to-income calculation. This is one of the primary benefits of having a co-signer - it can push DTI below the approval threshold or qualify you for a larger loan amount.",
+    context:
+      "How co-signer income is used: The lender typically combines both incomes for the income side of the DTI ratio. For example, if you earn $3,000/month and your co-signer earns $4,000/month, the lender may use $7,000/month as the qualifying income. This dramatically improves DTI if your existing debt payments are the constraint on approval.\n\nCo-signer credit score vs income: Different lenders weight these differently. Some focus primarily on the primary borrower's credit score and use co-signer income only to verify repayment ability. Others use the co-signer's credit score as the qualifying score if it is stronger. Clarify with the specific lender which approach they use.\n\nCo-signer vs co-borrower income treatment: A co-borrower's income is fully included. A co-signer's income may be treated somewhat differently depending on the lender - some treat co-signers identically to co-borrowers for income purposes; others place more weight on the primary borrower's income.\n\nDocumentation required: The co-signer must submit their own income documentation (pay stubs, W-2, tax returns) just as the primary borrower does. Both undergo credit checks with hard inquiries.\n\nImpact on co-signer's DTI: The loan obligation appears on the co-signer's credit report and is counted in their own DTI calculations for future borrowing. A co-signer who is planning to apply for a mortgage soon should understand that co-signing adds a debt obligation to their credit profile.",
+    relatedSlugs: ["cosign-personal-loan", "personal-loan-cosigner-vs-co-borrower"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-for-irs-debt",
+    question: "Can I use a personal loan to pay off IRS tax debt?",
+    topic: "Special situations",
+    shortAnswer:
+      "Yes, and it often makes sense. IRS penalties and interest compound rapidly - failure-to-pay penalty of 0.5%/month plus interest - making a personal loan at 12%-15% APR frequently cheaper than letting IRS debt grow. It also eliminates the risk of IRS collection actions.",
+    context:
+      "IRS collection threat: The IRS has unique collection powers unavailable to private creditors: tax liens on property (which appear in public records and damage credit), tax levies (seizing bank accounts and wages without a court order), and passport revocation for tax debts over $62,000. These make IRS debt more urgent to resolve than most other debts.\n\nIRS interest and penalty rates: The IRS charges interest at the federal short-term rate plus 3% (approximately 7%-8% in 2026) plus the failure-to-pay penalty of 0.5%/month (6%/year), plus sometimes the failure-to-file penalty of 5%/month up to 25%. Combined, a large unpaid tax bill can grow at 8%-14% per year.\n\nPersonal loan cost vs IRS cost: A personal loan at 12% APR is cheaper than IRS debt growing at 12%-14% per year and eliminates lien and levy risk. More importantly, paying the IRS in full removes any risk of aggressive collection.\n\nIRS payment alternatives to consider first: IRS Installment Agreement - you can set up a payment plan for up to 72 months. Current rates on IRS installment agreements are lower than most personal loan rates. Offer in Compromise - if you cannot afford to pay in full, the IRS may accept less. A tax attorney or enrolled agent can help you evaluate this.\n\nWhen personal loan beats IRS installment agreement: Your credit score qualifies you for a personal loan at under 10% APR (lower than IRS interest + penalty). You want to eliminate the lien from public record faster. You have complex self-employment or business tax debt where an installment agreement is harder to set up.",
+    relatedSlugs: ["personal-loan-for-taxes", "personal-loan-approval-odds"],
+    toolLinks: [
+      { label: "Calculator: Monthly payment", href: "/calculators/monthly-payment" },
+    ],
+  },
+  {
+    slug: "personal-loan-vs-merchant-financing",
+    question: "Is a personal loan better than store or merchant financing?",
+    topic: "Process & terms",
+    shortAnswer:
+      "Usually yes. Store financing often uses deferred interest (not true 0%), which costs far more than a personal loan if you carry any balance past the promo period. Even when store financing is truly 0%, a personal loan at competitive rates can be simpler and safer.",
+    context:
+      "What merchant financing is: Retailers (furniture stores, appliance dealers, dental offices, home improvement companies) partner with finance companies to offer in-store credit. Well-known examples: CareCredit (healthcare), Synchrony (retail), GreenSky (home improvement), Klarna and Affirm (e-commerce BNPL).\n\nThe deferred interest trap: Many store credit offers advertise '0% interest for 18 months' but use deferred interest - meaning interest IS accruing in the background and the full accumulated amount is charged retroactively if you carry any balance at the deadline. On a $3,000 purchase at 29.99% APR with 18 months of deferred interest, failing to pay $1 at month 18 triggers $1,350+ in retroactive interest.\n\nTrue 0% buy-now-pay-later (BNPL): Newer BNPL providers like Affirm, Klarna, and Afterpay sometimes offer genuine 0% installment plans (split into 4 equal payments or 3-6 monthly payments). These are legitimately interest-free IF you qualify. However, they often report to credit bureaus and missing a payment is still a delinquency.\n\nPersonal loan advantages over store financing: Fixed rate with no deferred interest trap. Flexible use (not tied to one merchant). Longer terms available (24-84 months vs 6-24 months at stores). No surprise interest charge at the end.\n\nWhen store financing can be better: If the offer is truly 0% (not deferred interest) and you are certain you will pay in full by the deadline, you avoid interest entirely. A personal loan at even 8% APR costs money; true 0% costs nothing. But the 'certain to pay off' part is the key - if there is any doubt, personal loan wins.",
+    relatedSlugs: ["personal-loan-vs-balance-transfer", "does-preapproval-hurt-credit-score"],
+    toolLinks: [
+      { label: "Glossary: Deferred interest", href: "/glossary/deferred-interest" },
+    ],
+  },
+  {
+    slug: "personal-loan-current-rates-2026",
+    question: "What are current personal loan interest rates in 2026?",
+    topic: "Process & terms",
+    shortAnswer:
+      "As of mid-2026, personal loan rates range from 6.99% APR (excellent credit, no-fee lenders) to 35.99% APR (poor credit, high-cost lenders). The national average across all credit tiers is approximately 12%-13% APR.",
+    context:
+      "Rate benchmarks by credit tier (mid-2026):\n\nExcellent credit (750+ FICO): 6.99%-11.99% APR. Top lenders like LightStream, Marcus, and SoFi compete aggressively for high-credit borrowers. No-fee options available.\n\nGood credit (700-749): 10.99%-17.99% APR. Most mainstream lenders serve this tier. Rates vary by lender - shopping 3-5 lenders is important here.\n\nFair credit (650-699): 15.99%-24.99% APR. Online lenders including Upgrade, Best Egg, and LendingClub serve this tier. Rates vary widely.\n\nPoor credit (580-649): 22.99%-35.99% APR. Avant, OneMain, and OppFi serve this segment. OppFi and some others can reach 35.99% - close to the maximum 36% consumer-friendly cap.\n\nBad credit (below 580): Very limited options, often exceeding 36% through alternative lenders.\n\nFederal Reserve context: The Federal Reserve's rate decisions ripple through personal loan rates because lenders' cost of capital changes with the fed funds rate. Rate cuts from 2024-2025 have moderated personal loan rates from the 2023 highs, but rates remain elevated compared to 2020-2021.\n\nHow to get the lowest available rate: (1) Bring your credit score above 720 before applying if possible. (2) Compare APRs at 3-5 lenders using soft-pull pre-qualification. (3) Enroll in autopay for a 0.25%-0.50% discount. (4) Choose a shorter loan term - lenders often price 24-36 month terms lower than 60-84 month terms. (5) Apply with an existing financial institution that knows your history.",
+    relatedSlugs: ["what-is-good-interest-rate-personal-loan", "personal-loan-apr-vs-interest-rate"],
+    toolLinks: [
+      { label: "Calculator: Monthly payment", href: "/calculators/monthly-payment" },
+    ],
+  },
+  {
+    slug: "personal-loan-score-to-refinance",
+    question: "What credit score do I need to refinance a personal loan at a lower rate?",
+    topic: "Credit score",
+    shortAnswer:
+      "To materially lower your rate through refinancing, you generally need a credit score improvement of 40-60+ points from when you originally borrowed. Crossing score thresholds (from 620 to 660, 660 to 700, 700 to 740) unlocks progressively better rates at each tier.",
+    context:
+      "Why score improvement matters for refinancing: Your current loan rate reflects your credit score at the time you applied. If your score has improved since then, you now qualify for a lower rate tier. This is the most common and straightforward case for refinancing.\n\nTypical rate improvements by score increase:\n\nScore improved from 620 to 680: Rate potentially drops from 28%-32% APR to 18%-22% APR. Savings on a $15,000 balance over 3 years: $4,000-$6,000.\n\nScore improved from 680 to 720: Rate potentially drops from 18%-22% APR to 12%-16% APR. Savings on same balance: $2,000-$3,000.\n\nScore improved from 720 to 760: Rate potentially drops from 12%-15% APR to 8%-11% APR. Savings: $1,500-$2,500.\n\nMinimum score for refinancing options: Below 580: Very few mainstream refinance options. 580-619: Avant, OneMain - rates may not improve much from your current loan. 620-659: More lenders available; 5-10 point improvement in rate possible. 660-699: Good improvement potential; multiple lenders compete. 700+: Broad market access; most major lenders compete for your business.\n\nCheck your score before applying: Soft-pull pre-qualification tools show estimated rates without affecting your score. Use these first to determine whether a meaningful rate improvement is available at your current score before formally applying.\n\nIf your score has not improved yet: Focus on improving it before refinancing. Pay down credit card balances (lowers utilization), dispute any errors on your credit report, and continue making on-time payments on your current loan. Check your score every 60-90 days.",
+    relatedSlugs: ["how-personal-loan-affects-credit-score", "how-fast-credit-score-recovers"],
+    toolLinks: [
+      { label: "Guide: How to refinance", href: "/learn/how-to-refinance-personal-loan" },
+    ],
+  },
 ];
 
 export const questionsBySlug = Object.fromEntries(

@@ -13,7 +13,7 @@ import {
 import { HeroPattern } from "@/components/HeroPattern";
 
 export const metadata: Metadata = {
-  title: "Learn: Personal Loan Guides, Credit Repair, Debt Strategy",
+  title: "Personal Loan Guides 2026: Credit, Debt & Finance Strategy",
   description:
     "Long-form guides on personal loans, debt strategy, credit improvement, and life-event financing. Written by our editorial team and reviewed for compliance.",
   alternates: { canonical: "/learn" },

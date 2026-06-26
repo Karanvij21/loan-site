@@ -13,9 +13,9 @@ import {
 import { HeroPattern } from "@/components/HeroPattern";
 
 export const metadata: Metadata = {
-  title: "Personal Loan Questions: Quick Answers to Common Questions",
+  title: "Personal Loan FAQ: 138 Quick Answers (2026)",
   description:
-    "30+ short answers to the most common personal-loan questions: credit scores, approval, APRs, process, special situations. Updated by our editorial team.",
+    "138 short answers to common personal-loan questions: credit scores, approval odds, APRs, the process, special situations, and borrower types. Updated June 2026.",
   alternates: { canonical: "/questions" },
   openGraph: {
     title: "Personal Loan Questions",

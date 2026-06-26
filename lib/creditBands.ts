@@ -12,7 +12,7 @@ export const creditBands: Record<string, UseCase> = {
   "excellent-credit": {
     slug: "excellent-credit",
     h1: "Excellent credit personal loans",
-    title: "Personal Loans for Excellent Credit (740+ FICO)",
+    title: "Personal Loans for Excellent Credit 2026 (740+ FICO): Best APRs",
     description:
       "Personal loans for borrowers with excellent credit (FICO 740+). Single-digit APRs, $50,000 amounts, and the lowest origination fees in the market.",
     eyebrow: "Credit profile",
@@ -41,7 +41,7 @@ export const creditBands: Record<string, UseCase> = {
   "good-credit": {
     slug: "good-credit",
     h1: "Good credit personal loans",
-    title: "Personal Loans for Good Credit (670-739 FICO)",
+    title: "Personal Loans for Good Credit 2026 (670-739 FICO): APRs & Terms",
     description:
       "Personal loans for borrowers with good credit (FICO 670-739). Competitive APRs, $50,000 loan amounts, terms up to 72 months, fast funding.",
     eyebrow: "Credit profile",
@@ -70,7 +70,7 @@ export const creditBands: Record<string, UseCase> = {
   "fair-credit": {
     slug: "fair-credit",
     h1: "Fair credit personal loans",
-    title: "Personal Loans for Fair Credit (580-669 FICO)",
+    title: "Personal Loans for Fair Credit 2026 (580-669 FICO): Options & APRs",
     description:
       "Personal loans for borrowers with fair credit (FICO 580-669). APR ranges, lender requirements, and how to qualify for the best terms in your tier.",
     eyebrow: "Credit profile",
@@ -99,7 +99,7 @@ export const creditBands: Record<string, UseCase> = {
   "580-credit-score": {
     slug: "580-credit-score",
     h1: "Personal loans with a 580 credit score",
-    title: "Personal Loans for a 580 Credit Score: Approval Odds & APRs",
+    title: "Personal Loans With a 580 Credit Score 2026: Approval Odds & APRs",
     description:
       "What a 580 FICO score qualifies for: loan amounts, APR ranges, lender expectations, and how to boost approval odds.",
     eyebrow: "By score",
@@ -128,7 +128,7 @@ export const creditBands: Record<string, UseCase> = {
   "620-credit-score": {
     slug: "620-credit-score",
     h1: "Personal loans with a 620 credit score",
-    title: "Personal Loans for a 620 Credit Score: APRs, Amounts, Lenders",
+    title: "Personal Loans With a 620 Credit Score 2026: APRs, Amounts, Lenders",
     description:
       "What a 620 FICO score qualifies for: APR ranges, lender expectations, and how the offers compare to 580 and 660 tiers.",
     eyebrow: "By score",

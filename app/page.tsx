@@ -10,9 +10,9 @@ import { HomepagePushPrompt } from "@/components/home/HomepagePushPrompt";
 import { HeroPattern } from "@/components/HeroPattern";
 
 export const metadata: Metadata = {
-  title: `${siteConfig.name} · Personal Loans up to $50,000`,
+  title: "Personal Loans $100-$50,000 | 5.99-35.99% APR, Soft Check (2026)",
   description:
-    "Compare fixed-rate personal loans from $100 to $50,000 in two minutes. Soft credit check, no obligation, funds as fast as the next business day.",
+    "Compare personal loan offers from $100 to $50,000 in 2 minutes. Soft credit check (no impact to your score), funds as fast as the next business day. APRs 5.99-35.99%. Free, no obligation.",
   alternates: { canonical: "/" },
 };
 

@@ -11,7 +11,7 @@ export const employmentTypes: Record<string, UseCase> = {
   "self-employed": {
     slug: "self-employed",
     h1: "Personal loans for self-employed borrowers",
-    title: "Personal Loans for Self-Employed Borrowers: How to Qualify",
+    title: "Personal Loans for Self-Employed Borrowers 2026: How to Qualify",
     description:
       "How self-employed borrowers qualify for personal loans without W-2 income. Documentation requirements, lender expectations, and APR ranges for sole proprietors and small-business owners.",
     eyebrow: "Employment type",
@@ -40,7 +40,7 @@ export const employmentTypes: Record<string, UseCase> = {
   "1099-contractor": {
     slug: "1099-contractor",
     h1: "Personal loans for 1099 contractors",
-    title: "Personal Loans for 1099 Contractors and Freelancers",
+    title: "Personal Loans for 1099 Contractors and Freelancers 2026",
     description:
       "Personal loans for 1099 independent contractors: how income is verified, what lenders require, and how to qualify with non-traditional income.",
     eyebrow: "Employment type",
@@ -69,7 +69,7 @@ export const employmentTypes: Record<string, UseCase> = {
   "gig-workers": {
     slug: "gig-workers",
     h1: "Personal loans for gig-economy workers",
-    title: "Personal Loans for Uber, DoorDash, Instacart, and Other Gig Workers",
+    title: "Personal Loans for Gig Workers 2026: Uber, DoorDash, Instacart & More",
     description:
       "How rideshare drivers, food-delivery couriers, and other gig workers qualify for personal loans. Income verification, lender expectations, and APR ranges.",
     eyebrow: "Employment type",
@@ -98,7 +98,7 @@ export const employmentTypes: Record<string, UseCase> = {
   "w2-employees": {
     slug: "w2-employees",
     h1: "Personal loans for W-2 employees",
-    title: "Personal Loans for W-2 Employees: Standard Underwriting Explained",
+    title: "Personal Loans for W-2 Employees 2026: Standard Underwriting Explained",
     description:
       "W-2 employee personal loans: standard documentation, fastest underwriting in the market, and how to qualify for the best APRs at any credit tier.",
     eyebrow: "Employment type",

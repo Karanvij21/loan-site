@@ -18,7 +18,7 @@ export const products: Record<ProductSlug, {
   personal: {
     slug: "personal",
     h1: "Personal Loans up to $50,000",
-    title: "Personal Loans Online: $1,000 to $50,000",
+    title: "Personal Loans Online 2026: $1,000 to $50,000, 5.99-35.99% APR",
     description:
       "Compare personal loan offers from $1,000 to $50,000. Fixed APRs, terms up to 72 months, soft credit check. Get matched in 2 minutes.",
     amountMin: 1000,
@@ -45,7 +45,7 @@ export const products: Record<ProductSlug, {
   "bad-credit": {
     slug: "bad-credit",
     h1: "Bad Credit Loans",
-    title: "Bad Credit Personal Loans: $500 to $10,000",
+    title: "Bad Credit Personal Loans 2026: $500 to $10,000, Soft Check First",
     description:
       "Personal loans for bad credit from $500 to $10,000. Lenders in our network consider FICO scores below 600. Apply with a soft credit check.",
     amountMin: 500,
@@ -72,7 +72,7 @@ export const products: Record<ProductSlug, {
   emergency: {
     slug: "emergency",
     h1: "Emergency Loans",
-    title: "Emergency Loans Online: $300 to $5,000 Fast",
+    title: "Emergency Loans Online 2026: $300 to $5,000, Funds Next Day",
     description:
       "Emergency loans from $300 to $5,000 with funding as fast as the next business day. Apply in 2 minutes with a soft credit check.",
     amountMin: 300,

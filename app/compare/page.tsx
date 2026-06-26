@@ -9,9 +9,9 @@ import { comparisons } from "@/lib/comparisons";
 import { HeroPattern } from "@/components/HeroPattern";
 
 export const metadata: Metadata = {
-  title: "Loan Comparisons: Personal Loan vs Card, HELOC, 401(k), Payday Loan",
+  title: "Personal Loan Comparisons 2026: vs Credit Card, HELOC, Payday Loan & More",
   description:
-    "Side-by-side comparisons of personal loans against credit cards, HELOCs, payday loans, 401(k) loans, balance transfers, and more. Costs, risks, and when each option wins.",
+    "Side-by-side 2026 comparisons of personal loans vs credit cards, HELOCs, payday loans, 401(k) loans, balance transfers, and more. APRs, risks, and when each wins.",
   alternates: { canonical: "/compare" },
   openGraph: {
     title: "Loan Comparisons",

@@ -32,7 +32,7 @@ export const useCases: Record<string, UseCase> = {
   "debt-consolidation": {
     slug: "debt-consolidation",
     h1: "Debt consolidation loans",
-    title: "Debt Consolidation Loans: Combine and Simplify Debt",
+    title: "Debt Consolidation Loans 2026: Combine High-Interest Debt, Lower APR",
     description:
       "Combine credit-card balances and other high-APR debt into a single fixed-payment personal loan. Compare offers up to $50,000.",
     eyebrow: "Use case",
@@ -61,7 +61,7 @@ export const useCases: Record<string, UseCase> = {
   "medical": {
     slug: "medical",
     h1: "Medical loans",
-    title: "Medical Loans: Personal Loans for Healthcare Expenses",
+    title: "Medical Loans 2026: Personal Loans for Healthcare Bills, Soft Check",
     description:
       "Personal loans for medical bills, dental work, fertility treatment, and elective procedures. Compare fixed-rate offers up to $50,000.",
     eyebrow: "Use case",
@@ -90,7 +90,7 @@ export const useCases: Record<string, UseCase> = {
   "home-improvement": {
     slug: "home-improvement",
     h1: "Home improvement loans",
-    title: "Home Improvement Loans: Unsecured Financing for Renovations",
+    title: "Home Improvement Loans 2026: Unsecured, No Equity Required",
     description:
       "Unsecured personal loans for kitchen, bath, roofing, HVAC, and whole-home renovations. Up to $50,000 with no home equity required.",
     eyebrow: "Use case",
@@ -119,7 +119,7 @@ export const useCases: Record<string, UseCase> = {
   "wedding": {
     slug: "wedding",
     h1: "Wedding loans",
-    title: "Wedding Loans: Personal Loans for Wedding Costs",
+    title: "Wedding Loans 2026: Personal Loans for Wedding Costs, Soft Check",
     description:
       "Personal loans up to $50,000 for venue, catering, dress, photographer, and honeymoon costs. Fixed APRs and predictable monthly payments.",
     eyebrow: "Use case",
@@ -148,7 +148,7 @@ export const useCases: Record<string, UseCase> = {
   "moving": {
     slug: "moving",
     h1: "Moving loans",
-    title: "Moving Loans: Personal Loans for Relocation Expenses",
+    title: "Moving Loans 2026: Personal Loans for Relocation, Funds Next Day",
     description:
       "Personal loans for movers, deposits, and relocation costs. Fund the move now, repay in fixed monthly payments over 12 to 60 months.",
     eyebrow: "Use case",
@@ -177,7 +177,7 @@ export const useCases: Record<string, UseCase> = {
   "vehicle-repair": {
     slug: "vehicle-repair",
     h1: "Car repair loans",
-    title: "Car Repair Loans: Personal Loans for Auto Repairs",
+    title: "Car Repair Loans 2026: Personal Loans for Auto Repairs, Same-Day Decision",
     description:
       "Personal loans for transmission, engine, brake, or accident-related auto repairs. Fund the repair now, pay over 6 to 48 months.",
     eyebrow: "Use case",
@@ -206,7 +206,7 @@ export const useCases: Record<string, UseCase> = {
   "vacation": {
     slug: "vacation",
     h1: "Vacation loans",
-    title: "Vacation Loans: Personal Loans for Travel",
+    title: "Vacation Loans 2026: Personal Loans for Travel, No Collateral",
     description:
       "Personal loans for honeymoons, family vacations, and bucket-list trips. Fixed APRs, defined payoff dates, no revolving card debt.",
     eyebrow: "Use case",
@@ -235,7 +235,7 @@ export const useCases: Record<string, UseCase> = {
   "dental": {
     slug: "dental",
     h1: "Dental loans",
-    title: "Dental Loans: Personal Loans for Dental Work",
+    title: "Dental Loans 2026: Personal Loans for Dental Work & Implants",
     description:
       "Personal loans for implants, braces, Invisalign, crowns, root canals, and cosmetic dental work. Fixed APRs up to $50,000.",
     eyebrow: "Use case",
@@ -264,7 +264,7 @@ export const useCases: Record<string, UseCase> = {
   "funeral": {
     slug: "funeral",
     h1: "Funeral loans",
-    title: "Funeral Loans: Personal Loans for End-of-Life Expenses",
+    title: "Funeral Loans 2026: Personal Loans for End-of-Life Expenses, Fast Funding",
     description:
       "Personal loans for funeral, burial, and cremation costs. Compassionate same-day approval, no collateral, repay over 12 to 60 months.",
     eyebrow: "Use case",
@@ -293,7 +293,7 @@ export const useCases: Record<string, UseCase> = {
   "appliance": {
     slug: "appliance",
     h1: "Appliance loans",
-    title: "Appliance Loans: Personal Loans for Refrigerators, Washers, HVAC",
+    title: "Appliance Loans 2026: Personal Loans for Refrigerators, Washers & HVAC",
     description:
       "Personal loans for refrigerators, washers, dryers, HVAC, and major appliance replacements. Fixed APRs from $500 to $15,000.",
     eyebrow: "Use case",

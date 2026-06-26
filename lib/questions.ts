@@ -2031,6 +2031,186 @@ export const questions: Question[] = [
     relatedSlugs: ["personal-loan-approval-odds", "how-lenders-verify-income"],
     toolLinks: [],
   },
+  {
+    slug: "what-happens-if-i-miss-a-payment",
+    topic: "Process & terms",
+    question: "What happens if I miss a personal loan payment?",
+    shortAnswer:
+      "A missed payment typically triggers a late fee after a 15-day grace period, and the lender reports it as 30 days late to credit bureaus after 30 days of non-payment. One 30-day late mark can drop a good credit score by 60-100 points and stays on your report for 7 years.",
+    context:
+      "The sequence after a missed payment: First, most lenders allow a 10-15 day grace period before charging a late fee ($15-$40 or 5% of the payment, whichever is less). At 30 days past due, the lender reports a 'late payment' to credit bureaus. At 60 days, a second report; 90 days, a third. At 120-180 days, many lenders charge off the account (write it off as a loss) and sell it to a collections agency.\n\nCredit impact: A single 30-day late payment is the most damaging event short of bankruptcy. On a 720 FICO score, a 30-day late can drop 60-100 points. The impact fades over 7 years but never fully disappears until it drops off your report.\n\nIf you know you'll miss a payment, call your lender before the due date. Many lenders offer hardship programs: a short-term payment deferral, a reduced-payment plan, or a temporary rate reduction. These are not always advertised and require you to call and ask. A deferral doesn't go on your credit report; a missed payment does.",
+    relatedSlugs: ["personal-loan-default-credit-report-duration", "refinance-personal-loan-lower-rate"],
+    toolLinks: [
+      { label: "Glossary: Charge-off", href: "/glossary/charge-off" },
+    ],
+  },
+  {
+    slug: "personal-loan-for-house-down-payment",
+    topic: "Special situations",
+    question: "Can I use a personal loan for a house down payment?",
+    shortAnswer:
+      "Technically yes, but most mortgage lenders will count the personal loan payment in your DTI, which often reduces the mortgage amount you qualify for. Some loan programs explicitly prohibit borrowed down payments. FHA, VA, USDA, and conforming conventional loans all have rules about down-payment sources.",
+    context:
+      "The core problem: a personal loan shows up on your credit report as a new liability. When you apply for a mortgage, the lender calculates your debt-to-income ratio using all monthly debt payments. The personal loan payment reduces your available DTI for mortgage purposes, directly cutting the maximum mortgage payment you can qualify for.\n\nFHA loans allow down-payment gifts but not borrowed funds. Conventional conforming loans (Fannie Mae/Freddie Mac) require that the down payment come from the borrower's own funds if the down payment is less than 20%. VA and USDA loans are 0% down and eliminate the issue entirely for eligible veterans/rural buyers.\n\nThe practical outcome for most buyers: using a personal loan to boost a down payment saves on PMI but costs more in total. If the personal loan payment pushes DTI above lender limits, you may actually qualify for less house.\n\nStrategies that work better: down-payment assistance programs (DPA) administered by state housing finance agencies, seller concessions, gift funds from family (documented properly), and for first-time buyers, HUD-approved lender special programs.",
+    relatedSlugs: ["personal-loan-vs-heloc-question", "personal-loan-affect-mortgage"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-no-credit-history",
+    topic: "Approval & amount",
+    question: "Can I get a personal loan with no credit history?",
+    shortAnswer:
+      "Yes, though options are more limited. Credit unions with membership ties, CDFIs, and a few online lenders use income and bank-account history as primary underwriting criteria when no credit file exists. Expect smaller amounts ($500-$5,000), higher APRs, and sometimes a co-signer requirement.",
+    context:
+      "No credit history (sometimes called 'thin file' or 'credit invisible') affects an estimated 45 million Americans, including recent immigrants, young adults, and people who have exclusively used cash.\n\nBest options without a credit file: Federal credit union Payday Alternative Loans (PALs) have no credit-score minimum and cap APR at 28%. Membership credit unions that use alternative data (banking history, income) for underwriting. CDFIs specifically serve underbanked populations and are often nonprofits with below-market APRs. A co-signed loan with a creditworthy co-signer gets you standard underwriting terms.\n\nAlternatives that build credit quickly: A secured credit card (requires a cash deposit, reports to all three bureaus). A credit-builder loan from Self or a credit union specifically designed to create a credit file. Even 6-12 months of on-time payments on a secured card creates enough history for mainstream lenders to qualify you.\n\nWhat to avoid: predatory installment lenders and payday operators that charge 300%+ APR and don't report to credit bureaus (you pay high rates without building the credit history that would help you get better rates later).",
+    relatedSlugs: ["personal-loan-with-500-credit-score", "personal-loan-as-student"],
+    toolLinks: [
+      { label: "Glossary: Credit builder loan", href: "/glossary/credit-builder-loan" },
+    ],
+  },
+  {
+    slug: "do-lenders-call-your-employer",
+    topic: "Process & terms",
+    question: "Do personal loan lenders call your employer to verify employment?",
+    shortAnswer:
+      "Most online lenders verify income through bank-statement data (via Plaid) or pay stubs and don't call your employer. Some traditional banks and credit unions do conduct phone verification. You should assume verification will happen in some form.",
+    context:
+      "Online marketplace lenders: The most common verification method today is bank data aggregation via Plaid or Finicity. The lender asks you to log into your bank account through their portal, which pulls 3-12 months of transaction history and payroll deposit patterns. No employer contact needed. Some lenders also use The Work Number (Equifax's employment verification database) which pulls automated verification from participating employers without a call.\n\nBank and credit union lenders: More likely to do manual verification. This can include calling your employer's HR department to confirm employment status and salary. You will typically be asked to provide your employer's HR phone number during the application.\n\nWhen calls happen: Large loan amounts ($30,000+), income that seems inconsistent with documents, or any anomaly in the application may trigger manual review including employer calls. Self-employed borrowers are more often asked for additional documentation (tax returns, bank statements) rather than an employer call.\n\nPrivacy: Lenders may not share the reason for the call (e.g., 'we're verifying a loan application') without your consent in some states. However, they can generally confirm employment with your employer as a standard verification process.",
+    relatedSlugs: ["how-lenders-verify-income", "personal-loan-application-process"],
+    toolLinks: [],
+  },
+  {
+    slug: "joint-personal-loan-application",
+    topic: "Approval & amount",
+    question: "Can two people apply for a personal loan together?",
+    shortAnswer:
+      "Yes. A joint personal loan (co-borrower application) means both applicants' credit and income are considered. It typically increases the loan amount you can access and may lower your APR if the co-borrower has stronger credit.",
+    context:
+      "Co-borrower vs. co-signer: A co-borrower shares equal responsibility and equal ownership of the loan. The loan appears on both credit reports. A co-signer backs the primary borrower but isn't entitled to the funds and only appears on the credit report if the primary borrower defaults.\n\nWhen joint helps: When the primary applicant has limited income, a co-borrower with additional income can push DTI into qualifying territory for a larger loan. When the primary applicant has fair credit and the co-borrower has excellent credit, lenders may use a blended score or the stronger score depending on their policy. Both can increase the amount offered and decrease the APR.\n\nLender policies vary: Not all lenders offer joint applications. LightStream, SoFi, Discover, and most credit unions allow joint applications. Some online-only lenders have moved away from joint applications in favor of income-only underwriting.\n\nImplication for both borrowers: A joint loan counts in both borrowers' DTI for future credit applications. Both are equally liable for repayment. If one stops paying, the other's credit is affected. This is a significant financial entanglement and should only be done with someone you deeply trust.",
+    relatedSlugs: ["personal-loan-co-signer", "multiple-personal-loans-same-time"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-affect-mortgage",
+    topic: "Special situations",
+    question: "Will a personal loan hurt my chances of getting a mortgage?",
+    shortAnswer:
+      "It can. A personal loan adds to your monthly debt payments, which raises your debt-to-income ratio (DTI). Most mortgage underwriters require DTI below 43-45%. If the personal loan payment pushes your DTI over that limit, it directly reduces the mortgage amount you qualify for.",
+    context:
+      "DTI is the mortgage underwriter's primary tool for affordability. DTI = total monthly debt payments / gross monthly income. The personal loan payment gets added to your existing monthly obligations (car, student loans, credit card minimums) when calculating your mortgage DTI.\n\nThe math: If you earn $6,000/month and have $1,000 in existing debt payments plus a $300/month new personal loan, your DTI before the mortgage payment is already 21.7%. A lender limiting back-end DTI to 43% gives you $580/month for a mortgage. At 7%, that's roughly a $87,000 mortgage. Without the personal loan, you'd have $880 for mortgage payment, supporting about $132,000 more in loan.\n\nBest practice: If you're planning to buy a home in the next 6-12 months, take the personal loan after the mortgage closes, not before. The mortgage application is a snapshot of your debt at that moment.\n\nHard inquiry timing: A personal loan application creates a hard inquiry. Multiple inquiries for different credit products are not rate-shopped together the way mortgage inquiries are. A recent personal loan inquiry can itself signal financial stress to a mortgage underwriter.",
+    relatedSlugs: ["personal-loan-for-house-down-payment", "personal-loan-vs-heloc-question"],
+    toolLinks: [
+      { label: "Glossary: Debt-to-income ratio", href: "/glossary/debt-to-income-ratio" },
+    ],
+  },
+  {
+    slug: "minimum-income-personal-loan",
+    topic: "Approval & amount",
+    question: "Is there a minimum income requirement for a personal loan?",
+    shortAnswer:
+      "Most lenders don't publish a hard minimum, but the loan payment typically must be below 15-20% of gross monthly income as a practical floor. Some lenders cite $24,000-$30,000 annual income as an informal minimum. A $500/month payment requires roughly $2,500-$3,300 gross monthly income to qualify.",
+    context:
+      "Lenders don't usually approve loans where the monthly payment exceeds 15-20% of gross monthly income because the resulting DTI becomes too high when combined with other obligations. This creates an effective income floor even without a published minimum.\n\nExamples: A $5,000 loan over 36 months at 18% APR is $180/month. To keep this payment under 15% of gross monthly income, you'd need roughly $1,200/month in gross income. A $15,000 loan over 48 months at 20% is $450/month, requiring about $3,000/month gross income at the same ratio.\n\nLenders that do publish minimums: Some lenders cite $20,000-$30,000 annual income as an explicit requirement. SoFi has historically required $40,000+. Credit unions often have no formal minimum but underwrite to DTI.\n\nIncome types that count: Employment income (W-2 or 1099), Social Security and pension, alimony/child support (if borrower chooses to disclose), rental income, investment income, and regular business income. Occasional or one-time income typically doesn't count unless you can show a multi-year pattern.",
+    relatedSlugs: ["how-lenders-verify-income", "personal-loan-approval-odds"],
+    toolLinks: [
+      { label: "Glossary: Debt-to-income ratio", href: "/glossary/debt-to-income-ratio" },
+    ],
+  },
+  {
+    slug: "personal-loan-pre-qualification-expiration",
+    topic: "Process & terms",
+    question: "How long does a personal loan pre-qualification offer last?",
+    shortAnswer:
+      "Most personal loan pre-qualification offers expire in 14-30 days. If you accept after the offer expires, the lender will re-check your credit and income, which may result in a different rate. Some lenders allow you to re-apply with a new soft pull to get an updated offer.",
+    context:
+      "Pre-qualification is a conditional offer based on your credit and income at the moment of the soft pull. Lenders set expiration windows because your credit profile can change: you might take on new debt, miss a payment, or your income might change. After the offer window closes, the lender has no assurance that the original underwriting still applies.\n\nPractical implication: If you're shopping across multiple lenders, don't wait too long after getting your first offers. Shop within a 7-14 day window so rates are comparable and no early offers expire before you're ready to decide.\n\nA hard inquiry on acceptance: When you formally accept a pre-qualified offer, the lender pulls a hard inquiry to verify the soft-pull data, confirm your identity, and finalize the rate. This hard inquiry is what formally locks in the offer (or may result in a modified offer if they find something different in the hard pull that wasn't visible in the soft pull).\n\nRate locks: Unlike mortgages, personal loan rates are not locked from pre-qualification through closing. The final rate is set at acceptance time based on the hard pull. Shopping quickly reduces the risk of interest-rate environment changes affecting your offer.",
+    relatedSlugs: ["hard-inquiry-credit-score-impact", "personal-loan-application-process"],
+    toolLinks: [],
+  },
+  {
+    slug: "payday-loan-to-personal-loan",
+    topic: "Special situations",
+    question: "Can I use a personal loan to pay off a payday loan?",
+    shortAnswer:
+      "Yes. Paying off a payday loan with a personal loan is one of the most financially sound debt moves you can make. Payday loans typically carry 300-400% APR. A personal loan at even 35% APR represents a 90%+ reduction in borrowing cost for the same debt.",
+    context:
+      "The math makes this a clear win: A $500 payday loan at 400% APR for 2 weeks costs about $77 in fees. Rolling it over monthly for 6 months costs $462 in fees alone, nearly equal to the principal. A $500 personal loan at 35% APR for 6 months costs about $51 in interest total.\n\nChallenge: Payday borrowers often have lower credit scores and less income documentation, which makes qualifying for a personal loan harder. Options in this situation: Federal credit union Payday Alternative Loans (PALs) - capped at 28% APR and available even with damaged credit if you're a member. CDFI loans specifically designed to break the payday cycle. Employer emergency advance programs (some larger employers offer 0% paycheck advances). Nonprofit credit counseling agencies that can negotiate with payday lenders.\n\nAnother option: In some states, payday lenders are required to offer an extended payment plan (EPP) at no additional charge before sending the debt to collections. Ask your payday lender directly before taking a new loan to pay the old one.\n\nLong-term: Breaking the payday cycle and building a small emergency fund ($500-$1,000) prevents the next payday loan need. A credit-builder loan can help rebuild credit while forcing savings.",
+    relatedSlugs: ["personal-loan-vs-payday-loan", "personal-loan-with-500-credit-score"],
+    toolLinks: [
+      { label: "Compare: Personal loan vs payday loan", href: "/compare/personal-loan-vs-payday-loan" },
+    ],
+  },
+  {
+    slug: "personal-loan-for-rent",
+    topic: "Special situations",
+    question: "Can I use a personal loan to pay rent?",
+    shortAnswer:
+      "Yes, personal loans can be used for rent or security deposits. There's no restriction on using personal loan funds for housing expenses. However, using debt to cover ongoing rent can create a cycle of dependency - it works best as a bridge for a one-time shortfall, not a recurring solution.",
+    context:
+      "When a rent personal loan makes sense: Covering rent during a one-time income interruption (job gap, medical leave, waiting on severance). Paying a security deposit for a new apartment when your deposit is still tied up at the previous landlord. Moving costs combined with first month and last month rent for a new housing situation.\n\nWhen it creates problems: If your income isn't sufficient to cover both rent and a loan repayment, you're adding debt without solving the underlying cash-flow issue. The loan payment becomes the next month's shortfall.\n\nAlternatives for housing shortfalls: Rental assistance programs administered by local housing authorities and nonprofits (search 211.org for local resources). Payment plans negotiated directly with landlords - many prefer a payment arrangement over eviction proceedings. Emergency rental assistance from government programs (availability varies by state and funding cycle).\n\nSecurity deposits specifically: A personal loan for a security deposit can make sense if you're in a tight housing market and don't want to delay your move-in. The deposit is returned at lease end, so you effectively get your money back, and the loan can be paid off over 6-12 months in the meantime.",
+    relatedSlugs: ["personal-loan-for-house-down-payment", "personal-loan-emergency"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-as-non-us-citizen",
+    topic: "Special situations",
+    question: "Can non-U.S. citizens get a personal loan?",
+    shortAnswer:
+      "Yes, with conditions. Permanent residents (green card holders) qualify exactly like citizens at all mainstream lenders. Visa holders on H-1B, L-1, O-1, and other work visas can qualify at many online lenders if they have a Social Security number or ITIN. Undocumented individuals can access ITIN loans at some CDFIs and credit unions.",
+    context:
+      "Green card holders (lawful permanent residents): Full access to all personal loan products. SSN is available, credit history may already be established. Underwriting is identical to U.S. citizens.\n\nWork-visa holders (H-1B, L-1, O-1, TN, etc.): Must have a valid SSN to access mainstream credit. Most mainstream online lenders accept these applications without explicitly asking about visa status. Some lenders check 'time remaining on visa' vs. loan term for longer-term loans. FICO scores must exist (usually requiring 6+ months of credit activity in the U.S.).\n\nF-1 and other student visas: Fewer options. No work authorization often means no income, which is the primary qualification barrier. Co-signer options are most practical for student visa holders who lack income.\n\nITIN holders: A smaller set of lenders (CDFIs, community banks, some credit unions) serve ITIN borrowers. Camino Financial, Stilt (H-1B and other visa focused), and Nova Credit (which converts foreign credit reports) have specifically built products for immigrant borrowers.\n\nFCRA and ECOA apply: Lenders may not discriminate based on national origin. Citizenship status itself is not an ECOA protected class, but national origin is. A blanket policy of refusing all non-citizens without regard to credit or income likely would be challenged under ECOA.",
+    relatedSlugs: ["personal-loan-without-social-security-number", "personal-loan-approval-odds"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-origination-fee-negotiable",
+    topic: "Process & terms",
+    question: "Are personal loan origination fees negotiable?",
+    shortAnswer:
+      "Rarely. Origination fees are typically set by the lender's pricing engine based on your credit score and risk tier. They are not individually negotiated. However, you can shop across lenders since fees vary widely (0% at some lenders, up to 10% at others), and comparing APRs (which include fees) is the right way to account for them.",
+    context:
+      "Origination fees are deducted from the loan proceeds or added to the loan balance at funding. A 5% fee on a $10,000 loan means you receive $9,500 but repay $10,000 plus interest. The fee's effective cost depends on the loan term: the same 5% fee on a 12-month loan is much more expensive on an APR basis than on a 60-month loan.\n\nLenders with 0% origination fees: LightStream, SoFi, Marcus by Goldman Sachs, and Discover Personal Loans historically offer no origination fees for qualified borrowers. These lenders typically require good-to-excellent credit.\n\nLenders with high origination fees: Marketplace lenders serving fair-credit borrowers (Upgrade, Best Egg, Avant) typically charge 1.85-8% origination fees. For these lenders, always compare APR (which includes the fee) rather than interest rate alone.\n\nThe APR requirement: Under TILA, lenders must quote an APR that includes all mandatory fees. When comparing offers, use APR as your comparison metric, not the stated interest rate. A 12% loan with a 6% origination fee may have a higher APR than a 15% loan with no origination fee, especially for shorter terms.",
+    relatedSlugs: ["what-is-apr-personal-loan", "personal-loan-application-process"],
+    toolLinks: [
+      { label: "Glossary: Origination fee", href: "/glossary/origination-fee" },
+      { label: "Calculator: APR comparison", href: "/calculators#apr" },
+    ],
+  },
+  {
+    slug: "personal-loan-not-enough-funds",
+    topic: "Approval & amount",
+    question: "What if I'm approved for less than I requested?",
+    shortAnswer:
+      "You can accept the lower amount, decline the offer and try another lender, or ask for a reconsideration with additional income documentation. The most common reason for a counter-offer is that the requested amount would push DTI above the lender's limit given your income.",
+    context:
+      "Counter-offers are common. A lender may approve you for $8,000 when you requested $15,000. This usually means your income-to-payment ratio doesn't support the full amount at your current income level, or there's a negative credit factor limiting the exposure a lender will take.\n\nOptions when counter-offered: Accept the lower amount if it still meets your need. Apply at additional lenders - different underwriting models mean a different lender may approve the full amount. Add a co-borrower with additional income. Provide supplemental income documentation if you have income the initial application didn't capture (rental income, freelance, side business). Ask the lender directly whether income documentation would support reconsideration - some lenders have a manual review process.\n\nRate impact of smaller amount: Some lenders price personal loans differently by amount tier. A $10,000 loan may carry a different rate than a $15,000 loan at the same lender. Accepting a lower amount doesn't automatically mean a better rate - confirm the new terms before accepting.\n\nIf you need the full amount: Multiple smaller loans from different lenders is an option but adds complexity (multiple payments, multiple hard inquiries). A better path is usually to identify the right lender for your profile upfront through soft-pull pre-qualification.",
+    relatedSlugs: ["maximum-unsecured-personal-loan-amount", "multiple-personal-loans-same-time"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-weekend-funding",
+    topic: "Process & terms",
+    question: "Can I get a personal loan funded on the weekend?",
+    shortAnswer:
+      "A few online lenders offer same-day or next-business-day ACH transfers, but bank processing typically requires a business day (Monday-Friday). Applications submitted Friday afternoon may fund Monday. Some lenders (LightStream, for instance) have funded on Saturdays in some cases.",
+    context:
+      "ACH processing: Most personal loan funds arrive via ACH bank transfer, which is processed by the Automated Clearing House network. ACH has set processing windows that don't include Saturday night or Sunday. A loan accepted Friday afternoon after the ACH cutoff (usually 5-7pm ET) will typically fund the next business day (Monday).\n\nFaster options for weekend urgency: If you need cash immediately over a weekend, options include: same-day cash at a branch (rare for personal loans), cash advance on a credit card (expensive but instant), or in-network ATM withdrawals from existing accounts. Loan funds arriving Monday may be the fastest realistic option for an online personal loan.\n\nLenders claiming same-day funding: Some marketplace lenders advertise same-day funding for applications approved early in the business day. This typically applies to loans accepted before the ACH cutoff (often 2-3pm ET on a weekday). It usually requires your bank to also support same-day ACH, which is now available at most major banks.\n\nVerification speed: The limiting factor for funding speed is often verification, not ACH. Complete all documentation upfront, ensure your bank account is the same one linked for income verification, and accept the offer promptly to maximize speed.",
+    relatedSlugs: ["how-quickly-will-i-receive-funds", "personal-loan-application-process"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-lower-monthly-payment",
+    topic: "Process & terms",
+    question: "How do I get the lowest possible monthly payment on a personal loan?",
+    shortAnswer:
+      "The monthly payment decreases when you extend the loan term, lower the APR, or borrow less. Extending from 36 to 60 months reduces the payment by roughly 30-35% on the same loan, though total interest paid increases significantly. The lowest payment and lowest total cost are usually in tension.",
+    context:
+      "Three levers for lower monthly payment: Longer term (more months = smaller slices of the same debt), lower APR (less interest accrues each month), smaller loan amount (less principal to repay).\n\nThe term tradeoff: A $15,000 loan at 15% APR has a $521 monthly payment at 36 months and a $357 payment at 60 months - a $164/month reduction. But the 60-month borrower pays $6,420 in total interest vs. $3,756 - an extra $2,664 to get the lower payment. Choosing the longer term is sometimes worth it (if the lower payment is genuinely needed for cash flow), but the cost is real.\n\nAPR has a larger impact than term on total cost: A $15,000 loan at 12% for 48 months ($395/month) costs $3,960 in total interest. The same loan at 20% for 48 months is $443/month with $6,264 in total interest. Reducing APR saves more money than any other variable.\n\nCo-borrower or co-signer for APR: If your credit score limits the APR you qualify for, adding a creditworthy co-signer or co-borrower may qualify you for a meaningfully lower APR, reducing both the monthly payment and total cost.\n\nUse the calculator: Our monthly payment calculator shows you exactly how term and rate interact for your specific loan amount.",
+    relatedSlugs: ["refinance-personal-loan-lower-rate", "paying-off-personal-loan-early-credit"],
+    toolLinks: [
+      { label: "Calculator: Monthly payment", href: "/calculators#payment" },
+    ],
+  },
 ];
 
 export const questionsBySlug = Object.fromEntries(

@@ -435,6 +435,93 @@ export const useCases: Record<string, UseCase> = {
       { q: "Can I borrow more than the solar installation cost?", a: "Yes. Some homeowners roll in the cost of a battery storage system, EV charger, or electrical panel upgrade into the same personal loan. Confirm with your installer what can be included in the project scope, then borrow for the full bundled cost." },
     ],
   },
+  "education": {
+    slug: "education",
+    h1: "Personal loans for education and tuition",
+    title: "Education Loans 2026: Personal Loans for Tuition, Certification & Training, Soft Check",
+    description:
+      "Personal loans for tuition, coding bootcamps, certifications, and vocational training. When a personal loan beats private student loans, and how to compare APRs.",
+    eyebrow: "Use case",
+    intro:
+      "A personal loan for education covers tuition, books, certification fees, trade school, coding bootcamps, and professional development costs that federal student aid often doesn't reach. Unlike student loans, education personal loans carry no restrictions on school type or program length, fund in 1-2 business days, and don't require your school to be on any approved list. They're especially useful for short-term programs, adult learners, and situations where speed matters.",
+    amountMin: 1000,
+    amountMax: 50000,
+    termMin: 12,
+    termMax: 60,
+    aprMin: 7.99,
+    aprMax: 35.99,
+    bullets: [
+      "No school approval list or enrollment verification required",
+      "Funds typically next business day",
+      "Loan amounts from $1,000 to $50,000",
+      "APRs 7.99% to 35.99% depending on credit",
+      "Soft credit check to compare, no score impact",
+    ],
+    faqs: [
+      { q: "Is a personal loan or a student loan better for tuition?", a: "Federal student loans should be your first choice if you're enrolled at an eligible school. They offer income-driven repayment, potential forgiveness, deferred payments during school, and lower interest rates than personal loans for most borrowers. However, personal loans are better for coding bootcamps, trade certifications, non-accredited programs, short courses, and any situation where you need funding faster than financial aid timelines allow." },
+      { q: "Can I use a personal loan for a coding bootcamp?", a: "Yes. Most coding bootcamps are not accredited institutions and therefore don't qualify for federal student aid or most private student loan programs. Personal loans are one of the most practical funding options for bootcamp tuition. Some bootcamps have income share agreement (ISA) alternatives, but a personal loan gives you a known total cost upfront." },
+      { q: "Are education personal loans tax-deductible?", a: "Generally no. The student loan interest deduction applies to qualified student loans as defined by the IRS, which typically means loans used to pay qualified education expenses at an eligible institution. A personal loan used for education usually doesn't meet the 'qualified student loan' definition and the interest isn't deductible. Confirm with your tax advisor for your specific situation." },
+      { q: "Can I get an education personal loan with bad credit?", a: "Yes, though APRs will be higher. Some lenders specialize in fair-credit personal loans (580-660 FICO) for education purposes. If credit is a limiting factor, consider applying with a creditworthy co-signer, which typically reduces the APR substantially and may increase the available loan amount. Federal credit unions also offer PAL (Payday Alternative Loans) and sometimes personal loans at capped rates for members." },
+    ],
+  },
+  "taxes": {
+    slug: "taxes",
+    h1: "Personal loans to pay taxes",
+    title: "Personal Loans to Pay Taxes 2026: IRS Bill, Tax Debt & Installment Plan Alternatives",
+    description:
+      "Should you take a personal loan to pay the IRS? Compare personal loan APRs vs. IRS payment plan rates, tax debt options, and when a loan makes financial sense.",
+    eyebrow: "Use case",
+    intro:
+      "A personal loan to pay a tax bill can make financial sense when the IRS interest and penalty rate (currently 8% annual for Q2 2026) plus any failure-to-pay penalties exceeds your personal loan APR. For taxpayers with good credit, a personal loan at 10-14% APR over 12-24 months may cost less than an IRS installment agreement with compounding interest and monthly setup fees. It also clears your IRS balance immediately, stopping accrual.",
+    amountMin: 500,
+    amountMax: 50000,
+    termMin: 6,
+    termMax: 60,
+    aprMin: 7.99,
+    aprMax: 35.99,
+    bullets: [
+      "Pays IRS balance immediately, stopping penalty and interest accrual",
+      "Fixed monthly payment vs. variable IRS accrual",
+      "Loan amounts from $500 to $50,000",
+      "APRs 7.99% to 35.99% depending on credit",
+      "Soft credit check to compare, no score impact",
+    ],
+    faqs: [
+      { q: "Is a personal loan cheaper than an IRS payment plan?", a: "Depends on your credit. The IRS currently charges the federal short-term rate plus 3% (about 7-8% annually) plus a failure-to-pay penalty of 0.5% per month you don't pay the full balance. Combined, that's 13-14% effective annual cost if you use the IRS plan. A personal loan at 8-12% APR for a borrower with good credit is comparable or cheaper, with the added benefit of a fixed payoff date." },
+      { q: "Can a personal loan pay state tax debt too?", a: "Yes. State tax agencies (FTB, NCDOR, etc.) also charge penalties and interest on unpaid balances. A personal loan can be used to pay any tax authority. State penalty and interest rates vary by jurisdiction; look up your state agency's current rate to compare against your personal loan offer." },
+      { q: "Will the IRS accept partial payment while I get a personal loan?", a: "You can request a short-term extension (up to 180 days) from the IRS to give yourself time to arrange financing. During this window, interest and failure-to-pay penalties still accrue, but you avoid some setup costs. Filing an extension gives you more time to file your return, but does not extend the time to pay." },
+      { q: "What if I can't qualify for a personal loan to cover my tax bill?", a: "The IRS offers several hardship options: an installment agreement (up to 72 months for balances under $50,000), an Offer in Compromise (settle for less if you genuinely can't pay), and Currently Not Collectible status (temporary suspension of collection if paying would cause undue hardship). A tax professional or IRS Taxpayer Advocate can help you navigate these options." },
+    ],
+  },
+  "boat": {
+    slug: "boat",
+    h1: "Personal loans for boat purchases",
+    title: "Boat Loans 2026: Personal Loans for Boat Purchases, No Collateral Required",
+    description:
+      "Personal loans for boats, jet skis, and watercraft: no collateral, approved without a marine lien, APR ranges, and when a personal loan beats a boat loan.",
+    eyebrow: "Use case",
+    intro:
+      "A personal loan for a boat is an unsecured alternative to a traditional marine/boat loan. It doesn't require the boat as collateral, which means no marine survey, no hull insurance requirement tied to the lender, and no lien on the vessel. For boats under $30,000 and buyers with good credit, an unsecured personal loan can be simpler, faster, and sometimes cheaper than a secured boat loan from a marine lender.",
+    amountMin: 1000,
+    amountMax: 50000,
+    termMin: 24,
+    termMax: 84,
+    aprMin: 7.99,
+    aprMax: 35.99,
+    bullets: [
+      "No marine survey or boat title required",
+      "No lien on the vessel",
+      "Loan amounts from $1,000 to $50,000",
+      "APRs 7.99% to 35.99% depending on credit",
+      "Funds typically next business day",
+    ],
+    faqs: [
+      { q: "Personal loan or boat loan: which is better?", a: "For boats under $25,000-$30,000, a personal loan is often simpler. Secured boat loans from marine lenders have lower APRs (typically 6-12%) but require a marine survey, hull inspection, specific insurance, and may come with restrictions on the boat's age and condition. Personal loans skip all that, close faster, and require no lien. For more expensive vessels, the APR difference on a secured loan usually justifies the extra steps." },
+      { q: "Can I use a personal loan to buy a used boat?", a: "Yes. This is one of the biggest advantages over secured boat loans, which often won't finance older boats (many won't finance boats over 10-15 years old). A personal loan has no restrictions on the age, condition, or type of watercraft you're buying. You can finance a vintage wooden boat the same way as a new fiberglass runabout." },
+      { q: "How much can I borrow for a boat?", a: "Most personal loan lenders cap at $50,000. Your actual approved amount depends on credit score, income, and DTI. For boats under $25,000 (the most common private-party sale range), personal loans are the most efficient path. For larger purchases, compare against dealer-arranged marine financing or a credit-union boat loan, which may offer lower APRs for the larger amount." },
+      { q: "Will lenders know I'm using the loan for a boat?", a: "You're typically asked to state the loan purpose on the application. 'Major purchase' or 'recreation' is usually the category. Lenders don't inspect what you buy with an unsecured personal loan, but providing an accurate purpose helps you get the right product and avoids any potential misrepresentation issues." },
+    ],
+  },
 };
 
 export const useCaseSlugs = Object.keys(useCases);

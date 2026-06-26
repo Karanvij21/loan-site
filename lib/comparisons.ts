@@ -1385,6 +1385,70 @@ export const comparisons: Record<string, Comparison> = {
       { q: "Is margin loan interest tax deductible?", a: "Margin loan interest used to purchase securities may be deductible as an investment interest expense on Schedule A (up to net investment income for the year). Excess interest expense is carried forward to future years. However, margin loan interest used for personal expenses (not purchasing additional investments) generally is not deductible. A personal loan's interest is almost never deductible for consumer use. Consult a tax advisor for your specific situation." },
     ],
   },
+  "personal-loan-vs-lawsuit-settlement-funding": {
+    slug: "personal-loan-vs-lawsuit-settlement-funding",
+    h1: "Personal loan vs lawsuit settlement funding",
+    title: "Personal Loan vs Lawsuit Settlement Funding (Pre-Settlement Loans): Which Is Better?",
+    description:
+      "Compare personal loans to pre-settlement lawsuit funding (legal funding advances). Lawsuit funding charges no monthly payments but its effective APR is extremely high. Personal loans are almost always cheaper.",
+    aName: "Personal loan",
+    bName: "Lawsuit settlement funding",
+    intro:
+      "Lawsuit settlement funding (also called pre-settlement funding or legal funding) advances you money against an anticipated lawsuit settlement, typically in personal injury cases. You repay only if you win; if you lose, you owe nothing. This no-recourse feature explains the extremely high effective APR - often 25%-60% annually - that lawsuit funders charge.",
+    rows: [
+      { k: "APR range", a: "8%-36% fixed", b: "25%-60%+ effective annual rate (disclosed as factor rates, not APR)" },
+      { k: "Recourse", a: "Full recourse - you must repay regardless of your financial situation", b: "Non-recourse - you owe nothing if you lose your lawsuit" },
+      { k: "Repayment timing", a: "Monthly fixed payments starting immediately", b: "No payments until settlement; lump sum repaid from settlement proceeds" },
+      { k: "Qualification", a: "Based on credit score, income, debt-to-income ratio", b: "Based on strength of your lawsuit, not your credit score" },
+      { k: "Available to", a: "Any creditworthy borrower", b: "Plaintiffs in personal injury, workers comp, or class action suits represented by an attorney" },
+      { k: "Amount available", a: "$1,000-$100,000", b: "Typically 10%-20% of estimated settlement value" },
+      { k: "Regulatory protection", a: "Full TILA, ECOA, and state consumer lending law protection", b: "Largely unregulated in most states; rate disclosure varies widely" },
+      { k: "Attorney involvement", a: "Not required", b: "Required - most funders require attorney to sign off on the advance" },
+    ],
+    verdicts: [
+      { scenario: "You have good or fair credit and need cash while your lawsuit proceeds", pick: "a", reason: "A personal loan at 12%-25% APR is almost always cheaper than pre-settlement funding at 25%-60%+ effective APR. If you can qualify for a personal loan, use it." },
+      { scenario: "You have poor credit, no income, and a strong lawsuit", pick: "b", reason: "If you cannot qualify for any personal loan, pre-settlement funding is a last resort for plaintiffs who genuinely cannot cover living expenses while their case resolves. The non-recourse feature protects you if you lose." },
+      { scenario: "Your lawsuit is expected to settle within 6 months", pick: "b", reason: "For very short periods, the non-recourse protection of settlement funding may be worth the premium - especially if you would otherwise not pursue the lawsuit at all." },
+      { scenario: "Your lawsuit is expected to take 2+ years", pick: "a", reason: "Lawsuit funding compounds quickly. At 3% per month (a common rate), $10,000 advanced today becomes $21,000 owed after 24 months. A personal loan at 20% APR would cost $4,200 in interest over the same period." },
+    ],
+    faqs: [
+      { q: "Is pre-settlement funding a loan?", a: "Technically, most pre-settlement funding companies call their products 'advances' or 'investments' rather than loans, because the non-recourse feature (no repayment if you lose) means they are not legally classified as loans in most states. This classification allows them to avoid consumer lending regulations including TILA rate disclosure requirements. Some states (Arkansas, Tennessee, Indiana) have enacted regulations requiring APR-equivalent disclosure." },
+      { q: "How do I find a reputable lawsuit funder?", a: "Look for members of the American Legal Finance Association (ALFA), which has a code of conduct and basic disclosure requirements. Get competing offers from multiple funders - rates vary significantly. Have your attorney review any funding agreement before signing. Beware of funders who charge 'compound interest' that can dramatically inflate the payback amount over time." },
+      { q: "Will accepting lawsuit funding affect my settlement amount?", a: "Not directly. Defendants cannot see that you have accepted funding, and the funding company has no right to accept or reject settlement offers. However, plaintiffs who are under financial stress (and who have accepted settlement funding) sometimes feel pressure to accept lower settlement amounts to end the case quickly. If your financial need is extreme, inform your attorney so they can factor case timing into their strategy." },
+    ],
+  },
+  "personal-loan-vs-tuition-installment-plan": {
+    slug: "personal-loan-vs-tuition-installment-plan",
+    h1: "Personal loan vs tuition installment plan",
+    title: "Personal Loan vs Tuition Installment Plan (TIP): Which Is Cheaper for College Costs?",
+    description:
+      "Compare personal loans against university tuition installment plans for covering college tuition payments. Includes typical TIP fees, payment timing, and when each option makes sense.",
+    aName: "Personal loan",
+    bName: "Tuition installment plan",
+    intro:
+      "Most colleges and universities offer tuition installment plans (also called tuition payment plans or TIPs) that let families split a semester's tuition into monthly payments, typically 4-5 installments over the semester with a small enrollment fee and no interest. Personal loans charge ongoing interest but offer larger amounts and longer terms.",
+    rows: [
+      { k: "Interest rate", a: "8%-36% APR fixed", b: "0% - no interest charges" },
+      { k: "Fees", a: "Origination fee 0%-8%", b: "Enrollment fee $25-$100 per semester; some plans also charge $25-$50 per month" },
+      { k: "Payment term", a: "12-84 months", b: "4-5 months (one semester) per enrollment" },
+      { k: "Loan amounts", a: "$1,000-$100,000", b: "Equal to one semester's unpaid tuition balance" },
+      { k: "Covers", a: "Any educational expense: tuition, room, board, books, laptop, transportation", b: "Tuition and approved institutional charges only (not off-campus room and board in most plans)" },
+      { k: "Credit check required", a: "Yes, hard inquiry", b: "No credit check" },
+      { k: "Default consequences", a: "Collection activity, credit damage, potential suit", b: "Hold on registration and transcripts; may be dropped from courses" },
+      { k: "Who administers", a: "Bank, credit union, or online lender", b: "College billing office or third-party (Nelnet, Tuition Management Systems)" },
+    ],
+    verdicts: [
+      { scenario: "Covering one semester's tuition with income arriving each month", pick: "b", reason: "A tuition installment plan is effectively free money compared to a personal loan. A $75 enrollment fee to split $10,000 in tuition over 5 months is an annual equivalent of well under 2% - far cheaper than any personal loan APR." },
+      { scenario: "Need to cover room, board, and books in addition to tuition", pick: "a", reason: "Tuition installment plans typically cover only institutional charges. A personal loan covers the full cost of attendance including off-campus housing, food, and supplies." },
+      { scenario: "Need more than one semester of financing in advance", pick: "a", reason: "TIPs require re-enrollment each semester. A personal loan can cover multiple semesters at once, reducing administrative burden and locking in a rate." },
+      { scenario: "Have poor credit and need large amounts", pick: "b", reason: "TIPs have no credit check. A personal loan for a borrower with 580 credit may carry 30%-36% APR. The TIP is clearly cheaper for the tuition portion regardless of credit score." },
+    ],
+    faqs: [
+      { q: "How do I enroll in a tuition installment plan?", a: "Log into your college's student billing portal (usually accessible through the student portal or Bursar's office website). Most schools use third-party administrators like Nelnet, Tuition Management Systems (TMS), or Flywire. You select the plan for the upcoming semester, pay the enrollment fee, and set up automatic monthly payments from a bank account or credit card. Some plans also allow credit card payments (though credit card processing fees, typically 2.5%-3%, may apply)." },
+      { q: "What happens if I miss a tuition installment plan payment?", a: "Consequences are institutional, not credit-based. A missed payment typically results in a late fee ($25-$50), and continued non-payment can result in a hold on your student account preventing registration for future semesters, withholding of transcripts, and in some cases, being dropped from current courses. Your credit score is not affected because TIPs are not reported to credit bureaus. However, if the debt is eventually sent to a collection agency, that can appear on your credit report." },
+      { q: "Can I use a personal loan and a tuition installment plan together?", a: "Yes. A common approach: enroll in the TIP for the maximum allowable tuition deferral (reducing the immediate tuition obligation), then use a personal loan or other funding for room, board, books, and any remaining tuition not covered by the TIP, financial aid, or scholarships. This minimizes the personal loan amount needed while taking full advantage of the interest-free TIP for tuition." },
+    ],
+  },
 };
 
 export const comparisonSlugs = Object.keys(comparisons);

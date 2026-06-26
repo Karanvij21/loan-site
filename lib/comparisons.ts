@@ -682,6 +682,37 @@ export const comparisons: Record<string, Comparison> = {
       { q: "What if I have a low-APR personal loan offer?", a: "At 6-9% APR, a personal loan competes favorably with even high-yield savings accounts. Preserving your emergency fund and liquidity while paying 6-9% to borrow is mathematically sound for most borrowers who have a true emergency fund they'd rather not deplete." },
     ],
   },
+  "personal-loan-vs-medical-credit-card": {
+    slug: "personal-loan-vs-medical-credit-card",
+    h1: "Personal loan vs. medical credit card",
+    title: "Personal Loan vs Medical Credit Card 2026 (CareCredit, Alphaeon): Which Costs Less?",
+    description:
+      "Side-by-side comparison: personal loan vs CareCredit and other deferred-interest medical credit cards. When deferred interest is a trap and when a personal loan wins on total cost.",
+    aName: "Personal loan",
+    bName: "Medical credit card",
+    intro: "Medical credit cards like CareCredit and Alphaeon offer 0% deferred-interest promotions at the dental office or hospital. A personal loan offers a fixed APR from day one. The winner depends entirely on whether you can guarantee full payoff before the deferred-interest period ends.",
+    rows: [
+      { k: "Interest type", a: "Simple interest, always accruing on balance", b: "Deferred interest: 0% if paid in full before promo ends; retroactive if not" },
+      { k: "APR if balance remains", a: "7.99-35.99% (fixed, disclosed upfront)", b: "26.99-29.99% applied retroactively to the full original balance" },
+      { k: "Risk of back-interest", a: "None", b: "High: one missed payoff deadline charges interest on the original balance, not the remaining balance" },
+      { k: "Loan amounts", a: "$1,000-$50,000", b: "Typically up to $25,000; varies by provider and specialty" },
+      { k: "Credit impact", a: "Installment loan: utilization-neutral", b: "Revolving credit: new card affects utilization and average account age" },
+      { k: "Approval speed", a: "Same day to 1-2 business days", b: "Often instant approval at point of service or provider office" },
+      { k: "Provider requirement", a: "None: funds deposited to bank account", b: "Only usable at enrolled providers in CareCredit or Alphaeon network" },
+      { k: "Monthly payment flexibility", a: "Fixed; specified in loan agreement", b: "Minimum payment required; must calculate payoff payment yourself" },
+    ],
+    verdicts: [
+      { scenario: "You can pay the full balance before the promo period ends", pick: "b", reason: "0% interest beats any personal loan APR. Set up automatic payments to ensure full payoff before the deadline." },
+      { scenario: "You are not 100% certain you can pay in full before the deadline", pick: "a", reason: "The deferred-interest trap is severe. Missing the payoff by even a month charges retroactive interest on the original balance, which can cost more than a personal loan at 20% for the same period." },
+      { scenario: "Your provider is not in the medical card network", pick: "a", reason: "Medical credit cards only work at enrolled providers. A personal loan can pay any medical provider, hospital, or specialist." },
+      { scenario: "You want to keep the debt off your credit card utilization", pick: "a", reason: "A personal loan is installment credit and does not affect revolving credit utilization. A medical credit card is revolving and can hurt your credit score if the balance is high relative to the limit." },
+    ],
+    faqs: [
+      { q: "What is deferred interest and why is it dangerous?", a: "Deferred interest means 0% APR for a promotional period, but if you don't pay the full original balance before the period ends, the card issuer charges interest retroactively on the original amount, not what's left. On a $5,000 CareCredit balance with a 24-month promo at 26.99%, failing to pay it off in time means $2,699 in retroactive interest applied all at once - regardless of how much you've already paid down." },
+      { q: "Is CareCredit a good option for medical expenses?", a: "It can be, specifically if you can guarantee full payoff before the promo period ends. CareCredit's network is extensive (dental, optometry, veterinary, cosmetic, and many specialty medical providers). The key discipline: calculate the monthly payment needed to pay the full balance in the promo period, set up autopay, and do not use the card for other purchases that could complicate payoff." },
+      { q: "What is the true APR of a deferred-interest card if I don't pay it off?", a: "Much higher than the stated rate. If you borrow $3,000 on 18-month 0% deferred interest, pay only the minimum each month, and owe $2,400 at month 18, you get charged interest on the full $3,000 not the $2,400 remaining. On a 26.99% card, that's $810 in retroactive interest - an effective annual rate far above 26.99% on what you actually borrowed." },
+    ],
+  },
 };
 
 export const comparisonSlugs = Object.keys(comparisons);

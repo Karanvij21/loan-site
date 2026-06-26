@@ -124,6 +124,35 @@ export const employmentTypes: Record<string, UseCase> = {
       { q: "What if I just started a new W-2 job?", a: "Most lenders want at least 30-90 days at the new employer plus a prior history in the same field. Job-hopping within an industry is usually fine; switching industries can require longer recent tenure. An offer letter alone usually isn't enough for approval before the first paycheque clears." },
     ],
   },
+  "seasonal": {
+    slug: "seasonal",
+    h1: "Personal loans for seasonal workers",
+    title: "Personal Loans for Seasonal Workers 2026: Variable Income, Year-Round Repayment",
+    description:
+      "How seasonal workers qualify for personal loans on irregular income. Tax returns, bank statements, and documentation strategies for agriculture, tourism, and construction workers.",
+    eyebrow: "Employment type",
+    intro:
+      "Seasonal workers, including those in agriculture, construction, landscaping, hospitality, tourism, and retail holiday staffing, earn most of their income in specific months but face year-round expenses. Personal loan underwriters care about average annual income, not whether it arrives in peaks. With 2 years of tax returns showing consistent seasonal earnings, most mainstream lenders will underwrite seasonal income the same as regular income.",
+    amountMin: 500,
+    amountMax: 30000,
+    termMin: 12,
+    termMax: 60,
+    aprMin: 9.99,
+    aprMax: 35.99,
+    bullets: [
+      "2 years of tax returns documents consistent seasonal income",
+      "Annual gross income used for DTI, not monthly peaks",
+      "Loan amounts from $500 to $30,000",
+      "APRs 9.99% to 35.99% depending on credit",
+      "Soft credit check to compare, no score impact",
+    ],
+    faqs: [
+      { q: "How do seasonal workers document income for a personal loan?", a: "Two years of tax returns (Schedule C for self-employed seasonal workers, W-2s for seasonal employees) are the primary income documentation. Lenders calculate 24-month average annual income and divide by 12 for a monthly income figure. Bank statements showing seasonal income deposits (6-12 months of highs with periodic gaps) help tell the story of your income pattern." },
+      { q: "Can I get a personal loan during my off-season?", a: "Yes, if your annual income supports it. Lenders look at your full-year income pattern, not just what you're earning at the moment of application. A construction worker earning $65,000 between April and November who applies in January can qualify using the prior year's income. Off-season applications require strong bank account reserves or evidence that the seasonal employment is returning." },
+      { q: "Are credit unions better for seasonal workers?", a: "Often yes. Credit unions with ties to specific industries (agriculture credit unions, teachers' credit unions, etc.) understand seasonal income patterns better than algorithmic online lenders. If you belong to an industry-specific credit union, this is the best first stop for a personal loan. They may be willing to count seasonal income more generously than a national online lender." },
+      { q: "What if this is my first year of seasonal work?", a: "One year of seasonal income history is a challenge for most lenders who want 2+ years. Options include applying with a co-borrower who has stable income, using a secured personal loan backed by savings, or targeting lenders known for flexible employment verification (some fintechs use bank data rather than tax returns and can see real income even without 2-year history)." },
+    ],
+  },
   "healthcare-workers": {
     slug: "healthcare-workers",
     h1: "Personal loans for healthcare workers",

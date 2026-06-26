@@ -582,6 +582,106 @@ export const comparisons: Record<string, Comparison> = {
       { q: "Can I avoid the 10% penalty?", a: "Yes, in specific cases. Medical expenses exceeding 7.5% of adjusted gross income are penalty-free. Withdrawals by someone receiving Social Security Disability are penalty-free. Substantially Equal Periodic Payments (SEPP / 72(t)) avoid the penalty but lock the borrower into a defined withdrawal schedule for 5 years or until age 59½, whichever is later." },
     ],
   },
+
+  "personal-loan-vs-auto-loan": {
+    slug: "personal-loan-vs-auto-loan",
+    h1: "Personal loan vs auto loan",
+    title: "Personal Loan vs Auto Loan 2026: APRs, Terms & When Each Wins",
+    description:
+      "Side-by-side comparison of personal loans and auto loans for buying a car. APR differences, collateral risk, loan-amount limits, and when an unsecured personal loan beats a traditional auto loan.",
+    aName: "Personal loan",
+    bName: "Auto loan",
+    intro:
+      "Auto loans are secured by the vehicle and almost always carry lower APRs than unsecured personal loans, but they come with repossession risk and require the lender to approve the specific car. Personal loans are faster, more flexible, and better for certain purchase situations - particularly private-party used cars and older vehicles that don't qualify for auto financing.",
+    rows: [
+      { k: "Collateral", a: "None (unsecured)", b: "The vehicle (lender holds title until paid off)" },
+      { k: "APR range (700 FICO)", a: "8% to 20%", b: "5% to 12%" },
+      { k: "Repossession risk", a: "None", b: "Yes - lender can repossess without court order on default" },
+      { k: "Vehicle age restrictions", a: "None - funds can buy any car, any age", b: "Most lenders restrict to vehicles under 10 years old and under 150,000 miles" },
+      { k: "Private-party purchase", a: "Works for any seller (private party, dealer, auction)", b: "Some lenders exclude private-party sales or require extra steps" },
+      { k: "Loan amounts", a: "$1,000 to $50,000", b: "$5,000 to $100,000+" },
+      { k: "Time to fund", a: "Next business day (unsecured)", b: "Same day at a dealership; 1-5 days for direct lenders" },
+      { k: "Credit check", a: "Soft pull for pre-qualification, hard at acceptance", b: "Hard inquiry to approve" },
+      { k: "Origination fee", a: "0% to 8%", b: "None (dealer may add dealer fees)" },
+      { k: "Best for", a: "Private-party purchases, older vehicles, borrowers avoiding repossession risk", b: "Dealership purchases of newer vehicles where the lower APR justifies secured lending" },
+    ],
+    verdicts: [
+      { scenario: "Buying a 3-year-old car from a dealer", pick: "b", reason: "Auto loan APRs are 3-8 points lower than personal loans for similar credit. At a dealer, the auto loan is also faster and simpler to process." },
+      { scenario: "Buying a 12-year-old car from a private seller", pick: "a", reason: "Most auto lenders reject vehicles over 10 years old or 150K miles. A personal loan has no vehicle restrictions and works for any private-party transaction." },
+      { scenario: "Borrower wants no repossession risk and can absorb a higher APR", pick: "a", reason: "With a personal loan, the lender cannot repossess your car if you default. The APR premium is the price for that protection." },
+      { scenario: "Buying at auction where title is delayed", pick: "a", reason: "Auto lenders typically need a clear title before funding. Personal loans fund without the title, which is essential for auction purchases where titles transfer slowly." },
+    ],
+    faqs: [
+      { q: "Is it always cheaper to use an auto loan?", a: "Usually yes, but not always. Auto loans carry lower APRs because they're secured by the vehicle. However, if you're buying an older vehicle that doesn't qualify for auto financing, a personal loan may be the only option. And if the difference is small (e.g., 2-3 percentage points on a $5,000 car), the personal loan's flexibility may be worth it." },
+      { q: "Can I use a personal loan to buy a car at a dealership?", a: "Yes. The dealer doesn't need to know you're using a personal loan. You receive funds in your bank account, then pay the dealer like a cash buyer. This can also give you negotiating leverage since you're not tied to dealer financing." },
+      { q: "Does an auto loan build credit the same way as a personal loan?", a: "Both are installment loans reported to the major bureaus. On-time payments build payment history equally. The main difference is that an auto loan is a secured installment account, which adds a different type of tradeline than an unsecured personal loan." },
+    ],
+  },
+
+  "personal-loan-vs-line-of-credit": {
+    slug: "personal-loan-vs-line-of-credit",
+    h1: "Personal loan vs line of credit",
+    title: "Personal Loan vs Line of Credit 2026: When Each Makes More Financial Sense",
+    description:
+      "Choosing between a personal loan and a personal line of credit. APR differences, repayment flexibility, credit-score impact, and the right use case for each product.",
+    aName: "Personal loan",
+    bName: "Personal line of credit",
+    intro:
+      "A personal loan delivers a lump sum at a fixed APR with a defined repayment schedule. A personal line of credit (PLOC) is revolving: you draw what you need, pay interest only on what you use, and replenish the credit as you repay. The better choice depends almost entirely on whether your funding need is a one-time event or an ongoing, variable need.",
+    rows: [
+      { k: "Structure", a: "Lump sum, fixed installment repayment", b: "Revolving credit line, draw as needed" },
+      { k: "Interest", a: "Simple interest on full balance, fixed APR", b: "Interest only on drawn balance, often variable APR" },
+      { k: "APR range", a: "5.99% to 35.99% (fixed)", b: "8% to 25% (variable, tied to prime rate)" },
+      { k: "Availability", a: "Widely available online", b: "Primarily banks and credit unions; limited online availability" },
+      { k: "Funding", a: "Full amount disbursed at closing", b: "Draw any amount up to the limit at any time" },
+      { k: "Repayment", a: "Fixed monthly payment, defined payoff date", b: "Minimum interest-only payments; balance reduces as you repay" },
+      { k: "Credit utilisation", a: "Installment debt; does not affect utilisation ratio", b: "Revolving debt; affects credit utilisation ratio like a credit card" },
+      { k: "Best for", a: "Known, one-time expenses with a defined amount", b: "Ongoing, variable needs where amount is uncertain upfront" },
+    ],
+    verdicts: [
+      { scenario: "Funding a $20,000 kitchen remodel with a known budget", pick: "a", reason: "You know the amount, so the fixed lump sum and defined payoff date of a personal loan is better. A PLOC's variable APR is extra risk with no benefit when the need is predictable." },
+      { scenario: "Covering variable business expenses over 12 months", pick: "b", reason: "If spending fluctuates between $500 and $5,000 per month, paying interest only on what you draw with a PLOC costs significantly less than paying interest on a lump-sum personal loan that sits partially unused." },
+      { scenario: "Emergency fund bridge while rebuilding savings", pick: "b", reason: "A PLOC sitting at $0 drawn costs nothing until used. For a backup liquidity buffer, a PLOC is the more efficient instrument since you only pay interest on actual drawdowns." },
+      { scenario: "Debt consolidation of multiple credit cards", pick: "a", reason: "A personal loan's fixed payment and payoff date enforce discipline. A PLOC that's available to redraw can perpetuate the spending pattern that created the credit-card debt." },
+    ],
+    faqs: [
+      { q: "Is a personal line of credit hard to get?", a: "PLOCs are less widely available than personal loans. Most are offered by banks and credit unions to existing customers with established accounts and good credit (670+). Pure-play online lenders rarely offer PLOCs, so you may need to work with your bank or a local credit union." },
+      { q: "Does a personal line of credit affect my credit score?", a: "Yes. A PLOC is revolving debt and affects your credit utilization ratio (used balance / total revolving limit). Keeping the PLOC under 30% utilization is important for credit score maintenance. A personal loan is installment debt and doesn't factor into credit utilization." },
+      { q: "Can I convert a personal loan to a line of credit?", a: "No. They are separate products with different structures. If you need the flexibility of a PLOC after taking a personal loan, you would need to apply for a new PLOC separately. Some borrowers keep both: a personal loan for a specific large expense and a PLOC as an ongoing backup liquidity tool." },
+    ],
+  },
+
+  "personal-loan-vs-savings": {
+    slug: "personal-loan-vs-savings",
+    h1: "Personal loan vs using your savings",
+    title: "Personal Loan vs Using Savings 2026: The True Cost Comparison",
+    description:
+      "Should you take a personal loan or spend down your savings? The math on opportunity cost, emergency fund preservation, and when each choice costs you less in 2026.",
+    aName: "Personal loan",
+    bName: "Use savings",
+    intro:
+      "Taking a personal loan when you have savings in the bank feels counterintuitive - you're paying 10-25% APR to borrow money you technically have. But the math is more nuanced: using savings has costs too (lost investment returns, depleted emergency fund, potential tax impact on retirement accounts). For many borrowers, a personal loan preserves financial resilience at a cost that is lower than it first appears.",
+    rows: [
+      { k: "Cost", a: "APR (5.99% to 35.99%) plus any origination fee", b: "Opportunity cost (investment return you're not earning)" },
+      { k: "Emergency buffer impact", a: "None - savings stay intact", b: "Reduces or depletes emergency fund" },
+      { k: "Credit score impact", a: "Adds installment tradeline; on-time payments build score", b: "No impact (spending your own money)" },
+      { k: "Flexibility", a: "Fixed monthly payment for 12-72 months", b: "No obligation - can rebuild savings at any pace" },
+      { k: "Investment accounts", a: "No market exposure (cash loan)", b: "Selling investments may trigger capital gains tax" },
+      { k: "Time to access funds", a: "1-2 business days", b: "Instant (savings) or 3-5 days (brokerage liquidation)" },
+      { k: "Best for", a: "Preserving emergency fund, building credit, or when savings are in tax-advantaged accounts", b: "Small expenses easily covered by savings excess above your emergency fund target" },
+    ],
+    verdicts: [
+      { scenario: "Savings are your only emergency fund", pick: "a", reason: "Depleting your emergency fund leaves you exposed to the next emergency. A personal loan at 12-20% APR is cheaper than the potential credit-card debt of a second emergency." },
+      { scenario: "Savings are above your 3-6 month emergency target", pick: "b", reason: "If you have $30,000 saved and need $5,000, the excess above your target is the right first resource. No APR beats 0% APR." },
+      { scenario: "Savings are in a taxable brokerage with gains", pick: "a", reason: "Selling appreciated investments triggers capital gains tax. Depending on the tax rate and the personal loan APR, borrowing can cost less than liquidating." },
+      { scenario: "Savings are in a traditional IRA or 401(k)", pick: "a", reason: "Early withdrawal from tax-advantaged retirement accounts triggers income tax plus a 10% penalty before age 59½. A 15% personal loan beats a 32-42% effective cost of early retirement withdrawal at most income levels." },
+    ],
+    faqs: [
+      { q: "What is the 'opportunity cost' of using savings?", a: "The opportunity cost is the investment return you give up by spending the savings instead of keeping them invested. If your savings would have earned 7% annually in a stock index fund, and you spend $10,000, you're giving up roughly $700 per year in expected returns. Compare that to the APR of a personal loan to see which costs more." },
+      { q: "Should I ever use savings to avoid a personal loan?", a: "Yes, when your savings exceed your emergency fund target (typically 3-6 months of expenses), when the personal loan APR is higher than your investment returns by a wide margin, and when the expense is certain and immediate. Paying 22% APR to preserve savings earning 4.5% in a high-yield savings account rarely makes sense." },
+      { q: "What if I have a low-APR personal loan offer?", a: "At 6-9% APR, a personal loan competes favorably with even high-yield savings accounts. Preserving your emergency fund and liquidity while paying 6-9% to borrow is mathematically sound for most borrowers who have a true emergency fund they'd rather not deplete." },
+    ],
+  },
 };
 
 export const comparisonSlugs = Object.keys(comparisons);

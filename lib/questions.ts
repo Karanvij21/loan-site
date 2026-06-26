@@ -3457,6 +3457,164 @@ export const questions: Question[] = [
       { label: "Calculator: Monthly payment", href: "/calculators/monthly-payment" },
     ],
   },
+  {
+    slug: "personal-loan-affect-renting-apartment",
+    question: "Will a personal loan hurt my chances of renting an apartment?",
+    topic: "Credit score",
+    shortAnswer:
+      "A personal loan can slightly help or slightly hurt, depending on how you manage it. An active loan with a perfect payment record improves your credit profile. High monthly debt payments increase your DTI, which landlords may consider. A new hard inquiry temporarily drops your score by 5-10 points.",
+    context:
+      "What landlords check: Most landlords who run credit checks pull a full credit report (often TransUnion or Equifax) and look at: credit score (typically want 620-680+), delinquencies and collections, overall debt load, and income-to-rent ratio (usually want gross income 2.5-3x monthly rent).\n\nPositive effects of a personal loan: An on-time payment history on an installment loan demonstrates financial responsibility. Completing a debt consolidation (paying off credit cards with a personal loan) reduces your utilization ratio and can boost your score. Landlords see a paid-off debt consolidation as a positive financial step.\n\nNegative effects: A new hard inquiry at loan origination drops your score 5-10 points temporarily - this can matter if you are right at a landlord's minimum. High monthly payments on a personal loan reduce your available income for rent purposes. Some landlords use DTI calculations similar to mortgage lenders.\n\nTiming strategy: If you are planning to rent within 90 days, avoid opening new credit accounts including personal loans. Wait until after you have signed the lease to take the loan if possible. The credit score impact of a new account (hard inquiry + new account) peaks in the first 30-60 days and fades over 3-6 months.\n\nFor applicants with prior delinquencies: A personal loan with perfect payment history over 12+ months actively helps your rental application by demonstrating improved financial habits since past problems.",
+    relatedSlugs: ["soft-pull-vs-hard-pull", "personal-loan-credit-score-during-repayment"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-vs-signature-loan",
+    question: "What is the difference between a personal loan and a signature loan?",
+    topic: "Process & terms",
+    shortAnswer:
+      "A 'signature loan' is an older term for an unsecured personal loan. The name refers to the fact that your signature (your promise to repay) is the only security the lender has - no collateral required. In modern usage, the terms are interchangeable.",
+    context:
+      "Origin of the term: 'Signature loan' was commonly used by banks and savings institutions in the mid-20th century to describe small unsecured personal loans approved based on the borrower's character and creditworthiness alone. The lender received nothing but a signed promissory note - hence 'signature loan.'\n\nModern usage: Today, most lenders use the term 'personal loan' or 'unsecured personal loan.' Some credit unions still use 'signature loan' in their product names. The products are functionally identical.\n\nDistinctive characteristics of both names: No collateral required. Approval based on credit score, income, and DTI. Fixed or variable interest rate. Set repayment schedule (typically 12-84 months). Funds deposited directly to bank account. Full borrower obligation - defaulting leads to collections or lawsuit, but no asset is automatically seized.\n\nWhen you hear 'signature loan' at a credit union: Credit unions often use legacy product naming. Their 'signature loans' are simply unsecured personal loans. They may offer slightly lower rates than online lenders (3%-18% APR range for members in good standing) because credit unions are member-owned nonprofits without profit motive.\n\nDistinction from secured personal loan: A secured personal loan requires collateral - a savings account, CD, or other asset that the lender can seize if you default. Secured loans offer lower rates but require you to pledge an asset. Both 'signature loans' and 'personal loans' are unsecured unless specifically labeled 'secured.'",
+    relatedSlugs: ["personal-loan", "unsecured-loan", "secured-loan"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-for-home-gym",
+    question: "Can I use a personal loan to build a home gym?",
+    topic: "Special situations",
+    shortAnswer:
+      "Yes. Home gym equipment and build-out costs are accepted personal loan purposes. Basic setups run $1,000-$5,000; premium builds with rubber flooring, power racks, and cardio equipment can reach $10,000-$30,000. Smaller amounts may be better handled by a 0% intro credit card if you can pay it off quickly.",
+    context:
+      "Typical home gym costs: Basic setup (dumbbells, kettlebells, resistance bands, yoga mat): $300-$800. Intermediate setup (adjustable dumbbells, pull-up bar, basic bench): $800-$2,500. Full setup (power rack, barbell and plates, dumbbells, cardio machine): $3,000-$8,000. Premium build (commercial-grade equipment, rubber flooring, mirrors, climate control): $10,000-$30,000.\n\nPersonal loan vs 0% credit card: For amounts under $3,000 that you can pay off within 15-18 months, a 0% introductory APR credit card may cost you nothing in interest. Citi Simplicity, Wells Fargo Reflect, and similar cards offer 0% for 18-21 months. If you can pay $3,000 within 18 months at $167/month, you pay zero interest. A personal loan at 12% for the same amount over 24 months costs $228 in total interest. Use the credit card if payoff is realistic; use the personal loan for larger builds or longer payoff timelines.\n\nLoan vs buy used: Premium gym equipment depreciates significantly. New equipment at retail can often be purchased at 40%-60% off via Facebook Marketplace, Craigslist, or Garage Gym Sales communities. Financing used equipment at 15% APR often makes less financial sense than paying cash for discounted used equipment. Consider buying used first, then financing only the items unavailable secondhand (like specialty cardio equipment).\n\nMinimum loan amounts: Most personal loan lenders have minimums of $1,000-$2,000. For a $500-$800 equipment purchase, a credit card or a personal line of credit is more appropriate.",
+    relatedSlugs: ["personal-loan-for-home-improvement", "personal-loan-minimum-amount"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-score-during-repayment-trend",
+    question: "How does my credit score change while I repay a personal loan?",
+    topic: "Credit score",
+    shortAnswer:
+      "Your score typically dips slightly (5-15 points) when you first open the loan due to the hard inquiry and new account. It then gradually recovers and often improves past pre-loan levels after 6-12 months of on-time payments, as you build positive payment history and reduce total debt.",
+    context:
+      "Month 1: Hard inquiry posts (5-10 point drop). New account opens (may add another 5-10 points of reduction due to new credit/age impact). Net impact: -10 to -20 points at the moment the loan reports.\n\nMonths 2-3: Score stabilizes. The inquiry impact begins fading. If the loan was used for debt consolidation and credit card balances dropped, utilization improvement can add 20-50 points, offsetting or exceeding the negative impact.\n\nMonths 4-12: Each on-time payment adds positive payment history. The payment history factor (35% of FICO) is the largest component. Consistent on-time payments over 6-12 months typically push your score above your pre-loan baseline.\n\nMonths 12-24: Average account age improves as the new account ages. If you are also maintaining low credit card utilization, your score in the 700s or higher is achievable even if you started in the 600s.\n\nAt payoff (month 24-84): A slight dip when the account closes is possible as credit mix decreases. However, the 10 years of payment history that remains on your report continues to be counted. Most borrowers see their score hold steady or improve after payoff.\n\nWhy debt consolidation loans show the fastest improvement: Paying off multiple high-utilization credit cards with a single personal loan simultaneously drops utilization (30% of FICO) and adds installment payment history. This double effect can add 30-80 points within two billing cycles - making debt consolidation one of the most credit-positive uses of a personal loan.",
+    relatedSlugs: ["personal-loan-credit-score-during-repayment", "how-personal-loan-affects-credit-score"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-what-is-forbearance",
+    question: "What is loan forbearance and how do I request it?",
+    topic: "Process & terms",
+    shortAnswer:
+      "Forbearance is a formal agreement where your lender pauses or reduces your payments for a defined period due to financial hardship. Interest typically continues accruing. You request it by calling your lender before missing a payment and providing documentation of the hardship.",
+    context:
+      "What forbearance means: The word forbearance means 'restraint from enforcing.' In lending, it means the lender agrees to temporarily refrain from enforcing the payment terms of your loan. You are still obligated to repay - forbearance is not forgiveness. The paused payments are deferred, often capitalized (added to principal), and extended to the end of the loan.\n\nTypes of forbearance arrangements: Full forbearance: payments suspended entirely for 1-3 months. Partial forbearance: reduced minimum payment accepted. Interest-only period: you pay only the accruing interest, not principal. The terms depend on what the specific lender offers.\n\nInterest during forbearance: In most personal loan forbearance programs, interest continues to accrue on the outstanding principal during the forbearance period. At the end of forbearance, the unpaid interest is typically capitalized - added to your principal balance. This means your balance is higher after forbearance than before.\n\nHow to request forbearance: Call your lender's customer service number and ask specifically for the 'hardship department' or 'customer assistance program.' Explain your situation (job loss, medical crisis, reduced income). Ask specifically: 'What forbearance options do you offer for borrowers experiencing financial hardship?'\n\nDocumentation: Lenders typically ask for evidence: termination letter, medical documentation, or other proof of the hardship event. Having this ready speeds the process.\n\nCredit reporting during forbearance: If you enter forbearance before missing a payment, your account typically continues to be reported as 'current' during the forbearance period - no delinquency marks. This is the major reason to call before you miss a payment, not after.\n\nDifference from deferral: A deferral typically means skipping one payment and moving it to the end of the loan. Forbearance is a longer, more formal program for extended financial difficulty.",
+    relatedSlugs: ["personal-loan-hardship-deferment", "what-to-do-if-you-cannot-make-loan-payment"],
+    toolLinks: [
+      { label: "Guide: What to do if you cannot make your payment", href: "/learn/what-to-do-if-you-cannot-make-loan-payment" },
+    ],
+  },
+  {
+    slug: "personal-loan-joint-credit-impact-both",
+    question: "Does a joint personal loan affect both applicants' credit scores?",
+    topic: "Credit score",
+    shortAnswer:
+      "Yes. A joint personal loan appears on both applicants' credit reports and affects both credit scores identically. Both applicants experience the hard inquiry at application, the new account on their report, and all subsequent payment history - positive or negative.",
+    context:
+      "How joint reporting works: When two people apply jointly for a personal loan, the lender runs a hard inquiry on both credit reports. When the loan opens, both applicants have the loan account added to their individual credit files. Every payment (on-time or late) is reported to the credit bureaus for both borrowers simultaneously.\n\nPositive effects for both: A consistent on-time payment history benefits both credit scores equally. If the primary borrower has a 640 score and the co-borrower has a 740 score, both benefit from on-time payments - the 640-score borrower may see faster improvement because they start lower.\n\nNegative consequences for both: A single late payment (30+ days) is reported on both credit files and damages both scores. If the primary borrower stops paying entirely, the co-borrower's credit is damaged exactly as if they had stopped paying themselves. This is the fundamental risk of joint borrowing: you are 100% responsible for the debt regardless of what the other person does.\n\nDTI impact on both: The joint loan monthly payment is counted in both applicants' DTI when they apply for other credit. If co-borrower A wants to apply for a mortgage later, the joint personal loan payment reduces how much new mortgage payment A can support. This debt is 'on' both people's books.\n\nRemoving the joint status: Once opened, a joint loan cannot be converted to a solo loan without refinancing. If the relationship between co-borrowers deteriorates (divorce, estrangement), both parties remain equally obligated and both credit profiles remain linked until the loan is paid off or refinanced.",
+    relatedSlugs: ["personal-loan-cosigner-vs-co-borrower", "personal-loan-joint-application-married"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-check-payoff-balance",
+    question: "How do I find out my exact personal loan payoff balance?",
+    topic: "Process & terms",
+    shortAnswer:
+      "Log into your lender's online account portal or call customer service to request a 'payoff quote.' A payoff quote gives the exact amount needed to close the loan as of a specific date (usually 10 days from the request). This differs from your current balance due to daily accrued interest.",
+    context:
+      "Why the payoff amount differs from the statement balance: Your loan statement shows the outstanding principal plus any fees as of the statement date. Between statements, interest accrues daily. The payoff amount is higher than the statement balance because it includes all interest through the proposed payoff date.\n\nPayoff quote specifics: A '10-day payoff quote' tells you exactly how much to send to pay off the loan if your payment is received within 10 calendar days. It includes: remaining principal, interest accrued from last payment date through the 10-day window, any fees owed. After the 10-day window expires, you need a new quote.\n\nHow to get the quote: (1) Online portal: Most lenders display a 'Request Payoff Quote' or 'Payoff Statement' option in your account dashboard. The quote is generated instantly or emailed within 1 business day. (2) Phone: Call the number on your statement and request a 'payoff quote for [specific date].' The representative can provide the figure immediately.\n\nWire transfer vs personal check: For large payoffs, your lender may prefer or require a wire transfer for same-day certainty. Personal checks or ACH transfers may need 3-5 business days to clear. Confirm the lender's requirements and whether there are any wire fees.\n\nAfter payoff: Request a 'payoff confirmation letter' or 'zero balance letter' within 30 days of the payoff. Keep this letter in your records indefinitely. It proves the obligation was satisfied in case of future disputes.",
+    relatedSlugs: ["personal-loan-early-payoff-calculation", "personal-loan-overpayment-refund"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-for-itin-holder",
+    question: "Can someone with an ITIN (no Social Security Number) get a personal loan?",
+    topic: "Approval & amount",
+    shortAnswer:
+      "Yes. ITIN (Individual Taxpayer Identification Number) holders can get personal loans from a growing number of U.S. lenders. Options include credit unions serving immigrant communities, mission-driven online lenders (Stilt, Camino Financial), and some traditional banks.",
+    context:
+      "What an ITIN is: An ITIN is a 9-digit tax processing number issued by the IRS to individuals who need to file U.S. taxes but are not eligible for a Social Security number. This includes non-resident aliens, certain resident aliens, and their dependents and spouses. An ITIN is not an immigration status document and does not authorize work.\n\nLenders that accept ITINs: Traditional online personal loan lenders (LightStream, SoFi, Avant) typically require an SSN. ITIN borrowers need specialized lenders:\n\nStilt: A fintech lender specifically designed for immigrants, visa holders, and ITIN borrowers. Considers alternative data including education, employment, and bank account activity. Offers personal loans up to $35,000.\n\nCamino Financial: Serves Latino-owned small businesses but also offers personal loans to ITIN holders. Bilingual application process.\n\nSelf-Help Credit Union (and affiliated CDFIs): Community development financial institutions serving underserved populations. Many accept ITINs and may offer more favorable terms than commercial lenders for mission-aligned reasons.\n\nCredit unions with immigrant-focused programs: Many state credit unions, especially in high-immigrant-population states, have developed ITIN-holder programs.\n\nBuilding credit as an ITIN holder: Credit is built the same way for ITIN holders as for SSN holders - secured credit cards, on-time payments, and authorized user status. Some banks (Bank of America, Wells Fargo) offer secured credit cards to ITIN holders. Building 12-24 months of credit history opens more lending options.\n\nDocumentation typically required: ITIN tax ID, passport or other foreign government-issued ID, proof of U.S. residency (utility bill, lease), proof of income (pay stubs, bank statements).",
+    relatedSlugs: ["personal-loan-for-non-us-citizen", "personal-loan-foreign-national"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-credit-utilization-temporary-spike",
+    question: "Will my credit score drop if I max out my credit card, then pay it off with a personal loan?",
+    topic: "Credit score",
+    shortAnswer:
+      "Yes, briefly. When your credit card balance is at its peak (near the limit), your utilization is high and your score dips. Once you use the personal loan to pay off the card, utilization drops to near 0% and your score typically recovers rapidly - often by 20-50 points within one billing cycle.",
+    context:
+      "The timing issue: Credit scores are calculated at a moment in time using the balances reported on your statement closing date. If your card shows a $9,800 balance on a $10,000 limit on the closing date, utilization is 98% - a severe hit to your score. This can show up in your score even if you pay in full each cycle, because the closing balance (not the payment) is what gets reported.\n\nThe rapid recovery: Once the personal loan pays off the credit card and the card reports a near-zero balance, your utilization drops dramatically. Utilization (30% of FICO) recovers quickly because it is not time-weighted - one low-utilization reporting period completely resets the factor. Most borrowers see a 20-60 point improvement in the first billing cycle after paying off high-balance cards.\n\nNet effect of the debt consolidation strategy: Month 0 (cards maxed): Score at recent low due to high utilization. Month 1 (personal loan opens, cards paid): Hard inquiry and new account cost 10-15 points; utilization improvement adds 20-60 points. Net: typically positive. Month 3-12: Personal loan on-time payments continue building history. Score typically surpasses pre-consolidation levels.\n\nMost common mistake: Not keeping the paid-off credit cards at zero or low balance after payoff. If you accumulate new card balances after consolidation, you end up with both the personal loan payment and card debt - the financial situation worsens rather than improves.\n\nFor mortgage applicants: If you are applying for a mortgage, lenders review the last 2-3 months of statements. A spike followed by a payoff looks better than a sustained high balance. However, opening a new personal loan (especially within 90 days of mortgage application) can complicate underwriting. Consult a mortgage broker before opening a personal loan if a home purchase is imminent.",
+    relatedSlugs: ["personal-loan-for-debt-consolidation", "personal-loan-or-pay-off-credit-cards"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-what-happens-when-sold",
+    question: "What happens to my personal loan if the lender sells it or goes out of business?",
+    topic: "Process & terms",
+    shortAnswer:
+      "Your loan terms cannot change when a lender sells your loan or goes out of business. The new lender (or loan servicer) takes over collecting payments at the original rate and term. You must be notified of the transfer. Federal TILA protections apply regardless of who holds the loan.",
+    context:
+      "Why loans get sold: Personal loans are commonly sold after origination as part of loan portfolio transactions. Marketplace lenders (LendingClub, Prosper) originate loans and sell most of them to institutional investors (banks, hedge funds, insurance companies) within days of funding. The investor then owns your debt; the platform may continue servicing it or hand it off.\n\nYour rights when a loan is sold: Federal law requires the new owner to notify you within 30 days of acquiring the loan. Your interest rate, monthly payment, remaining term, and prepayment rights cannot change because the loan was sold. Any dispute resolution procedures in your original loan agreement continue to apply.\n\nLender going out of business: If your personal loan lender closes (as has happened with several fintech lenders), a trustee or administrator takes over the loan portfolio. Your obligation to repay does not disappear. You will receive contact information for whoever is now managing collections. Continue making payments to avoid default - going out of business does not cancel your debt.\n\nServicer changes: You may continue dealing with the original lender's servicing platform (Upgrade, LendingClub) even after the underlying loan ownership changes. Alternatively, a different servicer may contact you with new payment instructions. Always verify by calling the number on your original loan documents before changing where you send payments.\n\nFederal protection: The Truth in Lending Act (TILA) protections - your right to know the full cost of borrowing, dispute errors, and receive payoff amounts - apply to whoever holds the loan, not just the original lender. Your rights travel with the loan.",
+    relatedSlugs: ["personal-loan-servicer-changes", "personal-loan-rights-tila"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-prepay-how-it-saves-money",
+    question: "How much money does paying extra on a personal loan actually save?",
+    topic: "Process & terms",
+    shortAnswer:
+      "Every extra dollar paid toward principal saves that dollar times your interest rate for each remaining month. On a 15% APR loan, paying $1,000 extra in month 6 saves approximately $150-$200 in future interest and shortens the loan term by 2-4 months.",
+    context:
+      "The math of extra payments: Interest accrues daily on your outstanding principal. Every dollar of principal you pay off stops accruing interest immediately. The savings compound: paying down the principal sooner also means subsequent minimum payments include less interest and more principal, creating a cascade of earlier payoff.\n\nExample calculation: $12,000 personal loan at 15% APR over 48 months. Standard payment: $334/month. Total interest at standard pace: approximately $3,993.\n\nScenario A - One extra $500 payment in month 3: Saves approximately $430 in total interest. Payoff moves from month 48 to month 44 (4 months earlier). ROI on the $500 extra payment: 86% annualized interest savings rate.\n\nScenario B - Extra $50/month every month starting month 1: New total payment: $384/month. Saves approximately $930 in total interest. Payoff moves from month 48 to month 40 (8 months earlier).\n\nEarly vs late extra payments: Extra payments made early in the loan life save significantly more than the same payments made late. This is because early extra payments have more remaining months to compound their interest-avoidance effect. A $500 payment in month 1 saves roughly 2x as much interest as the same payment in month 30.\n\nInstructions matter: When making an extra payment, specify 'apply to principal balance' explicitly. If you do not specify, the servicer may apply the extra amount to your next scheduled payment, which does not immediately reduce interest accrual. Most servicers allow you to specify principal application in their payment portal.",
+    relatedSlugs: ["how-to-pay-off-personal-loan-early", "personal-loan-early-payoff-calculation"],
+    toolLinks: [
+      { label: "Calculator: Monthly payment", href: "/calculators/monthly-payment" },
+    ],
+  },
+  {
+    slug: "personal-loan-payoff-marriage-advice",
+    question: "Should I pay off my personal loan before getting married?",
+    topic: "Special situations",
+    shortAnswer:
+      "Not necessarily. Paying off a personal loan before marriage makes sense if you want a clean financial start, the interest rate is high, or your partner is debt-averse. However, if the rate is moderate and you have a solid repayment plan, continuing to repay after marriage is financially normal and does not harm your new household.",
+    context:
+      "Does marriage affect who owns the debt: In most U.S. states (common law property states), debt taken before marriage remains the sole responsibility of the person who borrowed it. Your spouse does not legally inherit your pre-marital personal loan. Community property states (Arizona, California, Idaho, Louisiana, Nevada, New Mexico, Texas, Washington, Wisconsin) have different rules, but even there, pre-marital debts are typically separate.\n\nFinancial arguments for paying off before marriage: Simplifies your combined household balance sheet. Eliminates the monthly payment from your individual DTI, which can help when you apply jointly for a mortgage. Signals financial responsibility to your partner. Allows you to start the marriage with lower recurring obligations.\n\nFinancial arguments against rushing to pay off: If the personal loan has a reasonable rate (under 12%), prepayment may not be the highest-ROI use of your cash. Emergency fund, wedding costs, or down payment savings may rank higher. The loan is your individual responsibility and does not become shared debt simply by getting married (in most states).\n\nRomantic / relationship considerations: Some couples prefer to enter marriage debt-free for psychological reasons. Others are perfectly comfortable carrying structured debt. This is a values question as much as a financial one. Discuss your debts openly with your partner before marriage - financial transparency is important for long-term relationship health.\n\nTax filing: Once married (filing jointly), your combined DTI becomes relevant for joint applications. If you both have debt, joint applications for mortgages or other loans will reflect both profiles. A pre-marriage payoff improves the combined position.",
+    relatedSlugs: ["personal-loan-joint-application-married", "personal-loan-amount-vs-income"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-what-credit-score-does-lender-use",
+    question: "Which credit score does a personal loan lender use - FICO or VantageScore?",
+    topic: "Credit score",
+    shortAnswer:
+      "Most personal loan lenders use FICO scores, though the specific version varies. FICO 8 is the most widely used model. Some lenders use FICO 9, and newer lenders (especially fintechs) may use VantageScore 3.0 or 4.0. Lenders are not required to disclose which model they use.",
+    context:
+      "FICO dominates: FICO (Fair Isaac Corporation) has been the dominant credit scoring model in the U.S. for 30+ years. FICO 8, released in 2009, is still the most widely deployed version for personal loan underwriting. FICO 9 (2014) and FICO 10 (2020) are used by some lenders but penetration is lower for consumer credit products.\n\nVantageScore: Created by the three major bureaus (Equifax, Experian, TransUnion) in 2006, VantageScore is the primary competitor to FICO. VantageScore 3.0 and 4.0 are commonly used by credit monitoring apps (Credit Karma, Credit Sesame show VantageScore 3.0 by default). Some personal lenders use VantageScore, though fewer than use FICO.\n\nWhy this matters: FICO and VantageScore weight factors slightly differently and may produce different scores for the same person. A consumer with a 680 VantageScore might have a 650 FICO, or a 700 FICO. The free score from your bank or credit monitoring app is often VantageScore, not FICO. This is why people sometimes experience 'approval at lower scores than expected' or 'denial despite a high monitored score.'\n\nHow to find out which score a lender uses: You can ask directly ('Which credit scoring model do you use for personal loan applications?'). Some lenders will tell you; others consider it proprietary. Major lenders: Experian offers free FICO Score 8 in their app. myFICO.com sells FICO scores from all three bureaus. After you apply, the adverse action notice (if denied) tells you which score was used and its value.\n\nAlternative underwriting: Upstart explicitly uses its own AI model with non-traditional variables beyond credit scores. Some credit unions do manual underwriting that does not rely heavily on any single score model.",
+    relatedSlugs: ["personal-loan-credit-score-needed", "fico-score", "vantagescore"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-declined-income-reason",
+    question: "Why would a personal loan be denied because of income if I have good credit?",
+    topic: "Approval & amount",
+    shortAnswer:
+      "Lenders use both credit score and debt-to-income ratio (DTI) independently. A high credit score does not override a DTI that is too high for the requested payment. If your existing monthly debt obligations are too large relative to your income, lenders will deny the loan regardless of how good your credit history is.",
+    context:
+      "Why DTI overrides credit score: A 780 credit score proves you have managed debt well historically. But if you currently have $3,500/month in debt payments on a $5,000/month income, your DTI is 70% - far above the 40-45% most lenders require. Adding another loan payment would make your debt load even more extreme. The lender is protecting itself from a borrower who is overextended, regardless of past credit behavior.\n\nCommon income-related denial reasons on the adverse action notice:\n\n'Insufficient income': Your gross monthly income is too low to support the requested payment at the lender's DTI maximum. Solution: Apply for a smaller loan amount, extend the term to reduce the payment, or increase income.\n\n'Excessive obligations relative to income': Your existing monthly debt payments are too high. Solution: Pay off some existing debts first to reduce your DTI. Alternatively, apply with a co-borrower whose income reduces the combined DTI.\n\n'Unable to verify income': The lender could not verify the income you claimed. Solution: Provide better documentation (more recent pay stubs, bank statements, tax returns showing the income level claimed).\n\n'Income inconsistent with application': Your claimed income did not match what the lender found in third-party income verification systems (like The Work Number). This happens when income is claimed before a recent raise or promotion registers in the database. Solution: Provide pay stubs directly showing current income.\n\nThe DTI calculation matters more for high loan amounts: At lower amounts ($2,000-$5,000), DTI requirements are somewhat more flexible. At higher amounts ($20,000-$50,000), lenders are strict about DTI because a large fixed monthly payment is a significant cash flow commitment.",
+    relatedSlugs: ["personal-loan-denied-what-to-do", "what-is-debt-to-income-ratio"],
+    toolLinks: [],
+  },
 ];
 
 export const questionsBySlug = Object.fromEntries(

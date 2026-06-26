@@ -9,6 +9,35 @@
 import type { UseCase } from "@/lib/useCases";
 
 export const creditBands: Record<string, UseCase> = {
+  "550-credit-score": {
+    slug: "550-credit-score",
+    h1: "Personal loans with a 550 credit score",
+    title: "Personal Loans With a 550 Credit Score 2026: Bad Credit Options & Alternatives",
+    description:
+      "What a 550 FICO qualifies for: which lenders will consider you, why most decline, and what to do first to reach 580 within 90 days.",
+    eyebrow: "By score",
+    intro:
+      "A 550 FICO sits in the 'poor' credit tier (300-579). Most mainstream personal-loan lenders require a minimum of 560-580 FICO, meaning a 550 score narrows your options significantly. The lenders who will consider 550-score borrowers typically charge APRs of 28-35%, and loan amounts are usually capped at $5,000-$7,500. At this score, the immediate priority is often to push your score to 580 (which opens far more options) rather than accept a very high-rate loan.",
+    amountMin: 500,
+    amountMax: 7500,
+    termMin: 6,
+    termMax: 48,
+    aprMin: 28.99,
+    aprMax: 35.99,
+    bullets: [
+      "550 FICO limits you to a small set of fair/bad-credit lenders",
+      "Loan amounts typically $500 to $7,500",
+      "APRs typically 28.99% to 35.99%",
+      "30 more points (to 580) opens meaningfully more lender options",
+      "Soft credit check available at most lenders",
+    ],
+    faqs: [
+      { q: "Which lenders accept a 550 credit score?", a: "Avant, OneMain Financial, and OppLoans are among the lenders that explicitly market to borrowers with credit scores in the 500-580 range. Federal credit union Payday Alternative Loans (PALs) have no minimum credit score requirement and cap APR at 28%. MoneyLion, a fintech-based lender, also targets thin-file and lower-score borrowers. Availability varies by state." },
+      { q: "Is 550 too low for a personal loan?", a: "It's not too low for every lender, but it limits you to those willing to take higher credit risk, which means higher APRs and smaller amounts. A $3,000 loan at 35% APR over 24 months is $145/month and $484 in total interest. If you can wait 60-90 days and push your score to 580, you'll have more options at lower rates." },
+      { q: "What's the fastest way to go from 550 to 580?", a: "The fastest improvement comes from reducing credit-card utilization below 30% of credit limit (ideally to zero or near zero) before the statement closing date. A single billing cycle of utilization reduction can add 20-40 points for some borrowers. Disputing inaccurate negative items is also worth checking - pull your report at annualcreditreport.com and look for errors." },
+      { q: "What alternatives exist if I can't get a personal loan at 550?", a: "Credit union PALs (Payday Alternative Loans) - up to $2,000 at max 28% APR. Credit-builder loans from Self or credit unions - these build your score as you repay them. Secured credit cards with a small deposit - these report to credit bureaus and build history. Employer paycheck advances if your employer offers them. Negotiating a payment plan directly with whoever you owe money to. All of these either build credit or address the underlying need without triple-digit APR products." },
+    ],
+  },
   "excellent-credit": {
     slug: "excellent-credit",
     h1: "Excellent credit personal loans",

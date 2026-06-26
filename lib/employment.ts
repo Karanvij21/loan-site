@@ -124,6 +124,35 @@ export const employmentTypes: Record<string, UseCase> = {
       { q: "What if I just started a new W-2 job?", a: "Most lenders want at least 30-90 days at the new employer plus a prior history in the same field. Job-hopping within an industry is usually fine; switching industries can require longer recent tenure. An offer letter alone usually isn't enough for approval before the first paycheque clears." },
     ],
   },
+  "healthcare-workers": {
+    slug: "healthcare-workers",
+    h1: "Personal loans for healthcare workers",
+    title: "Personal Loans for Healthcare Workers 2026: Nurses, RNs, Doctors & Medical Staff",
+    description:
+      "Personal loans for nurses, registered nurses, doctors, and healthcare staff. Licensing, shift pay, and travel nursing income all qualify. APR ranges and documentation.",
+    eyebrow: "Employment type",
+    intro:
+      "Healthcare workers, including registered nurses, nurse practitioners, physicians, medical assistants, and allied health professionals, often have strong income but complex pay structures: shift differentials, overtime, PRN (per diem) pay, travel nursing stipends, and sign-on bonuses. Most lenders can accommodate healthcare income with standard pay-stub documentation. Travel nurses and PRN workers need bank-statement income history to document variable pay.",
+    amountMin: 1000,
+    amountMax: 50000,
+    termMin: 12,
+    termMax: 72,
+    aprMin: 7.99,
+    aprMax: 29.99,
+    bullets: [
+      "Shift differentials and overtime count as qualifying income",
+      "Travel nursing stipends may count at some lenders",
+      "Loan amounts from $1,000 to $50,000",
+      "APRs 7.99% to 29.99% depending on credit",
+      "Soft credit check pre-qualification, no score impact",
+    ],
+    faqs: [
+      { q: "Do travel nursing stipends count as income for a personal loan?", a: "It varies by lender. Travel nursing compensation includes a taxable base pay plus non-taxable housing and meal stipends. Most lenders only count taxable wages shown on pay stubs for qualification, not the non-taxable stipends. Some lenders that specialize in healthcare workers will count total package compensation. Bank statements showing actual deposits are helpful supplemental documentation for the full income picture." },
+      { q: "Can I include nursing overtime when applying for a personal loan?", a: "Yes, if it's consistent. Most lenders will count overtime that appears regularly (consistently for 12-24 months) in your income calculation. Occasional overtime is usually not counted. Bring 2-3 recent pay stubs plus a year or two of W-2s that show overtime history to document consistent additional income." },
+      { q: "Are there personal loans specifically for nurses?", a: "Some lenders and credit unions market nurse-specific loan programs with slightly relaxed qualification criteria or lower APRs. Laurel Road (which has historically served healthcare professionals), SoFi, and some healthcare credit unions (like Healthcare Financial Federal Credit Union, Nurses Financial) have featured nurse-focused products. Availability and terms change frequently; compare these alongside mainstream marketplace lenders for the best rate." },
+      { q: "I'm a PRN (per diem) nurse. Can I qualify?", a: "Yes, with appropriate documentation. PRN nurses have variable income that fluctuates week to week. The key is documenting 12-24 months of consistent PRN income. Bank statements showing regular deposits, tax returns, and a letter from your staffing agency confirming your rates and availability can support your application. Credit unions familiar with healthcare employment are more likely to underwrite PRN income favorably than algorithmic online lenders." },
+    ],
+  },
   "part-time": {
     slug: "part-time",
     h1: "Personal loans for part-time workers",

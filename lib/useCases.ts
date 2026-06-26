@@ -522,6 +522,64 @@ export const useCases: Record<string, UseCase> = {
       { q: "Will lenders know I'm using the loan for a boat?", a: "You're typically asked to state the loan purpose on the application. 'Major purchase' or 'recreation' is usually the category. Lenders don't inspect what you buy with an unsecured personal loan, but providing an accurate purpose helps you get the right product and avoids any potential misrepresentation issues." },
     ],
   },
+  "legal": {
+    slug: "legal",
+    h1: "Personal loans for legal fees and attorney costs",
+    title: "Legal Loans 2026: Personal Loans for Attorney Fees, Lawsuits & Legal Costs",
+    description:
+      "Personal loans for legal fees: divorce attorneys, criminal defense, immigration lawyers, personal injury cases, and other legal costs. APRs, amounts, and fast funding.",
+    eyebrow: "Use case",
+    intro:
+      "Legal expenses are often urgent, large, and impossible to predict. A personal loan for legal fees covers attorney retainers, court filing fees, bail bonds (as an alternative to a bail bondsman), immigration legal costs, and divorce litigation. Unlike medical financing, no legal-specific lender networks exist, making a general personal loan the most practical path. Good-credit borrowers can access $5,000-$50,000 within 1-2 business days.",
+    amountMin: 1000,
+    amountMax: 50000,
+    termMin: 12,
+    termMax: 60,
+    aprMin: 7.99,
+    aprMax: 35.99,
+    bullets: [
+      "Covers attorney retainers, court costs, and legal filing fees",
+      "Funds in 1-2 business days for urgent legal situations",
+      "Loan amounts from $1,000 to $50,000",
+      "APRs 7.99% to 35.99% depending on credit",
+      "Soft credit check to compare, no score impact",
+    ],
+    faqs: [
+      { q: "Can I use a personal loan to pay an attorney retainer?", a: "Yes. Personal loans have no restrictions on legal use. Attorney retainers (upfront deposits against future hourly work) are one of the most common legal expense needs. If your attorney requires a $5,000-$15,000 retainer, a personal loan can fund that within 1-2 business days of approval. Some attorneys also offer payment plans that may reduce or eliminate the financing need." },
+      { q: "Are there loans specifically for divorce costs?", a: "A small number of specialty legal finance companies offer 'divorce loans' or 'litigation funding,' but these are typically more expensive than a standard personal loan. Unless you have a large, complex contested divorce where the proceeds will cover the loan cost, a standard personal loan at marketplace rates is usually cheaper. Divorce costs average $7,000-$15,000 nationally for contested cases." },
+      { q: "Can I get a personal loan for immigration legal fees?", a: "Yes. Personal loans can be used for immigration attorney fees, application fees, and related costs. ITIN borrowers (non-citizens without SSNs) have more limited access to personal loans, but community development financial institutions (CDFIs) and some credit unions serve this population. Immigration attorney fees typically run $1,500-$15,000 depending on the visa type and case complexity." },
+      { q: "Is a personal loan better than a credit card for legal fees?", a: "For amounts over $3,000-$5,000, usually yes. A personal loan offers a fixed rate, predictable payment, and a defined payoff date. Most credit cards have variable rates that can increase, and minimum payments extend repayment indefinitely. The key exception is a 0% intro APR promotional credit card for shorter-term needs under $5,000 where you can pay the balance within the promotional period." },
+    ],
+  },
+  "rv": {
+    slug: "rv",
+    h1: "Personal loans for RV purchases",
+    title: "RV Loans 2026: Personal Loans for Campers, Motorhomes & Travel Trailers",
+    description:
+      "Personal loans for RV, camper, and motorhome purchases: no collateral, no vehicle inspection, approved for used or older RVs. Compare personal loans vs. RV loans.",
+    eyebrow: "Use case",
+    intro:
+      "An unsecured personal loan for an RV bypasses the collateral, inspection, and age restrictions that come with a traditional secured RV loan. RV lenders typically require the vehicle to be under 10-12 years old and in good condition, with a formal appraisal or dealer sale. A personal loan has none of these constraints, making it the only real option for used, vintage, or private-seller RV purchases where a secured loan isn't available.",
+    amountMin: 2000,
+    amountMax: 50000,
+    termMin: 24,
+    termMax: 84,
+    aprMin: 7.99,
+    aprMax: 35.99,
+    bullets: [
+      "No RV inspection or title requirement",
+      "Works for private-seller, used, and older RVs",
+      "Loan amounts from $2,000 to $50,000",
+      "APRs 7.99% to 35.99% depending on credit",
+      "Funds typically next business day",
+    ],
+    faqs: [
+      { q: "Personal loan vs. RV loan: which is better?", a: "Secured RV loans offer lower APRs (typically 7-12%) for new or newer units from a dealer, but require the RV as collateral, a formal inspection, and age/condition restrictions. A personal loan is better for: private-party sales, older RVs (10+ years), fixer-uppers, small campers under $25,000 where the APR difference isn't large, or any situation where you want to avoid a lien on the vehicle. For new $80,000 motorhomes from dealerships, the secured RV loan usually wins on rate." },
+      { q: "Can I use a personal loan to buy an older RV?", a: "Yes. This is the biggest advantage over secured RV loans, which typically won't finance vehicles over 10-12 years old. A personal loan works for a 1990 Airstream or a 2005 motorhome just as well as a new Class A. The age of the unit is irrelevant to a personal loan underwriter, who only cares about your creditworthiness and income." },
+      { q: "How much can I borrow for a camper or travel trailer?", a: "Most personal loans cap at $50,000. For truck campers, pop-ups, and used travel trailers (typically $5,000-$30,000), a personal loan is practical and fast. For Class A motorhomes over $50,000, you'll likely need a secured RV loan or manufacturer financing to cover the full amount. Some buyers use a personal loan to bridge a gap between their down payment and a secured loan amount." },
+      { q: "Do I need to tell the lender I'm buying an RV?", a: "You'll typically select a loan purpose category on the application. 'Major purchase' or 'recreation' is appropriate. Lenders don't monitor how you spend unsecured personal loan funds, but providing an accurate purpose is good practice and ensures you get the right product rather than a loan type that might exclude certain uses." },
+    ],
+  },
 };
 
 export const useCaseSlugs = Object.keys(useCases);

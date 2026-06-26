@@ -4088,6 +4088,171 @@ export const questions: Question[] = [
     relatedSlugs: ["personal-loan-for-home-improvement", "personal-loan-interest-tax-deductible"],
     toolLinks: [],
   },
+  {
+    slug: "personal-loan-for-deck-building",
+    question: "Can I use a personal loan to build a deck?",
+    topic: "Special situations",
+    shortAnswer:
+      "Yes. Deck construction costs $7,000-$22,000 on average (pressure-treated wood) and up to $50,000+ for composite or hardwood decks. A personal loan covers materials and labor with no lien on your home. Lenders treat deck projects as standard home improvement expenses.",
+    context:
+      "Deck cost breakdown: Pressure-treated pine deck (12x16): $7,000-$12,000 installed. Composite deck (Trex, Azek): $15,000-$25,000. Hardwood (cedar, redwood, mahogany): $20,000-$40,000+. Permit costs: $200-$1,000 depending on municipality. The total often falls in the $10,000-$25,000 sweet spot where personal loans are well-suited.\n\nPersonal loan vs HELOC for deck: A personal loan has no lien risk and typically funds within 1-5 business days, making it better for projects where you want to start quickly. A HELOC has lower rates (if you have equity) but involves securing the loan against your home and takes weeks to close. For a $15,000 deck, the interest cost difference may be $50-$100/month - decide whether the rate savings justifies the lien.\n\nContractor vs DIY: Permits are required in most jurisdictions for decks attached to the home (setback rules, structural requirements). DIY deck build saves 40%-60% on labor but requires permits and inspections. Many lenders are indifferent to how the funds are used once disbursed - you can split the loan between contractor labor and materials you purchase separately.\n\nDoes a deck increase home value? Remodeling Magazine's Cost vs Value report shows decks return 50%-70% of cost at resale, making them one of the better home improvement investments for ROI.",
+    relatedSlugs: ["personal-loan-for-home-improvement", "personal-loan-for-fence"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-prequalification-vs-preapproval",
+    question: "What is the difference between prequalification and preapproval for a personal loan?",
+    topic: "Process & terms",
+    shortAnswer:
+      "Prequalification uses a soft credit pull (no score impact) and estimated figures to show you likely loan ranges. Preapproval involves a harder look at your finances - sometimes a soft, sometimes a hard pull depending on the lender - and produces a conditional offer with a specific rate. Full approval (after hard pull and income verification) is the final binding offer.",
+    context:
+      "The terms are used inconsistently across lenders. Here is how to think about the spectrum:\n\nPrequalification: You provide basic info (income estimate, credit range, loan purpose). Lender does a soft pull or no pull at all. You receive an estimate: 'Based on what you told us, you may qualify for $10,000-$25,000 at 9%-15% APR.' This is not a commitment. It helps you shop without score impact. Most major online lenders (SoFi, LightStream, Upstart, Discover) offer this.\n\nPreapproval: Lender has reviewed more of your information - either from a soft pull on actual credit data or from documentation you provided. The offer is more specific ('You are preapproved for $15,000 at 11.5% APR for 36 months') but still conditional on final verification. Many lenders use 'preapproval' to mean a soft-pull-based rate quote that requires a hard pull to finalize.\n\nFull approval: Hard pull occurs. Income and employment are verified (pay stubs, bank statements, or tax returns). The final rate and terms are locked. You sign the loan agreement. This is the binding offer.\n\nScore impact: Only the hard pull (at final approval) affects your credit score. One hard inquiry typically reduces your score by 2-7 points and the effect fades within 12 months. Shopping multiple lenders within a 14-45 day window (depending on scoring model) counts as a single inquiry for FICO scoring purposes.",
+    relatedSlugs: ["personal-loan-soft-pull-lenders", "personal-loan-hard-inquiry-impact"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-balloon-payment-risk",
+    question: "Do personal loans have balloon payments?",
+    topic: "Process & terms",
+    shortAnswer:
+      "Standard personal loans do not have balloon payments. They are fully amortizing: each monthly payment covers principal and interest, and the final payment brings the balance to exactly zero. Balloon structures are found in some commercial loans and mortgages, but not in standard consumer personal loans.",
+    context:
+      "What balloon means: A balloon loan has regular payments (usually interest-only or partially amortizing) followed by a large lump sum (the 'balloon') due at the end of the term. A borrower must either pay the balloon from cash or refinance. This structure is inherently risky because it depends on future access to cash or credit.\n\nWhy consumer personal loans don't use balloons: Regulations and consumer protection standards favor fully amortizing installment loans for personal borrowers. The Equal Credit Opportunity Act, TILA, and CFPB guidance all push toward transparent, predictable payment structures. Balloon loans for consumer purposes are uncommon and generally considered predatory in the personal loan context.\n\nExceptions to watch for: Payday loans and payday installment loans sometimes have balloon-like structures where a large portion of the balance is due in the final payment. Merchant cash advances (not true loans) may have similar structures. Some non-bank, non-traditional lenders offering personal lines of credit may have minimum payment options that result in large balloon-like ending balances if only minimums are paid.\n\nHow to verify there is no balloon: Read the Truth in Lending disclosure. The 'Amount of Payments' field lists each payment amount. If every payment is identical and the loan schedules show a zero balance after the final payment, it is a standard amortizing loan. If you see a final payment significantly larger than all others, ask the lender to explain it before signing.",
+    relatedSlugs: ["personal-loan-simple-interest-explained", "personal-loan-what-happens-at-end-of-term"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-for-dental-implants",
+    question: "Can I get a personal loan for dental implants?",
+    topic: "Special situations",
+    shortAnswer:
+      "Yes. Dental implants cost $3,000-$6,000 per tooth (or $24,000-$50,000 for full mouth restoration), making them one of the most common medical/dental uses for personal loans. Lenders treat dental expenses as standard personal use. Some dental offices also offer in-house financing through CareCredit or LendingClub Patient Solutions.",
+    context:
+      "Dental implant cost range: Single tooth implant: $3,000-$6,000 total (implant post, abutment, crown). Implant-supported bridge (3-4 teeth): $7,000-$18,000. Full arch (All-on-4): $20,000-$30,000 per arch. Full mouth (both arches): $40,000-$90,000 at major dental centers. These costs are frequently not covered by standard dental insurance, which is why financing is so common.\n\nPersonal loan options: Any general personal loan can fund dental expenses - you receive funds in your bank account and pay the dental office directly. LightStream (SunTrust/Truist) has specific dental loan categories with rates starting around 7.99% APR for qualified borrowers. Loan amounts up to $100,000 available from many lenders.\n\nDental office financing alternatives: CareCredit: revolving credit card accepted at dentists. If you pay the full balance within the promotional period (6-24 months), there is no interest. If balance remains, deferred interest applies retroactively at 26.99% APR - significantly more expensive than a personal loan. LendingClub Patient Solutions: personal installment loans offered at the point of care, competitive with standalone personal loans.\n\nComparison: For amounts under $5,000, a 0% promotional period on CareCredit (if you can pay it off in time) beats a personal loan. For amounts over $5,000 or situations where you cannot guarantee payoff within the promo period, a personal loan at 8%-15% APR is typically safer and cheaper.",
+    relatedSlugs: ["personal-loan-for-vet-bills", "personal-loan-for-medical-bills"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-with-recent-job-change",
+    question: "Can I get a personal loan if I recently changed jobs?",
+    topic: "Approval & amount",
+    shortAnswer:
+      "Yes, in most cases. Lenders primarily care that you are currently employed and have verifiable income. A recent job change is not automatically disqualifying. However, probationary status, a gap between jobs, or a move to self-employment may require additional documentation or affect approval odds.",
+    context:
+      "What lenders look at: Current employment status and income: are you employed now with provable income? The key date is your start date at the new job - most lenders want to see you have started and have your first pay stub. Income verification: if you just started, you may have only an offer letter. Some lenders accept offer letters for employees who have not yet received their first paycheck; others require at least one pay stub.\n\nProbationary periods: Many employers have a 30-90 day probationary period during which employment can end more easily. Some lenders note this in underwriting but it is rarely an automatic denial for standard personal loans. For mortgages (different product), lenders are stricter about probationary periods.\n\nSelf-employment change: Moving from W-2 employment to self-employment or contract work is the most challenging scenario. Lenders want 2 years of self-employment tax returns to verify income. If you recently became self-employed, you may need to wait 12-24 months and document income consistently before qualifying for a personal loan at competitive rates.\n\nIncome increase vs decrease: A job change that increased your income is a positive factor even if it is recent. A job change that decreased your income is a negative factor. Lenders look at your current and future ability to repay, so a pay cut even to a stable job can affect your approval amount.\n\nWhat to have ready: Offer letter (if no pay stubs yet), most recent pay stub showing new employer, two months of bank statements showing income deposits.",
+    relatedSlugs: ["personal-loan-income-verification", "personal-loan-for-self-employed"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-for-adoption-expenses",
+    question: "Can I use a personal loan to pay for adoption costs?",
+    topic: "Special situations",
+    shortAnswer:
+      "Yes. Domestic adoption costs $30,000-$50,000 on average; international adoption $35,000-$55,000. A personal loan is one of several financing options. Some lenders specifically market adoption loans. The federal adoption tax credit ($16,810 in 2024) partially offsets costs after the year of adoption.",
+    context:
+      "Adoption cost breakdown: Domestic infant adoption (private/agency): $30,000-$50,000. International adoption: $35,000-$55,000. Foster care adoption: $0-$5,000 (many costs are subsidized). The expenses include agency fees, home study fees, legal fees, court costs, travel, and post-placement fees.\n\nPersonal loan financing: A personal loan can cover most adoption costs. For the $30,000-$50,000 range, loan amounts from LightStream, SoFi, and Discover are available. LightStream specifically markets an Adoption loan category with terms 24-144 months and no origination fees. Compare rates directly - adoption marketing does not always mean better rates.\n\nFederal adoption tax credit: The Adoption Tax Credit for 2024 is up to $16,810 per child. This is a tax CREDIT (reduces your tax liability dollar-for-dollar), not a deduction. It applies in the year the adoption is finalized (domestic) or when you begin paying expenses (international, if child is not yet a US citizen). If the credit exceeds your tax liability, it can be carried forward up to 5 years. This credit can effectively be used to pay down a personal loan significantly after the adoption finalizes.\n\nOther options: Employer adoption assistance: many employers offer $5,000-$10,000 in adoption assistance (check your benefits package). Adoption grants: National Adoption Foundation, Gift of Adoption Fund, and similar organizations offer grants that do not need to be repaid. These are worth pursuing before or alongside loan financing.",
+    relatedSlugs: ["personal-loan-for-vet-bills", "personal-loan-interest-tax-deductible"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-refinance-to-lower-payment",
+    question: "Can I refinance a personal loan to lower my monthly payment?",
+    topic: "Process & terms",
+    shortAnswer:
+      "Yes. Refinancing replaces your existing loan with a new one - ideally at a lower rate, a longer term, or both. Extending the term reduces monthly payments but increases total interest paid. If your credit score has improved since the original loan, you may qualify for a lower rate that reduces both payment and total cost.",
+    context:
+      "When refinancing makes sense: Your credit score improved significantly (740+ vs 680 at origination can mean 3-5 percentage points better rate). Market rates dropped. Your income increased, making you a lower-risk borrower. You need to reduce the monthly payment for cash flow reasons (even if total interest increases).\n\nTwo types of refinance outcomes: Rate refinance: same term remaining, lower rate - both payment and total interest decrease. This is the ideal scenario. Term extension: same or similar rate, longer term - payment decreases but total interest increases. Example: $15,000 remaining at 14% APR with 24 months left = $721/month. Refinance to 48 months at 14% = $409/month. Payment drops $312/month but you pay an additional $2,800 in interest over the longer period.\n\nWhat to watch for: Origination fees on the new loan: a 3%-6% origination fee on a $15,000 loan is $450-$900 upfront. Compare this against the interest savings to determine if the math works. Prepayment penalties on the existing loan: check if your current loan charges a fee for early payoff. Read your loan agreement or call your lender.\n\nWhere to refinance: Any personal loan lender will consider your application. You do not need to refinance with the same lender. LightStream, SoFi, Marcus, and Discover are frequently competitive. Run prequalification checks at multiple lenders before committing.",
+    relatedSlugs: ["personal-loan-can-you-negotiate-rate", "personal-loan-prepayment-penalty"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-payoff-letter-for-records",
+    question: "How do I get a payoff letter after paying off a personal loan?",
+    topic: "Process & terms",
+    shortAnswer:
+      "After making your final payment, contact your lender to request a payoff or satisfaction letter - a written confirmation that the loan is fully paid and the account is closed. This is your proof of zero balance. Most lenders provide this automatically or within 7-30 days of final payment. Keep it permanently.",
+    context:
+      "What a payoff letter contains: Borrower name and account number. Original loan amount. Final payment amount and date. Statement that the loan is paid in full and the account is closed. Lender name, signature, and date. Some payoff letters also include a satisfaction of lien confirmation (if the loan was secured).\n\nHow to get one: Online lenders: check your account portal after the final payment clears. Many lenders post a paid-in-full notice within 7-14 days. If not, contact customer service by chat or phone and request a payoff letter. Banks and credit unions: visit a branch or call the loan department. They typically generate a letter within 2-5 business days. Mail it to yourself or request a digital copy.\n\nWhy to keep it: Proof in case of credit report errors: occasionally lenders are slow to report a closed account, or a third party mistakenly shows a balance. Your payoff letter is evidence you can use to dispute credit report errors with the bureaus. Tax records: while personal loan payoff is not typically a tax event, the documentation may be relevant if the loan was for a business purpose. Future lenders: in some mortgage or refinance scenarios, a lender may ask for evidence that a debt shown on your credit report was fully paid.\n\nCredit report update timeline: Most lenders report to credit bureaus monthly. After your final payment, expect the account to show as 'Paid/Closed' on your credit report within 30-60 days. If the balance still shows after 60 days, dispute it with the credit bureau using your payoff letter as supporting documentation.",
+    relatedSlugs: ["personal-loan-how-to-close-account-after-payoff", "personal-loan-prepayment-penalty"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-cosigner-release-request-denied",
+    question: "What can I do if my cosigner release request was denied?",
+    topic: "Special situations",
+    shortAnswer:
+      "Most lenders deny cosigner release requests due to insufficient credit history, income, or too few on-time payments. Options: continue making on-time payments to meet the minimum payment count, improve your credit score, request again in 6-12 months, or refinance the loan in your name alone to permanently release the cosigner.",
+    context:
+      "Why cosigner release requests are denied: Not enough on-time payments: most lenders require 12-48 consecutive on-time payments before considering release. Your credit score is below the lender's minimum for solo approval (often 670-720+). Your income-to-debt ratio would not qualify you as the sole borrower. You recently had a late payment.\n\nThe refinance option: If the lender's release criteria are difficult to meet, refinancing is often the cleaner path. You apply for a new personal loan in your name only, use the proceeds to pay off the cosigned loan, and the cosigner is released because the original loan no longer exists. Requirements: you qualify for the new loan on your own credit and income. Rate may be higher than the original cosigned loan. Origination fees may apply.\n\nWhen refinancing is not ideal: If the cosigned loan has a low interest rate (from the cosigner's credit helping you qualify at origination), refinancing in your name alone may mean a higher rate. Compare total cost (new rate x remaining balance x remaining term) against continuing with the cosigner and trying for release again later.\n\nKeeping the cosigner informed: Your cosigner's credit score and borrowing capacity are affected as long as they are on the loan. Keep them updated on your payoff progress and your plans for release. If the relationship is strained, refinancing quickly to remove them - even at a slightly higher rate - may be worth the cost to both parties.",
+    relatedSlugs: ["cosigner-release", "personal-loan-cosigned-what-if-primary-defaults"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-for-vacation-home-down-payment",
+    question: "Can I use a personal loan for a vacation home down payment?",
+    topic: "Special situations",
+    shortAnswer:
+      "No, in almost all cases. Conventional, FHA, and most mortgage loans prohibit using borrowed funds for the down payment. Mortgage lenders verify the source of your down payment through bank statements and will see new loan activity. Using a personal loan for a down payment typically disqualifies you from the mortgage or commits loan fraud.",
+    context:
+      "Why mortgages prohibit borrowed down payments: The down payment is your 'skin in the game' - it demonstrates you have the financial capacity to own the property and gives you a cushion against default. If the down payment itself is borrowed, you have 100% debt coverage on the property (the mortgage plus the personal loan), which dramatically increases default risk.\n\nHow lenders detect it: During mortgage underwriting, your lender requests 60 days of bank statements and a credit report pulled fresh at closing. A new personal loan showing up in the 60-day window (either as a new account or as funds deposited and then moved to the down payment account) will trigger questions. Underwriters are trained to look for this pattern. Being caught using a personal loan for a down payment can result in denial and may be considered mortgage fraud if you did not disclose it.\n\nVacation home vs primary residence: Vacation home mortgages have stricter underwriting than primary residences. Minimum down payments are typically 10%-20%, and lenders are more cautious about down payment sources for second homes.\n\nLegal ways to fund a vacation home down payment: Cash savings (the only fully safe option). HELOC on your primary residence (secured by your existing home, not a personal loan). Gift funds from a family member (with gift letter). Sale of investments or other assets. 401k loan (rules vary; not recommended but technically permitted in many plans).\n\nIf you are short on down payment: Consider a less expensive property, wait and save, or look for a primary residence-qualified loan if you plan to use the property as a primary residence part of the year.",
+    relatedSlugs: ["personal-loan-for-home-improvement", "piggyback-loan"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-impact-on-401k-contributions",
+    question: "Should I pause 401k contributions to pay off a personal loan faster?",
+    topic: "Special situations",
+    shortAnswer:
+      "Compare the math: if your loan APR exceeds your expected investment return (roughly 7%-10% for stock index funds), paying off the loan faster wins. If your employer matches 401k contributions, always contribute at least enough to capture the full match first - that is an instant 50%-100% return that beats almost any loan rate.",
+    context:
+      "The employer match rule: If your employer matches 401k contributions (commonly 50%-100% up to 3%-6% of salary), never sacrifice the match to pay down debt. A 100% match on your contribution is an immediate 100% return. Even a loan at 25% APR does not beat a guaranteed 100% return. Contribute at least enough to capture the full employer match, then allocate remaining funds toward debt.\n\nBeyond the match: Once you are capturing the full match, compare: Loan APR vs expected investment return. If loan APR is 18%, paying down the loan is mathematically equivalent to earning 18% guaranteed after tax (since the interest you avoid is after-tax savings). Expected stock market returns are 7%-10% long-term and are not guaranteed. At 18%, loan paydown almost certainly wins. If loan APR is 7%, expected investment returns may exceed the loan cost, especially in a tax-advantaged account where gains compound without annual tax drag.\n\nTax considerations: Traditional 401k contributions reduce your taxable income now. If you are in the 22%-24% federal bracket, contributing $1,000 to a 401k saves $220-$240 in current taxes - effectively reducing the cost of the contribution. This tax benefit shifts the math toward continuing 401k contributions even when the loan rate is moderately high.\n\nMental accounting: Many financial advisors recommend eliminating high-rate debt (above 8%-10%) before increasing 401k contributions beyond the match, because the guaranteed after-tax return of debt payoff exceeds the expected (uncertain) market return.",
+    relatedSlugs: ["personal-loan-interest-tax-deductible", "personal-loan-autopay-discount"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-car-registration-fees",
+    question: "Can I use a personal loan to pay car registration fees?",
+    topic: "Special situations",
+    shortAnswer:
+      "Technically yes, but it is rarely advisable. Car registration fees typically range from $50-$500 annually depending on your state and vehicle value - amounts too small to justify a personal loan's origination fees and multi-year interest costs. Consider a credit card, payment plan, or state DMV payment installment option instead.",
+    context:
+      "Registration fee ranges by state: California: $60-$175 base plus VLF (vehicle license fee) based on car value. Can be $500-$1,500 for newer/higher-value vehicles. Texas: $51.75 base plus county fees ($10-$20) plus state inspections. Florida: $14.50-$32.50 base plus $225 initial registration fee for new plates. In most states, registration fees are $50-$300/year for typical vehicles.\n\nWhy a personal loan makes little sense: Personal loan minimums are typically $1,000-$2,000 at most lenders. An origination fee of 1%-6% on a $1,000 loan is $10-$60 upfront. Even at a low rate, the interest and fees exceed the fee amount for small borrowing needs. The loan term (typically 12-84 months) outlasts the annual renewal cycle.\n\nBetter alternatives: Credit card with 0% intro APR: if you have a card with a promotional period, use it for registration and pay it off within the promo period at no interest. State DMV payment plans: California's DMV offers installment plans for large fees. Many states allow partial payment arrangements. Delay and save: if registration is coming up, set aside $20-$40/month in advance. Cash advance from employer: some employers offer interest-free payroll advances.\n\nWhen a personal loan might make sense: If you have multiple years of back registration fees (an issue when a car was unregistered for years), total fees plus penalties could reach $1,000-$3,000. In that scenario, a personal loan becomes more reasonable if no better option exists.",
+    relatedSlugs: ["personal-loan-for-car-repairs", "personal-loan-minimum-amount"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-for-service-animal",
+    question: "Can I get a personal loan to buy or train a service animal?",
+    topic: "Special situations",
+    shortAnswer:
+      "Yes. Service dog acquisition and training costs $20,000-$60,000 from certified organizations. A personal loan is one of several options. However, most reputable service dog organizations are nonprofits that place dogs at low or no cost to recipients with disabilities. Apply to certified programs first before financing a purchase.",
+    context:
+      "Service dog cost reality: Dogs from Canine Companions, Assistance Dogs International-accredited programs, and similar nonprofits: typically $0-$5,000 to the recipient (the organization covers training costs of $20,000-$60,000 through fundraising). However, wait lists at reputable nonprofits can be 1-3 years long. Private trainers and commercial service dog providers: $25,000-$60,000 for a fully trained dog. This is the market where most personal loan use applies.\n\nPersonal loan vs alternatives: Personal loan: $15,000-$50,000 at 8%-20% APR. Flexible, funds quickly. No organization gatekeeping. 501c3 grants: several foundations provide grants for service dogs for veterans (K9s For Warriors, Paws of War) or specific disabilities. Worth researching before financing. Crowdfunding: GoFundMe campaigns for service dogs are common and successful given the sympathetic nature of the cause. Medical flexible spending accounts (FSA/HSA): if a doctor prescribes a service dog for a medical condition, costs may be FSA/HSA-eligible (unclear under current IRS guidance - verify with a tax professional). Tax deductions: the IRS has allowed service dog costs as medical expense deductions in some cases when the dog is prescribed for a specific condition. Consult a tax professional.\n\nOwner-training: Some individuals with disabilities train their own service dogs with a professional trainer's guidance. This reduces costs to $5,000-$15,000 (dog purchase + training). Service dog trainers charge $50-$150/hour. Owner-training is legal under the ADA - no certification from a third party is required.",
+    relatedSlugs: ["personal-loan-for-vet-bills", "personal-loan-for-pet-surgery"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-how-to-close-account-after-payoff",
+    question: "Does a personal loan account close automatically after I pay it off?",
+    topic: "Process & terms",
+    shortAnswer:
+      "Yes. A personal loan account is automatically closed when you make the final payment and it is processed. Unlike credit cards, you do not need to request closure - the account closes when the balance reaches zero. The account will appear as 'Paid/Closed' on your credit report, and the positive payment history remains for 10 years.",
+    context:
+      "How closure works: Personal loans are closed-end credit: they have a fixed term and a defined payoff date. When the last payment is received and processed, the lender closes the account. There is no action required on your part. The account does not reopen or reactivate. You will receive a final statement or a confirmation email.\n\nCredit report impact of closure: Closed accounts remain on your credit report for 10 years (if paid as agreed). This is a positive - your history of on-time payments continues to help your credit score during this period. Your score may dip slightly when the account closes because you now have one fewer 'open' installment account, but this effect is typically small (2-5 points) and temporary. Your utilization calculation is not affected by installment loan closure (utilization only counts revolving credit like credit cards).\n\nLength of credit history: Average age of accounts is a factor in your credit score (15% of FICO). When a personal loan account closes, it stays in your history but no longer contributes to active account aging. Over time, if this was your oldest account, its age still counts for the 10-year period it remains visible.\n\nAfter final payment checklist: Confirm the payment processed (allow 3-5 business days for ACH to clear). Download or request a payoff letter or satisfaction letter. Monitor your credit report (free via AnnualCreditReport.com or credit monitoring service) to confirm the account shows as paid/closed within 30-60 days. Contact the lender if the account still shows a balance after 60 days.",
+    relatedSlugs: ["personal-loan-payoff-letter-for-records", "personal-loan-prepayment-penalty"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-for-pet-surgery",
+    question: "Can I get a personal loan for a pet's emergency surgery?",
+    topic: "Special situations",
+    shortAnswer:
+      "Yes. Emergency vet surgery is one of the most common reasons people take personal loans. Costs range from $1,500 (soft tissue repair) to $8,000+ (orthopedic, cancer, cardiac). Funds arrive in 1-5 business days, which works for non-emergency surgeries. For true emergencies, ask the vet about CareCredit or a payment plan while you apply for a loan.",
+    context:
+      "Common vet surgery costs: Cruciate ligament repair (TPLO): $3,500-$6,500. Bloat surgery (GDV): $3,000-$7,500. Cancer surgery: $1,500-$5,000+. Orthopedic fracture repair: $2,000-$5,000. Foreign body removal: $1,500-$3,000. Cardiac surgery: $5,000-$15,000+. These figures illustrate why personal loans are frequently needed.\n\nSpeed considerations: Personal loans from online lenders (LightStream, Discover, Marcus) typically fund in 1-5 business days after approval. True emergencies (surgery needed today) may not wait. Options for immediate funding: CareCredit: can be applied for and approved at the vet office, often within minutes. Many vets accept it. However, deferred interest applies if you do not pay in full within the promotional period. Scratchpay: a service specifically for medical and veterinary expenses, offering instant approval decisions at point of care. Payment plan: most vets will offer a payment plan, especially for established clients. Get the terms in writing.\n\nPersonal loan vs CareCredit for vet bills: For amounts over $3,000 that you cannot pay off within 12 months, a personal loan at 9%-15% APR is typically less expensive than CareCredit's deferred interest (26.99%-29.99% APR retroactively if you miss the payoff deadline). For amounts under $2,000 that you can pay off in 6-12 months, CareCredit's 0% promotional period is hard to beat.\n\nPet insurance note: Pet insurance reimburses after the fact - you still pay the vet upfront and then file a claim. It does not help with immediate payment, though it reduces the net cost after reimbursement.",
+    relatedSlugs: ["personal-loan-for-vet-bills", "personal-loan-for-dental-implants"],
+    toolLinks: [],
+  },
 ];
 
 export const questionsBySlug = Object.fromEntries(

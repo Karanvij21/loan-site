@@ -2542,6 +2542,85 @@ export const guides: Guide[] = [
       { label: "Guide: How to refinance a personal loan", href: "/learn/how-to-refinance-personal-loan", blurb: "When refinancing saves money and when it does not." },
     ],
   },
+  {
+    slug: "how-to-avoid-personal-loan-scams",
+    cluster: "Loan shopping",
+    h1: "How to Avoid Personal Loan Scams: 12 Red Flags and What to Do Instead",
+    title: "How to Avoid Personal Loan Scams (2026): 12 Red Flags",
+    description: "Advance-fee scams, phishing lenders, and loan-flipping schemes cost Americans hundreds of millions annually. Learn the 12 warning signs and how to verify any lender before sharing your information.",
+    intro: "Personal loan scams target people who are financially stressed and searching urgently for credit. The FBI estimates consumer financial fraud losses exceeding $10 billion annually, with loan fraud among the fastest-growing categories. Scammers impersonate real lenders, create convincing fake websites, and exploit the urgency of financial emergencies. This guide covers the 12 most common red flags, how to verify any lender in under 5 minutes, and what to do if you have already shared information with a suspected scammer.",
+    publishedAt: "2026-04-15",
+    reviewedAt: "2026-06-15",
+    estimatedReadMinutes: 10,
+    sections: [
+      {
+        h2: "Red Flag 1: Guaranteed Approval Before Any Application",
+        body: "Legitimate lenders evaluate creditworthiness before making any offer. 'Guaranteed approval' regardless of credit, income, or debt history is impossible for a regulated lender making a risk-based lending decision. This phrase is the single most reliable indicator of fraud. Real pre-qualification offers are based on a soft pull of your credit and are conditional on a full application. They use language like 'you may pre-qualify' or 'subject to verification.' Any offer that skips evaluation entirely is a scam or, at best, a predatory lender operating outside standard practice.",
+      },
+      {
+        h2: "Red Flag 2: Upfront Fee Required Before Receiving Funds",
+        body: "Advance-fee fraud is the most common personal loan scam. The structure is: a 'lender' approves you for a large loan and asks you to pay an insurance fee, activation fee, security deposit, or government processing fee before the funds are released. You pay. The funds never arrive. Legitimate lenders do charge origination fees, but they are deducted from the loan disbursement - you never pay money before receiving money. If any 'lender' asks you to send money (wire transfer, money order, gift cards) before your loan is funded, stop immediately. This is always fraud.",
+      },
+      {
+        h2: "Red Flag 3: Pressure to Act Immediately",
+        body: "Scammers create false urgency: 'This offer expires in 2 hours,' 'We can only hold this rate until midnight,' 'You must send the fee today or lose the loan.' This pressure is designed to prevent you from researching the lender or consulting someone else. Legitimate lenders give you time to review loan documents. Federal law (under TILA for some products) provides a right of rescission in certain situations. No real lender with a genuine offer needs you to act in the next 20 minutes. Any artificial deadline is a manipulation tactic.",
+      },
+      {
+        h2: "Red Flag 4: Lender Not Licensed in Your State",
+        body: "Every legitimate lender making personal loans in your state must hold a lending license issued by your state's financial regulator. You can verify a lender's license in under 2 minutes: Go to your state banking department website (search '[your state] department of banking' or find it at csbs.org/consumer-resources). Search for the lender by name. If they appear in the licensed lender database, they are regulated. If they do not appear, ask the lender for their license number before proceeding. Scammers often cannot provide a valid license number or will give one that does not check out when verified.",
+      },
+      {
+        h2: "Red Flag 5: No Physical Address or Verifiable Contact Information",
+        body: "Real lenders have a verifiable physical address, a phone number that connects to actual staff during business hours, and a working website with HTTPS encryption. Check: Does the lender's website have an 'About Us' or 'Contact' page with a street address? Can you find the address on Google Maps and does it appear to be a real business location? Is the phone number answered by staff who can answer basic questions about the loan terms? Scammers use virtual addresses, fake addresses, and unmonitored phone numbers that route to voicemail only.",
+      },
+      {
+        h2: "Red Flag 6: Copycat or Near-Identical Brand Names",
+        body: "Scammers impersonate well-known lenders with near-identical names: 'LightStream Financial' (not LightStream), 'SoFi Lending Corp' (not SoFi), 'Marcus Lending Group' (not Marcus by Goldman Sachs). They build websites that visually mimic the real lender's site. Always verify you are on the correct domain: the real website is lightstream.com, sofi.com, marcus.com. Check the domain name in your browser's address bar carefully. A single character difference (lighstream.com, sofi-loans.com) means you are on a fake site. Search '[lender name] official website' and confirm the URL matches before entering any personal information.",
+      },
+      {
+        h2: "Red Flag 7: Lender Contacts You Unsolicited",
+        body: "Real personal loan lenders do not cold-call, text, or email you with specific loan offers unless you have opted into their marketing or have an existing relationship. Unsolicited loan offers via text message, robocall, or email from a lender you have never heard of are almost always either scams or predatory lenders gathering leads to sell. Unsolicited contact with a pre-approved loan amount and urgency language is a classic advance-fee fraud setup. If contacted out of the blue, do not engage with the specific offer - separately look up the company's contact information independently and call them to verify.",
+      },
+      {
+        h2: "Red Flag 8: Requests for Gift Cards, Wire Transfers, or Cryptocurrency as Payment",
+        body: "No legitimate lender accepts gift cards (Google Play, iTunes, Walmart), wire transfers to personal accounts, or cryptocurrency as fee payment. These payment methods are irreversible and untraceable, which is why scammers demand them. Real origination fees and processing fees are deducted from loan proceeds, charged to a bank account via ACH, or added to your loan balance - they are never collected via gift cards or crypto. The moment a 'lender' requests payment in any of these forms, the conversation is over.",
+      },
+      {
+        h2: "Red Flag 9: Loan Terms Are Vague or Change After Agreement",
+        body: "Legitimate lenders provide clear, written loan terms before you sign: exact APR, exact monthly payment, loan amount, origination fee amount, and total repayment amount. Scammers keep terms vague, change them after you have already paid an upfront fee, or send documents that are difficult to review quickly under time pressure. Read every document before signing. If the terms are not clear in writing before you sign, do not proceed. Under TILA, lenders are required to disclose APR, finance charge, and total payments in writing before consummation of the loan.",
+      },
+      {
+        h2: "Red Flag 10: The Website Has No Privacy Policy, Terms of Use, or SSL Certificate",
+        body: "Legitimate lenders' websites have: HTTPS encryption (look for the padlock icon in your browser's address bar), a privacy policy explaining how your data is used and shared, and terms of use. The absence of any of these is a serious signal. Even if a site has them, read the privacy policy to understand whether your personal and financial information will be sold to third parties. Some legitimate-looking 'loan comparison' sites are actually lead generation businesses that sell your data to dozens of lenders simultaneously - often without making this clear. Look for language like 'your information will be shared with our network of lenders' as a sign this may be a lead-gen operation rather than a direct lender.",
+      },
+      {
+        h2: "Red Flag 11: Extremely High Rates Disguised as 'Easy Approval'",
+        body: "Not all bad loans are outright scams, but some are so predatory they deserve the same scrutiny. Rates above 36% APR for personal loans are a sign you are in predatory territory. Some lenders market to borrowers with bad credit at 99%-299% APR on personal installment loans. These are legal in some states (the exportation doctrine allows bank-chartered lenders to charge rates above state usury limits), but they can create debt traps where the interest alone exceeds the original loan principal if payments are missed. The CFPB and military lending regulators cap rates at 36% MAPR for active-duty servicemembers. Consider this the bright line for consumer loans generally: if the APR exceeds 36%, explore every alternative first.",
+      },
+      {
+        h2: "Red Flag 12: Poor or No Online Reviews, BBB Complaints",
+        body: "Before applying to any lender, spend 5 minutes researching their reputation. Search '[lender name] reviews,' '[lender name] scam,' and '[lender name] complaints'. Check the BBB (bbb.org) for complaint history and ratings. Check the CFPB complaint database (consumerfinance.gov/consumer-tools/financial-well-being/) which shows complaints filed against financial companies. A legitimate lender with years of operation will have both positive and negative reviews - the presence of responses to complaints and resolutions is a positive sign. No online presence at all, or a presence that appeared within the past few months, is a major warning sign.",
+      },
+      {
+        h2: "How to Verify Any Lender in Under 5 Minutes",
+        body: "Step 1: Check your state banking department's licensed lender database. Step 2: Search the NMLS Consumer Access database (nmlsconsumeraccess.org) for mortgage lenders and some consumer lenders. Step 3: Look up the company on the CFPB complaint database. Step 4: Verify the domain: search the company name + 'official site' and confirm the URL in your browser matches exactly. Step 5: Call the lender's published phone number (found independently, not from the offer itself) and ask to verify the loan offer you received.\n\nIf anything does not check out across these steps, trust the mismatches more than the offer.",
+      },
+      {
+        h2: "What to Do If You Already Shared Information or Sent Money",
+        body: "If you shared personal information (SSN, bank account details) with a suspected scammer: Place a fraud alert with all three credit bureaus (Equifax, Experian, TransUnion) immediately. Consider a credit freeze, which prevents new accounts from being opened in your name. Monitor your bank accounts and credit reports closely for unauthorized activity. File a complaint with the FTC at reportfraud.ftc.gov and with your state attorney general's office. If you sent money: File a report with the FTC and FBI Internet Crime Complaint Center (ic3.gov). Contact your bank immediately - if you used ACH or a debit card, some transfers can be reversed if reported within 1-3 business days. If you used a wire transfer or gift cards, recovery is very difficult but reporting helps law enforcement track patterns.\n\nRemember: being victimized by a scam is not a character flaw - these schemes are professionally designed to exploit financial urgency and trust. Reporting helps protect future victims even when individual losses are not recoverable.",
+      },
+    ],
+    faqs: [
+      { q: "How do I know if a lender is legitimate?", a: "Verify their state lending license on your state banking department's website, check the CFPB complaint database, confirm the website URL matches the company's official domain, and call a phone number you found independently (not from the offer). Legitimate lenders will also never ask for upfront fees paid via gift card, wire transfer, or cryptocurrency." },
+      { q: "What is an advance-fee loan scam?", a: "The scammer approves you for a loan, then asks you to pay an 'insurance fee,' 'activation fee,' or 'government processing fee' before the loan funds are released. You pay; the funds never arrive. Legitimate lenders deduct fees from loan proceeds - you never pay before receiving the money." },
+      { q: "Is a 99% APR personal loan a scam?", a: "Not necessarily a scam in the fraudulent sense, but potentially predatory. Some lenders legally charge very high rates on small-dollar, short-term loans to borrowers with poor credit. The better question is whether the lender is licensed and regulated. A high-rate loan from a licensed, regulated lender is legal but potentially harmful to your finances. A 'loan' from an unlicensed operation is both illegal and likely fraudulent." },
+    ],
+    relatedSlugs: ["how-to-get-personal-loan-with-bad-credit", "personal-loan-comparison-guide", "how-to-refinance-personal-loan"],
+    toolLinks: [
+      { label: "Verify lender license (NMLS)", href: "https://www.nmlsconsumeraccess.org", blurb: "Free database to verify mortgage and some consumer lenders." },
+      { label: "CFPB complaint database", href: "https://www.consumerfinance.gov/data-research/consumer-complaints/", blurb: "Search complaints against any financial company." },
+    ],
+  },
 ];
 
 export const guidesBySlug = Object.fromEntries(

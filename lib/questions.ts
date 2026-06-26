@@ -4407,6 +4407,171 @@ export const questions: Question[] = [
     relatedSlugs: ["personal-loan-for-self-employed", "personal-loan-interest-tax-deductible"],
     toolLinks: [],
   },
+  {
+    slug: "personal-loan-for-kitchen-remodel",
+    question: "Is a personal loan a good way to finance a kitchen remodel?",
+    topic: "Special situations",
+    shortAnswer:
+      "A personal loan is a solid option for kitchen remodels costing $5,000-$30,000, especially for homeowners without significant equity or those who want to avoid putting their home at risk. For remodels over $30,000 with strong equity, a HELOC typically offers lower rates at the cost of a longer approval process.",
+    context:
+      "Kitchen remodel cost ranges: Minor remodel (cabinet refacing, new countertops, appliances): $5,000-$15,000. Mid-range remodel (new cabinets, countertops, appliances, flooring): $15,000-$45,000. Major remodel (full gut, custom cabinets, high-end appliances): $45,000-$100,000+. National average kitchen remodel: approximately $25,000 (Remodeling Magazine Cost vs Value 2025).\n\nPersonal loan advantages for kitchens: No lien on your home - preserves mortgage flexibility. Fast funding (1-5 days) vs HELOC (2-4 weeks). Fixed rate and fixed payments - budgeting predictability. No equity requirement - new homeowners can finance renovations immediately.\n\nHELOC comparison: A HELOC typically offers rates 3%-7% lower than personal loans for the same borrower. On a $25,000 project over 60 months, a 3% rate difference saves approximately $2,000 in interest. If you have significant equity and can wait 3-4 weeks, the HELOC likely saves more. If equity is limited, the timeline is tight, or you prefer simpler fixed payments, a personal loan is more practical.\n\nDoes a kitchen remodel increase home value? Yes - mid-range kitchen remodels return approximately 67%-80% of cost at resale (Remodeling Magazine 2025). A $25,000 remodel may add $17,000-$20,000 in home value. For sellers planning to list within 1-3 years, a kitchen remodel financed with a personal loan can be a value-adding investment.",
+    relatedSlugs: ["personal-loan-for-home-improvement", "personal-loan-for-deck-building"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-affect-mortgage-approval",
+    question: "Will taking a personal loan affect my ability to get a mortgage?",
+    topic: "Special situations",
+    shortAnswer:
+      "Yes. A personal loan affects mortgage qualification in two ways: (1) the monthly payment increases your debt-to-income ratio, potentially reducing the mortgage amount you qualify for, and (2) the hard inquiry from the personal loan application may temporarily lower your credit score. If a mortgage is in your near future, time your personal loan carefully.",
+    context:
+      "DTI impact: Mortgage lenders use DTI to determine how large a mortgage you can qualify for. Conventional mortgages require DTI at or below 43%-45% (some allow up to 50%). Adding a personal loan payment to your DTI reduces your mortgage qualification capacity. Example: Income $6,000/month. Personal loan payment $350/month. Without personal loan: maximum monthly mortgage payment (at 43% DTI with no other debts) = $2,580. With personal loan: maximum monthly mortgage payment = $2,580 - $350 = $2,230. At current rates, $2,230 vs $2,580/month mortgage payment represents a difference of roughly $50,000-$75,000 in home purchase price.\n\nCredit score impact: A hard inquiry from a personal loan application reduces your score by 2-7 points temporarily. More significantly, the new loan account reduces your average account age and adds to your total debt load. Both can slightly reduce your mortgage rate tier.\n\nTiming strategy: If you need a personal loan AND plan to get a mortgage: take the personal loan now if the home purchase is more than 12 months away - the score impact fades and the payment history helps. If the mortgage is within 3-6 months: delay the personal loan if possible, or take it only if absolutely necessary. Lenders will see any new debt taken within 90 days of the mortgage closing and may require explanation letters.\n\nNew debt near closing: Most mortgage lenders require you not to take new debt between loan approval and closing. A personal loan taken after mortgage approval but before closing can cause the lender to re-run your credit, discover the new obligation, and either decline the loan or require re-underwriting.",
+    relatedSlugs: ["personal-loan-for-vacation-home-down-payment", "personal-loan-debt-to-income-calculation"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-what-is-fico-score",
+    question: "What FICO score do lenders use for personal loan applications?",
+    topic: "Credit score",
+    shortAnswer:
+      "Most personal loan lenders use FICO Score 8, the most widely used version. Some lenders use FICO Score 9 or VantageScore 3.0 or 4.0. Different bureaus (Equifax, Experian, TransUnion) produce different scores for the same person - your score may vary 20-50 points across bureaus. Lenders choose which bureau and model they use.",
+    context:
+      "The FICO score landscape: FICO has released many scoring models since 1989. FICO Score 8 (released 2009) remains the most widely used by lenders across all credit products. FICO Score 9 (released 2014) treats medical debt differently (less negatively) and ignores paid-off collection accounts. Some lenders have adopted this version, especially those targeting health-care-related populations. FICO Score 10 / 10T (released 2020) is the newest version. Uses trended data (showing whether balances are increasing or decreasing over time). Adoption is slow - most lenders still use Score 8. VantageScore (created by all three bureaus jointly): an alternative scoring model. VantageScore 3.0 and 4.0 are used by some fintech personal loan platforms. Note: free scores from Credit Karma and many credit monitoring services typically show VantageScore, not FICO Score.\n\nWhy scores differ across bureaus: Each bureau collects slightly different data. Accounts may be reported to all three bureaus or only one or two. A lender may pull from Experian only. Your Experian FICO Score 8 may be 715 while your TransUnion FICO Score 8 is 695 - both are valid scores from the same model applied to slightly different data.\n\nHow to see which score a lender uses: Ask the lender directly during the prequalification process: 'Which credit bureau and which score model do you use?' This is a legitimate question and lenders should be able to answer it. Some lenders pull all three bureaus and use the middle score.",
+    relatedSlugs: ["personal-loan-score-needed-for-low-rate", "personal-loan-with-500-credit-score"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-electronic-signature",
+    question: "Can I sign personal loan documents electronically?",
+    topic: "Process & terms",
+    shortAnswer:
+      "Yes. The E-SIGN Act (2000) makes electronic signatures legally binding for consumer financial agreements, including personal loan documents. Virtually all online personal loan lenders use e-signatures. You sign through a secure portal (DocuSign, HelloSign, or the lender's own platform). You must consent to electronic delivery first.",
+    context:
+      "Federal law basis: The Electronic Signatures in Global and National Commerce Act (E-SIGN Act, 15 U.S.C. 7001) grants electronic signatures the same legal weight as handwritten signatures for most financial contracts. The Uniform Electronic Transactions Act (UETA), adopted by nearly all states, provides parallel state-law protection. Exceptions: some documents still require wet (physical) signatures - most notably wills and certain real estate deeds. Personal loan agreements are not among the exceptions.\n\nHow e-signature works for personal loans: You complete your application online. At approval, the lender sends you to a secure document portal. You review the loan agreement, promissory note, and Truth in Lending disclosure. You click 'I Agree' or draw/type your signature in the provided field. The signature is timestamped and recorded. You receive copies by email. You have an obligation to retain these documents.\n\nE-consent requirement: Before sending documents electronically, lenders must obtain your affirmative consent to receive disclosures electronically (the 'E-consent' or 'electronic delivery consent'). You must be able to access the documents (have appropriate software). You have the right to request paper copies at no cost. If you withdraw consent, the lender must provide paper.\n\nSecurity: Major lenders use bank-level encryption and audit trails for e-signatures. The signature process records your IP address, timestamp, document hash, and device ID - making the process more tamper-evident than a physical signature on a mailed document.",
+    relatedSlugs: ["personal-loan-how-to-close-account-after-payoff", "personal-loan-payoff-letter-for-records"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-for-funeral-expenses",
+    question: "Can I get a personal loan to pay for funeral expenses?",
+    topic: "Special situations",
+    shortAnswer:
+      "Yes. Funeral and burial costs average $7,000-$12,000 nationally. A personal loan is one of the faster options for families facing these expenses, typically funding within 1-3 business days. Some lenders specifically market funeral or final expense loans. Hardship payment plans from funeral homes are also common.",
+    context:
+      "Average funeral costs (2024): Traditional burial: $7,000-$12,000 (funeral home services, casket, cemetery plot, headstone). Cremation with service: $2,000-$5,000. Direct cremation (no service): $700-$1,800. Graveside service only: $3,000-$5,000. These are averages - costs vary significantly by region and provider.\n\nPersonal loan advantages: Fast: online lenders fund in 1-3 business days, which fits the urgency of funeral planning. Flexible: use funds for funeral home, cemetery, flowers, catering, travel for family. No collateral: unsecured loan requires no asset pledging during a difficult time.\n\nAlternatives to personal loans for funeral costs: Funeral home payment plans: most funeral homes offer payment plans directly. Typically no interest for 90-180 days. Useful for bridging until estate assets are distributed. Life insurance: if the deceased had a life insurance policy, benefits can be assigned directly to the funeral home. The insurer pays the funeral home directly after verification. Funeral funds from estate: if there are estate assets (bank accounts, investments), these can be used immediately in most states through Probate Court or small estate procedures, though access can take weeks. Social Security death benefit: a one-time $255 lump-sum payment to surviving spouses or eligible children. Does not cover much of the cost. Medicaid and state burial assistance: for low-income families, some states provide burial assistance up to $1,000-$2,000. Veterans benefits: VA provides free burial in a national cemetery and a $300-$800 burial allowance for eligible veterans.",
+    relatedSlugs: ["personal-loan-for-medical-bills", "personal-loan-for-adoption-expenses"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-for-pool-installation",
+    question: "Should I use a personal loan or home equity loan for a swimming pool?",
+    topic: "Special situations",
+    shortAnswer:
+      "In-ground pools cost $35,000-$65,000 on average. For this amount, a home equity loan or HELOC (if you have equity) typically offers lower rates (7%-10% APR) than an unsecured personal loan (9%-18% APR), saving $5,000-$10,000 in interest over the life of the loan. Personal loans make more sense for above-ground pools ($3,000-$10,000) or when you lack home equity.",
+    context:
+      "Pool cost ranges: Above-ground pool (installed): $1,500-$8,000. Semi-inground pool: $10,000-$30,000. In-ground vinyl liner: $25,000-$50,000. In-ground fiberglass: $30,000-$60,000. In-ground concrete/gunite: $45,000-$100,000+. Add 20%-30% for decking, fencing, landscaping, and heaters.\n\nFinancing comparison: Personal loan ($30,000 at 12% APR, 60 months): $667/month, $10,000 total interest. Home equity loan ($30,000 at 8% APR, 60 months): $608/month, $6,500 total interest. HELOC (variable, 60 months): varies; rate risk but potentially lowest cost. Difference: approximately $3,500 in interest savings with the home equity option on a $30,000 pool.\n\nPool-specific financing: Some pool contractors partner with lenders offering pool-specific financing (HFS Financial, LightStream's pool category). LightStream offers pool loans specifically at rates starting around 7.99% APR with no origination fee, which is competitive with home equity products for qualified borrowers.\n\nDoes a pool increase home value? Opinions vary by region. In Florida, Arizona, and California, pools are a standard amenity and may add $20,000-$40,000 in value. In the Midwest and Northeast, pools add less value and can reduce buyer interest due to maintenance concerns. The average pool recoups about 56%-87% of cost at resale. If selling within 3 years, do the math carefully before investing $50,000+ in a pool that may not recoup the cost.",
+    relatedSlugs: ["personal-loan-for-home-improvement", "personal-loan-for-deck-building"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-denied-reasons",
+    question: "What are the most common reasons a personal loan is denied?",
+    topic: "Approval & amount",
+    shortAnswer:
+      "The top reasons for personal loan denial: too-low credit score (below lender minimum), debt-to-income ratio too high, insufficient income, too-short credit history, recent bankruptcy or delinquency, too many recent credit inquiries, or the requested loan amount exceeds what your profile supports. The lender must provide an 'adverse action notice' explaining the specific reasons.",
+    context:
+      "Most common denial reasons, ranked by frequency: (1) Credit score below minimum: each lender sets a minimum score. LightStream requires 660+, SoFi 680+, Avant 550+. Below the minimum = automatic denial in most automated systems. (2) Debt-to-income ratio too high: total monthly obligations (including the new loan) exceed 40%-45% of gross monthly income. (3) Insufficient income: income too low to support the requested payment amount. (4) Insufficient credit history: too few accounts or too short a history (thin file). Common for young borrowers or recent immigrants. (5) Recent major derogatory event: bankruptcy in the past 24-48 months, recent charge-off, or 90+ day delinquency. (6) Employment instability: self-employed with less than 2 years of documented income, or very recent job change. (7) Too many recent hard inquiries: applying for multiple forms of credit in a short period signals desperation to some lenders. (8) Loan amount too large: requesting $40,000 when your income/credit would support $20,000.\n\nAdverse action notice: By law (ECOA + FCRA), the lender must send you an adverse action notice within 30 days of denial explaining the specific reasons. Read this carefully - it tells you exactly what to address before reapplying. You also receive a free credit report pull right.\n\nNext steps after denial: Address the specific reasons given. If credit score: target improvements (reduce utilization, dispute errors). If DTI: pay down existing debt. If income: wait and document consistent income, or add a co-borrower. Apply to lenders with lower minimums (check pre-qualification before applying to protect your score).",
+    relatedSlugs: ["personal-loan-how-much-income-needed", "personal-loan-debt-to-income-calculation"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-what-is-forbearance",
+    question: "What is loan forbearance for a personal loan?",
+    topic: "Process & terms",
+    shortAnswer:
+      "Forbearance is a temporary pause or reduction in loan payments granted by the lender during a period of financial hardship. Unlike deferment (which postpones payments), forbearance may allow reduced payments rather than zero payments. Interest typically continues accruing during forbearance. Not all personal loan lenders offer formal forbearance programs.",
+    context:
+      "Forbearance vs deferment for personal loans: In practice, the terms are often used interchangeably by personal loan lenders. Technically: Deferment: specific payments are postponed to a later date (the loan term extends). You owe nothing during the deferral period but interest may still accrue. Forbearance: payments are reduced or paused; the paused amount plus accrued interest may be added to the loan balance (capitalization) or extended at the end of the term. Both have the same end effect: you get temporary payment relief, but the total cost of the loan increases because interest keeps running.\n\nHow to request forbearance: Call your lender (not text, not online chat) before missing a payment. Explain the hardship: job loss, medical emergency, divorce, natural disaster. Ask specifically: 'Do you have a forbearance or hardship program for personal loans?' Lenders are not required to offer forbearance but many do as an alternative to a default and charge-off.\n\nInterest during forbearance: Interest typically continues accruing daily on the outstanding principal during a forbearance period. After forbearance ends, either: (a) the accrued interest is added to your balance (capitalized), increasing your future payments, or (b) you make one larger payment to catch up the accrued interest. Confirm in writing exactly how accrued interest will be handled before agreeing to a forbearance plan.\n\nCredit report impact: A properly arranged forbearance (with lender agreement before missing payments) is typically not reported as a delinquency. The account may show 'in forbearance' as a payment status. The COVID-19 CARES Act established formal forbearance protections; for ongoing hardships, individual lender policies govern.",
+    relatedSlugs: ["personal-loan-hardship-program", "personal-loan-deferment-credit-score-effect"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-income-types-accepted",
+    question: "What types of income count for a personal loan application?",
+    topic: "Approval & amount",
+    shortAnswer:
+      "Most lenders accept: employment income (W-2 or 1099), self-employment income, Social Security and disability benefits, pension and retirement income, rental income, alimony and child support (if you choose to disclose), investment income, and part-time or side income. The Equal Credit Opportunity Act prohibits lenders from discounting income based on source.",
+    context:
+      "The Equal Credit Opportunity Act (ECOA) prohibits lenders from discriminating in considering income based on: the source of income (employment vs. benefits vs. investments), whether income is derived from public assistance, part-time employment status, age (for retirees), or receipt of alimony/child support/separate maintenance.\n\nIncome types with documentation requirements: W-2 employment income: pay stubs (most recent 1-2 months), W-2 form. Self-employment income: 2 years of Schedule C tax returns; YTD profit and loss statement. Social Security / SSDI / SSI: award letter or current benefit statement (SSA-1099). Pension and retirement: award letter, 1099-R, or benefit statement. Rental income: Schedule E of tax return; lease agreements for verification. Alimony and child support: court order and 12 months of payment records. You are not legally required to disclose alimony/child support, but if you choose to include it as qualifying income, lenders may require documentation of its consistency. Investment income (dividends, interest, capital gains): 2 years of Schedule B and investment account statements. Part-time income: pay stubs; 2 years of tax returns showing consistency.\n\nWhat lenders do with multiple income sources: All qualifying income sources are added together to determine gross monthly income for DTI calculation. If you have W-2 income of $4,000/month and rental income of $800/month, your qualifying income may be $4,800/month. Lenders vary in how conservatively they treat variable income - some use a 24-month average for rental, freelance, or investment income.",
+    relatedSlugs: ["personal-loan-how-much-income-needed", "personal-loan-for-self-employed"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-tax-implications",
+    question: "Are there any tax implications of taking out a personal loan?",
+    topic: "Special situations",
+    shortAnswer:
+      "Borrowing money is not taxable income. Repaying a loan principal is not tax-deductible. Personal loan interest is generally not tax-deductible for personal use. Exceptions: interest on a personal loan used for a business purpose (self-employed), or in rare cases for qualifying investments, may be deductible. Consult a tax professional for your specific situation.",
+    context:
+      "Why borrowing is not taxable: The IRS does not consider loan proceeds to be income because they come with a repayment obligation. You received $10,000 but you owe $10,000 back - your net wealth did not increase. Loan cancellation of debt, however, CAN be taxable: if a lender forgives or cancels part of your loan balance, the canceled amount may be treated as taxable income to you (reported on Form 1099-C). Exceptions include bankruptcy discharge and insolvency.\n\nInterest deductibility: Personal use interest (vacation, medical bills, living expenses, debt consolidation): NOT deductible. Student loan interest: deductible up to $2,500/year under specific income limits (but only for qualified student loan debt, not a personal loan used for education). Business interest: if you are self-employed and use a personal loan for business purposes, the interest paid on the portion used for business is deductible as a business expense on Schedule C. Keep meticulous records separating business vs personal use. Investment interest: interest on a personal loan used to purchase taxable investments may qualify as investment interest expense, deductible up to the amount of your net investment income. Complex rules apply - consult a tax professional.\n\nDebt consolidation: A personal loan used to consolidate other debts (credit cards, medical bills) does not change the tax treatment. Interest on the consolidated personal loan is not deductible for personal debts.",
+    relatedSlugs: ["personal-loan-interest-tax-deductible", "personal-loan-for-business-expenses"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-origination-fee-negotiable",
+    question: "Can I negotiate the origination fee on a personal loan?",
+    topic: "Process & terms",
+    shortAnswer:
+      "Rarely. Most personal loan lenders use algorithmic pricing where origination fees are fixed by credit tier. However, some tactics can help: applying through employer partnership programs, checking for promotional codes, using a credit union (which often has no origination fees), or applying for a slightly higher amount (to net the target amount after fee deduction) at a lender with no fee.",
+    context:
+      "Why origination fees are usually non-negotiable: Online personal loan lenders (Upgrade, Avant, LendingClub, Upstart) use automated underwriting that assigns fees by credit risk tier. There is no loan officer with discretion to waive the fee. The fee is baked into the APR disclosure, so legally it must be disclosed and consistently applied.\n\nLenders with no origination fees: LightStream: $0 origination fee, no prepayment penalty, no late fees. SoFi: $0 origination fee (though they may charge an origination fee for some loan types). Marcus by Goldman Sachs: $0 origination fee. Discover Personal Loans: $0 origination fee. These lenders compensate by offering rates limited to strong credit profiles.\n\nWhere negotiation sometimes occurs: Community banks and credit unions: in-person lenders with human underwriters may have some flexibility, especially for existing members or customers with large deposits. Competing offers: if you have a competing pre-approval with a lower fee, some lenders will match or beat it. LightStream specifically offers a rate-beat guarantee for qualified borrowers with competing offers.\n\nUsing employer or association discounts: Some lenders offer reduced origination fees through employer benefit programs. Check if your employer participates in a lender's benefit network (LightStream, Sofi, and others have employer partnerships). Some credit unions offer preferential pricing for members of specific associations, unions, or organizations.",
+    relatedSlugs: ["personal-loan-can-you-negotiate-rate", "personal-loan-what-is-origination-fee"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-for-rv",
+    question: "Should I use a personal loan or RV loan to buy a recreational vehicle?",
+    topic: "Special situations",
+    shortAnswer:
+      "RV loans (secured, with the RV as collateral) typically offer lower rates (7%-12% APR) than personal loans (9%-25% APR) for the same amount. RV loans also extend to 12-20 years, lowering monthly payments on expensive RVs. A personal loan makes sense for smaller RVs ($10,000-$25,000) or when avoiding a lien on the vehicle is a priority.",
+    context:
+      "RV cost ranges: Class A motorhome (new): $80,000-$500,000. Class B (van conversion): $80,000-$150,000. Class C: $50,000-$150,000. Travel trailers: $15,000-$75,000. Fifth wheels: $30,000-$100,000. Pop-up campers: $5,000-$25,000. The RV and the financing need to be matched to each other.\n\nRV loan advantages: Lower rates: RV loans secured by the vehicle typically run 7%-12% APR vs 12%-25% for an unsecured personal loan for borrowers in the 660-720 score range. Longer terms: RV loans can extend to 12-20 years for expensive RVs, reducing monthly payments significantly. A $100,000 RV at 9% over 20 years = $900/month vs over 10 years = $1,267/month. Where to get RV loans: Essex Credit, Southeast Financial, RV-specific credit unions (Good Sam Finance, RV Lending Group). Many banks and credit unions also offer RV loans.\n\nPersonal loan advantages for RVs: No lien: you own the vehicle outright from purchase. Easier resale. No comprehensive/collision insurance requirement (RV lenders typically require full coverage). Better for private party purchases: RV lenders may not finance older or private-party RVs; personal loans have no such restriction. Speed: personal loan funds in 1-5 days; RV loans may take 7-14 days.\n\nBottom line: For an RV costing over $25,000, compare RV loan rates directly against personal loan rates (use pre-qualification). For lower-cost used RVs, personal loans are often simpler.",
+    relatedSlugs: ["personal-loan-for-car-repairs", "personal-loan-for-atv-powersports"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-how-many-can-you-have",
+    question: "How many personal loans can I have at once?",
+    topic: "Approval & amount",
+    shortAnswer:
+      "There is no legal limit on the number of personal loans you can have simultaneously. Most lenders, however, have their own policies: some decline applicants who already have a personal loan with them; others decline if you have 2 or more personal loans total, regardless of lender. Your debt-to-income ratio is the binding constraint in practice.",
+    context:
+      "Practical constraints: Each new personal loan application requires a hard credit pull and must pass underwriting. The primary limiting factor is your debt-to-income ratio - each additional loan adds a monthly payment to your total obligations, reducing how much room you have for another. A borrower with $5,000/month income, 2 existing personal loans totaling $700/month in payments, and other debts already at 35% DTI may have very little room for a third loan before hitting the 40%-45% DTI ceiling.\n\nLender policies: Most major lenders will approve a second or third personal loan from a different lender if your credit and DTI qualify. LightStream: will approve applicants regardless of existing personal loan count, based on DTI. Upgrade: may limit applicants to one active Upgrade personal loan at a time, but does not restrict loans from other lenders. LendingClub: similar to Upgrade - restrictions on multiple active LendingClub loans.\n\nCredit score impact of multiple loans: Having 2-3 active personal loans in good standing can actually help your credit score through positive payment history and credit mix. However, opening multiple loans in a short period triggers multiple hard inquiries and new accounts, temporarily reducing your score.\n\nWhen multiple personal loans make sense: Consolidating debt at different times (the first loan for credit cards, a second later for medical bills). Different loan purposes with different terms. Covering an unexpected expense while an existing loan is being paid down. When multiple loans do NOT make sense: Borrowing to cover payments on existing loans (a sign of over-leverage). When DTI already exceeds 40% with existing obligations.",
+    relatedSlugs: ["personal-loan-debt-to-income-calculation", "personal-loan-how-much-income-needed"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-what-is-apr-vs-interest-rate",
+    question: "What is the difference between APR and interest rate on a personal loan?",
+    topic: "Process & terms",
+    shortAnswer:
+      "The interest rate is the basic cost of borrowing expressed as a percentage of principal per year. APR (Annual Percentage Rate) includes the interest rate plus fees (such as origination fees), expressed as a single annualized cost. APR is always equal to or higher than the interest rate. For loans with no origination fee, APR equals the interest rate.",
+    context:
+      "Simple vs full cost: Interest rate: the pure cost of the borrowed money, expressed as a percentage per year. If you borrow $10,000 at 12% interest, you accrue $1,200 in interest in year 1 (before any principal payments). APR: required by the Truth in Lending Act to include the interest rate plus any fees that are part of the credit transaction. For a personal loan with a 3% origination fee, the APR is higher than the stated interest rate because the fee increases your cost without increasing the amount you receive.\n\nExample with origination fee: Loan amount: $10,000. Interest rate: 12%. Origination fee: 3% ($300). Net proceeds: $9,700. APR: approximately 13.7% (because you paid $300 for effectively borrowing $9,700, and the fee affects the cost of the entire loan term). This is why comparing APRs (not interest rates) across lenders is essential. A lender advertising '10% APR, no origination fee' may be cheaper than one advertising '9% interest rate with 4% origination fee.'\n\nWhen they are equal: If the lender charges no origination fee and no other upfront fees included in the finance charge calculation, then APR = interest rate. This is common at LightStream, Marcus, SoFi, and Discover - which is why they advertise APR prominently.\n\nAPR does not include: Optional products (credit insurance, gap coverage). Late fees (these are not predictable at origination). Returned payment fees. These costs affect the true cost of your loan but are excluded from the APR calculation by regulation.",
+    relatedSlugs: ["personal-loan-simple-interest-explained", "personal-loan-what-is-origination-fee"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-for-investment",
+    question: "Should I take a personal loan to invest in stocks or crypto?",
+    topic: "Special situations",
+    shortAnswer:
+      "Almost never. Borrowing to invest (leverage) amplifies both gains and losses. A personal loan at 10%-20% APR requires your investment to return at least 10%-20% annually just to break even. Stock markets return an average of 7%-10% annually over the long term - below most personal loan rates. Crypto is highly volatile with no guaranteed return. Borrowing to invest in speculative assets is widely considered financially dangerous.",
+    context:
+      "The math problem: Personal loan at 12% APR. To break even (not lose money), your investment must return at least 12% annually. After-tax investment returns must exceed 12%, meaning pre-tax returns need to be even higher. The U.S. stock market (S&P 500) averages 7%-10% annually over long periods - below the 12% borrowing cost. In any given year, the market may return -20% to +30%. A -20% market year plus 12% interest cost = -32% net loss on your invested capital.\n\nThe crypto risk: Cryptocurrency has no earnings, dividends, or intrinsic value floor. It can lose 50%-80% of value in a single year (as it did in 2022). Borrowing $10,000 at 15% APR to buy Bitcoin, which then falls 60%, leaves you with $4,000 of crypto and $10,000 + interest in debt. This is a catastrophic outcome.\n\nWhen leverage works (and why it still does not apply here): Professional investors use leverage selectively and manage risk actively. They have access to much cheaper borrowing (margin rates of 6%-9% vs personal loan rates of 10%-25%). They can write off interest as a business expense. Their investment time horizons are managed actively. A retail investor with a personal loan at 15% APR borrowing to buy stocks has: higher borrowing cost, no tax deductibility, and fixed monthly payments regardless of market performance.\n\nIf you have investable cash: If you are considering borrowing to invest, reconsider whether existing savings could be deployed instead. The comparison should be: 'I have $10,000 in savings; should I invest it or pay down my 12% personal loan?' Not 'should I borrow $10,000 at 12% to invest?'",
+    relatedSlugs: ["personal-loan-impact-on-401k-contributions", "personal-loan-interest-tax-deductible"],
+    toolLinks: [],
+  },
 ];
 
 export const questionsBySlug = Object.fromEntries(

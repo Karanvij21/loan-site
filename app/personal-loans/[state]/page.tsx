@@ -34,8 +34,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { state } = await params;
   const s = stateBySlug[state];
   if (!s) return {};
-  const title = `Personal Loans in ${s.name} (${s.abbr})`;
-  const description = `Compare personal loan offers from $100 to $50,000 for ${s.name} residents. Soft credit check, no obligation. APR ranges and state-specific rules summarised.`;
+  // Title and description tuned for CTR: front-load the dollar range, APR
+  // band, soft-pull language, and the year (Google often pulls 2026 into
+  // the SERP title when freshness matters). State APR cap is surfaced when
+  // it materially differs from the marketplace ceiling.
+  const aprCeiling = s.aprCap ?? 35.99;
+  const title = `Personal Loans in ${s.name} 2026: $100-$50,000, 5.99-${aprCeiling}% APR`;
+  const description = `Compare ${s.name} personal loan offers in 2 minutes. $100 to $50,000, soft credit check (no impact to your score), funds as fast as the next business day. Free, no obligation. ${s.aprCap ? `${s.name} caps APR at ${s.aprCap}%.` : "Bad credit considered."}`.slice(0, 160);
   return {
     title,
     description,

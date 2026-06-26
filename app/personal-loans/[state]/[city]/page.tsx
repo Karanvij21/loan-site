@@ -33,8 +33,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const s = stateBySlug[state];
   const c = findCity(state, city);
   if (!s || !c) return {};
-  const title = `Personal Loans in ${c.name}, ${s.abbr}`;
-  const description = `Compare personal loan offers from $100 to $50,000 for ${c.name}, ${s.name} residents. Soft credit check, no obligation, funding as fast as the next business day.`;
+  // Same CTR-tuned pattern as the state page: dollar range, APR band, year,
+  // soft-pull, time-to-funds, free-no-obligation. City name + state abbr
+  // keeps the title click-friendly in mobile SERP truncation.
+  const aprCeiling = s.aprCap ?? 35.99;
+  const title = `Personal Loans in ${c.name}, ${s.abbr} 2026: $100-$50,000, up to ${aprCeiling}% APR`;
+  const description = `Compare ${c.name} personal loan offers in 2 minutes. $100 to $50,000, soft credit check (no impact), funds next business day. Bad credit considered. Free, no obligation.`.slice(0, 160);
   return {
     title,
     description,

@@ -34,8 +34,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { amount } = await params;
   const a = amountBySlug[amount];
   if (!a) return {};
-  const title = `${formatCurrency(a.amount)} Personal Loan: APR, Monthly Payment, Terms`;
-  const description = `Compare ${formatCurrency(a.amount)} personal loan offers. APRs typically ${a.aprMin}% to ${a.aprMax}%, terms ${a.termMin} to ${a.termMax} months. Example monthly payment included.`;
+  // CTR-tuned: includes the year, the exemplar monthly payment in the
+  // description, and soft-pull / no-obligation language to match what
+  // competing SERP entries promise.
+  const exampleMonthly = Math.round(monthlyPayment(a.amount, a.exampleApr, a.exampleTermMonths));
+  const title = `${formatCurrency(a.amount)} Personal Loan 2026: APR, Monthly Payment & Terms`;
+  const description = `Compare ${formatCurrency(a.amount)} personal loan offers. APRs ${a.aprMin}-${a.aprMax}%, terms ${a.termMin}-${a.termMax} months. Example: ${formatCurrency(exampleMonthly)}/mo at ${a.exampleApr}% over ${a.exampleTermMonths} months. Soft check.`.slice(0, 160);
   return {
     title,
     description,

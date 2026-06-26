@@ -384,6 +384,35 @@ export const creditBands: Record<string, UseCase> = {
       { q: "Should I apply now at 700 or wait and try to reach 740?", a: "It depends on the urgency of the need and the loan size. On a $5,000 loan, the interest difference between 700 and 740 is relatively small. On a $30,000 loan over 60 months, 5 percentage points of APR means about $4,000 in total interest. If you can realistically reach 740 in 3-6 months (by reducing utilization and avoiding new inquiries), waiting on large loan amounts often pays." },
     ],
   },
+  "710-credit-score": {
+    slug: "710-credit-score",
+    h1: "Personal loans with a 710 credit score",
+    title: "Personal Loans With a 710 Credit Score 2026: Rates, Amounts & Best Lenders",
+    description:
+      "A 710 FICO is solidly in the good credit tier. See typical APR ranges, maximum loan amounts, and which lenders offer the best rates at this score.",
+    eyebrow: "By score",
+    intro:
+      "A 710 FICO places you in the middle of the 'good' credit band (670-739). The full personal-loan market is open to you: every major online lender, most banks, and all credit unions accept applications at this score. APRs for well-qualified 710-score borrowers typically run 11%-19%, with the lower end available to those with high income relative to their debt and stable employment history.",
+    amountMin: 1000,
+    amountMax: 50000,
+    termMin: 12,
+    termMax: 72,
+    aprMin: 9.99,
+    aprMax: 21.99,
+    bullets: [
+      "710 qualifies at all major online lenders and most banks",
+      "Loan amounts from $1,000 to $50,000",
+      "APRs typically 9.99% to 21.99%",
+      "Shopping 3-5 lenders via soft pull can save $1,000-$3,000 in interest",
+      "Pre-qualify with no score impact before formally applying",
+    ],
+    faqs: [
+      { q: "Is 710 a good credit score for a personal loan?", a: "Yes, 710 is a good score that opens the majority of the personal loan market. You will receive competitive offers, though not the absolute lowest advertised rates which typically require 740+. At 710 with strong income and low DTI, realistic APRs start around 10%. Compare multiple offers to find the best available for your specific profile." },
+      { q: "What APR should I expect with a 710 credit score?", a: "The realistic range for most 710-score borrowers is 11%-18% APR. Borrowers with low DTI (under 30%) and stable income may see 9%-13%. Those with higher DTI or shorter credit history are more likely to see 16%-22%. Use soft-pull pre-qualification at 3-5 lenders to see your actual offers before committing to a hard inquiry." },
+      { q: "How can I improve from 710 to 740 and get a lower rate?", a: "The fastest lever is credit utilization. If you have credit cards with balances, paying them down to below 15% of each card's limit can add 15-30 FICO points in one billing cycle. Also avoid applying for any new credit for 90 days before your personal loan application - each hard inquiry temporarily reduces your score. If your score reaches 740+, you could save 2-5 percentage points of APR on a large loan." },
+      { q: "Should I apply now at 710 or wait to reach 740?", a: "If the need is not urgent and you can realistically reach 740 in 2-3 months by reducing credit card utilization, waiting on large loans (over $15,000) saves meaningful interest. On a $20,000 loan over 48 months, the difference between 13% and 9% APR is about $1,750 in total interest. On smaller loans or time-sensitive needs, applying now at 710 is likely the right call." },
+    ],
+  },
   "720-credit-score": {
     slug: "720-credit-score",
     h1: "Personal loans with a 720 credit score",
@@ -411,6 +440,35 @@ export const creditBands: Record<string, UseCase> = {
       { q: "What APR will I actually get with a 720 credit score?", a: "The realistic range is 9-16% for a well-qualified borrower at 720. If your DTI is below 30% and you have stable income, offers toward the lower end are realistic. If you have high existing debt or a shorter credit history, expect the higher end. Use soft-pull pre-qualification at 3-5 lenders to see your actual offers without impacting your score." },
       { q: "How do I get from 720 to 740 to unlock better rates?", a: "The primary lever is credit-card utilization. Dropping balances so your total utilization is below 15-20% can add 15-25 points for some borrowers. Keeping all accounts current and avoiding new credit applications for 60-90 days also helps. A single billing cycle with dramatically lower utilization can move the needle to 740." },
       { q: "Should I shop multiple lenders at 720?", a: "Absolutely. At 720, multiple lenders want your business. The spread between the best and worst offer for the same borrower profile at this score tier can be 5-6 percentage points of APR. Pre-qualifying (soft pull) at 3-5 lenders takes about 15 minutes and can save thousands in interest over the loan's life." },
+    ],
+  },
+  "730-credit-score": {
+    slug: "730-credit-score",
+    h1: "Personal loans with a 730 credit score",
+    title: "Personal Loans With a 730 Credit Score 2026: Near-Prime Rates, Up to $50,000",
+    description:
+      "730 FICO sits just 10 points below the prime threshold. See which lenders offer the best rates at 730, expected APRs, and whether waiting to reach 740 is worth it.",
+    eyebrow: "By score",
+    intro:
+      "A 730 FICO is 10 points below the 740 threshold where many lenders formally classify borrowers as 'prime' and unlock their best rate tiers. In practice, many lenders use broad brackets rather than precise cutoffs, so 730 and 740 borrowers often receive similar rate offers. At 730, you have access to all major online lenders and banks, with APRs typically ranging from 9%-17% depending on income, DTI, and loan amount.",
+    amountMin: 2000,
+    amountMax: 50000,
+    termMin: 12,
+    termMax: 84,
+    aprMin: 8.99,
+    aprMax: 18.99,
+    bullets: [
+      "730 qualifies at every major lender in the market",
+      "Only 10 points from the 740 prime tier threshold",
+      "Loan amounts from $2,000 to $50,000",
+      "APRs typically 8.99%-18.99%",
+      "Pre-qualify at multiple lenders with no score impact",
+    ],
+    faqs: [
+      { q: "Is 730 close enough to 740 that I should just apply now?", a: "Often yes. Many lenders group borrowers into broad credit bands (700-749, for example) rather than scoring at the individual point level. A 730-score borrower and a 740-score borrower may receive identical pre-qualified rate offers at a lender that uses 700-749 as a single tier. Check 2-3 lenders via soft-pull pre-qualification at 730 to see what offers you receive. If the rates look competitive, apply now rather than waiting." },
+      { q: "What APR should I expect with a 730 credit score?", a: "At 730 with solid income and low DTI, realistic offers range from 9% to 15% APR at competitive lenders. Borrowers with higher DTI or shorter credit history may see 15%-19%. The spread between your best and worst offer from different lenders can be 4-6 percentage points, so comparing multiple lenders is particularly valuable at this score tier." },
+      { q: "What is the quickest way to reach 740 from 730?", a: "Credit utilization is the fastest lever. If you have any credit card balances, pay them down until your total utilization is below 10%. This single action can add 10-20 FICO points in one billing cycle for many borrowers. Also, if you have a credit card with a low limit, request a credit limit increase (ask the issuer if they use a soft pull for this) to reduce utilization without paying the balance." },
+      { q: "How much does the rate difference matter between 730 and 740?", a: "It depends on the lender and loan size. For lenders using wide scoring brackets, there may be no difference at all. For lenders with more precise tier cutoffs, crossing 740 may reduce APR by 1-3 percentage points. On a $15,000 loan over 36 months, a 2-point APR reduction saves about $500 in total interest. If you can reach 740 in 30-60 days without delaying your need, it may be worth waiting. If not, apply now." },
     ],
   },
   "740-credit-score": {

@@ -664,6 +664,62 @@ export const useCases: Record<string, UseCase> = {
       { q: "Are there faster alternatives to an emergency personal loan?", a: "Faster options include: a credit card (instant, if you have available credit), a 401(k) loan from your employer plan (1-3 business days, no credit check), borrowing from family or friends, or a payroll advance from your employer. These are worth exploring first. If the expense exceeds your credit card limit or 401(k) loan eligibility, or if you need a fixed repayment schedule, a personal loan is the right tool." },
     ],
   },
+  "home-security": {
+    slug: "home-security",
+    h1: "Personal loans for home security systems",
+    title: "Home Security Loans 2026: Finance ADT, Ring, Vivint & Professional Installation",
+    description:
+      "Use a personal loan to finance a home security system, cameras, smart locks, and professional installation. No home equity required. Compare APR ranges and funding timelines.",
+    eyebrow: "Use case",
+    intro:
+      "A home security loan is a personal loan used to purchase and install a security system: cameras, smart locks, alarm panels, motion sensors, and professional monitoring setup. Amounts from $500 for DIY systems to $10,000 for professional whole-home security with smart home integration. No home equity or collateral required.",
+    amountMin: 500,
+    amountMax: 15000,
+    termMin: 12,
+    termMax: 60,
+    aprMin: 7.99,
+    aprMax: 29.99,
+    bullets: [
+      "Finance professional installation and equipment together",
+      "No home equity required - works for renters where landlord allows",
+      "Loan amounts from $500 to $15,000",
+      "Fixed APR 7.99%-29.99% based on credit score",
+      "Funds in 1-3 business days, ready before installation date",
+    ],
+    faqs: [
+      { q: "How much does a professionally installed home security system cost?", a: "DIY systems (Ring, Wyze, Arlo): $200-$1,000 in equipment plus optional $10-$20/month monitoring. Professional systems (ADT, Vivint, Brinks): $0-$2,000 in equipment (varies by contract) plus $30-$60/month monitoring. Full smart-home security integration with cameras, locks, sensors, video doorbell, and panel: $2,000-$8,000 installed. Professional installation of custom systems with whole-home coverage: $5,000-$15,000." },
+      { q: "Can renters use a personal loan for a home security system?", a: "Yes, if the landlord permits equipment installation. Renters can install most wireless camera systems (Ring, Arlo, Wyze) without landlord approval since they do not require drilling. For alarm systems that require panel installation and door or window contacts, get written landlord permission first. Renters benefit from portable wireless systems they can take to their next home." },
+      { q: "Is it better to use a personal loan or the security company's financing?", a: "Security company financing (Vivint, ADT) often comes with multi-year monitoring contracts (2-3 years) that lock you in. Monthly equipment payments plus monitoring fees can total $80-$120/month over 3 years. Compare total 3-year cost: loan plus chosen monitoring versus the company's all-in package. For most households, a personal loan at 10%-15% APR plus an independent monitoring service is cheaper than a bundled security company contract." },
+    ],
+  },
+  "cosmetic-surgery": {
+    slug: "cosmetic-surgery",
+    h1: "Personal loans for cosmetic surgery and plastic surgery",
+    title: "Cosmetic Surgery Loans 2026: Finance Rhinoplasty, Liposuction, Implants and More",
+    description:
+      "Finance cosmetic or elective plastic surgery with an unsecured personal loan. Compare APRs 7.99%-35.99%, typical procedure costs, and how personal loans compare to medical credit cards.",
+    eyebrow: "Use case",
+    intro:
+      "Cosmetic surgery is almost never covered by health insurance, making personal loans one of the most common financing options. Procedures range from $3,000 for minor work to $25,000+ for multiple procedures. A personal loan deposits funds directly to your account so you can pay the surgeon directly - often at a lower total cost than CareCredit or in-office financing.",
+    amountMin: 2000,
+    amountMax: 35000,
+    termMin: 12,
+    termMax: 72,
+    aprMin: 7.99,
+    aprMax: 35.99,
+    bullets: [
+      "Funds deposited to your bank - pay the surgeon directly at their rates",
+      "No collateral required",
+      "Loan amounts from $2,000 to $35,000",
+      "Fixed APR avoids the deferred interest trap of medical credit cards",
+      "Soft credit check pre-qualification available before you commit",
+    ],
+    faqs: [
+      { q: "What cosmetic procedures can I finance with a personal loan?", a: "All elective cosmetic procedures including rhinoplasty, breast augmentation, liposuction, tummy tuck (abdominoplasty), facelift, eyelid surgery, hair transplant, dental veneers, Invisalign, laser eye surgery (LASIK), dermal fillers, and body contouring. The loan proceeds deposit to your bank account and you pay the provider directly. The lender does not restrict how funds are used for elective medical or cosmetic purposes." },
+      { q: "Personal loan vs CareCredit for cosmetic surgery: which is better?", a: "CareCredit uses deferred interest: if you do not pay the full balance by the promotional end date (6-24 months), the full accumulated interest at 26.99% APR is charged retroactively. A personal loan has a fixed rate from day one with no deferred interest trap. For amounts over $5,000 that you cannot pay off within the promotional window, a personal loan is almost always cheaper. For small amounts ($1,000-$3,000) you are certain to pay within 6 months, some medical card providers offer true 0% promotional periods that can win on cost." },
+      { q: "Will I qualify for a personal loan for cosmetic surgery?", a: "Cosmetic surgery is an accepted loan purpose at all major online lenders. Approval depends on your credit score and income, not the medical purpose. Borrowers with 700+ credit scores qualify for $10,000-$25,000 at 9%-15% APR. Fair-credit borrowers (620-699) can typically get $2,000-$15,000 at 16%-28% APR. Apply 2-4 weeks before your scheduled procedure to ensure funds arrive on time for the required deposit." },
+    ],
+  },
 };
 
 export const useCaseSlugs = Object.keys(useCases);

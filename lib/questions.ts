@@ -3121,6 +3121,176 @@ export const questions: Question[] = [
     relatedSlugs: ["personal-loan-denied-what-to-do", "soft-pull-vs-hard-pull"],
     toolLinks: [],
   },
+  {
+    slug: "personal-loan-paid-off-early-credit-dip",
+    question: "Why did my credit score drop after I paid off a personal loan?",
+    topic: "Credit score",
+    shortAnswer:
+      "A small temporary dip (5-15 points) after payoff is normal. The closed installment account reduces your credit mix and may lower average account age. The dip is usually temporary and the score recovers within 3-6 months.",
+    context:
+      "What causes the drop: Your credit score reflects the live status of your credit accounts. An active installment loan contributes positively to credit mix (10% of FICO) and shows you are managing active debt obligations. When the account closes, that contribution stops. Average age of accounts can also decline if the paid-off loan was one of your older accounts.\n\nWhy it is not a problem: The positive payment history you built during repayment stays on your credit report for 10 years after the account closes. The score dip is a mechanical effect of account closure, not an indicator of creditworthiness decline. Future lenders reviewing your full history will still see years of on-time payments.\n\nWhy it usually reverses: Within 3-6 months of payoff, most borrowers see their score recover to pre-payoff levels or slightly higher. The improved DTI (lower monthly debt obligations) signals creditworthiness to scoring models even if it does not show directly in the FICO score.\n\nIf you need high credit score for near-term borrowing: If you are planning to apply for a mortgage or another major loan within 1-2 months, timing the payoff immediately before application can cost you a few points at the worst possible time. If the loan can wait 3-6 months after payoff for score recovery, this is preferable.\n\nFor someone with many open accounts: If you have 8-10 active credit accounts and pay one off, the mix impact is minimal. If the paid-off loan was your only installment account, the mix impact is larger. In that case, the dip may be 15-25 points rather than 5-10 points.",
+    relatedSlugs: ["personal-loan-credit-score-after-payoff", "how-personal-loan-affects-credit-score"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-check-lender-legitimacy",
+    question: "How do I know if a personal loan lender is legitimate?",
+    topic: "Process & terms",
+    shortAnswer:
+      "Verify the lender is registered in your state, has a physical address, is not asking for upfront payment, and appears on your state's financial regulator website. NMLS (Nationwide Multistate Licensing System) lookup is the definitive check.",
+    context:
+      "NMLS Consumer Access: The Nationwide Multistate Licensing System operates a free consumer portal at nmlsconsumeraccess.org. You can search for any lender by name and see their state licenses, license history, and any regulatory actions. Legitimate consumer lenders must be licensed in the states where they operate. If a lender does not appear in NMLS, do not borrow from them.\n\nRed flags of a predatory or fraudulent lender: (1) Upfront fee required before receiving the loan - legitimate lenders never ask for payment before disbursing funds. (2) Guaranteed approval regardless of credit - real lenders underwrite. (3) No physical address or only a P.O. box. (4) High-pressure tactics, limited-time offers. (5) Asking you to send money via wire transfer or gift cards. (6) Website URL that does not match the company name. (7) Contacting you unsolicited by phone or email.\n\nAdvance fee loan scams: The most common personal loan fraud is the advance fee scam. The 'lender' approves you for a large loan, then asks you to pay an upfront insurance fee, processing fee, or government tax to release the funds. The funds never arrive and the upfront fee is gone. Legitimate lenders deduct fees from the loan amount - they never request upfront payment.\n\nHow to verify a known lender: Search the lender name plus 'CFPB complaint' to check their regulatory history. Check the Better Business Bureau (bbb.org) for complaints and ratings. Review Trustpilot, NerdWallet, and LendingTree reviews. Verify the URL is the actual lender's site (not a lookalike phishing page).\n\nReport fraud: If you encounter a scam lender, report to the CFPB (consumerfinance.gov/complaint), FTC (reportfraud.ftc.gov), and your state attorney general.",
+    relatedSlugs: ["personal-loan-denied-what-to-do", "personal-loan-cfpb-complaint"],
+    toolLinks: [
+      { label: "Learn: Personal loan scams guide", href: "/learn/personal-loan-scams-how-to-avoid" },
+    ],
+  },
+  {
+    slug: "personal-loan-bank-account-required",
+    question: "Do I need a bank account to get a personal loan?",
+    topic: "Approval & amount",
+    shortAnswer:
+      "Almost all online personal lenders require a bank account for fund disbursement. A few lenders (OneMain Financial, check-cashing services) offer alternative disbursement, and prepaid debit cards can substitute at some lenders.",
+    context:
+      "Why lenders require bank accounts: Online personal lenders disburse funds via ACH electronic transfer, which requires a bank account number and routing number. Loan repayment also uses ACH direct debit in most cases. Without a bank account, neither disbursement nor automatic payment collection is possible through standard channels.\n\nLenders that may not require traditional bank accounts: OneMain Financial has physical branch locations and has historically offered disbursement by check, allowing customers without bank accounts in some cases. Call and verify current policy. Some credit unions serve the unbanked community with specialized products.\n\nPrepaid debit card as a substitute: Some lenders accept prepaid debit cards (with routing/account numbers) for deposit. Cards like Netspend, Chime, and Green Dot assign a routing number and account number that function like a bank account for direct deposit purposes. Verify with the specific lender that they accept prepaid card deposits before applying.\n\nOpening a bank account as the solution: If you do not have a bank account and need a loan, opening one first is the straightforward solution. Online banks (Chime, Current, Dave) accept customers with no credit history and often have no minimum balance and no monthly fees. Many can be opened within 24 hours and support same-day direct deposit. Getting a Chime account, then applying for a personal loan the next day, is a practical path for the unbanked.\n\nCredit unions: Federal credit unions serve the unbanked and underbanked as part of their community mission. A credit union checking account may be easier to open than a traditional bank account for someone with prior banking problems (ChexSystems history).",
+    relatedSlugs: ["personal-loan-without-bank-account", "personal-loan-approval-odds"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-vs-home-equity-line-of-credit",
+    question: "When should I choose a personal loan over a HELOC?",
+    topic: "Special situations",
+    shortAnswer:
+      "Choose a personal loan when you do not want your home at risk, need funds in 1-3 days, the amount is under $30,000, or you do not have enough home equity. Choose a HELOC when you have significant equity, need a larger amount, and can accept 4-8 weeks for approval.",
+    context:
+      "HELOC advantages: Rates are typically 2-5 points lower than personal loans (6%-10% vs 10%-22%). Credit lines up to $500,000. Interest may be tax-deductible when used for home improvements (consult a tax advisor). Reusable credit line - draw and repay as needed.\n\nPersonal loan advantages: No home equity required (works for renters or recent buyers). Funds in 1-3 business days vs 4-8 weeks for HELOC. No appraisal, no title search, no closing costs ($500-$2,000 for HELOC). Fixed monthly payment vs variable HELOC rate. Your home is not collateral - no risk of losing your home if you cannot repay.\n\nSpecific scenarios where personal loan wins:\n\n1. Renters who do not own a home\n2. Homeowners with less than 15-20% equity\n3. Projects under $20,000 where the HELOC closing costs make the net cost comparable\n4. Time-sensitive needs (emergency, contractor starting next week)\n5. Rising interest rate environments where variable HELOC rates are risky\n6. Borrowers who have already tapped most of their equity\n\nSpecific scenarios where HELOC wins:\n\n1. Large home improvement projects ($50,000+) where the rate difference matters significantly\n2. Ongoing projects where you draw funds over 1-2 years (kitchen, addition, renovation)\n3. Borrowers with 30%+ home equity and stable, long-term employment\n4. When the interest may be tax-deductible\n\nMath example: $20,000 project over 36 months. Personal loan at 13% APR: total interest $4,182. HELOC at 9% variable: total interest approximately $2,850. Difference: $1,332. But HELOC closing costs ($1,000) narrow that gap to $332 net savings. For $20,000, the advantage of HELOC is modest.",
+    relatedSlugs: ["personal-loan-vs-heloc-question", "personal-loan-home-improvement-no-equity"],
+    toolLinks: [
+      { label: "Compare: Personal loan vs HELOC", href: "/compare/personal-loan-vs-heloc" },
+    ],
+  },
+  {
+    slug: "personal-loan-on-social-security-alone",
+    question: "Can I get a personal loan if my only income is Social Security?",
+    topic: "Approval & amount",
+    shortAnswer:
+      "Yes. Social Security income counts as qualifying income for personal loans. You can be approved if your monthly benefit supports the payment-to-income ratio lenders require. Many retirees and disabled adults borrow successfully on Social Security income alone.",
+    context:
+      "How Social Security income qualifies: Social Security retirement and SSDI (Social Security Disability Insurance) benefits are counted as income by personal loan lenders. The ECOA (Equal Credit Opportunity Act) prohibits lenders from discounting income because it is from a public assistance program like Social Security. Your monthly benefit amount counts fully.\n\nDocumentation needed: Current Social Security award letter (SSA benefit verification letter). The SSA provides this at ssa.gov/myaccount or by calling 1-800-772-1213. The award letter shows your current monthly benefit amount, which is what lenders use for income verification.\n\nTypical benefit levels and qualifying loan amounts: A $1,400/month Social Security benefit (approximately the average in 2026) supports approximately $350-$560/month in total debt payments (25%-40% DTI range). A $35,000 personal loan at 13% APR over 84 months has a payment of about $595/month. This may be too high for a $1,400 benefit alone. A $10,000 loan at 15% over 36 months is $347/month - much more manageable.\n\nLenders known to work with Social Security income: Upgrade, Avant, and LendingClub are known to accept Social Security as qualifying income without discounting. Local credit unions that serve senior populations are often excellent options with relationship-based underwriting.\n\nSSI vs SSDI distinction: Some lenders distinguish between SSI (Supplemental Security Income, which is means-tested and can be as low as $943/month in 2026) and SSDI (Social Security Disability Insurance, which is based on work history). Both count as income, but SSI amounts are often very low and may not support a meaningful loan.",
+    relatedSlugs: ["personal-loan-social-security-disability", "personal-loan-as-retiree"],
+    toolLinks: [
+      { label: "Calculator: Monthly payment", href: "/calculators/monthly-payment" },
+    ],
+  },
+  {
+    slug: "personal-loan-interest-rate-negotiable",
+    question: "Can I negotiate a lower interest rate on a personal loan?",
+    topic: "Process & terms",
+    shortAnswer:
+      "With most online lenders, the rate is set by their algorithm and is not negotiable. However, you can effectively 'negotiate' by shopping competing offers and using them as leverage - some lenders will match or beat a competitor's rate to earn your business.",
+    context:
+      "Algorithmic pricing reality: Unlike a car dealer or bank mortgage officer, most online personal loan lenders use automated underwriting. The system assigns a rate based on your credit score, income, DTI, loan amount, and term. A human representative typically cannot override this rate manually even if they wanted to.\n\nThe competing-offer approach: Some lenders (particularly credit unions and relationship banks) will consider matching a competitor's rate. If you have a pre-qualified rate of 10% from LightStream and your credit union is offering 13%, call your credit union and say you have a 10% offer from a competitor. Some will match; most will not, but it costs nothing to try.\n\nLightStream's rate beat program: LightStream formally offers a rate-beat guarantee - they will beat a competitor's approved rate by 0.10 percentage points. This is an example of an effective negotiation point, though you need to have a competing approval in hand.\n\nAutopay discount: Enrolling in autopay almost universally reduces your rate by 0.25%-0.50%. This is effectively a pre-built negotiation you activate by choosing automatic payment.\n\nCredit improvement as the real lever: The most powerful way to get a lower rate is to improve your credit score before applying. A 30-point score improvement can move you into a lower pricing tier worth 2-4 percentage points of APR. This 'negotiation' with yourself - paying down cards to reduce utilization, fixing errors - saves more than any direct lender negotiation.\n\nRefinancing as a future option: If you take a loan now at 15% and improve your credit over 12 months, refinancing at 10% is a more reliable path to a lower rate than trying to negotiate at the original application.",
+    relatedSlugs: ["personal-loan-score-to-refinance", "how-to-lower-personal-loan-apr"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-for-bankruptcy-alternatives",
+    question: "Should I get a personal loan instead of filing for bankruptcy?",
+    topic: "Special situations",
+    shortAnswer:
+      "It depends on the severity of the situation. A personal loan can help if your debt load is manageable and you can realistically repay it. If debts are catastrophically high relative to income, bankruptcy may provide a cleaner resolution. Never take a personal loan specifically to pay debts before filing bankruptcy.",
+    context:
+      "When a personal loan is a better alternative: Your total unsecured debt is less than 18-24 months of your disposable income. The interest rate is significantly lower than the debt you are consolidating. You have stable income sufficient to make the payments. The debt is primarily from a few sources (credit cards, medical bills) rather than systemically unmanageable.\n\nWhen bankruptcy may be the better option: You cannot make minimum payments on existing debts even with a consolidation loan. Your total unsecured debt exceeds 40-50% of your annual income with no path to reduction. You are facing wage garnishment or multiple lawsuits. You have already exhausted refinancing, negotiation, and hardship programs.\n\nCritical warning - do not pre-bankruptcy borrow: Taking out a personal loan to repay friends or family, pay off one creditor preferentially, or purchase luxury items immediately before filing bankruptcy is considered a 'preferential transfer' and can create serious legal problems including fraud allegations. Do not take new debt specifically in anticipation of filing bankruptcy.\n\nFree bankruptcy analysis: Nonprofit credit counselors (NFCC members) provide free bankruptcy counseling and can help you evaluate whether a debt management plan, a personal loan consolidation, or bankruptcy is the right path. This analysis is required by law before filing bankruptcy anyway - use it to make an informed choice.\n\nBankruptcy is not failure: For genuinely unsustainable debt levels, Chapter 7 or Chapter 13 bankruptcy is a legal tool specifically designed to provide a fresh start. The credit impact is real but temporary. Many people rebuild to 700+ credit scores within 3-5 years post-bankruptcy.",
+    relatedSlugs: ["personal-loan-after-bankruptcy-discharge", "personal-loan-after-chapter-13"],
+    toolLinks: [
+      { label: "Guide: When bankruptcy makes sense", href: "/learn/when-bankruptcy-makes-sense" },
+    ],
+  },
+  {
+    slug: "personal-loan-amount-vs-income",
+    question: "How does my income affect the personal loan amount I can borrow?",
+    topic: "Approval & amount",
+    shortAnswer:
+      "Income determines how much monthly payment you can support, which directly caps your loan amount. Lenders require total monthly debt payments to stay below 40-50% of gross monthly income. Higher income supports larger loan amounts at the same interest rate.",
+    context:
+      "The income-to-loan-amount calculation: Lenders calculate your debt-to-income ratio (DTI). Your monthly gross income times the maximum DTI percentage (typically 40-45%) gives the maximum total monthly debt payment allowed. Subtract your existing monthly debt payments (car, credit cards, other loans). The remainder is available for the new loan payment.\n\nExamples at different income levels:\n\n$3,000/month gross income: Max 40% DTI = $1,200 total. Existing debts: $300. Available for new loan: $900. At 15% APR over 36 months, $900/month supports roughly $26,000.\n\n$5,000/month gross income: Max 40% DTI = $2,000 total. Existing debts: $500. Available: $1,500. At 15% APR over 36 months: approximately $43,000.\n\n$8,000/month gross income: Max 40% DTI = $3,200. Existing debts: $700. Available: $2,500. At 13% APR over 48 months: approximately $94,000 (though most lenders cap at $50,000-$100,000).\n\nCredit score intersects: Income determines the payment capacity; credit score determines the interest rate. A high-income borrower with poor credit will be offered a higher rate, reducing the supportable loan amount despite the income. A low-income borrower with excellent credit gets a better rate, which stretches their income further.\n\nDocumentation matters: Lenders require proof of all income you want counted. Bank statements, pay stubs, tax returns, and benefit award letters are the common forms. Income you cannot document is income that cannot be used for qualification.",
+    relatedSlugs: ["how-much-loan-with-40000-income", "what-is-debt-to-income-ratio"],
+    toolLinks: [
+      { label: "Calculator: Monthly payment", href: "/calculators/monthly-payment" },
+    ],
+  },
+  {
+    slug: "personal-loan-for-rent-deposit",
+    question: "Can I use a personal loan for a security deposit or first month's rent?",
+    topic: "Special situations",
+    shortAnswer:
+      "Yes. Rental expenses including security deposits, first and last month's rent, and moving costs are all acceptable personal loan purposes. Amounts from $1,000 to $5,000 typically cover most rental move-in costs.",
+    context:
+      "What rental move-in costs look like: First month's rent ($800-$2,500 in most markets, higher in major cities). Security deposit (typically 1-2 months rent = $800-$5,000). Last month's rent (required by some landlords = another $800-$2,500). Pet deposit ($200-$500). Application fees ($30-$75 per applicant). Total move-in costs: $1,800-$10,500 in many markets.\n\nWhy borrowing for move-in can make sense: Moving often coincides with a job change or other financial transition. The funds are used for housing - a basic necessity. Monthly rental savings (moving to a cheaper unit) can offset loan repayment costs.\n\nLoan sizing guidance: Apply for only the minimum needed - the security deposit, first month, and moving truck if applicable. If you will have the deposit returned at lease end (likely if you leave in good standing), you effectively get that money back, meaning the loan cost is just the interest during your tenancy.\n\nCities with tenant-friendly deposit laws: Some cities (Los Angeles, Seattle, New York) cap security deposits at 2 months rent and require they be held in interest-bearing accounts. Understanding your local laws helps estimate the deposit amount before applying.\n\nSpeed requirements: Rental applications move fast. When a landlord approves you, they often need the deposit within 24-48 hours. Choose a lender that can fund in 1-2 business days. Avant and Upgrade typically fund the next business day for approved applications completed early in the day.",
+    relatedSlugs: ["personal-loan-and-rent", "personal-loan-for-moving-expenses"],
+    toolLinks: [
+      { label: "Calculator: Monthly payment", href: "/calculators/monthly-payment" },
+    ],
+  },
+  {
+    slug: "personal-loan-credit-inquiry-rate-shopping",
+    question: "How many personal loan applications can I submit without hurting my credit?",
+    topic: "Credit score",
+    shortAnswer:
+      "Use soft-pull pre-qualification at as many lenders as you want with zero credit impact. For formal applications (hard pulls), FICO treats multiple inquiries for the same loan type within a 14-45 day window as a single inquiry. Apply to 2-4 lenders formally within that window.",
+    context:
+      "Two-stage personal loan shopping: Stage 1 - soft pull pre-qualification: All major online lenders offer a pre-qualification that shows estimated rate and amount using a soft inquiry. Soft pulls are not visible to other lenders and do not affect your score. Submit pre-qualification at 5-10 lenders to see your full rate landscape. Zero credit impact.\n\nStage 2 - formal application (hard pull): When you choose 1-3 lenders with the best pre-qualified rates and submit formal applications, each triggers a hard inquiry. Hard inquiries typically cost 5-10 FICO points and stay on your report for 2 years (scoring impact fades after 12 months).\n\nFICO rate-shopping window: FICO 8 and FICO 9 (the most commonly used scoring models) apply a 45-day deduplication window for mortgage and auto loan inquiries. For personal loans, the deduplication is also supported but the window may be 14 days in some FICO model versions. VantageScore uses a 14-day window. Conservative approach: complete all formal personal loan applications within 14 days to benefit from the protection regardless of which model your lender uses.\n\nPractical strategy: Pre-qualify at 5-8 lenders over 1-2 weeks. Identify your top 2-3 formal applications. Submit all formal applications within a single 14-day window. Accept the best final offer. The net credit impact: 1 grouped inquiry event (treated as one), not 2-3 separate hits.\n\nAfter applying: Any hard inquiries that did not result in approval will fade from scoring impact within 6-12 months. Opening the actual loan account has a more material credit score effect than the inquiries themselves.",
+    relatedSlugs: ["soft-pull-vs-hard-pull", "hard-inquiry-credit-score-impact"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-cosigner-credit-score-threshold",
+    question: "What credit score does my co-signer need for a personal loan?",
+    topic: "Approval & amount",
+    shortAnswer:
+      "There is no universal minimum, but to meaningfully improve your approval odds and rate, your co-signer generally needs a 700+ credit score. The highest benefit comes from co-signers with 720-750+ scores, which is the prime tier at most lenders.",
+    context:
+      "Why the co-signer credit score matters: When you apply with a co-signer, many lenders use the primary borrower's credit score for qualification but also review the co-signer's credit to assess the total risk. Some lenders use the lower of the two scores; others use the primary borrower's score but require the co-signer to meet a minimum threshold. Ask the specific lender which score they prioritize.\n\nCo-signer score tiers and their effect:\n\n750+: Maximum benefit. A co-signer with 750+ often converts a denial (say, 580 primary score) into an approval at prime rates. The co-signer's excellent credit heavily mitigates the primary borrower's risk.\n\n700-749: Strong benefit. This tier still significantly improves approval odds and can lower the rate by 5-10 percentage points from what the primary borrower would get alone.\n\n660-699: Moderate benefit. Better than no co-signer for primary borrowers near the denial threshold, but may not be enough to unlock the best rates.\n\nBelow 660: Limited benefit. A co-signer with poor credit themselves adds little protection to the lender and may not significantly improve terms.\n\nCo-signer's DTI also matters: Even with an excellent credit score, if your co-signer has high existing debt payments (mortgages, car loans, other personal loans), their DTI may concern the lender. The co-signer's ability to theoretically make payments if needed is what the lender is evaluating.\n\nCredit impact on co-signer: The loan appears on the co-signer's credit report and counts toward their DTI. Before asking someone to co-sign, ensure they understand that this loan will be visible to any future lender they approach.",
+    relatedSlugs: ["cosign-personal-loan", "personal-loan-cosigner-vs-co-borrower"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-for-home-appliances",
+    question: "What is the best way to finance major home appliances with a personal loan?",
+    topic: "Special situations",
+    shortAnswer:
+      "A personal loan works well for major appliances ($1,000-$8,000). It is safer than store financing (no deferred interest trap), more flexible than retailer credit cards, and lets you shop any store or second-hand market for the best price.",
+    context:
+      "Typical appliance costs to finance: Refrigerator: $800-$3,000. Washer/dryer pair: $900-$2,500. HVAC replacement: $3,000-$8,000. Water heater (tankless): $1,500-$3,500. Dishwasher: $400-$1,200. Full kitchen suite (refrigerator, range, microwave, dishwasher): $3,000-$8,000.\n\nPersonal loan vs retailer financing: Major appliance retailers (Best Buy, Home Depot, Lowe's, Samsung) partner with financing companies that use deferred interest. If you do not pay the full balance within the promotional window (typically 12-24 months), all back-interest is charged. A personal loan at 12%-18% with a fixed schedule is more predictable and often cheaper for amounts you cannot repay in 12 months.\n\nPersonal loan vs 0% credit card: If you qualify for a 0% intro APR credit card and can pay off the appliance within the intro period (12-21 months), the card has no interest cost. A personal loan at 12% on $2,000 over 24 months costs $258 in interest. If the 0% credit card intro is 18 months and you pay $2,000 in 18 months ($111/month), the card wins. If you need 36+ months to repay, the personal loan wins.\n\nEmergency replacements: When a refrigerator or water heater fails unexpectedly and needs immediate replacement, same-day or next-day personal loan funding (from Avant, Upgrade, or Rocket Loans) is faster than credit applications at the store. Apply while the repairman is still on-site.\n\nMinimum loan amounts: For purchases under $1,000, most personal loans have minimums of $1,000-$2,000. A credit card or retail card may be the only option for lower amounts.",
+    relatedSlugs: ["personal-loan-for-home-repair", "personal-loan-minimum-amount"],
+    toolLinks: [
+      { label: "Calculator: Monthly payment", href: "/calculators/monthly-payment" },
+    ],
+  },
+  {
+    slug: "personal-loan-improve-chances-approval",
+    question: "What can I do before applying to improve my personal loan approval chances?",
+    topic: "Approval & amount",
+    shortAnswer:
+      "The four highest-impact steps: (1) Pay down credit card balances to lower utilization, (2) fix errors on your credit report, (3) stabilize employment for 3+ months, and (4) reduce existing debt payments to lower DTI. These can improve approval odds significantly in 30-90 days.",
+    context:
+      "30-day improvements:\n\nPay down credit card balances: This is the fastest lever. Dropping utilization from 60% to 20% can add 20-50 FICO points in one billing cycle. Even paying $500-$1,000 off the highest-utilization cards helps. The scoring model sees utilization at the statement closing date, so pay balances down 1-2 weeks before your statement closes.\n\nDispute credit report errors: One in 5 credit reports has an error that affects the score. Pull free reports from AnnualCreditReport.com and dispute incorrect late payments, wrong balances, or accounts that are not yours. Online dispute tools at Equifax, Experian, and TransUnion can resolve some errors within 30 days.\n\n60-90 day improvements:\n\nAvoid new credit applications: Each hard inquiry costs 5-10 points. Stop applying for store cards, credit cards, or other loans for 60-90 days before your personal loan application.\n\nStabilize employment: Lenders prefer at least 3-6 months at your current employer. If you recently changed jobs, waiting until you have pay stubs showing a few months of employment helps.\n\nPay off a small debt entirely: Eliminating one monthly payment (a store card, a medical collection, a small personal loan) reduces DTI and may free up a new tradeline for positive payment history.\n\nLong-game improvements (6+ months): Becoming an authorized user on a family member's old, well-managed card adds their account history to your report. Consistent on-time payments build track record over time. Secured credit card use builds history for thin-file borrowers.",
+    relatedSlugs: ["personal-loan-approval-odds", "how-to-raise-credit-score-fast"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-maximum-amount-2026",
+    question: "What is the maximum personal loan amount available in 2026?",
+    topic: "Approval & amount",
+    shortAnswer:
+      "The highest unsecured personal loan amounts available in 2026 reach $100,000 from lenders like LightStream and SoFi. Most lenders cap at $40,000-$50,000. Amounts above $35,000 typically require 700+ credit score and strong income.",
+    context:
+      "Maximum loan amounts by lender:\n\nLightStream: Up to $100,000. Lowest maximums for lower credit tiers; $100,000 available only for excellent credit (740+).\n\nSoFi: Up to $100,000. Strong income and credit score required for the highest amounts.\n\nMarcus by Goldman Sachs: Up to $40,000. Well-known for no-fee structure; available in most states.\n\nDiscover Personal Loans: Up to $40,000. Competitive for good-credit borrowers.\n\nLendingClub: Up to $40,000. Joint applications can support higher amounts.\n\nUpgrade: Up to $50,000. More accessible to fair-credit borrowers than SoFi or LightStream.\n\nAvant: Up to $35,000. Focuses on near-prime borrowers (580-700 range).\n\nCredit unions: Amounts vary widely but some offer unsecured loans up to $50,000-$75,000 for well-qualified members.\n\nWhy maximum amounts matter less than qualifying amounts: Even if a lender offers $100,000, your qualifying amount is determined by your income and DTI. A $100,000 loan at 10% APR over 84 months costs $1,622/month. Supporting that payment requires roughly $3,200-$4,000/month in available debt capacity (at 40% DTI), which means $8,000-$10,000/month gross income just for debt payments. Most borrowers qualify for $20,000-$50,000 in practice.\n\nFor amounts above $100,000: Unsecured personal loans do not go above $100,000 at any mainstream lender. For amounts above this, a home equity loan/HELOC, a business loan, or a secured personal loan (using assets as collateral) are the available options.",
+    relatedSlugs: ["maximum-unsecured-personal-loan-amount", "highest-personal-loan-amount"],
+    toolLinks: [
+      { label: "Calculator: Monthly payment", href: "/calculators/monthly-payment" },
+    ],
+  },
 ];
 
 export const questionsBySlug = Object.fromEntries(

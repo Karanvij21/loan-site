@@ -2543,6 +2543,60 @@ export const guides: Guide[] = [
     ],
   },
   {
+    slug: "personal-loan-vs-credit-card-decision-guide",
+    cluster: "Loan shopping",
+    h1: "Personal Loan vs. Credit Card: A Decision Guide for Every Situation",
+    title: "Personal Loan vs. Credit Card: When to Use Each (2026 Guide)",
+    description: "The choice between a personal loan and a credit card affects your total cost, monthly payment, and credit score. This guide covers 8 common situations and the right tool for each.",
+    intro: "The right choice between a personal loan and a credit card depends on the amount, how quickly you can repay, and whether you value flexibility or certainty. Personal loans win for large, long-duration borrowing at defined cost. Credit cards win for small, short-duration borrowing - especially with 0% intro APR offers. Neither is universally better; both are tools with specific strengths.",
+    publishedAt: "2026-04-15",
+    reviewedAt: "2026-06-15",
+    estimatedReadMinutes: 8,
+    sections: [
+      {
+        h2: "The Core Trade-Off: Certainty vs. Flexibility",
+        body: "Personal loans offer certainty: you borrow a fixed amount at a fixed rate and make fixed monthly payments until a defined payoff date. There are no surprises. Credit cards offer flexibility: you can spend up to your limit, pay any amount from the minimum to the full balance, and use the credit again once you pay it down. Flexibility is powerful, but it also enables indefinite minimum-payment behavior that keeps people in debt for decades.\n\nFor any borrowing need, the first question is: do I need certainty or flexibility? If the amount is fixed and the timeline is defined (a specific repair, a medical bill with a known total, a one-time purchase), a personal loan's structure forces efficient paydown. If the spending is ongoing or the total is uncertain (a renovation with cost overruns, a series of medical appointments over 18 months), a credit card's revolving access may be more practical.",
+      },
+      {
+        h2: "When a Personal Loan Wins: Large Amounts Over Long Terms",
+        body: "Scenario: You need $15,000 for a home renovation, a debt consolidation, or a major emergency. You expect to need 3-5 years to repay. Personal loan at 12% APR over 48 months: $395/month, $3,960 total interest. Credit card at 22% APR minimum payment: takes 22+ years to pay off and costs $15,000+ in total interest on the same balance. The math is not close. For amounts above $3,000-$5,000 that you cannot repay within 12-15 months, a personal loan almost always costs less.\n\nAdditionally, when the purpose is debt consolidation, a personal loan's defined payoff date imposes the discipline that revolving credit cannot. A credit card with a $15,000 balance and a 2% minimum payment never forces payoff. A 48-month personal loan does.",
+      },
+      {
+        h2: "When a Credit Card Wins: 0% Intro APR for Small Amounts",
+        body: "Scenario: You need $3,000 for an appliance purchase, a medical bill, or a short trip. You can pay it off in 12-18 months. A credit card with a 0% intro APR for 15-18 months costs exactly $0 in interest if paid in full before the promo period ends. No personal loan can match that price - even at 7% APR, a personal loan on $3,000 over 18 months costs $210 in interest.\n\nThe 0% window is the strongest argument for credit cards on small, short-term financing needs. The risk: if you cannot discipline yourself to pay it off by the promotional deadline, most 0% cards revert to 20%-30% variable APR, often with retroactive deferred interest. Only use the 0% credit card path if you have a credible payment plan and the monthly payment that plan requires fits your budget with certainty.",
+      },
+      {
+        h2: "When a Credit Card Wins: Ongoing Uncertain Expenses",
+        body: "Scenario: A medical situation involves multiple appointments, procedures, and expenses over 12 months totaling an uncertain amount. You do not know if the final cost is $2,000 or $8,000. Taking a personal loan for a fixed amount creates either too little (you run short) or too much (you borrowed more than needed). A medical credit card (CareCredit, Synchrony Health) or a general credit card with a high enough limit gives you revolving access to draw as needed, pay down, and redraw.\n\nThe same logic applies to home renovation projects with cost uncertainty. A HELOC (home equity line of credit) is the best tool here if you have equity; a credit card is the second best tool for smaller renovation projects where the total is unknown.",
+      },
+      {
+        h2: "The Score Impact Comparison",
+        body: "Personal loan effect on credit score: Opening the loan triggers a hard inquiry (minus 2-10 points temporarily). New installment account added (neutral to positive for credit mix). On-time payments build positive payment history. Paying off the loan may cause a small dip (loss of active installment account) but the positive payment history remains 10 years. Net 12-month effect for most borrowers: neutral to slightly positive.\n\nCredit card effect on credit score: Opening the card triggers a hard inquiry (minus 2-10 points temporarily). New revolving account added. High utilization on the card (carrying a large balance vs. the credit limit) significantly hurts scores - this is the critical difference. Carrying $3,000 on a card with a $4,000 limit (75% utilization) can drop your score 50-100 points. Carrying the same $3,000 on a personal loan: zero utilization impact on revolving credit.\n\nFor borrowers who need to maintain their score while financing a large purchase, a personal loan is better for the score than carrying a high credit card balance. This matters especially before a mortgage application or major credit event.",
+      },
+      {
+        h2: "Emergency Fund Decision: Credit Card or Personal Loan Pre-Application",
+        body: "Many financial advisors recommend having a credit card as an emergency fund backup. This is sensible for true short-term emergencies (car breakdown, ER copay) where you can repay within 1-2 months. But credit cards are not substitutes for emergency savings. If an emergency expense is $5,000-$15,000 and you cannot repay it within 2-3 months, using a credit card and then carrying the balance at 22%-28% APR is expensive. Applying for a personal loan immediately after the emergency - before you have accumulated months of credit card interest - and using it to pay off the credit card balance can save hundreds of dollars.\n\nThe ideal approach: use a credit card to handle the immediate expense (accepted everywhere, fast), then apply for a personal loan to convert the balance to a lower fixed rate within 1-2 months of the emergency if you cannot pay the card in full.",
+      },
+      {
+        h2: "The Decision Framework: 5 Questions",
+        body: "Answer these 5 questions to determine which tool fits your situation:\n\n1. How much do I need? Under $2,000: credit card or BNPL typically more accessible. $2,000-$5,000: depends on question 2. Over $5,000: personal loan almost certainly better unless using 0% promotional offer you can repay.\n\n2. How long do I need to repay? Under 12 months: 0% credit card may cost nothing. 12-24 months: compare 0% credit card (if available) vs. personal loan rate. Over 24 months: personal loan wins on cost at almost any rate.\n\n3. Do I have access to a 0% intro offer? Yes, and I can realistically repay within the window: use the credit card. No or uncertain: use the personal loan.\n\n4. Is the expense amount known and fixed? Yes: personal loan's fixed amount fits well. No: credit card's revolving access is more practical.\n\n5. Will high credit card utilization hurt a planned loan or housing application in the next 12 months? Yes: personal loan avoids utilization damage to your score. No: either tool is viable from a score perspective.",
+      },
+      {
+        h2: "Cost Comparison Table by Amount and Term",
+        body: "The numbers below show total interest cost for common borrowing scenarios, illustrating when each tool is cheaper:\n\n$2,000 repaid in 12 months: 0% credit card = $0. Personal loan at 12% = $132. Credit card at 22% = $244. Winner: 0% credit card.\n\n$5,000 repaid in 24 months: 0% credit card (if fully repaid by month 15-18) = $0. Personal loan at 12% = $640. Credit card at 22% = $1,214. Winner: 0% card if fully repaid; personal loan otherwise.\n\n$10,000 repaid in 36 months: No 0% offer for 36 months typically available. Personal loan at 12% = $1,957. Credit card at 22% = $4,138. Winner: personal loan by $2,181.\n\n$20,000 repaid in 48 months: Personal loan at 10% = $4,360. Credit card at 22%: minimum payments would extend to 15+ years. Winner: personal loan decisively.\n\nConclusion: Credit card 0% offers win on small amounts paid quickly. Personal loans win for anything over $5,000 or any repayment period beyond 18 months.",
+      },
+    ],
+    faqs: [
+      { q: "Can I convert credit card debt to a personal loan?", a: "Yes - this is debt consolidation. You take a personal loan and use the proceeds to pay off your credit card balances. This is beneficial when the personal loan rate is lower than your card rates (typically true for borrowers with 650+ credit scores), and when you want a defined payoff date rather than indefinite revolving minimum payments. The consolidation also reduces your credit card utilization ratio immediately, which can boost your credit score." },
+      { q: "Do credit card balance transfers work better than personal loans for consolidation?", a: "Balance transfer cards with 0% intro APR (typically 15-21 months) beat personal loans for balances under $10,000 that you can pay off within the promotional window. If you cannot pay the full balance within the promo period, the revert rate (20%-28% APR) makes the balance transfer card more expensive than a personal loan. Also, balance transfer cards charge 3%-5% upfront as a transfer fee. On $10,000, a 3% transfer fee is $300 - comparable to personal loan origination fees." },
+      { q: "Should I close my credit cards after consolidating debt to a personal loan?", a: "No. Closing credit cards reduces your total credit limit, which increases your credit utilization ratio on any remaining balances and can lower your score. It also reduces the average age of your accounts. The best practice is to keep the paid-off cards open but unused, or make one small charge per month and pay it in full immediately. This maintains the available credit limit and account age benefits without re-accumulating debt." },
+    ],
+    relatedSlugs: ["personal-loan-what-is-debt-consolidation", "personal-loan-repayment-strategies", "debt-avalanche-vs-snowball"],
+    toolLinks: [
+      { label: "Loan payment calculator", href: "/calculators/loan-payment", blurb: "See your exact monthly payment at any rate and term." },
+    ],
+  },
+  {
     slug: "how-to-avoid-personal-loan-scams",
     cluster: "Loan shopping",
     h1: "How to Avoid Personal Loan Scams: 12 Red Flags and What to Do Instead",

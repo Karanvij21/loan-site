@@ -57,6 +57,10 @@ export const cities: City[] = [
   city("Mesa", "mesa", "arizona", 510_000),
   city("Chandler", "chandler", "arizona", 280_000),
   city("Scottsdale", "scottsdale", "arizona", 242_000),
+  city("Gilbert", "gilbert", "arizona", 270_000),
+  city("Glendale", "glendale", "arizona", 250_000),
+  city("Tempe", "tempe", "arizona", 190_000),
+  city("Peoria", "peoria", "arizona", 175_000),
 
   // Arkansas
   city("Little Rock", "little-rock", "arkansas", 202_000),
@@ -75,6 +79,11 @@ export const cities: City[] = [
   city("Oakland", "oakland", "california", 430_000),
   city("Bakersfield", "bakersfield", "california", 407_000),
   city("Anaheim", "anaheim", "california", 346_000),
+  city("Riverside", "riverside", "california", 320_000),
+  city("Stockton", "stockton", "california", 315_000),
+  city("Irvine", "irvine", "california", 310_000),
+  city("Chula Vista", "chula-vista", "california", 280_000),
+  city("Fremont", "fremont", "california", 240_000),
 
   // Colorado
   city("Denver", "denver", "colorado", 715_000),
@@ -108,6 +117,9 @@ export const cities: City[] = [
   city("Hialeah", "hialeah", "florida", 220_000),
   city("Tallahassee", "tallahassee", "florida", 200_000),
   city("Fort Lauderdale", "fort-lauderdale", "florida", 183_000),
+  city("Port St. Lucie", "port-st-lucie", "florida", 225_000),
+  city("Cape Coral", "cape-coral", "florida", 215_000),
+  city("Clearwater", "clearwater", "florida", 115_000),
 
   // Georgia
   city("Atlanta", "atlanta", "georgia", 510_000),
@@ -137,6 +149,9 @@ export const cities: City[] = [
   city("Naperville", "naperville", "illinois", 150_000),
   city("Joliet", "joliet", "illinois", 150_000),
   city("Rockford", "rockford", "illinois", 145_000),
+  city("Springfield", "springfield", "illinois", 115_000),
+  city("Elgin", "elgin", "illinois", 115_000),
+  city("Peoria", "peoria", "illinois", 110_000),
 
   // Indiana
   city("Indianapolis", "indianapolis", "indiana", 880_000),
@@ -273,6 +288,7 @@ export const cities: City[] = [
   city("Cincinnati", "cincinnati", "ohio", 310_000),
   city("Toledo", "toledo", "ohio", 270_000),
   city("Akron", "akron", "ohio", 190_000),
+  city("Dayton", "dayton", "ohio", 140_000),
 
   // Oklahoma
   city("Oklahoma City", "oklahoma-city", "oklahoma", 690_000),
@@ -352,6 +368,9 @@ export const cities: City[] = [
   city("Chesapeake", "chesapeake", "virginia", 250_000),
   city("Richmond", "richmond", "virginia", 226_000),
   city("Arlington", "arlington", "virginia", 234_000),
+  city("Newport News", "newport-news", "virginia", 185_000),
+  city("Hampton", "hampton", "virginia", 136_000),
+  city("Alexandria", "alexandria", "virginia", 160_000),
 
   // Washington
   city("Seattle", "seattle", "washington", 750_000),

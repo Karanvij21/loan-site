@@ -2405,6 +2405,49 @@ export const guides: Guide[] = [
       { label: "Guide: Refinance your personal loan", href: "/learn/how-to-refinance-personal-loan", blurb: "Step-by-step guide to refinancing for a lower payment." },
     ],
   },
+  {
+    slug: "apr-vs-interest-rate-personal-loan",
+    cluster: "Loan shopping",
+    h1: "APR vs Interest Rate on a Personal Loan",
+    title: "APR vs Interest Rate: What's the Real Cost of Your Personal Loan?",
+    description: "The interest rate and APR on a personal loan are not the same number. This guide explains the difference, how to calculate the true cost of borrowing, and why APR is the only number that matters when comparing offers.",
+    intro: "APR includes the interest rate plus lender fees, making it the only number that lets you accurately compare personal loan offers. Two loans with the same interest rate can have very different APRs - and very different total costs.",
+    publishedAt: PUBLISHED,
+    reviewedAt: REVIEWED,
+    estimatedReadMinutes: 8,
+    sections: [
+      {
+        h2: "Interest Rate vs APR: The Core Difference",
+        body: "When you receive a personal loan offer, you will see two rates: the interest rate (sometimes called the 'stated rate' or 'nominal rate') and the Annual Percentage Rate (APR). They look similar and both affect your cost of borrowing, but they measure different things.\n\nThe interest rate is the cost of borrowing the principal alone, expressed as a percentage of the outstanding balance, calculated on an annual basis. It tells you how much pure interest you owe, but nothing about fees.\n\nThe APR is a broader measure that includes the interest rate plus certain fees, expressed as a single annualized percentage. It is standardized by the Truth in Lending Act (TILA) so that every lender must calculate and disclose it the same way, enabling true apples-to-apples comparison.\n\nExample: You borrow $10,000 for 36 months at a 12% interest rate with a 3% origination fee ($300). The origination fee is deducted from your proceeds (you receive $9,700), but you repay $10,000 plus interest. The APR will be approximately 14.5% - higher than the stated 12% because the $300 fee effectively costs you more money over the loan term. The interest rate says 12%; the APR says 14.5%. The APR is the real cost.",
+      },
+      {
+        h2: "What Fees Are Included in APR (and What Are Not)",
+        body: "TILA defines which costs must be included in APR calculation for personal loans:\n\nIncluded in APR: Origination fees (also called loan fees, processing fees, or administrative fees). Prepaid finance charges. Discount points (rare on personal loans but included when present).\n\nNot included in APR: Late payment fees (because they are contingent on behavior, not certain). Prepayment penalties (also contingent). Returned payment fees. NSF (non-sufficient funds) fees. Optional products like credit insurance or debt protection plans.\n\nThe practical implication: A loan advertised as 'no origination fee' at 15% APR may cost the same as a loan with a 3% origination fee at 12% interest (which has a ~14.5% APR). The APR normalizes the comparison. Always compare APRs, not interest rates, when evaluating loan offers.\n\nImportant caveat: Some lenders charge fees that are technically outside the TILA APR calculation (like 'documentation fees' or 'funding fees' labeled differently). Read the full Loan Estimate / Loan Disclosure document, not just the APR, to catch all costs.",
+      },
+      {
+        h2: "How to Calculate APR on a Personal Loan",
+        body: "You do not need to calculate APR yourself - lenders are required to disclose it. But understanding the calculation helps you verify lender disclosures and spot errors.\n\nFor a simple personal loan with only an origination fee: APR = Internal Rate of Return (IRR) of the loan cash flows, annualized. This requires an iterative calculation (or a financial calculator / spreadsheet).\n\nStep-by-step for a $10,000 loan, 12% interest, 3% origination fee, 36 months:\n1. Cash received at origination: $10,000 - $300 fee = $9,700\n2. Monthly payment at 12% over 36 months on $10,000 principal: $332.14\n3. Treat $9,700 as today's inflow and 36 payments of $332.14 as outflows\n4. Solve for the IRR of these cash flows (monthly), then multiply by 12 for annual APR\n5. Result: approximately 14.5% APR\n\nSpreadsheet shortcut: In Excel or Google Sheets, use =RATE(36, -332.14, 9700) * 12 to get the approximate APR.\n\nWhy lenders with no origination fee advertise APR = interest rate: If there are no TILA-includable fees, the APR equals the interest rate. This is why 'no-fee' lenders like LightStream make a point of emphasizing APR = interest rate.",
+      },
+      {
+        h2: "APR vs Total Cost: Which Number Should You Use?",
+        body: "APR is the right number for comparing the cost of two loans of the same amount and term. But it does not tell you the total dollar amount you will pay.\n\nTotal interest cost = monthly payment x number of payments - principal borrowed\n\nFor the $10,000, 36-month loan at 12% interest: Monthly payment = $332.14; Total payments = $332.14 x 36 = $11,957; Interest paid = $1,957 (on top of the $300 origination fee = $2,257 total cost of borrowing).\n\nWhen APR is not enough: If you are comparing a 24-month loan vs a 36-month loan, both at 12% APR, the shorter loan has higher monthly payments but lower total interest cost. APR alone does not tell you which is 'cheaper' in dollar terms - you need to compare the total interest paid over the full term.\n\nThe right comparison process: First, compare APRs to find the cheapest rate. Then, compare total interest cost to understand the dollar magnitude. Finally, compare monthly payments to confirm affordability. A lender with the lowest APR is not always the best choice if the term forces a payment you cannot manage.",
+      },
+      {
+        h2: "Red Flags in APR Disclosure",
+        body: "Not all lenders are transparent about APR. These warning signs suggest a lender may not be disclosing costs accurately:\n\nAdvertising monthly rates instead of APR: '2.9% per month' sounds small but annualizes to approximately 34.8% APR. Lenders required to comply with TILA must show APR; advertising monthly rates is common among payday lenders and some subprime lenders who exploit rate confusion.\n\nAPR range with a very wide spread: If a lender advertises '7.99%-35.99% APR,' the bottom rate is essentially a marketing number used for advertising compliance. Most borrowers qualify toward the top. Ask the lender for your individualized rate estimate through soft-pull pre-qualification.\n\n'As low as' advertising: 'Rates as low as 6.99% APR' applies only to their most creditworthy applicants. Treat this as a floor, not a typical rate.\n\nFees not captured in APR: Ask specifically whether there are any fees not reflected in the APR. Legitimate lenders will have a short answer (no, or here is what is not included). Evasive answers suggest hidden costs.\n\nMismatch between advertised rate and Loan Estimate: Under TILA, the APR on the Loan Estimate must be accurate within 0.125% for fixed-rate loans. If the final disclosure shows a significantly higher APR than advertised, you have the right to cancel the loan within 3 business days (right of rescission) for certain loan types.",
+      },
+    ],
+    faqs: [
+      { q: "If two loans have the same APR, are they the same cost?", a: "Only if they have the same loan term. APR annualizes cost, so two loans with identical APRs but different terms (say, 24 months vs 60 months) will have different total interest costs in dollars. The 60-month loan pays interest for twice as long, generating more total interest even at the same annual rate. Always compare both APR and total interest paid when evaluating loan options." },
+      { q: "Why does my APR change between pre-qualification and final approval?", a: "Pre-qualification uses a soft credit pull and estimated inputs (income, loan amount, credit score range). Final approval uses a hard pull that reveals the exact score, plus full verification of income and debt obligations. If the hard pull reveals a lower score, higher DTI, or red flags not visible in soft-pull data, the lender adjusts the APR upward to reflect the actual risk profile. Under TILA, the final APR on the signed loan agreement must be accurate - any change of more than 0.125% requires you to be re-disclosed and given 3 business days to cancel." },
+      { q: "Does a lower APR always mean a lower monthly payment?", a: "No. Monthly payment depends on both APR and loan term. A $10,000 loan at 8% APR over 60 months has a $203/month payment. The same loan at 15% APR over 36 months has a $347/month payment - higher monthly payment but lower APR. Longer terms reduce monthly payments but increase total interest paid. The right loan depends on what you are optimizing for: lowest APR (cheapest total cost per dollar borrowed), lowest monthly payment (most cash flow flexibility), or lowest total interest (least money out of pocket over the life of the loan)." },
+    ],
+    relatedSlugs: ["how-to-choose-personal-loan-2026-checklist", "how-to-negotiate-lower-personal-loan-apr", "hidden-fees-personal-loans"],
+    toolLinks: [
+      { label: "Guide: How to choose a personal loan", href: "/learn/how-to-choose-personal-loan-2026-checklist", blurb: "A complete checklist for comparing and selecting a personal loan in 2026." },
+      { label: "Guide: Hidden fees in personal loans", href: "/learn/hidden-fees-personal-loans", blurb: "Spot and avoid the fees that raise the real cost of borrowing." },
+    ],
+  },
 ];
 
 export const guidesBySlug = Object.fromEntries(

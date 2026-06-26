@@ -2058,6 +2058,88 @@ export const guides: Guide[] = [
       { label: "Pre-qualify with multiple lenders", href: "/apply", blurb: "Compare real APRs from multiple lenders. Soft check, no obligation." },
     ],
   },
+  {
+    slug: "personal-loan-scams-how-to-avoid",
+    cluster: "Loan shopping",
+    publishedAt: PUBLISHED,
+    reviewedAt: REVIEWED,
+    estimatedReadMinutes: 8,
+    title: "Personal Loan Scams in 2026: 9 Warning Signs and How to Protect Yourself",
+    description: "How to spot personal loan scams before you lose money: advance-fee fraud, fake lenders, phishing, and 9 red flags that signal danger. What to do if you've been targeted.",
+    h1: "Personal Loan Scams in 2026: How to Spot Them Before You Lose Money",
+    intro: "Personal loan scams cost Americans hundreds of millions of dollars every year. The FTC reported consumer fraud losses topping $10 billion in 2023, with imposter scams and loan-fee fraud among the top categories. Scammers target people who are financially stressed and looking for fast cash, which makes them hard to resist in the moment. This guide covers the 9 most common warning signs and what to do if a lender's pitch doesn't feel right.",
+    sections: [
+      {
+        h2: "Red Flag 1: They Ask for an Upfront Fee",
+        body: "Legitimate personal loan lenders do not charge fees before you receive your loan. Any lender that demands payment upfront, whether called a 'processing fee,' 'insurance fee,' 'activation fee,' or 'good faith deposit,' is running an advance-fee scam. The pattern is consistent: you pay, the money disappears, and the loan never comes.\n\nOrigination fees from real lenders are always deducted from the loan proceeds (you receive less than the full loan amount) or added to the loan balance. They are never collected before funding.",
+      },
+      {
+        h2: "Red Flag 2: Approval is 'Guaranteed' Regardless of Credit",
+        body: "No legitimate lender can guarantee approval to everyone. Creditworthiness, income, and debt-to-income ratio are real underwriting factors for any legal lender. 'Guaranteed approval' or '100% acceptance' language is a hallmark of predatory operations that either don't fund loans at all (advance-fee scam) or fund extremely expensive predatory products (triple-digit APR).\n\nLegitimate marketing says things like 'borrowers with all credit profiles are encouraged to apply' or 'soft check with no obligation.' It never promises outcome regardless of credit.",
+      },
+      {
+        h2: "Red Flag 3: The Lender Has No Physical Address or License",
+        body: "All legal consumer lenders must be licensed in each state where they originate loans. You can verify any lender's state license through the NMLS (Nationwide Multistate Licensing System) Consumer Access portal at nmlsconsumeraccess.org. If a lender is not in NMLS or cannot provide a state license number, stop.\n\nScam operations frequently use P.O. boxes, fake suite numbers, or no address at all. Legitimate marketplace lenders have verifiable principal business addresses and are registered with their state's financial regulator.",
+      },
+      {
+        h2: "Red Flag 4: Pressure to Decide Immediately",
+        body: "Legitimate lenders give you time to review offers. Pre-qualification offers typically stay open for 14-30 days. A lender that pressures you to decide within hours, claims the offer 'expires tonight,' or uses urgency language to prevent you from shopping elsewhere is attempting to stop you from doing due diligence.\n\nA real lender benefits from you comparing offers because they're confident their terms are competitive. Only a fraudulent operation fears the scrutiny that comes with comparison shopping.",
+      },
+      {
+        h2: "Red Flags 5-9: Additional Warning Signs",
+        body: "Communication only through text or WhatsApp, never email or phone: Legitimate lenders provide a verifiable email domain, mailing address, and phone number.\n\nRequests for your login credentials: No legitimate lender will ask for your bank, email, or government portal login directly. Income verification via bank data is done through Plaid or Finicity, which you authenticate yourself without sharing passwords.\n\nUnsolicited loan offers: If you receive a loan offer via email, text, or mail that you didn't request and the rate seems unusually good, treat it with suspicion. Verify the company name independently rather than clicking any link in the message.\n\nWire transfer or gift card payment required: No legitimate lender accepts payment in gift cards or wire transfer for fees. These are untraceable payment methods favored by scammers for exactly that reason.\n\nWebsite has no HTTPS: Every legitimate financial services website encrypts traffic with HTTPS. No padlock symbol in the browser address bar is a hard stop.",
+      },
+    ],
+    faqs: [
+      { q: "How do I verify if a personal loan lender is legitimate?", a: "Check the NMLS Consumer Access portal at nmlsconsumeraccess.org for the lender's state license. Verify the company name matches on their website and in NMLS exactly. Search '[lender name] + scam' and '[lender name] + complaint' in Google. Check the CFPB complaint database (consumerfinance.gov/complaint) and Better Business Bureau (bbb.org). A legitimate lender will have a verifiable business history, licensed status, and some volume of real customer reviews across multiple independent platforms." },
+      { q: "What should I do if I already paid a scam advance fee?", a: "Report it immediately to the FTC at reportfraud.ftc.gov, to the FBI Internet Crime Complaint Center at ic3.gov, and to your state attorney general's office. If you paid by credit card, dispute the charge immediately as unauthorized. If you paid by bank transfer, contact your bank and ask about wire recall (this works within a narrow time window). Unfortunately, advance fees paid by gift card or wire are rarely recovered. File a police report even if you don't expect recovery, as documentation may help with insurance claims or serve investigative purposes." },
+      { q: "Are there legitimate personal loans for people with bad credit?", a: "Yes. Multiple legitimate lenders serve fair and bad-credit borrowers, including Avant, Upstart, OneMain Financial, and many credit unions. These lenders charge higher APRs (20-35%) to reflect higher risk but fund real loans. The key difference from scams: legitimate bad-credit lenders don't require upfront fees, are licensed in your state (verifiable via NMLS), have physical addresses and phone numbers, and never guarantee approval before reviewing your application." },
+    ],
+    relatedSlugs: ["compare-personal-loan-offers", "how-to-read-loan-agreement", "hidden-fees-personal-loans"],
+    toolLinks: [
+      { label: "Compare offers safely", href: "/apply", blurb: "Pre-qualify with our vetted lender network. Soft check, no obligation." },
+      { label: "Hidden fees guide", href: "/learn/hidden-fees-personal-loans", blurb: "Know every fee category before you sign." },
+    ],
+  },
+  {
+    slug: "personal-loan-vs-heloc-deep-dive",
+    cluster: "Loan shopping",
+    publishedAt: PUBLISHED,
+    reviewedAt: REVIEWED,
+    estimatedReadMinutes: 9,
+    title: "Personal Loan vs HELOC 2026: Which is Cheaper for Home Improvement?",
+    description: "Side-by-side comparison: personal loan vs home equity line of credit for home improvement costs. APRs, closing costs, risk, timeline, and when each wins.",
+    h1: "Personal Loan vs HELOC for Home Improvement 2026: Full Cost Comparison",
+    intro: "When homeowners need money for a kitchen remodel, bathroom renovation, or major repair, two options dominate: a personal loan (unsecured, fast, no home risk) or a home equity line of credit (HELOC: lower APR, secured by your home, slower to close). The right choice depends on your loan amount, equity, timeline, risk tolerance, and credit profile. This guide compares every relevant factor.",
+    sections: [
+      {
+        h2: "APR and Total Interest Cost",
+        body: "HELOCs typically carry variable APRs of prime + 0-2%, which at current rates (prime 8.5% in Q2 2026) means 8.5-10.5% APR. Personal loans for good-credit borrowers run 9-18% fixed. For smaller amounts ($5,000-$15,000) over short terms (12-36 months), the HELOC's APR advantage is real but narrow, and the fixed rate of a personal loan may actually cost less if HELOC rates rise during the draw period.\n\nFor amounts over $30,000 with long repayment windows, the HELOC APR advantage compounds significantly. A $50,000 project at 9% HELOC vs. 15% personal loan over 10 years means about $20,000 in total interest difference.",
+      },
+      {
+        h2: "Timeline: Fast vs. Deliberate",
+        body: "Personal loans close in 1-3 business days from approval. A HELOC takes 2-6 weeks for appraisal, title search, underwriting, and closing. If you're starting a renovation with a contractor who needs payment soon, or if you're dealing with an unexpected repair, the personal loan wins on speed.\n\nHELOCs also have a draw period (typically 5-10 years) during which you can borrow and repay repeatedly. This is valuable for multi-phase renovation projects where you don't know the final cost upfront. A personal loan is a one-time disbursement.",
+      },
+      {
+        h2: "Risk: Your Home is Not at Stake with a Personal Loan",
+        body: "This is the most important qualitative difference. A HELOC places a lien on your home. If you default, the lender can foreclose. A personal loan is unsecured: default damages your credit and may result in a lawsuit, but your home is not collateral.\n\nFor homeowners who are worried about job stability, health, or any other income risk, the personal loan's absence of collateral is a meaningful safety margin. The APR premium you pay for a personal loan is effectively an insurance premium for keeping your home unencumbered.",
+      },
+      {
+        h2: "Equity and Credit Requirements",
+        body: "HELOCs require home equity, typically 20%+ after the line is drawn (combined loan-to-value below 80%). If you have less equity, or if your home's value has declined, a HELOC may not be available at all. Personal loans have no equity requirement, making them the only option for renters, recent buyers with little equity, or homeowners in declining-value markets.\n\nCredit score requirements: HELOCs from most banks require 680+ FICO. Personal loans are available down to 580 FICO, with higher APRs below 660.",
+      },
+    ],
+    faqs: [
+      { q: "Which is better: a personal loan or a HELOC for a kitchen remodel?", a: "For kitchens under $25,000 where you want a fixed rate and don't want a lien on your home, a personal loan is often simpler. For kitchens over $40,000 with a 5+ year repayment window and 20%+ equity, a HELOC's lower APR likely wins on total cost. The middle range ($25,000-$40,000) depends on your specific APR offers from lenders." },
+      { q: "Can I use both a personal loan and a HELOC for the same project?", a: "Yes, but coordination is complex. Some homeowners use a personal loan to start a project immediately, then take out a HELOC once it closes and pay off the personal loan. The net effect is a HELOC at HELOC rates, but with personal loan speed at project start. The logistics require careful timing and two sets of closing processes." },
+      { q: "Does a HELOC affect my credit differently than a personal loan?", a: "Yes. A HELOC is revolving credit, which affects credit utilization. Drawing $30,000 on a $50,000 HELOC shows 60% utilization on a revolving account, which can temporarily reduce your credit score. A personal loan is installment credit and doesn't affect revolving utilization at all. This matters if you're planning other credit applications (like a car loan) while the project is underway." },
+    ],
+    relatedSlugs: ["kitchen-remodel-heloc-vs-personal-loan", "personal-loan-vs-heloc-question", "compare-personal-loan-offers"],
+    toolLinks: [
+      { label: "Monthly payment calculator", href: "/calculators/loan-payment", blurb: "Compare total cost at different APRs and terms." },
+      { label: "Pre-qualify for a personal loan", href: "/apply", blurb: "Soft check, real offers from multiple lenders. No obligation." },
+    ],
+  },
 ];
 
 export const guidesBySlug = Object.fromEntries(

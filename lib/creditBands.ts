@@ -154,6 +154,93 @@ export const creditBands: Record<string, UseCase> = {
       { q: "Is it worth waiting to apply?", a: "Often yes. A 40-point score increase before applying can shift the APR by 5+ points, which on a $15,000 / 48-month loan saves around $1,800 in interest. If the borrowing need isn't urgent, waiting pays." },
     ],
   },
+  "640-credit-score": {
+    slug: "640-credit-score",
+    h1: "Personal loans with a 640 credit score",
+    title: "Personal Loans With a 640 Credit Score 2026: APRs, Amounts & Best Lenders",
+    description:
+      "What a 640 FICO score qualifies for: APR ranges, lender options, and how 30 more points to 670 changes your offers significantly.",
+    eyebrow: "By score",
+    intro:
+      "A 640 FICO sits in the upper-middle of the 'fair' credit tier. You're 30 points away from the 'good' credit threshold (670), which opens up significantly more lenders and noticeably lower APRs. At 640, you have meaningful approval options with online installment lenders and some credit unions, with APRs typically in the 18-32% range.",
+    amountMin: 1000,
+    amountMax: 20000,
+    termMin: 12,
+    termMax: 60,
+    aprMin: 18.99,
+    aprMax: 32.99,
+    bullets: [
+      "640 qualifies with most online personal-loan lenders",
+      "Loan amounts from $1,000 to $20,000",
+      "APRs typically 18.99% to 32.99%",
+      "30 more points (to 670) can drop the APR by 5-8 percentage points",
+      "Soft credit check, no impact to compare offers",
+    ],
+    faqs: [
+      { q: "Is 640 a good credit score for a personal loan?", a: "It's workable. Most online marketplace lenders and credit unions will consider a 640 FICO for personal loans up to $20,000. Bank personal loans typically start at 660-670. You'll qualify but at higher APRs than borrowers above 670. Shopping across multiple lenders via soft-pull pre-qualification is especially important at this score." },
+      { q: "How can I get from 640 to 670 quickly?", a: "The fastest path is reducing credit-card utilization (pay balances below 30% of credit limit before the statement closes), disputing any inaccurate negative items, and avoiding new hard inquiries for 60-90 days. Some borrowers gain 30+ points in a single billing cycle by paying revolving balances down sharply." },
+      { q: "What loan amount can I realistically get at 640?", a: "Most approvals at 640 fall in the $2,000-$15,000 range. Lenders weight your income and DTI heavily at this score tier. A 640 borrower with $75,000 annual income and low existing debt may qualify for the $15,000-$20,000 range; the same score with high DTI may cap at $5,000." },
+      { q: "Does applying hurt my score further?", a: "Pre-qualification uses a soft inquiry and does not affect your score. Only accepting a final offer triggers a hard inquiry (typically a 3-8 point drop that recovers in 3-12 months). Use soft-pull pre-qualification at a marketplace before committing to any formal application." },
+    ],
+  },
+  "660-credit-score": {
+    slug: "660-credit-score",
+    h1: "Personal loans with a 660 credit score",
+    title: "Personal Loans With a 660 Credit Score 2026: One Step Below Good Credit",
+    description:
+      "What a 660 FICO qualifies for: APR ranges, which lenders accept you, and why 10 more points matters so much. Options at this score threshold.",
+    eyebrow: "By score",
+    intro:
+      "A 660 FICO is exactly 10 points below the traditional 'good' credit threshold of 670. That gap matters: most bank personal loans start at 660-670, so you're right on the edge. Online installment lenders and credit unions compete actively at this score. APRs fall in the 15-28% range, with stronger income significantly improving outcomes.",
+    amountMin: 1000,
+    amountMax: 30000,
+    termMin: 12,
+    termMax: 60,
+    aprMin: 15.99,
+    aprMax: 28.99,
+    bullets: [
+      "660 is accepted by most online marketplace lenders and many banks",
+      "Loan amounts from $1,000 to $30,000",
+      "APRs typically 15.99% to 28.99%",
+      "Pre-qualification available via soft pull at multiple lenders",
+      "Reaching 670 opens prime-tier bank lending and better APRs",
+    ],
+    faqs: [
+      { q: "Will I qualify for a personal loan with a 660 credit score?", a: "Very likely, especially through online marketplace lenders. Most online lenders that service the fair-to-good credit range qualify borrowers at 660. A handful of bank lenders also start at 660, though most bank minimums are 670. Your income, DTI, and employment history also factor heavily." },
+      { q: "How much better are the APRs at 670 vs 660?", a: "Typically 3-7 percentage points lower for the same borrower profile. On a $15,000 loan at 48 months, that difference can represent $1,500-$2,500 in total interest savings. If you can wait 60-90 days and raise your score to 670, the savings usually justify the delay." },
+      { q: "What's the fastest way to raise my score from 660 to 670?", a: "Reduce credit-card utilization below 30% of credit limit (ideally 10%) before the statement closes, dispute any inaccuracies on your report, and avoid any new credit applications for 60-90 days. One billing cycle of utilization reduction can produce 10-30 points for some borrowers." },
+      { q: "Are credit unions better than online lenders at 660?", a: "Often yes for members. Credit unions can offer lower APRs and more flexible underwriting for members with established relationships. If you're already a credit union member (especially a larger one like Navy Federal, PenFed, or BECU), request a pre-qualification there alongside marketplace options." },
+    ],
+  },
+  "700-credit-score": {
+    slug: "700-credit-score",
+    h1: "Personal loans with a 700 credit score",
+    title: "Personal Loans With a 700 Credit Score 2026: APRs, Amounts & Top Options",
+    description:
+      "A 700 FICO sits comfortably in the 'good' credit tier. APR ranges, loan amounts, and how to use your score to get the best offer from competing lenders.",
+    eyebrow: "By score",
+    intro:
+      "A 700 FICO places you solidly in the 'good' credit tier (670-739). At this score, the broad personal-loan market is open to you, including most online lenders and many banks. Competition among lenders for your application is real, which means shopping matters. APRs typically run 10-22% for 700-score borrowers, with the lower end available to those with strong income and low DTI.",
+    amountMin: 1000,
+    amountMax: 50000,
+    termMin: 12,
+    termMax: 72,
+    aprMin: 9.99,
+    aprMax: 22.99,
+    bullets: [
+      "700 FICO opens most major online lenders and many banks",
+      "Loan amounts from $1,000 to $50,000",
+      "APRs typically 9.99% to 22.99%",
+      "Multiple competing lenders means shopping APRs pays off",
+      "Soft credit check pre-qualification at multiple lenders, no score impact",
+    ],
+    faqs: [
+      { q: "Is 700 a good credit score for a personal loan?", a: "Yes, 700 is a solid score that qualifies you with the majority of personal-loan lenders at competitive rates. You're in the 'good' tier, which is better than about 40% of U.S. borrowers. The step up to 740+ (prime tier) does reduce APRs by another 2-5 points, but 700 gives you substantial access." },
+      { q: "What APR should I expect with a 700 credit score?", a: "Most realistic offers for a 700 FICO borrower with average income and DTI fall in the 12-18% range. Borrowers with high income relative to their debt load may see 10-13%. The upper range (20-23%) is more typical for borrowers with high DTI or short credit history. Compare 3-5 offers via soft-pull pre-qualification to find the actual range for your specific profile." },
+      { q: "How much can I borrow with a 700 credit score?", a: "At 700, most lenders will offer up to $50,000 if your income supports the payment. DTI is the binding constraint: your total monthly debt payments (including the new loan payment) should stay below 40-45% of gross monthly income. A $50,000 loan at 15% over 60 months is $1,189/month, requiring roughly $2,975+ in gross monthly income dedicated to debt repayment." },
+      { q: "Should I apply now at 700 or wait and try to reach 740?", a: "It depends on the urgency of the need and the loan size. On a $5,000 loan, the interest difference between 700 and 740 is relatively small. On a $30,000 loan over 60 months, 5 percentage points of APR means about $4,000 in total interest. If you can realistically reach 740 in 3-6 months (by reducing utilization and avoiding new inquiries), waiting on large loan amounts often pays." },
+    ],
+  },
 };
 
 export const creditBandSlugs = Object.keys(creditBands);

@@ -2211,6 +2211,198 @@ export const questions: Question[] = [
       { label: "Calculator: Monthly payment", href: "/calculators#payment" },
     ],
   },
+  {
+    slug: "how-long-personal-loan-credit-report",
+    topic: "Credit score",
+    question: "How long does a personal loan stay on your credit report?",
+    shortAnswer:
+      "A personal loan stays on your credit report for 7 years from the date of first delinquency (for closed accounts in bad standing), or 10 years from closure for accounts in good standing. On-time payments continue to benefit your score throughout the account's life on your report.",
+    context:
+      "FCRA-mandated timelines: The Fair Credit Reporting Act sets maximum reporting periods for most negative credit items at 7 years from the original delinquency date. A personal loan you paid off on time will typically drop off your report 10 years after the account closes. A loan you defaulted on can appear for 7 years from when you first became 30+ days late.\n\nGood-standing accounts: A paid-off personal loan that was always current continues to help your credit history during its time on your report. The positive payment history (contributing to the 35% payment-history FICO factor) and the diversity of credit types (contributing to the 10% credit-mix factor) both work in your favor even after the loan is paid off. This means a paid personal loan is one of the few items where its aging off the report can slightly reduce your score.\n\nNegative accounts: A late payment, default, or charge-off from a personal loan remains for 7 years from the date of first delinquency (the date the first payment was missed, not the date it was charged off or the date a collection agency bought it). This timeline cannot be restarted by a payment on the debt.\n\nCollection accounts: If a defaulted personal loan is sold to a collection agency, the collection account can only report for 7 years from the same original delinquency date, not from the collection purchase date. Collectors who try to re-age a debt (restarting the 7-year clock) are violating the FCRA.",
+    relatedSlugs: ["personal-loan-default-credit-report-duration", "what-happens-if-i-miss-a-payment"],
+    toolLinks: [
+      { label: "Glossary: Delinquency", href: "/glossary/delinquency" },
+      { label: "Glossary: FCRA", href: "/glossary/fcra" },
+    ],
+  },
+  {
+    slug: "does-personal-loan-hurt-credit-score",
+    topic: "Credit score",
+    question: "Does getting a personal loan hurt your credit score?",
+    shortAnswer:
+      "Applying causes a temporary 3-8 point drop from the hard inquiry. Accepting the loan reduces average account age and increases DTI. Over time, on-time payments improve your score. The net long-term effect is usually positive for borrowers who pay consistently.",
+    context:
+      "The stages of credit score impact from a personal loan:\n\n1. Pre-qualification (soft pull): No impact. Soft inquiries are not visible to other lenders and do not affect your score.\n\n2. Application (hard pull): A hard inquiry typically drops your score 3-8 points. This impact fades over 12 months and disappears completely after 2 years. Shopping multiple lenders within a 14-45 day window (rate-shopping) is usually treated as a single inquiry by scoring models for the same loan type.\n\n3. Account opening: A new account reduces your average age of accounts (the 15% FICO factor), which can temporarily reduce your score by 5-15 points. This effect fades as the account ages.\n\n4. Repayment: Every on-time monthly payment is reported as a positive payment event. Over 6-12 months, this substantially improves the 35% payment-history component. For borrowers with a thin payment history, a personal loan is one of the most efficient ways to build credit.\n\n5. Payoff: When you pay off the loan, the account closes. The positive payment history remains for up to 10 years. However, closing the account slightly reduces credit mix diversity, which may cause a minor score decrease.\n\nNet effect: For borrowers who repay on time, the long-term credit effect of a personal loan is almost always positive. The temporary application and new-account impacts are outweighed by months of positive payment history.",
+    relatedSlugs: ["hard-inquiry-credit-score-impact", "paying-off-personal-loan-early-credit"],
+    toolLinks: [
+      { label: "Glossary: Hard inquiry", href: "/glossary/hard-inquiry" },
+      { label: "Glossary: Credit score", href: "/glossary/credit-score" },
+    ],
+  },
+  {
+    slug: "personal-loan-at-18-years-old",
+    topic: "Approval & amount",
+    question: "Can an 18-year-old get a personal loan?",
+    shortAnswer:
+      "Yes. Age 18 meets the minimum legal age for a contract in all U.S. states. The barrier is typically lack of credit history and income, not age. An 18-year-old with verifiable income and an established credit file (from a secured card or authorized-user history) can qualify.",
+    context:
+      "Legal requirement: To sign a binding loan agreement, you must be at least 18 years old in all states (19 in Alabama and Nebraska). There is no maximum age restriction under ECOA.\n\nPractical barriers at 18: Credit history is often the real challenge, not age. Most 18-year-olds have little or no credit file, which means lenders can't score them. Without a FICO score to underwrite, mainstream lenders decline or require a co-signer. A few lenders use alternative underwriting based on income and bank data (Upstart uses educational background, for example).\n\nBest path for an 18-year-old with no credit: (1) Open a secured credit card immediately - your deposit becomes your credit line, and on-time payments create a credit history. (2) After 6-12 months, you'll have a credit file a lender can score. (3) Alternatively, become an authorized user on a parent's long-standing credit card account, which adds that account's full history to your credit report immediately.\n\nWith a creditworthy co-signer: An 18-year-old with no credit can often get a personal loan with a parent or relative co-signer. The co-signer's credit and income are the primary qualification factors. Both co-signer and borrower are equally liable, and the loan appears on both credit reports.\n\nMinimum income requirement: Age 18 is achievable but income is often the other barrier. A verifiable part-time or full-time job with 1-3 months of pay stubs is the baseline documentation needed.",
+    relatedSlugs: ["personal-loan-no-credit-history", "personal-loan-as-student"],
+    toolLinks: [
+      { label: "Glossary: Co-signer", href: "/glossary/co-signer" },
+    ],
+  },
+  {
+    slug: "personal-loan-after-bankruptcy-discharge",
+    topic: "Special situations",
+    question: "Can I get a personal loan after bankruptcy discharge?",
+    shortAnswer:
+      "Yes, after a waiting period. Most lenders require 1-2 years post-discharge for a Chapter 7 and 1-2 years into or after a Chapter 13 repayment plan. Rates will be high (25-36%), amounts small, and a co-signer substantially improves terms.",
+    context:
+      "Timeline expectations: The bankruptcy notation appears on your credit report for 7 years (Chapter 13) or 10 years (Chapter 7). Most conventional lenders won't approve personal loans within 1-2 years of discharge because the credit score is typically 400-550 immediately after bankruptcy. Specialist fair/bad-credit lenders (OneMain, Avant, OppLoans) may consider applications 12-24 months post-discharge.\n\nWhy some lenders will lend post-bankruptcy: Counter-intuitively, discharged Chapter 7 debtors cannot file again for 8 years, which means a new debt incurred after discharge must be repaid. Some lenders price in this dynamic and are willing to lend to recent discharges at higher APRs.\n\nBuilding toward qualifying: 1. Open a secured credit card immediately after discharge. 2. Pay on time every month. 3. After 6-12 months, your score will often recover to 580-640, opening more options. 4. At 18-24 months post-discharge with a clean payment history, you may qualify with specialty bad-credit lenders.\n\nChapter 13 considerations: Chapter 13 is a repayment plan, not an immediate discharge. During an active Chapter 13, you need bankruptcy court permission to take on new debt. Taking a personal loan without court approval violates your plan and can result in plan dismissal. After Chapter 13 discharge (3-5 years), the waiting period for personal loans is typically shorter than after Chapter 7.\n\nCo-signer alternative: A creditworthy co-signer can dramatically improve post-bankruptcy loan access and terms. The co-signer's clean credit history is the primary qualification factor for many lenders.",
+    relatedSlugs: ["personal-loan-two-years-after-bankruptcy", "personal-loan-with-500-credit-score"],
+    toolLinks: [
+      { label: "Learn: When bankruptcy makes sense", href: "/learn/when-bankruptcy-makes-sense" },
+    ],
+  },
+  {
+    slug: "what-credit-bureau-do-personal-lenders-pull",
+    topic: "Process & terms",
+    question: "Which credit bureau do personal loan lenders pull?",
+    shortAnswer:
+      "Most major personal loan lenders pull primarily from TransUnion or Equifax for soft-pull pre-qualification, then often Experian for the formal hard pull. Policies vary by lender, and some pull all three. Your score may differ by 20-50 points across bureaus.",
+    context:
+      "Lender bureau preferences vary significantly: LightStream is known to often pull Equifax. SoFi, Discover, and Upgrade often use TransUnion. Avant and OneMain tend toward TransUnion or Experian. These policies change frequently and lenders pull from different bureaus in different states. The information is not consistently disclosed upfront.\n\nWhy it matters: Your FICO score can vary by 20-50+ points across bureaus because each bureau may have different information about your accounts. A collections account may appear on Equifax but not Experian. A dispute in progress may show on TransUnion. If you know your best bureau, it's worth pre-qualifying with lenders that pull from that one.\n\nHow to find out: Reddit's r/personalfinance and dedicated credit communities maintain crowd-sourced lender data-pull information, updated regularly. Some credit monitoring tools (like myFICO's score alerts) also track which bureau requested an inquiry from specific lenders when a hard pull occurs.\n\nSoft pulls first: Pre-qualification almost always uses a soft pull, which doesn't count as an inquiry and doesn't affect your score regardless of bureau. Only the final application uses a hard pull that triggers a score impact and appears as an inquiry on that bureau's report.",
+    relatedSlugs: ["hard-inquiry-credit-score-impact", "personal-loan-application-process"],
+    toolLinks: [
+      { label: "Glossary: Hard inquiry", href: "/glossary/hard-inquiry" },
+      { label: "Glossary: Soft inquiry", href: "/glossary/soft-inquiry" },
+    ],
+  },
+  {
+    slug: "personal-loan-to-pay-another-loan",
+    topic: "Process & terms",
+    question: "Can I use a personal loan to pay off another personal loan?",
+    shortAnswer:
+      "Yes. This is called refinancing. If current rates are lower than your existing loan's rate, refinancing can reduce your monthly payment, your total interest cost, or both. The key hurdles are qualifying at the new rate and ensuring no prepayment penalty on the existing loan.",
+    context:
+      "When refinancing makes sense: If interest rates have dropped since you took your original loan, or if your credit score has improved significantly (improving your eligible APR), refinancing to a lower rate reduces total interest. The math: a $20,000 loan at 22% over 60 months is $553/month and $13,180 in total interest. The same loan refinanced to 14% is $465/month and $7,900 in interest, saving $5,280 total.\n\nWhen it doesn't make sense: If the new loan has an origination fee that exceeds the interest savings. If you're close to paying off the original loan (you've already paid most of the front-loaded interest). If the new loan extends the term significantly, total interest may increase even with a lower rate.\n\nPrepayment penalties: Before refinancing, check your existing loan agreement for a prepayment penalty. Some lenders (especially in the fair-credit space) charge 1-5% of the outstanding balance for early payoff. This cost must be factored into the refinancing math.\n\nProcess: Apply to refinancing lenders exactly as you would for a new loan (pre-qualify, soft pull, compare APRs). If approved, the new lender typically pays off the old lender directly at funding, then you repay the new lender on the new schedule. This is sometimes called a 'direct payoff loan.'\n\nCredit impact: Refinancing creates a hard inquiry, opens a new account (lowering average account age), and closes the old account. The short-term credit impact is similar to taking a new loan. Long-term, paying consistently on the new loan maintains positive history.",
+    relatedSlugs: ["refinance-personal-loan-lower-rate", "paying-off-personal-loan-early-credit"],
+    toolLinks: [
+      { label: "Glossary: Refinance", href: "/glossary/refinance" },
+    ],
+  },
+  {
+    slug: "does-debt-consolidation-hurt-credit",
+    topic: "Credit score",
+    question: "Does debt consolidation hurt your credit score?",
+    shortAnswer:
+      "Short-term, yes slightly. A debt consolidation personal loan triggers a hard inquiry (-3-8 points), opens a new account (temporarily reducing average account age), and closes old accounts when paid off. Long-term, consolidation almost always improves credit by reducing credit-card utilization and building installment payment history.",
+    context:
+      "The credit impact timeline of debt consolidation:\n\nMonth 1-3: Hard inquiry (-3-8 points). New account opens (reduces average age, -5-15 points). Existing credit-card balances paid off (reduces revolving utilization, which can add 20-50+ points if utilization was high). Net effect in month 1 is often mildly positive if utilization drops substantially.\n\nMonth 3-12: On-time installment payments build payment history (+). Average account age recovers as the new loan ages (+). If you don't run up credit card balances again, utilization remains low (big +).\n\nMonth 12+: The sustained on-time payment history and lower utilization dominate. Most borrowers who consolidate and don't re-run balances see net credit improvement at 12+ months.\n\nThe risk to credit score: Re-accumulating credit card debt after consolidation creates a worse situation: now you have the personal loan payment AND growing credit card balances, with higher overall DTI. This scenario often leads to score deterioration.\n\nClosing paid-off credit cards: Don't close paid-off credit cards after consolidation. Keeping them open (with zero balance) maintains your available credit, keeps utilization low, and preserves average account age. Closing them hurts all three factors.",
+    relatedSlugs: ["consolidate-credit-card-debt-personal-loan", "hard-inquiry-credit-score-impact"],
+    toolLinks: [
+      { label: "Learn: Consolidate credit card debt", href: "/learn/consolidate-credit-card-debt-personal-loan" },
+    ],
+  },
+  {
+    slug: "personal-loan-with-high-dti",
+    topic: "Approval & amount",
+    question: "Can I get a personal loan with a high debt-to-income ratio?",
+    shortAnswer:
+      "It's harder. Most personal loan lenders cap at 40-50% DTI including the new loan payment. Above 50% DTI, mainstream lenders decline. Options include applying with a co-borrower who adds income, reducing existing debt first, or requesting a smaller loan amount.",
+    context:
+      "DTI calculation: DTI = total monthly debt payments / gross monthly income. If you earn $4,000/month and have $1,600 in existing debt payments (student loans, car, credit cards), your current DTI is 40%. Adding a $300/month personal loan payment would push it to 47.5%. Most lenders will consider this; above 50% becomes very difficult.\n\nWhy high DTI matters: High DTI signals that a borrower's income is largely committed to existing debt, leaving little cushion for the new payment. If income drops slightly (a lost shift, a lower commission month), the borrower may struggle to make payments. Lenders model this default risk into their approval cutoff.\n\nLender DTI cutoffs (approximate): Most online marketplace lenders: 40-45% max back-end DTI. SoFi: has approved borrowers above 45% with strong income. OneMain Financial: may approve higher DTI but charges higher APR. Credit unions: often more flexible, especially for existing members.\n\nStrategies to improve DTI before applying: Pay off or pay down high-balance installment loans or credit cards. Refinance a high-payment debt to a lower payment (extending the term). Increase income documentation (if you have unreported income sources). Add a co-borrower with income and low existing debt (their income is added, their debts are also added, so the co-borrower needs low DTI themselves).\n\nSmaller loan amount: If your high DTI is marginal, requesting a smaller loan amount (which results in a smaller monthly payment) may bring DTI below the lender's threshold.",
+    relatedSlugs: ["personal-loan-approval-odds", "what-is-debt-to-income-ratio"],
+    toolLinks: [
+      { label: "Glossary: Debt-to-income ratio", href: "/glossary/debt-to-income-ratio" },
+    ],
+  },
+  {
+    slug: "personal-loan-with-collections-account",
+    topic: "Approval & amount",
+    question: "Can I get a personal loan with collections on my credit report?",
+    shortAnswer:
+      "Yes, at some lenders. A collections account suppresses your credit score significantly, but lenders who serve bad/fair credit borrowers will still underwrite primarily on income and current payment behavior rather than the collection itself. APRs will be higher (25-36%) and amounts smaller.",
+    context:
+      "Impact on credit score: A collection account can drop a score 50-100+ points from its original range, depending on the original balance and account age. Older collections (4-6 years) have less impact than recent ones. Paid vs. unpaid status: FICO 9 and VantageScore 4.0 ignore paid collections; FICO 8 (the most commonly used version) still counts them but with less weight than unpaid.\n\nLender differences: Avant, Upgrade, and OneMain Financial are known to approve borrowers with collection accounts. Mainstream lenders like SoFi, LightStream, and Discover generally require a clean recent payment history with no collections. Credit unions are sometimes more flexible if you have a banking relationship.\n\nMedical collections: FICO 9 and VantageScore 3.0+ exclude paid medical collections. Some lenders have adopted their own policies to look past medical collections, particularly after the credit bureaus removed many medical collections under $500 from reports in 2023.\n\nResolution options: Paying a collection doesn't automatically remove it from your report (though the status changes to 'paid collection'). You can negotiate a 'pay for delete' agreement where the collector removes the account in exchange for payment. This is not required under law but some collectors agree. Disputing inaccurate collection accounts (wrong amount, wrong date, account already discharged in bankruptcy) can result in removal under the FCRA if they can't be verified.",
+    relatedSlugs: ["collection-account-loan-approval", "personal-loan-with-500-credit-score"],
+    toolLinks: [
+      { label: "Glossary: Collection agency", href: "/glossary/collection-agency" },
+      { label: "Glossary: Charge-off", href: "/glossary/charge-off" },
+    ],
+  },
+  {
+    slug: "personal-loan-medical-debt",
+    topic: "Special situations",
+    question: "Can I use a personal loan to pay off medical debt?",
+    shortAnswer:
+      "Yes. A personal loan can consolidate medical debt into a fixed monthly payment, often at a lower effective interest rate than a hospital payment plan. Medical bills rarely accrue interest, so the calculus is about payment convenience and avoiding collection impact, not APR savings.",
+    context:
+      "Medical debt vs. other debt: Unlike credit cards or installment loans, most hospital bills don't charge interest. They are typically 0% interest while on a payment plan. Using a personal loan to pay medical debt at 12-18% APR actually costs more than the medical payment plan unless the goal is removing the medical bill from risk of going to collections.\n\nWhen a personal loan for medical debt makes sense: (1) The medical provider is threatening collections or has already sent to collections. Settling the bill immediately with loan proceeds stops the clock and may prevent the collections account from appearing. (2) You want to consolidate multiple medical bills into a single monthly payment. (3) The medical bill is creating financial stress that a structured repayment plan (personal loan) would relieve. (4) You have a medical credit card at deferred-interest terms where the retroactive interest is about to kick in.\n\nMedical debt protections: As of 2023-2024, the three major credit bureaus removed medical collections under $500 from credit reports. A CFPB rule proposed in 2024 would remove all medical debt from credit reports. Check current status before assuming medical debt is on your report.\n\nNegotiation alternative: Hospitals are required to offer charity care or reduced-cost services to low/middle-income patients, and most will negotiate payment plans or lump-sum settlement discounts. Before using a personal loan, try negotiating a 30-50% reduction in the bill with the hospital's financial counselor.",
+    relatedSlugs: ["medical-debt-collections-loan-approval", "personal-loan-with-collections-account"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-for-business",
+    topic: "Special situations",
+    question: "Can I use a personal loan to fund a business?",
+    shortAnswer:
+      "Yes. Personal loans can be used for business expenses, and many small business owners use them as startup capital. The loan is based on your personal credit and income, not the business's revenue or history. The risk is that you're personally liable, not the business.",
+    context:
+      "Why borrowers choose personal loans over business loans: Business loans typically require 1-2 years of business revenue history, business tax returns, and a business credit profile. A new business or sole proprietor with no business history often doesn't qualify. A personal loan based on the owner's personal credit and income is frequently the only available unsecured financing option at startup.\n\nLender restrictions on business use: Some personal loan lenders in their terms of service prohibit using funds for business purposes. LightStream is notable for explicitly allowing business use and even has a 'business loan' category within its personal loan products. Others like SoFi may prohibit it in their terms. Check terms before applying if business use is the purpose.\n\nTax implications: Interest on a personal loan used exclusively for business purposes may be deductible as a business expense (Schedule C for sole proprietors). Keep detailed records of what the loan proceeds were used for. Mixed-use (part personal, part business) requires proportional allocation.\n\nPersonal liability: Unlike an LLC or corporation, which has liability protection for business debts, a personal loan borrowed for business purposes is entirely your personal liability. If the business fails, you still owe the loan. This is a critical consideration for higher-risk ventures.\n\nAmount limitations: Personal loans max at $50,000, which is meaningful startup capital for service businesses, freelancers, and small e-commerce operations, but insufficient for capital-intensive businesses (manufacturing, restaurant, retail).",
+    relatedSlugs: ["personal-loan-approval-odds", "minimum-income-personal-loan"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-same-day-deposit",
+    topic: "Process & terms",
+    question: "Can I get a personal loan deposited the same day?",
+    shortAnswer:
+      "A few lenders advertise same-day funding for applications approved early in the day (typically before 2-3pm ET). In practice, same-day funding requires early-morning application, rapid document completion, and your bank supporting same-day ACH. Next-business-day is the more reliable expectation.",
+    context:
+      "What same-day funding actually requires: (1) Application submitted early in the morning. (2) Income and identity verification completed within hours. (3) Offer accepted before the lender's ACH cutoff time (usually 2-4pm ET). (4) Your bank supports same-day ACH credits (now available at most major banks). If any step is delayed, funding moves to the next business day.\n\nLenders with same-day funding reputations: LightStream, SoFi, and Avant have all been cited for same-day funding by some customers. The key variable is how quickly verification completes. Complete all requested documents immediately after submitting your application and accept the offer the moment it arrives to maximize same-day funding odds.\n\nWeekend applications: ACH networks do not process Saturday night or Sunday. Applications approved on Friday afternoon typically fund Monday. Applications approved Saturday or Sunday fund Monday or Tuesday.\n\nAlternatives for immediate cash: Cash advance on a credit card (available at ATMs immediately, but 29%+ APR + fees). Personal loan from a bank where you already have a relationship (some provide same-day credit for existing customers). Paycheck advance apps like Earnin or Dave provide $100-$750 same-day for regular paycheck recipients.\n\nBusiness-day awareness: 'Next business day' means the next calendar day that is Monday-Friday excluding federal holidays. A loan accepted Friday afternoon or Saturday morning typically arrives Monday.",
+    relatedSlugs: ["personal-loan-weekend-funding", "how-quickly-will-i-receive-funds"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-for-someone-else",
+    topic: "Special situations",
+    question: "Can I take out a personal loan for someone else?",
+    shortAnswer:
+      "Technically yes, but you should understand the risk. If you take out a personal loan and give the proceeds to another person, you are legally responsible for repaying it. If they don't pay you back, the loan is still your obligation. Lenders don't verify what you do with the funds after disbursement.",
+    context:
+      "Legal responsibility: The person who signs the loan agreement is the legally responsible borrower. Lenders don't care what you do with the funds - they only care that you repay them. If you give loan proceeds to a family member or friend who doesn't repay you, you still owe the full loan balance.\n\nBetter alternatives: If you want to help someone financially, a co-signed loan or joint loan application (where both parties sign) makes both legally responsible and may offer better terms than a standalone loan. Alternatively, gifting money (with no expectation of repayment) eliminates the ambiguity of an informal arrangement.\n\nGift vs. loan arrangement: If you borrow money and give it to someone with the expectation they'll repay you informally, document this arrangement clearly in writing (a simple promissory note). Without documentation, an informal repayment expectation is unenforceable.\n\nRed flags: Third-party requests for personal loans are a common scam pattern. If someone is asking you to take out a loan and give them the money, especially if you met online or recently, treat this with extreme caution. The 'romance scam' and 'advance fee' scam both frequently involve asking victims to borrow money and send it to the fraudster.",
+    relatedSlugs: ["joint-personal-loan-application", "personal-loan-scam-signs"],
+    toolLinks: [],
+  },
+  {
+    slug: "personal-loan-variable-rate-risk",
+    topic: "Process & terms",
+    question: "Do personal loans have variable interest rates?",
+    shortAnswer:
+      "Most personal loans have fixed interest rates, which means your rate and monthly payment don't change for the life of the loan. A small number of lenders offer variable-rate personal loans, where the rate can rise or fall with a benchmark index. Fixed is the standard and usually preferred.",
+    context:
+      "Fixed-rate personal loans: The vast majority of marketplace personal loans are fixed-rate. Your APR is set at closing and never changes. This means your monthly payment is exactly the same for every month of the term, making budgeting straightforward. You know your total cost of borrowing at the moment you accept the loan.\n\nVariable-rate personal loans: Some lenders (including SoFi and a few credit unions) offer personal loans with variable rates tied to a benchmark index (often SOFR - Secured Overnight Financing Rate, which replaced LIBOR). Variable rates usually start lower than fixed rates, which is their appeal. But as the benchmark index rises (as it did sharply in 2022-2023), your rate and payment can increase during repayment.\n\nWhen a variable rate might make sense: If you plan to pay off the loan very quickly (under 12-18 months) and current rates are expected to fall, the starting-rate advantage of a variable loan may pay off. For longer terms, the rate uncertainty is harder to manage.\n\nFixed is generally better for personal loans: Unlike a mortgage where you might refinance or sell the property before the rate matters much, a personal loan is repaid over 2-5 years and you typically hold it to term. Locking in a known total cost via fixed rate eliminates the risk that rising rates add unexpected payment burden.\n\nVerify before signing: Always confirm in your loan agreement whether the rate is fixed or variable. 'Fixed rate' must be stated explicitly. If a lender markets a low introductory rate, verify whether it adjusts after an initial period.",
+    relatedSlugs: ["what-is-apr-personal-loan", "refinance-personal-loan-lower-rate"],
+    toolLinks: [
+      { label: "Glossary: Variable rate", href: "/glossary/variable-rate" },
+      { label: "Glossary: Fixed rate", href: "/glossary/fixed-rate" },
+    ],
+  },
+  {
+    slug: "personal-loan-denied-what-to-do",
+    topic: "Approval & amount",
+    question: "What should I do if my personal loan application is denied?",
+    shortAnswer:
+      "First, read the adverse action notice carefully. It tells you the exact reason for denial. Then address that specific factor: improve your credit, reduce DTI, find a co-signer, apply for a smaller amount, or try a lender that serves your credit profile.",
+    context:
+      "Your legal right to know why: Under the Equal Credit Opportunity Act (ECOA) and the Fair Credit Reporting Act, lenders must provide you with an adverse action notice within 30 days of denial. This notice must state the specific reasons for denial (not vague generalities). Common reasons: 'insufficient credit history,' 'credit score too low,' 'too many recent inquiries,' 'too much existing debt,' 'income insufficient,' or 'derogatory marks on credit report.'\n\nAddressing each common denial reason:\n\n'Credit score too low': Identify which factor is dragging your score (utilization, late payments, collections, length) and target it specifically. Use AnnualCreditReport.com to pull your reports free and look for errors.\n\n'Insufficient income / too much debt (high DTI)': Apply for a smaller loan amount where the monthly payment results in DTI below 40%, or reduce existing debt before reapplying.\n\n'Too many recent inquiries': Wait 3-6 months before applying again to let inquiries age.\n\n'Insufficient credit history (thin file)': Open a secured card, use it for 6-12 months, and reapply.\n\nTrying a different lender: Different lenders use different underwriting models. A decline from SoFi doesn't mean a decline from Avant or OneMain. Using soft-pull pre-qualification at multiple lenders shows where you qualify before triggering hard inquiries.\n\nCo-signer: A creditworthy co-signer often converts a denial into an approval at mainstream rates.",
+    relatedSlugs: ["personal-loan-approval-odds", "personal-loan-no-credit-history"],
+    toolLinks: [
+      { label: "Learn: Loan application denied", href: "/learn/loan-application-denied-what-to-do" },
+    ],
+  },
 ];
 
 export const questionsBySlug = Object.fromEntries(

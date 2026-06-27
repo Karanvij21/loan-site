@@ -1,6 +1,8 @@
 import { siteConfig } from "@/lib/site";
 import { guides } from "@/lib/guides";
 import { glossaryTerms } from "@/lib/glossary";
+import { questions } from "@/lib/questions";
+import { comparisons } from "@/lib/comparisons";
 
 /**
  * RSS 2.0 feed at /feed.xml.
@@ -15,7 +17,9 @@ import { glossaryTerms } from "@/lib/glossary";
  * glossary review date (acceptable, they're updated as a corpus).
  */
 
-const GLOSSARY_REVIEWED = "2026-05-22"; // mirrors the constant in the glossary page
+const GLOSSARY_REVIEWED = "2026-05-22";
+const QA_REVIEWED = "2026-06-15";
+const COMPARISONS_REVIEWED = "2026-06-15";
 
 type FeedItem = {
   title: string;
@@ -55,6 +59,20 @@ export function GET() {
       description: t.short,
       pubDate: rfc822(GLOSSARY_REVIEWED),
       category: t.category,
+    })),
+    ...questions.map((q) => ({
+      title: q.question,
+      link: `${siteConfig.url}/questions/${q.slug}`,
+      description: q.shortAnswer,
+      pubDate: rfc822(QA_REVIEWED),
+      category: q.topic,
+    })),
+    ...Object.entries(comparisons).map(([slug, c]) => ({
+      title: c.title,
+      link: `${siteConfig.url}/compare/${slug}`,
+      description: c.intro,
+      pubDate: rfc822(COMPARISONS_REVIEWED),
+      category: "Comparisons",
     })),
   ];
 
